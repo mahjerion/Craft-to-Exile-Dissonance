@@ -1,4 +1,4 @@
-# Craft-to-Exile
+# Craft to Exile
 
 ![Title Image](https://i.imgur.com/wIinFlk.png)
 

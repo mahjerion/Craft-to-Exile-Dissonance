@@ -8,6 +8,6 @@ Craft to Exile is a modpack designed around exploration. Mods in the modpack aim
 
 [Discord](https://discord.gg/cJS6ZHs)
 
-GitHub for Server Pack
+[GitHub for Server Pack](https://github.com/mahjerion/Craft-to-Exile-Server)
 
 If you have any issues or would like to collaborate with me on this project, please contact me through my Discord server.

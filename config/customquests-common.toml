@@ -1,5 +1,5 @@
 #If the 'giveDeviceOnLogin' config setting is set to false but this one to true, you will still receive a Questing Device, but only when first loading into the server.
 giveDeviceOnFirstLogin = true
 #Gives the player a Questing Device when loading into a world if the player doesn't have one yet in their inventory
-giveDeviceOnLogin = false
+giveDeviceOnLogin = true
 

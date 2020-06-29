@@ -9,7 +9,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }
@@ -24,7 +24,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -37,7 +37,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -50,7 +50,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -63,7 +63,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -76,7 +76,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }
@@ -91,7 +91,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 2.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }

@@ -156,7 +156,7 @@
           "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "dim": "the_bumblezone:the_bumblezone",
+              "dim": "the_bumblezone:bumblezone",
               "x": 0,
               "y": 0,
               "z": 0,

@@ -38,7 +38,7 @@
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
-    "the_bumblezone:the_bumblezone": {
+    "the_bumblezone:bumblezone": {
       "USE_SPECIFIC_LVL_1_POSITION": false,
       "SPECIFIC_LVL_1_POSITION": {
         "x": 0,

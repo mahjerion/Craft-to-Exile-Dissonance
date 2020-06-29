@@ -1,0 +1,6 @@
+{
+  "name": "beast",
+  "loadDefault": true,
+  "spawnEggName": "beastspawn",
+  "dietProvided": "carnivore"
+}

@@ -1,0 +1,37 @@
+
+#Common compatibility settings.
+[compat]
+	#Mobs on this whitelist can be captured by rifters, players and animals are already captured by default. Format is mod id:name of creature, just use the modid to whitelist everything from it. Default is empty
+	capturable_entities = []
+	#Specifies several rules that define in which dimensions rifts may generate. When an empty list is given rifts won't generate. This list is order dependent.
+	#Specifying can be done with several rules which are case insensitive:
+	# - Prefixing a rule with '+' will add all the items that match the given selector
+	# - Prefixing a rule with '-' will remove all the items that match the given selector
+	# - Prefixing a rule with '~' will remove all the items that do not match the given selector
+	# - No prefix will imply a '+' prefix
+	# - Prefixing a selector with '!' will invert the selector
+	# - To match a dimension, simply write the dimension ID (resource location, not a number!!!!!)
+	# - 'modid:*' will match all dimensions of a specific mod
+	# - 'id' will match vanilla dimensions with the specified id
+	# - Only specifying '*' will match all dimensions
+	# - Empty strings and whitespaces are completely ignored
+	#Default: '+ minecraft:overworld', '+ midnight:midnight'
+	rift_dimensions = ["+ minecraft:overworld", "+ midnight:midnight"]
+	#Specifies several rules that define in which biomes rifts may generate. When an empty list is given rifts won't generate. This list is order dependent.
+	#Specifying can be done with several rules which are case insensitive:
+	# - Prefixing a rule with '+' will add all the items that match the given selector
+	# - Prefixing a rule with '-' will remove all the items that match the given selector
+	# - Prefixing a rule with '~' will remove all the items that do not match the given selector
+	# - No prefix will imply a '+' prefix
+	# - Prefixing a selector with '!' will invert the selector
+	# - To match a biome, simply write the biome ID
+	# - To match a biome type, prefix the type name with '#'
+	# - 'modid:*' will match all biomes of a specific mod
+	# - 'id' will match vanilla biomes with the specified id
+	# - Only specifying '*' will match all biomes
+	# - Empty strings and whitespaces are completely ignored
+	#Default: '+ *', '- #VOID', '- #WATER', '- #BEACH', '- #MUSHROOM'
+	rift_biomes = ["+ *", "- #VOID", "- #WATER", "- #BEACH", "- #MUSHROOM"]
+	#Mobs on this blacklist cannot be captured by rifters. Format is mod id:name of creature, just use the mod id to blacklist everything from it. Default: iceandfire, midnight:nightstag
+	not_capturable_animals = ["iceandfire", "midnight:nightstag"]
+

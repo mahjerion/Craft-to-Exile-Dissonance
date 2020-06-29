@@ -1,0 +1,27 @@
+
+[general]
+	"Show entities with full health" = false
+	"Height Above Mob" = 0.6
+	"Group Armor (condense 5 iron icons into 1 diamond icon)" = true
+	"Display on Players" = true
+	"Plate Size (Boss)" = 50
+	"Show Max HP" = false
+	"Max Distance" = 24
+	"Show Attributes" = false
+	"Show Current HP" = false
+	"Show Debug Info with F3" = true
+	"Background Padding" = 2
+	"HP Text Height" = 14
+	"Only show the health bar for the entity looked at" = false
+	"Draw Background" = false
+	"Plate Size" = 25
+	"Display on Bosses" = true
+	"Background Height" = 6
+	"Show Armor" = false
+	"Health Bar Height" = 4
+	"Color Health Bar by Type (instead of health percentage)" = false
+	"Show HP Percentage" = false
+	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
+	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	"Render with Interface Disabled (F1)" = false
+

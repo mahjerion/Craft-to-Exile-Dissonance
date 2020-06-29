@@ -1,0 +1,169 @@
+{
+  "biome_blacklist": [
+    "minecraft:the_end",
+    "minecraft:nether",
+    "minecraft:small_end_islands",
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "minecraft:end_barrens",
+    "minecraft:the_void",
+    "biomesoplenty:ashen_inferno",
+    "biomesopenty:undergarden",
+    "biomesoplenty:boneyard",
+    "biomesoplenty:visceral_heap"
+  ],
+  "biome_overworld_blacklist": [
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:deep_warm_ocean",
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean"
+  ],
+  "bows": [
+    "minecraft:bow"
+  ],
+  "colored_armor": [
+    "minecraft:leather_boots",
+    "minecraft:leather_pants",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_helmet"
+  ],
+  "swords": [
+    "minecraft:stone_sword",
+    "minecraft:golden_sword",
+    "minecraft:iron_sword"
+  ],
+  "swords_rare": [
+    "minecraft:wooden_sword",
+    "minecraft:diamond_sword"
+  ],
+  "pickaxes": [
+    "minecraft:stone_pickaxe",
+    "minecraft:golden_pickaxe",
+    "minecraft:iron_pickaxe"
+  ],
+  "axes": [
+    "minecraft:stone_axe",
+    "minecraft:golden_axe",
+    "minecraft:iron_axe",
+    "minecraft:diamond_axe"
+  ],
+  "armor_sets_stage_1": [
+    {
+      "resourceNames": [
+        "minecraft:leather_boots",
+        "minecraft:leather_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_helmet"
+      ]
+    }
+  ],
+  "armor_sets_stage_2": [
+    {
+      "resourceNames": [
+        "minecraft:leather_boots",
+        "minecraft:leather_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:golden_boots",
+        "minecraft:golden_leggings",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:chainmail_boots",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:iron_boots",
+        "minecraft:iron_leggings",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_helmet"
+      ]
+    }
+  ],
+  "armor_sets_stage_3": [
+    {
+      "resourceNames": [
+        "minecraft:leather_boots",
+        "minecraft:leather_leggings",
+        "minecraft:leather_chestplate",
+        "minecraft:leather_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:golden_boots",
+        "minecraft:golden_leggings",
+        "minecraft:golden_chestplate",
+        "minecraft:golden_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:chainmail_boots",
+        "minecraft:chainmail_leggings",
+        "minecraft:chainmail_chestplate",
+        "minecraft:chainmail_helmet"
+      ]
+    },
+    {
+      "resourceNames": [
+        "minecraft:iron_boots",
+        "minecraft:iron_leggings",
+        "minecraft:iron_chestplate",
+        "minecraft:iron_helmet"
+      ]
+    }
+  ],
+  "armor_rare": [
+    {
+      "resourceNames": [
+        "minecraft:diamond_boots",
+        "minecraft:diamond_leggings",
+        "minecraft:diamond_chestplate",
+        "minecraft:diamond_helmet"
+      ]
+    }
+  ],
+  "bow_enchantments": [
+    "minecraft:power",
+    "minecraft:unbreaking",
+    "minecraft:punch"
+  ],
+  "sword_enchantments": [
+    "minecraft:sharpness",
+    "minecraft:unbreaking",
+    "minecraft:fire_aspect",
+    "minecraft:knockback"
+  ],
+  "pickaxe_enchantments": [
+    "minecraft:efficiency"
+  ],
+  "axe_enchantments": [
+    "minecraft:efficiency"
+  ],
+  "armor_enchantments": [
+    "minecraft:protection",
+    "minecraft:unbreaking",
+    "minecraft:thorns",
+    "minecraft:projectile_protection"
+  ],
+  "config_version": 0,
+  "dungeon_bosses": []
+}

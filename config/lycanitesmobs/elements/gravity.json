@@ -1,0 +1,15 @@
+{
+  "name": "gravity",
+  "loadDefault": true,
+  "debuffDurationMultiplier": 1,
+  "buffs": [
+    "minecraft:saturation"
+  ],
+  "debuffs": [
+    "lycanitesmobs:aphagia"
+  ],
+  "components": [
+    "earth",
+    "order"
+  ]
+}

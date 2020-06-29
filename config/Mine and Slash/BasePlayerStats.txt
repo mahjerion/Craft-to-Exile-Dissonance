@@ -1,0 +1,25 @@
+{
+  "BASE_PLAYER_STATS": {
+    "health_regen": 1.0,
+    "physical_damage": 2.0,
+    "mana": 100.0,
+    "critical_damage": 0.0,
+    "critical_hit": 1.0,
+    "mana_regen": 3.0,
+    "health": 25.0,
+    "magic_shield_regen": 1.5,
+    "energy_regen": 5.0,
+    "energy": 100.0
+  },
+  "PLAYER_STATS_THAT_SCALE_TO_LEVEL": {},
+  "SPELL_MASTERY_STATS": {
+    "health_regen": 3.0,
+    "mana": 25.0,
+    "physical_damage": 0.5,
+    "mana_regen": 3.0,
+    "health": 25.0,
+    "magic_shield_regen": 3.0,
+    "energy_regen": 3.0,
+    "energy": 25.0
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "specificMobs": {
+    "mob_id": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 2.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    }
+  },
+  "byEntityTypeDefault": {
+    "OTHER": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 2.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "MOB": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 2.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "PLAYER": {
+      "LOOT_MULTI": 0.0,
+      "EXP_MULTI": 0.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "ANIMAL": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.25,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "NPC": {
+      "LOOT_MULTI": 0.30000001192092896,
+      "EXP_MULTI": 0.30000001192092896,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    }
+  },
+  "allMobsInAMod": {
+    "lycanitemobs": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 2.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    }
+  }
+}

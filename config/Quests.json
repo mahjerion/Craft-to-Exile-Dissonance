@@ -1,0 +1,3430 @@
+{
+  "quests": [
+    {
+      "id": 0,
+      "icon": "minecraft:crafting_table",
+      "title": "Getting Started",
+      "text": "Welcome to Craft to Exile! This progression log aims to provide you with some direction as to where to go next. For starters, it\u0027s recommended that you do some light exploring in the Overworld just as you would normally, and to set up camp. Please make sure to redeem your rewards as you progress!",
+      "dependencies": [],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:crafting_table",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:apple",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:newbie_gear_bag",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 250"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "minecraft:wooden_sword",
+      "title": "The Crux",
+      "text": "You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, gear is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited. Dropped equipment scales with the mob level, so the stronger the mobs the better the gear! Try to kill some zombies - hopefully you\u0027ll find a new piece of gear.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:zombie",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "minecraft:experience_bottle",
+      "title": "Getting Stronger",
+      "text": "As you fight mobs and complete quests, you will earn experience. Once enough experience is gained you will level up and become stronger. Upon leveling, you will earn stat points, skill points, and talent points. Press H to access the Mine and Slash hub to distribute your points, and customize your character accordingly! Do not worry about messing up your stats as reset potions are available later in the game.",
+      "dependencies": [
+        1
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:zombie",
+              "amount": 8
+            },
+            {
+              "entity": "minecraft:skeleton",
+              "amount": 4
+            },
+            {
+              "entity": "minecraft:creeper",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_sword",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 750"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "minecraft:bee_nest",
+      "title": "The Bumblezone",
+      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 40, The Bumblezone is a recommended zone for level 10-25. The recommended levels for each dimension in Craft to Exile can be seen on the left of the progression log. To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
+      "dependencies": [
+        2
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "the_bumblezone:the_bumblezone",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "mmorpg:ore1",
+      "title": "Ores",
+      "text": "In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair gear or craft special items. Check JEI for more information.",
+      "dependencies": [
+        1
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:ore1",
+              "amount": 5,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 20,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "mmorpg:currency/orb_of_transmutation",
+      "title": "Currency Items",
+      "text": "Currency items are powerful items with the ability to reroll the stats on your gear. In order to use them, you must craft a modify station.",
+      "dependencies": [
+        2
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:currency/orb_of_transmutation",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:currency/add_secondary_stat",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:currency/orb_of_transmutation",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "mmorpg:repair_station",
+      "title": "Broken Swords",
+      "text": "With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are very inefficient.",
+      "dependencies": [
+        4
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:repair_station",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:capacitor0",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 7,
+      "icon": "mmorpg:modify_station",
+      "title": "Upgrading Your Gear",
+      "text": "With a modify station, you are able to upgrade or reroll your gear using currency dropped by mobs. Craft one soon!",
+      "dependencies": [
+        5
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:modify_station",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:identify_tome",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 3000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 8,
+      "icon": "mmorpg:salvage_station",
+      "title": "TOO. MUCH. LOOT.",
+      "text": "Are you having issues with hoarding loot? Look no further! You can craft a salvage station to turn unused gear into ores! Note: this will not work with crafted gear.",
+      "dependencies": [
+        7
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:salvage_station",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:diamond",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 5000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 9,
+      "icon": "mmorpg:currency_bag",
+      "title": "Still Too Much...",
+      "text": "You can craft currency and gear bags that will automagically pick up currency and gear for you, while providing additional storage while adventuring. Check the JEI for the crafting recipe!",
+      "dependencies": [
+        8
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:currency_bag",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        },
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:loot_bag",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore3",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 6000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": 10,
+      "icon": "minecraft:honey_bottle",
+      "title": "Bzzzy Beez",
+      "text": "Welcome to The Bumblezone! Here you\u0027ll find a plethora of biomes filled with honey, bees, and more! Explore The Bumblezone and return with all the sweets! But beware, taking honey from bees may involve risks...",
+      "dependencies": [
+        3
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:honey_bottle",
+              "amount": 5,
+              "nbt": "{}"
+            },
+            {
+              "item": "the_bumblezone:honey_crystal_shards",
+              "amount": 10,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 11000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "icon": "minecraft:bee_spawn_egg",
+      "title": "Stop The Buzz",
+      "text": "You\u0027re probably getting real annoyed by the bees... So let\u0027s get rid of some!",
+      "dependencies": [
+        10
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:bee",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:honey_bottle",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 16000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "icon": "beesourceful:diamond_honeycomb",
+      "title": "Stop The Buzz 2",
+      "text": "There are so many different bee types here... Exterminate!",
+      "dependencies": [
+        11
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "beesourceful:iron_bee",
+              "amount": 30
+            },
+            {
+              "entity": "beesourceful:gold_bee",
+              "amount": 15
+            },
+            {
+              "entity": "beesourceful:diamond_bee",
+              "amount": 5
+            },
+            {
+              "entity": "beesourceful:emerald_bee",
+              "amount": 5
+            },
+            {
+              "entity": "beesourceful:ender_bee",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "buzzierbees:honey_bread",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore3",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": 13,
+      "icon": "the_bumblezone:sugar_water_bottle",
+      "title": "Feeling Sweet",
+      "text": "Sugar water is Bumblezone-specific and can be stored in a bottle. Drinking sugar water will restore a small amount of hunger and increase your movement speed.",
+      "dependencies": [
+        11
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "the_bumblezone:sugar_water_bottle",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 28000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "icon": "minecraft:honeycomb",
+      "title": "Bittersweet",
+      "text": "And thus, our journey in the hive comes to an end. But the bee\u0027s legacy may last forever. Honey slimes are special slimes that can generate honey similar to how a sheep produces wool. Provide enough honey, and I\u0027ll turn it into honey slimes for you. Note: redeem this quest in a fenced off area if you would like to farm the honey slimes! Hint: you can find altars of assorted honeycomb in caves in The Bumblezone.",
+      "dependencies": [
+        13
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:gold_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:lapis_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:redstone_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:iron_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:diamond_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:emerald_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:ender_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "beesourceful:quartz_honeycomb",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 37500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "icon": "minecraft:netherrack",
+      "title": "The Nether Regions",
+      "text": "At level 20, you\u0027ll be able to take on the Nether. Craft an obsidian portal to access the Nether - you\u0027ll be able to take the same portal back to the Overworld. Enter the Nether and stop the Demon Lords from invading the Overworld!",
+      "dependencies": [
+        14
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "minecraft:the_nether",
+              "x": 0,
+              "y": 100,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:gold_ingot",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 45000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "icon": "minecraft:netherrack",
+      "title": "Stay Safe",
+      "text": "The Nether is a lava-filled zombie pig-infested area. Be careful not to dig straight down.",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:zombie_pigman",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:teleport_scroll",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 52000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 17,
+      "icon": "structurize:sceptergold",
+      "title": "All Your Bases",
+      "text": "Craft to Exile includes the fantastic MineColonies mod which will allow you to establish a home \u0027base\u0027. In a MineColony, you will act as the leader and oversee production of new facilities and ensure that citizens are happy. Get started by crafting the building tool. From this point on, you will build your buildings by right-clicking with the tool. The wand will auto-detect any building blocks you have in your inventory.",
+      "dependencies": [
+        18
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "structurize:sceptergold",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 18,
+      "icon": "minecolonies:supplycampdeployer",
+      "title": "My Tent",
+      "text": "The supply camp is the first thing you need to a successful establishment. Although not functionally useful, the supply camp is required since it will provide you with a town hall. It is important to choose your first location for your town hall wisely. You will need a large flat area for your entire colony (the town hall must also be on flat ground). You will notice that right-clicking with the supply camp allows you to visualize where you can put your supply camp.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:supplycampdeployer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        150
+      ]
+    },
+    {
+      "id": 19,
+      "icon": "minecolonies:blockhutbuilder",
+      "title": "Work Work",
+      "text": "Finally, some citizens from the town hall! To start building buildings, you will need to establish a builder\u0027s hut. Place the builder\u0027s hut with your wand and immediately, one of your citizens will become a builder. Make sure to feed your citizens well! Explore the building options on JEI, or visit the MineColonies wiki for more information.",
+      "dependencies": [
+        17
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutbuilder",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:identify_tome",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 20,
+      "icon": "mmorpg:map_device",
+      "title": "I\u0027m The Map",
+      "text": "Maps give you access to another dimension. However, these map dimensions scale with your level and are full of mobs and bosses. They contain great loot and are useful to level in - especially from level 75+.",
+      "dependencies": [
+        8
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:map_device",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:teleport_scroll",
+            "amount": 12,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 8000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": 21,
+      "icon": "minecraft:quartz",
+      "title": "Oooh Shiny",
+      "text": "A villager in town is really addicted to unique ores and materials. Help them out by finding 50 quartz!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:quartz",
+              "amount": 50,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 50000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": 22,
+      "icon": "minecraft:glowstone",
+      "title": "Glowing Skin",
+      "text": "Now that you\u0027ve given them quartz, they know you\u0027re capable of traversing the Nether! They\u0027ve asked you to go back and bring them 30 glowstone blocks!",
+      "dependencies": [
+        21
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:glowstone",
+              "amount": 30,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 20,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 62500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 23,
+      "icon": "minecraft:nether_wart",
+      "title": "Warts",
+      "text": "After sleeping with the glowstone and licking quartz, the poor villager has come out with a terrible case of warts. They\u0027ve heard that nether wart can be a quick-fix cure and have asked you to bring them some nether wart!",
+      "dependencies": [
+        22
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:nether_wart",
+              "amount": 50,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore3",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 24,
+      "icon": "aquaculture:goldfish",
+      "title": "Aquaculture",
+      "text": "Aquaculture is a fantastic mod that enhances the vanilla fishing experience. Follow this questline to see what Aquaculture has to offer!",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:fishing_rod",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "aquaculture:worm",
+            "amount": 3,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 25,
+      "icon": "aquaculture:tackle_box",
+      "title": "So Long...",
+      "text": "Craft yourself a tackle box if you want to be a true fisherman. A tacklebox will allow you to customize your fishing outfit and hold onto various fishing items!",
+      "dependencies": [
+        24
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "aquaculture:tackle_box",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "aquaculture:fishing_line",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        200
+      ]
+    },
+    {
+      "id": 26,
+      "icon": "aquaculture:iron_hook",
+      "title": "Hooker",
+      "text": "Hooks can enhance your fishing rod with various effects. Iron hooks will increase your fishing rod durability. Try out other hooks to see their benefits!",
+      "dependencies": [
+        25
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "aquaculture:iron_hook",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "aquaculture:worm",
+            "amount": 3,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        200
+      ]
+    },
+    {
+      "id": 27,
+      "icon": "aquaculture:iron_fishing_rod",
+      "title": "Rodular Upgrade",
+      "text": "Higher tier fishing rods will increase your chances at catching better fish and have increased durability!",
+      "dependencies": [
+        26
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "aquaculture:iron_fishing_rod",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "aquaculture:bobber",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 28,
+      "icon": "aquaculture:neptunium_ingot",
+      "title": "For All The Fish",
+      "text": "Neptunium is an ore specific to Aquaculture. You can craft really powerful fishing rods and accessories with neptunium.",
+      "dependencies": [
+        27
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "aquaculture:neptunium_ingot",
+              "amount": 9,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:currency/item_levelup",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 21000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": 29,
+      "icon": "minecraft:blaze_powder",
+      "title": "What The Blaze?",
+      "text": "The Nether has a plethora of enemies to encounter and many unique biomes. Hopefully, when you come across blazes you won\u0027t be so scorched.",
+      "dependencies": [
+        16
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:blaze",
+              "amount": 30
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:identify_tome",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 65000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "icon": "minecraft:ghast_tear",
+      "title": "Who Cut Cheese?",
+      "text": "The Nether is an unforgiving realm. You\u0027re likely to shed tears from frustration. But did you know monsters in the Nether can cry too?",
+      "dependencies": [
+        29
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:ghast_tear",
+              "amount": 5,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "icon": "minecraft:wither_skeleton_skull",
+      "title": "Withering Away",
+      "text": "As you traverse the Nether, darkness starts to gnaw at your psyche. Quickly, we must get out of here! Kill the withers and grab their skulls. Only then can we leave...",
+      "dependencies": [
+        30
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:wither_skeleton_skull",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 87500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "icon": "minecraft:wither_skeleton_spawn_egg",
+      "title": "Black Death",
+      "text": "Finally, assemble 4 blocks of soul sand/soil in a T shape and THEN place the 3 wither skeleton heads on top, and kill the Wither! But be warned, it won\u0027t be easy!",
+      "dependencies": [
+        31
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:wither",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 150000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 33,
+      "icon": "minecraft:nether_star",
+      "title": "Light In The Shadows",
+      "text": "Remember that villager? Yeah, they\u0027re back... Seems like warts weren\u0027t enough to get them off shiny objects. This time they\u0027re asking for nether stars... THREE of them!",
+      "dependencies": [
+        23,
+        32
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "minecraft:nether_star",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 92500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": 34,
+      "icon": "minecraft:ender_eye",
+      "title": "The End",
+      "text": "With an Eye of Ender, you can locate a stronghold in the Overworld that will let you access The End. Be sure to bring 12 Eye of Enders with you to activate the portal. Get ready... The End is near.",
+      "dependencies": [
+        32
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:ender_eye",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 100000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "icon": "minecraft:ender_eye",
+      "title": "End Of An Era",
+      "text": "You made it! You\u0027re at The End! Woo- *GRUMBLE GRUMBLE* what the?! Is that a dragon I hear?",
+      "dependencies": [
+        34
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "minecraft:the_end",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 125000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "icon": "minecraft:end_crystal",
+      "title": "The Ender Dragon",
+      "text": "Kill the Ender Dragon.",
+      "dependencies": [
+        35
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:ender_dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_4",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "icon": "minecraft:shulker_shell",
+      "title": "End Remnants",
+      "text": "With the Ender Dragon gone, you should revisit The End and explore the islands that are left. Maybe you\u0027ll find a special chest or something along the way...",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:shulker_shell",
+              "amount": 2,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 135000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 38,
+      "icon": "goodnightsleep:hope_mushroom",
+      "title": "Back To The Nether",
+      "text": "After returning to the village, you heard rumours about villagers constantly having nightmares. According to a bar keeper, villagers have resorted to consuming mushrooms which seemed to have a 50% success rate at deterring the nightmares. Find the mushrooms in the Nether and see what you can do about the nightmares.",
+      "dependencies": [
+        37
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:hope_mushroom",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "goodnightsleep:despair_mushroom",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:red_bed",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 142500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 39,
+      "icon": "goodnightsleep:strange_bed_item",
+      "title": "Time To Sleep",
+      "text": "You\u0027ve learned that it\u0027s possible to access the so-called nightmare realm by forcefully sleeping on a bed imbued with the power of the mushrooms. Try it for yourself and see if you can solve the nightmare mystery.",
+      "dependencies": [
+        38
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:strange_bed_item",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 150000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 40,
+      "icon": "goodnightsleep:rainbow_sword",
+      "title": "Blissful Awakening",
+      "text": "Lucky you! You\u0027ve accessed the Good Dream dimension, where you\u0027ll find unicorns and rainbows. You sense that something is wrong with the balance of positive and negative energy. If you\u0027d like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
+      "dependencies": [
+        39
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "goodnightsleep:good_dream",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 155000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "icon": "goodnightsleep:zitrite_sword",
+      "title": "Sleep Paralysis",
+      "text": "How unfortunate. You\u0027ve accessed the Nightmare dimension, where you\u0027ll find demons and darkness. You sense that something is wrong with the balance of positive and negative energy. If you\u0027d like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
+      "dependencies": [
+        39
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "goodnightsleep:nightmare",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 155000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 42,
+      "icon": "waystones:warp_stone",
+      "title": "Point The Way",
+      "text": "Waystones is a mod that allows the player to set up waystones. These waystones can be teleported to from each other, or by using warp stones or scrolls. This will take care of the leg work!",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "waystones:warp_stone",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:ender_pearl",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        250
+      ]
+    },
+    {
+      "id": 43,
+      "icon": "waystones:waystone",
+      "title": "Show Me The Way",
+      "text": "Craft and place your first waystone. Right click the waystone to access it. You can set the waystone to be a global waystone but the cost of teleportation to the waystone will be greater. Global waystones can be teleported to from any dimension!",
+      "dependencies": [
+        42
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "waystones:waystone",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:ender_pearl",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        250
+      ]
+    },
+    {
+      "id": 44,
+      "icon": "waystones:warp_scroll",
+      "title": "Direct Me The Whey",
+      "text": "Warp scrolls are consumables that let you teleport to a waypoint. You could also use a warp stone, but warp stones have long cooldowns and are more costly to use.",
+      "dependencies": [
+        43
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "waystones:warp_scroll",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "waystones:bound_scroll",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "waystones:return_scroll",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 16000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        250
+      ]
+    },
+    {
+      "id": 45,
+      "icon": "the_bumblezone:honeycomb_larva_block",
+      "title": "Hit Them Where It Stings",
+      "text": "These brood zones seem to be where the bees are being produced. Destroy the blocks and harvest the honey for yourself.",
+      "dependencies": [
+        12
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "the_bumblezone:dead_honeycomb_larva_block",
+              "amount": 50,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 35000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 46,
+      "icon": "minecraft:slime_ball",
+      "title": "Slimey Means",
+      "text": "Honey slimes are a great 100% honey. Kill them and harvest the honey!",
+      "dependencies": [
+        45
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "buzzierbees:honey_slime",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 37500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 47,
+      "icon": "minecraft:iron_axe",
+      "title": "Where Are The Minutemen?!",
+      "text": "Occasionally, your colony will be faced with barbarian and pirate raids. You\u0027ll need to set up a guard troop to protect your citizens, but until then, you\u0027ll need to defend them yourself!",
+      "dependencies": [
+        19
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:pig",
+              "amount": 1
+            },
+            {
+              "entity": "minecraft:pig",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 10000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 48,
+      "icon": "lycanitesmobs:equipmentpart_astarothclaw",
+      "title": "Exploring Fiery Depths",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:astaroth",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 35000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        150
+      ]
+    },
+    {
+      "id": 49,
+      "icon": "lycanitesmobs:equipmentpart_argustail",
+      "title": "Squashing Bugs",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:trite",
+              "amount": 50
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 25000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 50,
+      "icon": "lycanitesmobs:boulderblastcharge",
+      "title": "Burning Hides",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:salamander",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 51,
+      "icon": "lycanitesmobs:beastspawn",
+      "title": "Heebie Jeebies",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:belph",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 32500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": 52,
+      "icon": "lycanitesmobs:scorchfireballcharge",
+      "title": "Firebolt!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:afrit",
+              "amount": 30
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 35000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 53,
+      "icon": "lycanitesmobs:raw_pinky_meat",
+      "title": "And The Brain",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:pinky",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        150
+      ]
+    },
+    {
+      "id": 54,
+      "icon": "lycanitesmobs:embercharge",
+      "title": "Finding The Source",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "dependencies": [
+        15
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:behemoth",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 35000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        150
+      ]
+    },
+    {
+      "id": 55,
+      "icon": "lycanitesmobs:demonspawn",
+      "title": "Lords Of The Underworld",
+      "text": "Asmodeus and Rahovart serve the Wither. Find Asmodeus and Rahovart in the Nether and eliminate them.",
+      "dependencies": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:asmodeus",
+              "amount": 1
+            },
+            {
+              "entity": "lycanitesmobs:rahovart",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 100000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 56,
+      "icon": "minecraft:ender_pearl",
+      "title": "On The Hunt",
+      "text": "The Endermen are hindering your ability to safely traverse The End. Clear out the remaining Endermen in The End.",
+      "dependencies": [
+        37
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:enderman",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 67500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
+    },
+    {
+      "id": 57,
+      "icon": "lycanitesmobs:equipmentpart_argustail",
+      "title": "Squashing Bugs II",
+      "text": "It seems that The End and the Nether have some sort of connection. However, these trites seem to have undergone some sort of void transformation.",
+      "dependencies": [
+        56
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:trite",
+              "amount": 30
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 58,
+      "icon": "lycanitesmobs:geistliver",
+      "title": "What Are These Anyway?",
+      "text": "These morbid undead beings feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful!",
+      "dependencies": [
+        57
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:geist",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 77500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 59,
+      "icon": "lycanitesmobs:cooked_pinky_meat",
+      "title": "And The Brain II",
+      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "dependencies": [
+        57
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:pinky",
+              "amount": 5
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 70000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": 60,
+      "icon": "lycanitesmobs:demonicblastcharge",
+      "title": "Firing That Lazer",
+      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "dependencies": [
+        57
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:astaroth",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 100000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 61,
+      "icon": "goodnightsleep:luxurious_bed_item",
+      "title": "Make Your Bed",
+      "text": "Making a luxurious bed using your positite gem will allow you to freely access the Good Dream dimension without worrying about having a nightmare.",
+      "dependencies": [
+        40
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:luxurious_bed_item",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 175000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 62,
+      "icon": "goodnightsleep:dream_plank",
+      "title": "In A Daze",
+      "text": "It\u0027s very peaceful in this dream world. It\u0027s to try to find clues first. Try harvesting natural materials to analyse their components.",
+      "dependencies": [
+        61
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:dream_plank",
+              "amount": 64,
+              "nbt": "{}"
+            },
+            {
+              "item": "goodnightsleep:white_plank",
+              "amount": 64,
+              "nbt": "{}"
+            },
+            {
+              "item": "goodnightsleep:dream_dirt",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 250000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 63,
+      "icon": "goodnightsleep:unicorn_spawn_egg",
+      "title": "Unicorns...",
+      "text": "Perhaps killing the most pure creature will provide hints...",
+      "dependencies": [
+        62
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "goodnightsleep:unicorn",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 300000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 64,
+      "icon": "goodnightsleep:candy_ore",
+      "title": "Candyland",
+      "text": "Sweet ore? Maybe it\u0027s connected to the nightares... Definitely. Mine some and smelt them into candy to find out... for science.",
+      "dependencies": [
+        62
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:candy",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 275000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
+    },
+    {
+      "id": 65,
+      "icon": "goodnightsleep:rainbow_ore",
+      "title": "... And Rainbows!",
+      "text": "This multi-coloured ore has red in it! It has red in it! Must be evil.",
+      "dependencies": [
+        64
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:rainbow_ingot",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 325000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 66,
+      "icon": "goodnightsleep:positite_ore",
+      "title": "Staying Positive",
+      "text": "Positite gems radiate with positive energy. Perhaps collecting a few of these will help us understand how to restore balance.",
+      "dependencies": [
+        65
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:positite_gem",
+              "amount": 16,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 450000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 67,
+      "icon": "goodnightsleep:lolipop_bush",
+      "title": "Sweet Tooth",
+      "text": "Since we\u0027re here, let\u0027s harvest some of the natural sweet foods of the realm... Starting with lolipops! Harvest lolipops from the lolipop bushes.",
+      "dependencies": [
+        61
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:lolipop",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 200000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": 68,
+      "icon": "goodnightsleep:rainbow_seeds",
+      "title": "Seeds To Happiness",
+      "text": "Harvest some rainbow seeds by breaking the grass. You can plant these seeds to harvest rainbow berries!",
+      "dependencies": [
+        67
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:rainbow_seeds",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 225000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 69,
+      "icon": "goodnightsleep:rainbow_berries",
+      "title": "The Full Arch",
+      "text": "Rainbow berries are delicious, filling, and pretty to look at. That\u0027s really it though!",
+      "dependencies": [
+        68
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:rainbow_berries",
+              "amount": 64,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 250000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 70,
+      "icon": "goodnightsleep:wretched_bed_item",
+      "title": "Make Your Bed II",
+      "text": "Making a wretched bed using your negatite gem will allow you to freely access the Nightmare dimension.",
+      "dependencies": [
+        41
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:wretched_bed_item",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 200000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        200
+      ]
+    },
+    {
+      "id": 71,
+      "icon": "goodnightsleep:blood_plank",
+      "title": "In A Haze",
+      "text": "Find your bearings in this nightmare realm. Find and harvest planks native to this area to find out more about how the Nightmare dimensions works.",
+      "dependencies": [
+        70
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:blood_plank",
+              "amount": 32,
+              "nbt": "{}"
+            },
+            {
+              "item": "goodnightsleep:dead_plank",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 275000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        200
+      ]
+    },
+    {
+      "id": 72,
+      "icon": "goodnightsleep:necrum_ore",
+      "title": "The Source Of The Undead",
+      "text": "After analysing the various wooden planks, you find out that they\u0027re imbued with undead energy. Find the source of the undead energy in the underground.",
+      "dependencies": [
+        71
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:necrum",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 325000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        250
+      ]
+    },
+    {
+      "id": 73,
+      "icon": "goodnightsleep:zitrite_ore",
+      "title": "Zits Are Evil",
+      "text": "Ever since arriving in the Nightmare realm, you notice your acne has gotten worse. Zitrite is believed to be increase \u0027acne-causing\u0027 radiation levels. Get rid of it!",
+      "dependencies": [
+        72
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:zitrite_ingot",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 425000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        250
+      ]
+    },
+    {
+      "id": 74,
+      "icon": "goodnightsleep:negatite_ore",
+      "title": "Negative Karma",
+      "text": "You sense a great disturbance in the balance of positive and negative energies. Harvest negatite gems - maybe you can do something with the positite and negatite gems.",
+      "dependencies": [
+        73
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:negatite_gem",
+              "amount": 16,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 550000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        250
+      ]
+    },
+    {
+      "id": 75,
+      "icon": "lycanitesmobs:doomfireballcharge",
+      "title": "Source Of Negativity",
+      "text": "Lobbers are firing balls of negative energy. Exterminate them! Watch for the flames!",
+      "dependencies": [
+        71
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:lobber",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 400000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 76,
+      "icon": "lycanitesmobs:undeadspawn",
+      "title": "Unpleasantries",
+      "text": "Spectres freely roam between dimensions and wreak havoc on the psyche of any living organism. Wherever they go, they bring with them misfortune. Find them and destroy them.",
+      "dependencies": [
+        75
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:spectre",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": 77,
+      "icon": "lycanitesmobs:spectralboltcharge",
+      "title": "Dream Eaters",
+      "text": "Reapers feed on the spiritual energy of the dead. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep. Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight",
+      "dependencies": [
+        66,
+        74,
+        76
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:reaper",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "midnight:malignant_red_plant_block",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 250000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 78,
+      "icon": "lycanitesmobs:shadowfire",
+      "title": "Eternal Darkness",
+      "text": "The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks - these will spawn a portal that allows you access The Midnight. However, the portal will only spawn at night. Once you enter The Midnight, you cannot leave until it is night in the Overworld - rifts will start to open in The Midnight which will teleport you back to the Overworld.",
+      "dependencies": [
+        77
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "midnight:midnight",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 450000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    }
+  ]
+}

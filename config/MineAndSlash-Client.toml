@@ -1,0 +1,64 @@
+
+#Client Settings
+[CLIENT]
+	#.
+	SHOW_VANILLA_HEARTS = false
+	#.
+	#Allowed Values: Top_Left, Bottom_Middle, Bottom_Middle_Corners, Middle, Azure_Top_Left, Vanilla, NONE
+	PLAYER_GUI_TYPE = "Bottom_Middle_Corners"
+	#.
+	#Range: 0 ~ 1000
+	REMOVE_EMPTY_TOOLTIP_LINES_IF_MORE_THAN_X_LINES = 35
+	#.
+	SHOW_LOW_ENERGY_MANA_WARNING = true
+	#.
+	#Range: -10000 ~ 10000
+	LEFT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
+	#.
+	#Range: -10000 ~ 10000
+	RIGHT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
+	#.
+	SHOW_UNMET_GEAR_REQUIREMENTS_GUI = true
+	#.
+	SHOW_AFFIXED_NAME = true
+	#.
+	RENDER_SIMPLE_MOB_BAR = true
+	#.
+	RENDER_ITEM_NAMES_ON_GROUND = true
+	#.
+	RENDER_MOB_HEALTH_GUI = true
+
+	[CLIENT.DMG_PARTICLE_CONFIGS]
+		LIFESPAN = 12.0
+		SPEED = 0.003
+		#.
+		ENABLE_FLOATING_EXP = true
+		#.
+		ENABLE_FLOATING_DMG = true
+		START_SIZE = 0.5
+		MAX_SIZE = 2.0
+		GRAVITY = 0.15
+		GROWS = true
+
+	[CLIENT.NEAT_CONFIG]
+		"Height Above Mob" = 0.6
+		"Display on Players" = true
+		"Plate Size (Boss)" = 50
+		"Show Max HP" = false
+		"Max Distance" = 24
+		"Show Current HP" = false
+		"Show Debug Info with F3" = true
+		"Background Padding" = 2
+		"HP Text Height" = 14
+		"Only show the health bar for the entity looked at" = true
+		"Draw Background" = true
+		"Plate Size" = 25
+		"Display on Bosses" = true
+		"Background Height" = 6
+		"Health Bar Height" = 4
+		"Show HP Percentage" = true
+		#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
+		Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+		"Render with Interface Disabled (F1)" = false
+		"Color Health Bar by type (instead of health percentage)" = false
+

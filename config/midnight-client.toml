@@ -1,0 +1,14 @@
+
+#All the options that can be modified by players on server.
+[client]
+	#Hides the vignette effect in the darker areas of Midnight. Default: false
+	hide_vignette_effect = false
+	#If true, some ambient spore particles are spawned around the player. Default: true
+	ambient_spore_particle = true
+	#The volume of ambient sounds (e.g. distant screams, environmental noises). Default: 1.0
+	#Range: 0.0 ~ 1.0
+	ambient_volume = 1.0
+	#The volume of the echo effect playing in the Midnight. When 0, echoes are disabled. Default: 1.0
+	#Range: 0.0 ~ 1.0
+	echo_volume = 1.0
+

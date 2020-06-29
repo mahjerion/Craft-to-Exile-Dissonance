@@ -1,0 +1,12 @@
+{
+  "modList": {
+    "testmodid": {
+      "modid": "testmodid",
+      "dmgMultiplier": 0.5
+    },
+    "testmodid2": {
+      "modid": "testmodid2",
+      "dmgMultiplier": 1.0
+    }
+  }
+}

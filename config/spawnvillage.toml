@@ -1,0 +1,14 @@
+#Struct(namespaced id) player will spawn.
+#https://minecraft.gamepedia.com/Commands/locate
+#Useless if spawn-biome is defined!
+spawn-struct = "Village"
+#Biome(namespaced id) player will spawn.
+#https://minecraft.gamepedia.com/Biome
+spawn-biome = ""
+#Range: 64 ~ 320
+biome-search-step-long = 64
+#Range: 640 ~ 32000
+biome-search-range = 1600
+#Range: 100 ~ 32000
+struct-search-range = 1000
+

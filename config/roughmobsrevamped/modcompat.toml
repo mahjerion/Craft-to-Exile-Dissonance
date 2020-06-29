@@ -1,0 +1,20 @@
+
+#Config options for enabling/disabling Game Stages support.
+["Game Stages"]
+	#Require this Game Stage for Rough Mob Bosses to spawn.
+	GameStages_Bosses = false
+	#Require this Game Stage for Rough Mobs to have special combat AI and attributes.
+	GameStages_Abilities = false
+	#Require this Game Stage for Rough Mobs to have equipment.
+	GameStages_Equipment = false
+	#Require this Game Stage for Rough Mob equipment to be enchanted.
+	GameStages_Enchantments = false
+	#Require this Game Stage to allow all Rough Mobs stages be given at once.
+	GameStages_AllStages = false
+
+#Config options for enabling/disabling Serene Seasons support.
+["Serene Seasons"]
+	#Whitelist of all seasons that Rough Mobs can spawn in.
+	#Default Seasons: SUMMER, AUTUMN, WINTER, SPRING
+	Season_Whitelist = ["SUMMER", "AUTUMN", "WINTER", "SPRING"]
+

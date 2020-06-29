@@ -1,0 +1,52 @@
+
+["Global Equipment Options"]
+	#Should Rough Mobs get more gear based upon distance from world spawn?
+	Distance_Multiplier = true
+	#The distance threshold used to calculate the Distance Multiplier.
+	#A shorter distance here means mobs will have more gear closer to the World Spawn.
+	#Range: 0 ~ 32767
+	Distance_Threshold = 4000
+	#Should Rough Mobs get more gear as it gets closer to midnight?
+	Time_Multiplier = true
+	#Set to true to disable baby zombies getting equipment.
+	Disable_BabyZombie_Equipment = true
+
+["Zombie Equipment Chances"]
+	#Chance (1 in X per piece) to give a Zombie a piece of armor on spawn.
+	#NOTE: Champions always spawn with all armor pieces.
+	#Set to 0 to disable.
+	#Range: 0 ~ 32767
+	Armor_Chance = 4
+	#Multiplier for the applied enchantment level with the max level. The level can still be a bit lower.
+	#e.g. 0.5 would make sharpness to be at most level 3 (5 x 0.5 = 2.5 and [2.5] = 3) and fire aspect would always be level 1 (2 x 0.5 = 1).
+	#Range: 0.0 ~ 1.0
+	Enchantment_Multiplier = 0.5
+	#Chance (1 in X per hand) to give a Zombie a weapon on spawn.
+	#NOTE: Champions always spawn with weapons.
+	#Set to 0 to disable.
+	#Range: 0 ~ 32767
+	Weapon_Chance = 3
+	#Chance (1 in X per item) to enchant any given weapons or armor.
+	#NOTE: Champions always spawn with enchanted weapons and armor.
+	#Set to 0 to disable.
+	#Range: 0 ~ 32767
+	Enchantment_Chance = 8
+	#Chance (per slot) that the Zombie drops the equipped item (1 = 100%, 0 = 0%).
+	#Range: 0.0 ~ 1.0
+	Drop_Chance = 0.01
+
+["Zombie Equipment"]
+	Armor_Enchantments = ["protection;4", "feather_falling;3", "respiration;3", "depth_strider;3", "thorns;2", "projectile_protection;2", "fire_protection;2", "blast_protection;2"]
+	Weapon_Enchantments = ["sharpness;4", "knockback;2", "looting;1", "sweeping;1", "fire_aspect;2"]
+	Leggings = ["leather_leggings;3;0", "chainmail_leggings;2", "golden_leggings;1", "iron_leggings;1"]
+	#Add enchanted armor and weapons to a newly spawned zombie. Takes 2-3 values seperated by a semicolon.
+	#Format:              item or enchantment;chance;dimension
+	#item or enchantment: the item/enchantment id
+	#chance:              the higher this number the more this item/enchantment gets selected
+	#dimension:           dimension (ID) in which the item/enchantment can be selected (optional! Leave this blank for any dimension)
+	Mainhand_Weapons = ["wooden_axe;3;0", "wooden_sword;3;0", "stone_pickaxe;2", "stone_axe;2", "stone_sword;2", "iron_pickaxe;1", "golden_sword;1", "golden_axe;1", "iron_axe;1", "iron_sword;1"]
+	Chestplates = ["leather_chestplate;3;0", "chainmail_chestplate;2", "golden_chestplate;1", "iron_chestplate;1"]
+	Boots = ["leather_boots;3;0", "chainmail_boots;2", "golden_boots;1", "iron_boots;1"]
+	Helmets = ["leather_helmet;3;0", "chainmail_helmet;2", "golden_helmet;1", "iron_helmet;1"]
+	Offhand_Weapons = ["wooden_axe;3;0", "wooden_sword;3;0", "stone_pickaxe;2", "stone_axe;2", "stone_sword;2", "iron_pickaxe;1", "golden_sword;1", "golden_axe;1", "shield;5", "iron_axe;1", "iron_sword;1"]
+

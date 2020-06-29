@@ -1,0 +1,75 @@
+
+["Tile entities load balancing settings"]
+	#Enables Tileentity load balancing, if the game is lagging. default: true
+	TELoadBalancing = true
+	#Mean tick time at which load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickTH = 35
+	#Enables debug log output for lagging tileentities, default = false
+	TEDebugOutput = false
+
+	["Tile entities load balancing settings"."Tile entity chunk unload"]
+		#Requires TELoadBalancing = true. Enables dealing with lag caused by tile entities during chunk unload. default = false
+		TEUnloadLag = false
+
+["Event load balancing settings"]
+	#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickEvent = 40
+	#Enables debug log output for lagging event subscribers, default = false
+	eventDebugOutput = false
+	#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tileentities, if the game is lagging. default: true
+	eventLoadBalancing = true
+
+["Entity settings"]
+	#Fix updateleashState lag from llamas, default = true
+	fixLeash = true
+	#Use fast entity collisions, default = true
+	fastCollisions = true
+	#Enables less laggy entity item pickup, default = true
+	noLagItemPickup = true
+	#Use faster Item entities, default = true
+	fastItems = true
+	#Enable fast inventory advancement triggers, default = true
+	fastInventoryAdvancement = true
+	#Enable fast pathfinding, default = true
+	fastPathFinding = true
+
+["Entity AI Load balancing settings"]
+	#Mean tick time at which AI load balancing takes effect, 1000 / mean tick time = TPS. default: 45
+	#Range: 1 ~ 200
+	meanTickAITH = 45
+	#Enables load balancing for entity AI. default = true
+	AILoadBalancing = true
+	#Whether to debug lagging entities and log offenders, requires load balancing to be enabled. default = true
+	logEntityAILag = true
+
+["Entity AI Settings"]
+	#Sets the tick, ticks happen 20 times each sec, interval in which non-running AI tasks are rechecked. Vanilla default is 1, this mods suggested default is 4
+	#Range: 1 ~ 500
+	goalselectorrate = 4
+	#Whether to use a slower updated AI Fox find shelter goal, which causes too much load. default = true
+	slowFindShelter = true
+	#Whether to use a modified/fixed HurtByTarget goal which is used to call other entities for help. default = true
+	optimizeHurtByTarget = true
+	#Whether to use a slower updated AI Panic entity goal, panic is used for chickens/other animals running away e.g. on fire. default = true
+	optimizePanic = true
+	#Whether to use a slower updated AI Breed entity goal, breed is used for searching nearby similar animals and doesnt have to be checked that often. default = true
+	optimizeBreed = true
+	#Whether to use a more performant Random walking goal, which makes mobs path randomly and can lead to lag default = true
+	betterRandomWalking = true
+	#Whether to use a slower updated AI tempt goal, tempt is used e.g. for luring sheep with wheat. default = true
+	optimizeTempt = true
+	#Whether to use a slower updated AI avoid entity goal, avoid is used e.g. for villagers avoiding zombies so it constantly searches for mobs in the area. default = true
+	optimizeAvoid = true
+
+["Other settings"]
+	#Enable fast spawn radius check, default = true
+	fastSpawnRadius = true
+	#Enable printing of world/chunk saves for debugging purposes, default = false
+	printWorldSaves = false
+	#Enable fast chunk save, default = true
+	fastChunkSave = true
+	#Enable fast chunk block ticks, default = true
+	fastChunkBlocks = true
+

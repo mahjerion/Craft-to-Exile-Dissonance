@@ -1,0 +1,353 @@
+
+[General]
+	#The last version of Lycanites Mobs that this config ran with, if this is behind the Minimum Config Version then all configs (including jsons) will be reset, only manually update this if you have manually adapted your configs to the latest version of Lycanites Mobs.
+	version = "2.2.3.2"
+
+[Extra]
+	#Set to true to prevent players from dismounting from Lycanites Mobs mounts when pressing shift (useful for shift to fly/swim down).
+	disableSneakDismount = true
+	#Set to true to disable the nausea debuff on players.
+	disableNausea = false
+
+	[Extra.summoningpedestal]
+		#How much summoning time (in ticks) 1 redstone dust provides. 20 ticks = 1 second, default is 12000 (10 minutes).
+		redstonetime = 12000
+
+	[Extra.familiars]
+		#Donation Familiars help support the development of this mod but can be turned of for individual players be adding their username to this list.
+		blacklist = ["Jbams"]
+
+	[Extra.version]
+		#Set to false to disable the version checker.
+		checker = true
+
+[Debug]
+	#Shows debugging info for Elements.
+	creatureOverlay = false
+	#Shows debugging info for Mob Events.
+	enabled = []
+
+[Admin]
+	#Here you can add a list of entity IDs for entity that you want to be forcefully removed.
+	removeEntityIds = []
+
+[Client]
+	#Set to false to disable the inventory tabs added by this mod.
+	inventoryTab = true
+	#Set to false to disable multipass rendering. This renders model layers twice so that they can show each over through alpha textures, disable for performance on low end systems.
+	modelMultipass = true
+
+[Dungeons]
+	#The average distance in chunks that dungeons are spaced apart from each other.
+	distance = 30
+	#Set to false to disable all Dungeons.
+	enabled = true
+
+	[Dungeons.tower]
+		#The chance of a dungeon generating a tower on top (0.25 by default).
+		chance = 0.25
+
+[Creatures]
+	#If true, alpha is disabled on mob textures, this can make them look undesirable but can increase performance on low end systems.
+	disableModelAlpha = false
+	#The minimum interval in ticks between random idle sounds.
+	idleSoundTicks = 100
+	#Controls how fused mobs combine their levels. Can be 'both' (default) where both levels are added together, 'highest' where the higher level is used and 'lowest' where the lowest level is used.
+	elementalFusionLevelMix = "highest"
+	#The maximum size scale mobs can randomly spawn at.
+	randomSizeMax = 1.15
+	#If true, pets, minions, etc can't harm their owners (with ranged attacks, etc).
+	friendlyFire = true
+	#If true, some elemental mobs will fuse with each other on sight into a stronger different elemental.
+	elementalFusion = true
+	#If true, all mobs will be immune to damage from running out of air (drown damage).
+	drownImmunity = false
+	#Set to false to prevent subspecies from spawning, this will not affect mobs that have already spawned as subspecies.
+	subspeciesSpawn = true
+	#The minimum base starting level of every mob. Cannot be less than 1.
+	startingLevelMin = 1
+	#Set to false to disable mounts.
+	mountingEnabled = true
+	#The time in tics that it takes for a pet to respawn.
+	petRespawnTime = 3600
+	#If true, when a mob picks up a player, the player will be positioned where the mob is rather than offset to where the mob is holding the player at.
+	disablePickupOffsets = false
+	#If true, all mobs that are a subspecies will always show their nametag.
+	subspeciesTags = true
+	#How many levels a mob gains multiplied by the local area difficulty level. Staying in an area for a while slowly increases the difficulty of that area ranging from 0.00 to 6.75. So 1.5 means level 10 at full local area difficulty.
+	levelPerLocalDifficulty = 0.0
+	#Set to false to prevent mobs from having a random size variation when spawning, this will not affect mobs that have already spawned.
+	randomSizes = true
+	#If true, all mobs will be immune to suffocation (inWall) damage.
+	suffocationImmunity = false
+	#The level of a mob created via fusion is multiplied by this value, set to 1 for no changes. Tamed fusions aren't multiplied by this value.
+	elementalFusionLevelMultiplier = 1.0
+	#If true, a chat message will be displayed when gaining Beastiary Knowledge.
+	beastiaryKnowledgeMessages = true
+	#How far in blocks pets stray from their owner when set to follow.
+	petFollowDistance = 8
+	#Increases the base start level by this amount of every world day that has gone by, use this to slowly level up mobs as the world gets older. Fractions can be used such as 0.05 levels per day. The levels are rounded down so +0.9 would be +0 levels.
+	levelPerDay = 0.0
+	#If true, tamed mobs will display their owner's name in their name tag.
+	ownerTags = true
+	#The maximum base starting level of every mob. Ignored when not greater than the min level.
+	startingLevelMax = 1
+	#How much higher players must be relative to a boss' y position (feet) to trigger anti flight measures.
+	bossAntiFlight = 10.0
+	#If true, passive mobs will fight back when hit instead of running away.
+	animalsFightBack = false
+	#Caps how much damage a boss can take per tick, this also affects Rare Variants and Dungeon Bosses. Set to 0 to disable the cap.
+	bossDamageCap = 0
+	#Set to false to disable pet/mount taming.
+	tamingEnabled = true
+	#The minimum size scale mobs can randomly spawn at.
+	randomSizeMin = 0.85
+	#Set to false to disable flying mounts, if all mounts are disable this option doesn't matter.
+	mountingFlightEnabled = true
+	#The maximum level to be able gain from levels per day.
+	levelPerDayMax = 100
+	#The chance that creatures are added to the player's Beastiary when killed, the Soulgazer can also be used to add creatures. Bosses are always a 100% chance.
+	beastiaryAddOnDeathChance = 0.15
+	#If true, mobs can be lured with treats even if they are in a pack.
+	packTreatLuring = false
+	#Set to false to prevent mobs that attack players from also attacking villagers.
+	mobsAttackVillagers = true
+	#If true, block particles are not spawned by mobs (useful for visual mods that create 3D block particles which can cause lag in high numbers).
+	disableBlockParticles = false
+
+	[Creatures.level]
+
+		[Creatures.level.multipliers]
+			#Level multiplier for damage.
+			damage = 0.02
+			#Level multiplier for armor.
+			armor = 0.0
+			#Level multiplier for defense.
+			defense = 0.01
+			#Level multiplier for attackSpeed.
+			attackSpeed = 0.01
+			#Level multiplier for effect.
+			effect = 0.02
+			#Level multiplier for sight.
+			sight = 0.0
+			#Level multiplier for health.
+			health = 0.1
+			#Level multiplier for amplifier.
+			amplifier = 0.01
+			#Level multiplier for rangedSpeed.
+			rangedSpeed = 0.01
+			#Level multiplier for speed.
+			speed = 0.01
+			#Level multiplier for pierce.
+			pierce = 0.02
+
+	[Creatures.difficulty]
+
+		[Creatures.difficulty.multipliers]
+
+			[Creatures.difficulty.multipliers.normal]
+				#Stat multiplier for damage on normal difficulty.
+				damage = 1.0
+				#Stat multiplier for armor on normal difficulty.
+				armor = 1.0
+				#Stat multiplier for defense on normal difficulty.
+				defense = 1.0
+				#Stat multiplier for attackSpeed on normal difficulty.
+				attackSpeed = 1.0
+				#Stat multiplier for effect on normal difficulty.
+				effect = 1.0
+				#Stat multiplier for sight on normal difficulty.
+				sight = 1.0
+				#Stat multiplier for health on normal difficulty.
+				health = 1.0
+				#Stat multiplier for amplifier on normal difficulty.
+				amplifier = 1.0
+				#Stat multiplier for rangedSpeed on normal difficulty.
+				rangedSpeed = 1.0
+				#Stat multiplier for speed on normal difficulty.
+				speed = 1.0
+				#Stat multiplier for pierce on normal difficulty.
+				pierce = 1.0
+
+			[Creatures.difficulty.multipliers.hard]
+				#Stat multiplier for damage on hard difficulty.
+				damage = 1.1
+				#Stat multiplier for armor on hard difficulty.
+				armor = 1.0
+				#Stat multiplier for defense on hard difficulty.
+				defense = 1.1
+				#Stat multiplier for attackSpeed on hard difficulty.
+				attackSpeed = 1.5
+				#Stat multiplier for effect on hard difficulty.
+				effect = 1.1
+				#Stat multiplier for sight on hard difficulty.
+				sight = 1.0
+				#Stat multiplier for health on hard difficulty.
+				health = 1.1
+				#Stat multiplier for amplifier on hard difficulty.
+				amplifier = 1.1
+				#Stat multiplier for rangedSpeed on hard difficulty.
+				rangedSpeed = 1.5
+				#Stat multiplier for speed on hard difficulty.
+				speed = 1.1
+				#Stat multiplier for pierce on hard difficulty.
+				pierce = 1.1
+
+			[Creatures.difficulty.multipliers.easy]
+				#Stat multiplier for damage on easy difficulty.
+				damage = 0.8
+				#Stat multiplier for armor on easy difficulty.
+				armor = 1.0
+				#Stat multiplier for defense on easy difficulty.
+				defense = 0.8
+				#Stat multiplier for attackSpeed on easy difficulty.
+				attackSpeed = 0.8
+				#Stat multiplier for effect on easy difficulty.
+				effect = 0.8
+				#Stat multiplier for sight on easy difficulty.
+				sight = 1.0
+				#Stat multiplier for health on easy difficulty.
+				health = 0.8
+				#Stat multiplier for amplifier on easy difficulty.
+				amplifier = 0.8
+				#Stat multiplier for rangedSpeed on easy difficulty.
+				rangedSpeed = 0.8
+				#Stat multiplier for speed on easy difficulty.
+				speed = 1.0
+				#Stat multiplier for pierce on easy difficulty.
+				pierce = 0.8
+
+["Global Spawning"]
+	#If true, when water mobs spawn, instead of checking the light level of the block the mob is spawning at, the light level of the surface (if possible) is checked. This stops mobs like Jengus from spawning at the bottom of deep rivers during the day, set to false for the old way.
+	useSurfaceLightLevel = true
+	#If true, all mobs from this mod will not spawn at all.
+	disableAllSpawning = false
+	#When spawned from a vanilla spawner, this is how far a mob should search from in blocks when checking how many of its kind have already spawned. Custom Spawners have it defined in their json file instead.
+	spawnLimitRange = 64.0
+	#Scales the spawn weights of all mobs from this mod. For example, you can use this to quickly half the spawn rates of mobs from this mod compared to vanilla/other mod mobs by setting it to 0.5.
+	spawnWeightScale = 0.15
+	#If true, some vanilla spawns in various biomes will be removed, note that vanilla mobs should still be easy to find, only they will be more biome specific.
+	controlVanillaSpawns = false
+	#The limit of how many mobs of the same type (peaceful or not peaceful) can spawn within the limit search range. For individual creature species limits, see the creature json configs.
+	typeSpawnLimit = 64
+	#If true, when new world chunks are generated, no mobs from this mod will pre-spawn (mobs will still attempt to spawn randomly afterwards). Set this to true if you are removing mobs from vanilla dimensions as the vanilla WorldGen spawning ignores mob spawn conditions.
+	ignoreWorldGenSpawning = false
+	#A global comma separated list of dimension ids that overrides every other spawn setting in both the configs and json spawners. Use this to quickly stop all mobs from spawning in certain dimensions, etc.
+	globalDimensionList = ""
+	#If set to true the global dimension list acts as a whitelist, otherwise it is a blacklist.
+	globalDimensionWhitelist = false
+	#If true, mobs will double check if their required blocks are nearby, such as Cinders needing so many blocks of fire.
+	enforceBlockCost = true
+	#Scales the weight of dungeons using spawners from this mod. For example, you can half the chances all dungeons having spawners with mobs from this mod in them by setting this to 0.5.
+	dungeonSpawnerWeightScale = 0.5
+	#If true, newly generated dungeons wont create spawners with mobs from this mod.
+	disableDungeonSpawners = false
+
+["Creature Variants"]
+	#If set to true, rare variants will despawn naturally over time.
+	rareDespawning = false
+	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its experience amount is multiplied by this value.
+	uncommonExperienceScale = 5.0
+	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its item drops amount is multiplied by this value.
+	rareDropScale = 5
+	#The minimum base starting level of every mob. Cannot be less than 1.
+	baseWeight = 400
+	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its item drops amount is multiplied by this value.
+	uncommonDropScale = 2
+	#The minimum amount of days before uncommon variants start to spawn.
+	uncommonSpawnDayMin = 0
+	#The minimum amount of days before rare variants start to spawn.
+	rareSpawnDayMin = 0
+	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its experience amount is multiplied by this value.
+	rareExperienceScale = 10.0
+	#If set to true, rare variants such as the Lunar Grue or Celestial Geonach will display boss health bars.
+	rareHealthBars = false
+
+	["Creature Variants".multipliers]
+
+		["Creature Variants".multipliers.uncommon]
+			#Stat multiplier for damage for uncommon variant.
+			damage = 1.0
+			#Stat multiplier for armor for uncommon variant.
+			armor = 1.0
+			#Stat multiplier for defense for uncommon variant.
+			defense = 1.0
+			#Stat multiplier for attackSpeed for uncommon variant.
+			attackSpeed = 1.0
+			#Stat multiplier for effect for uncommon variant.
+			effect = 1.0
+			#Stat multiplier for sight for uncommon variant.
+			sight = 1.0
+			#Stat multiplier for health for uncommon variant.
+			health = 2.0
+			#Stat multiplier for amplifier for uncommon variant.
+			amplifier = 1.0
+			#Stat multiplier for rangedSpeed for uncommon variant.
+			rangedSpeed = 1.0
+			#Stat multiplier for speed for uncommon variant.
+			speed = 1.0
+			#Stat multiplier for pierce for uncommon variant.
+			pierce = 1.0
+
+		["Creature Variants".multipliers.rare]
+			#Stat multiplier for damage for rare variant.
+			damage = 1.0
+			#Stat multiplier for armor for rare variant.
+			armor = 1.0
+			#Stat multiplier for defense for rare variant.
+			defense = 1.0
+			#Stat multiplier for attackSpeed for rare variant.
+			attackSpeed = 2.0
+			#Stat multiplier for effect for rare variant.
+			effect = 2.0
+			#Stat multiplier for sight for rare variant.
+			sight = 1.0
+			#Stat multiplier for health for rare variant.
+			health = 20.0
+			#Stat multiplier for amplifier for rare variant.
+			amplifier = 1.0
+			#Stat multiplier for rangedSpeed for rare variant.
+			rangedSpeed = 2.0
+			#Stat multiplier for speed for rare variant.
+			speed = 1.0
+			#Stat multiplier for pierce for rare variant.
+			pierce = 1.0
+
+	["Creature Variants".weights]
+		#Subspecies weight for uncommon.
+		uncommon = 20
+		#Subspecies weight for rare.
+		rare = 2
+
+[Items]
+	#The chance of seasonal items dropping such as Winter Gifts. Can be 0-1, 0.25 would be 25%. Set to 0 to disable these drops all together.
+	seasonalDropChance = 0.1
+	#If set to false, when the doFireTick gamerule is set to false, instead of removing all custom fire such as Hellfire, the fire simply stops spreading instead, this is useful for decorative fire on adventure maps and servers.
+	removeOnNoFireTick = true
+
+["Mob Events"]
+	#The default temporary time applied to mobs spawned from events, where it will forcefully despawn after the specified time (in ticks). MobSpawns can override this.
+	duration = 12000
+	#Set to false to completely disable the entire event.
+	enabled = true
+
+	["Mob Events".random]
+		#Set to false to disable random mob events for every world.
+		enabled = false
+
+		["Mob Events".random.ticks]
+			#Minimum time in ticks until a random event can occur. 20 Ticks = 1 Second.
+			min = 72000
+			#Maximum time in ticks until a random event can occur. 20 Ticks = 1 Second.
+			max = 144000
+
+		["Mob Events".random.day]
+			#If random events are enabled, they wont occur until this day is reached. Set to 0 to have random events enabled from the start of a world.
+			min = 0
+
+	["Mob Events".altars]
+		#If set to true, Altars will only activate in dimensions that the monster spawned or event started is allowed in.
+		checkDimension = false
+		#Set to false to disable altars, Soulkeys can still be crafted but wont work on Altars.
+		enabled = true
+

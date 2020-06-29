@@ -1,0 +1,8 @@
+
+#Common Settings
+[COMMON]
+	#This is an experimental system that lowers drop rate based on chunk where mob is killed, it should have 0 impact towards normal gameplay but should heavily punish people who farm mobs in 1 big mob farm
+	ENABLE_ANTI_MOB_FARM = true
+	#.
+	GET_STARTER_ITEMS = false
+

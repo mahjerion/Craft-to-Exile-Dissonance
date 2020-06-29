@@ -1,0 +1,6 @@
+{
+  "name": "aquatic",
+  "loadDefault": true,
+  "spawnEggName": "aquaticspawn",
+  "dietProvided": "pescivore"
+}

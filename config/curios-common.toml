@@ -1,0 +1,7 @@
+
+[common]
+	#List of curio types to create.Sizes can be defined by adding a semicolon and the size number (e.g. 'ring;4').
+	createCurios = []
+	#List of curio types to disable by default
+	disabledCurios = []
+

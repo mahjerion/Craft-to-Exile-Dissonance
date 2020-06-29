@@ -1,0 +1,109 @@
+
+#meadow biome generation
+[meadow_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 6
+
+#autumnal_wooded_hills biome generation
+[autumnal_wooded_hills_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 1
+
+#rock_edge biome generation
+[rock_edge_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 1
+
+#coniferous_forest biome generation
+[coniferous_forest_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 4
+
+#plains_plateau biome generation
+[plains_plateau_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 2
+
+#snowy_coniferous_forest biome generation
+[snowy_coniferous_forest_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 5
+
+#wooded_plateau biome generation
+[wooded_plateau_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 2
+
+#rolling_hills biome generation
+[rolling_hills_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 4
+
+#snowy_coniferous_wooded_hills biome generation
+[snowy_coniferous_wooded_hills_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 2
+
+#desert_shrubland biome generation
+[desert_shrubland_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 4
+
+#lush_swamp biome generation
+[lush_swamp_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 5
+
+#coniferous_woodland_hills_biome biome generation
+[coniferous_woodland_hills_biome_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 1
+
+#woodlands biome generation
+[woodlands_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 6
+
+#snowy_high_coniferous_forest biome generation
+[snowy_high_coniferous_forest_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 1
+
+#arid_highlands biome generation
+[arid_highlands_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 4
+
+#autumnal_woods biome generation
+[autumnal_woods_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 3
+
+#high_coniferous_forest biome generation
+[high_coniferous_forest_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 2
+
+#mini_jungle biome generation
+[mini_jungle_biome]
+	#weight of the biome (set to 0 to disable generation)
+	#Range: 0 ~ 256
+	weight = 2
+

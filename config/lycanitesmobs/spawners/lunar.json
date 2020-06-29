@@ -1,0 +1,50 @@
+{
+  "name": "lunar",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": true,
+  "mobCountMin": 3,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": false,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "minecraft:overworld",
+        "twilightforest:twilightforest"
+      ],
+      "dayTimeMin": 14000,
+      "moonPhase": 0
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.1,
+      "tickRate": 1200
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        24,
+        0,
+        24
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": false
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:epion"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+
+#Config options for controlling how champion fog looks.
+["Boss Fog"]
+	#Enable this to have thick colored fog around champions.
+	Fog_Enabled = true
+	#Max distance from champion for fog to render.
+	#Fog will only occur if you are within this distance.
+	#Range: 0 ~ 32767
+	Max_Fog_Distance = 20
+	#This value works to scale the far plane distance, and effects the percieved thickness of the fog.
+	#Range: 0.0 ~ 0.800000011920929
+	Fog_FarPlane_Scale = 0.20000000298023224
+	#Change these three values between 0.0 and 1.0 to change the fog color.
+	#Red, Green, Blue
+	Fog_Color = [0.1, 0.4, 0.1]
+	#This effects how far away from you before the fog is at maximum thickness.
+	#Range: 0 ~ 192
+	Fog_FarPlane = 10
+	#How far away from a champion before fog begins to fade from maximum density.
+	#Must be a value lower than Max_Fog_Distance
+	#Range: 0 ~ 32767
+	Fog_Start_Distance = 1
+
+#Config options for enabling and adjusting the poisonous version of boss fog.
+["DoT Fog"]
+	#How many half hearts the fog DoT does per hit.
+	#Range: 1 ~ 32767
+	DoT_Damage = 1
+	#Disable this if you find the player cough sound annoying. 
+	#Only happens in poisonous fog.
+	DoT_Coughing = true
+	#The cooldown (in seconds) between each time the player receives damage while inside the fog.
+	#Range: 1 ~ 32767
+	DoT_Cooldown = 10
+	#Controls how frequently (in seconds) a player can be warned when entering boss fog.
+	#Range: 1 ~ 32767
+	DoT_Warning_Timer = 60
+	#If enabled, boss fog will cause poison damage over time.
+	DoT_Enabled = true
+	#Should the player recieve a chat warning message when entering the poisonous fog?
+	DoT_Warning = true
+

@@ -1,0 +1,6 @@
+
+#Server and Client side changes.
+[common]
+	#Disabling this will prevent time from passing in the dream dimensions, this locks it at noon/midnight. Highly recommended for servers.
+	disableTimePassing = false
+

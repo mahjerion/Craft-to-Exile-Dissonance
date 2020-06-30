@@ -93,7 +93,7 @@
 	"Quilted Wool" = true
 	"Compressed Blocks" = true
 	Thatch = true
-	"Variant Chests" = false
+	"Variant Chests" = true
 	"Variant Ladders" = true
 	"Vertical Slabs" = true
 	Shingles = true

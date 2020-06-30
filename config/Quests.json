@@ -38,7 +38,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 3,
             "nbt": "{}"
           }
@@ -78,7 +78,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -109,15 +109,15 @@
           "sub_requirements": [
             {
               "entity": "minecraft:zombie",
-              "amount": 8
+              "amount": 6
             },
             {
               "entity": "minecraft:skeleton",
-              "amount": 4
+              "amount": 2
             },
             {
               "entity": "minecraft:creeper",
-              "amount": 2
+              "amount": 1
             }
           ]
         }
@@ -126,9 +126,9 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:iron_sword",
-            "amount": 1,
-            "nbt": "{Damage:0}"
+            "item": "mmorpg:identify_tome",
+            "amount": 8,
+            "nbt": "{}"
           }
         },
         {
@@ -169,7 +169,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -188,7 +188,7 @@
     },
     {
       "id": 4,
-      "icon": "mmorpg:ore1",
+      "icon": "mmorpg:ore0",
       "title": "Ores",
       "text": "In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair gear or craft special items. Check JEI for more information.",
       "dependencies": [
@@ -199,7 +199,7 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "mmorpg:ore1",
+              "item": "mmorpg:ore0",
               "amount": 5,
               "nbt": "{}"
             }
@@ -210,7 +210,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 20,
             "nbt": "{}"
           }
@@ -433,7 +433,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
+            "item": "mmorpg:ore2",
             "amount": 3,
             "nbt": "{}"
           }
@@ -479,7 +479,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 3,
             "nbt": "{}"
           }
@@ -487,7 +487,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 11000"
+            "command": "slash give exp @p 16500"
           }
         }
       ],
@@ -527,7 +527,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 16000"
+            "command": "slash give exp @p 24000"
           }
         }
       ],
@@ -583,15 +583,15 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
-            "amount": 10,
+            "item": "mmorpg:ore2",
+            "amount": 3,
             "nbt": "{}"
           }
         },
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 30000"
+            "command": "slash give exp @p 45000"
           }
         }
       ],
@@ -624,7 +624,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 28000"
+            "command": "slash give exp @p 42000"
           }
         }
       ],
@@ -697,7 +697,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 37500"
+            "command": "slash give exp @p 56250"
           }
         }
       ],
@@ -740,7 +740,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 45000"
+            "command": "slash give exp @p 67500"
           }
         }
       ],
@@ -813,7 +813,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 5,
             "nbt": "{}"
           }
@@ -854,7 +854,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -915,17 +915,21 @@
     {
       "id": 20,
       "icon": "mmorpg:map_device",
-      "title": "I\u0027m The Map",
-      "text": "Maps give you access to another dimension. However, these map dimensions scale with your level and are full of mobs and bosses. They contain great loot and are useful to level in - especially from level 75+.",
+      "title": "End Game",
+      "text": "Congratulations. You\u0027re in the end game now! The max level is 99. Good luck!",
       "dependencies": [
-        8
+        97,
+        98,
+        99,
+        100,
+        106
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "ITEM_DELIVER",
           "sub_requirements": [
             {
-              "item": "mmorpg:map_device",
+              "item": "minecraft:diamond",
               "amount": 1,
               "nbt": "{}"
             }
@@ -934,22 +938,20 @@
       ],
       "rewards": [
         {
-          "type": "ITEMS",
+          "type": "COMMAND",
           "content": {
-            "item": "mmorpg:teleport_scroll",
-            "amount": 12,
-            "nbt": "{}"
+            "command": "slash give map @p 80 random 4 5 5"
           }
         },
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 8000"
+            "command": "slash give exp @p 1000000"
           }
         }
       ],
       "position": [
-        200,
+        150,
         100
       ]
     },
@@ -977,7 +979,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1018,7 +1020,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 20,
             "nbt": "{}"
           }
@@ -1059,7 +1061,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
+            "item": "mmorpg:ore2",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1114,7 +1116,7 @@
       ],
       "position": [
         0,
-        200
+        100
       ]
     },
     {
@@ -1155,7 +1157,7 @@
       ],
       "position": [
         50,
-        200
+        100
       ]
     },
     {
@@ -1196,7 +1198,7 @@
       ],
       "position": [
         100,
-        200
+        100
       ]
     },
     {
@@ -1237,7 +1239,7 @@
       ],
       "position": [
         150,
-        200
+        100
       ]
     },
     {
@@ -1278,7 +1280,7 @@
       ],
       "position": [
         200,
-        200
+        100
       ]
     },
     {
@@ -1345,7 +1347,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 2,
             "nbt": "{}"
           }
@@ -1582,6 +1584,38 @@
           }
         },
         {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:alchemy/instant/misc/reset_stats",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:alchemy/instant/misc/reset_spells",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:alchemy/instant/misc/reset_talents",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "quark:dragon_scale",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 500000"
@@ -1617,7 +1651,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1821,7 +1855,7 @@
       ],
       "position": [
         0,
-        250
+        200
       ]
     },
     {
@@ -1862,7 +1896,7 @@
       ],
       "position": [
         50,
-        250
+        200
       ]
     },
     {
@@ -1911,7 +1945,7 @@
       ],
       "position": [
         100,
-        250
+        200
       ]
     },
     {
@@ -1946,7 +1980,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 35000"
+            "command": "slash give exp @p 52500"
           }
         }
       ],
@@ -1978,7 +2012,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 3,
             "nbt": "{}"
           }
@@ -1986,7 +2020,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 37500"
+            "command": "slash give exp @p 56250"
           }
         }
       ],
@@ -2035,8 +2069,8 @@
         }
       ],
       "position": [
-        100,
-        100
+        150,
+        150
       ]
     },
     {
@@ -2045,7 +2079,7 @@
       "title": "Exploring Fiery Depths",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2070,7 +2104,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 35000"
+            "command": "slash give exp @p 105000"
           }
         }
       ],
@@ -2085,7 +2119,7 @@
       "title": "Squashing Bugs",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2110,7 +2144,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 25000"
+            "command": "slash give exp @p 75000"
           }
         }
       ],
@@ -2125,7 +2159,7 @@
       "title": "Burning Hides",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2150,7 +2184,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 30000"
+            "command": "slash give exp @p 90000"
           }
         }
       ],
@@ -2165,7 +2199,7 @@
       "title": "Heebie Jeebies",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2190,7 +2224,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 32500"
+            "command": "slash give exp @p 97500"
           }
         }
       ],
@@ -2205,7 +2239,7 @@
       "title": "Firebolt!",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2230,7 +2264,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 35000"
+            "command": "slash give exp @p 105000"
           }
         }
       ],
@@ -2245,7 +2279,7 @@
       "title": "And The Brain",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2270,7 +2304,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 30000"
+            "command": "slash give exp @p 90000"
           }
         }
       ],
@@ -2285,7 +2319,7 @@
       "title": "Finding The Source",
       "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
-        15
+        36
       ],
       "requirements": [
         {
@@ -2310,7 +2344,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 35000"
+            "command": "slash give exp @p 105000"
           }
         }
       ],
@@ -2360,7 +2394,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 100000"
+            "command": "slash give exp @p 300000"
           }
         }
       ],
@@ -3424,6 +3458,1269 @@
       "position": [
         0,
         0
+      ]
+    },
+    {
+      "id": 79,
+      "icon": "mmorpg:capacitor2",
+      "title": "Optimization Algorithms",
+      "text": "Putting capacitors into repair stations is a great way to be more efficient with your ores. Did you know better capacitors are even more efficient?",
+      "dependencies": [
+        6
+      ],
+      "requirements": [
+        {
+          "type": "CRAFTING_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:capacitor2",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 80,
+      "icon": "mmorpg:capacitor2",
+      "title": "The Master Bag",
+      "text": "Combining the three bag types will produce the master bag!",
+      "dependencies": [
+        9
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:master_bag",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 25000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 81,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary I",
+      "text": "Zoataur is a creature in the Overworld that spreads plague and disaster. It comes from the darkest depths of the void...",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:zoataur",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        250
+      ]
+    },
+    {
+      "id": 82,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary II",
+      "text": "The Cockatrice is a powerful flying creature that has found its way from the Overworld into The Bumblezone. It has been terrorizing the local bee populace and needs to be stopped!",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:cockatrice",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        250
+      ]
+    },
+    {
+      "id": 83,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary III",
+      "text": "This powerful and ancient dragon can be found in the Nether. The ignibus draws power from lava, and as a result, can be found residing in lava.",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:ignibus",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        250
+      ]
+    },
+    {
+      "id": 84,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary IV",
+      "text": "The remobra is a creature from the void that is hard to detect. Opportunistic creatures, they will strike when you least expect it. Travel to The End to find the remobra.",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:remobra",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        250
+      ]
+    },
+    {
+      "id": 85,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary V",
+      "text": "The uvaraptor is a creature that was able to slip into the Good Dream realm during a rift event. Although the uvaraptor\u0027s wings glisten like a rainbow, the creature originally came from The Midnight. Be careful when hunting these beautiful creatures.",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:uvaraptor",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        250
+      ]
+    },
+    {
+      "id": 86,
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary VI",
+      "text": "A grotesque beast that can only be found in The Midnight. The power this creature possesses is unfathomable.",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:morock",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        250
+      ]
+    },
+    {
+      "id": 87,
+      "icon": "sereneseasons:calendar",
+      "title": "What\u0027s The Date?",
+      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "sereneseasons:calendar",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:sweet_potato_seeds",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:pea_seeds",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 88,
+      "icon": "minecraft:milk_bucket",
+      "title": "Milkin\u0027 It",
+      "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket.",
+      "dependencies": [
+        87
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:milk_bucket",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:glass_bottle",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 89,
+      "icon": "simplefarming:cheese_slice",
+      "title": "Gouda Job!",
+      "text": "Cheese is used in a lot of recipes in Simple Farming. But you\u0027ll notice that there is no way to craft a cheese slice. That\u0027s because to get a cheese slice, you must place a wheel of cheese down and click it (similar to cake).",
+      "dependencies": [
+        88
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "simplefarming:cheese_block",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:cheeseburger",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 90,
+      "icon": "cookingforblockheads:recipe_book",
+      "title": "A Recipe For Disaster",
+      "text": "You\u0027re probably feeling overwhelmed by all the possible foods you can make. Don\u0027t worry! You can just farm and worry about cooking later with the recipe book \u0027Cooking for Blockheads I\u0027! By using the book, you can see which foods you can make with the things you have in your inventory.",
+      "dependencies": [
+        89
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "cookingforblockheads:recipe_book",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "cookingforblockheads:fruit_basket",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 91,
+      "icon": "cookingforblockheads:cabinet",
+      "title": "Food Storage",
+      "text": "With all the foods you have, you might need to look for a storage solution. Luckily, Cooking for Blockheads allows you to build a fully functional kitchen (did you know the sink provides infinite water!?).",
+      "dependencies": [
+        90
+      ],
+      "requirements": [
+        {
+          "type": "CRAFTING_DETECT",
+          "sub_requirements": [
+            {
+              "item": "cookingforblockheads:cabinet",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:honeydew_seeds",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 92,
+      "icon": "cookingforblockheads:oven",
+      "title": "Upgrading Your Kitchen",
+      "text": "It was mentioned before that you can upgrade your kitchen, so we\u0027re going to do exactly that. The oven enables smelting abilities in your kitchen - try it out!",
+      "dependencies": [
+        91
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "cookingforblockheads:oven",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_block",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        250,
+        0
+      ]
+    },
+    {
+      "id": 93,
+      "icon": "cookingforblockheads:no_filter_edition",
+      "title": "The Possibilities!",
+      "text": "While \u0027Cooking for Blockheads I\u0027 can be mighty useful, sometimes you just want to see all the available recipes (and without scouring JEI). You can make an unfiltered recipe book to look at available foods to cook!",
+      "dependencies": [
+        90
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "cookingforblockheads:no_filter_edition",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:cheese_block",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 94,
+      "icon": "cookingforblockheads:cooking_table",
+      "title": "Back To The Chopping Board",
+      "text": "The cooking table functions similar to the oven, but provides your kitchen with crafting abilities.",
+      "dependencies": [
+        92
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "cookingforblockheads:cooking_table",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "cookingforblockheads:spice_rack",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        300,
+        0
+      ]
+    },
+    {
+      "id": 95,
+      "icon": "usefulbackpacks:backpack_small",
+      "title": "I Can\u0027t Carry Anymore",
+      "text": "Sometimes you just want the good old fashioned travel storage solution.",
+      "dependencies": [],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "usefulbackpacks:backpack_small",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:diamond",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        0
+      ]
+    },
+    {
+      "id": 96,
+      "icon": "immersiveengineering:manual",
+      "title": "Your Engineering Degree",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Unfortunately the scope of the mod is very broad and it\u0027s unlikely that progression will be implemented for IE. However, IE happens to have a great engineer\u0027s manual which will provide you with all the information you need!",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "CRAFTING_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:manual",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_block",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 97,
+      "icon": "midnight:rifter_spawn_egg",
+      "title": "Rift Seeker",
+      "text": "Rifters are prominent in The Midnight. Perhaps killing them will give you a clue as to how to get back.",
+      "dependencies": [
+        78
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "midnight:rifter",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 625000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 98,
+      "icon": "midnight:nova_spawn_egg",
+      "title": "Richard Rider",
+      "text": "The nova is a creature that can be easily mistaken for ores. What even makes them float?",
+      "dependencies": [
+        78
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "midnight:nova",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 625000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": 99,
+      "icon": "midnight:stinger_spawn_egg",
+      "title": "This Ain\u0027t The Bumblezone",
+      "text": "These tiny scorpion-looking things have enough venom in their stingers to kill you in 10 seconds... If you don\u0027t do anything.",
+      "dependencies": [
+        78
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "midnight:stinger",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 625000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 100,
+      "icon": "midnight:skulk_spawn_egg",
+      "title": "From The Shadows",
+      "text": "Don\u0027t be deceived by the adorable look these creatures can give you. They say skulks bring more misfortune to those they cross than black cats. Be warned, skulks have the ability to blend with their surroundings.",
+      "dependencies": [
+        78
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "midnight:skulk",
+              "amount": 20
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:air",
+            "amount": 0,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 625000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 101,
+      "icon": "midnight:dark_stick",
+      "title": "Stick To The Basics",
+      "text": "You sense power emanating from everything - even the trees. Fetch some sticks and maybe the source of power can be analyzed.",
+      "dependencies": [
+        78
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:dark_stick",
+              "amount": 64,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 102,
+      "icon": "midnight:nightstone",
+      "title": "Obsidian?",
+      "text": "Nightstone is native to The Midnight. Rumours have it that if you stare into nightstone for too long, you\u0027ll succumb to eternal darkness.",
+      "dependencies": [
+        101
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:nightstone",
+              "amount": 64,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        200
+      ]
+    },
+    {
+      "id": 103,
+      "icon": "midnight:rockshroom_clump",
+      "title": "Bad Kind Of Shroom",
+      "text": "Rock on! These shrooms look radical... Let\u0027s bring some back for SCIENCE.",
+      "dependencies": [
+        102
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:rockshroom_clump",
+              "amount": 64,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        200
+      ]
+    },
+    {
+      "id": 104,
+      "icon": "midnight:ebonite_ore",
+      "title": "Midnight Rifts",
+      "text": "Ebonite ore literally stands for black ore. It\u0027s even darker than nightstone, so it\u0027s probably a good idea to grab what we need and leave.",
+      "dependencies": [
+        103
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:ebonite",
+              "amount": 48,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 105,
+      "icon": "midnight:nagrilite_ore",
+      "title": "Pitch Black",
+      "text": "Nagrilite possesses a unique characteristic: it\u0027s dark and shiny!",
+      "dependencies": [
+        104
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:nagrilite_ingot",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": 106,
+      "icon": "midnight:tenebrum_ore",
+      "title": "Tenebrum",
+      "text": "Tenebrum: darkness. Once forged, the darkness in this metal aborbs light, making it impervious to holy attacks.",
+      "dependencies": [
+        105
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DELIVER",
+          "sub_requirements": [
+            {
+              "item": "midnight:tenebrum_ingot",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        200
+      ]
+    },
+    {
+      "id": 107,
+      "icon": "mmorpg:map_device",
+      "title": "Mapping Device",
+      "text": "The mapping device opens portals to a dungeon realm. In this realm, you are unable to place or break blocks... So tread carefully. Always bring teleportation scrolls with you in case you get stuck! To use the mapping device, place it in an flat and open space. Fill it up with ores (fuel), then take the map in your hand and use it on the mapping device. Good luck!",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:map_device",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give map @p 80 random 0 0 3"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 50000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
       ]
     }
   ]

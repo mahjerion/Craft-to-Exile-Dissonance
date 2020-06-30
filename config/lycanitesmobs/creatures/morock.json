@@ -15,10 +15,10 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "midnight:midnight"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "plains",
       "savanna",
@@ -38,11 +38,11 @@
   "width": 2.8,
   "height": 1.8,
   "experience": 20,
-  "health": 180,
+  "health": 1800,
   "defense": 0,
   "armor": 0,
   "speed": 42,
-  "damage": 2,
+  "damage": 5,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,

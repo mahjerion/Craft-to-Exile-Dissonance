@@ -6,7 +6,7 @@
 	well_structure_rarity = 1
 	#The rarity of rift heap structures. Higher values increase rarity. When 0, rift structures are disabled. Default: 5
 	#Range: > 0
-	rift_structure_rarity = 5
+	rift_structure_rarity = 3
 	#The rarity of molten crater structures in the midnight. Higher values increase rarity. When 0, crater structures are disabled. Default: 1
 	#Range: > 0
 	crater_structure_rarity = 1

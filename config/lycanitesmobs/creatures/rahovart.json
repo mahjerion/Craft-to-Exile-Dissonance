@@ -16,7 +16,7 @@
       "minecraft:the_nether"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "nether"
     ],
@@ -149,6 +149,12 @@
       "item": "lycanitesmobs:wraithsigil",
       "minAmount": 1,
       "maxAmount": 1,
+      "chance": 1
+    },
+    {
+      "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+      "minAmount": 1,
+      "maxAmount": 3,
       "chance": 1
     }
   ],

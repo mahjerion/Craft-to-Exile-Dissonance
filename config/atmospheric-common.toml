@@ -4,10 +4,10 @@
 
 	#Values for biome frequencies; lower = more rare. (Requires restart)
 	[common.biomeWeights]
-		#The frequency of Rosewood Forests; Default: 2
-		rosewoodForestWeight = 2
 		#The frequency of Dunes; Default: 5
 		dunesWeight = 3
 		#The frequency of Rocky Dunes; Default: 4
 		rockyDunesWeight = 2
+		#The frequency of Rosewood Forests; Default: 2
+		rosewoodForestWeight = 2
 

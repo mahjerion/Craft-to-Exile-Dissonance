@@ -233,7 +233,7 @@
 	#If true, when new world chunks are generated, no mobs from this mod will pre-spawn (mobs will still attempt to spawn randomly afterwards). Set this to true if you are removing mobs from vanilla dimensions as the vanilla WorldGen spawning ignores mob spawn conditions.
 	ignoreWorldGenSpawning = false
 	#A global comma separated list of dimension ids that overrides every other spawn setting in both the configs and json spawners. Use this to quickly stop all mobs from spawning in certain dimensions, etc.
-	globalDimensionList = ""
+	globalDimensionList = "mmorpg:resettable_dungeon"
 	#If set to true the global dimension list acts as a whitelist, otherwise it is a blacklist.
 	globalDimensionWhitelist = false
 	#If true, mobs will double check if their required blocks are nearby, such as Cinders needing so many blocks of fire.

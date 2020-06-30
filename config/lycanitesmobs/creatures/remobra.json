@@ -15,19 +15,20 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:the_end"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "swamp",
-      "spooky"
+      "spooky",
+	  "end"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 1,
     "dungeonWeight": 200,
-    "spawnAreaLimit": 5,
+    "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 2,
+    "spawnGroupMax": 1,
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,
@@ -37,10 +38,10 @@
   "width": 0.8,
   "height": 1.2,
   "experience": 10,
-  "health": 10,
+  "health": 500,
   "defense": 0,
   "armor": 0,
-  "speed": 32,
+  "speed": 36,
   "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,

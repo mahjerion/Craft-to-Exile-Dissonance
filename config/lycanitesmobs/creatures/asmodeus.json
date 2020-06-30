@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAsmodeus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAsmodeus",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -16,7 +16,7 @@
       "minecraft:the_nether"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "nether"
     ],
@@ -34,8 +34,8 @@
   "width": 20.0,
   "height": 21.0,
   "experience": 10000,
-  "health": 4000,
-  "defense": 2,
+  "health": 6000,
+  "defense": 0,
   "armor": 0,
   "speed": 32,
   "damage": 2,
@@ -165,6 +165,12 @@
       "item": "lycanitesmobs:wraithsigil",
       "minAmount": 1,
       "maxAmount": 1,
+      "chance": 1
+    },
+    {
+      "item": "mmorpg:lootbox/medium_currency_lootbox_3",
+      "minAmount": 1,
+      "maxAmount": 3,
       "chance": 1
     }
   ],

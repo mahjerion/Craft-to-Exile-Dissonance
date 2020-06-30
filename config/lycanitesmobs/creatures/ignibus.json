@@ -14,8 +14,10 @@
       "lava"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [
+		"minecraft:the_nether"
+	],
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "all"
@@ -34,11 +36,11 @@
   "width": 8.9,
   "height": 8.9,
   "experience": 30,
-  "health": 700,
+  "health": 1400,
   "defense": 0,
   "armor": 0,
-  "speed": 24,
-  "damage": 4,
+  "speed": 27,
+  "damage": 7,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,

@@ -15,10 +15,10 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "goodnightsleep:nightmare"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "sandy",
       "wasteland",

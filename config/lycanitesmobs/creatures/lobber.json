@@ -14,8 +14,10 @@
       "lava"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [
+		"goodnightsleep:nightmare"
+	],
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "all"

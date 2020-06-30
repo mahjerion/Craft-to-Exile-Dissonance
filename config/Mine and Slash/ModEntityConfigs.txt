@@ -1,17 +1,82 @@
 {
   "specificMobs": {
-    "mob_id": {
-      "LOOT_MULTI": 1.0,
-      "EXP_MULTI": 2.0,
-      "MIN_RARITY": 0,
+    "lycanitesmobs:zoataur": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
       "MAX_RARITY": 4,
-      "MIN_LEVEL": 0,
+      "MIN_LEVEL": 70,
       "MAX_LEVEL": 2147483647,
-      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.0,
-      "STAT_MULTI": 1.0
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
+    },
+    "lycanitesmobs:cockatrice": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 2.0,
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
+    },
+    "lycanitesmobs:ignibus": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 2.0,
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
+    },
+    "lycanitesmobs:remobra": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 2.0,
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
+    },
+    "lycanitesmobs:uvaraptor": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 2.0,
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
+    },
+    "lycanitesmobs:morock": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 2.0,
+      "HP_MULTI": 4.0,
+      "STAT_MULTI": 1.5
     }
   },
   "byEntityTypeDefault": {
@@ -25,7 +90,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 4.0,
       "STAT_MULTI": 1.0
     },
     "MOB": {
@@ -38,7 +103,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 4.0,
       "STAT_MULTI": 1.0
     },
     "PLAYER": {
@@ -51,7 +116,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 4.0,
       "STAT_MULTI": 1.0
     },
     "ANIMAL": {
@@ -82,9 +147,9 @@
     }
   },
   "allMobsInAMod": {
-    "lycanitemobs": {
+    "lycanitesmobs": {
       "LOOT_MULTI": 1.0,
-      "EXP_MULTI": 2.0,
+      "EXP_MULTI": 2.25,
       "MIN_RARITY": 0,
       "MAX_RARITY": 4,
       "MIN_LEVEL": 0,
@@ -92,8 +157,8 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.0,
-      "STAT_MULTI": 1.0
+      "HP_MULTI": 1.05,
+      "STAT_MULTI": 1.05
     }
   }
 }

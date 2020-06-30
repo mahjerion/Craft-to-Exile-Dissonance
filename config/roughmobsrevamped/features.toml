@@ -41,7 +41,7 @@
 	#Range: 0 ~ 32767
 	Spider_StartRidingChance = 10
 	#Set this to false to prevent spiders from creating webs on slowed targets.
-	Spider_SlownessWeb = true
+	Spider_SlownessWeb = false
 	#Chance (1 in X) for a spider to spawn with another entity riding it.
 	#Set to 0 to disable this feature.
 	#Range: 0 ~ 32767

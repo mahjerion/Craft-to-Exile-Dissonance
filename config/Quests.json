@@ -2042,11 +2042,11 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:pig",
+              "entity": "minecolonies:chiefbarbarian",
               "amount": 1
             },
             {
-              "entity": "minecraft:pig",
+              "entity": "minecolonies:barbarian",
               "amount": 10
             }
           ]
@@ -4068,7 +4068,7 @@
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_block",
-            "amount": 3,
+            "amount": 1,
             "nbt": "{}"
           }
         },

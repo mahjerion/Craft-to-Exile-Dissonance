@@ -90,7 +90,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 4.0,
+      "HP_MULTI": 1.5,
       "STAT_MULTI": 1.0
     },
     "MOB": {
@@ -103,7 +103,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 4.0,
+      "HP_MULTI": 1.5,
       "STAT_MULTI": 1.0
     },
     "PLAYER": {
@@ -115,8 +115,8 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 2.0,
-      "HP_MULTI": 4.0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
     "ANIMAL": {

@@ -31,4 +31,4 @@ craftingTable.removeRecipe(<item:mmorpg:teleport_scroll>);
 craftingTable.addShapeless("teleport_scroll", <item:mmorpg:teleport_scroll> * 4, [<item:waystones:return_scroll> * 3, <item:mmorpg:ore3>]);
 
 craftingTable.removeRecipe(<item:mmorpg:identify_tome>);
-craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<item:minecraft:book:>, <item:mmorpg:ore2>]);
+craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<item:minecraft:book>, <item:mmorpg:ore2>]);

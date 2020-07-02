@@ -23,7 +23,7 @@
 [General]
 	#The weight that hempseeds have when breaking tall grass. 5 by default, set to 0 to disable drops
 	#Range: > 0
-	hempSeedWeight = 5
+	hempSeedWeight = 10
 	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.
 	enableDebug = false
 	#Set this to false to hide the update news in the manual

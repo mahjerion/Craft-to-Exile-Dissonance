@@ -147,7 +147,7 @@
       "id": 3,
       "icon": "minecraft:bee_nest",
       "title": "The Bumblezone",
-      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 40, The Bumblezone is a recommended zone for level 10-25. The recommended levels for each dimension in Craft to Exile can be seen on the left of the progression log. To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
+      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 40, The Bumblezone is a recommended zone for level 10-25. The recommended levels for each dimension are as follows: Overworld (1-40), The Bumblezone (11-25), Nether (20-35), The End (35-40), Good Night\u0027s Sleep (40-65), Midnight (60-75), Maps (40-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
       "dependencies": [
         2
       ],
@@ -280,7 +280,7 @@
       "id": 6,
       "icon": "mmorpg:repair_station",
       "title": "Broken Swords",
-      "text": "With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are very inefficient.",
+      "text": "With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores.",
       "dependencies": [
         4
       ],
@@ -686,7 +686,7 @@
               "nbt": "{}"
             },
             {
-              "item": "beesourceful:quartz_honeycomb",
+              "item": "minecraft:honey_bottle",
               "amount": 1,
               "nbt": "{}"
             }
@@ -3484,8 +3484,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:ore2",
+            "amount": 3,
             "nbt": "{}"
           }
         },
@@ -3511,7 +3511,7 @@
     },
     {
       "id": 80,
-      "icon": "mmorpg:capacitor2",
+      "icon": "mmorpg:master_bag",
       "title": "The Master Bag",
       "text": "Combining the three bag types will produce the master bag!",
       "dependencies": [
@@ -3533,8 +3533,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_4",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3573,8 +3573,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3613,8 +3613,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3653,8 +3653,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3693,8 +3693,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3733,8 +3733,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -3773,8 +3773,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -4301,8 +4301,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -4341,8 +4341,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -4381,8 +4381,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -4421,8 +4421,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:air",
-            "amount": 0,
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
             "nbt": "{}"
           }
         },
@@ -4721,6 +4721,193 @@
       "position": [
         50,
         100
+      ]
+    },
+    {
+      "id": 108,
+      "icon": "immersiveengineering:seed",
+      "title": "The Grand Hempening",
+      "text": "Hemp is vital to starting Immersive Engineering. You can craft hemp seeds using wheat and a gold ingot.",
+      "dependencies": [
+        96
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:seed",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "immersiveengineering:plate_steel",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        200
+      ]
+    },
+    {
+      "id": 109,
+      "icon": "minecraft:iron_chestplate",
+      "title": "Crafting Equipment",
+      "text": "In Craft to Exile, it is possible to craft equipment. Feel free to craft equipment if you\u0027re in a bind.",
+      "dependencies": [
+        6
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:iron_helmet",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "minecraft:iron_chestplate",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "minecraft:iron_leggings",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "minecraft:iron_boots",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "immersiveengineering:sword_steel",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:crossbow",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 3000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 110,
+      "icon": "minecraft:shield",
+      "title": "Shield Hero",
+      "text": "In Craft to Exile, you can craft shields if you need an offhand in a pinch.",
+      "dependencies": [
+        95
+      ],
+      "requirements": [
+        {
+          "type": "CRAFTING_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecraft:shield",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 15,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        250,
+        50
+      ]
+    },
+    {
+      "id": 111,
+      "icon": "the_bumblezone:honey_crystal_shield",
+      "title": "Sweet Retribution",
+      "text": "The honey crystal shield is unique to The Bumblezone and should suffice!",
+      "dependencies": [
+        14
+      ],
+      "requirements": [
+        {
+          "type": "CRAFTING_DETECT",
+          "sub_requirements": [
+            {
+              "item": "the_bumblezone:honey_crystal_shield",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 25,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 60000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
       ]
     }
   ]

@@ -32,10 +32,10 @@
 	[server.globalWaystones]
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 2.0
+		globalWaystonesXpCostMultiplier = 3.0
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
-		globalWaystoneCooldownMultiplier = 2.0
+		globalWaystoneCooldownMultiplier = 3.0
 		#Set to false to allow non-creative players to make waystones globally activated.
 		globalWaystoneRequiresCreative = false
 
@@ -55,7 +55,7 @@
 	[server.scrolls]
 		#The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
 		#Range: 1 ~ 127
-		scrollUseTime = 32
+		scrollUseTime = 16
 
 	#These options apply to teleporting between dimensions.
 	[server.dimensionalWarp]
@@ -71,7 +71,7 @@
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
 		restrictRenameToOwner = false
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
-		restrictToCreative = false
+		restrictToCreative = true
 		#If enabled, waystones generated in worldgen are unbreakable.
 		generatedWaystonesUnbreakable = true
 

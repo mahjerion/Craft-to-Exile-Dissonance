@@ -3,9 +3,9 @@
 ["Spawn Conditions"]
 	#Set the minimum distance from the world spawn before a Rough Mob can spawn.
 	#Range: 0 ~ 32767
-	Min_Distance_From_Spawn = 100
+	Min_Distance_From_Spawn = 300
 	#Enable this to require Rough Mobs be underground in order to spawn.
-	Spawn_Underground = false
+	Spawn_Underground = true
 	#Set maximum height for Rough Mobs to spawn. Works in conjunction with MustBeUnderground.
 	#Range: 0 ~ 256
 	Max_Spawn_Height = 256

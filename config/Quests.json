@@ -179,6 +179,12 @@
           "content": {
             "command": "slash give exp @p 1000"
           }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "gamestage add @a roughmobsequip (silent)"
+          }
         }
       ],
       "position": [
@@ -741,6 +747,18 @@
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 67500"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "gamestage add @a roughmobsabil (silent)"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "gamestage add @a roughmobsenchant (silent)"
           }
         }
       ],
@@ -1512,6 +1530,12 @@
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 100000"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "gamestage add @a roughmobsboss (silent)"
           }
         }
       ],

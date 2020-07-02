@@ -11,10 +11,10 @@
 	GameStages_Enchantments = false
 	#Require this Game Stage to allow all Rough Mobs stages be given at once.
 	GameStages_AllStages = false
-
+#/gamestage add @p roughmobsequip
+	
 #Config options for enabling/disabling Serene Seasons support.
 ["Serene Seasons"]
 	#Whitelist of all seasons that Rough Mobs can spawn in.
 	#Default Seasons: SUMMER, AUTUMN, WINTER, SPRING
 	Season_Whitelist = ["SUMMER", "AUTUMN", "WINTER", "SPRING"]
-

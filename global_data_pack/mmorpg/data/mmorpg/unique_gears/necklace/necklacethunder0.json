@@ -1,0 +1,24 @@
+{
+  "id": "necklacethunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklacethunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacethunder0.desc",
+  "primary_stats": [
+    "spell_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "thunder_spell_to_attack_dmg_flat",
+    "very_high_strength_flat",
+    "energy_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.5,
+    "intelligence": 0.75
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklacethunder0"
+}

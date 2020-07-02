@@ -1,0 +1,23 @@
+{
+  "id": "bootsnature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.bootsnature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.bootsnature0.desc",
+  "primary_stats": [
+    "high_health_flat"
+  ],
+  "unique_stats": [
+    "high_health_percent",
+    "high_mana_regen_flat",
+    "nature_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.75
+  },
+  "gear_type": "plate_boots",
+  "item_id": "mmorpg:uniques/boots/bootsnature0"
+}

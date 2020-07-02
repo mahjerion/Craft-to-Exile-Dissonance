@@ -1,0 +1,23 @@
+{
+  "id": "ringdodge0",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.ringdodge0",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.ringdodge0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "high_dodge_flat",
+    "nature_resist_flat",
+    "bow_damage_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "ring",
+  "item_id": "mmorpg:uniques/ring/ringdodge0"
+}

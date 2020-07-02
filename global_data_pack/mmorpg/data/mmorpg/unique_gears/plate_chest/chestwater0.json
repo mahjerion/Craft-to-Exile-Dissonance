@@ -1,0 +1,24 @@
+{
+  "id": "chestwater0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.chestwater0",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.chestwater0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "high_water_penetration_flat",
+    "high_armor_flat",
+    "stamina_flat",
+    "plus_ocean_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "plate_chest",
+  "item_id": "mmorpg:uniques/chest/chestwater0"
+}

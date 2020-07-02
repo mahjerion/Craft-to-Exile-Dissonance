@@ -1,0 +1,23 @@
+{
+  "id": "helmetwater0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.helmetwater0",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetwater0.desc",
+  "primary_stats": [
+    "spell_water_damage_flat"
+  ],
+  "unique_stats": [
+    "water_resist_flat",
+    "mana_regen_flat",
+    "energy_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 1.0
+  },
+  "gear_type": "plate_helmet",
+  "item_id": "mmorpg:uniques/helmet/helmetwater0"
+}

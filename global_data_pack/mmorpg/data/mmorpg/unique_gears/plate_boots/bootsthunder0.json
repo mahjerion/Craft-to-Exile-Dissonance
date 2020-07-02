@@ -1,0 +1,24 @@
+{
+  "id": "bootsthunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.bootsthunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.bootsthunder0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "hammer_damage_flat",
+    "thunder_spell_to_attack_dmg_flat",
+    "critical_damage_percent",
+    "thunder_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.75
+  },
+  "gear_type": "plate_boots",
+  "item_id": "mmorpg:uniques/boots/bootsthunder0"
+}

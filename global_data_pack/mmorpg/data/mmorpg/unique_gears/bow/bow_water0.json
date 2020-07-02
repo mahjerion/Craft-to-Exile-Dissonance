@@ -1,0 +1,23 @@
+{
+  "id": "bow_water0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bow.bow_water0",
+  "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_water0.desc",
+  "primary_stats": [
+    "attack_water_damage_flat"
+  ],
+  "unique_stats": [
+    "dexterity_flat",
+    "water_spell_to_attack_dmg_flat",
+    "very_high_critical_hit_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "bow",
+  "item_id": "mmorpg:uniques/bow/bow_water0"
+}

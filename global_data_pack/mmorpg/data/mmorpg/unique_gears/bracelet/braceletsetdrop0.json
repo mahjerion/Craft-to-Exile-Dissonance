@@ -1,0 +1,22 @@
+{
+  "id": "braceletsetdrop0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.braceletsetdrop0",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletsetdrop0.desc",
+  "primary_stats": [
+    "spell_damage_flat"
+  ],
+  "unique_stats": [
+    "bonus_unique_item_drops_flat"
+  ],
+  "can_get_set": true,
+  "requirements": {
+    "stamina": 0.75,
+    "wisdom": 0.5
+  },
+  "gear_type": "bracelet",
+  "item_id": "mmorpg:uniques/bracelet/braceletsetdrop0"
+}

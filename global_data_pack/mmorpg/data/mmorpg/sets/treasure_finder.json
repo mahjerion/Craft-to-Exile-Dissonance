@@ -1,0 +1,21 @@
+{
+  "id": "treasure_finder",
+  "weight": 200555,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.treasure_finder",
+  "requirements": {
+    "list": [
+      {
+        "possible_uniques": [
+          "necklacesetdrop0",
+          "braceletsetdrop0"
+        ]
+      }
+    ]
+  },
+  "mods": {
+    "2": "bonus_all_drops_flat"
+  }
+}

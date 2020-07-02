@@ -1,0 +1,24 @@
+{
+  "id": "helmetfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.helmetfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetfire0.desc",
+  "primary_stats": [
+    "spell_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "high_armor_flat",
+    "high_energy_regen_flat",
+    "fire_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.5,
+    "intelligence": 0.75
+  },
+  "gear_type": "plate_helmet",
+  "item_id": "mmorpg:uniques/helmet/helmetfire0"
+}

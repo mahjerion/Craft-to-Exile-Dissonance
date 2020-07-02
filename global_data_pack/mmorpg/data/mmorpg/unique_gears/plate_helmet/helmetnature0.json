@@ -1,0 +1,23 @@
+{
+  "id": "helmetnature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.helmetnature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetnature0.desc",
+  "primary_stats": [
+    "spell_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "very_high_health_regen_flat",
+    "very_high_health_percent",
+    "nature_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 1.0
+  },
+  "gear_type": "plate_helmet",
+  "item_id": "mmorpg:uniques/helmet/helmetnature0"
+}

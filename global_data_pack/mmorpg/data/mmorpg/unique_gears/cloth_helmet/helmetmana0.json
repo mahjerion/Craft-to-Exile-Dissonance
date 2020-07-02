@@ -1,0 +1,23 @@
+{
+  "id": "helmetmana0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.helmetmana0",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetmana0.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "high_mana_flat",
+    "high_mana_regen_flat",
+    "staff_damage_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 1.0
+  },
+  "gear_type": "cloth_helmet",
+  "item_id": "mmorpg:uniques/helmet/helmetmana0"
+}

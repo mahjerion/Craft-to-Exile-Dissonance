@@ -4768,7 +4768,7 @@
       "id": 109,
       "icon": "minecraft:iron_chestplate",
       "title": "Crafting Equipment",
-      "text": "In Craft to Exile, it is possible to craft equipment. Feel free to craft equipment if you\u0027re in a bind.",
+      "text": "In Craft to Exile, it is possible to craft equipment. Feel free to craft equipment if you\u0027re in a bind. Crafted equipment follow a progression system as well. In general, equipment from stronger dimensions are for higher levels. For more information please visit the wiki.",
       "dependencies": [
         6
       ],
@@ -4832,7 +4832,7 @@
       "id": 110,
       "icon": "minecraft:shield",
       "title": "Shield Hero",
-      "text": "In Craft to Exile, you can craft shields if you need an offhand in a pinch.",
+      "text": "In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield.",
       "dependencies": [
         95
       ],
@@ -4873,7 +4873,7 @@
       "id": 111,
       "icon": "the_bumblezone:honey_crystal_shield",
       "title": "Sweet Retribution",
-      "text": "The honey crystal shield is unique to The Bumblezone and should suffice!",
+      "text": "The honey crystal shield is unique to The Bumblezone and should suffice up until level 40 (you'll need to craft a new one every few levels)!",
       "dependencies": [
         14
       ],

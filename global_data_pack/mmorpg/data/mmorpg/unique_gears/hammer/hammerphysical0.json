@@ -1,0 +1,23 @@
+{
+  "id": "hammerphysical0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.hammer.hammerphysical0",
+  "lang_file_desc_string": "item.mmorpg.uniques.hammer.hammerphysical0.desc",
+  "primary_stats": [
+    "physical_damage_flat"
+  ],
+  "unique_stats": [
+    "armor_penetration_flat",
+    "critical_hit_percent",
+    "critical_damage_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 1.0
+  },
+  "gear_type": "hammer",
+  "item_id": "mmorpg:uniques/hammer/hammerphysical0"
+}

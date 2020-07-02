@@ -1,0 +1,24 @@
+{
+  "id": "necklacenature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklacenature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacenature0.desc",
+  "primary_stats": [
+    "spell_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "health_flat",
+    "mana_flat",
+    "energy_flat",
+    "magic_steal_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 1.0
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklacenature0"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chestthunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.chestthunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.chestthunder0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "high_armor_flat",
+    "thunder_resist_flat",
+    "spell_thunder_damage_flat",
+    "plus_storm_skill_lvls_flat",
+    "plus_thunder_storm_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "plate_chest",
+  "item_id": "mmorpg:uniques/chest/chestthunder0"
+}

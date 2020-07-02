@@ -1,0 +1,23 @@
+{
+  "id": "bootsfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.bootsfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.bootsfire0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "axe_damage_flat",
+    "fire_spell_to_attack_dmg_flat",
+    "critical_damage_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75
+  },
+  "gear_type": "plate_boots",
+  "item_id": "mmorpg:uniques/boots/bootsfire0"
+}

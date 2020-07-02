@@ -1,0 +1,22 @@
+{
+  "id": "shield_wisdom0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.shield.shield_wisdom0",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.shield_wisdom0.desc",
+  "primary_stats": [
+    "block_strength_flat"
+  ],
+  "unique_stats": [
+    "high_wisdom_flat",
+    "magic_shield_flat"
+  ],
+  "can_get_set": true,
+  "requirements": {
+    "wisdom": 1.0
+  },
+  "gear_type": "shield",
+  "item_id": "mmorpg:uniques/shield/shield_wisdom0"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "chestfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.chestfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.chestfire0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "fire_resist_flat",
+    "spell_fire_damage_flat",
+    "much_less_water_resist_flat",
+    "plus_fire_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "plate_chest",
+  "item_id": "mmorpg:uniques/chest/chestfire0"
+}

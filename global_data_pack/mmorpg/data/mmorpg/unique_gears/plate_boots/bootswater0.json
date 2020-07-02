@@ -1,0 +1,23 @@
+{
+  "id": "bootswater0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.bootswater0",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.bootswater0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "sword_damage_flat",
+    "high_water_spell_to_attack_dmg_flat",
+    "water_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.75
+  },
+  "gear_type": "plate_boots",
+  "item_id": "mmorpg:uniques/boots/bootswater0"
+}

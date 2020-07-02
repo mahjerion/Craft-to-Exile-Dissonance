@@ -1,0 +1,25 @@
+{
+  "id": "uniquestafffire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.staff.uniquestafffire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestafffire0.desc",
+  "primary_stats": [
+    "attack_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "critical_damage_flat",
+    "fire_penetration_flat",
+    "life_on_hit_flat",
+    "plus_fireball_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.5,
+    "intelligence": 0.75
+  },
+  "gear_type": "staff",
+  "item_id": "mmorpg:uniques/staff/uniquestafffire0"
+}

@@ -179,12 +179,6 @@
           "content": {
             "command": "slash give exp @p 1000"
           }
-        },
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "gamestage add @a roughmobsequip (silent)"
-          }
         }
       ],
       "position": [
@@ -748,18 +742,6 @@
           "content": {
             "command": "slash give exp @p 67500"
           }
-        },
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "gamestage add @a roughmobsabil (silent)"
-          }
-        },
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "gamestage add @a roughmobsenchant (silent)"
-          }
         }
       ],
       "position": [
@@ -1111,7 +1093,7 @@
             {
               "item": "minecraft:fishing_rod",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -1122,7 +1104,7 @@
           "content": {
             "item": "aquaculture:worm",
             "amount": 3,
-            "nbt": "{Damage:0}"
+            "nbt": "{}"
           }
         },
         {
@@ -1204,7 +1186,7 @@
           "content": {
             "item": "aquaculture:worm",
             "amount": 3,
-            "nbt": "{Damage:0}"
+            "nbt": "{}"
           }
         },
         {
@@ -1234,7 +1216,7 @@
             {
               "item": "aquaculture:iron_fishing_rod",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -1530,12 +1512,6 @@
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 100000"
-          }
-        },
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "gamestage add @a roughmobsboss (silent)"
           }
         }
       ],
@@ -1856,7 +1832,7 @@
             {
               "item": "waystones:warp_stone",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -4803,22 +4779,22 @@
             {
               "item": "minecraft:iron_helmet",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             },
             {
               "item": "minecraft:iron_chestplate",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             },
             {
               "item": "minecraft:iron_leggings",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             },
             {
               "item": "minecraft:iron_boots",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -4829,7 +4805,7 @@
           "content": {
             "item": "immersiveengineering:sword_steel",
             "amount": 1,
-            "nbt": "{Damage:0}"
+            "nbt": "{}"
           }
         },
         {
@@ -4837,7 +4813,7 @@
           "content": {
             "item": "minecraft:crossbow",
             "amount": 1,
-            "nbt": "{Damage:0}"
+            "nbt": "{}"
           }
         },
         {
@@ -4867,7 +4843,7 @@
             {
               "item": "minecraft:shield",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -4908,7 +4884,7 @@
             {
               "item": "the_bumblezone:honey_crystal_shield",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }

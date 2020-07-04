@@ -11,7 +11,7 @@
 		generate = true
 		#Castle Spawn Chance [default: 0.5]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.5
+		spawn_chance = 0.6
 		#Castle Distance (in chunks) [default: 40]
 		#Range: 1 ~ 500
 		distance = 40
@@ -24,7 +24,7 @@
 		generate = true
 		#Castle Ruin Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
+		spawn_chance = 0.7
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
 		distance = 35
@@ -37,7 +37,7 @@
 		generate = true
 		#Desert House Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.8
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30
@@ -50,7 +50,7 @@
 		generate = true
 		#Forge Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.8
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30
@@ -63,7 +63,7 @@
 		generate = true
 		#Player House Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.8
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30
@@ -76,7 +76,7 @@
 		generate = true
 		#Small Dungeon Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.8
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30

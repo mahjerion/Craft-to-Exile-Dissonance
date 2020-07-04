@@ -13,7 +13,7 @@
 	shield_probability = 0.25
 	#The size of the dungeons. (1 unit = 8 blocks)
 	#Range: 4 ~ 16
-	size = 16
+	size = 12
 	#If set to true, the dungeon generation will ignore the biome blacklist and generate dungeons in any overworld biome.
 	ignore_overworld_blacklist = false
 	#Defines if bridges should be used in dungeons. (Bridges are built if there is a certain amout of air under a corridor segment.
@@ -37,7 +37,7 @@
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.26
+	dungeon_probability = 0.15
 	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
 	ignore_dimension = false
 

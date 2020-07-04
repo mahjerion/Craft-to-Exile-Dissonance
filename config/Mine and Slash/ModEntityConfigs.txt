@@ -10,7 +10,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "lycanitesmobs:cockatrice": {
@@ -23,7 +23,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "lycanitesmobs:ignibus": {
@@ -36,7 +36,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "lycanitesmobs:remobra": {
@@ -49,7 +49,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "lycanitesmobs:uvaraptor": {
@@ -62,7 +62,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "lycanitesmobs:morock": {
@@ -75,7 +75,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 2.0,
-      "HP_MULTI": 1.5,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     }
   },

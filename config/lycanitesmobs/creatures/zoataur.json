@@ -21,10 +21,7 @@
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
-      "plains",
-      "savanna",
-      "sandy",
-      "wasteland",
+      "wasteland"
       "mesa",
       "-snowy",
       "-cold"

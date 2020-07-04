@@ -3470,7 +3470,7 @@
       ],
       "requirements": [
         {
-          "type": "CRAFTING_DETECT",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
               "item": "mmorpg:capacitor2",
@@ -4004,7 +4004,7 @@
       ],
       "requirements": [
         {
-          "type": "CRAFTING_DETECT",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
               "item": "cookingforblockheads:cabinet",
@@ -4239,7 +4239,7 @@
       ],
       "requirements": [
         {
-          "type": "CRAFTING_DETECT",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
               "item": "immersiveengineering:manual",
@@ -4838,7 +4838,7 @@
       ],
       "requirements": [
         {
-          "type": "CRAFTING_DETECT",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
               "item": "minecraft:shield",
@@ -4879,7 +4879,7 @@
       ],
       "requirements": [
         {
-          "type": "CRAFTING_DETECT",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
               "item": "the_bumblezone:honey_crystal_shield",

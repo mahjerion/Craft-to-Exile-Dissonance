@@ -1,0 +1,34 @@
+{
+  "veins": [],
+  "auto_entries": {
+    "whitelist": {
+      "blocks": [
+        {
+          "name": "minecraft:andesite"
+        },
+        {
+          "name": "minecraft:diorite"
+        },
+        {
+          "name": "minecraft:granite"
+        },
+        {
+          "name": "minecraft:dirt"
+        },
+        {
+          "name": "minecraft:gravel"
+        }
+      ],
+      "tags": [
+        "forge:ores"
+      ]
+    },
+    "blacklist": {
+      "blocks": [],
+      "tags": [
+        "forge:ores/quartz"
+      ],
+      "mods": []
+    }
+  }
+}

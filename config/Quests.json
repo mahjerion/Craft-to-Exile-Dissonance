@@ -68,8 +68,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:zombie",
-              "amount": 3
+              "entity": "minecraft:skeleton",
+              "amount": 2
             }
           ]
         }
@@ -109,11 +109,11 @@
           "sub_requirements": [
             {
               "entity": "minecraft:zombie",
-              "amount": 6
+              "amount": 2
             },
             {
               "entity": "minecraft:skeleton",
-              "amount": 2
+              "amount": 4
             },
             {
               "entity": "minecraft:creeper",
@@ -160,7 +160,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -723,7 +723,7 @@
               "x": 0,
               "y": 100,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -1537,7 +1537,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -1764,7 +1764,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -1799,7 +1799,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -1821,7 +1821,7 @@
       "id": 42,
       "icon": "waystones:warp_stone",
       "title": "Point The Way",
-      "text": "Waystones is a mod that allows the player to set up waystones. These waystones can be teleported to from each other, or by using warp stones or scrolls. This will take care of the leg work!",
+      "text": "Waystones is a mod that allows the player to teleport between waystones using warp stones or scrolls. They can be found naturally spawning around the world in large towers. It is possible to rename or configure the waystone into a global waystone. Global waystones can be teleported to interdimensionally. The warp stone allows you to teleport to any waystone at a cost. It has a longer cooldown than using scrolls.",
       "dependencies": [
         0
       ],
@@ -1860,9 +1860,9 @@
     },
     {
       "id": 43,
-      "icon": "waystones:waystone",
+      "icon": "waystones:return_scroll",
       "title": "Show Me The Way",
-      "text": "Craft and place your first waystone. Right click the waystone to access it. You can set the waystone to be a global waystone but the cost of teleportation to the waystone will be greater. Global waystones can be teleported to from any dimension!",
+      "text": "Scrolls are a fast way of teleporting to a waystone. They are one-time use, but cheaper and faster than warp stones.",
       "dependencies": [
         42
       ],
@@ -1871,8 +1871,8 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "waystones:waystone",
-              "amount": 1,
+              "item": "waystones:return_scroll",
+              "amount": 3,
               "nbt": "{}"
             }
           ]
@@ -3442,7 +3442,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 5000
+              "radius": 2500
             }
           ]
         }
@@ -4832,7 +4832,7 @@
       "id": 110,
       "icon": "minecraft:shield",
       "title": "Shield Hero",
-      "text": "In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield.",
+      "text": "In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -\u003e honey crystal shield -\u003e heavy plated shield -\u003e rockshroom shield.",
       "dependencies": [
         95
       ],
@@ -4873,7 +4873,7 @@
       "id": 111,
       "icon": "the_bumblezone:honey_crystal_shield",
       "title": "Sweet Retribution",
-      "text": "The honey crystal shield is unique to The Bumblezone and should suffice up until level 40 (you'll need to craft a new one every few levels)!",
+      "text": "The honey crystal shield is unique to The Bumblezone and should suffice up until level 40 (you\u0027ll need to craft a new one every few levels)!",
       "dependencies": [
         14
       ],
@@ -4908,6 +4908,92 @@
       "position": [
         150,
         50
+      ]
+    },
+    {
+      "id": 112,
+      "icon": "minecraft:iron_pickaxe",
+      "title": "Caves",
+      "text": "The Caves are an endless cave that can be accessed by crafting a portal out of mossy stone and using an emerald on it (similar to the Nether portal and flint and steel). It's recommended that you're at least level 35 before entering the Caves.",
+      "dependencies": [
+        35
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "cavern:cavern",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 2500
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_pickaxe",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 50000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        150
+      ]
+    },
+    {
+      "id": 113,
+      "icon": "minecraft:diamond_pickaxe",
+      "title": "Caves II",
+      "text": "The Caves II are a larger endless cave that can be accessed by crafting a portal out of mossy stone and using a diamond on it (similar to the Nether portal and flint and steel). It's recommended that you're at least level 80 before entering the Caves II.",
+      "dependencies": [
+        20
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "cavern:huge_cavern",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 2500
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:diamond_pickaxe",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 300000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
       ]
     }
   ]

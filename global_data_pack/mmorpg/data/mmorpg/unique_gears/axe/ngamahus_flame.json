@@ -1,0 +1,23 @@
+{
+  "id": "axefire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.axe.axefire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.axe.axefire0.desc",
+  "primary_stats": [
+    "attack_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "critical_hit_multi",
+    "critical_damage_percent",
+    "fire_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75
+  },
+  "gear_type": "axe",
+  "item_id": "mmorpg:uniques/axe/axefire0"
+}

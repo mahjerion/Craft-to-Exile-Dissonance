@@ -4,7 +4,7 @@
   "questlines": [
     {
       "id": 0,
-      "title": "The Overworld",
+      "title": "Prelude: Overworld",
       "text": "Lv. 1-40",
       "quests": [
         0,
@@ -35,7 +35,7 @@
     },
     {
       "id": 1,
-      "title": "The Bumblezone",
+      "title": "Act I: The Bumblezone",
       "text": "Lv. 10-25",
       "quests": [
         10,
@@ -51,7 +51,7 @@
     },
     {
       "id": 2,
-      "title": "The Nether",
+      "title": "Act II: Nether",
       "text": "Lv. 20-35",
       "quests": [
         16,
@@ -76,7 +76,7 @@
     },
     {
       "id": 3,
-      "title": "The End",
+      "title": "Act III: The End",
       "text": "Lv. 35-40",
       "quests": [
         35,
@@ -89,12 +89,13 @@
         58,
         59,
         60,
-        107
+        107,
+        112
       ]
     },
     {
       "id": 4,
-      "title": "Good Night\u0027s Sleep",
+      "title": "Act IV: Good Night\u0027s Sleep",
       "text": "Lv. 40-65",
       "quests": [
         40,
@@ -120,7 +121,7 @@
     },
     {
       "id": 5,
-      "title": "The Midnight",
+      "title": "Act V: Midnight",
       "text": "Lv. 60-75",
       "quests": [
         20,
@@ -134,12 +135,13 @@
         103,
         104,
         105,
-        106
+        106,
+        113
       ]
     },
     {
       "id": 6,
-      "title": "Work From Home",
+      "title": "Crafting",
       "text": "Lv. 1+",
       "quests": [
         17,

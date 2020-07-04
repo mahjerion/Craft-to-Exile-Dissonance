@@ -11,5 +11,5 @@
 	derelictTowerProportion = 15
 	#How rarely the towers will spawn (low: common, high: rare). Default: 35
 	#Range: 10 ~ 1000
-	towerRarity = 40
+	towerRarity = 35
 

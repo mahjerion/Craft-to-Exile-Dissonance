@@ -1,0 +1,50 @@
+[
+  {
+    "name": "STONE",
+    "translation_key": "cavern.miner.stone",
+    "phase": 300,
+    "icon_item": {
+      "name": "minecraft:stone_pickaxe"
+    }
+  },
+  {
+    "name": "IRON",
+    "translation_key": "cavern.miner.iron",
+    "phase": 1000,
+    "icon_item": {
+      "name": "minecraft:iron_pickaxe"
+    }
+  },
+  {
+    "name": "MAGNITE",
+    "translation_key": "cavern.miner.magnite",
+    "phase": 3000,
+    "icon_item": {
+      "name": "cavern:magnite_pickaxe"
+    }
+  },
+  {
+    "name": "GOLD",
+    "translation_key": "cavern.miner.gold",
+    "phase": 5000,
+    "icon_item": {
+      "name": "minecraft:golden_pickaxe"
+    }
+  },
+  {
+    "name": "AQUA",
+    "translation_key": "cavern.miner.aqua",
+    "phase": 10000,
+    "icon_item": {
+      "name": "cavern:aquamarine_pickaxe"
+    }
+  },
+  {
+    "name": "DIAMOND",
+    "translation_key": "cavern.miner.diamond",
+    "phase": 50000,
+    "icon_item": {
+      "name": "minecraft:diamond_pickaxe"
+    }
+  }
+]

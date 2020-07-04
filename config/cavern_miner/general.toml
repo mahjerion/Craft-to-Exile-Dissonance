@@ -1,0 +1,26 @@
+
+[general]
+	#When true, notify as chat message if a new version is available.
+	update_notification = true
+
+[caver]
+	#How far (in blocks) the cave portal must be found.
+	#Note: If multiplayer, server-side only.
+	#Range: 10 ~ 256
+	find_radius = 32
+	#How long (in seconds) the player must wait before sleeping in the caverns.
+	#Note: If multiplayer, server-side only.
+	#Range: 0 ~ 100000
+	sleep_wait = 180
+	#If player will first spawn in the caverns.
+	#Note: If multiplayer, server-side only.
+	#Allowed Values: DISABLED, CAVERN, HUGE_CAVERN
+	caveborn_spawn = "DISABLED"
+	#If cache and teleports the previous cave portal position.
+	#Note: If multiplayer, server-side only.
+	pos_cache = false
+
+[miner]
+	#If disable the miner status for all players.
+	disable_miner = true
+

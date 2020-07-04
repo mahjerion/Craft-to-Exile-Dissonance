@@ -7,7 +7,7 @@
 	#likelihood of multiple boards showing up in a single village. This is due to how
 	#Minecraft generates villages in newer versions of Minecraft.
 	#Range: 1 ~ 8
-	villageGenRate = 2
+	villageGenRate = 1
 	#The maximum number of bounties present at a given board before it must delete some bounties to make room for more.
 	#Range: 1 ~ 21
 	maxBountiesPerBoard = 8

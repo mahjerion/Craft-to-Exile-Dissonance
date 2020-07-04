@@ -225,11 +225,11 @@
 	#When spawned from a vanilla spawner, this is how far a mob should search from in blocks when checking how many of its kind have already spawned. Custom Spawners have it defined in their json file instead.
 	spawnLimitRange = 64.0
 	#Scales the spawn weights of all mobs from this mod. For example, you can use this to quickly half the spawn rates of mobs from this mod compared to vanilla/other mod mobs by setting it to 0.5.
-	spawnWeightScale = 0.15
+	spawnWeightScale = 0.1
 	#If true, some vanilla spawns in various biomes will be removed, note that vanilla mobs should still be easy to find, only they will be more biome specific.
 	controlVanillaSpawns = false
 	#The limit of how many mobs of the same type (peaceful or not peaceful) can spawn within the limit search range. For individual creature species limits, see the creature json configs.
-	typeSpawnLimit = 64
+	typeSpawnLimit = 32
 	#If true, when new world chunks are generated, no mobs from this mod will pre-spawn (mobs will still attempt to spawn randomly afterwards). Set this to true if you are removing mobs from vanilla dimensions as the vanilla WorldGen spawning ignores mob spawn conditions.
 	ignoreWorldGenSpawning = false
 	#A global comma separated list of dimension ids that overrides every other spawn setting in both the configs and json spawners. Use this to quickly stop all mobs from spawning in certain dimensions, etc.

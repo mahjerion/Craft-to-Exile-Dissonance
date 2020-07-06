@@ -1,29 +1,33 @@
 {
-  "id": "spirit_of_the_arcane",
-  "weight": 10000,
-  "rarity": 1,
+  "id": "tal_rashas_wrappings",
+  "weight": 50,
+  "rarity": 4,
   "tier": 0,
   "registry": "item_set",
-  "lang_file_string": "mmorpg.set.spirit_of_the_arcane",
+  "lang_file_string": "mmorpg.set.tal_rashas_wrappings",
   "requirements": {
     "list": [
       {
         "slots": [
-          "ring",
+          "cloth_helmet",
+          "cloth_chest",
+          "cloth_boots",
+          "cloth_pants",
           "necklace",
-          "bracelet",
-          "charm"
+		  "charm"
         ]
       },
       {
-        "min_level": 10,
-        "max_level": 25
+        "min_level": 70,
+        "max_level": 99
       }
     ]
   },
   "mods": {
-    "2": "mana_flat",
-    "3": "magic_shield_flat",
-    "4": "spell_damage_flat"
+    "2": "high_mana_regen_percent",
+    "3": "cdr_flat",
+    "4": "all_ele_spell_dmg_flat",
+    "5": "bonus_currency_drops_flat",
+    "6": "all_ele_spell_dmg_flat"
   }
 }

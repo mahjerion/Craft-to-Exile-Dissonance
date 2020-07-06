@@ -1,29 +1,29 @@
 {
-  "id": "spirit_of_the_arcane",
+  "id": "cathans_traps",
   "weight": 10000,
   "rarity": 1,
   "tier": 0,
   "registry": "item_set",
-  "lang_file_string": "mmorpg.set.spirit_of_the_arcane",
+  "lang_file_string": "mmorpg.set.cathans_traps",
   "requirements": {
     "list": [
       {
         "slots": [
           "ring",
           "necklace",
-          "bracelet",
-          "charm"
+          "cloth_helmet",
+          "cloth_chest"
         ]
       },
       {
-        "min_level": 10,
-        "max_level": 25
+        "min_level": 15,
+        "max_level": 50
       }
     ]
   },
   "mods": {
-    "2": "mana_flat",
-    "3": "magic_shield_flat",
-    "4": "spell_damage_flat"
+    "2": "high_fire_spell_to_attack_dmg_flat",
+    "3": "thunder_resist_flat",
+    "4": "cdr_flat"
   }
 }

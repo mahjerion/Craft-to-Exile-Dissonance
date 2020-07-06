@@ -1,23 +1,23 @@
 {
-  "id": "thunder_ele_shield0",
-  "weight": 250,
-  "rarity": 3,
-  "tier": 3,
+  "id": "crest_of_perandus",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.shield.thunder_ele_shield0",
-  "lang_file_desc_string": "item.mmorpg.uniques.shield.thunder_ele_shield0.desc",
+  "lang_file_string": "item.mmorpg.uniques.shield.crest_of_perandus",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.crest_of_perandus.desc",
   "primary_stats": [
-    "block_strength_flat",
-    "thunder_thorns_reflect_flat"
+    "block_strength_flat"
   ],
   "unique_stats": [
-    "spell_thunder_damage_flat",
-    "thunder_resist_flat"
+    "health_flat",
+    "thunder_resist_flat",
+	"lifesteal_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "stamina": 0.75
   },
   "gear_type": "shield",
-  "item_id": "mmorpg:uniques/shield/thunder_ele_shield0"
+  "item_id": "mmorpg:shields/normal_shield0"
 }

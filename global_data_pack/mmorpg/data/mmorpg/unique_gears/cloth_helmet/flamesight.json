@@ -1,23 +1,23 @@
 {
-  "id": "helmetwisdom0",
+  "id": "flamesight",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 2,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.helmet.helmetwisdom0",
-  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetwisdom0.desc",
+  "lang_file_string": "item.mmorpg.uniques.helmet.flamesight",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.flamesight.desc",
   "primary_stats": [
     "magic_shield_flat"
   ],
   "unique_stats": [
-    "high_wisdom_flat",
-    "armor_flat",
-    "mana_on_hit_flat"
+    "fire_resist_flat",
+    "all_ele_spell_dmg_flat",
+    "fire_penetration_flat"
   ],
-  "can_get_set": true,
+  "can_get_set": false,
   "requirements": {
     "wisdom": 1.0
   },
   "gear_type": "cloth_helmet",
-  "item_id": "mmorpg:uniques/helmet/helmetwisdom0"
+  "item_id": "mmorpg:helmet/cloth/helmet4"
 }

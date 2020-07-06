@@ -1,15 +1,15 @@
 {
-  "id": "bloom",
+  "id": "rhyme",
   "weight": 6666,
   "rarity": 1,
   "tier": 0,
   "registry": "runeword",
-  "lang_file_string": "mmorpg.word.bloom",
+  "lang_file_string": "mmorpg.word.rhyme",
   "runes": [
-    "ano",
-    "goh"
+    "dos",
+    "ita"
   ],
   "mods": [
-    "health_percent"
+    "bonus_normal_item_drops_flat"
   ]
 }

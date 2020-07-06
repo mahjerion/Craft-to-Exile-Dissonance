@@ -21,7 +21,7 @@
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
-      "wasteland"
+      "wasteland",
       "mesa",
       "-snowy",
       "-cold"

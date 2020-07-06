@@ -88,10 +88,28 @@
       "chance": 0.75
     },
     {
+      "item": "mmorpg:ore0",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.75
+    },
+    {
+      "item": "mmorpg:ore1",
+      "minAmount": 1,
+      "maxAmount": 2,
+      "chance": 0.25
+    },
+    {
+      "item": "mmorpg:ore2",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 0.1
+    },
+    {
       "item": "minecraft:quartz",
       "minAmount": 1,
-      "maxAmount": 8,
-      "chance": 0.75
+      "maxAmount": 2,
+      "chance": 0.05
     },
     {
       "item": "minecraft:gold_ore",
@@ -109,7 +127,7 @@
       "item": "minecraft:diamond",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1,
+      "chance": 0.1,
       "variant": 3
     },
     {

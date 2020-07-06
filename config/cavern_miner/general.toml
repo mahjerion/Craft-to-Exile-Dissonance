@@ -1,7 +1,7 @@
 
 [general]
 	#When true, notify as chat message if a new version is available.
-	update_notification = true
+	update_notification = false
 
 [caver]
 	#How far (in blocks) the cave portal must be found.

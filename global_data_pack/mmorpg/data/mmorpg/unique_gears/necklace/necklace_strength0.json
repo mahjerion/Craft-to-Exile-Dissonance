@@ -1,0 +1,25 @@
+{
+  "id": "necklace_strength0",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklace_strength0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_strength0.desc",
+  "primary_stats": [
+    "very_high_strength_flat"
+  ],
+  "unique_stats": [
+    "very_high_armor_flat",
+    "high_lifesteal_flat",
+    "high_magic_steal_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.25,
+    "stamina": 0.25,
+    "wisdom": 0.25
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklace_strength0"
+}

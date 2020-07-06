@@ -1,19 +1,19 @@
 {
-  "id": "magician",
+  "id": "chains_of_honor",
   "weight": 6666,
   "rarity": 1,
   "tier": 0,
   "registry": "runeword",
-  "lang_file_string": "mmorpg.word.magician",
+  "lang_file_string": "mmorpg.word.chains_of_honor",
   "runes": [
-    "dos",
-    "ano",
+    "mos",
     "xah",
-    "rah"
+    "goh",
+    "ita"
   ],
   "mods": [
-    "mana_flat",
-    "mana_regen_flat",
-    "thunder_resist_flat"
+	"health_flat",
+    "lifesteal_flat",
+    "elemental_resist_flat"
   ]
 }

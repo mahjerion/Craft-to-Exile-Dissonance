@@ -31,7 +31,7 @@
 	# take you in the dimension and exiting will place you in a different spot too.
 	#
 	#Range: 1 ~ 1000
-	movementFactor = 10
+	movementFactor = 8
 	# 
 	#-----------------------------------------------------
 	#

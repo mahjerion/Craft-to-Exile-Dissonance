@@ -1,0 +1,25 @@
+{
+  "id": "tree_of_life",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.tree_of_life",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 0,
+        "max_level": 30
+      }
+    ]
+  },
+  "mods": {
+    "2": "health_percent"
+  }
+}

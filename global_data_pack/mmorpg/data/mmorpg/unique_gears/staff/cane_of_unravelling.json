@@ -1,23 +1,23 @@
 {
-  "id": "thunder_ele_staff0",
-  "weight": 50,
-  "rarity": 4,
-  "tier": 4,
+  "id": "cane_of_unravelling",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.staff.thunder_ele_staff0",
-  "lang_file_desc_string": "item.mmorpg.uniques.staff.thunder_ele_staff0.desc",
+  "lang_file_string": "item.mmorpg.uniques.staff.cane_of_unravelling",
+  "lang_file_desc_string": "item.mmorpg.uniques.staff.cane_of_unravelling.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "attack_nature_damage_flat"
   ],
   "unique_stats": [
-    "high_thunder_spell_to_attack_dmg_flat",
-    "high_thunder_spell_to_attack_dmg_percent",
-    "physical_dispersion_flat"
+    "cdr_flat",
+    "high_nature_spell_to_attack_dmg_flat",
+    "nature_penetration_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.1
+    "intelligence": 1.0
   },
   "gear_type": "staff",
-  "item_id": "mmorpg:uniques/staff/thunder_ele_staff0"
+  "item_id": "mmorpg:staff/staff3"
 }

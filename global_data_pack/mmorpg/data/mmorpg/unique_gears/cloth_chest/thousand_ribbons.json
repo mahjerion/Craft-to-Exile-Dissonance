@@ -1,24 +1,22 @@
 {
-  "id": "chestmana0",
+  "id": "thousand_ribbons",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 1,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.chest.chestmana0",
-  "lang_file_desc_string": "item.mmorpg.uniques.chest.chestmana0.desc",
+  "lang_file_string": "item.mmorpg.uniques.chest.thousand_ribbons",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.thousand_ribbons.desc",
   "primary_stats": [
     "magic_shield_flat"
   ],
   "unique_stats": [
-    "energy_to_mana_conversion_flat",
-    "mana_flat",
-    "energy_regen_flat",
-    "staff_damage_flat"
+    "elemental_resist_flat",
+    "all_ele_spell_dmg_flat"
   ],
   "can_get_set": false,
   "requirements": {
     "wisdom": 1.0
   },
   "gear_type": "cloth_chest",
-  "item_id": "mmorpg:uniques/chest/chestmana0"
+  "item_id": "mmorpg:chest/cloth/chest3"
 }

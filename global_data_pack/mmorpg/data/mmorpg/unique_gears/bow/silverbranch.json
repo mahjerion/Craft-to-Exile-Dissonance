@@ -1,23 +1,23 @@
 {
-  "id": "bow_thunder0",
+  "id": "silverbranch",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 1,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.bow.bow_thunder0",
-  "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_thunder0.desc",
+  "lang_file_string": "item.mmorpg.uniques.bow.silverbranch",
+  "lang_file_desc_string": "item.mmorpg.uniques.bow.silverbranch.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "physical_damage_flat"
   ],
   "unique_stats": [
-    "dexterity_flat",
-    "thunder_spell_to_attack_dmg_flat",
-    "very_high_critical_hit_flat"
+    "physical_damage_percent",
+    "energy_regen_flat",
+    "plus_hunting_skill_lvls_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.75
   },
   "gear_type": "bow",
-  "item_id": "mmorpg:uniques/bow/bow_thunder0"
+  "item_id": "mmorpg:bow/bow0"
 }

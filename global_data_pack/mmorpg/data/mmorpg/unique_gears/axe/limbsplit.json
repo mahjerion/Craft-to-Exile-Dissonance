@@ -1,24 +1,23 @@
 {
-  "id": "axethunder0",
+  "id": "limbsplit",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 2,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.axe.axethunder0",
-  "lang_file_desc_string": "item.mmorpg.uniques.axe.axethunder0.desc",
+  "lang_file_string": "item.mmorpg.uniques.axe.limbsplit",
+  "lang_file_desc_string": "item.mmorpg.uniques.axe.limbsplit.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "high_physical_damage_flat"
   ],
   "unique_stats": [
-    "very_high_critical_hit_flat",
-    "mana_on_hit_flat",
-    "much_less_life_on_hit_flat",
-    "much_less_lifesteal_flat"
+    "high_strength_flat",
+    "physical_damage_percent",
+	"armor_penetration_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.75
+    "strength": 1.0
   },
   "gear_type": "axe",
-  "item_id": "mmorpg:uniques/axe/axethunder0"
+  "item_id": "mmorpg:axe/axe4"
 }

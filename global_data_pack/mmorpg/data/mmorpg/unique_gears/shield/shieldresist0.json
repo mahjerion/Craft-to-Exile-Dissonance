@@ -1,0 +1,23 @@
+{
+  "id": "shieldresist0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.shield.shieldresist0",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.shieldresist0.desc",
+  "primary_stats": [
+    "block_strength_flat"
+  ],
+  "unique_stats": [
+    "elemental_resist_flat",
+    "high_vitality_flat",
+    "high_strength_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 1.0
+  },
+  "gear_type": "shield",
+  "item_id": "mmorpg:uniques/shield/shieldresist0"
+}

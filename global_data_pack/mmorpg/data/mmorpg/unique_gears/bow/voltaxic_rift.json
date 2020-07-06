@@ -1,17 +1,18 @@
 {
-  "id": "bow_thunder0",
+  "id": "voltaxic_rift",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 4,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.bow.bow_thunder0",
-  "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_thunder0.desc",
+  "lang_file_string": "item.mmorpg.uniques.bow.voltaxic_rift",
+  "lang_file_desc_string": "item.mmorpg.uniques.bow.voltaxic_rift.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "attack_thunder_damage_flat",
+	"attack_nature_damage_flat"
   ],
   "unique_stats": [
-    "dexterity_flat",
     "thunder_spell_to_attack_dmg_flat",
+    "nature_spell_to_attack_dmg_flat",
     "very_high_critical_hit_flat"
   ],
   "can_get_set": false,
@@ -19,5 +20,5 @@
     "dexterity": 1.0
   },
   "gear_type": "bow",
-  "item_id": "mmorpg:uniques/bow/bow_thunder0"
+  "item_id": "mmorpg:bow/bow3"
 }

@@ -1,0 +1,17 @@
+{
+  "id": "thief",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.thief",
+  "runes": [
+    "rah",
+    "mos",
+    "goh"
+  ],
+  "mods": [
+    "dodge_flat",
+    "critical_damage_flat"
+  ]
+}

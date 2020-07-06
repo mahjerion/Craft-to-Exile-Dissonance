@@ -160,7 +160,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -200,7 +200,7 @@
           "sub_requirements": [
             {
               "item": "mmorpg:ore0",
-              "amount": 5,
+              "amount": 25,
               "nbt": "{}"
             }
           ]
@@ -723,7 +723,7 @@
               "x": 0,
               "y": 100,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -1537,7 +1537,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -1764,7 +1764,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -1799,7 +1799,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -3442,7 +3442,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -4914,7 +4914,7 @@
       "id": 112,
       "icon": "minecraft:iron_pickaxe",
       "title": "Caves",
-      "text": "The Caves are an endless cave that can be accessed by crafting a portal out of mossy stone and using an emerald on it (similar to the Nether portal and flint and steel). It's recommended that you're at least level 35 before entering the Caves.",
+      "text": "The Caves are an endless cave that can be accessed by crafting a portal out of mossy stone and using an emerald on it (similar to the Nether portal and flint and steel). It\u0027s recommended that you\u0027re at least level 35 before entering the Caves.",
       "dependencies": [
         35
       ],
@@ -4927,7 +4927,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -4957,7 +4957,7 @@
       "id": 113,
       "icon": "minecraft:diamond_pickaxe",
       "title": "Caves II",
-      "text": "The Caves II are a larger endless cave that can be accessed by crafting a portal out of mossy stone and using a diamond on it (similar to the Nether portal and flint and steel). It's recommended that you're at least level 80 before entering the Caves II.",
+      "text": "The Caves II are a larger endless cave that can be accessed by crafting a portal out of mossy stone and using a diamond on it (similar to the Nether portal and flint and steel). It\u0027s recommended that you\u0027re at least level 80 before entering the Caves II.",
       "dependencies": [
         20
       ],
@@ -4970,7 +4970,7 @@
               "x": 0,
               "y": 0,
               "z": 0,
-              "radius": 2500
+              "radius": 5000
             }
           ]
         }
@@ -4994,6 +4994,88 @@
       "position": [
         200,
         100
+      ]
+    },
+    {
+      "id": 114,
+      "icon": "storagedrawers:oak_full_drawers_1",
+      "title": "Storage Solutions",
+      "text": "Storage Drawers is a mod that makes sorting your loot a lot easier! Use storage drawers to label and autosort your items, and more! Visit the wiki to see the full capabilities of Storage Drawers!",
+      "dependencies": [
+        95
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "storagedrawers:oak_full_drawers_1",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "storagedrawers:oak_half_drawers_1",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1250"
+          }
+        }
+      ],
+      "position": [
+        300,
+        0
+      ]
+    },
+    {
+      "id": 115,
+      "icon": "minecraft:experience_bottle",
+      "title": "Shared Experience",
+      "text": "If you're having problems teleporting back to your body then I have the solution for you! XP blocks are craftable blocks that can store experience. They can even be shared with other players!",
+      "dependencies": [
+        44
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "globalxp:xp_block",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:experience_bottle",
+            "amount": 10,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 17000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
       ]
     }
   ]

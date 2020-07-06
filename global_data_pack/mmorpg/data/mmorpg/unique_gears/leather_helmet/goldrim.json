@@ -1,23 +1,22 @@
 {
-  "id": "helmetwisdom0",
+  "id": "goldrim",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 1,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.helmet.helmetwisdom0",
-  "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetwisdom0.desc",
+  "lang_file_string": "item.mmorpg.uniques.helmet.goldrim",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.goldrim.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "dodge_flat"
   ],
   "unique_stats": [
-    "high_wisdom_flat",
-    "armor_flat",
-    "mana_on_hit_flat"
+    "bonus_all_drops_flat",
+    "elemental_resist_flat"
   ],
-  "can_get_set": true,
+  "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "dexterity": 1.0
   },
-  "gear_type": "cloth_helmet",
-  "item_id": "mmorpg:uniques/helmet/helmetwisdom0"
+  "gear_type": "leather_helmet",
+  "item_id": "mmorpg:helmet/leather/helmet4"
 }

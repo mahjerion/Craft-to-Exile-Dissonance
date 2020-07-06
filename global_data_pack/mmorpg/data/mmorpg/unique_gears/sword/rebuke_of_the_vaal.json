@@ -1,22 +1,25 @@
 {
-  "id": "swordphysical0",
+  "id": "rebuke_of_the_vaal",
   "weight": 10000,
   "rarity": 1,
   "tier": 3,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.sword.swordphysical0",
-  "lang_file_desc_string": "item.mmorpg.uniques.sword.swordphysical0.desc",
+  "lang_file_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal",
+  "lang_file_desc_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal.desc",
   "primary_stats": [
-    "physical_damage_flat"
+    "all_ele_dmg_flat"
   ],
   "unique_stats": [
-    "very_high_critical_hit_percent",
-    "very_high_critical_damage_percent"
+    "fire_spell_to_attack_dmg_flat",
+    "water_spell_to_attack_dmg_flat",
+    "thunder_spell_to_attack_dmg_flat",
+    "nature_spell_to_attack_dmg_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0
+    "stamina": 0.25,
+	"intelligence": 0.75
   },
   "gear_type": "sword",
-  "item_id": "mmorpg:uniques/sword/swordphysical0"
+  "item_id": "mmorpg:sword/sword3"
 }

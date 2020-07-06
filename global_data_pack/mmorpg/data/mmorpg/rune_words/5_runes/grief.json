@@ -1,20 +1,20 @@
 {
-  "id": "infinity",
+  "id": "grief",
   "weight": 6666,
   "rarity": 1,
   "tier": 0,
   "registry": "runeword",
-  "lang_file_string": "mmorpg.word.infinity",
+  "lang_file_string": "mmorpg.word.grief",
   "runes": [
-    "cen",
+    "voh",
     "dos",
-    "ano",
-    "ber",
-    "xah"
+    "ita",
+    "xah",
+    "goh"
   ],
   "mods": [
-    "energy_flat",
-    "energy_regen_flat",
-    "energy_regen_percent"
+    "nature_spell_to_attack_dmg_flat",
+    "nature_spell_to_attack_dmg_percent",
+    "nature_penetration_flat"
   ]
 }

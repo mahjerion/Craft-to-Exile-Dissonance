@@ -1,24 +1,24 @@
 {
-  "id": "axethunder0",
+  "id": "soul_taker",
   "weight": 10000,
   "rarity": 1,
   "tier": 3,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.axe.axethunder0",
-  "lang_file_desc_string": "item.mmorpg.uniques.axe.axethunder0.desc",
+  "lang_file_string": "item.mmorpg.uniques.axe.soul_taker",
+  "lang_file_desc_string": "item.mmorpg.uniques.axe.soul_taker.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "physical_damage_flat",
+	"attack_water_damage_flat"
   ],
   "unique_stats": [
-    "very_high_critical_hit_flat",
-    "mana_on_hit_flat",
-    "much_less_life_on_hit_flat",
-    "much_less_lifesteal_flat"
+    "water_resist_flat",
+	"high_water_spell_to_attack_dmg_flat",
+    "energy_regen_percent"
   ],
   "can_get_set": false,
   "requirements": {
     "strength": 0.75
   },
   "gear_type": "axe",
-  "item_id": "mmorpg:uniques/axe/axethunder0"
+  "item_id": "mmorpg:axe/axe2"
 }

@@ -1,25 +1,24 @@
 {
-  "id": "chestdodge0",
+  "id": "foxs_fortune",
   "weight": 10000,
   "rarity": 1,
-  "tier": 4,
+  "tier": 1,
   "registry": "unique_gear",
-  "lang_file_string": "item.mmorpg.uniques.chest.chestdodge0",
-  "lang_file_desc_string": "item.mmorpg.uniques.chest.chestdodge0.desc",
+  "lang_file_string": "item.mmorpg.uniques.chest.foxs_fortune",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.foxs_fortune.desc",
   "primary_stats": [
     "health_flat",
     "very_high_dodge_flat"
   ],
   "unique_stats": [
-    "armor_flat",
+    "dexterity_flat",
     "bow_damage_flat",
-    "nature_resist_flat",
-    "plus_hunting_skill_lvls_flat"
+    "dodge_percent"
   ],
   "can_get_set": false,
   "requirements": {
     "dexterity": 1.0
   },
   "gear_type": "leather_chest",
-  "item_id": "mmorpg:uniques/chest/chestdodge0"
+  "item_id": "mmorpg:chest/leather/chest4"
 }

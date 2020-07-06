@@ -1,0 +1,23 @@
+{
+  "id": "ring_magic_shield0",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.ring_magic_shield0",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.ring_magic_shield0.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "magic_shield_percent",
+    "magic_shield_regen_flat",
+    "high_intelligence_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.75
+  },
+  "gear_type": "ring",
+  "item_id": "mmorpg:uniques/ring/ring_magic_shield0"
+}

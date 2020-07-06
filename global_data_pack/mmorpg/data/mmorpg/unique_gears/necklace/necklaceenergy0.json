@@ -1,0 +1,23 @@
+{
+  "id": "necklaceenergy0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklaceenergy0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklaceenergy0.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "mana_to_energy_conversion_flat",
+    "high_energy_regen_flat",
+    "health_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 1.0
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklaceenergy0"
+}

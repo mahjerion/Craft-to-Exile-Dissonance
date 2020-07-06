@@ -1,0 +1,25 @@
+{
+  "id": "thunder_cloth_boots0",
+  "weight": 50,
+  "rarity": 2,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.thunder_cloth_boots0",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.thunder_cloth_boots0.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "all_thunder_damage_flat",
+    "tiny_magic_shield_regen_flat",
+    "tiny_mana_regen_flat",
+    "tiny_energy_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0,
+    "wisdom": 1.0
+  },
+  "gear_type": "cloth_boots",
+  "item_id": "mmorpg:uniques/boots/thunder_cloth_boots0"
+}

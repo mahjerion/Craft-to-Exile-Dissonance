@@ -4,12 +4,13 @@
   "rarity": 1,
   "tier": 0,
   "registry": "runeword",
-  "lang_file_string": "mmorpg.word.royalty",
+  "lang_file_string": "mmorpg.word.lore",
   "runes": [
-    "wor",
-    "goh"
+    "goh",
+    "ano"
   ],
   "mods": [
-    "bonus_currency_drops_flat"
+    "energy_regen_percent",
+	"thunder_resist_flat"
   ]
 }

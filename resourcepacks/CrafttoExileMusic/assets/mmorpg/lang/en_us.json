@@ -1211,6 +1211,20 @@
 	"item.mmorpg.uniques.staff.whispering_ice": "§eWhispering Ice",
 	"item.mmorpg.uniques.sword.ephemeral_edge": "§eEphemeral Edge",
 	"item.mmorpg.uniques.sword.rebuke_of_the_vaal": "§eRebuke of the Vaal",
+	
+"_comment": " [CATEGORY]: UNIQUE ITEMS - NAMES patch 1.8",
+	
+	"item.mmorpg.uniques.chest.geofris_sanctuary": "§eGeofri's Sanctuary",
+	"item.mmorpg.uniques.chest.shaftstop": "§eShaftstop",
+	"item.mmorpg.uniques.chest.skin_of_the_vipermagi": "§eSkin of the Vipermagi",
+	"item.mmorpg.uniques.chest.solaris_lorica": "§eSolaris Lorica",
+	"item.mmorpg.uniques.chest.the_covenant": "§eThe Covenant",
+	"item.mmorpg.uniques.helmet.nightwings_veil": "§eNightwing's Veil",
+	"item.mmorpg.uniques.necklace.biscos_collar": "§eBiscos Collar",
+	"item.mmorpg.uniques.necklace.karui_ward": "§eKarui Ward",
+	"item.mmorpg.uniques.ring.andvarius": "§eAndvarius",
+	"item.mmorpg.uniques.ring.manald_heal": "§eManald Heal",
+	"item.mmorpg.uniques.ring.stone_of_jordan": "§eStone of Jordan",
 
 "_comment": " [CATEGORY]: POTIONS - NAMES",
 
@@ -1544,7 +1558,21 @@
 	"item.mmorpg.uniques.staff.whispering_ice.desc": "Whispering Ice",
 	"item.mmorpg.uniques.sword.ephemeral_edge.desc": "Ephemeral Edge",
 	"item.mmorpg.uniques.sword.rebuke_of_the_vaal.desc": "Rebuke of the Vaal",
-
+	
+"_comment": " [CATEGORY]: UNIQUE ITEMS - DESCRIPTIONS patch 1.8",
+	
+	"item.mmorpg.uniques.chest.geofris_sanctuary.desc": "Geofri's Sanctuary",
+	"item.mmorpg.uniques.chest.shaftstop.desc": "Shaftstop",
+	"item.mmorpg.uniques.chest.skin_of_the_vipermagi.desc": "Skin of the Vipermagi",
+	"item.mmorpg.uniques.chest.solaris_lorica.desc": "Solaris Lorica",
+	"item.mmorpg.uniques.chest.the_covenant.desc": "The Covenant",
+	"item.mmorpg.uniques.helmet.nightwings_veil.desc": "Nightwing's Veil",
+	"item.mmorpg.uniques.necklace.biscos_collar.desc": "Biscos Collar",
+	"item.mmorpg.uniques.necklace.karui_ward.desc": "Karui Ward",
+	"item.mmorpg.uniques.ring.andvarius.desc": "Andvarius",
+	"item.mmorpg.uniques.ring.manald_heal.desc": "Manald Heal",
+	"item.mmorpg.uniques.ring.stone_of_jordan.desc": "Stone of Jordan",
+	
 "_comment": " [CATEGORY]: CURRENCY ITEMS - DESCRIPTIONS",
 
 	"item.mmorpg.currency.add_map_level.desc": "Increases map level by 5",

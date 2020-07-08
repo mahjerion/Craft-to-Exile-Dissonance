@@ -1,0 +1,25 @@
+{
+  "id": "shaftstop",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.shaftstop",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.shaftstop.desc",
+  "primary_stats": [
+    "health_flat",
+	"armor_flat"
+  ],
+  "unique_stats": [
+    "high_armor_flat",
+    "high_armor_percent",
+    "health_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 1.0,
+	"stamina": 0.75
+  },
+  "gear_type": "plate_chest",
+  "item_id": "mmorpg:chest/plate/chest0"
+}

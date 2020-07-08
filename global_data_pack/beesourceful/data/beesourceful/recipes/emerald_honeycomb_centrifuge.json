@@ -1,0 +1,19 @@
+{
+  "type": "beesourceful:centrifuge",
+  "ingredient": {
+    "tag": "forge:honeycombs/emerald"
+  },
+  "fluidstack": {
+    "fluid": "beesourceful:honey",
+    "amount": 250
+  },
+  "results": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "beesourceful:beeswax"
+    }
+  ],
+  "time": 400
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "entry": {
+      "tag": "forge:ores/coal"
+    },
+    "rarity": "common",
+    "point": 1
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/iron"
+    },
+    "rarity": "common",
+    "point": 1
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/gold"
+    },
+    "rarity": "rare",
+    "point": 2
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/redstone"
+    },
+    "rarity": "uncommon",
+    "point": 2
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/lapis"
+    },
+    "rarity": "rare",
+    "point": 2
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/emerald"
+    },
+    "rarity": "emerald",
+    "point": 3
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/diamond"
+    },
+    "rarity": "diamond",
+    "point": 5
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/magnite"
+    },
+    "rarity": "common",
+    "point": 1
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/aquamarine"
+    },
+    "rarity": "aqua",
+    "point": 2
+  },
+  {
+    "entry": {
+      "tag": "forge:ores/randomite"
+    },
+    "rarity": "randomite",
+    "point": 2
+  },
+  {
+    "entry": {
+      "name": "cavern:cracked_stone"
+    },
+    "rarity": "randomite",
+    "point": 2
+  }
+]

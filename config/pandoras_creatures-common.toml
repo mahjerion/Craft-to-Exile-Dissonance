@@ -1,0 +1,16 @@
+
+#Common Settings for Pandoras Creatures
+[spawning]
+	#Toggle Crab Spawning
+	crabSpawning = true
+	#Toggle Acidic Archvine Spawning
+	acidicArchvineSpawning = true
+	#Toggle Bufflon Spawning
+	bufflonSpawning = true
+	#Toggle Seahorse Spawning
+	seahorseSpawning = true
+	#Toggle Hellhound Spawning
+	hellhoundSpawning = true
+	#Toggle Arachnon Spawning
+	arachnonSpawning = true
+

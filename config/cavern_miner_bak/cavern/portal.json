@@ -1,0 +1,19 @@
+{
+  "trigger_items": {
+    "items": [],
+    "tags": [
+      "forge:gems/emerald"
+    ]
+  },
+  "frame_blocks": {
+    "blocks": [
+      {
+        "name": "minecraft:mossy_cobblestone"
+      },
+      {
+        "name": "minecraft:mossy_stone_bricks"
+      }
+    ],
+    "tags": []
+  }
+}

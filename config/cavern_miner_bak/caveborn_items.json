@@ -1,0 +1,26 @@
+[
+  {
+    "name": "minecraft:torch",
+    "count": 64
+  },
+  {
+    "name": "minecraft:bread",
+    "count": 32
+  },
+  {
+    "name": "minecraft:stick",
+    "count": 16
+  },
+  {
+    "name": "minecraft:stone_sword"
+  },
+  {
+    "name": "minecraft:stone_pickaxe"
+  },
+  {
+    "name": "minecraft:stone_axe"
+  },
+  {
+    "name": "minecraft:stone_shovel"
+  }
+]

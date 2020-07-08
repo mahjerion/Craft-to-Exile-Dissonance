@@ -1,0 +1,19 @@
+{
+  "type": "beesourceful:centrifuge",
+  "ingredient": {
+    "tag": "forge:honeycombs/quartz"
+  },
+  "fluidstack": {
+    "fluid": "beesourceful:honey",
+    "amount": 100
+  },
+  "results": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "beesourceful:beeswax"
+    }
+  ],
+  "time": 200
+}

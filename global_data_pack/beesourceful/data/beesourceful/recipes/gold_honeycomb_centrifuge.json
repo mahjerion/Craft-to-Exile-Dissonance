@@ -1,0 +1,19 @@
+{
+  "type": "beesourceful:centrifuge",
+  "ingredient": {
+    "tag": "forge:honeycombs/gold"
+  },
+  "fluidstack": {
+    "fluid": "beesourceful:honey",
+    "amount": 200
+  },
+  "results": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "beesourceful:beeswax"
+    }
+  ],
+  "time": 300
+}

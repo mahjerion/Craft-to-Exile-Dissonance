@@ -31,7 +31,7 @@
 	# take you in the dimension and exiting will place you in a different spot too.
 	#
 	#Range: 1 ~ 1000
-	movementFactor = 8
+	movementFactor = 4
 	# 
 	#-----------------------------------------------------
 	#
@@ -106,7 +106,7 @@
 		# If you set this to like 5 or something, bees may be invicible! Game over.
 		#
 		#Range: > 0
-		absorptionBoostLevel = 1
+		absorptionBoostLevel = 2
 		# 
 		#-----------------------------------------------------
 		#
@@ -119,7 +119,7 @@
 		# NOTE: The actual level of the effect is 1 more than the value set here.
 		#
 		#Range: > 0
-		speedBoostLevel = 1
+		speedBoostLevel = 4
 		# 
 		#-----------------------------------------------------
 		#
@@ -129,7 +129,7 @@
 		# NOTE: The actual level of the effect is 1 more than the value set here.
 		#
 		#Range: > 0
-		strengthBoostLevel = 3
+		strengthBoostLevel = 7
 
 	["Wrath of the Hive Options"."Bees Aggression Options"]
 		# 
@@ -149,7 +149,7 @@
 		# Note: This is in ticks. 20 ticks = 1 second.
 		#
 		#Range: > 1
-		howLongWrathOfTheHiveLasts = 350
+		howLongWrathOfTheHiveLasts = 700
 		# 
 		#-----------------------------------------------------
 		#
@@ -211,7 +211,7 @@
 		# Higher numbers means more rare. Default rate is 2.
 		#
 		#Range: 1 ~ 1001
-		greatHoneycombRaritySpiderBeeDungeon = 2
+		greatHoneycombRaritySpiderBeeDungeon = 3
 		# 
 		#-----------------------------------------------------
 		#
@@ -220,7 +220,7 @@
 		# Higher numbers means more rare. Default rate is 3.
 		#
 		#Range: 1 ~ 1001
-		greatHoneycombRarityBeeDungeon = 2
+		greatHoneycombRarityBeeDungeon = 4
 		# 
 		#-----------------------------------------------------
 		#
@@ -263,7 +263,7 @@
 		# Default rate is 2.
 		#
 		#Range: 0 ~ 10
-		powerfulCandlesRaritySpiderBeeDungeon = 0
+		powerfulCandlesRaritySpiderBeeDungeon = 2
 		# 
 		#-----------------------------------------------------
 		#

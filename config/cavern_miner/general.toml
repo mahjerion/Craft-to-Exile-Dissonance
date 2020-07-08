@@ -1,7 +1,7 @@
 
 [general]
 	#When true, notify as chat message if a new version is available.
-	update_notification = false
+	update_notification = true
 
 [caver]
 	#How far (in blocks) the cave portal must be found.
@@ -22,5 +22,9 @@
 
 [miner]
 	#If disable the miner status for all players.
-	disable_miner = true
+	disable_miner = false
+
+[caveman]
+	#If randomite drops will include to trade entries.
+	include_randomite = true
 

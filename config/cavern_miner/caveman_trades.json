@@ -1,0 +1,125 @@
+[
+  {
+    "item": {
+      "name": "minecraft:torch",
+      "count": 64
+    },
+    "weight": 100,
+    "cost": 50,
+    "rank": "BEGINNER"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:vein_miner",
+      "level": 1
+    },
+    "weight": 50,
+    "cost": 100,
+    "rank": "BEGINNER"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:vein_miner",
+      "level": 2
+    },
+    "weight": 30,
+    "cost": 200,
+    "rank": "STONE"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:vein_miner",
+      "level": 3
+    },
+    "weight": 20,
+    "cost": 300,
+    "rank": "IRON"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:vein_miner",
+      "level": 4
+    },
+    "weight": 5,
+    "cost": 350,
+    "rank": "GOLD"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:area_miner",
+      "level": 1
+    },
+    "weight": 50,
+    "cost": 100,
+    "rank": "BEGINNER"
+  },
+  {
+    "enchanted_book": {
+      "name": "cavern:area_miner",
+      "level": 2
+    },
+    "weight": 30,
+    "cost": 200,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:regeneration",
+      "duration": 600,
+      "amplifer": 1
+    },
+    "weight": 30,
+    "cost": 50,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:absorption",
+      "duration": 600,
+      "amplifer": 1
+    },
+    "weight": 30,
+    "cost": 50,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:mining_fatigue",
+      "duration": 6000,
+      "amplifer": 2
+    },
+    "weight": 50,
+    "cost": 50,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:strength",
+      "duration": 6000,
+      "amplifer": 2
+    },
+    "weight": 50,
+    "cost": 50,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:resistance",
+      "duration": 6000,
+      "amplifer": 2
+    },
+    "weight": 50,
+    "cost": 50,
+    "rank": "STONE"
+  },
+  {
+    "effect": {
+      "name": "minecraft:night_vision",
+      "duration": 3600,
+      "amplifer": 0
+    },
+    "weight": 50,
+    "cost": 50,
+    "rank": "STONE"
+  }
+]

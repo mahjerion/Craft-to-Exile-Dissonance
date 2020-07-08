@@ -1,0 +1,37 @@
+
+[render]
+	#The brightness of natural light.
+	#Range: 0.0 ~ 1.0
+	light_brightness = 0.1
+
+[decoration]
+	#The generation probability of caves.
+	#Note: If multiplayer, server-side only.
+	#Range: 0.0 ~ 1.0
+	cave = 0.5
+	#If true, generate flat bedrock layers.
+	#Note: If multiplayer, server-side only.
+	flat_bedrock = false
+
+[natural_spawn]
+	#How many monsters must spawn.
+	#Note: If multiplayer, server-side only.
+	#Range: 0 ~ 5000
+	max_count = 30
+	#How far (in chunks) monsters must spawn.
+	#Note: If multiplayer, server-side only.
+	#Range: 1 ~ 10
+	chunk_radius = 6
+	#How high (in blocks) monsters must spawn.
+	#Note: If multiplayer, server-side only.
+	#Range: 10 ~ 200
+	height_radius = 70
+	#How far (in blocks) monsters must not spawn from players.
+	#Note: If multiplayer, server-side only.
+	#Range: 0 ~ 100
+	safe_distance = 20
+	#The spawner type of natural monsters spawn.
+	#Note: If multiplayer, server-side only.
+	#Allowed Values: DISABLED, VANILLA, CAVERN
+	spawner_type = "CAVERN"
+

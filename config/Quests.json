@@ -1093,7 +1093,7 @@
             {
               "item": "minecraft:fishing_rod",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -1104,7 +1104,7 @@
           "content": {
             "item": "aquaculture:worm",
             "amount": 3,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -1186,7 +1186,7 @@
           "content": {
             "item": "aquaculture:worm",
             "amount": 3,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -1216,7 +1216,7 @@
             {
               "item": "aquaculture:iron_fishing_rod",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -1832,7 +1832,7 @@
             {
               "item": "waystones:warp_stone",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -3851,7 +3851,7 @@
       "id": 88,
       "icon": "minecraft:milk_bucket",
       "title": "Milkin\u0027 It",
-      "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket.",
+      "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket. Did you know that eating unique foods will permanently increase your health? Get to cookin\u0027 (use\u0027/foodlist size\u0027 to see how many foods you\u0027ve eaten)!",
       "dependencies": [
         87
       ],
@@ -4779,22 +4779,22 @@
             {
               "item": "minecraft:iron_helmet",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             },
             {
               "item": "minecraft:iron_chestplate",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             },
             {
               "item": "minecraft:iron_leggings",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             },
             {
               "item": "minecraft:iron_boots",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -4805,7 +4805,7 @@
           "content": {
             "item": "immersiveengineering:sword_steel",
             "amount": 1,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -4813,7 +4813,7 @@
           "content": {
             "item": "minecraft:crossbow",
             "amount": 1,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -4843,7 +4843,7 @@
             {
               "item": "minecraft:shield",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -4884,7 +4884,7 @@
             {
               "item": "the_bumblezone:honey_crystal_shield",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -4938,7 +4938,7 @@
           "content": {
             "item": "minecraft:iron_pickaxe",
             "amount": 1,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -4981,7 +4981,7 @@
           "content": {
             "item": "minecraft:diamond_pickaxe",
             "amount": 1,
-            "nbt": "{}"
+            "nbt": "{Damage:0}"
           }
         },
         {
@@ -5041,7 +5041,7 @@
       "id": 115,
       "icon": "minecraft:experience_bottle",
       "title": "Shared Experience",
-      "text": "If you're having problems teleporting back to your body then I have the solution for you! XP blocks are craftable blocks that can store experience. They can even be shared with other players!",
+      "text": "If you\u0027re having problems teleporting back to your body then I have the solution for you! XP blocks are craftable blocks that can store experience. They can even be shared with other players!",
       "dependencies": [
         44
       ],
@@ -5075,6 +5075,47 @@
       ],
       "position": [
         150,
+        200
+      ]
+    },
+    {
+      "id": 116,
+      "icon": "comforts:sleeping_bag_white",
+      "title": "Sleeping On The Job",
+      "text": "Can\u0027t deal with mobs at night while travelling? Tired of lugging an entire bed frame? Craft the sleeping bag and sleep whenever, wherever! Some conditions may apply.",
+      "dependencies": [
+        115
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "comforts:sleeping_bag_white",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 10000"
+          }
+        }
+      ],
+      "position": [
+        200,
         200
       ]
     }

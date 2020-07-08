@@ -1,0 +1,19 @@
+{
+  "type": "beesourceful:centrifuge",
+  "ingredient": {
+    "tag": "forge:honeycombs/iron"
+  },
+  "fluidstack": {
+    "fluid": "beesourceful:honey",
+    "amount": 100
+  },
+  "results": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "beesourceful:beeswax"
+    }
+  ],
+  "time": 300
+}

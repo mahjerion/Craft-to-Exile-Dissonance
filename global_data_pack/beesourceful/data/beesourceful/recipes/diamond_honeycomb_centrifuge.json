@@ -1,0 +1,19 @@
+{
+  "type": "beesourceful:centrifuge",
+  "ingredient": {
+    "tag": "forge:honeycombs/diamond"
+  },
+  "fluidstack": {
+    "fluid": "beesourceful:honey",
+    "amount": 300
+  },
+  "results": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "beesourceful:beeswax"
+    }
+  ],
+  "time": 800
+}

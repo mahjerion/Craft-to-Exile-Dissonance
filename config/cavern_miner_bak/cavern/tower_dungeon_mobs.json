@@ -1,0 +1,30 @@
+[
+  {
+    "name": "minecraft:zombie",
+    "weight": 100
+  },
+  {
+    "name": "minecraft:skeleton",
+    "weight": 100
+  },
+  {
+    "name": "minecraft:spider",
+    "weight": 100
+  },
+  {
+    "name": "minecraft:cave_spider",
+    "weight": 50
+  },
+  {
+    "name": "minecraft:creeper",
+    "weight": 20
+  },
+  {
+    "name": "minecraft:enderman",
+    "weight": 20
+  },
+  {
+    "name": "cavern:cavenic_skeleton",
+    "weight": 20
+  }
+]

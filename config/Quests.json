@@ -5118,6 +5118,47 @@
         200,
         200
       ]
+    },
+    {
+      "id": 117,
+      "icon": "solcarrot:food_book",
+      "title": "Spice of Life: Carrot Edition",
+      "text": "Eating unique foods will give you a small bonus to HP. Use the food book or /foodlist to track your progress.",
+      "dependencies": [
+        89
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "solcarrot:food_book",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "simplefarming:banana_bread",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
     }
   ]
 }

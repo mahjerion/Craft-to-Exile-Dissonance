@@ -78,7 +78,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": true,
   "summonCost": 8,
   "dungeonLevel": 1,

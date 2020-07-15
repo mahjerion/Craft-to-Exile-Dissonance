@@ -31,7 +31,7 @@
 	# - Only specifying '*' will match all biomes
 	# - Empty strings and whitespaces are completely ignored
 	#Default: '+ *', '- #VOID', '- #WATER', '- #BEACH', '- #MUSHROOM'
-	rift_biomes = ["+ *", "- #VOID", "- #WATER", "- #BEACH", "- #MUSHROOM"]
+	rift_biomes = ["+ *", "- #VOID", "-#WATER"]
 	#Mobs on this blacklist cannot be captured by rifters. Format is mod id:name of creature, just use the mod id to blacklist everything from it. Default: iceandfire, midnight:nightstag
 	not_capturable_animals = ["iceandfire", "midnight:nightstag"]
 

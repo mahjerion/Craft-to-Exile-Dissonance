@@ -75,7 +75,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 6,
   "dungeonLevel": 3,
@@ -84,37 +84,37 @@
       "item": "minecraft:coal",
       "minAmount": 8,
       "maxAmount": 24,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:magma_cream",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:blaze_powder",
       "minAmount": 3,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "lycanitesmobs:magmacharge",
       "minAmount": 5,
       "maxAmount": 7,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:iron_ore",
       "minAmount": 2,
       "maxAmount": 3,
-      "chance": 0.5
+      "chance": 0.25
     },
     {
       "item": "minecraft:gold_ore",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.25
+      "chance": 0.05
     }
   ],
   "sizeScale": 1,

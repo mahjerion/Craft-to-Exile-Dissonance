@@ -10,8 +10,8 @@
     "physical_damage_flat"
   ],
   "unique_stats": [
-    "very_high_critical_hit_percent",
-    "very_high_critical_damage_percent"
+    "high_critical_hit_percent",
+    "high_critical_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {

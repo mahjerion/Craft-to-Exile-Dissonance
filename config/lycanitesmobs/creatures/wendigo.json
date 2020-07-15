@@ -101,13 +101,13 @@
       "item": "lycanitesmobs:tundracharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "lycanitesmobs:frostyfur",
       "minAmount": 2,
       "maxAmount": 5,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

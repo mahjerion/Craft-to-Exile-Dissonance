@@ -110,7 +110,7 @@
     {
       "item": "minecraft:nether_star",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 1,
       "chance": 1
     },
     {
@@ -147,18 +147,6 @@
       "item": "lycanitesmobs:demoncrystal",
       "minAmount": 64,
       "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_demon",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_aberration",
-      "minAmount": 1,
-      "maxAmount": 3,
       "chance": 1
     },
     {

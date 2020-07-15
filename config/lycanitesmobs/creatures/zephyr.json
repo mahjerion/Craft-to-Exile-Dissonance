@@ -63,10 +63,10 @@
   ],
   "element": "lightning",
   "peaceful": false,
-  "summonable": false,
+  "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 8,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -79,7 +79,7 @@
       "item": "minecraft:gunpowder",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "lycanitesmobs:cleansingcrystal",

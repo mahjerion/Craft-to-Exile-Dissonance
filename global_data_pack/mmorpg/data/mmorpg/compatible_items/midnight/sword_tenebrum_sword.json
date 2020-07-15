@@ -18,8 +18,8 @@
     "can_be_salvaged": false
   },
   "level": {
-    "min_level": 61,
-    "max_level": 72,
+    "min_level": 58,
+    "max_level": 60,
     "level_variance": 0
   },
   "unique": {

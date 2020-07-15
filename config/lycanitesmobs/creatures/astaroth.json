@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAstaroth",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstaroth",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -45,8 +45,8 @@
   "width": 4.2,
   "height": 3.0,
   "experience": 15,
-  "health": 40,
-  "defense": 2,
+  "health": 60,
+  "defense": 0,
   "armor": 0,
   "speed": 24,
   "damage": 2,
@@ -117,7 +117,7 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 5,
@@ -139,7 +139,7 @@
       "item": "lycanitesmobs:devilstarcharge",
       "minAmount": 3,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

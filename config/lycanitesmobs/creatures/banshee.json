@@ -86,12 +86,6 @@
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.75
-    },
-    {
-      "item": "minecraft:ender_eye",
-      "minAmount": 1,
-      "maxAmount": 1,
       "chance": 0.1
     }
   ],

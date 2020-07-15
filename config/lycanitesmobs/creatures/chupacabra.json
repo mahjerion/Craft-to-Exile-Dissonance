@@ -81,7 +81,7 @@
   "peaceful": true,
   "farmable": true,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -97,14 +97,7 @@
       "item": "minecraft:leather",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 0.75
-    },
-    {
-      "item": "lycanitesmobs:soulstone_beast",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
-      "variant": 3
+      "chance": 0.5
     }
   ],
   "sizeScale": 1,

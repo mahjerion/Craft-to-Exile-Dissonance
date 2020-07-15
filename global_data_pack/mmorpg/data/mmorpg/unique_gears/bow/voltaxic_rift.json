@@ -13,7 +13,8 @@
   "unique_stats": [
     "thunder_spell_to_attack_dmg_flat",
     "nature_spell_to_attack_dmg_flat",
-    "very_high_critical_hit_flat"
+    "very_high_critical_hit_flat",
+	"physical_dispersion_flat"
   ],
   "can_get_set": false,
   "requirements": {

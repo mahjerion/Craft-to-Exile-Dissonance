@@ -37,7 +37,7 @@
   "width": 2.8,
   "height": 4.8,
   "experience": 20,
-  "health": 600,
+  "health": 180,
   "defense": 0,
   "armor": 0,
   "speed": 44,
@@ -81,8 +81,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 1,
   "drops": [
@@ -106,9 +106,9 @@
     },
     {
       "item": "minecraft:prismarine_crystals",
-      "minAmount": 3,
-      "maxAmount": 6,
-      "chance": 0.75
+      "minAmount": 2,
+      "maxAmount": 4,
+      "chance": 0.25
     },
     {
       "item": "minecraft:emerald",

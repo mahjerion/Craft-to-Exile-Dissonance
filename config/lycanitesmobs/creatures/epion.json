@@ -79,8 +79,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 6,
   "dungeonLevel": 1,
   "drops": [
@@ -100,20 +100,13 @@
       "item": "lycanitesmobs:bloodleechcharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:phantom_membrane",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_aberration",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
-      "variant": 3
     }
   ],
   "sizeScale": 1,

@@ -18,7 +18,8 @@
     "dimensionIds": [
       "minecraft:the_nether",
 	  "minecraft:overworld",
-	  "the_bumblezone:bumblezone"
+	  "the_bumblezone:bumblezone",
+	  "atum:atum"
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
@@ -73,7 +74,7 @@
     "carnivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "perchable": true,
@@ -84,7 +85,7 @@
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:spider_eye",

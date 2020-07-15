@@ -19,11 +19,11 @@
   },
   "level": {
     "min_level": 1,
-    "max_level": 40,
+    "max_level": 30,
     "level_variance": 0
   },
   "unique": {
-    "if_unique_random_up_to_tier": 3,
+    "if_unique_random_up_to_tier": 2,
     "unique_id": ""
   }
 }

@@ -69,7 +69,7 @@
 	#Set to false to disable mounts.
 	mountingEnabled = true
 	#The time in tics that it takes for a pet to respawn.
-	petRespawnTime = 3600
+	petRespawnTime = 12000
 	#If true, when a mob picks up a player, the player will be positioned where the mob is rather than offset to where the mob is holding the player at.
 	disablePickupOffsets = false
 	#If true, all mobs that are a subspecies will always show their nametag.
@@ -95,7 +95,7 @@
 	#How much higher players must be relative to a boss' y position (feet) to trigger anti flight measures.
 	bossAntiFlight = 10.0
 	#If true, passive mobs will fight back when hit instead of running away.
-	animalsFightBack = false
+	animalsFightBack = true
 	#Caps how much damage a boss can take per tick, this also affects Rare Variants and Dungeon Bosses. Set to 0 to disable the cap.
 	bossDamageCap = 0
 	#Set to false to disable pet/mount taming.
@@ -119,27 +119,27 @@
 
 		[Creatures.level.multipliers]
 			#Level multiplier for damage.
-			damage = 0.02
+			damage = 0.0
 			#Level multiplier for armor.
 			armor = 0.0
 			#Level multiplier for defense.
-			defense = 0.01
+			defense = 0.0
 			#Level multiplier for attackSpeed.
-			attackSpeed = 0.01
+			attackSpeed = 0.0
 			#Level multiplier for effect.
-			effect = 0.02
+			effect = 0.0
 			#Level multiplier for sight.
 			sight = 0.0
 			#Level multiplier for health.
-			health = 0.1
+			health = 0.0
 			#Level multiplier for amplifier.
-			amplifier = 0.01
+			amplifier = 0.0
 			#Level multiplier for rangedSpeed.
-			rangedSpeed = 0.01
+			rangedSpeed = 0.0
 			#Level multiplier for speed.
-			speed = 0.01
+			speed = 0.0
 			#Level multiplier for pierce.
-			pierce = 0.02
+			pierce = 0.0
 
 	[Creatures.difficulty]
 
@@ -171,27 +171,27 @@
 
 			[Creatures.difficulty.multipliers.hard]
 				#Stat multiplier for damage on hard difficulty.
-				damage = 1.1
+				damage = 1.25
 				#Stat multiplier for armor on hard difficulty.
 				armor = 1.0
 				#Stat multiplier for defense on hard difficulty.
-				defense = 1.1
+				defense = 1.0
 				#Stat multiplier for attackSpeed on hard difficulty.
-				attackSpeed = 1.5
+				attackSpeed = 1.0
 				#Stat multiplier for effect on hard difficulty.
-				effect = 1.1
+				effect = 1.0
 				#Stat multiplier for sight on hard difficulty.
 				sight = 1.0
 				#Stat multiplier for health on hard difficulty.
-				health = 1.1
+				health = 1.25
 				#Stat multiplier for amplifier on hard difficulty.
-				amplifier = 1.1
+				amplifier = 1.0
 				#Stat multiplier for rangedSpeed on hard difficulty.
-				rangedSpeed = 1.5
+				rangedSpeed = 1.0
 				#Stat multiplier for speed on hard difficulty.
-				speed = 1.1
+				speed = 1.0
 				#Stat multiplier for pierce on hard difficulty.
-				pierce = 1.1
+				pierce = 1.0
 
 			[Creatures.difficulty.multipliers.easy]
 				#Stat multiplier for damage on easy difficulty.
@@ -223,13 +223,13 @@
 	#If true, all mobs from this mod will not spawn at all.
 	disableAllSpawning = false
 	#When spawned from a vanilla spawner, this is how far a mob should search from in blocks when checking how many of its kind have already spawned. Custom Spawners have it defined in their json file instead.
-	spawnLimitRange = 64.0
+	spawnLimitRange = 128.0
 	#Scales the spawn weights of all mobs from this mod. For example, you can use this to quickly half the spawn rates of mobs from this mod compared to vanilla/other mod mobs by setting it to 0.5.
-	spawnWeightScale = 0.1
+	spawnWeightScale = 0.05
 	#If true, some vanilla spawns in various biomes will be removed, note that vanilla mobs should still be easy to find, only they will be more biome specific.
 	controlVanillaSpawns = false
 	#The limit of how many mobs of the same type (peaceful or not peaceful) can spawn within the limit search range. For individual creature species limits, see the creature json configs.
-	typeSpawnLimit = 32
+	typeSpawnLimit = 16
 	#If true, when new world chunks are generated, no mobs from this mod will pre-spawn (mobs will still attempt to spawn randomly afterwards). Set this to true if you are removing mobs from vanilla dimensions as the vanilla WorldGen spawning ignores mob spawn conditions.
 	ignoreWorldGenSpawning = false
 	#A global comma separated list of dimension ids that overrides every other spawn setting in both the configs and json spawners. Use this to quickly stop all mobs from spawning in certain dimensions, etc.
@@ -247,19 +247,19 @@
 	#If set to true, rare variants will despawn naturally over time.
 	rareDespawning = false
 	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its experience amount is multiplied by this value.
-	uncommonExperienceScale = 5.0
+	uncommonExperienceScale = 1.5
 	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its item drops amount is multiplied by this value.
-	rareDropScale = 5
+	rareDropScale = 2
 	#The minimum base starting level of every mob. Cannot be less than 1.
-	baseWeight = 400
+	baseWeight = 1
 	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its item drops amount is multiplied by this value.
-	uncommonDropScale = 2
+	uncommonDropScale = 1.25
 	#The minimum amount of days before uncommon variants start to spawn.
 	uncommonSpawnDayMin = 0
 	#The minimum amount of days before rare variants start to spawn.
 	rareSpawnDayMin = 0
 	#When a creature with the rare variant (Celestial, Lunar, etc) dies, its experience amount is multiplied by this value.
-	rareExperienceScale = 10.0
+	rareExperienceScale = 3.0
 	#If set to true, rare variants such as the Lunar Grue or Celestial Geonach will display boss health bars.
 	rareHealthBars = false
 
@@ -267,7 +267,7 @@
 
 		["Creature Variants".multipliers.uncommon]
 			#Stat multiplier for damage for uncommon variant.
-			damage = 1.0
+			damage = 1.25
 			#Stat multiplier for armor for uncommon variant.
 			armor = 1.0
 			#Stat multiplier for defense for uncommon variant.
@@ -279,7 +279,7 @@
 			#Stat multiplier for sight for uncommon variant.
 			sight = 1.0
 			#Stat multiplier for health for uncommon variant.
-			health = 2.0
+			health = 1.25
 			#Stat multiplier for amplifier for uncommon variant.
 			amplifier = 1.0
 			#Stat multiplier for rangedSpeed for uncommon variant.
@@ -291,23 +291,23 @@
 
 		["Creature Variants".multipliers.rare]
 			#Stat multiplier for damage for rare variant.
-			damage = 1.0
+			damage = 2.0
 			#Stat multiplier for armor for rare variant.
 			armor = 1.0
 			#Stat multiplier for defense for rare variant.
 			defense = 1.0
 			#Stat multiplier for attackSpeed for rare variant.
-			attackSpeed = 2.0
+			attackSpeed = 1.0
 			#Stat multiplier for effect for rare variant.
-			effect = 2.0
+			effect = 1.0
 			#Stat multiplier for sight for rare variant.
 			sight = 1.0
 			#Stat multiplier for health for rare variant.
-			health = 20.0
+			health = 2.0
 			#Stat multiplier for amplifier for rare variant.
 			amplifier = 1.0
 			#Stat multiplier for rangedSpeed for rare variant.
-			rangedSpeed = 2.0
+			rangedSpeed = 1.0
 			#Stat multiplier for speed for rare variant.
 			speed = 1.0
 			#Stat multiplier for pierce for rare variant.
@@ -317,7 +317,7 @@
 		#Subspecies weight for uncommon.
 		uncommon = 20
 		#Subspecies weight for rare.
-		rare = 2
+		rare = 1
 
 [Items]
 	#The chance of seasonal items dropping such as Winter Gifts. Can be 0-1, 0.25 would be 25%. Set to 0 to disable these drops all together.

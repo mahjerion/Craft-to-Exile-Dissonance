@@ -5,7 +5,7 @@
     {
       "id": 0,
       "title": "Prelude: Overworld",
-      "text": "Lv. 1-40",
+      "text": "Lv. 1-30",
       "quests": [
         0,
         1,
@@ -33,13 +33,16 @@
         110,
         114,
         115,
-        116
+        116,
+        162,
+		163,
+		164
       ]
     },
     {
       "id": 1,
       "title": "Act I: The Bumblezone",
-      "text": "Lv. 10-25",
+      "text": "Lv. 10-18",
       "quests": [
         10,
         11,
@@ -55,7 +58,7 @@
     {
       "id": 2,
       "title": "Act II: Nether",
-      "text": "Lv. 20-35",
+      "text": "Lv. 18-26",
       "quests": [
         16,
         21,
@@ -80,7 +83,7 @@
     {
       "id": 3,
       "title": "Act III: The End",
-      "text": "Lv. 35-40",
+      "text": "Lv. 26-30",
       "quests": [
         35,
         36,
@@ -98,8 +101,32 @@
     },
     {
       "id": 4,
-      "title": "Act IV: Good Night\u0027s Sleep",
-      "text": "Lv. 40-65",
+      "title": "Act IV: Atum",
+      "text": "Lv. 30-40",
+      "quests": [
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Act V: Good Night\u0027s Sleep",
+      "text": "Lv. 40-50",
       "quests": [
         40,
         41,
@@ -123,9 +150,9 @@
       ]
     },
     {
-      "id": 5,
-      "title": "Act V: Midnight",
-      "text": "Lv. 60-75",
+      "id": 6,
+      "title": "Act VI: Midnight",
+      "text": "Lv. 50-58",
       "quests": [
         20,
         78,
@@ -143,8 +170,8 @@
       ]
     },
     {
-      "id": 6,
-      "title": "Crafting",
+      "id": 7,
+      "title": "Homestead",
       "text": "Lv. 1+",
       "quests": [
         17,
@@ -164,9 +191,58 @@
         92,
         93,
         94,
+        117,
+        118,
+        119
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Technology",
+      "text": "Lv. 1+",
+      "quests": [
         96,
         108,
-        117
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Summoning",
+      "text": "Lv. 1+",
+      "quests": [
+        165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172
       ]
     }
   ]

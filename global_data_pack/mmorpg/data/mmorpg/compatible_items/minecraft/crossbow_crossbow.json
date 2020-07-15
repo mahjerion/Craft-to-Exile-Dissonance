@@ -3,9 +3,9 @@
   "item_id": "minecraft:crossbow",
   "id": "crossbow:minecraft:crossbow",
   "gear_type": {
-    "normal_item_weight": 99,
+    "normal_item_weight": 100,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,
@@ -18,8 +18,8 @@
     "can_be_salvaged": false
   },
   "level": {
-    "min_level": 16,
-    "max_level": 30,
+    "min_level": 11,
+    "max_level": 20,
     "level_variance": 0
   },
   "unique": {

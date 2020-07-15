@@ -1,0 +1,50 @@
+
+#General settings
+[general]
+	#Do chat output of chunk loaders?
+	feedback = false
+	#Kinetic blocks should snap to connect to networks
+	part_snapping = true
+
+#Power settings
+[power]
+
+	#Motor settings
+	[power.motor]
+		#Max FE/t input for the motor
+		#Range: > 0
+		receive = 25000
+		#Generated base stress units
+		#Range: > 0
+		su = 1024
+		#Maximum power buffer for the Stressed Out Motor
+		#Range: > 0
+		maxPower = 100000
+		#Motor Speed
+		#Range: 0 ~ 256
+		rpm = 16
+		#FE/t required to run the motor
+		#Range: > 0
+		fe = 4096
+
+	#Dynamo settings
+	[power.dynamo]
+		#Stress Units required to run the Dynamo
+		#Range: > 0
+		su = 256
+		#Maximum power buffer for the Stressed Out Dynamo generator
+		#Range: > 0
+		maxPower = 100000
+		#Power generation per rpm
+		#Range: > 0
+		generate = 70
+		#Power transfer to send per tick
+		#Range: > 0
+		send = 25000
+
+#Belt machines settings
+[belt_machines]
+	#Base SU for the Rolling Machine
+	#Range: > 0
+	rollingMachineSU = 4
+

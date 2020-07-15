@@ -86,13 +86,13 @@
       "item": "minecraft:magma_cream",
       "minAmount": 3,
       "maxAmount": 5,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:blaze_powder",
       "minAmount": 3,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.5
     }
   ],
   "sizeScale": 1,

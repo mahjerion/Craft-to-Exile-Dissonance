@@ -75,7 +75,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -90,7 +90,7 @@
       "item": "minecraft:magma_cream",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 0.75
+      "chance": 0.05
     },
     {
       "item": "minecraft:blaze_rod",

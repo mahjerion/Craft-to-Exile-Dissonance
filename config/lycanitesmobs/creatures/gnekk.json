@@ -76,7 +76,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "perchable": true,
   "summonCost": 2,
@@ -92,7 +92,7 @@
       "item": "lycanitesmobs:poisongland",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

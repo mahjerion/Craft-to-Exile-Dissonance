@@ -36,7 +36,7 @@
   "defense": 0,
   "armor": 0,
   "speed": 30,
-  "damage": 4,
+  "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 0.25,
   "effectDuration": 30,
@@ -87,7 +87,7 @@
       "item": "lycanitesmobs:lightballcharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

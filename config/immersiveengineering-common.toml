@@ -9,8 +9,6 @@
 	wireTransferRate = [2048, 8192, 32768, 0, 0, 0]
 	#"The maximum length wire can have. Copper and Electrum should be similar, Steel is meant for long range transport, Structural Rope & Cables are purely decorational"
 	wireLength = [16, 16, 32, 32, 32, 32]
-	#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.
-	enableWireLogger = false
 	#The RGB colourate of the wires.
 	wireColouration = [11758655, 15573061, 7303023, 9862765, 7303023, 16723759, 16445918, 10323322]
 	#Attempts to make the internal data structures used for wires consistent with the connectors in the world.Use with care and backups and only when suspecting corrupted data.
@@ -19,6 +17,12 @@
 	#If this is enabled, wires connected to power sources will cause damage to entities touching them
 	#This shouldn't cause significant lag but possibly will. If it does, please report it at https://github.com/BluSunrize/ImmersiveEngineering/issues unless there is a report of it already.
 	enableWireDamage = true
+
+	[wires.debug]
+		#Run sanity checks on the wire network after every interaction. This will cause a decent amount of lag and a lot of log spam if the wire network isn't fully intact. Only enable when asked to by an IE developer.
+		validateNets = false
+		#Enable detailed logging for the wire network. This can be useful for developers to track down issues related to wires.
+		enableWireLogger = false
 
 [General]
 	#The weight that hempseeds have when breaking tall grass. 5 by default, set to 0 to disable drops
@@ -60,12 +64,15 @@
 [machines]
 	#Set this to false to disable the mob-spawn prevention of the Floodlight
 	floodlight_spawnPrevent = true
-	#The chance that a given chunk will contain a mineral vein.
-	#Range: 0.001 ~ 1.0
-	excavator_chance = 0.2
+	#The threshold the perlin noise has to cross for a mineral vein to be generated. Higher means less likely.
+	#Range: 0.0 ~ 1.0
+	excavator_chance = 0.1
 	#A base-modifier for all fluid fertilizers in the cloche
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_fluid_fertilizer_mod = 1.0
+	#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
+	#Range: > -1
+	excavator_yield = 38400
 	#The Flux the Assembler will consume to craft an item from a recipe
 	#Range: > 1
 	assembler_consumption = 80
@@ -81,9 +88,6 @@
 	#How much Flux the powered lantern draws per tick
 	#Range: > 1
 	lantern_energyDraw = 1
-	#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
-	#Range: > -1
-	excavator_depletion = 38400
 	#A modifier to apply to the time of every metal press recipe
 	#Range: 0.001 ~ 1000.0
 	metal_press_timeModifier = 1.0
@@ -140,9 +144,6 @@
 	#The Flux per tick the Tesla Coil will consume, simply by being active
 	#Range: > 1
 	teslacoil_consumption = 256
-	#The chance that the Excavator will not dig up an ore with the currently downward-facing bucket.
-	#Range: 0.0 ~ 1.0
-	excavator_fail_chance = 0.05
 	#The Flux per tick consumed to add one heat to a furnace. Creates up to 4 heat in the startup time and then 1 heat per tick to keep it running
 	#Range: > 1
 	heater_consumption = 8
@@ -175,6 +176,9 @@
 	#The length in ticks it takes for the Core Sample Drill to figure out which mineral is found in a chunk
 	#Range: > 1
 	coredrill_time = 200
+	#The maximum depletion a vein can start with, as a decimal value. When a vein generates, a random percentage up to this value is depleted from it
+	#Range: 0.0 ~ 1.0
+	excavator_initial_depletion = 0.2
 	#A modifier to apply to the cloches total growing speed
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_growth_modifier = 1.0
@@ -276,7 +280,7 @@
 
 [ores]
 	#A blacklist of dimensions in which IE ores won't spawn. By default this is Nether and End
-	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end"]
+	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld", "the_bumblezone:bumblezone", "goodnightsleep:nightmare", "goodnightsleep:good_dream", "atum:atum", "midnight:midnight"]
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
 	retrogen_log_flagChunk = true
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.

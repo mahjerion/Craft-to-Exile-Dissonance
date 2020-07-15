@@ -30,7 +30,7 @@
   "width": 0.8,
   "height": 1.6,
   "experience": 10,
-  "health": 35,
+  "health": 30,
   "defense": 0,
   "armor": 0,
   "speed": 24,
@@ -72,7 +72,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 8,
   "dungeonLevel": 1,
   "drops": [
     {
@@ -91,19 +91,19 @@
       "item": "mmorpg:ore0",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.75
+      "chance": 0.5
     },
     {
       "item": "mmorpg:ore1",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.25
+      "chance": 0.15
     },
     {
       "item": "mmorpg:ore2",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.1
+      "chance": 0.01
     },
     {
       "item": "minecraft:quartz",
@@ -134,14 +134,7 @@
       "item": "lycanitesmobs:cleansingcrystal",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1,
-      "variant": 3
-    },
-    {
-      "item": "lycanitesmobs:soulstone_worm",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
+      "chance": 0.5,
       "variant": 3
     }
   ],

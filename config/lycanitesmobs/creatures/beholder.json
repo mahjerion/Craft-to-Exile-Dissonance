@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBeholder",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBeholder",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,12 +15,14 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "goodnightsleep:nightmare",
-	  "midnight:midnight"
+      "minecraft:the_nether",
+      "minecraft:the_end"
     ],
-    "dimensionListType": "whitelist",
-    "ignoreBiome": true,
-    "biomeTags": [],
+    "dimensionListType": "blacklist",
+    "ignoreBiome": false,
+    "biomeTags": [
+      "mountain"
+    ],
     "spawnWeight": 8,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
@@ -36,7 +38,7 @@
   "height": 3.9,
   "experience": 5,
   "health": 40,
-  "defense": 0,
+  "defense": 2,
   "armor": 0,
   "speed": 24,
   "damage": 2,

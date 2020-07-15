@@ -79,7 +79,7 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 2,
@@ -95,7 +95,7 @@
       "item": "lycanitesmobs:throwingscythecharge",
       "minAmount": 2,
       "maxAmount": 7,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

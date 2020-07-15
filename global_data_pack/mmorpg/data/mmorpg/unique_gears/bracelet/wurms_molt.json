@@ -1,0 +1,23 @@
+{
+  "id": "wurms_molt",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.wurms_molt",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.wurms_molt.desc",
+  "primary_stats": [
+    "health_flat"
+  ],
+  "unique_stats": [
+    "strength_flat",
+    "intelligence_flat",
+	"water_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 1.0
+  },
+  "gear_type": "bracelet",
+  "item_id": "mmorpg:bracelet/bracelet3"
+}

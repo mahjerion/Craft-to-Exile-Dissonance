@@ -21,7 +21,6 @@
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
-      "plains",
       "savanna",
       "-snowy"
     ],
@@ -77,8 +76,8 @@
   "peaceful": true,
   "farmable": true,
   "summonable": false,
-  "tameable": false,
-  "mountable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 2,
   "dungeonLevel": 0,
   "drops": [

@@ -86,7 +86,7 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 6,
@@ -109,7 +109,7 @@
       "item": "lycanitesmobs:doomfireballcharge",
       "minAmount": 5,
       "maxAmount": 10,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

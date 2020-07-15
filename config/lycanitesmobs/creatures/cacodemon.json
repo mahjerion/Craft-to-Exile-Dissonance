@@ -82,16 +82,16 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 3,
   "drops": [
     {
       "item": "minecraft:ghast_tear",
       "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
+      "maxAmount": 1,
+      "chance": 0.5
     },
     {
       "item": "minecraft:gunpowder",
@@ -102,21 +102,14 @@
     {
       "item": "minecraft:blaze_powder",
       "minAmount": 1,
-      "maxAmount": 6,
-      "chance": 0.5
+      "maxAmount": 2,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demonicblastcharge",
       "minAmount": 3,
       "maxAmount": 6,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_demon",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
-      "variant": 3
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

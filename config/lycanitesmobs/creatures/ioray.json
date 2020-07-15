@@ -74,7 +74,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
@@ -99,13 +99,13 @@
       "item": "minecraft:prismarine_shard",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:prismarine_crystals",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.5
+      "chance": 0.05
     },
     {
       "item": "minecraft:dye",
@@ -118,13 +118,13 @@
       "item": "minecraft:diamond",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.25
+      "chance": 0.05
     },
     {
       "item": "lycanitesmobs:waterjetcharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

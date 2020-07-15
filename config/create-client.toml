@@ -1,0 +1,20 @@
+
+#
+#Client-only settings - If you're looking for general settings, look inside your worlds serverconfig folder!
+[client]
+	#
+	#Range: 0.0 ~ 1.0
+	fanParticleDensity = 0.5
+	#
+	#Log a stack-trace when rendering issues happen within a moving contraption.
+	explainRenderErrors = false
+	#
+	#Show colourful debug information while the F3-Menu is open.
+	enableRainbowDebug = true
+	#
+	#Show item descriptions on Shift and controls on Ctrl.
+	enableTooltips = true
+	#
+	#Display a tooltip when looking at overstressed components.
+	enableOverstressedTooltip = true
+

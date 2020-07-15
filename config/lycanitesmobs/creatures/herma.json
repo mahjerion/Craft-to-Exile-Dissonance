@@ -81,7 +81,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "perchable": true,
   "summonCost": 4,

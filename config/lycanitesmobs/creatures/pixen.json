@@ -74,7 +74,7 @@
     "fungivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "perchable": true,
@@ -109,7 +109,7 @@
       "item": "lycanitesmobs:trickersterflarecharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

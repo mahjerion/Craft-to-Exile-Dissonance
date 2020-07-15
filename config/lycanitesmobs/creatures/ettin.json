@@ -107,13 +107,13 @@
       "item": "minecraft:leather",
       "minAmount": 2,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:coal",
       "minAmount": 2,
       "maxAmount": 8,
-      "chance": 1
+      "chance": 0.5
     }
   ],
   "sizeScale": 1,

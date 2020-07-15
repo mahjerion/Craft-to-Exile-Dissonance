@@ -87,8 +87,8 @@
     {
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
-      "maxAmount": 2,
-      "chance": 0.25
+      "maxAmount": 1,
+      "chance": 0.05
     },
     {
       "item": "minecraft:skull",
@@ -101,7 +101,7 @@
       "item": "lycanitesmobs:geistliver",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

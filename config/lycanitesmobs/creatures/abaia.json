@@ -79,7 +79,7 @@
     "piscivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "perchable": true,
@@ -98,13 +98,6 @@
       "minAmount": 1,
       "maxAmount": 8,
       "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_aquatic",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
-      "variant": 3
     }
   ],
   "sizeScale": 1,

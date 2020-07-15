@@ -59,7 +59,7 @@
       "id": 1,
       "icon": "minecraft:wooden_sword",
       "title": "The Crux",
-      "text": "You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, gear is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited. Dropped equipment scales with the mob level, so the stronger the mobs the better the gear! Try to kill some zombies - hopefully you\u0027ll find a new piece of gear.",
+      "text": "You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited. Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some zombies - hopefully you\u0027ll find a new piece of equipment.",
       "dependencies": [
         0
       ],
@@ -147,7 +147,7 @@
       "id": 3,
       "icon": "minecraft:bee_nest",
       "title": "The Bumblezone",
-      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 40, The Bumblezone is a recommended zone for level 10-25. The recommended levels for each dimension are as follows: Overworld (1-40), The Bumblezone (11-25), Nether (20-35), The End (35-40), Good Night\u0027s Sleep (40-65), Midnight (60-75), Maps (40-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
+      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 10-18. The recommended levels for each dimension are as follows: Overworld (1-30), The Bumblezone (10-16), Nether (16-26), The End (26-30), Atum (30-40) Good Night\u0027s Sleep (40-50), Midnight (50-58), Maps (30-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
       "dependencies": [
         2
       ],
@@ -190,7 +190,7 @@
       "id": 4,
       "icon": "mmorpg:ore0",
       "title": "Ores",
-      "text": "In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair gear or craft special items. Check JEI for more information.",
+      "text": "In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair equipment or craft special items. Check JEI for more information.",
       "dependencies": [
         1
       ],
@@ -231,7 +231,7 @@
       "id": 5,
       "icon": "mmorpg:currency/orb_of_transmutation",
       "title": "Currency Items",
-      "text": "Currency items are powerful items with the ability to reroll the stats on your gear. In order to use them, you must craft a modify station.",
+      "text": "Currency items are powerful items with the ability to reroll the stats on your equipment. In order to use them, you must craft a modify station.",
       "dependencies": [
         2
       ],
@@ -320,8 +320,8 @@
     {
       "id": 7,
       "icon": "mmorpg:modify_station",
-      "title": "Upgrading Your Gear",
-      "text": "With a modify station, you are able to upgrade or reroll your gear using currency dropped by mobs. Craft one soon!",
+      "title": "Upgrading Your Equipment",
+      "text": "With a modify station, you are able to upgrade or reroll your equipment using currency dropped by mobs. Craft one soon!",
       "dependencies": [
         5
       ],
@@ -362,7 +362,7 @@
       "id": 8,
       "icon": "mmorpg:salvage_station",
       "title": "TOO. MUCH. LOOT.",
-      "text": "Are you having issues with hoarding loot? Look no further! You can craft a salvage station to turn unused gear into ores! Note: this will not work with crafted gear.",
+      "text": "Are you having issues with hoarding loot? Look no further! You can craft a salvage station to turn unused equipment into ores! Note: this will not work with crafted equipment.",
       "dependencies": [
         7
       ],
@@ -390,7 +390,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 5000"
+            "command": "slash give exp @p 4500"
           }
         }
       ],
@@ -403,7 +403,7 @@
       "id": 9,
       "icon": "mmorpg:currency_bag",
       "title": "Still Too Much...",
-      "text": "You can craft currency and gear bags that will automagically pick up currency and gear for you, while providing additional storage while adventuring. Check the JEI for the crafting recipe!",
+      "text": "You can craft currency and equipment bags that will automagically pick up currency and equipment for you, while providing additional storage while adventuring. Check the JEI for the crafting recipe!",
       "dependencies": [
         8
       ],
@@ -487,7 +487,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 16500"
+            "command": "slash give exp @p 8250"
           }
         }
       ],
@@ -527,7 +527,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 24000"
+            "command": "slash give exp @p 12000"
           }
         }
       ],
@@ -591,7 +591,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 45000"
+            "command": "slash give exp @p 22500"
           }
         }
       ],
@@ -624,7 +624,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 42000"
+            "command": "slash give exp @p 21000"
           }
         }
       ],
@@ -697,7 +697,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 56250"
+            "command": "slash give exp @p 28125"
           }
         }
       ],
@@ -740,7 +740,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 67500"
+            "command": "slash give exp @p 33750"
           }
         }
       ],
@@ -780,7 +780,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 52000"
+            "command": "slash give exp @p 26000"
           }
         }
       ],
@@ -946,7 +946,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000000"
+            "command": "slash give exp @p 500000"
           }
         }
       ],
@@ -987,7 +987,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 50000"
+            "command": "slash give exp @p 25000"
           }
         }
       ],
@@ -1028,7 +1028,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 62500"
+            "command": "slash give exp @p 31250"
           }
         }
       ],
@@ -1069,7 +1069,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 75000"
+            "command": "slash give exp @p 37500"
           }
         }
       ],
@@ -1274,7 +1274,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 21000"
+            "command": "slash give exp @p 16000"
           }
         }
       ],
@@ -1314,7 +1314,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 65000"
+            "command": "slash give exp @p 32500"
           }
         }
       ],
@@ -1355,7 +1355,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 75000"
+            "command": "slash give exp @p 37500"
           }
         }
       ],
@@ -1396,7 +1396,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 87500"
+            "command": "slash give exp @p 43750"
           }
         }
       ],
@@ -1436,7 +1436,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 150000"
+            "command": "slash give exp @p 75000"
           }
         }
       ],
@@ -1478,7 +1478,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 92500"
+            "command": "slash give exp @p 46250"
           }
         }
       ],
@@ -1511,7 +1511,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 100000"
+            "command": "slash give exp @p 50000"
           }
         }
       ],
@@ -1546,7 +1546,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 125000"
+            "command": "slash give exp @p 62500"
           }
         }
       ],
@@ -1618,7 +1618,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -1659,7 +1659,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 135000"
+            "command": "slash give exp @p 67500"
           }
         }
       ],
@@ -1705,7 +1705,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 142500"
+            "command": "slash give exp @p 71250"
           }
         }
       ],
@@ -1716,9 +1716,9 @@
     },
     {
       "id": 39,
-      "icon": "goodnightsleep:strange_bed_item",
-      "title": "Time To Sleep",
-      "text": "You\u0027ve learned that it\u0027s possible to access the so-called nightmare realm by forcefully sleeping on a bed imbued with the power of the mushrooms. Try it for yourself and see if you can solve the nightmare mystery.",
+      "icon": "atum:scarab",
+      "title": "Pharaoh-cious",
+      "text": "You hear sleepless whispers of the undead rising - fear pierces every village in the Overworld. It seems like it\u0027s time to take a trip to Atum - the desert of the dead.",
       "dependencies": [
         38
       ],
@@ -1727,7 +1727,7 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "goodnightsleep:strange_bed_item",
+              "item": "atum:scarab",
               "amount": 1,
               "nbt": "{}"
             }
@@ -1738,7 +1738,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 150000"
+            "command": "slash give exp @p 75000"
           }
         }
       ],
@@ -1753,7 +1753,7 @@
       "title": "Blissful Awakening",
       "text": "Lucky you! You\u0027ve accessed the Good Dream dimension, where you\u0027ll find unicorns and rainbows. You sense that something is wrong with the balance of positive and negative energy. If you\u0027d like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
       "dependencies": [
-        39
+        153
       ],
       "requirements": [
         {
@@ -1773,7 +1773,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 155000"
+            "command": "slash give exp @p 77500"
           }
         }
       ],
@@ -1788,7 +1788,7 @@
       "title": "Sleep Paralysis",
       "text": "How unfortunate. You\u0027ve accessed the Nightmare dimension, where you\u0027ll find demons and darkness. You sense that something is wrong with the balance of positive and negative energy. If you\u0027d like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
       "dependencies": [
-        39
+        153
       ],
       "requirements": [
         {
@@ -1808,7 +1808,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 155000"
+            "command": "slash give exp @p 77500"
           }
         }
       ],
@@ -1890,7 +1890,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 4000"
+            "command": "slash give exp @p 3000"
           }
         }
       ],
@@ -1939,7 +1939,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 16000"
+            "command": "slash give exp @p 5000"
           }
         }
       ],
@@ -1980,7 +1980,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 52500"
+            "command": "slash give exp @p 26250"
           }
         }
       ],
@@ -2020,7 +2020,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 56250"
+            "command": "slash give exp @p 28125"
           }
         }
       ],
@@ -2064,7 +2064,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 10000"
+            "command": "slash give exp @p 8000"
           }
         }
       ],
@@ -2104,7 +2104,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 105000"
+            "command": "slash give exp @p 52500"
           }
         }
       ],
@@ -2144,7 +2144,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 75000"
+            "command": "slash give exp @p 37500"
           }
         }
       ],
@@ -2184,7 +2184,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 90000"
+            "command": "slash give exp @p 45000"
           }
         }
       ],
@@ -2224,7 +2224,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 97500"
+            "command": "slash give exp @p 48750"
           }
         }
       ],
@@ -2264,7 +2264,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 105000"
+            "command": "slash give exp @p 52500"
           }
         }
       ],
@@ -2304,7 +2304,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 90000"
+            "command": "slash give exp @p 45000"
           }
         }
       ],
@@ -2344,7 +2344,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 105000"
+            "command": "slash give exp @p 52500"
           }
         }
       ],
@@ -2357,7 +2357,7 @@
       "id": 55,
       "icon": "lycanitesmobs:demonspawn",
       "title": "Lords Of The Underworld",
-      "text": "Asmodeus and Rahovart serve the Wither. Find Asmodeus and Rahovart in the Nether and eliminate them.",
+      "text": "Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki).",
       "dependencies": [
         48,
         49,
@@ -2394,7 +2394,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 300000"
+            "command": "slash give exp @p 150000"
           }
         }
       ],
@@ -2434,7 +2434,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 67500"
+            "command": "slash give exp @p 33750"
           }
         }
       ],
@@ -2474,7 +2474,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 75000"
+            "command": "slash give exp @p 37500"
           }
         }
       ],
@@ -2514,7 +2514,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 77500"
+            "command": "slash give exp @p 38750"
           }
         }
       ],
@@ -2554,7 +2554,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 70000"
+            "command": "slash give exp @p 35000"
           }
         }
       ],
@@ -2594,7 +2594,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 100000"
+            "command": "slash give exp @p 50000"
           }
         }
       ],
@@ -2643,7 +2643,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 175000"
+            "command": "slash give exp @p 87500"
           }
         }
       ],
@@ -2702,7 +2702,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 250000"
+            "command": "slash give exp @p 125000"
           }
         }
       ],
@@ -2750,7 +2750,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 300000"
+            "command": "slash give exp @p 150000"
           }
         }
       ],
@@ -2799,7 +2799,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 275000"
+            "command": "slash give exp @p 137500"
           }
         }
       ],
@@ -2848,7 +2848,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 325000"
+            "command": "slash give exp @p 162500"
           }
         }
       ],
@@ -2897,7 +2897,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 450000"
+            "command": "slash give exp @p 225000"
           }
         }
       ],
@@ -2946,7 +2946,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 200000"
+            "command": "slash give exp @p 100000"
           }
         }
       ],
@@ -2995,7 +2995,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 225000"
+            "command": "slash give exp @p 112500"
           }
         }
       ],
@@ -3044,7 +3044,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 250000"
+            "command": "slash give exp @p 125000"
           }
         }
       ],
@@ -3093,7 +3093,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 200000"
+            "command": "slash give exp @p 100000"
           }
         }
       ],
@@ -3147,7 +3147,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 275000"
+            "command": "slash give exp @p 137500"
           }
         }
       ],
@@ -3196,7 +3196,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 325000"
+            "command": "slash give exp @p 162500"
           }
         }
       ],
@@ -3245,7 +3245,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 425000"
+            "command": "slash give exp @p 212500"
           }
         }
       ],
@@ -3294,7 +3294,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 550000"
+            "command": "slash give exp @p 275000"
           }
         }
       ],
@@ -3334,7 +3334,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 400000"
+            "command": "slash give exp @p 200000"
           }
         }
       ],
@@ -3374,7 +3374,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -3416,7 +3416,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 250000"
+            "command": "slash give exp @p 125000"
           }
         }
       ],
@@ -3429,7 +3429,7 @@
       "id": 78,
       "icon": "lycanitesmobs:shadowfire",
       "title": "Eternal Darkness",
-      "text": "The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks - these will spawn a portal that allows you access The Midnight. However, the portal will only spawn at night. Once you enter The Midnight, you cannot leave until it is night in the Overworld - rifts will start to open in The Midnight which will teleport you back to the Overworld.",
+      "text": "The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks in the Overworld - these will spawn a portal at night that allows you access The Midnight. Be warned though, you cannot come back through the portal unless it \u0027s night time in the Overworld as well.",
       "dependencies": [
         77
       ],
@@ -3451,7 +3451,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 450000"
+            "command": "slash give exp @p 225000"
           }
         }
       ],
@@ -4233,9 +4233,9 @@
       "id": 96,
       "icon": "immersiveengineering:manual",
       "title": "Your Engineering Degree",
-      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Unfortunately the scope of the mod is very broad and it\u0027s unlikely that progression will be implemented for IE. However, IE happens to have a great engineer\u0027s manual which will provide you with all the information you need!",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions.",
       "dependencies": [
-        0
+        134
       ],
       "requirements": [
         {
@@ -4253,14 +4253,6 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "minecraft:iron_block",
-            "amount": 1,
-            "nbt": "{}"
-          }
-        },
-        {
-          "type": "ITEMS",
-          "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
             "amount": 1,
             "nbt": "{}"
@@ -4269,13 +4261,13 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500"
+            "command": "slash give exp @p 1000"
           }
         }
       ],
       "position": [
-        0,
-        200
+        350,
+        100
       ]
     },
     {
@@ -4309,7 +4301,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 625000"
+            "command": "slash give exp @p 312500"
           }
         }
       ],
@@ -4349,7 +4341,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 625000"
+            "command": "slash give exp @p 312500"
           }
         }
       ],
@@ -4389,7 +4381,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 625000"
+            "command": "slash give exp @p 312500"
           }
         }
       ],
@@ -4429,7 +4421,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 625000"
+            "command": "slash give exp @p 312500"
           }
         }
       ],
@@ -4470,7 +4462,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4511,7 +4503,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4552,7 +4544,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4593,7 +4585,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4634,7 +4626,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4675,7 +4667,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
@@ -4714,7 +4706,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 50000"
+            "command": "slash give exp @p 25000"
           }
         }
       ],
@@ -4760,8 +4752,8 @@
         }
       ],
       "position": [
-        50,
-        200
+        350,
+        150
       ]
     },
     {
@@ -4901,7 +4893,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 60000"
+            "command": "slash give exp @p 30000"
           }
         }
       ],
@@ -4944,7 +4936,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 50000"
+            "command": "slash give exp @p 25000"
           }
         }
       ],
@@ -4987,7 +4979,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 300000"
+            "command": "slash give exp @p 150000"
           }
         }
       ],
@@ -5069,7 +5061,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 17000"
+            "command": "slash give exp @p 8000"
           }
         }
       ],
@@ -5110,7 +5102,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 10000"
+            "command": "slash give exp @p 4000"
           }
         }
       ],
@@ -5123,7 +5115,7 @@
       "id": 117,
       "icon": "solcarrot:food_book",
       "title": "Spice of Life: Carrot Edition",
-      "text": "Eating unique foods will give you a small bonus to HP. Use the food book or /foodlist to track your progress.",
+      "text": "Eating unique foods will give you a small bonus to HP. Use the food book or /foodlist (requires permissions) to track your progress.",
       "dependencies": [
         89
       ],
@@ -5158,6 +5150,2110 @@
       "position": [
         100,
         50
+      ]
+    },
+    {
+      "id": 118,
+      "icon": "pamhc2foodcore:cuttingboarditem",
+      "title": "Tools Of The Trade",
+      "text": "Pam\u0027s HarvestCraft 2 brings many different and new foods to flesh out Spice of Life. Many of the foods require specialized tools.",
+      "dependencies": [
+        92
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "pamhc2foodcore:cuttingboarditem",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:bowl",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        50
+      ]
+    },
+    {
+      "id": 119,
+      "icon": "pamhc2foodcore:grilledcheeseitem",
+      "title": "Make Me A Sandwich",
+      "text": "Well? Make me one!",
+      "dependencies": [
+        118
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "pamhc2foodcore:grilledcheeseitem",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:brick",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        50
+      ]
+    },
+    {
+      "id": 120,
+      "icon": "create:andesite_alloy",
+      "title": "Start Creating",
+      "text": "Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create\u0027s basal structures.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:andesite_alloy",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:zinc_nugget",
+            "amount": 5,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 121,
+      "icon": "create:shaft",
+      "title": "Get Shafted",
+      "text": "Shafts are used in many apparatuses. Use shafts to connect Create conveyer belts or to place blocks on. Shafts relay rotation in a straight line!",
+      "dependencies": [
+        120
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:shaft",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:shaft",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 122,
+      "icon": "create:cogwheel",
+      "title": "Inventing The Wheel",
+      "text": "Use cogwheels to relay rotation to other cogwheels. Stick them on a shaft and see what happens when coupled with a power source.",
+      "dependencies": [
+        121
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:cogwheel",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:large_cogwheel",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 123,
+      "icon": "create:mechanical_press",
+      "title": "Flattening Up",
+      "text": "The mechanical press compresses items beneath it. It can turn iron ingots into iron sheets. It requires constant rotational force.",
+      "dependencies": [
+        122
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:mechanical_press",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:andesite_casing",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 124,
+      "icon": "create:belt_connector",
+      "title": "Keep Things Going",
+      "text": "The belt connector can be used to attach 2 or more shafts. The belt can move both items and entities.",
+      "dependencies": [
+        123
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:belt_connector",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:belt_connector",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 125,
+      "icon": "create:extractor",
+      "title": "Delivery",
+      "text": "The extractor is a useful device that takes items from an inventory and places them onto the ground (or a conveyor belt).",
+      "dependencies": [
+        124
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:extractor",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:chest",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 126,
+      "icon": "create:funnel",
+      "title": "Reception",
+      "text": "Similar to the extractor, except that attaching this to a chest will instead pick up items from a belt.",
+      "dependencies": [
+        125
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:funnel",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:chest",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": 127,
+      "icon": "create:water_wheel",
+      "title": "Give Me Power!",
+      "text": "Your first main source of power! Craft a water wheel and place under flowing water. Then attach it to the mechanical press to provide rotational power!",
+      "dependencies": [
+        123
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:water_wheel",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:oak_planks",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 128,
+      "icon": "create:goggles",
+      "title": "See More, Do More",
+      "text": "Engineer\u0027s goggles, when worn, will let you see more details about create blocks when you look at them. A must have!",
+      "dependencies": [
+        127
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:goggles",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 129,
+      "icon": "create:speedometer",
+      "title": "Assessing Speed",
+      "text": "When attached to kinetic components, it will display the rotational speed.",
+      "dependencies": [
+        128
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:speedometer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        50
+      ]
+    },
+    {
+      "id": 130,
+      "icon": "create:stressometer",
+      "title": "Assessing Stress",
+      "text": "When attached to a kinetic network, it will display the overall stress.",
+      "dependencies": [
+        129
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:stressometer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        50
+      ]
+    },
+    {
+      "id": 131,
+      "icon": "create:iron_sheet",
+      "title": "Your First Job",
+      "text": "Iron sheets are basic components of various Create structures. Place an iron ingot beneath a mechanical press that is powered by rotational force.",
+      "dependencies": [
+        127
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:iron_sheet",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_ingot",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        250,
+        0
+      ]
+    },
+    {
+      "id": 132,
+      "icon": "create:wrench",
+      "title": "A Wrench In Your Plans",
+      "text": "A useful tool that can be used to rotate, dismantle, and configure contraptions.",
+      "dependencies": [
+        131
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:wrench",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:gold_ingot",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        300,
+        0
+      ]
+    },
+    {
+      "id": 133,
+      "icon": "create:electron_tube",
+      "title": "Light Show",
+      "text": "An important item used in various Create recipes.",
+      "dependencies": [
+        132
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:electron_tube",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        350,
+        0
+      ]
+    },
+    {
+      "id": 134,
+      "icon": "create:mechanical_mixer",
+      "title": "Making Brass",
+      "text": "When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots.",
+      "dependencies": [
+        133
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "create:mechanical_mixer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:brass_ingot",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        350,
+        50
+      ]
+    },
+    {
+      "id": 135,
+      "icon": "immersiveengineering:blastbrick",
+      "title": "Crude Blast Furnace",
+      "text": "Steel is the basic building block of all things IE. But to make steel, you\u0027ll first need a crude blast furnace. Consult the manual for the layout of the blast bricks. You will need an engineer\u0027s hammer",
+      "dependencies": [
+        108
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:blastbrick",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_block",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        150
+      ]
+    },
+    {
+      "id": 136,
+      "icon": "immersiveengineering:cokebrick",
+      "title": "Coke Oven",
+      "text": "Coke coal is more efficient than regular coal and is used in a blast furnace. You will need an engineer\u0027s hammer.",
+      "dependencies": [
+        135
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:cokebrick",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:coal",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        150
+      ]
+    },
+    {
+      "id": 137,
+      "icon": "immersiveengineering:wirecutter",
+      "title": "Wire We Not Connected?",
+      "text": "Wires connect an electricity source to a capacitor - which can disperse energy to nearby contraptions. You will need a wire cutter to remove any unwanted wires.",
+      "dependencies": [
+        136
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:wirecutter",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 138,
+      "icon": "immersiveengineering:wirecoil_copper",
+      "title": "Creating A Line",
+      "text": "Use a wire coil to place down wires. It\u0027s fine to start with copper, but you can look into upgrading your wires later.",
+      "dependencies": [
+        137
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:wirecoil_copper",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": 139,
+      "icon": "immersiveengineering:connector_lv",
+      "title": "Establishing Contact",
+      "text": "Before you can even connect wires to anything, you will need to place wire connectors on the blocks themselves.",
+      "dependencies": [
+        138
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:connector_lv",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 140,
+      "icon": "immersiveengineering:capacitor_lv",
+      "title": "Capacitor",
+      "text": "Capacitors are required to store energy which can be funneled to various contraptions. Attach the capacitor to an energy source such as the Create water wheel.",
+      "dependencies": [
+        139
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:capacitor_lv",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:cogwheel",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": 141,
+      "icon": "createintegration:dynamo",
+      "title": "RPM Conversion",
+      "text": "In order to utilize rotational power from Create, you will need to convert it into power that IE understands. Use the dynamo to convert rotational power into RF. You will lose some power in the conversion.",
+      "dependencies": [
+        140
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "createintegration:dynamo",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "create:electron_tube",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 142,
+      "icon": "immersiveengineering:dynamo",
+      "title": "Improving The Wheel",
+      "text": "Now seems like an appropriate time to start on a redstone flux generator. RF is the power source that IE uses. Craft a kinetic dynamo - this will be attached to IE\u0027s water wheel.",
+      "dependencies": [
+        141
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:dynamo",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:redstone_block",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 143,
+      "icon": "immersiveengineering:watermill",
+      "title": "Big Wheel",
+      "text": "Place the water wheel onto a kinetic dynamo near a large water fall. Be sure to connect it to a capable capacitor.",
+      "dependencies": [
+        142
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:watermill",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:water_bucket",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 144,
+      "icon": "immersiveengineering:furnace_heater",
+      "title": "Applications",
+      "text": "The furnace heater can be placed next to a furnace. When provided with sufficient power, the furnace can run without fuel.",
+      "dependencies": [
+        141
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:furnace_heater",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:furnace",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 145,
+      "icon": "atum:palm_door",
+      "title": "Welcome To Atum",
+      "text": "Atum is a desert dimension filled with evil mummies and treasure. Reach Atum by constructing a shallow 3x3 pool of water surrounded by sandstone blocks. Place 2 sandstone blocks in each corner to form 4 pillars. Then throw a scarab into the pool of water.",
+      "dependencies": [
+        39
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "atum:atum",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:torch",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 146,
+      "icon": "atum:mummy_helmet",
+      "title": "Surveying The Locals",
+      "text": "Due to the lack of resources, Atum is in constant disarray. Not to mention, the desert flows with undead energy...",
+      "dependencies": [
+        145
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:mummy",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:cloth_scrap",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
+    },
+    {
+      "id": 147,
+      "icon": "atum:loot_dirty_broach",
+      "title": "Nasty Eyes",
+      "text": "These evil creatures are equipped with stingers. They seem to be from another world.",
+      "dependencies": [
+        146
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:clink",
+              "amount": 10
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:flax_seeds",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 76000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 148,
+      "icon": "atum:wanderer_helmet",
+      "title": "Nomad\u0027s Land",
+      "text": "Nomads are the natives of the desert and will attack on sight. They are aggressive towards other creatures, too.",
+      "dependencies": [
+        146
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:nomad",
+              "amount": 8
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:short_bow",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 76000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 149,
+      "icon": "atum:dagger_poison",
+      "title": "Someone\u0027s Out To Get Us",
+      "text": "After fighting the nomads, we learnt that there are pyramids in Atum which contain great treasures... However, it seems like someone caught wind of us trying to find this treasure.",
+      "dependencies": [
+        148
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:barbarian",
+              "amount": 3
+            },
+            {
+              "entity": "atum:brigand",
+              "amount": 3
+            },
+            {
+              "entity": "atum:sergeant",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:dagger_poison",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 76500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 150,
+      "icon": "atum:khnumite",
+      "title": "Guardians Of The Stone",
+      "text": "Even the land has been infused with negative energy. Be careful when mining stone - rumours mention the stone coming back to life...",
+      "dependencies": [
+        145
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:stoneguard",
+              "amount": 2
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:khnumite",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 76000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 151,
+      "icon": "atum:ectoplasm",
+      "title": "Ghosts Of The Desert",
+      "text": "First mummies and now we have to deal with ghosts too?!",
+      "dependencies": [
+        147
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:wraith",
+              "amount": 4
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:fish_forsaken",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 76500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        150
+      ]
+    },
+    {
+      "id": 152,
+      "icon": "atum:iron_greatsword",
+      "title": "Followers Of Atum",
+      "text": "You\u0027ve been told that the pyramids hold great treasure - but that great treasure is guarded by an ancient pharaoh. Interrogate some followers and find out how you can get to the treasure.",
+      "dependencies": [
+        149,
+        151
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:bandit_warlord",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:pharaoh_torch",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 78500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 153,
+      "icon": "atum:sarcophagus",
+      "title": "The Pharaoh",
+      "text": "You learn from the bandit warlord that you need to find the pharaoh\u0027s sarcophagus and surround it with royal torches. You can find the sarcophagus deep in the pyramids.",
+      "dependencies": [
+        152
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:pharaoh",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:radiant_beacon",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 100000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 154,
+      "icon": "atum:sand",
+      "title": "Strange Sands",
+      "text": "These sands are more coarse than the sands from the Overworld. Grab some so that you can inspect it more closely.",
+      "dependencies": [
+        145
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:sand",
+              "amount": 16,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 65000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 155,
+      "icon": "atum:limestone",
+      "title": "Limestone?",
+      "text": "Limestone is the most abundant type of rock available in Atum and is therefore used in many structures.",
+      "dependencies": [
+        154
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:limestone",
+              "amount": 16,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_pickaxe",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 65500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": 156,
+      "icon": "atum:kiln",
+      "title": "Sandtraptions",
+      "text": "The kiln is made of limestone and functions similarly to the furnace. You will also want to make a spinning wheel to process threads.",
+      "dependencies": [
+        155
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:kiln",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "atum:spinning_wheel",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:papyrus_plant",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 66000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 157,
+      "icon": "atum:palm_sapling",
+      "title": "Finding An Oasis",
+      "text": "The oasis is a biome found in Atum that is untouched by the undead energy. You can find water and grow crops here.",
+      "dependencies": [
+        154
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:palm_log",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:palm_sapling",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 65500"
+          }
+        }
+      ],
+      "position": [
+        250,
+        100
+      ]
+    },
+    {
+      "id": 158,
+      "icon": "atum:linen_cloth",
+      "title": "Threading The Needle",
+      "text": "Because of the sun and the never-ending heat, locals have adapted to use thin linen clothes for protection from both the heat, and terrors.",
+      "dependencies": [
+        157
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:linen_cloth",
+              "amount": 2,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:flax_seeds",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 66000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        150
+      ]
+    },
+    {
+      "id": 159,
+      "icon": "atum:desert_chest_diamond",
+      "title": "Desert Protection",
+      "text": "Locals realized that linen clothes were not enough to protect themselves from enemies, and learned to incorporate rare metals into their clothes for extra protection.",
+      "dependencies": [
+        158
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:desert_chest_diamond",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:diamond",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 66500"
+          }
+        }
+      ],
+      "position": [
+        300,
+        150
+      ]
+    },
+    {
+      "id": 160,
+      "icon": "atum:disenchanting_scroll",
+      "title": "Disenchantments",
+      "text": "In Atum, you can craft disenchanting scrolls which will let you remove enchantments from your equipment. Combine these with the equipment in a crafting table.",
+      "dependencies": [
+        158
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "atum:disenchanting_scroll",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "atum:disenchanting_scroll",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 66500"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 161,
+      "icon": "goodnightsleep:strange_bed_item",
+      "title": "Nocturnal Whispers",
+      "text": "After killing the Pharaoh, you hear a whisper, \u0027it is too late, for my energy has seeped from Atum into the realm of dreams... I\u0027ll be back.\u0027 Go to the dream dimension and find the true source of negative energy.",
+      "dependencies": [
+        153
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "goodnightsleep:strange_bed_item",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 75000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": 162,
+      "icon": "speedyladders:stone_ladder",
+      "title": "To The Top",
+      "text": "Tired of climbing slow ladders or walking up to the waystones on the towers? Craft stone ladders to get to the top faster! Upgrade your stone ladder to go even faster!!!",
+      "dependencies": [
+        116
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "speedyladders:stone_ladder",
+              "amount": 8,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        200
+      ]
+    },
+    {
+      "id": 163,
+      "icon": "lycanitesmobs:soulcubeundead",
+      "title": "Bestiary VII",
+      "text": "Summon and elimnate the Amalgamich by crafting the undead portal (refer to wiki).",
+      "dependencies": [
+        36
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:pig",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        250
+      ]
+    },
+    {
+      "id": 164,
+      "icon": "lycanitesmobs:sturdysummoningstaff",
+      "title": "Summoning Aspect",
+      "text": "Complete this quest to unlock the summoning quest tab. Summoning from Lycanites Mobs is fully supported in Craft to Exile. Summons will scale off of your level and your damage stat. In CtE, you can only summon the primal elementals. However, it is possible to summon 2 elementals at a time and have them fuse into the a more powerful elemental. Press the beastiary (default: G) to change which elemental is equipped to the summon slot, and hold right-click with the staff to open a portal to summon the elemental.",
+      "dependencies": [
+        5
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "lycanitesmobs:sturdysummoningstaff",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        0
+      ]
+    },
+    {
+      "id": 165,
+      "icon": "lycanitesmobs:savagesummoningstaff",
+      "title": "[CURRENTLY UNATTAINABLE] Staff of Quantity",
+      "text": "Use the savage summoning staff to summon twice as many elementals with half as much health.",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "lycanitesmobs:savagesummoningstaff",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        90,
+        75
+      ]
+    },
+    {
+      "id": 166,
+      "icon": "lycanitesmobs:stablesummoningstaff",
+      "title": "Staff of Quality",
+      "text": "Use the stable summoning staff to summon elementals that stay by your side for a longer duration.",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "lycanitesmobs:stablesummoningstaff",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        60,
+        75
+      ]
+    },
+    {
+      "id": 167,
+      "icon": "lycanitesmobs:whirlwindcharge",
+      "title": "Air",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:djinn",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        25
+      ]
+    },
+    {
+      "id": 168,
+      "icon": "lycanitesmobs:mudshotcharge",
+      "title": "Earth",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:geonach",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        125
+      ]
+    },
+    {
+      "id": 169,
+      "icon": "lycanitesmobs:aquapulsecharge",
+      "title": "Water",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:jengu",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        125
+      ]
+    },
+    {
+      "id": 170,
+      "icon": "lycanitesmobs:embercharge",
+      "title": "Fire",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:cinder",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        25
+      ]
+    },
+    {
+      "id": 171,
+      "icon": "lycanitesmobs:lightballcharge",
+      "title": "Order",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:aegis",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        25,
+        75
+      ]
+    },
+    {
+      "id": 172,
+      "icon": "lycanitesmobs:demonicblastcharge",
+      "title": "Chaos",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "dependencies": [
+        164
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "lycanitesmobs:argus",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        125,
+        75
       ]
     }
   ]

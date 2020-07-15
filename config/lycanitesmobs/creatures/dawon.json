@@ -78,7 +78,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -100,14 +100,7 @@
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.01,
-      "subspecies": 1
-    },
-    {
-      "item": "minecraft:diamond",
-      "minAmount": 1,
-      "maxAmount": 2,
-      "chance": 0.01,
-      "subspecies": 2
+      "subspecies": 0.5
     }
   ],
   "sizeScale": 1,

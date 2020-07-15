@@ -76,7 +76,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "perchable": true,
   "summonCost": 2,
@@ -98,7 +98,7 @@
       "item": "lycanitesmobs:scorchfireballcharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLacedon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLacedon",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,9 +15,10 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:the_nether",
+      "minecraft:the_end"
     ],
-    "dimensionListType": "whitelist",
+    "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
       "ocean",
@@ -27,7 +28,7 @@
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 2,
+    "spawnGroupMax": 3,
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,

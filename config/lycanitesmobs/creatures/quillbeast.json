@@ -79,7 +79,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
@@ -94,7 +94,7 @@
       "item": "lycanitesmobs:quillcharge",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

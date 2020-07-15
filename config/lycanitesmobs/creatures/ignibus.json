@@ -36,11 +36,11 @@
   "width": 8.9,
   "height": 8.9,
   "experience": 30,
-  "health": 1400,
+  "health": 360,
   "defense": 0,
   "armor": 0,
   "speed": 27,
-  "damage": 7,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -75,7 +75,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": true,
   "summonCost": 10,
   "dungeonLevel": 3,
@@ -100,8 +100,8 @@
     },
     {
       "item": "minecraft:blaze_powder",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 5,
+      "maxAmount": 10,
       "chance": 1
     },
     {
@@ -114,7 +114,7 @@
       "item": "lycanitesmobs:scorchfireballcharge",
       "minAmount": 10,
       "maxAmount": 20,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

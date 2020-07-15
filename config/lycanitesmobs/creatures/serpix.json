@@ -81,7 +81,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 3,
@@ -108,7 +108,7 @@
       "item": "lycanitesmobs:blizzardcharge",
       "minAmount": 3,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

@@ -81,13 +81,13 @@
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:ender_eye",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.5
+      "chance": 0.01
     },
     {
       "item": "minecraft:chorus_fruit",
@@ -105,7 +105,7 @@
       "item": "lycanitesmobs:spectralboltcharge",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.25
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

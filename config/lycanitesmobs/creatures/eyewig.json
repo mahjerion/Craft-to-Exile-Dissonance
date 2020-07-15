@@ -82,8 +82,8 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
@@ -109,13 +109,13 @@
       "item": "lycanitesmobs:poisongland",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "lycanitesmobs:poisonraycharge",
       "minAmount": 3,
       "maxAmount": 5,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

@@ -128,12 +128,12 @@
 	#minecolonies.config.initialcolonysize.comment
 	#Range: 1 ~ 200
 	initialColonySize = 4
-	#Max distance from world spawn. [Default: 8000]
-	#Range: 1000 ~ 100000
-	maxdistancefromworldspawn = 8000
 	#minecolonies.config.maxcolonysize.comment
 	#Range: 1 ~ 50
 	maxColonySize = 20
+	#Max distance from world spawn. [Default: 8000]
+	#Range: 1000 ~ 100000
+	maxdistancefromworldspawn = 8000
 	#minecolonies.config.mincolonydistance.comment
 	#Range: 1 ~ 200
 	minColonyDistance = 8
@@ -159,7 +159,7 @@
 	mobattackcitizens = true
 	#The max size of a barbarian horde. [Default: 20]
 	#Range: 6 ~ 400
-	maxBarbarianSize = 40
+	maxBarbarianSize = 80
 	#Health multiplier for all Guards. [Default: 1.0]
 	#Range: 0.1 ~ 5.0
 	guardhealthmult = 1.0

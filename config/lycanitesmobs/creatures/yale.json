@@ -75,8 +75,8 @@
   "peaceful": true,
   "farmable": true,
   "summonable": false,
-  "tameable": false,
-  "mountable": false,
+  "tameable": true,
+  "mountable": true,
   "summonCost": 1,
   "dungeonLevel": 0,
   "drops": [

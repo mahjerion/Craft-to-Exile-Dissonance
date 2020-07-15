@@ -70,26 +70,26 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 8,
   "dungeonLevel": 1,
   "drops": [
     {
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.5
+      "chance": 0.05
     },
     {
       "item": "minecraft:obsidian",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.5
+      "chance": 0.05
     },
     {
       "item": "lycanitesmobs:chaosorbcharge",
       "minAmount": 3,
       "maxAmount": 5,
-      "chance": 1
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

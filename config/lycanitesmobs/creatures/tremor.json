@@ -85,13 +85,13 @@
       "item": "minecraft:blaze_powder",
       "minAmount": 1,
       "maxAmount": 4,
-      "chance": 1
+      "chance": 0.1
     },
     {
       "item": "minecraft:blaze_rod",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 0.75
+      "chance": 0.075
     }
   ],
   "sizeScale": 1,

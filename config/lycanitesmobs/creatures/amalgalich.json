@@ -95,8 +95,8 @@
     },
     {
       "item": "minecraft:ender_pearl",
-      "minAmount": 5,
-      "maxAmount": 10,
+      "minAmount": 1,
+      "maxAmount": 2,
       "chance": 1
     },
     {
@@ -114,7 +114,7 @@
     {
       "item": "minecraft:nether_star",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 1,
       "chance": 1
     },
     {
@@ -151,18 +151,6 @@
       "item": "lycanitesmobs:shadowcrystal",
       "minAmount": 64,
       "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_undead",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_aberration",
-      "minAmount": 1,
-      "maxAmount": 3,
       "chance": 1
     },
     {

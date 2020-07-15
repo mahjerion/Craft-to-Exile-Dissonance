@@ -4,7 +4,7 @@
 	#Range: 0 ~ 1000000
 	sampleSpaceModifier = 16
 	#Allows a player to teleport to a located biome when in creative mode, opped, or in cheat mode.
-	allowTeleport = true
+	allowTeleport = false
 	#The maximum number of samples to be taken when searching for a biome.
 	#Range: 0 ~ 1000000
 	maxSamples = 50000

@@ -16,7 +16,8 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:overworld",
+	  "atum:atum"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
@@ -80,7 +81,7 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
+  "tameable": false,
   "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 1,

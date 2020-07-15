@@ -1,20 +1,20 @@
 
-#structurize.config.gameplay.comment
+#All configuration items related to the core gameplay
 [gameplay]
-	#structurize.config.maxcachedchanges.comment
+	#Max amount of changes cached to be able to undo
 	#Range: 0 ~ 100
 	maxCachedChanges = 10
-	#structurize.config.allowplayerschematics.comment
+	#Should player made schematics be allowed
 	allowPlayerSchematics = true
-	#structurize.config.ignoreschematicsfromjar.comment
+	#Should the default schematics be ignored (from the jar)?
 	ignoreSchematicsFromJar = false
-	#structurize.config.maxoperationspertick.comment
+	#Max world operations per tick (Max blocks to place, remove or replace)
 	#Range: 0 ~ 100000
 	maxOperationsPerTick = 1000
-	#structurize.config.maxblockschecked.comment
+	#Max amount of blocks checked by a possible worker
 	#Range: 0 ~ 100000
 	maxBlocksChecked = 1000
-	#structurize.config.maxcachedschematics.comment
+	#Max amount of schematics to be cached on the server
 	#Range: 0 ~ 100000
 	maxCachedSchematics = 100
 

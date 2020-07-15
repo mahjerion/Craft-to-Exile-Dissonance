@@ -7,7 +7,7 @@
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityMakaAlpha",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelMakaAlpha",
   "loadDefault": false,
-  "enabled": true,
+  "enabled": false,
   "spawning": {
     "enabled": true,
     "spawners": [],

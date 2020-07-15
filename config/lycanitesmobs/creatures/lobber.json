@@ -96,26 +96,19 @@
       "item": "minecraft:magma_cream",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:blaze_powder",
       "minAmount": 1,
       "maxAmount": 6,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "lycanitesmobs:magmacharge",
       "minAmount": 2,
       "maxAmount": 5,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_imp",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1,
-      "variant": 3
+      "chance": 0.1
     }
   ],
   "sizeScale": 1,

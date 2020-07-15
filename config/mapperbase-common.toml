@@ -3,7 +3,7 @@
 [bitumen]
 	#Size of bitumen pockets [0-100, default: 18]
 	#Range: 0 ~ 100
-	bitumenSize = 8
+	bitumenSize = 4
 	#Minimal height for bitumen pocket generation, [0-255, default: 40]
 	#Range: 0 ~ 255
 	bitumenMinHeight = 60

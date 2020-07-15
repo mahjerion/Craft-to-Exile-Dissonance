@@ -3,13 +3,13 @@
   "item_id": "minecraft:bow",
   "id": "bow:minecraft:bow",
   "gear_type": {
-    "normal_item_weight": 99,
+    "normal_item_weight": 100,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 1
+    "max_rarity": 2
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,
@@ -19,7 +19,7 @@
   },
   "level": {
     "min_level": 1,
-    "max_level": 15,
+    "max_level": 10,
     "level_variance": 0
   },
   "unique": {

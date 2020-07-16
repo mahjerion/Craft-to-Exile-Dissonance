@@ -39,11 +39,11 @@ craftingTable.addShaped("summoning_staff", <item:lycanitesmobs:sturdysummoningst
 	[<item:minecraft:air>,<item:minecraft:bone>,<item:minecraft:air>],
 	[<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>]
 ]);
-craftingTable.addShaped("stable_staff", <item:lycanitesmobs:stablesummoningstaff>,[
-	[<item:minecraft:air>,<item:mmorpg:currency/add_secondary_stat>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:lycanitesmobs:sturdysummoningstaff>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>]
-]);
+//craftingTable.addShaped("stable_staff", <item:lycanitesmobs:stablesummoningstaff>,[
+//	[<item:minecraft:air>,<item:mmorpg:currency/add_secondary_stat>,<item:minecraft:air>],
+//	[<item:minecraft:air>,<item:lycanitesmobs:sturdysummoningstaff>,<item:minecraft:air>],
+//	[<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>]
+//]);
 //craftingTable.addShaped("savage_staff", <item:lycanitesmobs:savagesummoningstaff>,[
 //	[<item:minecraft:air>,<item:mmorpg:currency/cheap_gear_lvl>,<item:minecraft:air>],
 //  [<item:minecraft:air>,<item:lycanitesmobs:summoningstaff>,<item:minecraft:air>],

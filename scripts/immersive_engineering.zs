@@ -1,11 +1,14 @@
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.BlastFurnaceManager;
 
 <tag:crafttweaker:steel_fence>.createItemTag();
 <tag:crafttweaker:steel_fence>.addItems([<item:immersiveengineering:steel_fence>, <item:mapperbase:steel_fence>]);
 
 craftingTable.removeRecipe(<item:immersiveengineering:sample_drill>);
 craftingTable.removeRecipe(<item:immersiveengineering:steel_post>);
+craftingTable.removeRecipe(<item:mapperbase:steel_rod>);
+blastFurnace.removeRecipe(<item:mapperbase:steel_rod>, <tag:forge:rods/iron>);
 
 craftingTable.addShaped("sample_drill", <item:immersiveengineering:sample_drill>,[
 	[<item:immersiveengineering:steel_scaffolding_standard>,<tag:crafttweaker:steel_fence>,<item:immersiveengineering:steel_scaffolding_standard>],

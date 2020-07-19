@@ -156,7 +156,7 @@
 	#Whether or not to barbarians can break, scale, bridge obstacles. [Default: true]
 	dobarbariansbreakthroughwalls = true
 	#Should Mobs attack citizens? [Default: false
-	mobattackcitizens = true
+	mobattackcitizens = false
 	#The max size of a barbarian horde. [Default: 20]
 	#Range: 6 ~ 400
 	maxBarbarianSize = 80

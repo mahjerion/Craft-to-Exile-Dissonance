@@ -2,7 +2,7 @@
   "specificMobs": {
     "lycanitesmobs:aegis": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -10,12 +10,12 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:geonach": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -23,12 +23,12 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:argus": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -36,12 +36,12 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:djinn": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -49,12 +49,12 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:jengu": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -62,12 +62,12 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:cinder": {
       "LOOT_MULTI": 0.5,
-      "EXP_MULTI": 0.25,
+      "EXP_MULTI": 0.15,
       "MIN_RARITY": 0,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
@@ -75,7 +75,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.8,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.5,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:spectre": {
@@ -88,7 +88,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:wisp": {
@@ -101,7 +101,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:sylph": {
@@ -114,7 +114,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:vapula": {
@@ -127,7 +127,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:nymph": {
@@ -140,7 +140,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:grue": {
@@ -153,7 +153,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:wraith": {
@@ -166,7 +166,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:tremor": {
@@ -179,7 +179,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:eechetik": {
@@ -192,7 +192,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:zephyr": {
@@ -205,7 +205,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:volcan": {
@@ -218,7 +218,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:xaphan": {
@@ -231,7 +231,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:banshee": {
@@ -244,7 +244,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:reiver": {
@@ -257,7 +257,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:spriggan": {
@@ -270,7 +270,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.2,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:amalgalich": {
@@ -403,9 +403,9 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.8,
-      "HP_MULTI": 1.0,
-      "STAT_MULTI": 1.0
+      "DMG_MULTI": 1.4,
+      "HP_MULTI": 0.75,
+      "STAT_MULTI": 0.75
     }
   }
 }

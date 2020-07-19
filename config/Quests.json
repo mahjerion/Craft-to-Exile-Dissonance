@@ -4719,7 +4719,7 @@
       "id": 108,
       "icon": "immersiveengineering:seed",
       "title": "The Grand Hempening",
-      "text": "Hemp is vital to starting Immersive Engineering. You can craft hemp seeds using wheat and a gold ingot.",
+      "text": "Hemp is vital to starting Immersive Engineering. You can find hemp seeds in grass.",
       "dependencies": [
         96
       ],
@@ -4905,8 +4905,8 @@
     {
       "id": 112,
       "icon": "minecraft:iron_pickaxe",
-      "title": "Caves",
-      "text": "The Caves are an endless cave that can be accessed by crafting a portal out of mossy stone and using an emerald on it (similar to the Nether portal and flint and steel). It\u0027s recommended that you\u0027re at least level 35 before entering the Caves.",
+      "title": "Mining Dimension",
+      "text": "The Mining Dimension is an endless cave that can be accessed by crafting a teleporter (see JEI). It\u0027s recommended that you\u0027re at least level 30 before entering the Mining Dimension.",
       "dependencies": [
         35
       ],
@@ -4915,7 +4915,7 @@
           "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "dim": "cavern:cavern",
+              "dim": "mining_dimension:mining_world",
               "x": 0,
               "y": 0,
               "z": 0,
@@ -4947,9 +4947,9 @@
     },
     {
       "id": 113,
-      "icon": "minecraft:diamond_pickaxe",
-      "title": "Caves II",
-      "text": "The Caves II are a larger endless cave that can be accessed by crafting a portal out of mossy stone and using a diamond on it (similar to the Nether portal and flint and steel). It\u0027s recommended that you\u0027re at least level 80 before entering the Caves II.",
+      "icon": "mmorpg:map_device",
+      "title": "Enter Maps",
+      "text": "Congratulations on finishing the main quest line! From now, you are free to level however you want. The max level is 99!",
       "dependencies": [
         20
       ],
@@ -4958,7 +4958,7 @@
           "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "dim": "cavern:huge_cavern",
+              "dim": "mmorpg:resettable_dungeon",
               "x": 0,
               "y": 0,
               "z": 0,
@@ -4968,14 +4968,6 @@
         }
       ],
       "rewards": [
-        {
-          "type": "ITEMS",
-          "content": {
-            "item": "minecraft:diamond_pickaxe",
-            "amount": 1,
-            "nbt": "{Damage:0}"
-          }
-        },
         {
           "type": "COMMAND",
           "content": {
@@ -5238,7 +5230,7 @@
       "id": 120,
       "icon": "create:andesite_alloy",
       "title": "Start Creating",
-      "text": "Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create\u0027s basal structures.",
+      "text": "Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create\u0027s basal structures. Please note: Create ores spawn in the Overworld, while Immersive Engineering ores have been disabled until you reach the Mining Dimension!",
       "dependencies": [
         0
       ],
@@ -5665,7 +5657,7 @@
       "id": 131,
       "icon": "create:iron_sheet",
       "title": "Your First Job",
-      "text": "Iron sheets are basic components of various Create structures. Place an iron ingot beneath a mechanical press that is powered by rotational force.",
+      "text": "Iron sheets are basic components of various Create structures. Place an iron ingot beneath a mechanical press that is powered by rotational force. Turn it on using a lever and make sure that you \u0027drop\u0027 the iron ingot below the press!",
       "dependencies": [
         127
       ],
@@ -6929,7 +6921,7 @@
       "id": 163,
       "icon": "lycanitesmobs:soulcubeundead",
       "title": "Bestiary VII",
-      "text": "Summon and elimnate the Amalgamich by crafting the undead portal (refer to wiki).",
+      "text": "Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki).",
       "dependencies": [
         36
       ],
@@ -6938,7 +6930,7 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:pig",
+              "entity": "lycanitesmobs:amalgalich",
               "amount": 1
             }
           ]

@@ -1,0 +1,25 @@
+{
+  "id": "snowclash",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.pants.snowclash",
+  "lang_file_desc_string": "item.mmorpg.uniques.pants.snowclash.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "armor_flat",
+    "very_high_water_resist_flat",
+    "spell_water_damage_flat",
+	"plus_blizzard_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 1.0,
+	"strength": 0.5
+  },
+  "gear_type": "cloth_pants",
+  "item_id": "mmorpg:pants/cloth/pants4"
+}

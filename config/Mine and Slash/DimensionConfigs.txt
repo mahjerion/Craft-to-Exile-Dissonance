@@ -34,7 +34,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": false,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 1,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -52,7 +52,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 1,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -70,7 +70,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 1,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -88,7 +88,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 2,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.25
     },
@@ -106,7 +106,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 2,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -124,7 +124,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 3,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -142,7 +142,7 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 3,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
@@ -160,11 +160,11 @@
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 4,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
-    "cavern:cavern": {
+    "mining_dimension:mining_world": {
       "USE_SPECIFIC_LVL_1_POSITION": false,
       "SPECIFIC_LVL_1_POSITION": {
         "x": 0,
@@ -177,26 +177,8 @@
       "MINIMUM_MOB_LEVEL": 30,
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
-      "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 1,
-      "DROP_MULTIPLIER": 1.0,
-      "MOB_STRENGTH_MULTIPLIER": 2.0
-    },
-    "cavern:huge_cavern": {
-      "USE_SPECIFIC_LVL_1_POSITION": false,
-      "SPECIFIC_LVL_1_POSITION": {
-        "x": 0,
-        "z": 0,
-        "y": 0
-      },
-      "MOB_LEVEL_PER_DISTANCE": 100,
-      "MOB_LEVEL_ONE_AREA": 50,
-      "MAXIMUM_MOB_LEVEL": 99,
-      "MINIMUM_MOB_LEVEL": 70,
-      "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
-      "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
-      "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 3,
+      "DROPS_UNIQUE_ITEMS": false,
+      "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 2.0
     }

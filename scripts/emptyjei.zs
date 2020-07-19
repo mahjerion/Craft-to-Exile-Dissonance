@@ -2,6 +2,9 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
+mods.jei.JEI.hideItem(<item:pamhc2foodcore:cheeseitem>);
+mods.jei.JEI.hideItem(<item:mapperbase:steel_rod>);
+
 //Minecraft
 mods.jei.JEI.hideItem(<item:minecraft:bat_spawn_egg>);
 mods.jei.JEI.hideItem(<item:minecraft:bee_spawn_egg>);
@@ -373,12 +376,6 @@ mods.jei.JEI.hideItem(<item:bountiful:bounty>);
 mods.jei.JEI.hideItem(<item:buzzierbees:river_beehive>);
 mods.jei.JEI.hideItem(<item:buzzierbees:endermite_bottle>);
 mods.jei.JEI.hideItem(<item:buzzierbees:bee_bottle>);
-
-//Cavern
-mods.jei.JEI.hideItem(<item:cavern:randomite_ore>);
-mods.jei.JEI.hideItem(<item:cavern:cracked_stone>);
-mods.jei.JEI.hideItem(<item:cavern:caveman_spawn_egg>);
-mods.jei.JEI.hideItem(<item:cavern:cavenic_skeleton_spawn_egg>);
 
 //Curios
 mods.jei.JEI.hideItem(<item:curios:ring>);

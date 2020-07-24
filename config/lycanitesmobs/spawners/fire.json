@@ -2,8 +2,8 @@
   "name": "fire",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
-  "mobCountMin": 8,
+  "loadDefault": false,
+  "mobCountMin": 4,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,
@@ -13,14 +13,14 @@
       "dimensionIds": [
         "minecraft:the_nether"
       ],
-      "dimensionListType": "blacklist"
+      "dimensionListType": "whitelist"
     }
   ],
   "triggers": [
     {
       "type": "world",
-      "chance": 0.5,
-      "tickRate": 400
+      "chance": 0.05,
+      "tickRate": 1600
     }
   ],
   "locations": [

@@ -1,8 +1,8 @@
 {
   "name": "flower",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

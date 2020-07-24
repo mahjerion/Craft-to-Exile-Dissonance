@@ -16,7 +16,7 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "midnight:midnight"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,

@@ -3,7 +3,7 @@
   "type": "spawner",
   "enabled": false,
   "triggersRequired": 3,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -18,7 +18,7 @@
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.1,
+      "chance": 0.15,
       "entityTypesListType": "blacklist",
       "entityIds": [
         "lycanitesmobs:cinder",

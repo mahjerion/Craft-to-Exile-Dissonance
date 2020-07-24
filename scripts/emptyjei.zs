@@ -141,6 +141,11 @@ mods.jei.JEI.hideItem(<item:lycanitesmobs:sharacid>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:vesspoison>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:frostfire>);
 
+//Aquaculture
+mods.jei.JEI.hideItem(<item:aquaculture:box_turtle_spawn_egg>);
+mods.jei.JEI.hideItem(<item:aquaculture:arrau_turtle_spawn_egg>);
+mods.jei.JEI.hideItem(<item:aquaculture:starshell_turtle_spawn_egg>);
+
 //Atmospheric
 mods.jei.JEI.hideItem(<item:atmospheric:aloe_kernels>);
 
@@ -376,6 +381,7 @@ mods.jei.JEI.hideItem(<item:bountiful:bounty>);
 mods.jei.JEI.hideItem(<item:buzzierbees:river_beehive>);
 mods.jei.JEI.hideItem(<item:buzzierbees:endermite_bottle>);
 mods.jei.JEI.hideItem(<item:buzzierbees:bee_bottle>);
+mods.jei.JEI.hideItem(<item:buzzierbees:honey_slime_spawn_egg>);
 
 //Curios
 mods.jei.JEI.hideItem(<item:curios:ring>);
@@ -477,6 +483,7 @@ mods.jei.JEI.hideItem(<item:quark:pipe>);
 mods.jei.JEI.hideItem(<item:quark:bottled_cloud>);
 mods.jei.JEI.hideItem(<item:quark:foxhound_spawn_egg>);
 mods.jei.JEI.hideItem(<item:quark:toretoise_spawn_egg>);
+mods.jei.JEI.hideItem(<item:quark:crab_spawn_egg>);
 
 //SwampExpansion
 mods.jei.JEI.hideItem(<item:swampexpansion:giant_tall_grass>);

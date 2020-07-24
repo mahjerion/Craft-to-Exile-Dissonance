@@ -20,9 +20,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomeTags": [
-      "jungle"
-    ],
+    "biomeTags": [],
     "spawnWeight": 1,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,

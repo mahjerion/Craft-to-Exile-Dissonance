@@ -2,7 +2,7 @@
   "name": "ore",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -11,7 +11,15 @@
   "ignoreGroupLimit": true,
   "ignoreForgeCanSpawnEvent": true,
   "blockBreakRadius": 1,
-  "conditions": [],
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "mining_dimension:mining_world"
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
   "triggers": [
     {
       "type": "ore",

@@ -14,8 +14,10 @@
       "lava"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [
+      "minecraft:the_nether"
+	],
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "all"

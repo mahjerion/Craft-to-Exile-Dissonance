@@ -16,7 +16,7 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "goodnightsleep:good_dream"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,

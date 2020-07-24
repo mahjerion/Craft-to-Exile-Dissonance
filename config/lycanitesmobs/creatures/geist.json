@@ -17,7 +17,8 @@
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld",
-	  "the_bumblezone:bumblezone"
+	  "the_bumblezone:bumblezone",
+	  "goodnightsleep:good_night"
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

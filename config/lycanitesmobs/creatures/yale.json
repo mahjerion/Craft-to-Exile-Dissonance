@@ -9,7 +9,7 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "creature",
       "animal"
@@ -75,8 +75,8 @@
   "peaceful": true,
   "farmable": true,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 1,
   "dungeonLevel": 0,
   "drops": [

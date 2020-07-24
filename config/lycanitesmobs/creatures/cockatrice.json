@@ -9,14 +9,12 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "sky"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      "the_bumblezone:bumblezone"
-    ],
+    "dimensionIds": [],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [

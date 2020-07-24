@@ -14,8 +14,10 @@
       "water"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [
+		"goodnightsleep:good_dream"
+	],
+    "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [],
     "spawnWeight": 8,
@@ -23,7 +25,7 @@
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 2,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,

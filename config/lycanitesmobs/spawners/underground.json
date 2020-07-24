@@ -1,8 +1,8 @@
 {
   "name": "underground",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 6,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,

@@ -1,8 +1,8 @@
 {
   "name": "frostfire",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 8,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

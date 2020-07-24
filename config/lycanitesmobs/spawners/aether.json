@@ -2,7 +2,7 @@
   "name": "aether",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 2,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,
@@ -11,7 +11,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        "aether:aether"
+        "goodnightsleep:good_dream"
       ],
       "dimensionListType": "whitelist"
     }

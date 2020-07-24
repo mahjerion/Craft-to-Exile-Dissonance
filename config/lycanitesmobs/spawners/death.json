@@ -2,7 +2,7 @@
   "name": "death",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -17,7 +17,7 @@
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.02,
+      "chance": 0.01,
       "entityTypes": [
         "undead"
       ],

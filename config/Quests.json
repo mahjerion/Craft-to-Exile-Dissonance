@@ -3554,7 +3554,7 @@
       "id": 81,
       "icon": "minecraft:writable_book",
       "title": "Beastiary I",
-      "text": "You'll find zombies on your lawn...",
+      "text": "You'll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
       "dependencies": [
         36
       ],
@@ -3563,8 +3563,12 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:zombie",
-              "amount": 100
+              "entity": "rotten_creatures:spear_eskimo",
+              "amount": 5
+            },
+            {
+              "entity": "rotten_creatures:ancient_mummy",
+              "amount": 5
             }
           ]
         }
@@ -3594,7 +3598,7 @@
       "id": 82,
       "icon": "minecraft:writable_book",
       "title": "Beastiary II",
-      "text": "Ranged skeletons are the bane of new players.",
+      "text": "Pandora's Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
       "dependencies": [
         36
       ],
@@ -3603,8 +3607,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:skeleton",
-              "amount": 100
+              "entity": "pandoras_creatures:arachnon",
+              "amount": 8
             }
           ]
         }
@@ -3634,7 +3638,7 @@
       "id": 83,
       "icon": "minecraft:writable_book",
       "title": "Beastiary III",
-      "text": "Bzz bzz, time to go back to The Bumblzone and kill some bees!",
+      "text": "Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable. The Hirschgeist is a powerful skeletal deer that is immortal during the day, and hostile at night. You can find the Hirschgeist in forested biomes, or you can summon it by craft a hand of fate. Light the hand of fate with flint and steel, then offer a cut of raw venison, an antler, and a nether wart (in any order)",
       "dependencies": [
         36
       ],
@@ -3643,8 +3647,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:bee",
-              "amount": 100
+              "entity": "betteranimalsplus:hirschgeist",
+              "amount": 1
             }
           ]
         }
@@ -3674,7 +3678,7 @@
       "id": 84,
       "icon": "minecraft:writable_book",
       "title": "Beastiary IV",
-      "text": "This chapter brings you back to the Nether. How can a pig be a man and a zombie at the same time?!",
+      "text": "Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you've completed Beastiary I. The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare.",
       "dependencies": [
         36
       ],
@@ -3683,8 +3687,12 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:zombie_pigman",
-              "amount": 100
+              "entity": "rotten_creatures:inmortal",
+              "amount": 1
+            },
+            {
+              "entity": "rotten_creatures:deadbeard",
+              "amount": 1
             }
           ]
         }
@@ -3714,7 +3722,7 @@
       "id": 85,
       "icon": "minecraft:writable_book",
       "title": "Beastiary V",
-      "text": "Wither skeletons... again?! You're probably super sick of them at this point!",
+      "text": "On the outer islands of The End, you will find guardians that defend massiive structures. Be careful though, these golem-like creatures pack a punch.",
       "dependencies": [
         36
       ],
@@ -3723,8 +3731,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:wither_skeleton",
-              "amount": 50
+              "entity": "endreborn:endguard",
+              "amount": 5
             }
           ]
         }
@@ -3754,7 +3762,7 @@
       "id": 86,
       "icon": "minecraft:writable_book",
       "title": "Beastiary VI",
-      "text": "These creepy slender men originate from The End. Either go back and kill them in their homeland or clear out endermen from the Overworld.",
+      "text": "These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason.",
       "dependencies": [
         36
       ],
@@ -3763,8 +3771,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:enderman",
-              "amount": 50
+              "entity": "pandoras_creatures:end_troll",
+              "amount": 5
             }
           ]
         }
@@ -6917,8 +6925,8 @@
     },
     {
       "id": 163,
-      "icon": "lycanitesmobs:soulcubeundead",
-      "title": "Bestiary VII",
+      "icon": "minecraft:writable_book",
+      "title": "Beastiary VII",
       "text": "Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki).",
       "dependencies": [
         36
@@ -7058,7 +7066,7 @@
       "id": 167,
       "icon": "lycanitesmobs:whirlwindcharge",
       "title": "Air",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the djinn at high altitudes in most dimensions.",
       "dependencies": [
         164
       ],
@@ -7090,7 +7098,7 @@
       "id": 168,
       "icon": "lycanitesmobs:mudshotcharge",
       "title": "Earth",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the geonach when mining ores in the advanced mining dimension.",
       "dependencies": [
         164
       ],
@@ -7122,7 +7130,7 @@
       "id": 169,
       "icon": "lycanitesmobs:aquapulsecharge",
       "title": "Water",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the jengu in deep caverns of water in the Good Dream dimension.",
       "dependencies": [
         164
       ],
@@ -7154,7 +7162,7 @@
       "id": 170,
       "icon": "lycanitesmobs:embercharge",
       "title": "Fire",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the cinder in the Nether - where you\u0027ll find flames.",
       "dependencies": [
         164
       ],
@@ -7186,7 +7194,7 @@
       "id": 171,
       "icon": "lycanitesmobs:lightballcharge",
       "title": "Order",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the aegis protecting your villages in the Overworld.",
       "dependencies": [
         164
       ],
@@ -7218,7 +7226,7 @@
       "id": 172,
       "icon": "lycanitesmobs:demonicblastcharge",
       "title": "Chaos",
-      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals!",
+      "text": "In order to summon a creature, you must have it in your beastiary (default: G). The greater your knowledge of the creature, the more powerful they become. Fuse elementals to create stronger elementals! Find the argus where you\u0027ll find chaos - kill many elementals in close proximity and you may spawn them. Alternatively, find the argus in The End.",
       "dependencies": [
         164
       ],
@@ -7250,7 +7258,7 @@
       "id": 173,
       "icon": "minecraft:saddle",
       "title": "Ocarina Of Time",
-      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a horse you can claim the entity. Right-click again to bring the horse to you. This item can only bind one horse at a time!",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can 'claim' the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!",
       "dependencies": [
         95
       ],
@@ -7261,7 +7269,7 @@
             {
               "item": "dwmh:ocarina",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -7280,11 +7288,58 @@
           "content": {
             "command": "summon minecraft:horse"
           }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
         }
       ],
       "position": [
-        125,
-        75
+        300,
+        50
+      ]
+    },
+    {
+      "id": 174,
+      "icon": "pandoras_creatures:bufflon_saddle",
+      "title": "Bufflon Mounts",
+      "text": "The bufflon is a unique mountable animal introduced by Pandora's Creatures. They can be customized using specialized bufflon saddles found in The End. However, upon completion of this quest, a basic bufflon saddle will be provided for you. The bufflon can be found in cold and snowy biomes, and can be tamed using herb bundles.",
+      "dependencies": [
+        173
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "pandoras_creatures:herb_bundle",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "pandoras_creatures:bufflon_saddle",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        300,
+        100
       ]
     }
   ]

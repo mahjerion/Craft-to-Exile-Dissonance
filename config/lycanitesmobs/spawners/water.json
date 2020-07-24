@@ -2,15 +2,23 @@
   "name": "water",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,
-  "conditions": [],
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "goodnightsleep:good_dream"
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
   "triggers": [
     {
       "type": "world",
-      "chance": 0.75,
+      "chance": 0.25,
       "tickRate": 600
     }
   ],

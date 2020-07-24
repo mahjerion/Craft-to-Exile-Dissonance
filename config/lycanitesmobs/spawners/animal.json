@@ -1,8 +1,8 @@
 {
   "name": "animal",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 8,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,

@@ -14,7 +14,9 @@
       "lavaunderground"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
+    "dimensionIds": [
+      "minecraft:overworld"
+	],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [

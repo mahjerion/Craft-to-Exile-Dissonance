@@ -3,7 +3,7 @@
   "sharedName": "fire",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 2,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -20,7 +20,7 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 0.25,
+      "chance": 0.20,
       "tickRate": 1600
     }
   ],

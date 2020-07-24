@@ -1,8 +1,8 @@
 {
   "name": "acid",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

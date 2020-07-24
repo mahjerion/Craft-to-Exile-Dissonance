@@ -3554,7 +3554,7 @@
       "id": 81,
       "icon": "minecraft:writable_book",
       "title": "Beastiary I",
-      "text": "You'll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
+      "text": "You\u0027ll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
       "dependencies": [
         36
       ],
@@ -3598,7 +3598,7 @@
       "id": 82,
       "icon": "minecraft:writable_book",
       "title": "Beastiary II",
-      "text": "Pandora's Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
+      "text": "Pandora\u0027s Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
       "dependencies": [
         36
       ],
@@ -3638,7 +3638,7 @@
       "id": 83,
       "icon": "minecraft:writable_book",
       "title": "Beastiary III",
-      "text": "Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable. The Hirschgeist is a powerful skeletal deer that is immortal during the day, and hostile at night. You can find the Hirschgeist in forested biomes, or you can summon it by craft a hand of fate. Light the hand of fate with flint and steel, then offer a cut of raw venison, an antler, and a nether wart (in any order)",
+      "text": "Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven\u0027t noticed, many of these creatures are tameable and mountable. The Hirschgeist is a powerful skeletal deer that is immortal during the day, and hostile at night. You can find the Hirschgeist in forested biomes, or you can summon it by craft a hand of fate. Light the hand of fate with flint and steel, then offer a cut of raw venison, an antler, and a nether wart (in any order)",
       "dependencies": [
         36
       ],
@@ -3678,7 +3678,7 @@
       "id": 84,
       "icon": "minecraft:writable_book",
       "title": "Beastiary IV",
-      "text": "Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you've completed Beastiary I. The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare.",
+      "text": "Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you\u0027ve completed Beastiary I. The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare.",
       "dependencies": [
         36
       ],
@@ -3691,7 +3691,7 @@
               "amount": 1
             },
             {
-              "entity": "rotten_creatures:deadbeard",
+              "entity": "rotten_creatures:dead_beard",
               "amount": 1
             }
           ]
@@ -7258,7 +7258,7 @@
       "id": 173,
       "icon": "minecraft:saddle",
       "title": "Ocarina Of Time",
-      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can 'claim' the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!",
       "dependencies": [
         95
       ],
@@ -7305,7 +7305,7 @@
       "id": 174,
       "icon": "pandoras_creatures:bufflon_saddle",
       "title": "Bufflon Mounts",
-      "text": "The bufflon is a unique mountable animal introduced by Pandora's Creatures. They can be customized using specialized bufflon saddles found in The End. However, upon completion of this quest, a basic bufflon saddle will be provided for you. The bufflon can be found in cold and snowy biomes, and can be tamed using herb bundles.",
+      "text": "The bufflon is a unique mountable animal introduced by Pandora\u0027s Creatures. They can be customized using specialized bufflon saddles found in The End. However, upon completion of this quest, a basic bufflon saddle will be provided for you. The bufflon can be found in cold and snowy biomes, and can be tamed using herb bundles.",
       "dependencies": [
         173
       ],

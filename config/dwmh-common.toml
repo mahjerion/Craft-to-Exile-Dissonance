@@ -1,0 +1,13 @@
+#allow horses to swim
+doHorsesSwim = true
+
+#Blacklist
+[blacklist]
+	#list of resourcelocations in string form
+	blacklist = [""]
+
+#Whitelist
+[whitelist]
+	#list of resourcelocations in string form
+	whitelist = ["minecraft:horse"]
+

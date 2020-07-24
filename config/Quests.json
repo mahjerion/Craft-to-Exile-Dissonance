@@ -3554,7 +3554,7 @@
       "id": 81,
       "icon": "minecraft:writable_book",
       "title": "Beastiary I",
-      "text": "Zoataur is a creature in the Overworld that spreads plague and disaster. It comes from the darkest depths of the void...",
+      "text": "You'll find zombies on your lawn...",
       "dependencies": [
         36
       ],
@@ -3563,8 +3563,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:zoataur",
-              "amount": 3
+              "entity": "minecraft:zombie",
+              "amount": 100
             }
           ]
         }
@@ -3594,7 +3594,7 @@
       "id": 82,
       "icon": "minecraft:writable_book",
       "title": "Beastiary II",
-      "text": "The Cockatrice is a powerful flying creature that has found its way from the Overworld into The Bumblezone. It has been terrorizing the local bee populace and needs to be stopped!",
+      "text": "Ranged skeletons are the bane of new players.",
       "dependencies": [
         36
       ],
@@ -3603,8 +3603,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:cockatrice",
-              "amount": 3
+              "entity": "minecraft:skeleton",
+              "amount": 100
             }
           ]
         }
@@ -3634,7 +3634,7 @@
       "id": 83,
       "icon": "minecraft:writable_book",
       "title": "Beastiary III",
-      "text": "This powerful and ancient dragon can be found in the Nether. The ignibus draws power from lava, and as a result, can be found residing in lava.",
+      "text": "Bzz bzz, time to go back to The Bumblzone and kill some bees!",
       "dependencies": [
         36
       ],
@@ -3643,8 +3643,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:ignibus",
-              "amount": 3
+              "entity": "minecraft:bee",
+              "amount": 100
             }
           ]
         }
@@ -3674,7 +3674,7 @@
       "id": 84,
       "icon": "minecraft:writable_book",
       "title": "Beastiary IV",
-      "text": "The remobra is a creature from the void that is hard to detect. Opportunistic creatures, they will strike when you least expect it. Travel to The End to find the remobra.",
+      "text": "This chapter brings you back to the Nether. How can a pig be a man and a zombie at the same time?!",
       "dependencies": [
         36
       ],
@@ -3683,8 +3683,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:remobra",
-              "amount": 3
+              "entity": "minecraft:zombie_pigman",
+              "amount": 100
             }
           ]
         }
@@ -3714,7 +3714,7 @@
       "id": 85,
       "icon": "minecraft:writable_book",
       "title": "Beastiary V",
-      "text": "The uvaraptor is a creature that was able to slip into the Good Dream realm during a rift event. Although the uvaraptor\u0027s wings glisten like a rainbow, the creature originally came from The Midnight. Be careful when hunting these beautiful creatures.",
+      "text": "Wither skeletons... again?! You're probably super sick of them at this point!",
       "dependencies": [
         36
       ],
@@ -3723,8 +3723,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:uvaraptor",
-              "amount": 3
+              "entity": "minecraft:wither_skeleton",
+              "amount": 50
             }
           ]
         }
@@ -3754,7 +3754,7 @@
       "id": 86,
       "icon": "minecraft:writable_book",
       "title": "Beastiary VI",
-      "text": "A grotesque beast that can only be found in The Midnight. The power this creature possesses is unfathomable.",
+      "text": "These creepy slender men originate from The End. Either go back and kill them in their homeland or clear out endermen from the Overworld.",
       "dependencies": [
         36
       ],
@@ -3763,8 +3763,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:morock",
-              "amount": 3
+              "entity": "minecraft:enderman",
+              "amount": 50
             }
           ]
         }
@@ -3794,7 +3794,7 @@
       "id": 87,
       "icon": "sereneseasons:calendar",
       "title": "What\u0027s The Date?",
-      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
+      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, Pam\u0027s HarvestCraft 2, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
       "dependencies": [
         0
       ],
@@ -4700,7 +4700,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give map @p 80 random 0 0 3"
+            "command": "slash give map @p 30 random 0 0 3"
           }
         },
         {
@@ -4912,14 +4912,12 @@
       ],
       "requirements": [
         {
-          "type": "TRAVEL_TO",
+          "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "dim": "mining_dimension:mining_world",
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "radius": 5000
+              "item": "mining_dimension:teleporter",
+              "amount": 1,
+              "nbt": "{}"
             }
           ]
         }
@@ -4947,7 +4945,7 @@
     },
     {
       "id": 113,
-      "icon": "mmorpg:map_device",
+      "icon": "mmorpg:map/map4",
       "title": "Enter Maps",
       "text": "Congratulations on finishing the main quest line! From now, you are free to level however you want. The max level is 99!",
       "dependencies": [
@@ -7240,6 +7238,47 @@
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        125,
+        75
+      ]
+    },
+    {
+      "id": 173,
+      "icon": "minecraft:saddle",
+      "title": "Ocarina Of Time",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a horse you can claim the entity. Right-click again to bring the horse to you. This item can only bind one horse at a time!",
+      "dependencies": [
+        95
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "dwmh:ocarina",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:saddle",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "summon minecraft:horse"
           }
         }
       ],

@@ -1,5 +1,8 @@
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.FurnaceManager;
+import crafttweaker.api.SmokerManager;
+import crafttweaker.api.CampFireManager;
 
 <tag:forge:vinegar/vinegar>.addItems([<item:simplefarming:vinegar>]);
 <tag:forge:vinegar>.addItems([<item:simplefarming:vinegar>]);
@@ -18,50 +21,27 @@ craftingTable.addShapeless("pickle", <item:simplefarming:pickle>, [<tag:forge:ve
 craftingTable.addShapeless("pickled_beetroot", <item:simplefarming:pickled_beetroot>, [<tag:forge:vegetables/beetroot>, <tag:forge:vinegar/vinegar>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:fruitpunchitem>);
-craftingTable.addShaped("fruitpunchitem", <item:pamhc2foodcore:fruitpunchitem>,[
-	[<tag:forge:tool_juicer/juicer>,<tag:forge:fruits>,<tag:forge:glass_bottles>],
-	[<tag:forge:fruits>,<tag:forge:fruits>,<tag:forge:sugar/sugar>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("fruitpunchitem", <item:pamhc2foodcore:fruitpunchitem>, [<tag:forge:tool_juicer/juicer>,<tag:forge:fruits>,<tag:forge:glass_bottles>,<tag:forge:fruits>,<tag:forge:fruits>,<tag:forge:sugar/sugar>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:pumpkincheesecakeitem>);
-craftingTable.addShaped("pumpkincheesecakeitem", <item:pamhc2foodcore:pumpkincheesecakeitem>,[
-	[<tag:forge:tool_bakeware/bakeware>,<tag:forge:sugar/sugar>,<tag:forge:cheese/cheese>],
-	[<tag:forge:vegetables/pumpkin>,<tag:forge:batter/batter>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("pumpkincheesecakeitem", <item:pamhc2foodcore:pumpkincheesecakeitem>,[<tag:forge:tool_bakeware/bakeware>,<tag:forge:sugar/sugar>,<tag:forge:cheese/cheese>,<tag:forge:vegetables/pumpkin>,<tag:forge:batter/batter>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:basiccheeseburgeritem>);
-craftingTable.addShaped("basiccheeseburgeritem", <item:pamhc2foodcore:basiccheeseburgeritem>,[
-	[<tag:forge:tool_skillet/skillet>,<tag:forge:groundmeats>,<tag:forge:condiments>],
-	[<tag:forge:bread>,<tag:forge:cheese/cheese>,<tag:forge:condiments>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("basiccheeseburgeritem", <item:pamhc2foodcore:basiccheeseburgeritem>,[<tag:forge:tool_skillet/skillet>,<tag:forge:groundmeats>,<tag:forge:condiments>,<tag:forge:bread>,<tag:forge:cheese/cheese>,<tag:forge:condiments>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:baconcheeseburgeritem>);
-craftingTable.addShaped("baconcheeseburgeritem", <item:pamhc2foodcore:baconcheeseburgeritem>,[
-	[<tag:forge:tool_skillet/skillet>,<tag:forge:groundmeats>,<tag:forge:condiments>],
-	[<tag:forge:bread>,<tag:forge:cheese/cheese>,<tag:forge:condiments>],
-	[<item:minecraft:porkchop>,<tag:forge:cookingoil/cookingoil>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("baconcheeseburgeritem", <item:pamhc2foodcore:baconcheeseburgeritem>,[<tag:forge:tool_skillet/skillet>,<tag:forge:groundmeats>,<tag:forge:condiments>,<tag:forge:bread>,<tag:forge:cheese/cheese>,<tag:forge:condiments>,<item:minecraft:porkchop>,<tag:forge:cookingoil/cookingoil>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:macncheeseitem>);
-craftingTable.addShaped("macncheeseitem", <item:pamhc2foodcore:macncheeseitem>,[
-	[<tag:forge:tool_pot/pot>,<tag:forge:pasta>,<item:minecraft:air>],
-	[<tag:forge:cheese/cheese>,<tag:forge:cheese/cheese>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("macncheeseitem", <item:pamhc2foodcore:macncheeseitem>,[<tag:forge:tool_pot/pot>,<tag:forge:pasta>,<tag:forge:cheese/cheese>,<tag:forge:cheese/cheese>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:grilledcheeseitem>);
-craftingTable.addShaped("grilledcheeseitem", <item:pamhc2foodcore:grilledcheeseitem>,[
-	[<tag:forge:tool_skillet/skillet>,<tag:forge:bread>,<tag:forge:bread>],
-	[<tag:forge:butter>,<tag:forge:cheese/cheese>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("grilledcheeseitem", <item:pamhc2foodcore:grilledcheeseitem>,[<tag:forge:tool_skillet/skillet>,<tag:forge:bread>,<tag:forge:bread>,<tag:forge:butter>,<tag:forge:cheese/cheese>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:cheesecakeitem>);
-craftingTable.addShaped("cheesecakeitem", <item:pamhc2foodcore:cheesecakeitem>,[
-	[<tag:forge:tool_bakeware/bakeware>,<tag:forge:sugar>,<tag:forge:milk/milk>],
-	[<tag:forge:cheese/cheese>,<tag:forge:batter/batter>,<item:minecraft:air>],
-	[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>]
-]);
+craftingTable.addShapeless("cheesecakeitem", <item:pamhc2foodcore:cheesecakeitem>,[<tag:forge:tool_bakeware/bakeware>,<tag:forge:sugar>,<tag:forge:milk/milk>,<tag:forge:cheese/cheese>,<tag:forge:batter/batter>]);
+
+furnace.removeRecipe(<item:simplefarming:cooked_egg>, <tag:forge:eggs>);
+smoker.removeRecipe(<item:simplefarming:cooked_egg>, <tag:forge:eggs>);
+campfire.removeRecipe(<item:simplefarming:cooked_egg>, <tag:forge:eggs>);
+craftingTable.addShapeless("cooked_egg", <item:simplefarming:cooked_egg>, [<tag:forge:tool_skillet/skillet>, <tag:forge:eggs>, <tag:forge:salt/salt>]);

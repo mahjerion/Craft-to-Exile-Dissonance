@@ -11,7 +11,7 @@
   "spawning": {
     "enabled": true,
     "spawners": [],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
 	  "goodnightsleep:good_dream"
     ],

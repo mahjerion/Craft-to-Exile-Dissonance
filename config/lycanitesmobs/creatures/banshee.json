@@ -13,7 +13,7 @@
     "spawners": [
       "sky"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
 		"minecraft:overworld"
 	],

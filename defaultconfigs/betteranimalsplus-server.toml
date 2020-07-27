@@ -67,7 +67,7 @@
 	#True if this entity can despawn freely when no players are nearby.
 	doDespawn = false
 	#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
-	tameItems = ["minecraft:bone"]
+	tameItems = []
 
 [feralwolf]
 	#Disables natural spawning
@@ -86,26 +86,26 @@
 	#True if this entity can despawn freely when no players are nearby.
 	doDespawn = false
 	#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
-	tameItems = ["minecraft:bone"]
+	tameItems = []
 
 [coyote]
 	#Disables natural spawning
 	doSpawning = true
 	#The spawn chance compared to other entities (typically between 6-20)
 	#Range: 1 ~ 9999
-	weight = 5
+	weight = 2
 	#Must be greater than 0
 	#Range: 1 ~ 9999
-	minGroup = 1
+	minGroup = 3
 	#Must be greater or equal to min value!
 	#Range: 1 ~ 9999
-	maxGroup = 6
+	maxGroup = 5
 	#Enter biome Resource Locations. Supports modded biomes.
 	spawnBiomes = ["midnight:phantasmal_valley", "autumnity:pumpkin_fields", "minecraft:savanna_plateau", "midnight:night_plains", "minecraft:desert", "traverse:desert_shrubland", "traverse:plains_plateau", "traverse:rolling_hills", "swampexpansion:marsh", "minecraft:badlands", "minecraft:desert_lakes", "minecraft:badlands_plateau", "minecraft:savanna", "traverse:meadow", "midnight:crystal_spires", "mining_dimension:mining_biome", "minecraft:desert_hills", "atum:limestone_crags", "minecraft:sunflower_plains", "atum:limestone_mountains", "minecraft:plains", "atum:deadwood_forest", "atum:sand_plains", "atum:sand_hills", "the_bumblezone:sugar_water_floor", "swampexpansion:mushroom_marsh", "atum:dead_oasis", "atum:dried_river", "the_bumblezone:hive_wall", "minecraft:wooded_badlands_plateau", "atum:sand_dunes", "the_bumblezone:hive_pillar"]
 	#True if this entity can despawn freely when no players are nearby.
 	doDespawn = false
 	#Makes coyote always hostile (removes ability to tame!)
-	coyoteHostileDaytime = false
+	coyoteHostileDaytime = true
 	#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
 	tameItems = ["minecraft:rabbit", "minecraft:chicken", "betteranimalsplus:pheasantraw", "minecraft:cooked_rabbit", "minecraft:cooked_chicken", "betteranimalsplus:pheasantcooked"]
 

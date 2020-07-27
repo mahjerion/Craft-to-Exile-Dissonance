@@ -12,7 +12,7 @@
   "spawning": {
     "enabled": false,
     "spawners": [],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:overworld"
     ],

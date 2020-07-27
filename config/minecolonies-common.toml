@@ -48,7 +48,7 @@
 	#Range: 1 ~ 100
 	chatfrequency = 30
 	#Food consumption modifier (Min: 1.0). [Default: 1.0]
-	#Range: 0.0 ~ 100.0
+	#Range: 0.1 ~ 100.0
 	foodmodifier = 1.0
 	#Delay modifier to mine a block (Decreasing it, decreases the delay) [Default: 500]
 	#Range: 1 ~ 10000
@@ -96,7 +96,7 @@
 	#Sets weither or not Colony structures are destroyed automatically. [Default: true]
 	autodestroycolonyblocks = true
 	#Should the player be allowed to use the '/mc rtp' command? [Default: true]
-	canplayerusertpcommand = true
+	canplayerusertpcommand = false
 	#minecolonies.config.numberofattemptsforsafetp.comment
 	#Range: 1 ~ 10
 	numberofattemptsforsafetp = 4
@@ -113,7 +113,7 @@
 	#Range: 30 ~ 99999
 	teleportbuffer = 120
 	#Should the player be allowed to use the '/mc home' command? [Default: true]
-	canplayerusehometpcommand = true
+	canplayerusehometpcommand = false
 	#Can Player Teleport to allied colonies? [Default:true]
 	canplayeruseallytownhallteleport = true
 	#Should the player be allowed to use the '/mc citizens kill' command? [Default: true]
@@ -234,10 +234,14 @@
 	#Harvest trunk-size for dynamic trees:1-8. [Default: 5]
 	#Range: 1 ~ 5
 	dynamictreeharvestsize = 5
+	#minecolonies.config.debuginventories.comment
+	debuginventories = false
 	#minecolonies.config.luckyores.comment
 	luckyores = ["minecraft:coal_ore!64", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1"]
 	#minecolonies.config.luckyblocks.comment
 	luckyblocks = ["minecraft:stone", "minecraft:cobblestone"]
+	#minecolonies.config.configlistrecruitmentitems.comment
+	configlistrecruitmentitems = ["minecraft:hay_block;2", "minecraft:book;2", "minecraft:diamond;7", "minecraft:emerald;10", "minecraft:baked_potato;1", "minecraft:gold;3", "minecraft:redstone;2", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;4"]
 
 #All configurations related to pathfinding
 [pathfinding]

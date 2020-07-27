@@ -11,7 +11,7 @@
   "spawning": {
     "enabled": false,
     "spawners": [],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

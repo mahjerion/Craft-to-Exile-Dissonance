@@ -3,9 +3,9 @@
   "item_id": "minecraft:shield",
   "id": "shield:minecraft:shield",
   "gear_type": {
-    "normal_item_weight": 99,
+    "normal_item_weight": 100,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,

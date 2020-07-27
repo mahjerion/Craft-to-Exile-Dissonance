@@ -1,0 +1,10 @@
+
+#Client Settings
+[Client_Settings]
+	#ExtendedNether Main Menu Panorama.
+	Panorama = false
+	#Extended Nether's Biome Fog Settings.
+	#Applies to "Overworld" ONLY.
+	#Allowed Values: DENSEFOGCOLOR, DENSEFOG, FOGCOLOR, OFF
+	BiomeFog = "OFF"
+

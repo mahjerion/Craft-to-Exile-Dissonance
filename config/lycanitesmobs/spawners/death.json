@@ -4,7 +4,7 @@
   "enabled": true,
   "loadDefault": false,
   "mobCountMin": 1,
-  "ignoreDimensions": true,
+  "ignoreDimensions": false,
   "ignoreBiomes": true,
   "ignoreCollision": true,
   "ignoreLightLevel": true,
@@ -12,6 +12,14 @@
   "conditions": [
     {
       "type": "player"
+    },
+	{
+      "type": "world",
+      "dimensionIds": [
+        "minecraft:overworld",
+        "the_bumblezone:bumblezone"
+      ],
+      "dimensionListType": "blacklist"
     }
   ],
   "triggers": [

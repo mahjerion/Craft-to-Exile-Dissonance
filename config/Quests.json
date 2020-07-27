@@ -3802,7 +3802,7 @@
       "id": 87,
       "icon": "sereneseasons:calendar",
       "title": "What\u0027s The Date?",
-      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, Pam\u0027s HarvestCraft 2, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
+      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, Pam\u0027s HarvestCraft 2, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the seeds at the optimal time. Off-season crops will grow slower than in-season crops - keep this in mind when making your farm!",
       "dependencies": [
         0
       ],

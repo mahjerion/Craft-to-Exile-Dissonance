@@ -1241,6 +1241,7 @@
 	"item.mmorpg.uniques.pants.thundergods_vigor": "§eThundergod's Vigor",
 	"item.mmorpg.uniques.sword.cospris_malice": "§eCospri's Malice",
 	"item.mmorpg.uniques.sword.starforge": "§eStarforge",
+	"item.mmorpg.uniques.bow.blaze_bow": "§eBlaze Bow",
 
 "_comment": " [CATEGORY]: POTIONS - NAMES",
 
@@ -1589,7 +1590,7 @@
 	"item.mmorpg.uniques.ring.manald_heal.desc": "Manald Heal",
 	"item.mmorpg.uniques.ring.stone_of_jordan.desc": "Stone of Jordan",
 	
-"_comment": " [CATEGORY]: UNIQUE ITEMS - NAMES patch 2.0",
+"_comment": " [CATEGORY]: UNIQUE ITEMS - DESCRIPTIONS patch 2.0",
 
 	"item.mmorpg.uniques.bracelet.headhunter.desc": "Headhunter",
 	"item.mmorpg.uniques.bracelet.wurms_molt.desc": "Wurm's Molt",
@@ -1604,6 +1605,7 @@
 	"item.mmorpg.uniques.pants.thundergods_vigor.desc": "Thundergod's Vigor",
 	"item.mmorpg.uniques.sword.cospris_malice.desc": "Cospri's Malice",
 	"item.mmorpg.uniques.sword.starforge.desc": "Starforge",
+	"item.mmorpg.uniques.bow.blaze_bow.desc": "There were no survivors. Just charred corpses.",
 	
 "_comment": " [CATEGORY]: CURRENCY ITEMS - DESCRIPTIONS",
 

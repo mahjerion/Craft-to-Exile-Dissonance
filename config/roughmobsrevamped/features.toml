@@ -2,7 +2,7 @@
 ["Blaze Features"]
 	#The amount of damage done when pushed by a Blaze.
 	#Range: 0.0 ~ 32767.0
-	Blaze_PushDamage = 1.0
+	Blaze_PushDamage = 0.25
 	#The type of explosion that occurs when a Blaze dies:
 	#NONE = no effect other than damage to player
 	#BREAK = break blocks in range; broken blocks drop items
@@ -14,11 +14,11 @@
 	#Set to false to disable all Blaze features.
 	Blaze_FeaturesEnabled = true
 	#Set to false to prevent Blazes from pushing attackers away.
-	Blaze_PushAttackersAway = true
+	Blaze_PushAttackersAway = false
 	#Explosion strength which Blazes create on death.
 	#Set to 0 to disable this feature 
 	#Range: 0.0 ~ 32767.0
-	Blaze_DeathExplosionStrength = 1.0
+	Blaze_DeathExplosionStrength = 0.5
 	#Set to false to prevent Blazes from igniting entities which touch their hitbox.
 	Blaze_FlameTouch = true
 
@@ -79,7 +79,7 @@
 	#Range: 0 ~ 32767
 	Zombie_HungerDuration = 10
 	#Entities which count as Zombies.
-	Zombie_Entities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:zombie_pigman"]
+	Zombie_Entities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:zombie_pigman", "rotten_creatures:eskimo", "rotten_creatures:spear_eskimo", "rotten_creatures:mummy", "rotten_creatures:ancient_mummy", "rotten_creatures:baby_cold", "rotten_creatures:baby_marshied", "rotten_creatures:burned", "rotten_creatures:cold", "rotten_creatures:crazy_burned", "rotten_creatures:dead_beard", "rotten_creatures:ex_dead_beard", "rotten_creatures:inmortal", "rotten_creatures:marshied", "rotten_creatures:zap", "rotten_creatures:zombie_pirate", "rotten_creatures:miner1", "rotten_creatures:miner2", "rotten_creatures:miner3", "rotten_creatures:miner4"]
 	#Enable this to use all Zombie features.
 	Zombie_FeaturesEnabled = true
 	#A list of names to be used by Zombie Champions.

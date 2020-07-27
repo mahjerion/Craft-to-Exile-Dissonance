@@ -13,7 +13,7 @@
     "spawners": [
       "endsky"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
@@ -70,7 +70,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 8,
+  "summonCost": 6,
   "dungeonLevel": 1,
   "drops": [
     {

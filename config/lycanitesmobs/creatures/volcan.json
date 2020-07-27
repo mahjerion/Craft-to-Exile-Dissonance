@@ -13,7 +13,7 @@
     "spawners": [
       "lavaunderground"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:overworld"
 	],

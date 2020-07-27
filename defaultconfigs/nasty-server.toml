@@ -23,7 +23,7 @@
 	SpawnDungeon = 100
 	#Spawn light level (use 7 to be same as normal skeletons)
 	#Range: 0 ~ 15
-	SpawnLightLevel = 7
+	SpawnLightLevel = 8
 	#Arrow Damage Multiplier (damage to skeleton)
 	#Range: 0.0 ~ 1.0
 	ArrowDamageMultiplier = 0.5
@@ -45,7 +45,7 @@
 	#Spawn type based on Tempature
 	SpawnTempBased = false
 	#Spawn weights (Green,Red,Purple,Cyan,Orange,Yellow)
-	SpawnVariantWeights = "5,5,5,5,5,1"
+	SpawnVariantWeights = "5,7,5,5,3,1"
 	#Biome adjustments (biome,variant,hp,speed)
 	BiomeAdjustments = "minecraft:plains,*,-0.2,0.2;minecraft:swamp,0,0.2,0.0;minecraft:swamp,*,0.1,-0.1;minecraft:badlands,*,0.3,0.3;minecraft:dark_forest_hills,*,0.3,0.3"
 

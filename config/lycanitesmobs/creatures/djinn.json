@@ -11,7 +11,7 @@
   "spawning": {
     "enabled": true,
     "spawners": [],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:overworld"
     ],
@@ -68,7 +68,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 8,
+  "summonCost": 6,
   "dungeonLevel": 1,
   "drops": [
     {

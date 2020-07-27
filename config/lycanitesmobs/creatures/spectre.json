@@ -13,7 +13,7 @@
     "spawners": [
       "endsky"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:the_end",
 	  "midnight:midnight",

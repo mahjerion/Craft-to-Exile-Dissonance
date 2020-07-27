@@ -13,7 +13,7 @@
     "spawners": [
       "nethersky"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:the_nether"
     ],

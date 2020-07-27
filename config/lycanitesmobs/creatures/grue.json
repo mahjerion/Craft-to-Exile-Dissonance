@@ -14,7 +14,7 @@
     "spawners": [
       "underground"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:the_nether"
     ],
@@ -62,12 +62,6 @@
           "index": 2,
           "name": "verdant",
           "type": "uncommon"
-        },
-        {
-          "index": 3,
-          "name": "lunar",
-          "scale": 2,
-          "type": "rare"
         }
       ]
     }

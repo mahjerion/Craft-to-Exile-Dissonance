@@ -793,7 +793,7 @@
       "id": 17,
       "icon": "structurize:sceptergold",
       "title": "All Your Bases",
-      "text": "Craft to Exile includes the fantastic MineColonies mod which will allow you to establish a home \u0027base\u0027. In a MineColony, you will act as the leader and oversee production of new facilities and ensure that citizens are happy. Get started by crafting the building tool. From this point on, you will build your buildings by right-clicking with the tool. The wand will auto-detect any building blocks you have in your inventory.",
+      "text": "Craft to Exile includes the fantastic MineColonies mod which will allow you to establish a home \u0027base\u0027. In a MineColonies, you will act as the leader and oversee production of new facilities and ensure that citizens remain happy. Get started by crafting the building tool. From this point on, you will build your buildings by right-clicking with the tool. The wand will auto-detect any building blocks you have in your inventory.",
       "dependencies": [
         18
       ],
@@ -821,7 +821,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1500"
+            "command": "slash give exp @p 1000"
           }
         }
       ],
@@ -834,7 +834,7 @@
       "id": 18,
       "icon": "minecolonies:supplycampdeployer",
       "title": "My Tent",
-      "text": "The supply camp is the first thing you need to a successful establishment. Although not functionally useful, the supply camp is required since it will provide you with a town hall. It is important to choose your first location for your town hall wisely. You will need a large flat area for your entire colony (the town hall must also be on flat ground). You will notice that right-clicking with the supply camp allows you to visualize where you can put your supply camp.",
+      "text": "The supply camp is the first thing you need to a successful establishment. Although not functionally useful, the supply camp is required since it will provide you with a town hall. It is important to choose your first location for your town hall wisely. You will need a large flat area for your entire colony (the town hall must also be on flat ground). You will notice that right-clicking with the supply camp (the supply camp does NOT require using the building tool) allows you to visualize where you can put your supply camp.",
       "dependencies": [
         0
       ],
@@ -862,7 +862,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 500"
           }
         }
       ],
@@ -875,9 +875,9 @@
       "id": 19,
       "icon": "minecolonies:blockhutbuilder",
       "title": "Work Work",
-      "text": "Finally, some citizens from the town hall! To start building buildings, you will need to establish a builder\u0027s hut. Place the builder\u0027s hut with your wand and immediately, one of your citizens will become a builder. Make sure to feed your citizens well! Explore the building options on JEI, or visit the MineColonies wiki for more information.",
+      "text": "Finally, some citizens from the town hall! To start actually building buildings, you will need to establish a builder\u0027s hut. Place the builder\u0027s hut with your building tool and  one of your citizens will become a builder. Make sure to feed your citizens well! Explore the building options on JEI, or visit the MineColonies wiki for more information.",
       "dependencies": [
-        17
+        176
       ],
       "requirements": [
         {
@@ -903,12 +903,12 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 4000"
+            "command": "slash give exp @p 1000"
           }
         }
       ],
       "position": [
-        100,
+        150,
         150
       ]
     },
@@ -1274,7 +1274,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 16000"
+            "command": "slash give exp @p 8000"
           }
         }
       ],
@@ -2032,10 +2032,10 @@
     {
       "id": 47,
       "icon": "minecraft:iron_axe",
-      "title": "Where Are The Minutemen?!",
-      "text": "Occasionally, your colony will be faced with barbarian and pirate raids. You\u0027ll need to set up a guard troop to protect your citizens, but until then, you\u0027ll need to defend them yourself!",
+      "title": "Barbarian Raids",
+      "text": "Occasionally, your colony will be faced with barbarian and pirate raids. You should have established a guard tower already, but if your forces are overwhelmed, then you\u0027ll need to defend your colony yourself!",
       "dependencies": [
-        19
+        179
       ],
       "requirements": [
         {
@@ -2064,13 +2064,13 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 8000"
+            "command": "slash give exp @p 2000"
           }
         }
       ],
       "position": [
         150,
-        150
+        250
       ]
     },
     {
@@ -7340,6 +7340,385 @@
       "position": [
         300,
         100
+      ]
+    },
+    {
+      "id": 175,
+      "icon": "embellishcraft:white_oak_fancy_bed",
+      "title": "Home Decor",
+      "text": "Craft to Exile includes a few decorative mods such as Macaw\u0027s, EmbellishCraft, Mr. CrayFish\u0027s Furniture Mod, and Mapper Base. Craft the items to receive a sample of bitumen. You can use bitumen to craft asphalt. Alternatively, you can use put it in the furnace to turn it into common ore.",
+      "dependencies": [
+        91
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "embellishcraft:white_oak_fancy_bed",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "mcwfurnitures:nightstand",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "cfm:white_sofa",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mapperbase:raw_bitumen",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 176,
+      "icon": "minecolonies:blockhuttownhall",
+      "title": "Town Hall",
+      "text": "In your supply camp, you will find a town hall block in one of the storage units. Place the town hall in a large, flat, open space using your builder tool (the yellow wand). Do NOT place it down as a block or it will not work. Upon placing down the town hall, some citizens will come to your colony. You must next build a builder\u0027s hut to assign the task of building to one of your newly recruited citizens.",
+      "dependencies": [
+        17
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhuttownhall",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:cooked_porkchop",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 177,
+      "icon": "minecolonies:blockhutlumberjack",
+      "title": "I\u0027m A Lumberjack And I\u0027m OK",
+      "text": "Now that you have some citizens and a builder\u0027s hut, you may find it easier to assign the task of wood gathering to one of your citizens. The lumberjack’s hut is where the lumberjack will go in between chopping down trees. The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn’t have cobblestone placed beneath it.",
+      "dependencies": [
+        19
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutlumberjack",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_axe",
+            "amount": 2,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        150
+      ]
+    },
+    {
+      "id": 178,
+      "icon": "minecolonies:blockhutminer",
+      "title": "It\u0027s All MINE!",
+      "text": "The mine is where the miner will mine for ores and materials. Once they are hired, the miner will create a shaft downward and then branch out.",
+      "dependencies": [
+        177
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutminer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_pickaxe",
+            "amount": 2,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        150
+      ]
+    },
+    {
+      "id": 179,
+      "icon": "minecolonies:blockhutguardtower",
+      "title": "Guardians Of The City",
+      "text": "The guard tower will employ and house 1 guard to protect your colony. The new guard will need a bed in a house in order to spawn. However, once they are hired at the guard tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit). Note: If you place guard towers near your colony border and level them up, your border will expand.",
+      "dependencies": [
+        19
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutguardtower",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:iron_sword",
+            "amount": 2,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        200
+      ]
+    },
+    {
+      "id": 180,
+      "icon": "minecolonies:blockhutfisherman",
+      "title": "Fishy Food",
+      "text": "The fisherman’s hut is where the fisherman will catch fish. The fisherman requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work. The water must also be near the hut.",
+      "dependencies": [
+        178
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutfisherman",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "aquaculture:worm",
+            "amount": 16,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        200
+      ]
+    },
+    {
+      "id": 181,
+      "icon": "minecolonies:blockhutuniversity",
+      "title": "Getting Schooled",
+      "text": "The university is where a researcher will research various upgrades to your colony. Once you click on a research tree, you will see the options for each research branch. Each option will tell you the requirements and how long it takes to research that option (time is real-world time spent in-game). Each column of a research branch is also the level the university needs to be to begin a research from that column.",
+      "dependencies": [
+        178
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutuniversity",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:book",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        200
+      ]
+    },
+    {
+      "id": 182,
+      "icon": "minecolonies:blockhutcitizen",
+      "title": "Population Density",
+      "text": "The citizen’s hut is a house for your citizens. They will go to the citizen’s hut they are assigned to at night to sleep. It’s also one of two ways to get more citizens for your colony (the other being the tavern). For additional citizens to spawn, you first have to have enough space in your citizen’s hut(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one citizen’s hut at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the tavern, wait for a traveler to show up, and then give them the items they request to recruit them.",
+      "dependencies": [
+        178
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhutcitizen",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:oak_log",
+            "amount": 64,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        150
+      ]
+    },
+    {
+      "id": 183,
+      "icon": "minecolonies:blockhuttavern",
+      "title": "Have A Beer",
+      "text": "The tavern is like a citizen’s hut in that it houses citizens. However, the tavern houses four instead of one and can’t be upgraded to house more. Every so often, travelers will come to the tavern. You can recruit these travelers (with items) to live and work in your colony. Note: The tavern can only be upgraded to level 3, not level 5. You can also only have 1 tavern per colony.",
+      "dependencies": [
+        182
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "minecolonies:blockhuttavern",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1500"
+          }
+        }
+      ],
+      "position": [
+        350,
+        150
       ]
     }
   ]

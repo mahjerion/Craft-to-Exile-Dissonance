@@ -35,6 +35,8 @@ craftingTable.addShapeless("teleport_scroll", <item:mmorpg:teleport_scroll> * 4,
 craftingTable.removeRecipe(<item:mmorpg:identify_tome>);
 craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<item:minecraft:book>, <item:mmorpg:ore2>]);
 
+craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
+
 <tag:forge:ores/ore0>.createItemTag();
 <tag:forge:ores/ore0>.addItems([<item:mmorpg:ore_block0>]);
 blastFurnace.addRecipe("blastore0", <item:mmorpg:ore0>, <tag:forge:ores/ore0>, 1, 50);

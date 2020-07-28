@@ -21,7 +21,7 @@
 	#The x position of the warp button in the inventory.
 	teleportButtonX = 58
 	#If enabled, a JourneyMap waypoint will be created when activating a waystone.
-	createJourneyMapWaypoint = true
+	createJourneyMapWaypoint = false
 	#If enabled, activated waystones will not emit particles.
 	disableParticles = false
 

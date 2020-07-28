@@ -79,7 +79,7 @@
 	#Range: 0 ~ 32767
 	Zombie_HungerDuration = 10
 	#Entities which count as Zombies.
-	Zombie_Entities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:zombie_pigman", "rotten_creatures:eskimo", "rotten_creatures:spear_eskimo", "rotten_creatures:mummy", "rotten_creatures:ancient_mummy", "rotten_creatures:baby_cold", "rotten_creatures:baby_marshied", "rotten_creatures:burned", "rotten_creatures:cold", "rotten_creatures:crazy_burned", "rotten_creatures:dead_beard", "rotten_creatures:ex_dead_beard", "rotten_creatures:inmortal", "rotten_creatures:marshied", "rotten_creatures:zap", "rotten_creatures:zombie_pirate", "rotten_creatures:miner1", "rotten_creatures:miner2", "rotten_creatures:miner3", "rotten_creatures:miner4"]
+	Zombie_Entities = ["minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:zombie_pigman"]
 	#Enable this to use all Zombie features.
 	Zombie_FeaturesEnabled = true
 	#A list of names to be used by Zombie Champions.

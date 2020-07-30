@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHTABY",
+   "riddle" : [
+      "What is it of yours that you see every day but our",
+      "Leader sees only rarely"
+   ],
+   "solution" : "EQUALS",
+   "type" : "riddlechests:word"
+}

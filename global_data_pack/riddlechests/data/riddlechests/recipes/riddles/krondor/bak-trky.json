@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TRKY",
+   "riddle" : [
+      "Kingdom fools are born without",
+      "A lot of this there is no doubt"
+   ],
+   "solution" : "HAIR",
+   "type" : "riddlechests:word"
+}

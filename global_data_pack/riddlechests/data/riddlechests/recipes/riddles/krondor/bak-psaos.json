@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PSAOS",
+   "riddle" : [
+      "It flies without wings",
+      "Strikes without beak teeth or talons",
+      "It has no eyes in its pointed head but it can kill birds in flight"
+   ],
+   "solution" : "ARROW",
+   "type" : "riddlechests:word"
+}

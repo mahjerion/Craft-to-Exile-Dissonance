@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SASSU",
+   "riddle" : [
+      "MAGIC",
+      "DEATH",
+      "TEMPLE",
+      "BLESS",
+      "REST",
+      "At last you may solve this"
+   ],
+   "solution" : "CHEST",
+   "type" : "riddlechests:word"
+}

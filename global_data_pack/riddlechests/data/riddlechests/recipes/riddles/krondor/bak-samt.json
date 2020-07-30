@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SAMT",
+   "riddle" : [
+      "It goes past gates but asks no ones leave",
+      "It runs clear around castles without taking a step"
+   ],
+   "solution" : "WALL",
+   "type" : "riddlechests:word"
+}

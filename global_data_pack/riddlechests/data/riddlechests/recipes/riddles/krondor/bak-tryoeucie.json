@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TRYOEUCIE",
+   "riddle" : [
+      "This old one runs forever",
+      "But never moves at all",
+      "He has not lungs nor throat",
+      "Still a mighty roaring call"
+   ],
+   "solution" : "WATERFALL",
+   "type" : "riddlechests:word"
+}

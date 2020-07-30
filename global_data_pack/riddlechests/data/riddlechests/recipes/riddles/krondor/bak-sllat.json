@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SLLAT",
+   "riddle" : [
+      "Brought to the table",
+      "Cut and served",
+      "Never eaten"
+   ],
+   "solution" : "CARDS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "ROSET",
+   "riddle" : [
+      "Inside a burning house",
+      "This thing is best to make",
+      "And best to make it quickly before",
+      "The fires too much to take"
+   ],
+   "solution" : "HASTE",
+   "type" : "riddlechests:word"
+}

@@ -2,6 +2,9 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import mods.jei.JEI;
 
+//Riddle Chests
+mods.jei.JEI.hideItem(<item:riddlechests:riddlechest>);
+
 ///Structure Gel
 mods.jei.JEI.hideItem(<item:structure_gel:cyan_gel>);
 mods.jei.JEI.hideItem(<item:structure_gel:blue_gel>);

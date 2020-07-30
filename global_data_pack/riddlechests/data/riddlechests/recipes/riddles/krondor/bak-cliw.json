@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CLIW",
+   "riddle" : [
+      "Four legs in front two behind",
+      "Its steely armor scratched and dented by rocks and sticks",
+      "Still it toils as it helps feed the hungry"
+   ],
+   "solution" : "PLOW",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TUORBCTN",
+   "riddle" : [
+      "Never resting never still",
+      "Moving silently hill to hill",
+      "It does not walk run or trot",
+      "All is cool where it is not"
+   ],
+   "solution" : "SUNSHINE",
+   "type" : "riddlechests:word"
+}

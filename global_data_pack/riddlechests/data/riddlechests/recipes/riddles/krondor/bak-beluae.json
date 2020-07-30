@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BELUAE",
+   "riddle" : [
+      "It never was before",
+      "It is not now",
+      "Fools wait for it forever"
+   ],
+   "solution" : "FUTURE",
+   "type" : "riddlechests:word"
+}

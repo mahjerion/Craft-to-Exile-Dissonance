@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SOSLPLG",
+   "riddle" : [
+      "We love it more than life",
+      "We fear it more than death",
+      "The wealthy want for it",
+      "The poor have it in plenty"
+   ],
+   "solution" : "NOTHING",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "DSWPSTY",
+   "riddle" : [
+      "Whoever has it is angry",
+      "Whoever loses it is angrier",
+      "Whoever wins it has it no more"
+   ],
+   "solution" : "DISPUTE",
+   "type" : "riddlechests:word"
+}

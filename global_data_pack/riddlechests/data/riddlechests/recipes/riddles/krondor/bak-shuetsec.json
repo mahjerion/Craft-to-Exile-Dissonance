@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHUETSEC",
+   "riddle" : [
+      "What is the thing with fingers long",
+      "That grips our deadly swords so strong"
+   ],
+   "solution" : "GAUNTLET",
+   "type" : "riddlechests:word"
+}

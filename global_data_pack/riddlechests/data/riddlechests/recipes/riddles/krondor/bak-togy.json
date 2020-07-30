@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TOGY",
+   "riddle" : [
+      "No visible flesh",
+      "Nor blood nor bone",
+      "But given time",
+      "They will walk alone"
+   ],
+   "solution" : "EGGS",
+   "type" : "riddlechests:word"
+}

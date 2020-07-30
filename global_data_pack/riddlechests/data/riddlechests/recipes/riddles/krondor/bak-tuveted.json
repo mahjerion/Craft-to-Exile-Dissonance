@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TUVETED",
+   "riddle" : [
+      "Names give power",
+      "Magic to control",
+      "But what is broken by naming it"
+   ],
+   "solution" : "SILENCE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THAORT",
+   "riddle" : [
+      "Men seize it from its home tear apart its flesh drink the sweet blood then",
+      "cast its skin aside"
+   ],
+   "solution" : "ORANGE",
+   "type" : "riddlechests:word"
+}

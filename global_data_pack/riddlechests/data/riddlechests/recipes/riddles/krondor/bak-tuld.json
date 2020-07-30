@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TULD",
+   "riddle" : [
+      "It doesnt live within a house",
+      "Nor does it live without",
+      "Most will use it when they come in",
+      "And again when they go out"
+   ],
+   "solution" : "DOOR",
+   "type" : "riddlechests:word"
+}

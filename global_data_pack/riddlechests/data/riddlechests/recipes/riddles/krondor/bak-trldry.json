@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TRLDRY",
+   "riddle" : [
+      "In all the world none can compare",
+      "To this tiny weaver his deadly cloth",
+      "So silky and fair"
+   ],
+   "solution" : "SPIDER",
+   "type" : "riddlechests:word"
+}

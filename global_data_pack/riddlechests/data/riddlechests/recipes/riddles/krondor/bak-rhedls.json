@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RHEDLS",
+   "riddle" : [
+      "He gets short when he gets old",
+      "He goes out then it gets cold"
+   ],
+   "solution" : "CANDLE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BSRO",
+   "riddle" : [
+      "Who works when he plays and plays when he works"
+   ],
+   "solution" : "BARD",
+   "type" : "riddlechests:word"
+}

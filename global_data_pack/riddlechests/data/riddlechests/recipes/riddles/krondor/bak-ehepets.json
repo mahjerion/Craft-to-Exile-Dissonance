@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "EHEPETS",
+   "riddle" : [
+      "When people come for me to meet",
+      "They come to me with heavy feet",
+      "The one I hold",
+      "When I get my chance",
+      "Will turn and spin",
+      "And start to dance"
+   ],
+   "solution" : "GALLOWS",
+   "type" : "riddlechests:word"
+}

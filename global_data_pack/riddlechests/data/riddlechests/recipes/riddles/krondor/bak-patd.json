@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PATD",
+   "riddle" : [
+      "The strongest chains will not bind it ditch and rampart will not slow it down",
+      "A thousand soldiers cannot beat it it can knock down trees with a single push"
+   ],
+   "solution" : "WIND",
+   "type" : "riddlechests:word"
+}

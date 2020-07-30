@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHORAS",
+   "riddle" : [
+      "Buckets barrels baskets cans",
+      "What must you fill with empty hands"
+   ],
+   "solution" : "GLOVES",
+   "type" : "riddlechests:word"
+}

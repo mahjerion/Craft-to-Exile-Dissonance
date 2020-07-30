@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PLESR",
+   "riddle" : [
+      "This great thing can be swallowed",
+      "But can also swallow us"
+   ],
+   "solution" : "WATER",
+   "type" : "riddlechests:word"
+}

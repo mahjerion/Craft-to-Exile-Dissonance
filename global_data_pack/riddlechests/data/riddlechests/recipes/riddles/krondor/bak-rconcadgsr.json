@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RCONCADGSR",
+   "riddle" : [
+      "Where once there were three",
+      "Now only are two",
+      "Ancient kin ours",
+      "Whom we sent to their doom"
+   ],
+   "solution" : "GLAMREDHEL",
+   "type" : "riddlechests:word"
+}

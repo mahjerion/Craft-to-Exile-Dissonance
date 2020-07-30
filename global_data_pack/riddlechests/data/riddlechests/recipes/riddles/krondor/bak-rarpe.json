@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RARPE",
+   "riddle" : [
+      "Has tongue",
+      "But cannot talk",
+      "Runs",
+      "But cannot walk"
+   ],
+   "solution" : "WAGON",
+   "type" : "riddlechests:word"
+}

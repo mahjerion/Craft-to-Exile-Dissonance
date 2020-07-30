@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CICH",
+   "riddle" : [
+      "All across the countryside to front doors he travels",
+      "But you never invite him in"
+   ],
+   "solution" : "PATH",
+   "type" : "riddlechests:word"
+}

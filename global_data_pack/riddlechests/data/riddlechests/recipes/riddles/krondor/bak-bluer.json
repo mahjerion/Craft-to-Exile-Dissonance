@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BLUER",
+   "riddle" : [
+      "When they are caught",
+      "They are thrown away",
+      "When they escape",
+      "You itch all day"
+   ],
+   "solution" : "FLEAS",
+   "type" : "riddlechests:word"
+}

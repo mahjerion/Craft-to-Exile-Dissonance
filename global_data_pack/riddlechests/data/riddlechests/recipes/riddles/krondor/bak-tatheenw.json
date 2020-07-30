@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TATHEENW",
+   "riddle" : [
+      "This engulfing thing is strange indeed",
+      "The greater it grows the less you see"
+   ],
+   "solution" : "DARKNESS",
+   "type" : "riddlechests:word"
+}

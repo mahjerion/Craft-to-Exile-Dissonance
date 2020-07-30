@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BDREY",
+   "riddle" : [
+      "You tie these things",
+      "Before you go",
+      "And untie them",
+      "After you stop"
+   ],
+   "solution" : "SHOES",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RMEES",
+   "riddle" : [
+      "Though easy to spot when allowed to plume",
+      "It is hard to see",
+      "When held in a room"
+   ],
+   "solution" : "SMOKE",
+   "type" : "riddlechests:word"
+}

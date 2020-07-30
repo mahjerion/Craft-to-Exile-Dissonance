@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "EOEN",
+   "riddle" : [
+      "Like dogs shouting at the moon",
+      "Or armor worn by the trees",
+      "Like a sharply spoken command",
+      "Or a tiny vessel upon the seas"
+   ],
+   "solution" : "BARK",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BLTERIST",
+   "riddle" : [
+      "Has feathers but can't fly",
+      "Rests on legs but cant walk"
+   ],
+   "solution" : "MATTRESS",
+   "type" : "riddlechests:word"
+}

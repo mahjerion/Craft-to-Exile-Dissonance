@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "DOC",
+   "riddle" : [
+      "Prince Arutha from his lofty perch",
+      "Will find our troops without a search",
+      "His men will fall his castle too",
+      "And then what will Prince Arutha do"
+   ],
+   "solution" : "DIE",
+   "type" : "riddlechests:word"
+}

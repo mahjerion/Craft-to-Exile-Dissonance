@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BILET",
+   "riddle" : [
+      "What has a mare",
+      "That the cow has not"
+   ],
+   "solution" : "COLTS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TIWE",
+   "riddle" : [
+      "We dont need wine",
+      "We dont need meat",
+      "We have sharp teeth",
+      "But cannot eat"
+   ],
+   "solution" : "SAWS",
+   "type" : "riddlechests:word"
+}

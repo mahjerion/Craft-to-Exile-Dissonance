@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "WSTE",
+   "riddle" : [
+      "The chill of its death",
+      "You may soon mourn",
+      "But though it dies",
+      "It cannot be born"
+   ],
+   "solution" : "FIRE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RHNBFT",
+   "riddle" : [
+      "Silently he stalks me",
+      "Running as I run",
+      "Creeping as I creep",
+      "Dressed in black",
+      "He disappears at night",
+      "Only to return with the sun"
+   ],
+   "solution" : "SHADOW",
+   "type" : "riddlechests:word"
+}

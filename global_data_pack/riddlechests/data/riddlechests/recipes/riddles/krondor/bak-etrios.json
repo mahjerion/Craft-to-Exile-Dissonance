@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "ETRIOS",
+   "riddle" : [
+      "Two legs it has",
+      "And this will confound",
+      "Only at rest",
+      "Do they touch the ground"
+   ],
+   "solution" : "BARROW",
+   "type" : "riddlechests:word"
+}

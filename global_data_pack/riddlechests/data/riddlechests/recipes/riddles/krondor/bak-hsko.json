@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "HSKO",
+   "riddle" : [
+      "I saw him where he never was",
+      "And where he could not be",
+      "And yet within this place I saw a wavering face",
+      "Staring back at me"
+   ],
+   "solution" : "LAKE",
+   "type" : "riddlechests:word"
+}

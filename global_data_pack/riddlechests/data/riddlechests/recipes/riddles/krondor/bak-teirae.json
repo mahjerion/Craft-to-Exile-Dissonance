@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TEIRAE",
+   "riddle" : [
+      "It is too much for one",
+      "Two it is meant for",
+      "But it no longer exists",
+      "When the two become more"
+   ],
+   "solution" : "SECRET",
+   "type" : "riddlechests:word"
+}

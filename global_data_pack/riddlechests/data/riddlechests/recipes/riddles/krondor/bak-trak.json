@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TRAK",
+   "riddle" : [
+      "Although my cow is dead I continue to beat her",
+      "What a racket she makes!"
+   ],
+   "solution" : "DRUM",
+   "type" : "riddlechests:word"
+}

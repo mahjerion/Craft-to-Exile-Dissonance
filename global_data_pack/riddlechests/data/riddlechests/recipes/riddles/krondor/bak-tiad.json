@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TIAD",
+   "riddle" : [
+      "They have not lips nor tongues",
+      "Yet lead them green to the pit",
+      "And as they die you will hear",
+      "Them sputter hiss and spit"
+   ],
+   "solution" : "LOGS",
+   "type" : "riddlechests:word"
+}

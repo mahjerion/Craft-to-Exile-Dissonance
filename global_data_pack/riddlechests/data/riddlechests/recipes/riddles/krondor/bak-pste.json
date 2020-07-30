@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PSTE",
+   "riddle" : [
+      "Don't grow too attached to this thing",
+      "Without it you will never even know it is gone",
+      "But be careful friend it is much easier to lose on Kingdom soil"
+   ],
+   "solution" : "LIFE",
+   "type" : "riddlechests:word"
+}

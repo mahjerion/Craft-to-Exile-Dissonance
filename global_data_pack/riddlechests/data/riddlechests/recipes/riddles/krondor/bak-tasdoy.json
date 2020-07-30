@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TASDOY",
+   "riddle" : [
+      "Held firmly in the hands",
+      "Like a sword it cuts deep",
+      "Bloodless strokes all",
+      "Then forward we leap"
+   ],
+   "solution" : "PADDLE",
+   "type" : "riddlechests:word"
+}

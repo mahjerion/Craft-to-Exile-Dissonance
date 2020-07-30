@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RIAC",
+   "riddle" : [
+      "With flashing sword and booming cry",
+      "With darkness staining land and sky",
+      "The army comes prepared to die",
+      "Soldiers fall in glistening dress",
+      "As battles are joined without egress",
+      "Save comfort in the earth's caress"
+   ],
+   "solution" : "RAIN",
+   "type" : "riddlechests:word"
+}

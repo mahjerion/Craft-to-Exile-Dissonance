@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "VAEOST",
+   "riddle" : [
+      "Look in my face I am somebody",
+      "Look at my back I am nobody"
+   ],
+   "solution" : "MIRROR",
+   "type" : "riddlechests:word"
+}

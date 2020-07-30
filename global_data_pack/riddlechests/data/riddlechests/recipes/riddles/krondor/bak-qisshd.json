@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "QISHD",
+   "riddle" : [
+      "What goes down to the cellar with four legs but comes back with eight"
+   ],
+   "solution" : "MOUSE",
+   "type" : "riddlechests:word"
+}

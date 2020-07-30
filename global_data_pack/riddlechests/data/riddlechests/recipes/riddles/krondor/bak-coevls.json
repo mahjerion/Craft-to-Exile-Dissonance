@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "COEVLS",
+   "riddle" : [
+      "Kingdom soldiers will look like it",
+      "When the headsman gives them a lop",
+      "For then like it they'll have a neck",
+      "But not a head on top"
+   ],
+   "solution" : "BOTTLE",
+   "type" : "riddlechests:word"
+}

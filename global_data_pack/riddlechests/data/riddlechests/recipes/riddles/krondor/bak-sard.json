@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SARD",
+   "riddle" : [
+      "Twins on either side of a ridge that smells",
+      "They shall never see each other directly"
+   ],
+   "solution" : "EYES",
+   "type" : "riddlechests:word"
+}

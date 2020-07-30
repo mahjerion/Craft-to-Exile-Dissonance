@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "WRSHTDEE",
+   "riddle" : [
+      "This marvelous thing",
+      "Though it sounds absurd",
+      "Contains all our letters",
+      "But is only a word"
+   ],
+   "solution" : "ALPHABET",
+   "type" : "riddlechests:word"
+}

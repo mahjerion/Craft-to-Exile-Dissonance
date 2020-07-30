@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TNFIFDRKY",
+   "riddle" : [
+      "It flies without wings",
+      "Drops without fear",
+      "But held in warm hands",
+      "It will soon disappear"
+   ],
+   "solution" : "SNOWFLAKE",
+   "type" : "riddlechests:word"
+}

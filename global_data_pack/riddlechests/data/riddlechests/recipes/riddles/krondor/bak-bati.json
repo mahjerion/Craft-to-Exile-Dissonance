@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BATI",
+   "riddle" : [
+      "In the fields a frightful thing",
+      "Watch it and you will find",
+      "It has a pitchfork in the front",
+      "And a broom back behind"
+   ],
+   "solution" : "BULL",
+   "type" : "riddlechests:word"
+}

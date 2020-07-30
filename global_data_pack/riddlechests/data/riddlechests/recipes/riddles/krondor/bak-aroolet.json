@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "AROOLET",
+   "riddle" : [
+      "Today he is there to trip you up",
+      "And he will torture you tomorrow",
+      "Yet he is also there to ease the pain",
+      "When you are lost in grief and sorrow"
+   ],
+   "solution" : "ALCOHOL",
+   "type" : "riddlechests:word"
+}

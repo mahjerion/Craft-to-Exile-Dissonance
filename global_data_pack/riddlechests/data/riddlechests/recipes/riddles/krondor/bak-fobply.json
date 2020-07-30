@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "FOBPLY",
+   "riddle" : [
+      "This sparkling globe can float on water and weighs not more than a feather",
+      "Yet despite its weight ten giants could never pick it up"
+   ],
+   "solution" : "BUBBLE",
+   "type" : "riddlechests:word"
+}

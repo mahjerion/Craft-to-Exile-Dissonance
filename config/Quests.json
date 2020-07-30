@@ -7438,7 +7438,7 @@
       "id": 177,
       "icon": "minecolonies:blockhutlumberjack",
       "title": "I\u0027m A Lumberjack And I\u0027m OK",
-      "text": "Now that you have some citizens and a builder\u0027s hut, you may find it easier to assign the task of wood gathering to one of your citizens. The lumberjack’s hut is where the lumberjack will go in between chopping down trees. The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn’t have cobblestone placed beneath it.",
+      "text": "Now that you have some citizens and a builder\u0027s hut, you may find it easier to assign the task of wood gathering to one of your citizens. The lumberjack\u0027s hut is where the lumberjack will go in between chopping down trees. The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn\u0027t have cobblestone placed beneath it.",
       "dependencies": [
         19
       ],
@@ -7561,7 +7561,7 @@
       "id": 180,
       "icon": "minecolonies:blockhutfisherman",
       "title": "Fishy Food",
-      "text": "The fisherman’s hut is where the fisherman will catch fish. The fisherman requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work. The water must also be near the hut.",
+      "text": "The fisherman\u0027s hut is where the fisherman will catch fish. The fisherman requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work. The water must also be near the hut.",
       "dependencies": [
         178
       ],
@@ -7643,7 +7643,7 @@
       "id": 182,
       "icon": "minecolonies:blockhutcitizen",
       "title": "Population Density",
-      "text": "The citizen’s hut is a house for your citizens. They will go to the citizen’s hut they are assigned to at night to sleep. It’s also one of two ways to get more citizens for your colony (the other being the tavern). For additional citizens to spawn, you first have to have enough space in your citizen’s hut(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one citizen’s hut at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the tavern, wait for a traveler to show up, and then give them the items they request to recruit them.",
+      "text": "The citizen\u0027s hut is a house for your citizens. They will go to the citizen\u0027s hut they are assigned to at night to sleep. It\u0027s also one of two ways to get more citizens for your colony (the other being the tavern). For additional citizens to spawn, you first have to have enough space in your citizen\u0027s hut(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow. The first way is to have at least one citizen\u0027s hut at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room. You can also make space for a new citizen, go to the tavern, wait for a traveler to show up, and then give them the items they request to recruit them.",
       "dependencies": [
         178
       ],
@@ -7684,7 +7684,7 @@
       "id": 183,
       "icon": "minecolonies:blockhuttavern",
       "title": "Have A Beer",
-      "text": "The tavern is like a citizen’s hut in that it houses citizens. However, the tavern houses four instead of one and can’t be upgraded to house more. Every so often, travelers will come to the tavern. You can recruit these travelers (with items) to live and work in your colony. Note: The tavern can only be upgraded to level 3, not level 5. You can also only have 1 tavern per colony.",
+      "text": "The tavern is like a citizen\u0027s hut in that it houses citizens. However, the tavern houses four instead of one and can\u0027t be upgraded to house more. Every so often, travelers will come to the tavern. You can recruit these travelers (with items) to live and work in your colony. Note: The tavern can only be upgraded to level 3, not level 5. You can also only have 1 tavern per colony.",
       "dependencies": [
         182
       ],

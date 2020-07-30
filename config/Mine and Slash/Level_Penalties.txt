@@ -5,16 +5,12 @@
   "Explanation4": "Number is picked by getting the closest number to the lvl difference",
   "Explanation6": " Level Difference \u003d playerLVL - mobLVL",
   "map": {
+    "-31": 0.01,
+    "-18": 0.25,
+    "-11": 0.5,
     "0": 1.0,
-    "16": 0.5,
-    "-100": 0.5,
-    "-20": 0.8,
-    "51": 0.025,
-    "-5": 1.0,
-    "100": 0.01,
-    "6": 0.8,
-    "-10": 0.9,
-    "10": 0.7,
-    "31": 0.05
+    "11": 0.5,
+    "18": 0.25,
+    "31": 0.01
   }
 }

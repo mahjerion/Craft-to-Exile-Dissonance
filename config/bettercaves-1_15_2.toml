@@ -4,8 +4,8 @@
 	# List must be comma-separated values enclosed in square brackets.
 	# Entries must have the mod namespace included.
 	# For example: "[minecraft:overworld, minecraft:the_nether, rats:ratlantis]"
-	# Default: "[minecraft:overworld, mining_dimension:mining_world]"
-	"Whitelisted Dimensions" = "[minecraft:overworld, minecraft:the_nether, goodnightsleep:nightmare]"
+	# Default: "[minecraft:overworld]"
+	"Whitelisted Dimensions" = "[minecraft:overworld, mining_dimension:mining_world, goodnightsleep:nightmare]"
 	# Automatically enables Better Caves in every possible dimension.
 	#     If this is enabled, the Whitelisted Dimension IDs option is ignored.
 	# Default: false

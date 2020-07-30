@@ -2,7 +2,7 @@
   "id": "charmthunder0",
   "weight": 10000,
   "rarity": 1,
-  "tier": 4,
+  "tier": 1,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.charm.charmthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.charm.charmthunder0.desc",

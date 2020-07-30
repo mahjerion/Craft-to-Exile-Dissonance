@@ -1,0 +1,8 @@
+{
+  "format_top": "&8======= &6Rules &8=======",
+  "format_rule": "&C%id% &8:: &6%rule%",
+  "format_bottom": "&8=========================",
+  "rules": [
+    "Do NOT use the /customquests party command, and do NOT link runewords in chat!"
+  ]
+}

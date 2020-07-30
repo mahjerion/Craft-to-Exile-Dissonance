@@ -1242,6 +1242,11 @@
 	"item.mmorpg.uniques.sword.cospris_malice": "§eCospri's Malice",
 	"item.mmorpg.uniques.sword.starforge": "§eStarforge",
 	"item.mmorpg.uniques.bow.blaze_bow": "§eBlaze Bow",
+	
+"_comment": " [CATEGORY]: UNIQUE ITEMS - NAMES patch 2.1.3",
+	
+	"item.mmorpg.uniques.charm.gheeds_fortune": "§eGheed's Fortune",
+	"item.mmorpg.uniques.charm.hellfire": "§eHellfire",
 
 "_comment": " [CATEGORY]: POTIONS - NAMES",
 
@@ -1606,6 +1611,11 @@
 	"item.mmorpg.uniques.sword.cospris_malice.desc": "Cospri's Malice",
 	"item.mmorpg.uniques.sword.starforge.desc": "Starforge",
 	"item.mmorpg.uniques.bow.blaze_bow.desc": "There were no survivors. Just charred corpses.",
+	
+"_comment": " [CATEGORY]: UNIQUE ITEMS - DESCRIPTIONS patch 2.1.3",
+	
+	"item.mmorpg.uniques.charm.gheeds_fortune.desc": "Gheed's Fortune",
+	"item.mmorpg.uniques.charm.hellfire.desc": "Hellfire",
 	
 "_comment": " [CATEGORY]: CURRENCY ITEMS - DESCRIPTIONS",
 

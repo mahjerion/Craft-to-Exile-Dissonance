@@ -1,0 +1,22 @@
+{
+  "id": "gheeds_fortune",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.gheeds_fortune",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.gheeds_fortune.desc",
+  "primary_stats": [
+    "bonus_currency_drops_flat"
+  ],
+  "unique_stats": [
+    "bonus_currency_drops_flat",
+    "bonus_unique_item_drops_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.25
+  },
+  "gear_type": "charm",
+  "item_id": "mmorpg:charm/charm2"
+}

@@ -1,0 +1,4 @@
+&6Welcome %username% &6to the server!
+&6You can view the rules by typing &c/rules
+&6Use &c/slash party &6and &c/team &6for party play!
+&6Current players &c%players%&6/&c%max_players%

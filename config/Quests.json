@@ -637,7 +637,7 @@
       "id": 14,
       "icon": "minecraft:honeycomb",
       "title": "Bittersweet",
-      "text": "And thus, our journey in the hive comes to an end. But the bee\u0027s legacy may last forever. Honey slimes are special slimes that can generate honey similar to how a sheep produces wool. Provide enough honey, and I\u0027ll turn it into honey slimes for you. Note: redeem this quest in a fenced off area if you would like to farm the honey slimes! Hint: you can find altars of assorted honeycomb in caves in The Bumblezone.",
+      "text": "And thus, our journey in the hive comes to an end. But the bee\u0027s legacy may last forever. Honey slimes are special slimes that can generate honey similar to how a sheep produces wool. Hint: you can find altars of assorted honeycomb in caves in The Bumblezone.",
       "dependencies": [
         13
       ],
@@ -4875,7 +4875,7 @@
       "title": "Sweet Retribution",
       "text": "The honey crystal shield is unique to The Bumblezone and should suffice up until level 40 (you\u0027ll need to craft a new one every few levels)!",
       "dependencies": [
-        14
+        13
       ],
       "requirements": [
         {
@@ -4906,7 +4906,7 @@
         }
       ],
       "position": [
-        150,
+        100,
         50
       ]
     },
@@ -7719,6 +7719,129 @@
       "position": [
         350,
         150
+      ]
+    },
+    {
+      "id": 184,
+      "icon": "beesourceful:centrifuge",
+      "title": "Centripetal Force",
+      "text": "The centrifuge is a powerful device that can turn your honeycombs into valuable resources.",
+      "dependencies": [
+        14
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "beesourceful:centrifuge",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:diamond",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        50
+      ]
+    },
+    {
+      "id": 185,
+      "icon": "beesourceful:ender_honeycomb",
+      "title": "Stocking Up",
+      "text": "Using the centrifuge, it is possible to extract ender pearls from ender honeycomb. You\u0027re going to need some later on, so you may as well convert it now!",
+      "dependencies": [
+        184
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "beesourceful:ender_honeycomb",
+              "amount": 9,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:ender_pearl",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30500"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 186,
+      "icon": "beesourceful:beeswax",
+      "title": "None Of Yo Beeswax",
+      "text": "You\u0027ll notice that using the centrifuge produces a by-product known as beeswax. I wonder... what can you do with it?",
+      "dependencies": [
+        184
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "beesourceful:beeswax",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore3",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 25000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
       ]
     }
   ]

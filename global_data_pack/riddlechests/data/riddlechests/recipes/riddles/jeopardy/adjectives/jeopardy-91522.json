@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XONCHQNBRJ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 10-letter adjective meaning",
+      "\"extraordinarily great in size\" comes",
+      "from the Latin for \"to shake\""
+   ],
+   "solution" : "TREMENDOUS",
+   "type" : "riddlechests:word"
+}

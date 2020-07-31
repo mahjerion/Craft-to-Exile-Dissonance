@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VWBEFTBDY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Something Mauritanian comes from",
+      "Mauritania & something Mauritian is from",
+      "this island country"
+   ],
+   "solution" : "MAURITIUS",
+   "type" : "riddlechests:word"
+}

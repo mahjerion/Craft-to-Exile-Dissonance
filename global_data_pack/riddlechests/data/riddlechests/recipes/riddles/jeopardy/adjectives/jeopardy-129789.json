@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FDH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "3-letter word found before maid,",
+      "master or money"
+   ],
+   "solution" : "OLD",
+   "type" : "riddlechests:word"
+}

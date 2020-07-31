@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XIGD",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It's the adjective in the title of",
+      "Letterman's TV show"
+   ],
+   "solution" : "LATE",
+   "type" : "riddlechests:word"
+}

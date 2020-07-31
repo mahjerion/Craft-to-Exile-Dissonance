@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "JWZDYS",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Truthful, like Abe Lincoln"
+   ],
+   "solution" : "HONEST",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "UKNIXUPEHEGGPPC",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 15-letter adjective ascribes human",
+      "form or attributes to a non-human thing"
+   ],
+   "solution" : "ANTHROPOMORPHIC",
+   "type" : "riddlechests:word"
+}

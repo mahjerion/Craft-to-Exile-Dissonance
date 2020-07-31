@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XJKAP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective turns a \"shave\" into a",
+      "narrow escape"
+   ],
+   "solution" : "CLOSE",
+   "type" : "riddlechests:word"
+}

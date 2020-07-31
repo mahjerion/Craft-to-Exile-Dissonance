@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FCKKBGI",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective that means \"immediate\"",
+      "can precede \"coffee\" or \"pudding\""
+   ],
+   "solution" : "INSTANT",
+   "type" : "riddlechests:word"
+}

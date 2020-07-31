@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "JOJQ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Also a musical term, it's the adjective",
+      "for a fixed rate like the $52.00 for JFK",
+      "airport to Manhattan"
+   ],
+   "solution" : "FLAT",
+   "type" : "riddlechests:word"
+}

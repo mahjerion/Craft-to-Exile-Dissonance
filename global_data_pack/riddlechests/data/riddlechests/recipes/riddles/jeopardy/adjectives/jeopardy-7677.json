@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "DMEKC",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Apt adjective for a box of Wheaties, a",
+      "good piecrust or a weird person"
+   ],
+   "solution" : "FLAKY",
+   "type" : "riddlechests:word"
+}

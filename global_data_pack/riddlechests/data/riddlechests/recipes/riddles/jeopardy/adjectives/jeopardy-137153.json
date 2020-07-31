@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "DOUEAXELHPVO",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "In law this 5-syllable word describes a",
+      "crime that was planned in advance &",
+      "carried out willfully"
+   ],
+   "solution" : "PREMEDITATED",
+   "type" : "riddlechests:word"
+}

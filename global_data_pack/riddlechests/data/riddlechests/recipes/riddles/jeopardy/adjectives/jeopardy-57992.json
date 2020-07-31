@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "WVNPIBPF",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This silvery metal is used as an",
+      "adjective for an album that has sold a",
+      "million copies"
+   ],
+   "solution" : "PLATINUM",
+   "type" : "riddlechests:word"
+}

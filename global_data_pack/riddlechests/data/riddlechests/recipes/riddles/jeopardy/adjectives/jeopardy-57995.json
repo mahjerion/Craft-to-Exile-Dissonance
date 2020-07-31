@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "INXSQU",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 6-letter word means \"having no",
+      "equal\" or \"one of a kind\"; therefore,",
+      "it is redundant to modify it with very",
+      "or totally"
+   ],
+   "solution" : "UNIQUE",
+   "type" : "riddlechests:word"
+}

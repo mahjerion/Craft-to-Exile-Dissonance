@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ZJECKFXSEGH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective that means \"extremely",
+      "tiny\" comes from the name of the teensy",
+      "people Gulliver met"
+   ],
+   "solution" : "LILLIPUTIAN",
+   "type" : "riddlechests:word"
+}

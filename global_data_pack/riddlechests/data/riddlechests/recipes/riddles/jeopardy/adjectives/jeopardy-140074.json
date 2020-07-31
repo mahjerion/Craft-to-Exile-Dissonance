@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "AQRN",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It frequently precedes \"old age\" & \"for",
+      "the picking\""
+   ],
+   "solution" : "RIPE",
+   "type" : "riddlechests:word"
+}

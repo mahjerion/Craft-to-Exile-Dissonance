@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "DZVJNP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Bellicose & belligerent are derived in",
+      "part from this Latin word for \"war\""
+   ],
+   "solution" : "BELLUM",
+   "type" : "riddlechests:word"
+}

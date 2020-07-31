@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "LKVPKF",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It precedes \"mammoth\" when referring to",
+      "an animal, & follows \"wild and\" when",
+      "talking about a cowboy"
+   ],
+   "solution" : "WOOLLY",
+   "type" : "riddlechests:word"
+}

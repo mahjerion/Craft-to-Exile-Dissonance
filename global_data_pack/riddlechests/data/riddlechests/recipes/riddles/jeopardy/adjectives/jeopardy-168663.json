@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SWRVVWODH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It's from the Latin for \"hammer\" &",
+      "refers to metal that can be hammered",
+      "into a new shape"
+   ],
+   "solution" : "MALLEABLE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VNYZDJ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Belonging to the place where one was",
+      "born, like the \"son\" in a Richard",
+      "Wright title"
+   ],
+   "solution" : "NATIVE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FVSWILI",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "An adjective despite ending in -ly,",
+      "it precedes \"pear\", botanically--get",
+      "the point?"
+   ],
+   "solution" : "PRICKLY",
+   "type" : "riddlechests:word"
+}

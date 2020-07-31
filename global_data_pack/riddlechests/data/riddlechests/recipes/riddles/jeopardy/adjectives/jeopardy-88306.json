@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ITWXX",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Both pontifical and this 5-letter",
+      "adjective mean \"relating to the pope\""
+   ],
+   "solution" : "PAPAL",
+   "type" : "riddlechests:word"
+}

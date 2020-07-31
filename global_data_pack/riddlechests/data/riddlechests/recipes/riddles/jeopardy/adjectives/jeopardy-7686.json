@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FMTHTSCZB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "As a noun, it's Philo Vance, but as an",
+      "adjective, it's a type of novel about",
+      "him"
+   ],
+   "solution" : "DETECTIVE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "NYSZGSLQF",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective in the title of a Bronte",
+      "novel describes the tumultuous",
+      "atmosphere of the setting"
+   ],
+   "solution" : "WUTHERING",
+   "type" : "riddlechests:word"
+}

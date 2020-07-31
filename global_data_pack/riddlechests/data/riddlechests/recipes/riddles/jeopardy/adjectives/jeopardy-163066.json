@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ZRRPJACTXEU",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "No worries--it's just this 11-letter",
+      "type of wound that affects the top layer",
+      "of skin without penetrating deeper"
+   ],
+   "solution" : "SUPERFICIAL",
+   "type" : "riddlechests:word"
+}

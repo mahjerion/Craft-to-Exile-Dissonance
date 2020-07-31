@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "CEHW",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Going by a common expression, it's",
+      "mighty close to middlin'"
+   ],
+   "solution" : "FAIR",
+   "type" : "riddlechests:word"
+}

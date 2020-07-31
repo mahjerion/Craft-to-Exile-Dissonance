@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ADZN",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "While \"cervine\" means relating to",
+      "eer, \"cervisial\" means pertaining to",
+      "this beverage"
+   ],
+   "solution" : "BEER",
+   "type" : "riddlechests:word"
+}

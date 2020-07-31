@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "AZNLTGJY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Adjective for the blissful smile of",
+      "one declared by the church to be among",
+      "the blessed"
+   ],
+   "solution" : "BEATIFIC",
+   "type" : "riddlechests:word"
+}

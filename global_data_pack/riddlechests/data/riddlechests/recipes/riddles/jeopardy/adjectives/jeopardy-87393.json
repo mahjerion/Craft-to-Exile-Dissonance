@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ZCJHQQXGA",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From Latin for \"devour\", it precedes",
+      "\"readers\" to describe those with an",
+      "insatiable appetite for books"
+   ],
+   "solution" : "VORACIOUS",
+   "type" : "riddlechests:word"
+}

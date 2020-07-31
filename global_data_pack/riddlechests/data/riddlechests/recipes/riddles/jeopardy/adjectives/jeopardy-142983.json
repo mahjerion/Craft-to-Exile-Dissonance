@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "EEQDCPGKOQ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 10-letter adjective describes",
+      "plants or people that are native to a",
+      "particular region"
+   ],
+   "solution" : "INDIGENOUS",
+   "type" : "riddlechests:word"
+}

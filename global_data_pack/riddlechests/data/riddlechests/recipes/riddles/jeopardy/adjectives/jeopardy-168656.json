@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "CYEQ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This synonym for domesticated is a much",
+      "shorter word"
+   ],
+   "solution" : "TAME",
+   "type" : "riddlechests:word"
+}

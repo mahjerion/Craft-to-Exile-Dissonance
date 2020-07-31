@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ZYDKNM",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From the Latin for \"horse\", this 6-",
+      "letter adjective means pertaining to or",
+      "resembling a horse"
+   ],
+   "solution" : "EQUINE",
+   "type" : "riddlechests:word"
+}

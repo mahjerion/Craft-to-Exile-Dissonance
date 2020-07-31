@@ -125,11 +125,11 @@
     "piscivore",
     "insectivore"
   ],
-  "peaceful": true,
-  "farmable": true,
+  "peaceful": false,
+  "farmable": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 4,
   "dungeonLevel": 2,
   "drops": [

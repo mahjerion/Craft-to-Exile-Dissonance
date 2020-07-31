@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "TCJTBDYX",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It describes notched, sawlike teeth, as",
+      "on the blade of a bread knife"
+   ],
+   "solution" : "SERRATED",
+   "type" : "riddlechests:word"
+}

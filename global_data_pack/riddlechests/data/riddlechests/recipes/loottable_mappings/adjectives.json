@@ -1,0 +1,7 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lootTables" : [
+      "riddlechests:cte_loot"
+   ],
+   "type" : "riddlechests:loottable_mapping"
+}

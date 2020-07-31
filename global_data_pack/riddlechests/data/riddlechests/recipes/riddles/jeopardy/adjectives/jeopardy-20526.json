@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FWKSO",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective could mean \"world-weary\"",
+      "or \"covered with green gemstones\""
+   ],
+   "solution" : "JADED",
+   "type" : "riddlechests:word"
+}

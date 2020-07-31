@@ -5778,7 +5778,7 @@
       "id": 134,
       "icon": "create:mechanical_mixer",
       "title": "Making Brass",
-      "text": "When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots.",
+      "text": "When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots. However, you will need more rotational power for the mixer. Place smaller cogwheels diagonally next to large cogwheels and they will rotate at higher speeds than the large cogwheel. You can place a large cogwheel on the same axis as the small cogwheel and repeat the pattern to increase your RPM. However, doing so will increase stress on the machinery and as a result you can run less devices simultaneously on the same source of power.",
       "dependencies": [
         133
       ],

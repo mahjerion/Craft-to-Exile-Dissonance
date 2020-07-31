@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "LMXQNZIVHGX",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "The adjective form of the word nonsense"
+   ],
+   "solution" : "NONSENSICAL",
+   "type" : "riddlechests:word"
+}

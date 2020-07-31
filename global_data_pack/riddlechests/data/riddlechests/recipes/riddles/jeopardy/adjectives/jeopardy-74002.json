@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "NOPICXYYN",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From the Latin for \"patcher\" or",
+      "\"mender\", it refers to tailors or",
+      "their work"
+   ],
+   "solution" : "SARTORIAL",
+   "type" : "riddlechests:word"
+}

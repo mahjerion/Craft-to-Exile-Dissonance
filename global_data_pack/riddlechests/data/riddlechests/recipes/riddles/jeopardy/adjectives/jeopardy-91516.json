@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "DAIJAWY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective precedes \"grace\" in the",
+      "name of a hymn"
+   ],
+   "solution" : "AMAZING",
+   "type" : "riddlechests:word"
+}

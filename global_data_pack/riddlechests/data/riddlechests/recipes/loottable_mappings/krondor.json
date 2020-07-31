@@ -3,6 +3,6 @@
   "category": "riddlechests:betrayal_at_krondor",
 
   "lootTables": [
-    "riddlechests:default_loot"
+    "riddlechests:cte_loot"
   ]
 }

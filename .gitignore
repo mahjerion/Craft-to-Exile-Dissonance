@@ -19,3 +19,6 @@ options.txt
 TrashSlotSaveState.json
 usercache.json
 usernamecache.json
+.curseclient
+reauth.toml
+servers.dat

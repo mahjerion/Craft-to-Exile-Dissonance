@@ -253,7 +253,7 @@
 	#The minimum base starting level of every mob. Cannot be less than 1.
 	baseWeight = 1
 	#When a creature with the uncommon variant (Azure, Verdant, etc) dies, its item drops amount is multiplied by this value.
-	uncommonDropScale = 1.25
+	uncommonDropScale = 2
 	#The minimum amount of days before uncommon variants start to spawn.
 	uncommonSpawnDayMin = 0
 	#The minimum amount of days before rare variants start to spawn.

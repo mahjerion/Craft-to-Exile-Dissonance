@@ -1,0 +1,31 @@
+
+[balance]
+	#Obsidian Ore spawn rarity
+	#Range: 0 ~ 64
+	obsidian_ore_rarity = 6
+	#Endshrooms spawn rarity
+	#Range: 0 ~ 64
+	endshrooms_rarity = 4
+	#Tungsten Ore spawn rarity
+	#Range: 0 ~ 64
+	quartz_rarity = 4
+	#The End new structures
+	new_structures_end = true
+	#Random model size | If enabled, server logs can warning about enderman spawning
+	enderman_tweaks = false
+	#End Crypt maximum size
+	#Range: 0 ~ 64
+	crypt_size = 10
+	#End Moss spawn rarity
+	#Range: 0 ~ 64
+	moss_rarity = 4
+	#Dragonite flower spawn rarity
+	#Range: 0 ~ 64
+	dragonite_rarity = 1
+	#Tungsten Ore spawn rarity
+	#Range: 0 ~ 64
+	wolframium_rarity = 4
+	#Cracked Purpur and Cracked End Bricks spawn rarity
+	#Range: 0 ~ 64
+	decorator_rarity = 4
+

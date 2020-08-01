@@ -1,0 +1,30 @@
+
+#General settings
+[general]
+	#24 hour or 12 hour format. (true: 24, false: 12)
+	time_format = true
+	#Show timestamp before text. (false: show after)
+	show_before = true
+	#Show seconds
+	show_seconds = true
+	#Color code
+	#Default: 7 (gray)
+	#0: BLACK
+	#1: DARK_BLUE
+	#2: DARK_GREEN
+	#3: DARK_AQUA
+	#4: DARK_RED
+	#5: DARK_PURPLE
+	#6: GOLD
+	#7: GRAY
+	#8: DARK_GRAY
+	#9: BLUE
+	#10: GREEN
+	#11: AQUA
+	#12: RED
+	#13: LIGHT_PURPLE
+	#14: YELLOW
+	#15: WHITE
+	#Range: 0 ~ 15
+	color_code = 7
+

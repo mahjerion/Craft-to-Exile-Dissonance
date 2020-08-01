@@ -1,0 +1,13 @@
+
+#Nether configuration settings
+[nether]
+
+	#Biome pack configuration settings
+	[nether.biome_packs]
+		#Use the default biome pack.
+		useDefaultBiomePack = true
+		#Use the Biomes O' Plenty biome pack.
+		useBOPBiomePack = true
+		#Use the NetherEx biome pack.
+		useNetherExBiomePack = true
+

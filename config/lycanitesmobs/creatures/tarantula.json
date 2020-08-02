@@ -15,9 +15,7 @@
       "beast"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      "minecraft:overworld"
-    ],
+    "dimensionIds": [],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [

@@ -12,11 +12,11 @@
     "displayFluids": false
   },
   "overlay": {
-    "overlayPosX": 0.15,
+    "overlayPosX": 0.91,
     "overlayPosY": 0.95,
-    "overlayScale": 0.75,
+    "overlayScale": 1.0,
     "color": {
-      "alpha": 200,
+      "alpha": 100,
       "themes": [
         {
           "id": "waila:dark",

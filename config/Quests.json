@@ -1337,7 +1337,7 @@
           "sub_requirements": [
             {
               "item": "minecraft:ghast_tear",
-              "amount": 5,
+              "amount": 3,
               "nbt": "{}"
             }
           ]
@@ -4241,7 +4241,7 @@
       "id": 96,
       "icon": "immersiveengineering:manual",
       "title": "Your Engineering Degree",
-      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions.",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension!",
       "dependencies": [
         134
       ],
@@ -5236,7 +5236,7 @@
       "id": 120,
       "icon": "create:andesite_alloy",
       "title": "Start Creating",
-      "text": "Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create\u0027s basal structures. Please note: Create ores spawn in the Overworld, while Immersive Engineering ores have been disabled until you reach the Mining Dimension!",
+      "text": "Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create\u0027s basal structures. Please note: Create ores spawn in the Overworld, while Immersive Engineering ores only spawn in the Mining Dimension!",
       "dependencies": [
         0
       ],
@@ -6287,8 +6287,8 @@
     {
       "id": 147,
       "icon": "atum:loot_dirty_broach",
-      "title": "Nasty Eyes",
-      "text": "These evil creatures are equipped with stingers. They seem to be from another world.",
+      "title": "Creepy Crawlies",
+      "text": "Tarantulas can be found all over Atum at night. Are they stronger than vanilla spiders?",
       "dependencies": [
         146
       ],
@@ -6297,8 +6297,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:clink",
-              "amount": 10
+              "entity": "atum:tarantula",
+              "amount": 20
             }
           ]
         }

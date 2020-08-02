@@ -16,13 +16,13 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether",
-      "minecraft:the_end"
+      "atum:atum"
     ],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
     "biomeTags": [
       "sandy",
+	  "sand",
       "wasteland",
       "mesa",
       "-cold",

@@ -25,7 +25,7 @@ lockNorth:true
 zoom:1
 mapSize:-1
 entityAmount:1
-chunkGrid:15
+chunkGrid:-1
 slimeChunks:false
 playersColor:15
 mobsColor:14
@@ -83,9 +83,9 @@ caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:50
-interface:dummy:0:36:true:false:false:false
+interface:dummy:0:0:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:0:0:false:false:true:false
+interface:gui.xaero_minimap:0:0:false:false:false:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

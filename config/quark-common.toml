@@ -1101,7 +1101,7 @@
 	"Back Button Keybind" = true
 	"Improved Tooltips" = false
 	"Improved Mount Hud" = true
-	"Usage Ticker" = true
+	"Usage Ticker" = false
 	"Chest Searching" = true
 
 	[client.usage_ticker]

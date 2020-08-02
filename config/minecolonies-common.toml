@@ -289,6 +289,8 @@
 	bandaid = ["minecraft:golden_carrot*1"]
 	#minecolonies.config.biodegradable.comment
 	biodegradable = ["minecraft:bone_meal*64"]
+	#minecolonies.config.arrowpierce.comment
+	arrowpierce = ["minecraft:arrow*64", "minecraft:redstone*64"]
 	#minecolonies.config.healingcream.comment
 	healingcream = ["minecraft:golden_carrot*8"]
 	#minecolonies.config.masterbowman.comment
@@ -419,12 +421,16 @@
 	dodge = ["minecraft:leather*16"]
 	#minecolonies.config.pavetheroad.comment
 	pavetheroad = ["minecraft:white_concrete*32"]
+	#minecolonies.config.knockbackaoe.comment
+	knockbackaoe = ["minecraft:redstone*64", "minecraft:gold_ingot*64", "minecraft:lapis_lazuli*128"]
 	#minecolonies.config.recipebook.comment
 	recipebook = ["minecraft:paper*128"]
 	#minecolonies.config.beanstalk.comment
 	beanstalk = ["minecraft:cooked_chicken*512"]
 	#minecolonies.config.rtm.comment
 	rtm = ["minecraft:paper*256"]
+	#minecolonies.config.arrowuse.comment
+	arrowuse = ["minecraft:arrow*64"]
 	#minecolonies.config.higherlearning.comment
 	higherlearning = ["minecraft:book*3"]
 	#minecolonies.config.phd.comment

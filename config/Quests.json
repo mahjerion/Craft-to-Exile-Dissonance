@@ -6288,7 +6288,7 @@
       "id": 147,
       "icon": "atum:loot_dirty_broach",
       "title": "Creepy Crawlies",
-      "text": "Tarantulas can be found all over Atum at night. Are they stronger than vanilla spiders?",
+      "text": "Tarantulas can be found all over Atum at night (and other sandy biomes). Are they stronger than vanilla spiders?",
       "dependencies": [
         146
       ],
@@ -6297,7 +6297,7 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "atum:tarantula",
+              "entity": "betteranimalsplus:tarantula",
               "amount": 20
             }
           ]

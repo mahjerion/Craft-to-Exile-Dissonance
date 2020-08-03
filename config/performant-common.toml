@@ -4,7 +4,7 @@
 	TELoadBalancing = true
 	#Mean tick time at which load balancing takes effect, 1000 / mean tick time = TPS. default: 45
 	#Range: 1 ~ 200
-	meanTickTH = 35
+	meanTickTH = 45
 	#Enables debug log output for lagging tileentities, default = false
 	TEDebugOutput = false
 
@@ -15,7 +15,7 @@
 ["Event load balancing settings"]
 	#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 45
 	#Range: 1 ~ 200
-	meanTickEvent = 40
+	meanTickEvent = 45
 	#Enables debug log output for lagging event subscribers, default = false
 	eventDebugOutput = false
 	#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tileentities, if the game is lagging. default: true
@@ -28,8 +28,6 @@
 	fastCollisions = true
 	#Enables less laggy entity item pickup, default = true
 	noLagItemPickup = true
-	#Enable multithreading support for entities, default = true
-	multiEntities = true
 	#Use faster Item entities, default = true
 	fastItems = true
 	#Enable fast inventory advancement triggers, default = true
@@ -64,32 +62,14 @@
 	optimizeTempt = true
 	#Whether to use a slower updated AI avoid entity goal, avoid is used e.g. for villagers avoiding zombies so it constantly searches for mobs in the area. default = true
 	optimizeAvoid = true
-	#Fix chunkloading and lag caused by block break goal default = true
-	fixBlockBreakGoal = true
 
 ["Other settings"]
-	#Reduce crafting lag, default = true
-	cacheRecipes = true
-	#Set the max login timeout during connection in ticks. 20 ticks = 1 sec
-	#Range: 600 ~ 20000
-	logintimeout = 2400
 	#Enable fast spawn radius check, default = true
 	fastSpawnRadius = true
 	#Enable printing of world/chunk saves for debugging purposes, default = false
 	printWorldSaves = false
-	#Enable printing of chunk loading for debugging purposes, default = false
-	debugChunkLoading = false
-	#Disables the config reload during the game, can cause performance issues on some linux systems, default = false
-	disableConfigReload = false
 	#Enable fast chunk save, default = true
 	fastChunkSave = true
-	#Enable FPS improvements, default = true
-	betterFps = true
-	#Set the ingame disconnect timeout for disconnecting players. Default = 60sec
-	#Range: 15 ~ 400
-	disconnectTimeout = 60
 	#Enable fast chunk block ticks, default = true
 	fastChunkBlocks = true
-	#List of mobs disallowed from spawning: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
-	forbiddenMobs = []
 

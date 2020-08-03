@@ -10,11 +10,11 @@
   "results": [
     {
       "item": "minecraft:lapis_lazuli",
-      "count": 3
+      "count": 2
     },
     {
       "item": "beesourceful:beeswax"
     }
   ],
-  "time": 200
+  "time": 400
 }

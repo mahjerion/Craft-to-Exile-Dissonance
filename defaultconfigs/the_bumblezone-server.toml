@@ -211,7 +211,7 @@
 		# Higher numbers means more rare. Default rate is 2.
 		#
 		#Range: 1 ~ 1001
-		greatHoneycombRaritySpiderBeeDungeon = 3
+		greatHoneycombRaritySpiderBeeDungeon = 8
 		# 
 		#-----------------------------------------------------
 		#
@@ -220,7 +220,7 @@
 		# Higher numbers means more rare. Default rate is 3.
 		#
 		#Range: 1 ~ 1001
-		greatHoneycombRarityBeeDungeon = 4
+		greatHoneycombRarityBeeDungeon = 10
 		# 
 		#-----------------------------------------------------
 		#
@@ -228,7 +228,7 @@
 		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.3D
 		#
 		#Range: 0.0 ~ 1.0
-		oreHoneycombSpawnRateBeeDungeon = 0.3
+		oreHoneycombSpawnRateBeeDungeon = 0.1
 		# 
 		#-----------------------------------------------------
 		#
@@ -236,7 +236,7 @@
 		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.4D
 		#
 		#Range: 0.0 ~ 1.0
-		oreHoneycombSpawnRateSpiderBeeDungeon = 0.4
+		oreHoneycombSpawnRateSpiderBeeDungeon = 0.2
 
 	["Mod Compatibility Options"."Buzzier Bees Options"]
 		# 

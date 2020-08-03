@@ -9,11 +9,11 @@
   },
   "results": [
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:iron_nugget"
     },
     {
       "item": "beesourceful:beeswax"
     }
   ],
-  "time": 300
+  "time": 600
 }

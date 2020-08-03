@@ -550,23 +550,23 @@
           "sub_requirements": [
             {
               "entity": "beesourceful:iron_bee",
-              "amount": 30
-            },
-            {
-              "entity": "beesourceful:gold_bee",
               "amount": 15
             },
             {
+              "entity": "beesourceful:gold_bee",
+              "amount": 10
+            },
+            {
               "entity": "beesourceful:diamond_bee",
-              "amount": 5
+              "amount": 3
             },
             {
               "entity": "beesourceful:emerald_bee",
-              "amount": 5
+              "amount": 2
             },
             {
               "entity": "beesourceful:ender_bee",
-              "amount": 3
+              "amount": 2
             }
           ]
         }
@@ -7776,7 +7776,7 @@
           "sub_requirements": [
             {
               "item": "beesourceful:ender_honeycomb",
-              "amount": 9,
+              "amount": 3,
               "nbt": "{}"
             }
           ]

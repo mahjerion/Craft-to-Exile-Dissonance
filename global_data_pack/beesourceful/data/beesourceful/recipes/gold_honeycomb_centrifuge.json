@@ -9,11 +9,11 @@
   },
   "results": [
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gold_nugget"
     },
     {
       "item": "beesourceful:beeswax"
     }
   ],
-  "time": 300
+  "time": 600
 }

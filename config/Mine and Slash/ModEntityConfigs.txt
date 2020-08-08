@@ -649,6 +649,58 @@
       "DMG_MULTI": 1.5,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
+    },
+    "tofucraft:tofucow": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "tofucraft:tofufish": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "tofucraft:tofunian": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "tofucraft:tofugandlem": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 5.0,
+      "MIN_RARITY": 1,
+      "MAX_RARITY": 3,
+      "MIN_LEVEL": 58,
+      "MAX_LEVEL": 70,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.1
     }
   },
   "byEntityTypeDefault": {

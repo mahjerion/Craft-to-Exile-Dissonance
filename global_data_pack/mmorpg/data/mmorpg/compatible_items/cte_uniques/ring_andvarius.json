@@ -1,0 +1,29 @@
+{
+  "item_type": "ring",
+  "item_id": "cte_uniques:andvarius",
+  "id": "ring:cte_uniques:andvarius",
+  "gear_type": {
+    "normal_item_weight": 0,
+    "runed_item_weight": 0,
+    "unique_item_weight": 1
+  },
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 5
+  },
+  "misc": {
+    "only_add_stats_if_loot_drop": false,
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": true
+  },
+  "level": {
+    "min_level": 1,
+    "max_level": 100,
+    "level_variance": 0
+  },
+  "unique": {
+    "if_unique_random_up_to_tier": 10,
+    "unique_id": "andvarius"
+  }
+}

@@ -1,0 +1,23 @@
+
+[custom_chat]
+	enabled = true
+	rank_colors = false
+
+	[custom_chat.colors]
+		4 = "&4"
+		3 = "&c"
+		2 = "&6"
+		1 = "&2"
+		0 = "&8"
+
+[motd]
+	enabled = true
+
+[rules]
+	enabled = true
+	#Range: > 1
+	per_page = 5
+
+[chat]
+	0 = "\n&8Chat cleared\n"
+

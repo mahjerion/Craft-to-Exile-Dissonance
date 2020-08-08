@@ -46,7 +46,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 250"
+            "command": "slash give exp @p 375"
           }
         }
       ],
@@ -59,7 +59,7 @@
       "id": 1,
       "icon": "minecraft:wooden_sword",
       "title": "The Crux",
-      "text": "You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited. Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some zombies - hopefully you\u0027ll find a new piece of equipment.",
+      "text": "You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited. Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some skeletons (not Nasty skeletons!) - hopefully you\u0027ll find a new piece of equipment.",
       "dependencies": [
         0
       ],
@@ -86,7 +86,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500"
+            "command": "slash give exp @p 750"
           }
         }
       ],
@@ -134,7 +134,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 750"
+            "command": "slash give exp @p 1125"
           }
         }
       ],
@@ -147,9 +147,9 @@
       "id": 3,
       "icon": "minecraft:bee_nest",
       "title": "The Bumblezone",
-      "text": "Craft to Exile has a loose progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 10-18. The recommended levels for each dimension are as follows: Overworld (1-30), The Bumblezone (10-16), Nether (16-26), The End (26-30), Atum (30-40) Good Night\u0027s Sleep (40-50), Midnight (50-58), Maps (30-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
+      "text": "Craft to Exile is focused around a dimension progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 14-18. The recommended levels for each dimension are as follows: Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night\u0027s Sleep (40-50), Midnight (50-58), Tofu World (58-66), Maps (30-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
       "dependencies": [
-        2
+        7
       ],
       "requirements": [
         {
@@ -177,12 +177,12 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 1500"
           }
         }
       ],
       "position": [
-        100,
+        200,
         50
       ]
     },
@@ -218,7 +218,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500"
+            "command": "slash give exp @p 750"
           }
         }
       ],
@@ -267,7 +267,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 1500"
           }
         }
       ],
@@ -308,7 +308,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 2000"
+            "command": "slash give exp @p 3000"
           }
         }
       ],
@@ -349,7 +349,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 3000"
+            "command": "slash give exp @p 4500"
           }
         }
       ],
@@ -390,7 +390,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 4500"
+            "command": "slash give exp @p 6750"
           }
         }
       ],
@@ -441,7 +441,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 6000"
+            "command": "slash give exp @p 9000"
           }
         }
       ],
@@ -464,12 +464,12 @@
           "sub_requirements": [
             {
               "item": "minecraft:honey_bottle",
-              "amount": 5,
+              "amount": 2,
               "nbt": "{}"
             },
             {
               "item": "the_bumblezone:honey_crystal_shards",
-              "amount": 10,
+              "amount": 4,
               "nbt": "{}"
             }
           ]
@@ -510,7 +510,7 @@
           "sub_requirements": [
             {
               "entity": "minecraft:bee",
-              "amount": 10
+              "amount": 6
             }
           ]
         }
@@ -550,23 +550,23 @@
           "sub_requirements": [
             {
               "entity": "beesourceful:iron_bee",
-              "amount": 15
+              "amount": 5
             },
             {
               "entity": "beesourceful:gold_bee",
-              "amount": 10
-            },
-            {
-              "entity": "beesourceful:diamond_bee",
               "amount": 3
             },
             {
-              "entity": "beesourceful:emerald_bee",
-              "amount": 2
+              "entity": "beesourceful:diamond_bee",
+              "amount": 1
             },
             {
-              "entity": "beesourceful:ender_bee",
-              "amount": 2
+              "entity": "beesourceful:emerald_bee",
+              "amount": 1
+            },
+            {
+              "entity": "minecraft:bee",
+              "amount": 5
             }
           ]
         }
@@ -614,7 +614,7 @@
           "sub_requirements": [
             {
               "item": "the_bumblezone:sugar_water_bottle",
-              "amount": 3,
+              "amount": 2,
               "nbt": "{}"
             }
           ]
@@ -918,11 +918,7 @@
       "title": "End Game",
       "text": "Congratulations. You\u0027re in the end game now! The max level is 99. Good luck!",
       "dependencies": [
-        97,
-        98,
-        99,
-        100,
-        106
+        206
       ],
       "requirements": [
         {
@@ -940,19 +936,19 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give map @p 80 random 4 5 5"
+            "command": "slash give map @p 60 random 4 5 5"
           }
         },
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 500000"
+            "command": "slash give exp @p 1000000"
           }
         }
       ],
       "position": [
-        150,
-        100
+        250,
+        200
       ]
     },
     {
@@ -1962,7 +1958,7 @@
           "sub_requirements": [
             {
               "item": "the_bumblezone:dead_honeycomb_larva_block",
-              "amount": 50,
+              "amount": 12,
               "nbt": "{}"
             }
           ]
@@ -2003,7 +1999,7 @@
           "sub_requirements": [
             {
               "entity": "buzzierbees:honey_slime",
-              "amount": 15
+              "amount": 3
             }
           ]
         }
@@ -3500,7 +3496,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 4000"
+            "command": "slash give exp @p 6000"
           }
         }
       ],
@@ -3541,7 +3537,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 25000"
+            "command": "slash give exp @p 37500"
           }
         }
       ],
@@ -4228,7 +4224,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 1500"
           }
         }
       ],
@@ -4243,7 +4239,8 @@
       "title": "Your Engineering Degree",
       "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension!",
       "dependencies": [
-        134
+        134,
+        187
       ],
       "requirements": [
         {
@@ -4720,7 +4717,7 @@
       ],
       "position": [
         50,
-        100
+        50
       ]
     },
     {
@@ -4819,7 +4816,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 3000"
+            "command": "slash give exp @p 4500"
           }
         }
       ],
@@ -4860,7 +4857,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1500"
+            "command": "slash give exp @p 2250"
           }
         }
       ],
@@ -4977,13 +4974,13 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 150000"
+            "command": "slash give exp @p 250000"
           }
         }
       ],
       "position": [
-        200,
-        100
+        250,
+        250
       ]
     },
     {
@@ -5018,7 +5015,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1250"
+            "command": "slash give exp @p 1875"
           }
         }
       ],
@@ -6506,8 +6503,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "atum:bandit_warlord",
-              "amount": 1
+              "entity": "atum:sergeant",
+              "amount": 3
             }
           ]
         }
@@ -6987,7 +6984,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 1500"
           }
         }
       ],
@@ -7292,7 +7289,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1000"
+            "command": "slash give exp @p 1500"
           }
         }
       ],
@@ -7333,7 +7330,7 @@
         {
           "type": "COMMAND",
           "content": {
-            "command": "slash give exp @p 1500"
+            "command": "slash give exp @p 2250"
           }
         }
       ],
@@ -7776,7 +7773,7 @@
           "sub_requirements": [
             {
               "item": "beesourceful:ender_honeycomb",
-              "amount": 3,
+              "amount": 1,
               "nbt": "{}"
             }
           ]
@@ -7842,6 +7839,1076 @@
       "position": [
         200,
         50
+      ]
+    },
+    {
+      "id": 187,
+      "icon": "immersiveengineering:ore_lead",
+      "title": "Finding The Right Ores",
+      "text": "Immersive Engineering ores can only be found in the mining dimension. Go spelunking and stock up while you\u0027re there!",
+      "dependencies": [
+        112
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "immersiveengineering:ore_lead",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "immersiveengineering:ore_nickel",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "immersiveengineering:ore_aluminum",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore3",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 30000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 188,
+      "icon": "mmorpg:teleport_scroll",
+      "title": "Finding The Right Ores",
+      "text": "Teleporting back from maps can be a little glitchy. Use teleport scrolls to guarantee a safe and precise return.",
+      "dependencies": [
+        107
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:teleport_scroll",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:teleport_scroll",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 52500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 189,
+      "icon": "mmorpg:identify_tome",
+      "title": "Identification, Please",
+      "text": "You\u0027ll often find unidentified equipment that need to be identified before you can see its stats. Identify tomes are consumable items that do identify the top-right-most unidentified item in your inventory.",
+      "dependencies": [
+        2
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:identify_tome",
+              "amount": 10,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore1",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 6750"
+          }
+        }
+      ],
+      "position": [
+        100,
+        50
+      ]
+    },
+    {
+      "id": 190,
+      "icon": "minecraft:bone",
+      "title": "Forsaken",
+      "text": "Once revered, the ghosts of the past have come to haunt those who have forgotten them. That is, unless you can remove them first.",
+      "dependencies": [
+        149
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "atum:forsaken",
+              "amount": 15
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 77000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        150
+      ]
+    },
+    {
+      "id": 191,
+      "icon": "tofucraft:tofugrilled",
+      "title": "Tofu..?",
+      "text": "After all that work... you hear murmurs of death coming from a world made of tofu... Find soybean seeds in the Overworld from grass and make tofu. You can put tofu into the furnace to obtain grilled tofu.",
+      "dependencies": [
+        97,
+        98,
+        99,
+        100,
+        105
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofugrilled",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 300000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        100
+      ]
+    },
+    {
+      "id": 192,
+      "icon": "tofucraft:tofustick",
+      "title": "Making The Tofu Portal",
+      "text": "To get to Tofu World, you will need to make a 3x3 well (1 block deep) out of grilled tofu. Ensure that it\u0027s completely surrounded. Pour soymilk from a bucked into the well, then right click it with a tofu stick. Good luck in the Tofu World. Don\u0027t be deceived by the cute critters!",
+      "dependencies": [
+        212
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofustick",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 300000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        100
+      ]
+    },
+    {
+      "id": 193,
+      "icon": "tofucraft:tofukinu",
+      "title": "A Blank Canvas",
+      "text": "Welcome to Tofu World! Don\u0027t be deceived by the local fauna, this place is creeping with enemies! Start out by exploring your surroundings.",
+      "dependencies": [
+        192
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "tofucraft:tofuworld",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 375000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 194,
+      "icon": "tofucraft:tofumomen",
+      "title": "Tofu Research",
+      "text": "The Tofu World brings many different types of tofu to Craft to Exile. Think of tofu not only as a food, but as a resource. You can use it like wood or in some cases, even ores.",
+      "dependencies": [
+        193
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofumomen",
+              "amount": 32,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 350000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        50
+      ]
+    },
+    {
+      "id": 195,
+      "icon": "tofucraft:tofuzunda",
+      "title": "Is Everything Made Of Tofu?",
+      "text": "Continue exploring the world and try to harvest everything you see. You\u0027ll be surprised at what you can find! Consult the JEI if you\u0027re ever confused about recipes.",
+      "dependencies": [
+        194
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofuzunda",
+              "amount": 16,
+              "nbt": "{}"
+            },
+            {
+              "item": "tofucraft:tofuishi",
+              "amount": 16,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 365000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": 196,
+      "icon": "tofucraft:tofudiamond",
+      "title": "Diamond In The Rough",
+      "text": "Some tofu is inherently very strong. You\u0027ll find a deep cavern system in Tofu World. Here, you may find diamond tofu!",
+      "dependencies": [
+        195
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofudiamond",
+              "amount": 4,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 375000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        150
+      ]
+    },
+    {
+      "id": 197,
+      "icon": "tofucraft:toolsolidpickaxe",
+      "title": "All Purpose",
+      "text": "You\u0027ll quickly learn how truly versatile tofu is!",
+      "dependencies": [
+        196
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:toolsolidpickaxe",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:swordsolid",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:armorsolidchestplate",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:armorsolidhelmet",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 380000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 198,
+      "icon": "tofucraft:tofuishi_shield",
+      "title": "Defend And Retaliate",
+      "text": "TofuCraft even brings new shields and a new bow to Craft to Exile!",
+      "dependencies": [
+        197
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofuishi_shield",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:zundabow",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 390000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        250
+      ]
+    },
+    {
+      "id": 199,
+      "icon": "tofucraft:armordiamondchestplate",
+      "title": "Tofu Strength",
+      "text": "Craft a full set of diamond tofu armour and be amazed at how strong it is!",
+      "dependencies": [
+        196
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:armordiamondhelmet",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:armordiamondchestplate",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:armordiamondleggins",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            },
+            {
+              "item": "tofucraft:armordiamondboots",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 400000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        150
+      ]
+    },
+    {
+      "id": 200,
+      "icon": "tofucraft:tofuslime_spawnegg",
+      "title": "Tofu Or Slime?",
+      "text": "Native to the Tofu World, these tofu slimes look awfully similar to the green slimes found in the Overworld. Are they slime, or tofu?",
+      "dependencies": [
+        193
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "tofucraft:tofuslime",
+              "amount": 32
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 380000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 201,
+      "icon": "tofucraft:salt",
+      "title": "Old Friends",
+      "text": "You\u0027re starting to notice a pattern here...",
+      "dependencies": [
+        200
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "tofucraft:tofucreeper",
+              "amount": 8
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_gear_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 400000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        0
+      ]
+    },
+    {
+      "id": 202,
+      "icon": "tofucraft:tofuspider_spawnegg",
+      "title": "Cute Critters",
+      "text": "I said to NOT get deceived by the cute creatures!",
+      "dependencies": [
+        201
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "tofucraft:tofuspider",
+              "amount": 16
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 400000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        0
+      ]
+    },
+    {
+      "id": 203,
+      "icon": "tofucraft:tofuradar",
+      "title": "Slime Locator",
+      "text": "This device will point you to the nearest slime. Or was it tofu?",
+      "dependencies": [
+        200
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofuradar",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:tofumetal",
+            "amount": 6,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 385000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        50
+      ]
+    },
+    {
+      "id": 204,
+      "icon": "tofucraft:tofuchinger_spawnegg",
+      "title": "Tofu With Teeth",
+      "text": "Well this is new. These creatures have pretty sharp-looking chompers. They don\u0027t seem too friendly.",
+      "dependencies": [
+        202
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:pig",
+              "amount": 8
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:tofudiamond",
+            "amount": 8,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 410000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        0
+      ]
+    },
+    {
+      "id": 205,
+      "icon": "tofucraft:tofucake",
+      "title": "Chaotic Evil",
+      "text": "You\u0027ve heard the local tofunians are quite wealthy...",
+      "dependencies": [
+        204
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "tofucraft:tofunian",
+              "amount": 8
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/big_currency_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 425000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        50
+      ]
+    },
+    {
+      "id": 206,
+      "icon": "tofucraft:tofuforce_core",
+      "title": "Dispelling Evil Tofu",
+      "text": "In the end, the source of the tofunian displeasure was a tofu... guardian this entire time. Looks like it was a false alarm. Let\u0027s go kill the gandlem and put this to rest.",
+      "dependencies": [
+        204
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "tofucraft:tofugandlem",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        50
+      ]
+    },
+    {
+      "id": 207,
+      "icon": "tofucraft:tofucookie",
+      "title": "You Can Eat Tofu Too",
+      "text": "TofuCraft brings about many new foods that use tofu as the main ingredient. Eating tofu will count towards your Spice of Life bonus hearts!",
+      "dependencies": [
+        198
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:tofucookie",
+              "amount": 8,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:tofumomen",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 395000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        250
+      ]
+    },
+    {
+      "id": 208,
+      "icon": "tofucraft:zundamochi",
+      "title": "Mochi!",
+      "text": "Make zunda mochi with a rice ball and zunda! Zunda can be made from sugar and boiled edamame.",
+      "dependencies": [
+        207
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:zundamochi",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:rice",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 400000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        250
+      ]
+    },
+    {
+      "id": 209,
+      "icon": "tofucraft:soymilk",
+      "title": "Helicopter Goes SoySoySoy",
+      "text": "Soy milk is often used in TofuCraft food recipes. It\u0027s best to stock up on it when it\u0027s so abundant!",
+      "dependencies": [
+        208
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:soymilk",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "tofucraft:tofuhamburg_raw",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 410000"
+          }
+        }
+      ],
+      "position": [
+        150,
+        250
+      ]
+    },
+    {
+      "id": 210,
+      "icon": "tofucraft:morijio",
+      "title": "Morijio",
+      "text": "This delicate looking dish MUST be useful!",
+      "dependencies": [
+        209
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:morijio",
+              "amount": 3,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore4",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 415000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        250
+      ]
+    },
+    {
+      "id": 211,
+      "icon": "tofucraft:fukumame",
+      "title": "Fukumame",
+      "text": "Consider this quest entry the end-game of TofuCraft... Just kidding. You went the wrong way!",
+      "dependencies": [
+        208
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:fukumame",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 450000"
+          }
+        }
+      ],
+      "position": [
+        100,
+        200
+      ]
+    },
+    {
+      "id": 212,
+      "icon": "tofucraft:salt_furnace",
+      "title": "Tasting Salt In The Air",
+      "text": "The salt furnace is used in the production of tofu. Place the salt furnace under a cauldron, fill the cauldron with water, and provide a fuel source to the salt furnace. You will begin to harvest salt. You can also harvest bittern with an empty bottle from the leftover water in the cauldron. This is the main ingredient to making tofu! Use the bottle of bittern on soy milk to turn it into tofu!",
+      "dependencies": [
+        191
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "tofucraft:salt_furnace",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 300000"
+          }
+        }
+      ],
+      "position": [
+        200,
+        100
       ]
     }
   ]

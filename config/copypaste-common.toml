@@ -1,0 +1,5 @@
+
+[general]
+	#Keep world data updated with the contents of the copy folder
+	copyExisting = true
+

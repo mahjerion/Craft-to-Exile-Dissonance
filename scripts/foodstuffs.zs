@@ -8,7 +8,51 @@ import crafttweaker.api.CampFireManager;
 <tag:forge:vinegar>.addItems([<item:simplefarming:vinegar>]);
 <tag:forge:cheese/cheese>.addItems([<item:simplefarming:cheese_slice>]);
 <tag:forge:cheese>.addItems([<item:simplefarming:cheese_slice>]);
+<tag:forge:salt/salt>.addItems([<item:tofucraft:salt>]);
+<tag:forge:salt>.addItems([<item:tofucraft:salt>]);
 craftingTable.removeRecipe(<item:pamhc2foodcore:cheeseitem>);
+
+<tag:forge:rice>.createItemTag();
+<tag:forge:riceball>.createItemTag();
+<tag:forge:rice>.addItems([<item:swampexpansion:rice>, <item:tofucraft:rice>]);
+<tag:forge:riceball>.addItems([<item:swampexpansion:rice_ball>, <item:tofucraft:onigiri>]);
+
+craftingTable.removeRecipe(<item:tofucraft:onigiri>);
+craftingTable.addShaped("onigiri", <item:tofucraft:onigiri> * 4,[
+	[<item:minecraft:air>,<tag:forge:rice>,<item:minecraft:air>],
+	[<tag:forge:rice>,<tag:forge:rice>,<tag:forge:rice>]
+]);
+craftingTable.removeRecipe(<item:swampexpansion:rice_ball>);
+craftingTable.addShaped("swamp_rice_ball", <item:swampexpansion:rice_ball> * 4,[
+	[<tag:forge:rice>,<tag:forge:rice>],
+	[<tag:forge:rice>,<tag:forge:rice>]
+]);
+
+craftingTable.removeRecipe(<item:tofucraft:yakionigiri_shoyu>);
+craftingTable.addShapeless("yakionigiri_shoyu", <item:tofucraft:yakionigiri_shoyu>, [<item:tofucraft:bottlesoysause>, <tag:forge:riceball>]);
+craftingTable.removeRecipe(<item:tofucraft:yakionigiri_miso>);
+craftingTable.addShapeless("yakionigiri_miso", <item:tofucraft:yakionigiri_miso>, [<item:tofucraft:miso>, <tag:forge:riceball>]);
+craftingTable.removeRecipe(<item:tofucraft:onigirisalt>);
+craftingTable.addShapeless("onigirisalt", <item:tofucraft:onigirisalt>, [<tag:forge:salt>, <tag:forge:riceball>]);
+craftingTable.removeRecipe(<item:tofucraft:riceburger>);
+craftingTable.addShapeless("riceburger", <item:tofucraft:riceburger>, [<tag:forge:cookedbeef>, <tag:forge:riceball>]);
+craftingTable.removeRecipe(<item:tofucraft:zundamochi>);
+craftingTable.addShapeless("zundamochi", <item:tofucraft:zundamochi>, [<item:tofucraft:zunda>, <tag:forge:riceball>]);
+
+craftingTable.removeRecipe(<item:swampexpansion:cod_kelp_roll>);
+craftingTable.addShapeless("cod_kelp_roll", <item:swampexpansion:cod_kelp_roll> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:minecraft:cod>]);
+craftingTable.removeRecipe(<item:swampexpansion:pufferfish_rice_cake>);
+craftingTable.addShapeless("pufferfish_rice_cake", <item:swampexpansion:pufferfish_rice_cake> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:minecraft:pufferfish>]);
+craftingTable.removeRecipe(<item:swampexpansion:lionfish_rice_cake>);
+craftingTable.addShapeless("lionfish_rice_cake", <item:swampexpansion:lionfish_rice_cake> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:upgrade_aquatic:lionfish>]);
+craftingTable.removeRecipe(<item:swampexpansion:crab_kelp_roll>);
+craftingTable.addShapeless("crab_kelp_roll", <item:swampexpansion:crab_kelp_roll> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:quark:crab_leg>]);
+craftingTable.removeRecipe(<item:swampexpansion:pike_kelp_roll>);
+craftingTable.addShapeless("pike_kelp_roll", <item:swampexpansion:pike_kelp_roll> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:upgrade_aquatic:pike>]);
+craftingTable.removeRecipe(<item:swampexpansion:tropical_fish_kelp_roll>);
+craftingTable.addShapeless("tropical_fish_kelp_roll", <item:swampexpansion:tropical_fish_kelp_roll> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:minecraft:tropical_fish>]);
+craftingTable.removeRecipe(<item:swampexpansion:salmon_rice_cake>);
+craftingTable.addShapeless("salmon_rice_cake", <item:swampexpansion:salmon_rice_cake> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:minecraft:salmon>]);
 
 craftingTable.removeRecipe(<item:simplefarming:vinegar>);
 

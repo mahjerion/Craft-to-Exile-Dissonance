@@ -4,7 +4,7 @@
 	TELoadBalancing = true
 	#Mean tick time at which load balancing takes effect, 1000 / mean tick time = TPS. default: 45
 	#Range: 1 ~ 200
-	meanTickTH = 45
+	meanTickTH = 35
 	#Enables debug log output for lagging tileentities, default = false
 	TEDebugOutput = false
 
@@ -15,7 +15,7 @@
 ["Event load balancing settings"]
 	#Mean tick time at which event load balancing takes effect, 1000 / mean tick time = TPS. default: 45
 	#Range: 1 ~ 200
-	meanTickEvent = 45
+	meanTickEvent = 40
 	#Enables debug log output for lagging event subscribers, default = false
 	eventDebugOutput = false
 	#Enables event load balancing, this is mostly stuff which is happening outside entityAI/Tileentities, if the game is lagging. default: true

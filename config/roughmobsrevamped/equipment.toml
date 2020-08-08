@@ -1,7 +1,7 @@
 
 ["Global Equipment Options"]
 	#Should Rough Mobs get more gear based upon distance from world spawn?
-	Distance_Multiplier = true
+	Distance_Multiplier = false
 	#The distance threshold used to calculate the Distance Multiplier.
 	#A shorter distance here means mobs will have more gear closer to the World Spawn.
 	#Range: 0 ~ 32767
@@ -16,7 +16,7 @@
 	#NOTE: Champions always spawn with all armor pieces.
 	#Set to 0 to disable.
 	#Range: 0 ~ 32767
-	Armor_Chance = 4
+	Armor_Chance = 10
 	#Multiplier for the applied enchantment level with the max level. The level can still be a bit lower.
 	#e.g. 0.5 would make sharpness to be at most level 3 (5 x 0.5 = 2.5 and [2.5] = 3) and fire aspect would always be level 1 (2 x 0.5 = 1).
 	#Range: 0.0 ~ 1.0
@@ -25,15 +25,15 @@
 	#NOTE: Champions always spawn with weapons.
 	#Set to 0 to disable.
 	#Range: 0 ~ 32767
-	Weapon_Chance = 3
+	Weapon_Chance = 4
 	#Chance (1 in X per item) to enchant any given weapons or armor.
 	#NOTE: Champions always spawn with enchanted weapons and armor.
 	#Set to 0 to disable.
 	#Range: 0 ~ 32767
-	Enchantment_Chance = 8
+	Enchantment_Chance = 16
 	#Chance (per slot) that the Zombie drops the equipped item (1 = 100%, 0 = 0%).
 	#Range: 0.0 ~ 1.0
-	Drop_Chance = 0.01
+	Drop_Chance = 0.0
 
 ["Zombie Equipment"]
 	Armor_Enchantments = ["protection;4", "feather_falling;3", "respiration;3", "depth_strider;3", "thorns;2", "projectile_protection;2", "fire_protection;2", "blast_protection;2"]

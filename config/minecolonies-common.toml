@@ -44,6 +44,9 @@
 	#Quantity of dirt per Compost filling. [Default: 1]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
+	#Chance to get a prismarine shard or crystal drop for the fisherman starting at level 3. Overall chance of prismarine is 2x this number [Default: 2.5]
+	#Range: 0.0 ~ 100.0
+	fisherprismarinechance = 2.5
 	#Chat frequency of worker requests. [Default: 30]
 	#Range: 1 ~ 100
 	chatfrequency = 30
@@ -53,7 +56,7 @@
 	#Delay modifier to mine a block (Decreasing it, decreases the delay) [Default: 500]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
-	#Chance to get a sponge drop for the fisherman starting at level 4. [Default: 0.1]
+	#Chance to get a sponge drop for the fisherman starting at level 3. [Default: 0.1]
 	#Range: 0.0 ~ 100.0
 	fisherspongechance = 0.1
 	#Should Players be sent entering/leaving colony notifications? [Default: true]

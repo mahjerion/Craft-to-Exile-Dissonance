@@ -39,7 +39,7 @@
 		ONLY_REPAIR_IN_STATION = true
 		#This makes mobs increasingly stronger, by default at lvl 100 mobs will be 50% stronger, formula works as multiplying by 1 + [CONFIG_VALUE]
 		#Range: 0.0 ~ 1.0
-		MOB_STRENGTH_PER_LEVEL_MULTI = 0.004999999888241291
+		MOB_STRENGTH_PER_LEVEL_MULTI = 0.0045
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		NON_MOD_HEAL_MULTI = 0.1
@@ -57,7 +57,7 @@
 		MAXIMUM_WORN_RUNED_ITEMS = 10
 		#.
 		#Range: 0.0 ~ 2.147483647E9
-		UNARMED_ENERGY_COST = 1.0
+		UNARMED_ENERGY_COST = 2.0
 		#.
 		#Range: 0.0 ~ 100.0
 		STAT_POINTS_PER_LEVEL = 1.5
@@ -122,7 +122,7 @@
 		ENABLE_CURRENCY_ITEMS_BREAKING_MODIFIED_ITEMS = true
 		#.
 		#Range: 0.0 ~ 1000.0
-		REGEN_HUNGER_COST = 3.0
+		REGEN_HUNGER_COST = 1.0
 		#.
 		#Range: > 0
 		RUNES_AND_RUNED_GEAR_DROP_AFTER_LEVEL = 8

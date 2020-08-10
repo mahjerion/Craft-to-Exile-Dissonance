@@ -34,12 +34,12 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 90
-	readTimeout = 120
+	readTimeout = 240
 	# The login timeout in seconds.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 900
-	loginTimeout = 1200
+	loginTimeout = 2400
 
 # Options related to client-sided features.
 [client]
@@ -73,12 +73,12 @@
 		# The Minecraft window title.
 		# The Minecraft version is provided as an argument.
 		# Default: Minecraft* %s
-		title = "Craft to Exile"
+		title = "Craft to Exile [Dissonance]"
 		# The Minecraft window title.
 		# The Minecraft version and current activity are provided as arguments.
 		# For example: "RandomPatches - %2$s"
 		# Default: Minecraft* %s - %s
-		titleWithActivity = "Craft to Exile - %2$s"
+		titleWithActivity = "Craft to Exile [Dissonance] - %2$s"
 
 # Options related to boats.
 [boats]

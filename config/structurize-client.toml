@@ -1,1 +1,6 @@
 
+#Optifine Related Settings
+[optifine]
+	#Disabling this is not secure and definitely not recommended. You may try to disable this if shaders don't work correctly with previews. Rendering bugs reported with this config disabled might be marked as invalid.
+	useOptifineCompatPatch = true
+

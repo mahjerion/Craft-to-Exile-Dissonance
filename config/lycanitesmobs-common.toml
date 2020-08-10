@@ -41,7 +41,7 @@
 	#The average distance in chunks that dungeons are spaced apart from each other.
 	distance = 30
 	#Set to false to disable all Dungeons.
-	enabled = true
+	enabled = false
 
 	[Dungeons.tower]
 		#The chance of a dungeon generating a tower on top (0.25 by default).

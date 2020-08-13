@@ -7,6 +7,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Rename from Craft to Exile [1.15.2] to Craft to Exile [Dissonance]. You'll notice some graphical changes to the games title screen etc.
+- Reduced spawn rates and power of Nasty skeletons.
+- Nasty Skeletons grant 33% additional experience.
+- Very slightly reduced the rate at which mobs get stronger per level. By level 99, they grow approximately 10% less than they would have before.
+- RoughMob variants will now spawn further away from the initial spawn point.
+- Added a few more mob affixes and changed some of the current ones.
+- Blaze Bows can now be furnaced for blaze rods. 
+- Added new quests in Homestead to showcase some farming utilities.
+- Added a new quest for the quiver.
+- Disabled Lycanite Dungeons - they're really ugly and glitchy.
+- Updated RandomPatches time out config.
+- Reduced the rate at which hunger depletes while regenerating.
+- Increased unarmed energy cost.
+- Increased level penalty by about 20% (eg. 5 levels difference is now 40% total exp instead of 50%).
+- Reduced XP loss on death by half.
+- Bosses appear more frequently in maps.
+- Reduced damage of all mobs except bosses by roughly 20%.
+- Added Mine and Slash ores to chest loot tables!
+- Added special cases for Ender Dragon and the Wither. They should be more in line with the power level of other bosses and will always spawn at the max level of their respective zones.
+- Re-balanced some Bountiful objectives, some items were given way too much value (64 sticks for a loot box...)
+- Added some more Bountiful objectives from other mods!
+- Time no longer passes in the Good Night dimensions.
+- Reduced Lava Monster spawn rate.
+- Updated YUNG's Better Cave generation to be less 'spacious'.
+- Riddle Chests have less characters to choose from so should be a little easier to "guess". They also spawn more rarely now.
+
+### Mod Changes
+- Updated MineColonies, Polymorph, Simple Farming, Client Tweaks, Comforts, Pane In The Glass, Clumps, Performant.
+- Added Smooth Scrolling Everywhere (Forge).
+- Added Inventory Tweaks Renewed.
+- Added Server Tab Info.
+- Added Quiver Redux.
+- Added Farming for Blockheads.
+- Added RandomConfigs for attack speed stuff.
+- Removed Better Ping Display.
+
+### Fixes
+- Belts that can't be used should no longer be attainable.
+- Fixed one of the Tofu World quests.
+
 ## [2.2.0b] - 2020-08-07
 
 ### Updates

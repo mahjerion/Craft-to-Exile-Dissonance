@@ -46,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Belts that can't be used should no longer be attainable.
 - Fixed one of the Tofu World quests.
+- Fixed some Lycanites spawns.
 
 ### Server Updates
 - [Official Server] Server IP will be changed to 'crafttoexile-dissonance.g.akliz.net'.

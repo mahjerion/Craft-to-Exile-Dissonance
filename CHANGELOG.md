@@ -48,6 +48,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Belts that can't be used should no longer be attainable.
 - Fixed one of the Tofu World quests.
 
+## Server Updates
+- [Official Server] Server IP will be changed to 'crafttoexile-dissonance.g.akliz.net'.
+- [Official Server] Official server has had some chunk pregeneration work done and should run a bit more smoothly now.
+- Chunk loader blocks have been disabled on server set ups. You can still use them in SP.
+- Changed "TRAVEL_TO" quests to be "ITEM_DETECT" for 1 of a common block in that dimension. Travel quests were not very reliable on servers.
+- Added Discord Integration to the official server.
+
 ## [2.2.0b] - 2020-08-07
 
 ### Updates

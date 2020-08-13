@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced Lava Monster spawn rate.
 - Updated YUNG's Better Cave generation to be less 'spacious'.
 - Riddle Chests have less characters to choose from so should be a little easier to "guess". They also spawn more rarely now.
+- Lycanites bosses have been heavily nerfed.
 
 ### Mod Changes
 - Updated MineColonies, Polymorph, Simple Farming, Client Tweaks, Comforts, Pane In The Glass, Clumps, Performant.

@@ -12,9 +12,7 @@
     "enabled": true,
     "spawners": [],
     "disableSubspecies": false,
-    "dimensionIds": [
-		"midnight:midnight"
-	],
+    "dimensionIds": [],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [
@@ -34,7 +32,7 @@
   "width": 18.0,
   "height": 24.0,
   "experience": 10000,
-  "health": 6000,
+  "health": 1000,
   "defense": 0,
   "armor": 0,
   "speed": 32,

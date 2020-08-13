@@ -41,7 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Server Tab Info.
 - Added Quiver Redux.
 - Added Farming for Blockheads.
-- Added RandomConfigs for attack speed stuff.
 - Removed Better Ping Display.
 
 ### Fixes

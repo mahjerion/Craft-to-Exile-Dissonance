@@ -9,6 +9,8 @@
 		torchTools = ["minecraft:wooden_pickaxe", "minecraft:stone_pickaxe", "minecraft:iron_pickaxe", "minecraft:golden_pickaxe", "minecraft:diamond_pickaxe", "tconstruct:pickaxe", "tconstruct:hammer"]
 		#Items that will not prevent offhand-torch placement while in offhand, but do not place torches by themselves
 		offhandTorchTools = ["tconstruct:shovel", "tconstruct:excavator"]
+		#Items that count as weapons for the offhand-shield hiding tweak options.
+		shieldWeapons = ["tetra:modular_sword"]
 
 	[client.tweaks]
 		#This prevents the last torch in the offhand from being placed.

@@ -1,15 +1,14 @@
 {
   "name": "shadowlabyrinth",
-  "loadDefault": true,
-  "sectorCountMin": 20,
-  "sectorCountMax": 30,
+  "loadDefault": false,
+  "sectorCountMin": 10,
+  "sectorCountMax": 20,
   "corridorToCorridorChance": 0.5,
   "roomToRoomChance": 0.1,
   "conditions": [
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:overworld",
         "midnight:midnight"
       ],
       "dimensionListType": "whitelist",
@@ -120,7 +119,7 @@
       "mobNameTag": "Precious",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 3,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -130,10 +129,6 @@
           "item": "minecraft:venomshotcharge",
           "minAmount": 10,
           "maxAmount": 20,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_imp",
           "amountMultiplier": false
         }
       ]
@@ -145,7 +140,7 @@
       "mobNameTag": "Chaos Serpent",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 20,
+      "mobLevel": 1,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -157,11 +152,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_aberration",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -173,7 +164,7 @@
       "mobSizeScale": 1.5,
       "mobNameTag": "Night Shade",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 1,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -184,15 +175,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_undead",
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_arthropod",
+          "minAmount": 5,
           "amountMultiplier": false
         }
       ]

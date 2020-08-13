@@ -1,0 +1,15 @@
+{
+  "id": "deadly",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.deadly",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "high_physical_damage_percent",
+	  "armor_penetration_flat"
+    ]
+  }
+}

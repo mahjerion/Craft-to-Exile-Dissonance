@@ -1,8 +1,8 @@
 {
   "name": "demonictemple",
-  "loadDefault": true,
-  "sectorCountMin": 10,
-  "sectorCountMax": 20,
+  "loadDefault": false,
+  "sectorCountMin": 5,
+  "sectorCountMax": 10,
   "corridorToCorridorChance": 0.1,
   "roomToRoomChance": 0.1,
   "conditions": [
@@ -101,7 +101,7 @@
       "mobNameTag": "Baron of Hell",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 30,
+      "mobLevel": 7,
       "spawnAsBoss": true,
       "dungeonLevelMin": 0,
       "dungeonLevelMax": 2,
@@ -109,10 +109,6 @@
       "mobDrops": [
         {
           "item": "lycanitesmobs:hellfirescepter",
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_demon",
           "amountMultiplier": false
         }
       ]
@@ -124,7 +120,7 @@
       "mobNameTag": "Gluttony",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -132,11 +128,7 @@
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_demon",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -148,7 +140,7 @@
       "mobSizeScale": 1.25,
       "mobNameTag": "Pain Elemental",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 5,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -159,11 +151,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_demon",
+          "minAmount": 5,
           "amountMultiplier": false
         }
       ]
@@ -175,7 +163,7 @@
       "mobSizeScale": 1.25,
       "mobNameTag": "Azazel",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 5,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -186,11 +174,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_demon",
+          "minAmount": 5,
           "amountMultiplier": false
         }
       ]

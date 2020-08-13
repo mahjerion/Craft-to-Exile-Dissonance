@@ -2,7 +2,7 @@
 ["Dynamic chunk view distance settings"]
 	#The maximum chunk view distance allowed to use, set to the max which a player could benefit from. default: 20
 	#Range: 1 ~ 200
-	maxChunkViewDist = 12
+	maxChunkViewDist = 20
 	#The average tick time to stabilize the chunk view distance around, setting it higher than 50ms is not advised, as after 50ms the tps will go below 20. default:40ms
 	#Range: 10 ~ 100
 	meanAvgTickTime = 50

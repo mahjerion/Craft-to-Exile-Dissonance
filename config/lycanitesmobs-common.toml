@@ -19,7 +19,7 @@
 
 	[Extra.version]
 		#Set to false to disable the version checker.
-		checker = true
+		checker = false
 
 [Debug]
 	#Shows debugging info for Elements.
@@ -39,7 +39,7 @@
 
 [Dungeons]
 	#The average distance in chunks that dungeons are spaced apart from each other.
-	distance = 30
+	distance = 100
 	#Set to false to disable all Dungeons.
 	enabled = false
 

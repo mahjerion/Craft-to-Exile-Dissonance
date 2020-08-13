@@ -318,9 +318,9 @@
       "MIN_RARITY": 1,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 40,
-      "MAX_LEVEL": 2147483647,
+      "MAX_LEVEL": 40,
       "LEVEL_TO_NEAREST_PLAYER": false,
-      "LEVEL_MODIFIER": 1,
+      "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
       "HP_MULTI": 1.1,
       "STAT_MULTI": 1.1
@@ -331,7 +331,7 @@
       "MIN_RARITY": 1,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
-      "MAX_LEVEL": 50,
+      "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
@@ -344,7 +344,7 @@
       "MIN_RARITY": 1,
       "MAX_RARITY": 3,
       "MIN_LEVEL": 1,
-      "MAX_LEVEL": 50,
+      "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
@@ -377,7 +377,7 @@
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
-    "beesourceful:emerlald_bee": {
+    "beesourceful:emerald_bee": {
       "LOOT_MULTI": 1.0,
       "EXP_MULTI": 2.0,
       "MIN_RARITY": 0,
@@ -477,7 +477,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -490,7 +490,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -503,7 +503,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -516,7 +516,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -529,7 +529,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -542,7 +542,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -555,7 +555,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -568,7 +568,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -581,9 +581,22 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
+    },
+    "betteranimalsplus:hirschgeist": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 5.0,
+      "MIN_RARITY": 1,
+      "MAX_RARITY": 3,
+      "MIN_LEVEL": 1,
+      "MAX_LEVEL": 30,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.25,
+      "STAT_MULTI": 1.1
     },
     "minecraft:cod": {
       "LOOT_MULTI": 0.009999999776482582,
@@ -594,7 +607,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -607,7 +620,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -620,7 +633,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -633,7 +646,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -646,7 +659,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -659,7 +672,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -672,7 +685,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -685,22 +698,61 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
     "tofucraft:tofugandlem": {
       "LOOT_MULTI": 2.0,
       "EXP_MULTI": 5.0,
-      "MIN_RARITY": 1,
-      "MAX_RARITY": 3,
-      "MIN_LEVEL": 58,
+      "MIN_RARITY": 3,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 70,
       "MAX_LEVEL": 70,
       "LEVEL_TO_NEAREST_PLAYER": true,
-      "LEVEL_MODIFIER": 1,
+      "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 1.25,
       "STAT_MULTI": 1.1
+    },
+    "minecraft:ender_dragon": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 5.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 30,
+      "MAX_LEVEL": 30,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.5,
+      "STAT_MULTI": 1.1
+    },
+    "minecraft:wither": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 5.0,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 26,
+      "MAX_LEVEL": 26,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.5,
+      "HP_MULTI": 1.5,
+      "STAT_MULTI": 1.1
+    },
+    "nasty:skeleton": {
+      "LOOT_MULTI": 2.0,
+      "EXP_MULTI": 4.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     }
   },
   "byEntityTypeDefault": {
@@ -713,7 +765,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.35,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -726,7 +778,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -752,7 +804,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -765,7 +817,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }
@@ -793,7 +845,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }

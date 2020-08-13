@@ -5,7 +5,7 @@ settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 #INGAME SETTINGS (DO NOT EDIT!)
-minimap:false
+minimap:true
 caveMaps:0
 caveZoom:2
 showPlayers:true

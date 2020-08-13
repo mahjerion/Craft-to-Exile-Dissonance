@@ -39,6 +39,8 @@
 	"Generate wild plants" = true
 	#Indicates whether berry bushes should generate
 	"Generate berry bushes" = true
+	#Indicates whether vanilla pumpkin and melon stems should be replaced by a single block crop
+	"Replace stems" = false
 
 ["Right-click Harvesting Settings"]
 	#Indicates whether right-click harvesting opuntias should be enabled

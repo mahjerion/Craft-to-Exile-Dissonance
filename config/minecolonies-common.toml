@@ -2,7 +2,7 @@
 #All configuration items related to the core gameplay
 [gameplay]
 	#AI Update rate, increase to improve performance, throttles citizen updates. [Default: 1]
-	#Range: 0 ~ 100
+	#Range: 1 ~ 100
 	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false

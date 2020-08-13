@@ -86,7 +86,7 @@
 	Zombie_ChampionNames = ["Zombie King", "Flesh King", "Dr. Zomboss", "Azog", "Zon-Goku", "Z0mb3y"]
 	#Blocks which can be destroyed by zombies if they have no attack target.
 	#Delete all lines to disable this feature.
-	Zombie_BreakBlocks = ["minecraft:dirt", "minecraft:grass", "minecraft:planks", "minecraft:log", "minecraft:sand", "minecraft:wooden_slab", "minecraft:chest", "minecraft:wool", "minecraft:carrots", "minecraft:potatoes", "minecraft:wheat", "minecraft:nether_wart", "minecraft:beetroots", "minecraft:pumpkin_stem", "minecraft:melon_stem", "minecraft:pumpkin", "minecraft:hay_block", "minecraft:torch"]
+	Zombie_BreakBlocks = []
 	#Set this to false to prevent baby zombies from burning in sunlight.
 	Zombie_BabyBurns = true
 	#Set this to true to make all zombies burn in sunlight even if they wear a helmet.

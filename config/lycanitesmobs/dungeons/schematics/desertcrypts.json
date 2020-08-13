@@ -1,8 +1,8 @@
 {
   "name": "desertcrypts",
-  "loadDefault": true,
-  "sectorCountMin": 5,
-  "sectorCountMax": 10,
+  "loadDefault": false,
+  "sectorCountMin": 3,
+  "sectorCountMax": 7,
   "corridorToCorridorChance": 0.5,
   "roomToRoomChance": 0.1,
   "conditions": [
@@ -123,7 +123,7 @@
       "mobNameTag": "Graboid",
       "mobSizeScale": 3,
       "naturalDespawn": "false",
-      "mobLevel": 25,
+      "mobLevel": 3,
       "spawnAsBoss": true,
       "dungeonLevelMin": 0,
       "dungeonLevelMax": 2,
@@ -131,10 +131,6 @@
       "mobDrops": [
         {
           "item": "lycanitesmobs:scorchfirescepter",
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_worm",
           "amountMultiplier": false
         }
       ]
@@ -146,7 +142,7 @@
       "mobNameTag": "Crypt Executioner",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 250,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -158,11 +154,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_imp",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -174,22 +166,18 @@
       "mobSizeScale": 1.1,
       "mobNameTag": "The Tyrant Dragon",
       "naturalDespawn": "false",
-      "mobLevel": 5,
+      "mobLevel": 1,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
+          "minAmount": 5,
           "amountMultiplier": false
         },
         {
           "item": "lycanitesmobs:magmascepter",
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_dragon",
           "amountMultiplier": false
         }
       ]

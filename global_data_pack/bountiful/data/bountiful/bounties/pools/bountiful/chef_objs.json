@@ -7,7 +7,7 @@
         "min": 1,
         "max": 48
       },
-      "unitWorth": 150,
+      "unitWorth": 50,
       "weight": 1000
     },
     {
@@ -17,7 +17,7 @@
         "min": 1,
         "max": 56
       },
-      "unitWorth": 60,
+      "unitWorth": 30,
       "weight": 1000
     },
     {
@@ -27,7 +27,7 @@
         "min": 1,
         "max": 18
       },
-      "unitWorth": 225,
+      "unitWorth": 130,
       "weight": 1000
     },
     {
@@ -37,7 +37,7 @@
         "min": 1,
         "max": 18
       },
-      "unitWorth": 240,
+      "unitWorth": 180,
       "weight": 1000
     },
     {
@@ -57,7 +57,7 @@
         "min": 1,
         "max": 18
       },
-      "unitWorth": 300,
+      "unitWorth": 250,
       "weight": 800
     },
     {
@@ -67,7 +67,7 @@
         "min": 1,
         "max": 14
       },
-      "unitWorth": 500,
+      "unitWorth": 300,
       "weight": 500
     },
     {
@@ -77,7 +77,7 @@
         "min": 1,
         "max": 36
       },
-      "unitWorth": 45,
+      "unitWorth": 30,
       "weight": 800
     },
     {
@@ -87,7 +87,7 @@
         "min": 1,
         "max": 36
       },
-      "unitWorth": 350,
+      "unitWorth": 300,
       "weight": 400
     },
     {
@@ -97,7 +97,7 @@
         "min": 1,
         "max": 4
       },
-      "unitWorth": 700,
+      "unitWorth": 600,
       "weight": 200
     },
     {
@@ -107,7 +107,7 @@
         "min": 1,
         "max": 1
       },
-      "unitWorth": 2000,
+      "unitWorth": 1500,
       "weight": 200
     },
     {

@@ -10,7 +10,9 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+		"lava"
+	],
     "disableSubspecies": false,
     "dimensionIds": [
 		"goodnightsleep:nightmare"

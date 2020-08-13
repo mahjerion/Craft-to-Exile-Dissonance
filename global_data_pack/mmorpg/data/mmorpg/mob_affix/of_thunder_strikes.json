@@ -1,0 +1,16 @@
+{
+  "id": "of_thunder_strikes",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.of_thunder_strikes",
+  "type": "suffix",
+  "mods": {
+    "mods": [
+      "physical_dispersion_flat",
+      "attack_thunder_damage_flat",
+      "very_high_thunder_penetration_flat"
+    ]
+  }
+}

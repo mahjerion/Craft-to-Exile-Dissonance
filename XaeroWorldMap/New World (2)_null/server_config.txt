@@ -1,0 +1,2 @@
+multiworldType:0
+ignoreServerLevelId:false

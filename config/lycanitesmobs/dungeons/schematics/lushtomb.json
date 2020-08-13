@@ -1,8 +1,8 @@
 {
   "name": "lushtomb",
-  "loadDefault": true,
-  "sectorCountMin": 5,
-  "sectorCountMax": 10,
+  "loadDefault": false,
+  "sectorCountMin": 4,
+  "sectorCountMax": 8,
   "corridorToCorridorChance": 0.1,
   "roomToRoomChance": 0.5,
   "conditions": [
@@ -122,7 +122,7 @@
       "mobNameTag": "Pong Kong",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 0,
       "dungeonLevelMax": 2,
@@ -130,10 +130,6 @@
       "mobDrops": [
         {
           "item": "lycanitesmobs:poopscepter",
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_plant",
           "amountMultiplier": false
         }
       ]
@@ -145,7 +141,7 @@
       "mobNameTag": "Princess",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -153,11 +149,7 @@
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_avian",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -169,7 +161,7 @@
       "mobSizeScale": 1.25,
       "mobNameTag": "Malevolent Observer",
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -180,11 +172,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_aberration",
+          "minAmount": 5,
           "amountMultiplier": false
         }
       ]

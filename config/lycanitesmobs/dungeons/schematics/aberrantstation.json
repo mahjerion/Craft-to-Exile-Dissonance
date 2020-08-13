@@ -1,23 +1,20 @@
 {
   "name": "aberrantstation",
-  "loadDefault": true,
-  "sectorCountMin": 20,
-  "sectorCountMax": 30,
+  "loadDefault": false,
+  "sectorCountMin": 10,
+  "sectorCountMax": 20,
   "corridorToCorridorChance": 0.1,
   "roomToRoomChance": 0.8,
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [],
-      "dimensionListType": "blacklist",
-      "biomeTags": [
-        "spooky",
-        "mountain",
-        "cold",
-        "nether",
-        "end"
-      ],
-      "biomeTagListType": "whitelist"
+      "dimensionIds": [
+		"goodnightsleep:nightare",
+		"minecraft:nether"
+	  ],
+      "dimensionListType": "whitelist",
+      "biomeTags": [],
+      "biomeTagListType": "blacklist"
     }
   ],
   "themes": [
@@ -123,7 +120,7 @@
       "mobNameTag": "Experiment 69R",
       "mobSizeScale": 6,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 10,
       "spawnAsBoss": true,
       "dungeonLevelMin": 0,
       "dungeonLevelMax": 2,
@@ -131,11 +128,7 @@
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 3,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_beast",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -146,7 +139,7 @@
       "mobNameTag": "Arachnotron",
       "mobSizeScale": 1.8,
       "naturalDespawn": "false",
-      "mobLevel": 125,
+      "mobLevel": 11,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 3,
@@ -158,11 +151,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 10,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_aberration",
+          "minAmount": 1,
           "amountMultiplier": false
         }
       ]
@@ -174,16 +163,12 @@
       "mobNameTag": "Anarchical Hound",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 5,
+      "mobLevel": 1,
       "spawnAsBoss": true,
       "dungeonLevelMin": 4,
       "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
-        {
-          "item": "lycanitesmobs:soulstone_beast",
-          "amountMultiplier": false
-        },
         {
           "item": "lycanitesmobs:chaosorbcharge",
           "amountMultiplier": false,
@@ -199,7 +184,7 @@
       "mobNameTag": "Asakku",
       "mobSizeScale": 2.5,
       "naturalDespawn": "false",
-      "mobLevel": 250,
+      "mobLevel": 15,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,
@@ -210,11 +195,7 @@
         },
         {
           "item": "minecraft:diamond",
-          "minAmount": 50,
-          "amountMultiplier": false
-        },
-        {
-          "item": "lycanitesmobs:soulstone_aberration",
+          "minAmount": 5,
           "amountMultiplier": false
         }
       ]

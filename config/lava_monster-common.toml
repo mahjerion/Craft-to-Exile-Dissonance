@@ -8,15 +8,15 @@
 	#Number of fireballs shot with each attack.
 	attackShots = 1
 	#The number of ticks between each lava monster spawn attempt.
-	spawnFrequency = 10
+	spawnFrequency = 200
 	#If true, lava monsters will not spawn above layer 16.
-	depthHazard = false
+	depthHazard = true
 	#Lava monsters' maximum health.
 	monsterHealth = 16.0
 	#The amount of armor lava monsters have.
 	monsterArmor = 0.0
 	#Ticks between each fireball shot in an attack.
-	attackSpacing = 6
+	attackSpacing = 10
 	#Ticks a monster must wait after attacking before it can start winding up again.
 	attackCooldown = 80
 	#Ticks it takes before a monster can start an attack.

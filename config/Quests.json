@@ -827,7 +827,7 @@
       ],
       "position": [
         50,
-        150
+        200
       ]
     },
     {
@@ -868,7 +868,7 @@
       ],
       "position": [
         0,
-        150
+        200
       ]
     },
     {
@@ -909,7 +909,7 @@
       ],
       "position": [
         150,
-        150
+        200
       ]
     },
     {
@@ -1112,7 +1112,7 @@
       ],
       "position": [
         0,
-        100
+        150
       ]
     },
     {
@@ -1153,7 +1153,7 @@
       ],
       "position": [
         50,
-        100
+        150
       ]
     },
     {
@@ -1194,7 +1194,7 @@
       ],
       "position": [
         100,
-        100
+        150
       ]
     },
     {
@@ -1235,7 +1235,7 @@
       ],
       "position": [
         150,
-        100
+        150
       ]
     },
     {
@@ -1276,7 +1276,7 @@
       ],
       "position": [
         200,
-        100
+        150
       ]
     },
     {
@@ -2065,7 +2065,7 @@
         }
       ],
       "position": [
-        150,
+        200,
         250
       ]
     },
@@ -6924,7 +6924,7 @@
       "id": 163,
       "icon": "minecraft:writable_book",
       "title": "Beastiary VII",
-      "text": "Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki).",
+      "text": "Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone...",
       "dependencies": [
         36
       ],
@@ -7428,7 +7428,7 @@
       ],
       "position": [
         100,
-        150
+        200
       ]
     },
     {
@@ -7469,7 +7469,7 @@
       ],
       "position": [
         200,
-        150
+        200
       ]
     },
     {
@@ -7510,7 +7510,7 @@
       ],
       "position": [
         250,
-        150
+        200
       ]
     },
     {
@@ -7551,7 +7551,7 @@
       ],
       "position": [
         150,
-        200
+        250
       ]
     },
     {
@@ -7592,7 +7592,7 @@
       ],
       "position": [
         250,
-        200
+        250
       ]
     },
     {
@@ -7633,7 +7633,7 @@
       ],
       "position": [
         300,
-        200
+        250
       ]
     },
     {
@@ -7674,7 +7674,7 @@
       ],
       "position": [
         300,
-        150
+        200
       ]
     },
     {
@@ -7715,7 +7715,7 @@
       ],
       "position": [
         350,
-        150
+        200
       ]
     },
     {
@@ -8574,7 +8574,7 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:pig",
+              "entity": "tofucraft:tofu_chinger",
               "amount": 8
             }
           ]
@@ -8908,6 +8908,221 @@
       ],
       "position": [
         200,
+        100
+      ]
+    },
+    {
+      "id": 213,
+      "icon": "quiver:quiver",
+      "title": "Archery Specialization",
+      "text": "Quivers are a special item in Craft to Exile that hold arrows. Arrows placed in the quiver are used first. If you remove the quiver then the arrows in the quiver will automatically dispense into your inventory.",
+      "dependencies": [
+        109
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "quiver:quiver",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:arrow",
+            "amount": 64,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 4500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        150
+      ]
+    },
+    {
+      "id": 214,
+      "icon": "farmingforblockheads:market",
+      "title": "Seed Market",
+      "text": "The market is a special block that allows you to exchange emeralds for seeds. It is extremely useful, especially if your base is in a desolate biome.",
+      "dependencies": [
+        87
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "farmingforblockheads:market",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:bone_meal",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "id": 215,
+      "icon": "farmingforblockheads:green_fertilizer",
+      "title": "Fertilization",
+      "text": "Farming for Blockheads introduces 3 different coloured fertilizers that each have unique properties. Green fertilizer improves the yield from a harvest, yellow fertilizer prevents the crop from being trampled on, and red fertilizer improves the speed at which the crop grows. Right-click with the fertilizer (consumed) on tilled soil to apply their effects!",
+      "dependencies": [
+        214
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "farmingforblockheads:green_fertilizer",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "farmingforblockheads:yellow_fertilizer",
+              "amount": 1,
+              "nbt": "{}"
+            },
+            {
+              "item": "farmingforblockheads:red_fertilizer",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:wheat_seeds",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        50,
+        100
+      ]
+    },
+    {
+      "id": 216,
+      "icon": "farmingforblockheads:feeding_trough",
+      "title": "Automated Feeding",
+      "text": "The feeding trough is a block that can hold foods and auto-feed nearby animals. Place it down and place food into the trough to see its effects! The trough covers an 8x8 block area and can each feed 8 animals at simultaneously.",
+      "dependencies": [
+        215
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "farmingforblockheads:feeding_trough",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:wheat",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        100,
+        100
+      ]
+    },
+    {
+      "id": 217,
+      "icon": "farmingforblockheads:chicken_nest",
+      "title": "Egg Collector",
+      "text": "The egg collector automatically collects chicken eggs in an 8x8 block area.",
+      "dependencies": [
+        216
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "farmingforblockheads:chicken_nest",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:lootbox/small_currency_lootbox_3",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        150,
         100
       ]
     }

@@ -14,6 +14,8 @@ At its core, Craft to Exile modpacks turn Minecraft into action RPGs which focus
 
 In the end, you can't really go wrong with either decision and you're welcome to try both! Official servers are provided for both Craft to Exile packs!
 
+***
+
 **Builds from GitHub are experimental. Visit the Curse page [here](https://www.curseforge.com/minecraft/modpacks/crafttoexiledissonance) to download the latest version of Craft to Exile \[Dissonance].**
 
 [Discord](https://discord.gg/cJS6ZHs)

@@ -7255,7 +7255,7 @@
       "id": 173,
       "icon": "minecraft:saddle",
       "title": "Ocarina Of Time",
-      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time. Be careful! Due to technical limitations, you must keep your mount near you. If it's left in a chunk that gets unloaded, it's possible to lose your mount!",
       "dependencies": [
         95
       ],

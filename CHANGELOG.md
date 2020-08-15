@@ -34,9 +34,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated YUNG's Better Cave generation to be less 'spacious'.
 - Riddle Chests have less characters to choose from so should be a little easier to "guess". They also spawn more rarely now.
 - Lycanites bosses have been heavily nerfed.
+- Increased base level 1 radius and increased distance needed to travel for mobs to grow stronger in the Overworld.
+- Updated quest description for Ocarina of Time to warn users of mounts disappearing due to unloaded chunks.
 
 ### Mod Changes
-- Updated MineColonies, Polymorph, Simple Farming, Client Tweaks, Comforts, Pane In The Glass, Clumps, Performant.
+- Updated MineColonies, Polymorph, Simple Farming, Client Tweaks, Comforts, Pane In The Glass, Clumps, Performant, World Pre Generator.
 - Added Smooth Scrolling Everywhere (Forge).
 - Added Inventory Tweaks Renewed.
 - Added Server Tab Info.

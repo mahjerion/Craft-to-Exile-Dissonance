@@ -1,2 +1,0 @@
-confirmedMultiworld:mw$default
-MWName:mw$default:Default

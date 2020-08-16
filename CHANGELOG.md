@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.1] - 2020-08-16
+
 ### Updates
 - Rename from Craft to Exile [1.15.2] to Craft to Exile [Dissonance]. You'll notice some graphical changes to the games title screen etc.
 - Reduced spawn rates and power of Nasty skeletons.
@@ -45,6 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Quiver Redux.
 - Added Farming for Blockheads.
 - Removed Better Ping Display.
+- Removed Dynamic View Distance from the client.
+- Removed No Nitwits.
 
 ### Fixes
 - Belts that can't be used should no longer be attainable.

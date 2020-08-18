@@ -27,8 +27,6 @@
 	optimizePanic = true
 	#Enables a slower updated AI Breed entity goal, breed is used for searching nearby similar animals and doesnt have to be checked that often. default = true
 	optimizeBreed = true
-	#Enables a more performant Random walking goal, which makes mobs path randomly and can lead to lag default = true
-	betterRandomWalking = true
 	#Enables a slower updated AI tempt goal, tempt is used e.g. for luring sheep with wheat. default = true
 	optimizeTempt = true
 	#Enables a slower updated AI avoid entity goal, avoid is used e.g. for villagers avoiding zombies so it constantly searches for mobs in the area. default = true

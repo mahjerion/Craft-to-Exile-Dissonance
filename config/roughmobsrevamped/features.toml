@@ -12,7 +12,7 @@
 	#Entities which count as Blaze entities
 	Blaze_Entities = ["minecraft:blaze"]
 	#Set to false to disable all Blaze features.
-	Blaze_FeaturesEnabled = true
+	Blaze_FeaturesEnabled = false
 	#Set to false to prevent Blazes from pushing attackers away.
 	Blaze_PushAttackersAway = false
 	#Explosion strength which Blazes create on death.

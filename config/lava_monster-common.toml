@@ -4,7 +4,7 @@
 	#If true, lava monsters do not require a source block to spawn.
 	flowingLava = false
 	#Allows you to choose which dimensions the Lava Monster spawns in. Add dimensions by their registry name/id, and separate them with commas, no spaces.
-	dimensionWhitelist = "minecraft:overworld,minecraft:the_nether,goodnightsleep:nightmare"
+	dimensionWhitelist = "minecraft:the_nether,goodnightsleep:nightmare"
 	#Number of fireballs shot with each attack.
 	attackShots = 1
 	#The number of ticks between each lava monster spawn attempt.

@@ -29,7 +29,7 @@
 	ExplosiveArrowOnBlock = true
 	#Spawn light level (use 7 to be same as normal skeletons)
 	#Range: 0 ~ 15
-	SpawnLightLevel = 7
+	SpawnLightLevel = 8
 	#Explosive Arrow cause Armor to drop
 	ExplosiveArrowOnArmor = false
 	#Biome adjustments (biome,variant,hp,speed)

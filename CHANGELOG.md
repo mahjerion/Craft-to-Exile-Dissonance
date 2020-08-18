@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Changed lobber quest to require lava monsters.
+
+### Mod Changes
+- Updated Immersive Engineering, Performant.
+- Added Better Ping Display.
+- Removed Lithium.
+- Remove AI Improvements.
+- Removed Server Tab Info.
+
+### Fixes
+- Fixed cheeseburger reward from Bountiful showing up as Air.
+- Fixed a mob affix not showing up properly.
+- Fixed some villager issues.
+- Fixed getting stuck in the Good Dream dimensions.
+- Fixed being able to farm bucket-able mobs.
+- Fixed blaze lag.
+
 ## [2.2.1] - 2020-08-16
 
 ### Updates

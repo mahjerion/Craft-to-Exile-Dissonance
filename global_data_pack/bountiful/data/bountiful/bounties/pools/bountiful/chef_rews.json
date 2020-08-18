@@ -142,7 +142,7 @@
     },
     {
       "type": "item",
-      "content": "simplefarming:cheese_burger",
+      "content": "simplefarming:cheeseburger",
       "amountRange": {
         "min": 1,
         "max": 2

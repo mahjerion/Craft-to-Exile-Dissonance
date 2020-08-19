@@ -8,7 +8,7 @@
 	ignoreSpawnList = false
 	#Range of the lightoverlay (negative Y)
 	#Range: > 0
-	downrange = 16
+	downrange = 2
 	#Blocks can allow/disallow spawns for different entity types. The check for this isn't very performat.
 	#Setting this to true will increase performance but decrease accuracy.
 	simpleCheck = false

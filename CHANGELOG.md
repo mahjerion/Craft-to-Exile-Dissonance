@@ -7,16 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Updates
-- Changed lobber quest to require lava monsters to be killed instead.
-
 ### Mod Changes
-- Updated Immersive Engineering, Performant.
-- Added Better Ping Display.
 - Added Terraforged.
 - Added Default World Type (Forge).
 - Added FTB Quests.
 - Removed Custom Quests.
+
+## [2.2.2] - 2020-08-19
+
+### Updates
+- Changed lobber quest to require lava monsters to be killed instead.
+
+### Mod Changes
+- Updated Immersive Engineering, Performant, MineColonies.
+- Added Better Ping Display.
 - Removed Lithium.
 - Remove AI Improvements.
 - Removed Server Tab Info.
@@ -29,6 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed being able to farm bucket-able mobs.
 - Fixed blaze lag.
 - Fixed Nasty skeletons spawning where they shouldn't (I think).
+- Fixed stonecutter issues.
+- Fixed light overlay letting you see underground.
 
 ## [2.2.1] - 2020-08-16
 

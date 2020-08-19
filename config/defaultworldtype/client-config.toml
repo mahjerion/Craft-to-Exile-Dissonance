@@ -1,0 +1,5 @@
+
+[world-type]
+	#Type in the name from the world type which should be selected by default.
+	world-type = "TerraForged"
+

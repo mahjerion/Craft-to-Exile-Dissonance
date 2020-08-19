@@ -389,9 +389,6 @@ mods.jei.JEI.hideItem(<item:curios:amulet>);
 mods.jei.JEI.hideItem(<item:curios:crown>);
 mods.jei.JEI.hideItem(<item:curios:knuckles>);
 
-//CustomQuests
-mods.jei.JEI.hideItem(<item:customquests:item_questing_device>);
-
 //Goodnightssleep
 mods.jei.JEI.hideItem(<item:goodnightsleep:unicorn_spawn_egg>);
 mods.jei.JEI.hideItem(<item:goodnightsleep:baby_creeper_spawn_egg>);

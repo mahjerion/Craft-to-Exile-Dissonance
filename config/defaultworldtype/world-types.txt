@@ -1,0 +1,10 @@
+9 possible world types found:
+- default
+- flat
+- largeBiomes
+- amplified
+- customized
+- buffet
+- debug_all_block_states
+- terraforged
+- default_1_1

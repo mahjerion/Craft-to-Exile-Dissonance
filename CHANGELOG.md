@@ -8,11 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Changed lobber quest to require lava monsters.
+- Changed lobber quest to require lava monsters to be killed instead.
 
 ### Mod Changes
 - Updated Immersive Engineering, Performant.
 - Added Better Ping Display.
+- Added Terraforged.
+- Added Default World Type (Forge).
+- Added FTB Quests.
+- Removed Custom Quests.
 - Removed Lithium.
 - Remove AI Improvements.
 - Removed Server Tab Info.
@@ -24,13 +28,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed getting stuck in the Good Dream dimensions.
 - Fixed being able to farm bucket-able mobs.
 - Fixed blaze lag.
+- Fixed Nasty skeletons spawning where they shouldn't (I think).
 
 ## [2.2.1] - 2020-08-16
 
 ### Updates
 - Rename from Craft to Exile [1.15.2] to Craft to Exile [Dissonance]. You'll notice some graphical changes to the games title screen etc.
 - Reduced spawn rates and power of Nasty skeletons.
-- Nasty Skeletons grant 33% additional experience.
+- Nasty skeletons grant 33% additional experience.
 - Very slightly reduced the rate at which mobs get stronger per level. By level 99, they grow approximately 10% less than they would have before.
 - RoughMob variants will now spawn further away from the initial spawn point.
 - Added a few more mob affixes and changed some of the current ones.

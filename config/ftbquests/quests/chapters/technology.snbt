@@ -1,0 +1,750 @@
+{
+	id: 1189,
+	filename: "technology",
+	order_index: 10,
+	title: "Technology",
+	icon: {
+		id: "immersiveengineering:hammer",
+		Count: 1,
+		tag: {
+			Damage: 0
+		}
+	},
+	quests: [
+		{
+			title: "Start Creating",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: [
+				"Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create's basal structures.",
+				"Please note: Create ores spawn in the Overworld, while Immersive Engineering ores only spawn in the Mining Dimension!"
+			],
+			dependencies: [I;3],
+			id: 1190,
+			tasks: [{
+				id: 1191,
+				type: "item",
+				item: "create:andesite_alloy"
+			}],
+			rewards: [
+				{
+					id: 1192,
+					type: "item",
+					item: {
+						id: "create:zinc_nugget",
+						Count: 5
+					}
+				},
+				{
+					id: 1193,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Get Shafted",
+			x: 1.5d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["Shafts are used in many apparatuses. Use shafts to connect Create conveyer belts or to place blocks on. Shafts relay rotation in a straight line!"],
+			dependencies: [I;1190],
+			id: 1194,
+			tasks: [{
+				id: 1195,
+				type: "item",
+				item: "create:shaft",
+				count: 4
+			}],
+			rewards: [
+				{
+					id: 1196,
+					type: "item",
+					item: {
+						id: "create:shaft",
+						Count: 2
+					}
+				},
+				{
+					id: 1197,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Inventing The Wheel",
+			x: 3.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["Use cogwheels to relay rotation to other cogwheels. Stick them on a shaft and see what happens when coupled with a power source."],
+			dependencies: [I;1194],
+			id: 1198,
+			tasks: [{
+				id: 1199,
+				type: "item",
+				item: "create:cogwheel"
+			}],
+			rewards: [
+				{
+					id: 1200,
+					type: "item",
+					item: "create:large_cogwheel"
+				},
+				{
+					id: 1201,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Flattening Up",
+			x: 4.5d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["The mechanical press compresses items beneath it. It can turn iron ingots into iron sheets. It requires constant rotational force."],
+			dependencies: [I;1198],
+			id: 1202,
+			tasks: [{
+				id: 1203,
+				type: "item",
+				item: "create:mechanical_press"
+			}],
+			rewards: [
+				{
+					id: 1204,
+					type: "item",
+					item: {
+						id: "create:andesite_casing",
+						Count: 2
+					}
+				},
+				{
+					id: 1205,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Keep Things Going",
+			x: 4.5d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["The belt connector can be used to attach 2 or more shafts. The belt can move both items and entities."],
+			dependencies: [I;1202],
+			id: 1206,
+			tasks: [{
+				id: 1207,
+				type: "item",
+				item: "create:belt_connector"
+			}],
+			rewards: [
+				{
+					id: 1208,
+					type: "item",
+					item: "create:belt_connector"
+				},
+				{
+					id: 1209,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Give Me Power!",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["Your first main source of power! Craft a water wheel and place under flowing water. Then attach it to the mechanical press to provide rotational power!"],
+			dependencies: [I;1202],
+			id: 1210,
+			tasks: [{
+				id: 1211,
+				type: "item",
+				item: "create:water_wheel"
+			}],
+			rewards: [
+				{
+					id: 1212,
+					type: "item",
+					item: {
+						id: "minecraft:oak_planks",
+						Count: 16
+					}
+				},
+				{
+					id: 1213,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Delivery",
+			x: 4.5d,
+			y: 3.0d,
+			shape: "gear",
+			description: ["The extractor is a useful device that takes items from an inventory and places them onto the ground (or a conveyor belt)."],
+			dependencies: [I;1206],
+			id: 1214,
+			tasks: [{
+				id: 1215,
+				type: "item",
+				item: "create:extractor"
+			}],
+			rewards: [
+				{
+					id: 1216,
+					type: "item",
+					item: {
+						id: "minecraft:chest",
+						Count: 2
+					}
+				},
+				{
+					id: 1217,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Reception",
+			x: 6.0d,
+			y: 3.0d,
+			shape: "gear",
+			description: ["Similar to the extractor, except that attaching this to a chest will instead pick up items from a belt."],
+			dependencies: [I;1214],
+			id: 1218,
+			tasks: [{
+				id: 1219,
+				type: "item",
+				item: "create:funnel"
+			}],
+			rewards: [
+				{
+					id: 1220,
+					type: "item",
+					item: {
+						id: "minecraft:chest",
+						Count: 2
+					}
+				},
+				{
+					id: 1221,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "See More, Do More",
+			x: 6.0d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["Engineer's goggles, when worn, will let you see more details about create blocks when you look at them. A must have!"],
+			dependencies: [I;1210],
+			id: 1222,
+			tasks: [{
+				id: 1223,
+				type: "item",
+				item: "create:goggles"
+			}],
+			rewards: [{
+				id: 1224,
+				type: "command",
+				command: "/slash give exp @p 500",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Assessing Speed",
+			x: 7.5d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["When attached to kinetic components, it will display the rotational speed."],
+			dependencies: [I;1222],
+			id: 1225,
+			tasks: [{
+				id: 1226,
+				type: "item",
+				item: "create:speedometer"
+			}],
+			rewards: [{
+				id: 1227,
+				type: "command",
+				command: "/slash give exp @p 1000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Assessing Stress",
+			x: 9.0d,
+			y: 1.5d,
+			shape: "gear",
+			description: ["When attached to a kinetic network, it will display the overall stress."],
+			dependencies: [I;1225],
+			id: 1228,
+			tasks: [{
+				id: 1229,
+				type: "item",
+				item: "create:stressometer"
+			}],
+			rewards: [{
+				id: 1230,
+				type: "command",
+				command: "/slash give exp @p 1000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Your First Job",
+			x: 7.5d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["Iron sheets are basic components of various Create structures. Place an iron ingot beneath a mechanical press that is powered by rotational force. Turn it on using a lever and make sure that you 'drop' the iron ingot below the press!"],
+			dependencies: [I;1210],
+			id: 1231,
+			tasks: [{
+				id: 1232,
+				type: "item",
+				item: "create:iron_sheet"
+			}],
+			rewards: [
+				{
+					id: 1233,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 3
+					}
+				},
+				{
+					id: 1234,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "A Wrench In Your Plans",
+			x: 9.0d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["A useful tool that can be used to rotate, dismantle, and configure contraptions."],
+			dependencies: [I;1231],
+			id: 1235,
+			tasks: [{
+				id: 1236,
+				type: "item",
+				item: "create:wrench"
+			}],
+			rewards: [
+				{
+					id: 1237,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 3
+					}
+				},
+				{
+					id: 1238,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Light Show",
+			x: 10.5d,
+			y: 0.0d,
+			shape: "gear",
+			description: ["An important item used in various Create recipes."],
+			dependencies: [I;1235],
+			id: 1239,
+			tasks: [{
+				id: 1240,
+				type: "item",
+				item: "create:electron_tube"
+			}],
+			rewards: [{
+				id: 1241,
+				type: "command",
+				command: "/slash give exp @p 500",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Making Brass",
+			x: 10.5d,
+			y: 1.5d,
+			shape: "gear",
+			description: [
+				"When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots. However, you will need more rotational power for the mixer.",
+				"Place smaller cogwheels diagonally next to large cogwheels and they will rotate at higher speeds than the large cogwheel. You can place a large cogwheel on the same axis as the small cogwheel and repeat the pattern to increase your RPM.",
+				"However, doing so will increase stress on the machinery and as a result you can run less devices simultaneously on the same source of power."
+			],
+			dependencies: [I;1239],
+			id: 1242,
+			tasks: [{
+				id: 1243,
+				type: "item",
+				item: "create:mechanical_mixer"
+			}],
+			rewards: [
+				{
+					id: 1244,
+					type: "item",
+					item: "create:brass_ingot"
+				},
+				{
+					id: 1245,
+					type: "command",
+					command: "/slash give exp @p 500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Your Engineering Degree",
+			x: 10.5d,
+			y: 3.0d,
+			shape: "gear",
+			description: [
+				"Immersive Engineering is a tech mod that is included with Craft to Exile. Once you've familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions.",
+				"Remember that IE ores only spawn in the mining dimension!"
+			],
+			dependencies: [I;
+				305,
+				1242
+			],
+			id: 1246,
+			tasks: [{
+				id: 1247,
+				type: "item",
+				item: "immersiveengineering:manual"
+			}],
+			rewards: [
+				{
+					id: 1248,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 1249,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "The Grand Hempening",
+			x: 10.5d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Hemp is vital to starting Immersive Engineering. You can find hemp seeds in grass."],
+			dependencies: [I;1246],
+			id: 1250,
+			tasks: [{
+				id: 1251,
+				type: "item",
+				item: "immersiveengineering:seed"
+			}],
+			rewards: [
+				{
+					id: 1252,
+					type: "item",
+					item: "mapperbase:steel_plate"
+				},
+				{
+					id: 1253,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Crude Blast Furnace",
+			x: 9.0d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Steel is the basic building block of all things IE. But to make steel, you'll first need a crude blast furnace. Consult the manual for the layout of the blast bricks. You will need an engineer's hammer"],
+			dependencies: [I;1250],
+			id: 1254,
+			tasks: [{
+				id: 1255,
+				type: "item",
+				item: "immersiveengineering:blastbrick",
+				count: 4
+			}],
+			rewards: [
+				{
+					id: 1256,
+					type: "item",
+					item: "minecraft:iron_block"
+				},
+				{
+					id: 1257,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Coke Oven",
+			x: 7.5d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Coke coal is more efficient than regular coal and is used in a blast furnace. You will need an engineer's hammer."],
+			dependencies: [I;1254],
+			id: 1258,
+			tasks: [{
+				id: 1259,
+				type: "item",
+				item: "immersiveengineering:cokebrick",
+				count: 4
+			}],
+			rewards: [
+				{
+					id: 1260,
+					type: "item",
+					item: {
+						id: "minecraft:coal",
+						Count: 32
+					}
+				},
+				{
+					id: 1261,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Wire We Not Connected?",
+			x: 6.0d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Wires connect an electricity source to a capacitor - which can disperse energy to nearby contraptions. You will need a wire cutter to remove any unwanted wires."],
+			dependencies: [I;1258],
+			id: 1262,
+			tasks: [{
+				id: 1263,
+				type: "item",
+				item: {
+					id: "immersiveengineering:wirecutter",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1264,
+				type: "command",
+				command: "/slash give exp @p 1000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Creating A Line",
+			x: 6.0d,
+			y: 6.0d,
+			shape: "gear",
+			description: ["Use a wire coil to place down wires. It's fine to start with copper, but you can look into upgrading your wires later."],
+			dependencies: [I;1262],
+			id: 1265,
+			tasks: [{
+				id: 1266,
+				type: "item",
+				item: "immersiveengineering:wirecoil_copper"
+			}],
+			rewards: [{
+				id: 1267,
+				type: "command",
+				command: "/slash give exp @p 1000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Establishing Contact",
+			x: 4.5d,
+			y: 6.0d,
+			shape: "gear",
+			description: ["Before you can even connect wires to anything, you will need to place wire connectors on the blocks themselves."],
+			dependencies: [I;1265],
+			id: 1268,
+			tasks: [{
+				id: 1269,
+				type: "item",
+				item: "immersiveengineering:connector_lv"
+			}],
+			rewards: [{
+				id: 1270,
+				type: "command",
+				command: "/slash give exp @p 1000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Capacitor",
+			x: 4.5d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Capacitors are required to store energy which can be funneled to various contraptions. Attach the capacitor to an energy source such as the Create water wheel."],
+			dependencies: [I;1268],
+			id: 1271,
+			tasks: [{
+				id: 1272,
+				type: "item",
+				item: "immersiveengineering:capacitor_lv"
+			}],
+			rewards: [
+				{
+					id: 1273,
+					type: "item",
+					item: {
+						id: "create:cogwheel",
+						Count: 2
+					}
+				},
+				{
+					id: 1274,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "RPM Conversion",
+			x: 3.0d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["In order to utilize rotational power from Create, you will need to convert it into power that IE understands. Use the dynamo to convert rotational power into RF. You will lose some power in the conversion."],
+			dependencies: [I;1271],
+			id: 1275,
+			tasks: [{
+				id: 1276,
+				type: "item",
+				item: "createintegration:dynamo"
+			}],
+			rewards: [
+				{
+					id: 1277,
+					type: "item",
+					item: {
+						id: "create:electron_tube",
+						Count: 2
+					}
+				},
+				{
+					id: 1278,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Improving The Wheel",
+			x: 1.5d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Now seems like an appropriate time to start on a redstone flux generator. RF is the power source that IE uses. Craft a kinetic dynamo - this will be attached to IE's water wheel."],
+			dependencies: [I;1275],
+			id: 1279,
+			tasks: [{
+				id: 1280,
+				type: "item",
+				item: "immersiveengineering:dynamo"
+			}],
+			rewards: [
+				{
+					id: 1281,
+					type: "item",
+					item: "minecraft:redstone_block"
+				},
+				{
+					id: 1282,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Applications",
+			x: 3.0d,
+			y: 3.0d,
+			shape: "gear",
+			description: ["The furnace heater can be placed next to a furnace. When provided with sufficient power, the furnace can run without fuel."],
+			dependencies: [I;1275],
+			id: 1283,
+			tasks: [{
+				id: 1284,
+				type: "item",
+				item: "immersiveengineering:furnace_heater"
+			}],
+			rewards: [
+				{
+					id: 1285,
+					type: "item",
+					item: "minecraft:furnace"
+				},
+				{
+					id: 1286,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Big Wheel",
+			x: 1.5d,
+			y: 3.0d,
+			shape: "gear",
+			description: ["Place the water wheel onto a kinetic dynamo near a large water fall. Be sure to connect it to a capable capacitor."],
+			dependencies: [I;1279],
+			id: 1287,
+			tasks: [{
+				id: 1288,
+				type: "item",
+				item: "immersiveengineering:watermill"
+			}],
+			rewards: [
+				{
+					id: 1289,
+					type: "item",
+					item: "minecraft:water_bucket"
+				},
+				{
+					id: 1290,
+					type: "command",
+					command: "/slash give exp @p 1000",
+					player_command: 1
+				}
+			]
+		}
+	]
+}

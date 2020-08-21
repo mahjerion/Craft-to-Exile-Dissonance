@@ -1,0 +1,462 @@
+{
+	id: 82,
+	filename: "actibumblezone",
+	order_index: 2,
+	title: "Act I: The Bumblezone",
+	icon: "minecraft:bee_nest",
+	quests: [
+		{
+			title: "Bzzzy Beez",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			description: ["Welcome to The Bumblezone! Here you'll find a plethora of biomes filled with honey, bees, and more! Explore The Bumblezone and return with all the sweets! But beware, taking honey from bees may involve risks..."],
+			dependencies: [I;64],
+			id: 86,
+			tasks: [
+				{
+					id: 87,
+					type: "item",
+					item: "minecraft:honey_bottle",
+					count: 2
+				},
+				{
+					id: 88,
+					type: "item",
+					item: "the_bumblezone:honey_crystal_shards",
+					count: 4
+				}
+			],
+			rewards: [
+				{
+					id: 89,
+					type: "item",
+					item: {
+						id: "mmorpg:ore1",
+						Count: 3
+					}
+				},
+				{
+					id: 90,
+					type: "command",
+					title: "8250 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 8250",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Stop The Buzz",
+			x: 1.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			description: ["You're probably getting real annoyed by the bees... So let's get rid of some!"],
+			dependencies: [I;86],
+			id: 95,
+			tasks: [{
+				id: 96,
+				type: "kill",
+				entity: "minecraft:bee",
+				value: 6
+			}],
+			rewards: [
+				{
+					id: 97,
+					type: "item",
+					item: {
+						id: "minecraft:honey_bottle",
+						Count: 3
+					}
+				},
+				{
+					id: 98,
+					type: "command",
+					title: "12000 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 12000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Stop The Buzz 2",
+			icon: "beesourceful:diamond_honeycomb",
+			x: 1.5d,
+			y: 1.5d,
+			shape: "hexagon",
+			description: ["There are so many different bee types here... Exterminate!"],
+			dependencies: [I;95],
+			id: 99,
+			tasks: [
+				{
+					id: 100,
+					type: "kill",
+					entity: "beesourceful:iron_bee",
+					value: 5
+				},
+				{
+					id: 101,
+					type: "kill",
+					entity: "beesourceful:gold_bee",
+					value: 3
+				},
+				{
+					id: 102,
+					type: "kill",
+					entity: "beesourceful:diamond_bee",
+					value: 1
+				},
+				{
+					id: 103,
+					type: "kill",
+					entity: "beesourceful:emerald_bee",
+					value: 1
+				},
+				{
+					id: 104,
+					type: "kill",
+					entity: "minecraft:bee",
+					value: 5
+				}
+			],
+			rewards: [
+				{
+					id: 105,
+					type: "item",
+					item: {
+						id: "buzzierbees:honey_bread",
+						Count: 10
+					}
+				},
+				{
+					id: 106,
+					type: "item",
+					item: {
+						id: "mmorpg:ore2",
+						Count: 3
+					}
+				},
+				{
+					id: 107,
+					type: "command",
+					title: "22500 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 22500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Feeling Sweet",
+			x: 3.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			description: ["Sugar water is Bumblezone-specific and can be stored in a bottle. Drinking sugar water will restore a small amount of hunger and increase your movement speed."],
+			dependencies: [I;95],
+			id: 108,
+			tasks: [{
+				id: 109,
+				type: "item",
+				item: "the_bumblezone:sugar_water_bottle",
+				count: 2
+			}],
+			rewards: [{
+				id: 119,
+				type: "command",
+				title: "21000 Experience",
+				icon: "minecraft:book",
+				command: "/slash give exp @p 21000",
+				player_command: 1
+			}]
+		},
+		{
+			title: "Bittersweet",
+			x: 4.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			description: [
+				"And thus, our journey in the hive comes to an end. But the bee's legacy may last forever. Honey slimes are special slimes that can generate honey similar to how a sheep produces wool.",
+				"Hint: you can find altars of assorted honeycomb in caves in The Bumblezone."
+			],
+			dependencies: [I;108],
+			id: 110,
+			tasks: [
+				{
+					id: 111,
+					type: "item",
+					item: "minecraft:honeycomb"
+				},
+				{
+					id: 112,
+					type: "item",
+					item: "beesourceful:lapis_honeycomb"
+				},
+				{
+					id: 113,
+					type: "item",
+					item: "beesourceful:redstone_honeycomb"
+				},
+				{
+					id: 114,
+					type: "item",
+					item: "beesourceful:iron_honeycomb"
+				},
+				{
+					id: 115,
+					type: "item",
+					item: "beesourceful:diamond_honeycomb"
+				},
+				{
+					id: 116,
+					type: "item",
+					item: "beesourceful:emerald_honeycomb"
+				},
+				{
+					id: 117,
+					type: "item",
+					item: "beesourceful:ender_honeycomb"
+				},
+				{
+					id: 118,
+					type: "item",
+					item: "minecraft:honey_bottle"
+				}
+			],
+			rewards: [{
+				id: 120,
+				type: "command",
+				title: "28125 Experience",
+				icon: "minecraft:book",
+				command: "/slash give exp @p 28125",
+				player_command: 1
+			}]
+		},
+		{
+			title: "The Nether Regions",
+			icon: "minecraft:netherrack",
+			x: 6.0d,
+			y: 0.0d,
+			description: ["At level 20, you'll be able to take on the Nether. Craft an obsidian portal to access the Nether - you'll be able to take the same portal back to the Overworld. Enter the Nether and stop the Demon Lords from invading the Overworld!"],
+			dependencies: [I;110],
+			id: 125,
+			tasks: [{
+				id: 248,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [
+				{
+					id: 127,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5
+					}
+				},
+				{
+					id: 128,
+					type: "command",
+					title: "33750 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 33750",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Sweet Retribution",
+			x: 3.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			description: ["In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield."],
+			dependencies: [I;108],
+			id: 460,
+			tasks: [{
+				id: 461,
+				type: "item",
+				item: {
+					id: "the_bumblezone:honey_crystal_shield",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 710,
+					type: "item",
+					item: {
+						id: "mmorpg:ore1",
+						Count: 25
+					}
+				},
+				{
+					id: 711,
+					type: "command",
+					title: "30000 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 30000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Centripetal Force",
+			x: 4.5d,
+			y: 1.5d,
+			shape: "hexagon",
+			description: ["The centrifuge is a powerful device that can turn your honeycombs into valuable resources."],
+			dependencies: [I;110],
+			id: 462,
+			tasks: [{
+				id: 463,
+				type: "item",
+				item: "beesourceful:centrifuge"
+			}],
+			rewards: [
+				{
+					id: 712,
+					type: "item",
+					item: "minecraft:diamond"
+				},
+				{
+					id: 713,
+					type: "command",
+					title: "30000 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 30000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Stocking Up",
+			x: 4.5d,
+			y: 3.0d,
+			shape: "hexagon",
+			description: ["Using the centrifuge, it is possible to extract ender pearls from ender honeycomb. You're going to need some later on, so you may as well convert it now!"],
+			dependencies: [I;462],
+			id: 464,
+			tasks: [{
+				id: 465,
+				type: "item",
+				item: "beesourceful:ender_honeycomb"
+			}],
+			rewards: [
+				{
+					id: 720,
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 3
+					}
+				},
+				{
+					id: 721,
+					type: "command",
+					title: "30500 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 30500",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "None Of Yo Beeswax",
+			x: 6.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			description: ["You'll notice that using the centrifuge produces a by-product known as beeswax. I wonder... what can you do with it?"],
+			dependencies: [I;462],
+			id: 466,
+			tasks: [{
+				id: 467,
+				type: "item",
+				item: "beesourceful:beeswax"
+			}],
+			rewards: [
+				{
+					id: 714,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 3
+					}
+				},
+				{
+					id: 715,
+					type: "command",
+					title: "25000 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 25000",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Hit Them Where It Stings",
+			x: 1.5d,
+			y: 3.0d,
+			shape: "hexagon",
+			description: ["These brood zones seem to be where the bees are being produced. Destroy the blocks and harvest the honey for yourself."],
+			dependencies: [I;99],
+			id: 468,
+			tasks: [{
+				id: 469,
+				type: "item",
+				item: "the_bumblezone:dead_honeycomb_larva_block",
+				count: 12
+			}],
+			rewards: [
+				{
+					id: 716,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 717,
+					type: "command",
+					title: "26250 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 26250",
+					player_command: 1
+				}
+			]
+		},
+		{
+			title: "Slimey Means",
+			x: 3.0d,
+			y: 3.0d,
+			shape: "hexagon",
+			description: ["Honey slimes are a great 100% honey. Kill them and harvest the honey!"],
+			dependencies: [I;468],
+			id: 470,
+			tasks: [{
+				id: 471,
+				type: "kill",
+				entity: "buzzierbees:honey_slime",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 718,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 3
+					}
+				},
+				{
+					id: 719,
+					type: "command",
+					title: "28125 Experience",
+					icon: "minecraft:book",
+					command: "/slash give exp @p 28125",
+					player_command: 1
+				}
+			]
+		}
+	]
+}

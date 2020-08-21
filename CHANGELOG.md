@@ -5,13 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+### [Unreleased]
+
+## [2.2.3] - 2020-08-21
+The FTB Quests for Custom Quests change is likely a temporary fix until Custom Quest's rewrite comes out. This will probably result in another quest reset... And I apologize for that in advance. But the problems with current CQ are too great to ignore. The rewrite will likely not be available for a while, anyway. And I still would have to port stuff so that would take extra time. This change lets me make progression a lot more smooth! Thanks for supporting Craft to Exile.
+
+Note: this update does NOT introduce shared questing. That will come with the CQ rewrite!
+
+### Updates
+- Working dimension detection, and selectable rewards are now available! This will require a quest reset, sorry! To access the new quest GUI, you'll need to set a key in your controls or use the new quest book. If you're installing a fresh install of [Dissonance], the default key is 'J'. TEAM QUESTING is still not available. I really thought FTB Quests had it, but it will not be implemented, apparently. In a few weeks time, Custom Quest's rewrite will be finished, and I can port all of the quests back over. There will be team questing, and everything nice.
+- The Bumblezone is now an optional dimensions.
+- Added new quests to improve new player experience.
+- TerraForged has been added due to popular demand and is the default world type for singleplayer worlds.
 
 ### Mod Changes
 - Added Terraforged.
 - Added Default World Type (Forge).
-- Added FTB Quests.
+- Added FTB Quests (no teams).
+- Added It's The Little Things.
+- Added XL Packets.
+- Removed Random Patches.
 - Removed Custom Quests.
+
+### Fixes
+- Fixed some end of dimension bosses scaling with players.
+- Fixed some server joining packet issues.
 
 ## [2.2.2] - 2020-08-19
 

@@ -76,11 +76,21 @@
       ],
       "rewards": [
         {
-          "type": "ITEMS",
+          "type": "COMMAND",
           "content": {
-            "item": "mmorpg:ore0",
-            "amount": 10,
-            "nbt": "{}"
+            "command": "slash give gear @p sword 3 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p bow 3 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p staff 3 2 1"
           }
         },
         {
@@ -146,19 +156,21 @@
     {
       "id": 3,
       "icon": "minecraft:bee_nest",
-      "title": "The Bumblezone",
+      "title": "The Bumblezone (Optional)",
       "text": "Craft to Exile is focused around a dimension progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 14-18. The recommended levels for each dimension are as follows: Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night\u0027s Sleep (40-50), Midnight (50-58), Tofu World (58-66), Maps (30-99). To get to the Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave the Bumblezone by digging down or climbing above Y \u003d 256.",
       "dependencies": [
         7
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "the_bumblezone:porous_honeycomb_block",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "the_bumblezone:bumblezone",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -714,12 +726,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "minecraft:netherrack",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "minecraft:the_nether",
+              "x": 0,
+              "y": 100,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -751,7 +765,7 @@
       "title": "Stay Safe",
       "text": "The Nether is a lava-filled zombie pig-infested area. Be careful not to dig straight down.",
       "dependencies": [
-        15
+        7
       ],
       "requirements": [
         {
@@ -1522,12 +1536,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "minecraft:end_stone",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "minecraft:the_end",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -1747,12 +1763,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "goodnightsleep:dream_dirt",
-              "amount": 1,
-              "nbt": ""
+              "dim": "goodnightsleep:good_dream",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -1780,12 +1798,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "goodnightsleep:dead_log",
-              "amount": 1,
-              "nbt": ""
+              "dim": "goodnightsleep:nightmare",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -3293,7 +3313,7 @@
       "id": 75,
       "icon": "lycanitesmobs:doomfireballcharge",
       "title": "Flame On!",
-      "text": "Lava monsters can be found in most dimensions that have lava. They're not very cool!",
+      "text": "Lava monsters can be found in most dimensions that have lava. They\u0027re not very cool!",
       "dependencies": [
         71
       ],
@@ -3421,12 +3441,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "midnight:dirt",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "midnight:midnight",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -6196,12 +6218,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "atum:sand",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "atum:atum",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -7241,7 +7265,7 @@
       "id": 173,
       "icon": "minecraft:saddle",
       "title": "Ocarina Of Time",
-      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time. Be careful! Due to technical limitations, you must keep your mount near you. If it's left in a chunk that gets unloaded, it's possible to lose your mount!",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time. Be careful! Due to technical limitations, you must keep your mount near you. If it\u0027s left in a chunk that gets unloaded, it\u0027s possible to lose your mount!",
       "dependencies": [
         95
       ],
@@ -8088,12 +8112,14 @@
       ],
       "requirements": [
         {
-          "type": "ITEM_DETECT",
+          "type": "TRAVEL_TO",
           "sub_requirements": [
             {
-              "item": "tofucraft:tofukinu",
-              "amount": 1,
-              "nbt": "{}"
+              "dim": "tofucraft:tofuworld",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "radius": 5000
             }
           ]
         }
@@ -9108,6 +9134,137 @@
       "position": [
         150,
         100
+      ]
+    },
+    {
+      "id": 218,
+      "icon": "minecraft:cobweb",
+      "title": "Eight Legs",
+      "text": "In Craft to Exile, there are 3 different defense types. Plate, leather, and cloth. Plate provides armor and health, leather provides dodge and health, and cloth armor provides magic shield. Armor reduces incoming damage, dodge gives you a chance to evade an enemy attack, and magic shield adds to your life pool.",
+      "dependencies": [
+        1
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:cave_spider",
+              "amount": 8
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p plate_chest 5 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p leather_chest 5 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p cloth_chest 5 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        75,
+        25
+      ]
+    },
+    {
+      "id": 219,
+      "icon": "minecraft:cauldron",
+      "title": "Double Double Toil And Trouble",
+      "text": "During your travels, you will come across 2 types of off-hand equipment: shields and torches. Shields can be used to reduce oncoming damage by holding right-click. They function a little differently from vanilla shields (these also work too, though). Torches can be used to regenerate mana and energy. Do not mistake these for vanilla torches that provide light!",
+      "dependencies": [
+        218
+      ],
+      "requirements": [
+        {
+          "type": "KILL_MOB",
+          "sub_requirements": [
+            {
+              "entity": "minecraft:witch",
+              "amount": 3
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p shield 7 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give gear @p torch 7 2 1"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1250"
+          }
+        }
+      ],
+      "position": [
+        75,
+        75
+      ]
+    },
+    {
+      "id": 220,
+      "icon": "minecraft:netherrack",
+      "title": "Taking The Long Route",
+      "text": "Eventually, you'll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
+      "dependencies": [
+        80,
+		110,
+		162
+      ],
+      "requirements": [
+        {
+          "type": "TRAVEL_TO",
+          "sub_requirements": [
+            {
+              "dim": "minecraft:the_nether",
+              "x": 0,
+              "y": 100,
+              "z": 0,
+              "radius": 5000
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 10000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        150
       ]
     }
   ]

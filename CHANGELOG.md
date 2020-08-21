@@ -5,7 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### [Unreleased]
+## [Unreleased]
+
+## [2.2.4] - 2020-08-21
+
+### Updates
+- Ported the changes I made before, The Bumblezone is still optional.
+
+### Mod Changes
+- Added Custom Quests.
+- Removed FTB Quests.
 
 ## [2.2.3] - 2020-08-21
 The FTB Quests for Custom Quests change is likely a temporary fix until Custom Quest's rewrite comes out. This will probably result in another quest reset... And I apologize for that in advance. But the problems with current CQ are too great to ignore. The rewrite will likely not be available for a while, anyway. And I still would have to port stuff so that would take extra time. This change lets me make progression a lot more smooth! Thanks for supporting Craft to Exile.
@@ -20,7 +29,7 @@ Note: this update does NOT introduce shared questing. That will come with the CQ
 
 ### Mod Changes
 - Updated MineColonies, Xaero's Minimap/Worldmap, Clumps.
-- Added Terraforged.
+- Added TerraForged.
 - Added Default World Type (Forge).
 - Added FTB Quests (no teams).
 - Added It's The Little Things.

@@ -16,8 +16,7 @@
 	{
       "type": "world",
       "dimensionIds": [
-        "minecraft:overworld",
-        "the_bumblezone:bumblezone"
+        "goodnightsleep:nightmare"
       ],
       "dimensionListType": "blacklist"
     }
@@ -25,7 +24,7 @@
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.01,
+      "chance": 0.1,
       "entityTypes": [
         "undead"
       ],

@@ -14,11 +14,12 @@ Note: this update does NOT introduce shared questing. That will come with the CQ
 
 ### Updates
 - Working dimension detection, and selectable rewards are now available! This will require a quest reset, sorry! To access the new quest GUI, you'll need to set a key in your controls or use the new quest book. If you're installing a fresh install of [Dissonance], the default key is 'J'. TEAM QUESTING is still not available. I really thought FTB Quests had it, but it will not be implemented, apparently. In a few weeks time, Custom Quest's rewrite will be finished, and I can port all of the quests back over. There will be team questing, and everything nice.
-- The Bumblezone is now an optional dimensions.
+- The Bumblezone is now an optional dimension.
 - Added new quests to improve new player experience.
 - TerraForged has been added due to popular demand and is the default world type for singleplayer worlds.
 
 ### Mod Changes
+- Updated MineColonies, Xaero's Minimap/Worldmap, Clumps.
 - Added Terraforged.
 - Added Default World Type (Forge).
 - Added FTB Quests (no teams).

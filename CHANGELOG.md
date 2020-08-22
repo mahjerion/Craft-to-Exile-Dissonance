@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.4b] - 2020-08-21
+
+### Fixes
+- Actually added TerraForged this time.
+
 ## [2.2.4] - 2020-08-21
 
 ### Updates

@@ -41,7 +41,7 @@
   "width": 0.6,
   "height": 1.8,
   "experience": 5,
-  "health": 15,
+  "health": 10,
   "defense": 0,
   "armor": 0,
   "speed": 24,
@@ -100,5 +100,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

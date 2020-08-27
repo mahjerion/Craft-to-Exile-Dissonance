@@ -9,15 +9,13 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "nethersky",
       "portal"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      "minecraft:the_nether"
-    ],
+    "dimensionIds": [],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [
@@ -113,7 +111,7 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 2,
   "flags": [
     {
       "name": "griefing",

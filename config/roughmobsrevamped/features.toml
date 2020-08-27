@@ -29,7 +29,7 @@
 	#Set this to false to prevent undead horses from burning in sunlight (as long as they have no rider).
 	HostileHorse_DaylightBurn = true
 	#Set to false to disable all hostile horse features.
-	HostileHorse_FeaturesEnabled = true
+	HostileHorse_FeaturesEnabled = false
 	#Set to false to prevent undead horses summoned by this mod from despawning.
 	HostileHorse_CanDespawn = true
 	#Entities which count as hostile horses.
@@ -96,11 +96,11 @@
 	Zombie_HorseMinY = 63
 	#Amount of blocks the zombie jumps on leap attack.
 	#Range: 0.0 ~ 127.0
-	Zombie_LeapHeight = 0.5
+	Zombie_LeapHeight = 1
 	#Chance (1 in X) for a zombie to apply the hunger effect on attack.
 	#Set to 0 to disable this feature.
 	#Range: 0 ~ 32767
-	Zombie_HungerChance = 4
+	Zombie_HungerChance = 10
 
 ["Zombie Pigman Features"]
 	#Block radius in which zombie pigman get aggressive if the player breaks blocks.

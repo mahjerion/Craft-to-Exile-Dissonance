@@ -122,7 +122,7 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 2,
   "flags": [
     {
       "name": "griefing",

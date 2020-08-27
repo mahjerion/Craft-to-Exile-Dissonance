@@ -1057,7 +1057,7 @@
           "sub_requirements": [
             {
               "item": "minecraft:nether_wart",
-              "amount": 50,
+              "amount": 25,
               "nbt": "{}"
             }
           ]
@@ -1303,7 +1303,7 @@
           "sub_requirements": [
             {
               "entity": "minecraft:blaze",
-              "amount": 30
+              "amount": 20
             }
           ]
         }
@@ -1829,7 +1829,7 @@
       "title": "Point The Way",
       "text": "Waystones is a mod that allows the player to teleport between waystones using warp stones or scrolls. They can be found naturally spawning around the world in large towers. It is possible to rename or configure the waystone into a global waystone. Global waystones can be teleported to interdimensionally. The warp stone allows you to teleport to any waystone at a cost. It has a longer cooldown than using scrolls.",
       "dependencies": [
-        0
+        223
       ],
       "requirements": [
         {
@@ -2093,7 +2093,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:astaroth",
-              "amount": 15
+              "amount": 5
             }
           ]
         }
@@ -2133,7 +2133,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:trite",
-              "amount": 50
+              "amount": 15
             }
           ]
         }
@@ -2173,7 +2173,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:salamander",
-              "amount": 15
+              "amount": 5
             }
           ]
         }
@@ -2213,7 +2213,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:belph",
-              "amount": 15
+              "amount": 5
             }
           ]
         }
@@ -2253,7 +2253,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:afrit",
-              "amount": 30
+              "amount": 15
             }
           ]
         }
@@ -2293,7 +2293,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:pinky",
-              "amount": 20
+              "amount": 10
             }
           ]
         }
@@ -2333,7 +2333,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:behemoth",
-              "amount": 10
+              "amount": 5
             }
           ]
         }
@@ -4810,7 +4810,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "immersiveengineering:sword_steel",
+            "item": "minecraft:iron_sword",
             "amount": 1,
             "nbt": "{Damage:0}"
           }
@@ -9234,11 +9234,11 @@
       "id": 220,
       "icon": "minecraft:netherrack",
       "title": "Taking The Long Route",
-      "text": "Eventually, you'll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
+      "text": "Eventually, you\u0027ll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
       "dependencies": [
         80,
-		110,
-		162
+        110,
+        162
       ],
       "requirements": [
         {
@@ -9265,6 +9265,137 @@
       "position": [
         250,
         150
+      ]
+    },
+    {
+      "id": 221,
+      "icon": "mmorpg:alchemy/instant/misc/reset_talents",
+      "title": "Mistakes Were Made",
+      "text": "If you\u0027ve looked at the talent tree and skill trees, it\u0027s easy to be overwhelmed by the number of choices. Luckily, Craft to Exile makes it easy to reset your skills and stats by making reset potions available for crafting. Try crafting the stat reset potion and I\u0027ll give you the other reset potions, free!",
+      "dependencies": [
+        2
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mmorpg:alchemy/instant/misc/reset_stats",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:alchemy/instant/misc/reset_spells",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:alchemy/instant/misc/reset_talents",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        125,
+        25
+      ]
+    },
+    {
+      "id": 222,
+      "icon": "mining_helmet:mining_helmet",
+      "title": "Cave Lighter",
+      "text": "You can craft a mining helmet to assist you while spelunking. It gives off light as you move!",
+      "dependencies": [
+        112
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "mining_helmet:mining_helmet",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:teleport_scroll",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 20000"
+          }
+        }
+      ],
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "id": 223,
+      "icon": "telepass:diamond_telepass",
+      "title": "Friends Forever",
+      "text": "The telepass is a special item that unlike other items, offers no benefit to yourself. It allows other players to teleport to you. Each telepass has 10 uses.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "telepass:diamond_telepass",
+              "amount": 1,
+              "nbt": "{Damage:0}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:ender_pearl",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        100
       ]
     }
   ]

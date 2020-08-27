@@ -119,7 +119,7 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 2,
   "mountOffset": [
     0,
     0.5,

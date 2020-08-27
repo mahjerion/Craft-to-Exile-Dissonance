@@ -9,11 +9,8 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
-    "spawners": [
-      "underground",
-      "end"
-    ],
+    "enabled": false,
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld",
@@ -110,5 +107,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

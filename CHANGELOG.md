@@ -7,6 +7,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.5] - 2020-08-27
+
+### Updates
+- Loot from treasure chests is now instanced per player. This means players will roll for loot separately from chests (so don't break chests you come across, save it for others!). This is new and there may be bugs, but should improve the new player experience on servers!
+- MineColonies now has a FindMe-like function once the warehouse is upgraded to level 3.
+- Added a new quest for the miner's helmet after entering the mining dimension (can still be crafted beforehand though).
+- Added a new quest giving a reset potion early on.
+- Added a new quest for TelePass.
+- TelePass brings a new item that can be crafted and handed to other players. Upon use, the player will teleport to the original crafter. Each pass has 10 uses.
+- Heavily reduced the spawn rate of Lycanites in the Nether.
+- Heavily reduced the power of Lycanites mobs in the Nether.
+- Changed Nether quests to be less grindy. Eg. you now kill 15 trites instead of 50.
+- Reduced HP and power of Nasty skeletons.
+- Shifted spawn weights of Nasty skeleton variants so fire skeletons spawn less frequently.
+- Increased reaper spawn rate.
+- Roughmob's max spawn height has been reduced from 256 to 192.
+
+### Mod Changes
+- Updated MineColonies, Clumps, YUNG's Better Mineshafts, Atum, Xaero's, JEI.
+- Added AI Improvements to server again.
+- Added Lootr.
+- Added Drawers Tooltip.
+- Added Miner's Helmet.
+- Added TelePass.
+- Added FPS Reducer - reduces FPS automatically upon inactivity or window minimization.
+
+### Fixes
+- Disabled recipe caching with Performant which should fix the stonecutter issues.
+- Improved village detection on world creation with TerraForged.
+- Fixed steel sword reward to be iron sword for a particular quest.
+- Trites should spawn in The End.
+- Zombie horse spawns should be fixed.
+
 ## [2.2.4b] - 2020-08-21
 
 ### Fixes
@@ -66,7 +99,6 @@ Note: this update does NOT introduce shared questing. That will come with the CQ
 - Fixed being able to farm bucket-able mobs.
 - Fixed blaze lag.
 - Fixed Nasty skeletons spawning where they shouldn't (I think).
-- Fixed stonecutter issues.
 - Fixed light overlay letting you see underground.
 
 ## [2.2.1] - 2020-08-16

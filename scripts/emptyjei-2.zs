@@ -79,6 +79,9 @@ mods.jei.JEI.hideItem(<item:pandoras_creatures:acidic_archvine_spawn_egg>);
 mods.jei.JEI.hideItem(<item:pandoras_creatures:bufflon_spawn_egg>);
 mods.jei.JEI.hideItem(<item:pandoras_creatures:end_troll_spawn_egg>);
 
+//TelePass
+mods.jei.JEI.hideItem(<item:telepass:gold_telepass>);
+
 //TofuCraft
 craftingTable.addShapeless("tofustick", <item:tofucraft:tofustick>, [<item:midnight:tenebrum_ingot>, <tag:forge:rods/wooden>]);
 mods.jei.JEI.hideItem(<item:tofucraft:zundaruby>);

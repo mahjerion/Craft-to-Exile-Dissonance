@@ -36,15 +36,36 @@
 	"Sandstorm Base Transparency" = 10
 
 ["world gen"]
+	#Range: 1 ~ 256
+	"Lighthouse spacing" = 10
+	#Range: 1 ~ 256
+	"Pyramid separation" = 8
+	#Range: 1 ~ 256
+	"Ruins separation" = 3
+	#Specify the amount of ruin variants structures/ruins. Allows for additional ruin structures with a resourcepack
+	#Range: 1 ~ 999
+	"Ruins Amount" = 19
+	#Range: 1 ~ 256
+	"Pyramid spacing" = 18
+	#Range: 1 ~ 256
+	"Lighthouse separation" = 4
+	#Range: 0 ~ 255
+	"Fossils chance, set to 0 to disable" = 64
+	#Range: 0 ~ 64
+	"Shrub frequency, set to 0 to disable" = 1
+	#Should Lighthouses generate in Atum?
+	"Enable Lighthouse" = true
+	#Range: 1 ~ 256
+	"Ruins spacing" = 5
+	#Probability of mineshafts generating. Set to 0 to disable. Default value same as vanilla overworld
+	#Range: 0.0 ~ 1.0
+	"Minecraft probability" = 0.008
 	#Should Ruins generate in Atum?
 	"Enable Ruins" = true
 	#Should Pyramids generate in Atum?
 	"Enable Pyramids" = true
-	#Specify the amount of ruin variants structures/ruins. Allows for additional ruin structures with a resourcepack
-	#Range: 1 ~ 999
-	"Ruins Amount" = 19
-	#Should Mineshafts generate in Atum?
-	"Enable Mineshafts" = true
+	#Range: 0 ~ 255
+	"Dungeon chance, set to 0 to disable" = 8
 	#Sets above what Y-level water will vaporize at (Except Oasis). Set to 0 to disable
 	#Range: 0 ~ 255
 	"Water Level" = 50
@@ -174,4 +195,147 @@
 ["mod integration"]
 	champions = false
 	theoneprobe = false
+
+["ore gen"]
+	#Range: 1 ~ 255
+	"Diamond max height" = 16
+	#Range: 1 ~ 64
+	"Relic Ore vein size" = 5
+	#Range: 0 ~ 64
+	"Coal count, set to 0 to disable" = 20
+	#Range: 1 ~ 255
+	"Gold max height" = 32
+	#Range: 0 ~ 64
+	"Limestone Gravel pocket bottom offset" = 0
+	#Range: 0 ~ 64
+	"Bone Ore top offset" = 0
+	#Range: 1 ~ 64
+	"Diamond vein size" = 8
+	#Range: 0 ~ 64
+	"Limestone Gravel pocket top offset" = 0
+	#Range: 0 ~ 64
+	"Diamond count, set to 0 to disable" = 1
+	#Range: 0 ~ 64
+	"Alabaster top offset" = 0
+	#Range: 0 ~ 64
+	"Khnumite top offset" = 0
+	#Range: 0 ~ 64
+	"Bone Ore bottom offset" = 0
+	#Range: 1 ~ 255
+	"Limestone Gravel pocket max height" = 255
+	#Range: 0 ~ 64
+	"Gold count, set to 0 to disable" = 2
+	#Range: 1 ~ 255
+	"Alabaster max height" = 60
+	#Range: 0 ~ 64
+	"Marl count, set to 0 to disable" = 8
+	#Range: 0 ~ 64
+	"Khnumite count, set to 0 to disable" = 4
+	#Range: 0 ~ 64
+	"Diamond bottom offset" = 0
+	#Range: 1 ~ 64
+	"Gold vein size" = 9
+	#Range: 0 ~ 64
+	"Lapis count, set to 0 to disable" = 1
+	#Range: 1 ~ 64
+	"Lapis spread" = 16
+	#Range: 0 ~ 64
+	"Sand pocket count, set to 0 to disable" = 14
+	#Range: 0 ~ 64
+	"Diamond top offset" = 0
+	#Range: 0 ~ 64
+	"Porphyry bottom offset" = 0
+	#All vanilla based ores, uses the vanilla values by default.
+	#Range: 1 ~ 64
+	"Coal vein size" = 17
+	#Range: 1 ~ 255
+	"Redstone max height" = 16
+	#Range: 0 ~ 64
+	"Relic Ore count, set to 0 to disable" = 4
+	#Range: 1 ~ 255
+	"Relic Ore max height" = 64
+	#Range: 1 ~ 255
+	"Porphyry max height" = 60
+	#Range: 0 ~ 64
+	"Gold bottom offset" = 0
+	#Range: 0 ~ 64
+	"Relic Ore top offset" = 0
+	#Range: 0 ~ 64
+	"Porphyry top offset" = 0
+	#Range: 0 ~ 64
+	"Redstone top offset" = 0
+	#Range: 0 ~ 64
+	"Bone Ore count, set to 0 to disable" = 12
+	#Range: 0 ~ 64
+	"Porphyry count, set to 0 to disable" = 10
+	#Range: 0 ~ 64
+	"Sand pocket bottom offset" = 0
+	#Range: 1 ~ 64
+	"Marl vein size" = 14
+	#Range: 0 ~ 64
+	"Relic Ore bottom offset" = 0
+	#Range: 1 ~ 64
+	"Sand pocket vein size" = 28
+	#Range: 1 ~ 255
+	"Iron max height" = 64
+	#Range: 0 ~ 64
+	"Redstone count, set to 0 to disable" = 8
+	#Range: 0 ~ 64
+	"Iron bottom offset" = 0
+	#Range: 0 ~ 64
+	"Khnumite bottom offset" = 0
+	#Range: 0 ~ 64
+	"Iron count, set to 0 to disable" = 20
+	#Range: 0 ~ 64
+	"Alabaster bottom offset" = 0
+	#Should Emeralds generate in Atum?
+	"Enable Emeralds" = true
+	#Range: 1 ~ 64
+	"Redstone vein size" = 8
+	#Range: 0 ~ 64
+	"Redstone bottom offset" = 0
+	#Range: 1 ~ 64
+	"Lapis vein size" = 7
+	#Range: 1 ~ 255
+	"Khnumite max height" = 20
+	#Range: 1 ~ 64
+	"Iron vein size" = 9
+	#Range: 1 ~ 64
+	"Lapis baseline" = 16
+	#Range: 1 ~ 64
+	"Bone Ore vein size" = 9
+	#Range: 1 ~ 255
+	"Bone Ore max height" = 128
+	#Range: 0 ~ 64
+	"Gold top offset" = 0
+	#Range: 0 ~ 64
+	"Alabaster count, set to 0 to disable" = 10
+	#Range: 1 ~ 255
+	"Coal max height" = 128
+	#Range: 0 ~ 64
+	"Marl bottom offset" = 0
+	#Range: 0 ~ 64
+	"Marl top offset" = 0
+	#Range: 0 ~ 64
+	"Iron top offset" = 0
+	#Range: 1 ~ 64
+	"Alabaster vein size" = 30
+	#Range: 0 ~ 64
+	"Sand pocket top offset" = 0
+	#Range: 0 ~ 64
+	"Coal bottom offset" = 0
+	#Range: 1 ~ 64
+	"Khnumite vein size" = 6
+	#Range: 1 ~ 255
+	"Sand pocket max height" = 255
+	#Range: 0 ~ 64
+	"Limestone Gravel pocket count, set to 0 to disable" = 10
+	#Range: 1 ~ 64
+	"Porphyry vein size" = 30
+	#Range: 1 ~ 255
+	"Marl max height" = 50
+	#Range: 0 ~ 64
+	"Coal top offset" = 0
+	#Range: 1 ~ 64
+	"Limestone Gravel pocket vein size" = 32
 

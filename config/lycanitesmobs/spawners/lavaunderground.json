@@ -1,7 +1,7 @@
 {
   "name": "lavaunderground",
   "type": "spawner",
-  "enabled": true,
+  "enabled": false,
   "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
@@ -10,10 +10,7 @@
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [
-        "goodnightsleep:nightmare",
-		"minecraft:the_nether"
-      ],
+      "dimensionIds": [],
       "dimensionListType": "whitelist"
     }
   ],

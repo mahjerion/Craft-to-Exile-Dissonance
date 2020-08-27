@@ -38,7 +38,7 @@
   "defense": 0,
   "armor": 0,
   "speed": 32,
-  "damage": 4,
+  "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -93,5 +93,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

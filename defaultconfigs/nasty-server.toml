@@ -8,18 +8,18 @@
 	MaxDistance = 1000000.0
 	#Spawn in Biome weight
 	#Range: 0 ~ 200
-	SpawnBiome = 50
+	SpawnBiome = 25
 	#Spawn in Dungeon weight
 	#Range: 0 ~ 200
-	SpawnDungeon = 50
+	SpawnDungeon = 25
 	#Explosive Arrow cause Shield to drop
 	ExplosiveArrowOnShield = false
 	#Bonus Power
 	#Range: 0 ~ 10
-	BonusPower = 1
+	BonusPower = 0
 	#Maximum health
 	#Range: 20.0 ~ 5000.0
-	MaxHealth = 25.0
+	MaxHealth = 20.0
 	#Spawn type based on Tempature
 	SpawnTempBased = false
 	#Virus Chance for spreading
@@ -36,18 +36,18 @@
 	BiomeAdjustments = "minecraft:plains,*,-0.2,0.2;minecraft:swamp,0,0.2,0.0;minecraft:swamp,*,0.1,-0.1;minecraft:badlands,*,0.3,0.3;minecraft:dark_forest_hills,*,0.3,0.3"
 	#Bonus Power for Hard
 	#Range: 0 ~ 20
-	BonusHardPower = 3
+	BonusHardPower = 2
 	#Minimum health
 	#Range: 4.0 ~ 5000.0
-	MinHealth = 25.0
+	MinHealth = 20.0
 	#Explosive Arrow strength
 	#Range: 1.0 ~ 1500.0
 	ExplosiveArrowStrength = 6.0
 	#Spawn weights (Green,Red,Purple,Cyan,Orange,Yellow)
-	SpawnVariantWeights = "5,7,5,5,3,1"
+	SpawnVariantWeights = "6,6,6,6,3,1"
 	#Add inaccuracy to shot
 	#Range: 0.0 ~ 1.0
-	AddInaccuracy = 0.7
+	AddInaccuracy = 0.8
 	#Minimum Distance
 	#Range: 0.0 ~ 1280000.0
 	MinDistance = 100000.0
@@ -56,7 +56,7 @@
 	ArrowDamageMultiplier = 1.0
 	#Spawn in Feature weight
 	#Range: 0 ~ 20
-	SpawnFeature = 5
+	SpawnFeature = 3
 
 ["Nasty Wolf"]
 	#Virus Chance for spreading

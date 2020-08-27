@@ -6,19 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLacedon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLacedon",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "waterfloor"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      "minecraft:the_nether",
-      "minecraft:the_end"
-    ],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [],
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "ocean",
@@ -114,5 +111,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

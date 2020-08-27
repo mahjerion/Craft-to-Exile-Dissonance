@@ -1,7 +1,7 @@
 
 #All configuration items related to the core gameplay
 [gameplay]
-	#AI Update rate, increase to improve performance, throttles citizen updates. [Default: 1]
+	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1]
 	#Range: 1 ~ 100
 	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
@@ -9,117 +9,117 @@
 	#Max citizens in one colony. [Default: 50]
 	#Range: 4 ~ 500
 	maxcitizenpercolony = 75
-	#Amount of blocks the builder checks (to decrease lag by builder). [Default: 1000]
+	#Amount of blocks the Builder checks (to decrease lag). [Default: 1000]
 	#Range: 1000 ~ 100000
 	maxblockscheckedbybuilder = 1000
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5]
 	#Range: 1 ~ 100
 	diseasemodifier = 5
-	#Should in development features be enabled (might be buggy). [Default: false]
+	#Should development features be enabled (might be buggy). [Default: false]
 	enableindevelopmentfeatures = false
-	#Should builder place construction tape? [Default: true]
+	#Should the Builder place construction tape? [Default: true]
 	builderplaceconstructiontape = true
-	#Should builder and miner build without resources? (this also turns off what they produce). [Default: false]
+	#Should the Builder and Miner build without resources? (This also turns off what they produce.) [Default: false]
 	builderinfiniteresources = false
-	#Whether to generate supply ship/camps in chests occasionally [Default: true]
+	#Whether to generate supply ship/camps in chests occasionally. [Default: true]
 	generatesupplyloot = true
-	#Should players be allowed to abandon their colony to create a new one easily? [Default: false]
+	#Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy! [Default: false]
 	allowinfinitecolonies = false
-	#Child growth modifier, default on avg they take about 60min to grow (at 1.0x modifier). Setting to 5 = 5x as fast. [Default: 1]
+	#Child growth modifier. On average children take about 60min to grow at 1.0x modifier (the default). 5 = 5x as fast. [Default: 1]
 	#Range: 1.0 ~ 100.0
 	growthmodifier = 1.0
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
-	#Should players be able to place an infinite amount of supplychests? [Default: false]
+	#Should players be able to place an infinite amount of supply camps/ships? [Default: false]
 	allowinfinitesupplychests = false
 	#Average citizen respawn interval (in seconds). [Default: 60]
 	#Range: 10 ~ 600
 	citizenrespawninterval = 60
-	#Should colonies in other dimensions be allowed? [Default: false]
+	#Should colonies in other dimensions be allowed? Note: This is buggy if the dimension doesn't have day/night! [Default: false]
 	allowotherdimcolonies = false
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
-	#Should player made schematics be allowed [Default: false]
+	#Should player-made schematics be allowed [Default: false]
 	allowplayerschematics = false
-	#Quantity of dirt per Compost filling. [Default: 1]
+	#Quantity of dirt per compost filling. [Default: 1]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
-	#Chance to get a prismarine shard or crystal drop for the fisherman starting at level 3. Overall chance of prismarine is 2x this number [Default: 2.5]
+	#Chance to get a prismarine shard or crystal drop from the Fisher (starting at hut level 3). Overall chance of prismarine is 2x this number [Default: 2.5]
 	#Range: 0.0 ~ 100.0
 	fisherprismarinechance = 2.5
 	#Chat frequency of worker requests. [Default: 30]
 	#Range: 1 ~ 100
 	chatfrequency = 30
-	#Food consumption modifier (Min: 1.0). [Default: 1.0]
+	#Food consumption modifier. Min: 1.0. [Default: 1.0]
 	#Range: 0.1 ~ 100.0
 	foodmodifier = 1.0
-	#Delay modifier to mine a block (Decreasing it, decreases the delay) [Default: 500]
+	#Delay modifier to mine a block (decreasing it decreases the delay). [Default: 500]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
-	#Chance to get a sponge drop for the fisherman starting at level 3. [Default: 0.1]
+	#Chance to get a sponge from the Fisher (starting at hut level 4). [Default: 0.1]
 	#Range: 0.0 ~ 100.0
 	fisherspongechance = 0.1
-	#Should Players be sent entering/leaving colony notifications? [Default: true]
+	#Should players be sent entering/leaving colony notifications? [Default: true]
 	sendenteringleavingmessages = true
 	#Should players be allowed to change names? -1 for false, 0 for specific groups, 1 for true. [Default: 1]
 	#Range: -1 ~ 1
 	allowglobalnamechanges = 1
-	#Delay after each block placement (Increasing it, increases the delay) [Default: 15]
+	#Delay after each block placement (increasing it increases the delay). [Default: 15]
 	#Range: 1 ~ 500
 	builderbuildblockdelay = 15
 	#Amount of initial citizens. [Default: 4]
 	#Range: 1 ~ 10
 	initialcitizenamount = 4
-	#If the builder should be slower underground or as fast as anywhere else. [Default: true]
+	#Should the Builder be slower when working underground? [Default: true]
 	restrictbuilderunderground = true
-	#Should there be at max 1 warehouse per colony?. [Default: true]
+	#Should there be a max of 1 warehouse per colony?. [Default: true]
 	limittoonewarehousepercolony = true
-	#Should player get one guidebook on first join to a new world? [Default: true]
+	#Should a player get one guidebook on their first join to a new world? [Default: true]
 	playergetsguidebookonfirstjoin = true
-	#Chance to get a lucky block in percent. [Default: 1]
+	#Chance to get a lucky block as a percentage. [Default: 1]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
-	#Suggest build tool usage when trying to place a building without build tool. [Default: true]
+	#Suggest building tool usage when trying to place a building without the building tool. [Default: true]
 	suggestbuildtoolplacement = true
 	#Should special holiday content be displayed? [Default: true]
 	holidayfeatures = true
-	#The minimum level a townhall has to have to allow teleportation to other colonies. [Default: 3]
+	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3]
 	#Range: 0 ~ 5
 	minthleveltoteleport = 3
 	#Disable citizen voices. [Default: false]
 	disablecitizenvoices = false
 
-#All configurations related to the Minecolonies commands
+#All configurations related to the MineColonies commands
 [commands]
-	#Should the player be allowed to use the '/mc colony teleport' command? [Default: false]
+	#Should a player be allowed to use the /mc colony teleport command? [Default: false]
 	canplayerusecolonytpcommand = false
-	#Which level counts as op level on the server. [Default: 3]
+	#Which level counts as OP on a server. [Default: 3]
 	#Range: 0 ~ 3
 	oplevelforserver = 3
-	#Sets weither or not Colony structures are destroyed automatically. [Default: true]
+	#Sets whether or not colony structures are destroyed automatically when a colony is deleted. [Default: true]
 	autodestroycolonyblocks = true
-	#Should the player be allowed to use the '/mc rtp' command? [Default: true]
+	#Should a player be allowed to use the /mc rtp command? [Default: true]
 	canplayerusertpcommand = false
 	#minecolonies.config.numberofattemptsforsafetp.comment
 	#Range: 1 ~ 10
 	numberofattemptsforsafetp = 4
-	#Should the player be allowed to use the '/mc colony delete' command? [Default: true]
+	#Should the player be allowed to use the /mc colony delete command? [Default: true]
 	canplayerusedeletecolonycommand = true
-	#Sets the amount of hours until a colony will be deleted after not seeing it's mayor, set to zero to disable. [Default: 0]
+	#Sets the amount of hours until a colony will be deleted after not seeing its governor. Set to zero to disable this. [Default: 0]
 	#Range: 168 ~ 10000
 	autodeletecoloniesinhours = 168
-	#Should the player be allowed to use the '/mc colony info' command? [Default: true]
+	#Should the player be allowed to use the /mc colony info command? [Default: true]
 	canplayeruseshowcolonyinfocommand = true
-	#Should the player be allowed to use the '/mc colony addOfficer' command? [Default: true]
+	#Should the player be allowed to use the /mc colony addOfficer command? [Default: true]
 	canplayeruseaddofficercommand = true
-	#Time until a next teleport can be executed (in seconds). [Default: 120]
+	#Time until a next teleport (to a colony) can be executed in seconds. [Default: 120]
 	#Range: 30 ~ 99999
 	teleportbuffer = 120
-	#Should the player be allowed to use the '/mc home' command? [Default: true]
+	#Should a player be allowed to use the /mc home command? [Default: true]
 	canplayerusehometpcommand = false
-	#Can Player Teleport to allied colonies? [Default:true]
+	#Can a player teleport to allied colonies? [Default:true]
 	canplayeruseallytownhallteleport = true
-	#Should the player be allowed to use the '/mc citizens kill' command? [Default: true]
+	#Should the player be allowed to use the /mc citizens kill command? [Default: true]
 	canplayerusekillcitizenscommand = true
 
 #minecolonies.config.claims.comment
@@ -134,31 +134,31 @@
 	#minecolonies.config.maxcolonysize.comment
 	#Range: 1 ~ 50
 	maxColonySize = 20
-	#Max distance from world spawn. [Default: 8000]
+	#Max distance (in blocks) from world spawn for a colony. [Default: 8000]
 	#Range: 1000 ~ 100000
 	maxdistancefromworldspawn = 8000
 	#minecolonies.config.mincolonydistance.comment
 	#Range: 1 ~ 200
 	minColonyDistance = 8
-	#Should players be allowed to build their colonies over existing villages? [Default: false]
+	#Should players be allowed to build their colonies over existing (vanilla) villages? [Default: false]
 	protectvillages = false
-	#Min distance from world spawn. [Default: 512]
+	#Min distance (in blocks) from world spawn for a colony. [Default: 512]
 	#Range: 1 ~ 1000
 	mindistancefromworldspawn = 512
 
-#All configuration items related to the combat elements of Minecolonies
+#All configuration items related to the combat elements of MineColonies
 [combat]
 	#The minimum number of nights between raids. [Default: 1]
 	#Range: 1 ~ 30
 	minimumnumberofnightsbetweenraids = 5
-	#Days until the pirate ships despawn again. [Default: 3]
+	#Days until the pirate ships despawn. [Default: 3]
 	#Range: 1 ~ 10
 	daysuntilpirateshipsdespawn = 3
 	#minecolonies.config.citizencallforhelp.comment
 	citizencallforhelp = true
-	#Whether or not to barbarians can break, scale, bridge obstacles. [Default: true]
+	#Whether or not barbarians can break, scale, and bridge obstacles. [Default: true]
 	dobarbariansbreakthroughwalls = true
-	#Should Mobs attack citizens? [Default: false
+	#Should mobs attack citizens? [Default: false]
 	mobattackcitizens = false
 	#The max size of a barbarian horde. [Default: 20]
 	#Range: 6 ~ 400
@@ -169,37 +169,37 @@
 	#minecolonies.config.barbarianhordedifficulty.comment
 	#Range: 0 ~ 10
 	barbarianhordedifficulty = 5
-	#The average amount of nights between raids. [Default: 3]
+	#The average number of nights between raids. [Default: 3]
 	#Range: 1 ~ 10
 	averagenumberofnightsbetweenraids = 7
 	#Damage multiplier for Knight Guards. [Default: 1.0]
 	#Range: 0.1 ~ 5.0
 	knightdamagemult = 1.0
-	#Turn on Minecolonies pvp mode, attention (colonies can be destroyed and can be griefed under certain conditions). [Default: false]
+	#Turn on MineColonies pvp mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 	#minecolonies.config.shouldraiderbreakdoors.comment
 	shouldraiderbreakdoors = true
-	#Max Y level for Barbarians to spawn. [Default: 200]
+	#Max Y level (height) for Barbarians to spawn. [Default: 200]
 	#Range: 1 ~ 500
 	maxyforbarbarians = 200
 	#Whether or not to spawn barbarians. [Default: true]
 	dobarbariansspawn = true
-	#Damage multiplier for Ranger Guards. [Default: 1.0]
+	#Damage multiplier for Archer Guards. [Default: 1.0]
 	#Range: 0.1 ~ 5.0
 	rangerdamagemult = 1.0
-	#The spawn size of a barbarian horde. [Default: 5]
+	#The min size of a barbarian horde. [Default: 5]
 	#Range: 1 ~ 10
 	spawnbarbariansize = 5
-	#Should Guard Rangers benefit from Power/Smite/Bane of Arthropods enchants? [Default: true]
+	#Should Archer Guards benefit from Power/Punch/Flame enchants (on bows)? [Default: true]
 	rangerenchants = true
 
 #All permission configuration options
 [permissions]
-	#Blocks players should be able to final ForgeConfigSpec.IntValueeract with in any colony (Ex vending machines)
+	#Blocks players should be able to interact with in any colony (ex: vending machines)
 	freetointeractblocks = ["dirt", "0 0 0"]
-	#Should the colony protection be enabled? [Default: true]
+	#Should colony protection be enabled? [Default: true]
 	enablecolonyprotection = true
-	#Independent from the colony protection, should explosions be turned off? [Default: true]
+	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]
 	turnoffexplosionsincolonies = true
 	#Seconds between permission messages. [Default: 30]
 	#Range: 1 ~ 1000
@@ -209,12 +209,12 @@
 
 #All configuration related to mod compatibility
 [compatibility]
-	#Experience multiplier of the enchanter (how much more experience does he get from a citizen than he drains) [Default: 2.0]
+	#Experience multiplier of the enchanter (how much more experience do they get from a citizen than they drain). [Default: 2.0]
 	#Range: 1.0 ~ 10.0
 	enchanterexperiencemultiplier = 2.0
 	#minecolonies.config.extraores.comment
 	extraOres = ["minestuck:ore_cruxite", "minestuck:ore_uranium"]
-	#The items and item-tags that the florist can plant.
+	#The items and item-tags that the Florist can plant.
 	listofplantables = ["minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:fern", "minecraft:sugar_cane", "minecraft:cactus", "small_flowers"]
 	#minecolonies.config.siftableblocks.comment
 	siftableblocks = ["minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:soul_sand"]
@@ -222,7 +222,7 @@
 	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honeycomb,minecraft:golden_apple"]
 	#minecolonies.config.configliststudyitems.comment
 	configliststudyitems = ["minecraft:paper;400;100"]
-	#The possible enchantments for the enchanter
+	#The possible enchantments for the enchanter.
 	enchantments = ["1,minecraft:aqua_affinity,1,50", "1,minecraft:bane_of_arthropods,1,50", "1,minecraft:blast_protection,1,50", "1,minecraft:depth_strider,1,50", "1,minecraft:feather_falling,1,50", "1,minecraft:fire_aspect,1,50", "1,minecraft:fire_protection,1,50", "1,minecraft:flame,1,50", "1,minecraft:frost_walker,1,50", "1,minecraft:knockback,1,50", "1,minecraft:looting,1,50", "1,minecraft:power,1,50", "1,minecraft:projectile_protection,1,50", "1,minecraft:protection,1,50", "1,minecraft:punch,1,50", "1,minecraft:respiration,1,50", "1,minecraft:sharpness,1,50", "1,minecraft:smite,1,50", "1,minecraft:sweeping,1,50", "1,minecraft:unbreaking,1,50", "2,minecraft:aqua_affinity,2,25", "2,minecraft:bane_of_arthropods,2,25", "2,minecraft:blast_protection,2,25", "2,minecraft:depth_strider,2,25", "2,minecraft:feather_falling,2,25", "2,minecraft:fire_aspect,2,25", "2,minecraft:fire_protection,2,25", "2,minecraft:flame,2,25", "2,minecraft:frost_walker,2,25", "2,minecraft:knockback,2,25", "2,minecraft:looting,2,25", "2,minecraft:power,2,25", "2,minecraft:projectile_protection,2,25", "2,minecraft:protection,2,25", "2,minecraft:punch,2,25", "2,minecraft:respiration,2,25", "2,minecraft:sharpness,2,25", "2,minecraft:smite,2,25", "2,minecraft:sweeping,2,25", "2,minecraft:unbreaking,2,25", "3,minecraft:aqua_affinity,3,15", "3,minecraft:bane_of_arthropods,3,15", "3,minecraft:blast_protection,3,15", "3,minecraft:depth_strider,3,15", "3,minecraft:feather_falling,3,15", "3,minecraft:fire_aspect,3,15", "3,minecraft:fire_protection,3,15", "3,minecraft:flame,3,15", "3,minecraft:frost_walker,3,15", "3,minecraft:knockback,3,15", "3,minecraft:looting,3,15", "3,minecraft:power,3,15", "3,minecraft:projectile_protection,3,15", "3,minecraft:protection,3,15", "3,minecraft:punch,3,15", "3,minecraft:respiration,3,15", "3,minecraft:sharpness,3,15", "3,minecraft:smite,3,15", "3,minecraft:sweeping,3,15", "3,minecraft:unbreaking,3,15", "4,minecraft:aqua_affinity,4,5", "4,minecraft:bane_of_arthropods,4,5", "4,minecraft:blast_protection,4,5", "4,minecraft:depth_strider,4,5", "4,minecraft:feather_falling,4,5", "4,minecraft:fire_aspect,4,5", "4,minecraft:fire_protection,4,5", "4,minecraft:flame,4,5", "4,minecraft:frost_walker,4,5", "4,minecraft:infinity,1,5", "4,minecraft:knockback,4,5", "4,minecraft:looting,4,5", "4,minecraft:power,4,5", "4,minecraft:projectile_protection,4,5", "4,minecraft:protection,4,5", "4,minecraft:punch,4,5", "4,minecraft:respiration,4,5", "4,minecraft:sharpness,4,5", "4,minecraft:smite,4,5", "4,minecraft:sweeping,4,5", "4,minecraft:unbreaking,4,5", "5,minecraft:aqua_affinity,5,1", "5,minecraft:bane_of_arthropods,5,1", "5,minecraft:blast_protection,5,1", "5,minecraft:depth_strider,5,1", "5,minecraft:feather_falling,5,1", "5,minecraft:fire_aspect,5,1", "5,minecraft:fire_protection,5,1", "5,minecraft:flame,5,1", "5,minecraft:frost_walker,5,1", "5,minecraft:infinity,1,1", "5,minecraft:knockback,5,1", "5,minecraft:looting,5,1", "5,minecraft:mending,1,1", "5,minecraft:power,5,1", "5,minecraft:projectile_protection,5,1", "5,minecraft:protection,5,1", "5,minecraft:punch,5,1", "5,minecraft:respiration,5,1", "5,minecraft:sharpness,5,1", "5,minecraft:smite,5,1", "5,minecraft:sweeping,5,1", "5,minecraft:unbreaking,5,1"]
 	#minecolonies.config.siftermeshes.comment
 	siftermeshes = ["minecraft:string,0", "minecraft:flint,0.1", "minecraft:iron_ingot,0.1", "minecraft:diamond,0.1"]
@@ -234,7 +234,7 @@
 	crusherproduction = ["minecraft:cobblestone!minecraft:gravel", "minecraft:gravel!minecraft:sand", "minecraft:sand!minecraft:clay"]
 	#minecolonies.config.guardresourcelocations.comment
 	guardresourcelocations = ["minecraft:slime", "tconstruct:blueslime"]
-	#Harvest trunk-size for dynamic trees:1-8. [Default: 5]
+	#Forester harvest trunk size for dynamic trees: 1-8. [Default: 5]
 	#Range: 1 ~ 5
 	dynamictreeharvestsize = 5
 	#minecolonies.config.debuginventories.comment
@@ -251,7 +251,7 @@
 	#Amount of additional threads to be used for pathfinding. [Default: 2]
 	#Range: 1 ~ 10
 	pathfindingmaxthreadcount = 2
-	#Draw pathfinding paths (might be laggy). [Default: false]
+	#Show pathfinding paths (might be laggy). [Default: false]
 	pathfindingdebugdraw = false
 	#Verbosity of pathfinding. [Default: 0]
 	#Range: 0 ~ 10
@@ -259,7 +259,7 @@
 	#minecolonies.config.minimumrailstopath.comment
 	#Range: 5 ~ 100
 	minimumrailstopath = 5
-	#Max amount of Nodes(positions) to map during pathfinding. Lowering increases performance, but might lead to pathing glitches. [Default: 5000]
+	#Max amount of nodes (positions) to map during pathfinding. Lowering increases performance, but might lead to pathing glitches. [Default: 5000]
 	#Range: 1 ~ 10000
 	pathfindingmaxnodes = 5000
 
@@ -270,17 +270,17 @@
 	maximalretries = 3
 	#Should the request system creatively resolve (if possible) when the player is required to resolve a request. [Default: false]
 	creativeresolve = false
-	#Should the player be allowed to use the '/mc colony rs reset' command? [Default: false]
+	#Should a player be allowed to use the /mc colony rs reset command? [Default: false]
 	canplayeruseresetcommand = false
 	#The amount of ticks between retries of the request system for retryable requests. Lower increases server load. [Default: 1200]
 	#Range: 30 ~ 10000
 	delaybetweenretries = 1200
-	#The maximal amount of buildings the Delivery Man should try to gather before attempting a drop off at the warehouse. [Default: 6]
+	#The maximal amount of buildings the Courier should try to gather from before attempting a drop off at the warehouse. [Default: 6]
 	#Range: 1 ~ 50
 	maximalbuildingstogather = 6
-	#Should the request system prfinal ForgeConfigSpec.IntValue out debug information? Useful in case of malfunctioning of set system. [Default: false]
+	#Should the request system show debug information? Useful if malfunctioning. [Default: false]
 	enabledebuglogging = false
-	#The minimal amount of buildings the Delivery Man should try to gather before attempting a drop off at the warehouse. [Default: 3]
+	#The minimal amount of buildings the Courier should try to gather from before attempting a drop off at the warehouse. [Default: 3]
 	#Range: 1 ~ 50
 	minimalbuildingstogather = 3
 
@@ -362,6 +362,8 @@
 	reinforced = ["minecraft:diamond*32"]
 	#minecolonies.config.resistance.comment
 	resistance = ["minecraft:golden_apple*1"]
+	#minecolonies.config.nightowl2.comment
+	nightowl2 = ["minecraft:golden_carrot*75"]
 	#minecolonies.config.gildedhammer.comment
 	gildedhammer = ["minecraft:gravel*64", "minecraft:sand*64", "minecraft:clay*64"]
 	#minecolonies.config.evasion.comment
@@ -464,6 +466,8 @@
 	improvedevasion = ["minecraft:diamond*16"]
 	#minecolonies.config.space.comment
 	space = ["minecolonies:blockminecoloniesrack*16"]
+	#minecolonies.config.nightowl.comment
+	nightowl = ["minecraft:golden_carrot*25"]
 	#minecolonies.config.boiledleather.comment
 	boiledleather = ["minecraft:leather*64"]
 	#minecolonies.config.whirlwind.comment

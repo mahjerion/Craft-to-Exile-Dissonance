@@ -17,9 +17,7 @@
       "nether"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [
-      -1
-    ],
+    "dimensionIds": [],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [
@@ -113,5 +111,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

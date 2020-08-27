@@ -14,7 +14,8 @@
       "monster",
       "beast",
       "portal",
-      "nether"
+      "nether",
+	  "end"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -42,7 +43,7 @@
   "width": 0.9,
   "height": 0.9,
   "experience": 5,
-  "health": 6,
+  "health": 5,
   "defense": 0,
   "armor": 0,
   "speed": 36,
@@ -137,5 +138,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1
+  "hitboxScale": 2
 }

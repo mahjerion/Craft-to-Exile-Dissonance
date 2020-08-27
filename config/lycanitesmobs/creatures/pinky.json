@@ -46,11 +46,11 @@
   "width": 1.6,
   "height": 1.9,
   "experience": 5,
-  "health": 37,
+  "health": 30,
   "defense": 0,
   "armor": 0,
   "speed": 28,
-  "damage": 3,
+  "damage": 2,
   "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -142,7 +142,7 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 2,
   "mountOffset": [
     0,
     1.1,

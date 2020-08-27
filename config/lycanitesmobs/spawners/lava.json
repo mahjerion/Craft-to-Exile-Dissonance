@@ -3,7 +3,7 @@
   "type": "spawner",
   "enabled": true,
   "loadDefault": false,
-  "mobCountMin": 2,
+  "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,
@@ -20,8 +20,8 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 0.25,
-      "tickRate": 400
+      "chance": 0.05,
+      "tickRate": 800
     }
   ],
   "locations": [

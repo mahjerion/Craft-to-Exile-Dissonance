@@ -1,0 +1,7 @@
+
+#Server settings
+[Server]
+	#Defines the amount of uses the Diamond TelePass has [Default: 1000]
+	#Range: > 0
+	diamondDurability = 10
+

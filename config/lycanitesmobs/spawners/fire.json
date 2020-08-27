@@ -1,7 +1,7 @@
 {
   "name": "fire",
   "type": "spawner",
-  "enabled": true,
+  "enabled": false,
   "loadDefault": false,
   "mobCountMin": 4,
   "ignoreDimensions": true,
@@ -10,9 +10,7 @@
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [
-        "minecraft:the_nether"
-      ],
+      "dimensionIds": [],
       "dimensionListType": "whitelist"
     }
   ],

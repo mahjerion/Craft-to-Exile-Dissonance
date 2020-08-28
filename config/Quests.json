@@ -9361,7 +9361,7 @@
       "id": 223,
       "icon": "telepass:diamond_telepass",
       "title": "Friends Forever",
-      "text": "The telepass is a special item that unlike other items, offers no benefit to yourself. It allows other players to teleport to you. Each telepass has 10 uses.",
+      "text": "The telepass is a special item that unlike other items, offers no benefit to yourself. It allows other players to teleport to you as long as you're in the same dimension and online. Each telepass has 10 uses.",
       "dependencies": [
         0
       ],

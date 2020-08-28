@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.5b] - 2020-08-27
+
+### Updates
+- Added additional information to TelePass quest.
+
+### Mod Changes
+- Temporarily removed Lootr.
+- Temporarily removed FPS Reducer.
+
+### Fixes
+- Fixed some issues with spawning in causing crashes.
+- Fixed having advanced tooltips on by default.
+
 ## [2.2.5] - 2020-08-27
 
 ### Updates

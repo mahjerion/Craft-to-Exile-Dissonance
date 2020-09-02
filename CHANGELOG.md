@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.6] - 2020-09-02
+
+## Updates
+- Added the Tool Belt mod which introduces the tool belt. Access the radial menu with the tool belt key (Default: V) after equipping it. The default is V for new installations of CtE. If you're updating then you'll need to change it from 'R'.
+- Added a quest line showing off the tool belt in the Homestead chapter.
+- Doubled Nether spawn rates - overtuned the nerf a few patches ago.
+- Further reduced some Nether quest requirements to better reflect the Nether spawn nerf.
+- Enabled the gold telepass which is one-time-use telepass and changed the quest to require the gold pass instead.
+- Improved quest information for 'Your Engineering Degree' indicating you need to complete 'Mining Dimension' first.
+- Added all saplings to the Farming for Blockheads shop.
+- Increased emerald cost of non-vanilla seeds and saplings slightly.
+- Crafting polished Create rocks will now create 4 at a time instead of just 1.
+- Moved FPS display to bottom-left from top-right.
+
+## Mod Updates
+- Updated MineColonies, Immersive Engineering, Structurize, TelePass, Xaero's.
+- Added FPS Reducer.
+- Added Login Protection - I've set a 15 second grace period within 4 blocks upon spawn.
+- Added Tool Belt.
+
+## Fixes
+- Fixed zombies leaping too high.
+- Fixed geists not spawning.
+- Fixed changes I've made with Nasty skeletons not applying.
+- Fixed aegis not doing damage.
+- Zombie horses should no longer spawn like crazy.
+- TelePass config should work now.
+
 ## [2.2.5b] - 2020-08-27
 
 ### Updates

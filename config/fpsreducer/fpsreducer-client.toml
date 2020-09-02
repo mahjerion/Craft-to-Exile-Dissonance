@@ -3,7 +3,7 @@
 [general]
 	#Reference position of HUD.
 	#Range: 1 ~ 8
-	hudReferencePos = 3
+	hudReferencePos = 7
 	#Frame rate during reducing.
 	#Range: 1 ~ 60
 	idleFps = 10

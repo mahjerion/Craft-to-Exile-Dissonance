@@ -2093,7 +2093,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:astaroth",
-              "amount": 5
+              "amount": 3
             }
           ]
         }
@@ -2133,7 +2133,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:trite",
-              "amount": 15
+              "amount": 10
             }
           ]
         }
@@ -2173,7 +2173,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:salamander",
-              "amount": 5
+              "amount": 3
             }
           ]
         }
@@ -2213,7 +2213,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:belph",
-              "amount": 5
+              "amount": 3
             }
           ]
         }
@@ -2253,7 +2253,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:afrit",
-              "amount": 15
+              "amount": 5
             }
           ]
         }
@@ -2293,7 +2293,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:pinky",
-              "amount": 10
+              "amount": 5
             }
           ]
         }
@@ -2333,7 +2333,7 @@
           "sub_requirements": [
             {
               "entity": "lycanitesmobs:behemoth",
-              "amount": 5
+              "amount": 3
             }
           ]
         }
@@ -4247,10 +4247,10 @@
       "id": 96,
       "icon": "immersiveengineering:manual",
       "title": "Your Engineering Degree",
-      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension!",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension! Note: you will need to have also completed the \u0027Mining Dimension\u0027 quest in Act III to access this quest.",
       "dependencies": [
-        134,
-        187
+        112,
+        134
       ],
       "requirements": [
         {
@@ -9359,9 +9359,9 @@
     },
     {
       "id": 223,
-      "icon": "telepass:diamond_telepass",
+      "icon": "telepass:gold_telepass",
       "title": "Friends Forever",
-      "text": "The telepass is a special item that unlike other items, offers no benefit to yourself. It allows other players to teleport to you as long as you're in the same dimension and online. Each telepass has 10 uses.",
+      "text": "The telepass is a special item that unlike other items, offers no benefit to yourself. It allows other players to teleport to you as long as you\u0027re in the same dimension and online. The gold telepass is one-time-use and the diamond variant has 10 uses.",
       "dependencies": [
         0
       ],
@@ -9370,9 +9370,9 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "telepass:diamond_telepass",
+              "item": "telepass:gold_telepass",
               "amount": 1,
-              "nbt": "{Damage:0}"
+              "nbt": "{}"
             }
           ]
         }
@@ -9396,6 +9396,72 @@
       "position": [
         0,
         100
+      ]
+    },
+    {
+      "id": 224,
+      "icon": "toolbelt:belt",
+      "title": "Handyman",
+      "text": "The tool belt is a useful tool that occupies the Curios belt slot. Press the tool belt key (default: V) to access the radial menu! Right click while holding the tool belt to view which tools are currently equipped on the tool belt.",
+      "dependencies": [
+        0
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "toolbelt:belt",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 500"
+          }
+        }
+      ],
+      "position": [
+        0,
+        250
+      ]
+    },
+    {
+      "id": 225,
+      "icon": "toolbelt:pouch",
+      "title": "Handyman+",
+      "text": "The tool belt by default only comes with 2 slots. That\u0027s not nearly enough for all of your tools! Upgrade your tool belt using an anvil with a pouch to increase the number of tools you can have equipped.",
+      "dependencies": [
+        224
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "toolbelt:pouch",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        50,
+        250
       ]
     }
   ]

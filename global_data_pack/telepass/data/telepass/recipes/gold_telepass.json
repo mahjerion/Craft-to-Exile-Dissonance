@@ -1,9 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
-    "#X#",
-    " # "
+    "#X#"
   ],
   "key": {
     "#": {
@@ -14,6 +12,6 @@
     }
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "telepass:gold_telepass"
   }
 }

@@ -67,10 +67,10 @@
 	#Chance (1 in X) that a zombie spawns riding a zombie horse.
 	#Set to 0 to disable this feature.
 	#Range: 0 ~ 32767
-	Zombie_HorseChance = 16
+	Zombie_HorseChance = 0
 	#Chance (1 in X) for a newly spawned zombie to become a Zombie Champion
 	#Range: 0 ~ 32767
-	Zombie_ChampionChance = 200
+	Zombie_ChampionChance = 250
 	#Chance (1 in X) for a zombie to leap to the target.
 	#Set to 0 to disable this feature.
 	#Range: 0 ~ 32767
@@ -96,7 +96,7 @@
 	Zombie_HorseMinY = 63
 	#Amount of blocks the zombie jumps on leap attack.
 	#Range: 0.0 ~ 127.0
-	Zombie_LeapHeight = 1
+	Zombie_LeapHeight = 0.5
 	#Chance (1 in X) for a zombie to apply the hunger effect on attack.
 	#Set to 0 to disable this feature.
 	#Range: 0 ~ 32767

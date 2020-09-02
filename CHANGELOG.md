@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.2.6] - 2020-09-02
 
 ## Updates
-- Added the Tool Belt mod which introduces the tool belt. Access the radial menu with the tool belt key (Default: V) after equipping it. The default is V for new installations of CtE. If you're updating then you'll need to change it from 'R'.
+- Added the Tool Belt mod which introduces the tool belt. Access the radial menu with the tool belt key (Default: V) after equipping it. The default is 'V' for new installations of CtE. If you're updating then you'll need to change it from 'R'.
 - Added a quest line showing off the tool belt in the Homestead chapter.
 - Doubled Nether spawn rates - overtuned the nerf a few patches ago.
 - Further reduced some Nether quest requirements to better reflect the Nether spawn nerf.

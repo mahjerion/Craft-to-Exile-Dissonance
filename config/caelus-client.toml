@@ -1,0 +1,8 @@
+
+#Client only settings, mostly things related to rendering
+[client]
+	#Set to true to enable holding down the Trigger Elytra keybind to automatically use a firework from inventory to takeoff from ground level
+	simpleTakeoff = true
+	#Set to true to enable an icon that appears on the HUD when elytra flight is disabled
+	toggleIcon = true
+

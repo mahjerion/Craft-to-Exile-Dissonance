@@ -15,7 +15,9 @@
       "portal"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
+    "dimensionIds": [
+      "minecraft:the_nether"
+	],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [

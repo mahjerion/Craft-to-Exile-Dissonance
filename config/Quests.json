@@ -967,7 +967,7 @@
       "title": "Oooh Shiny",
       "text": "A villager in town is really addicted to unique ores and materials. Help them out by finding 50 quartz!",
       "dependencies": [
-        15
+        7
       ],
       "requirements": [
         {
@@ -4247,7 +4247,7 @@
       "id": 96,
       "icon": "immersiveengineering:manual",
       "title": "Your Engineering Degree",
-      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension! Note: you will need to have also completed the \u0027Mining Dimension\u0027 quest in Act III to access this quest.",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Once you\u0027ve familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions. Remember that IE ores only spawn in the mining dimension!",
       "dependencies": [
         112,
         134
@@ -5785,7 +5785,7 @@
       "id": 134,
       "icon": "create:mechanical_mixer",
       "title": "Making Brass",
-      "text": "When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots. However, you will need more rotational power for the mixer. Place smaller cogwheels diagonally next to large cogwheels and they will rotate at higher speeds than the large cogwheel. You can place a large cogwheel on the same axis as the small cogwheel and repeat the pattern to increase your RPM. However, doing so will increase stress on the machinery and as a result you can run less devices simultaneously on the same source of power.",
+      "text": "When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots. However, you will need more rotational power for the mixer. Place smaller cogwheels diagonally next to large cogwheels and they will rotate at higher speeds than the large cogwheel. You can place a large cogwheel on the same axis as the small cogwheel and repeat the pattern to increase your RPM. However, doing so will increase stress on the machinery and as a result you can run less devices simultaneously on the same source of power. Note: you will need to have also completed the \u0027Mining Dimension\u0027 quest in Act III to access the next quest.",
       "dependencies": [
         133
       ],

@@ -22,7 +22,7 @@
 	#Ticks it takes before a monster can start an attack.
 	attackWindup = 60
 	#The chance for a lava monster spawn attempt to be successful.
-	spawnChance = 0.05
+	spawnChance = 0.03
 	#If true, lava monsters will be able to spawn in lava one block deep.
 	shallowLava = false
 

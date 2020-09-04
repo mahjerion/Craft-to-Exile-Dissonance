@@ -7,9 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.7] - 2020-09-04
+
+### Updates
+- Increased spawns of certain mobs in Nether.
+- Decreased spawn rate of lava monsters slightly.
+
+### Mod Updates
+- Updated Corpse, Pam's HarvestCraft 2 Foodcore, TelePass, Performant, MineColonies.
+- Added Curious Elytra - adds a Curios slot for the elytra.
+- Added Inventory Totem - no longer need to hold totems for their effects to occur. Just have it in your inventory.
+
+### Fixes
+- No more HWYLA console spam caused when looking at a Corpse corpse. This also caused a fair bit of lag too. Rejoice!
+- TelePass's should work as intended now.
+- Fixed a dependency issue related to the 'Quartz' quest.
+- No more random suffocation when joining the world or the mining dimension.
+- Fixed having a second instance of the Mage's Robes set.
+- I put the text fix for 'Your Engineering Degree' in the wrong quest. Fixed.
+
 ## [2.2.6] - 2020-09-02
 
-## Updates
+### Updates
 - Added the Tool Belt mod which introduces the tool belt. Access the radial menu with the tool belt key (Default: V) after equipping it. The default is 'V' for new installations of CtE. If you're updating then you'll need to change it from 'R'.
 - Added a quest line showing off the tool belt in the Homestead chapter.
 - Doubled Nether spawn rates - overtuned the nerf a few patches ago.
@@ -21,13 +40,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Crafting polished Create rocks will now create 4 at a time instead of just 1.
 - Moved FPS display to bottom-left from top-right.
 
-## Mod Updates
+### Mod Updates
 - Updated MineColonies, Immersive Engineering, Structurize, TelePass, Xaero's.
 - Added FPS Reducer.
 - Added Login Protection - I've set a 15 second grace period within 4 blocks upon spawn.
 - Added Tool Belt.
 
-## Fixes
+### Fixes
 - Fixed zombies leaping too high.
 - Fixed geists not spawning.
 - Fixed changes I've made with Nasty skeletons not applying.

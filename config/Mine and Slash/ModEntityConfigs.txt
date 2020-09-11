@@ -737,8 +737,8 @@
       "MAX_LEVEL": 26,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.5,
+      "DMG_MULTI": 1.25,
+      "HP_MULTI": 1.25,
       "STAT_MULTI": 1.1
     },
     "nasty:skeleton": {

@@ -1,7 +1,7 @@
 #If only the owner of the corpse can access the inventory
 only_owner_access = true
 #If everybody can access the corpse in the skeleton stage (Only if only_owner_access is set to true)
-skeleton_access = false
+skeleton_access = true
 #The time passed after a corpse despawns (only if empty)
 #Range: > 20
 corpse_despawn_time = 600

@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "imi",
+    "m1m",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "tag": "create:copper_sheet"
+    },
+    "m": {
+      "item": "mmorpg:currency/add_secondary_stat"
+    },
+    "1": {
+      "item": "dankstorage:dank_1"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_2"
+  }
+}

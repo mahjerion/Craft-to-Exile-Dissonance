@@ -7304,8 +7304,8 @@
         }
       ],
       "position": [
-        300,
-        50
+        275,
+        25
       ]
     },
     {
@@ -7345,8 +7345,8 @@
         }
       ],
       "position": [
-        300,
-        100
+        275,
+        75
       ]
     },
     {
@@ -9462,6 +9462,262 @@
       "position": [
         50,
         250
+      ]
+    },
+    {
+      "id": 226,
+      "icon": "dankstorage:dank_1",
+      "title": "Dank Storage",
+      "text": "Dank Storage is a mod that adds an extremely versatile block that can store very large stacks of items. Additionally, you can upgrade the block from Dank 1 --\u003e Dank 7. Higher tiers of the block will store more items and larger stacks. One neat feature of these Dank Storage containers is that they are modal. By pressing the mode key (Default: J), you can change between chest, backpack, and construction modes. The chest mode function intuitively - place the block down and access it like a chest. Backpack mode lets you bring the block with you and access its contents on the move. Lastly, in construction mode, the block can no longer be placed down and will gain the enchantment glow to show that it\u0027s in construction mode. While in construction mode, the Dank Storage block has a selected slot - sneak+mousewheel will change the selected slot (skipping over empty ones). Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way. Finishing this quest will allow you to access the Dank Storage quests located in the Technology chapter. You will need to progress the technology quest line to unlock the Dank upgrades!",
+      "dependencies": [
+        114
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "dankstorage:dank_1",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "minecraft:leather",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000"
+          }
+        }
+      ],
+      "position": [
+        300,
+        50
+      ]
+    },
+    {
+      "id": 227,
+      "icon": "dankstorage:dank_2",
+      "title": "Dank Storage II",
+      "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
+      "dependencies": [
+        123,
+        226
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "dankstorage:dank_2",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "dankstorage:1_to_2",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2000"
+          }
+        }
+      ],
+      "position": [
+        175,
+        25
+      ]
+    },
+    {
+      "id": 228,
+      "icon": "dankstorage:dank_4",
+      "title": "Dank Storage IV",
+      "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
+      "dependencies": [
+        96,
+        226
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "dankstorage:dank_4",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "dankstorage:3_to_4",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 2500"
+          }
+        }
+      ],
+      "position": [
+        300,
+        100
+      ]
+    },
+    {
+      "id": 229,
+      "icon": "dankstorage:dank_6",
+      "title": "Dank Storage VI",
+      "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
+      "dependencies": [
+        228
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "dankstorage:dank_6",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "dankstorage:5_to_6",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 3000"
+          }
+        }
+      ],
+      "position": [
+        250,
+        100
+      ]
+    },
+    {
+      "id": 230,
+      "icon": "endermail:package",
+      "title": "Pack It Up",
+      "text": "Ender Mail brings packages that can be sent via Endermen couriers! Simply craft a package, put a stamp on it, and send it to your desired location (coordinates) with the package controller!",
+      "dependencies": [
+        223
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "endermail:package",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "endermail:packing_tape",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "endermail:stamp",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        25,
+        125
+      ]
+    },
+    {
+      "id": 231,
+      "icon": "endermail:locker",
+      "title": "Lock It Up",
+      "text": "Earlier I told you that packages could be sent to coordinates. But what if you wanted to send it to a location frequently? It would suck to have to type in the coordinates every time. In Ender Mail, you can craft a locker with a unique ID which can recieve packages for you!",
+      "dependencies": [
+        230
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "endermail:locker",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "endermail:package",
+            "amount": 2,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 1000"
+          }
+        }
+      ],
+      "position": [
+        25,
+        175
       ]
     }
   ]

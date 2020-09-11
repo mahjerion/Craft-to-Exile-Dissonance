@@ -396,7 +396,7 @@
 [world]
 	"New Stone Types" = true
 	"Lush Underground Biome" = true
-	"Big Dungeon" = true
+	"Big Dungeon" = false
 	Speleothems = true
 	Biotite = true
 	"Big Stone Clusters" = true
@@ -582,12 +582,12 @@
 		#The chance that a crystal can grow, this is on average 1 in X world ticks, set to a higher value to make them grow slower. Minimum is 1, for every tick. Set to 0 to disable growth.
 		"Cave Crystal Growth Chance" = 5
 		"Crystals Grow In Lava" = false
-		"Crystal Spawn Chance" = 0.025
+		"Crystal Spawn Chance" = 0.02
 		"Crystals Craft Runes" = true
 
 		[world.cave_crystal_underground_biome.biome_settings]
 			"Horizontal Size" = 42
-			Rarity = 400
+			Rarity = 600
 			"Min Y Level" = 0
 			"Horizontal Variation" = 22
 			"Max Y Level" = 64

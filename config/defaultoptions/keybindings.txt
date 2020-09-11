@@ -81,6 +81,7 @@ key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
 key_quark.keybind.change_hotbar:key.keyboard.z:NONE
 key_quark.keybind.back:key.mouse.4:NONE
+key_key.dankstorage.construction:key.keyboard.j
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE

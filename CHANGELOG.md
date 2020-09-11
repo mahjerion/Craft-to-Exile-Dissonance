@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] - 2020-09-11
+
+### Updates
+- Added a new storage solution! Dank Storage compresses NBT data and is relatively simplistic to use. It doesn't interfere with the aesthetic of the pack. I've tied it nicely with Mine and Slash and Create + Immersive Engineering. As a result, I've also added some quests to guide players in crafting the storage blocks. Dank is nice because the storage blocks actually triple up in functionality - they can be used as chests, backpacks, and tools (see in-game for details). Don't worry though! The current bags still have a use... they're just not as good in the late game!
+- Added a quest to showcase Ender Mail.
+- Removed the bullet, turret, railgun, and revolver recipes and from the JEI.
+- Increased dungeon spawn rates significantly across the board.
+- Corpse skeletons are now FFA-loot after 1 hour.
+- Increased rarity of Quark crystal caves slightly.
+
+### Mod Updates
+- Updated MineColonies, Serene Seasons, PackMenu.
+- Added Dank Storage.
+- Added Repurposed Structures.
+- Added Ender Mail.
+- Added Fire Walker.
+- Added Villager JEI.
+- Added Leaves Decay on other Leaves.
+- Added Vine Collector.
+
+### Fixes
+- Enabled Cacodemon spawns.
+- Fixed a possible crash involving ThutPerms.
+
 ## [2.2.7] - 2020-09-04
 
 ### Updates

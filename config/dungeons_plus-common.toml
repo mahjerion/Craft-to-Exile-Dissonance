@@ -12,7 +12,7 @@
 	biomes = "plains, forest, dark_forest, birch_forest, mountains"
 	#Chance of generating in an allowed chunk
 	#Range: 0.0 ~ 1.0
-	probability = 0.5
+	probability = 0.6
 
 [leviathan]
 	#Spacing between structures

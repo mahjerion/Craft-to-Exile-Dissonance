@@ -11,26 +11,26 @@
 		generate = true
 		#Castle Spawn Chance [default: 0.5]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.6
+		spawn_chance = 0.7
 		#Castle Distance (in chunks) [default: 40]
 		#Range: 1 ~ 500
-		distance = 40
+		distance = 34
 		#Castle Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 6
 
 	[structures.castle_ruin]
 		#Generate Castle Ruins?
 		generate = true
 		#Castle Ruin Spawn Chance [default: 0.6]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.7
+		spawn_chance = 0.8
 		#Castle Ruin Distance (in chunks) [default: 35]
 		#Range: 1 ~ 500
-		distance = 35
+		distance = 30
 		#Castle Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 7
 
 	[structures.desert_house]
 		#Generate Desert Houses?
@@ -40,17 +40,17 @@
 		spawn_chance = 0.8
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 25
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 7
 
 	[structures.forge]
 		#Generate Forges?
 		generate = true
 		#Forge Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.8
+		spawn_chance = 0.9
 		#Forge Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30
@@ -66,34 +66,34 @@
 		spawn_chance = 0.8
 		#Desert House Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 26
 		#Desert House Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 7
 
 	[structures.small_dungeon]
 		#Generate Small Dungeons?
 		generate = true
 		#Small Dungeon Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.8
+		spawn_chance = 0.85
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
-		distance = 30
+		distance = 25
 		#Small Dungeon Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 6
 
 	[structures.tower_ruin]
 		#Generate Tower Ruins?
 		generate = true
 		#Tower Ruin Spawn Chance [default: 0.8]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.8
+		spawn_chance = 0.9
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
-		distance = 25
+		distance = 20
 		#Tower Ruin Minimum Separation (in chunks) [default: 8]
 		#Range: 1 ~ 500
-		separation = 8
+		separation = 5
 

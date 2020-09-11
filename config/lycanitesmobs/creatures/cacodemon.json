@@ -9,7 +9,7 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
       "nethersky",
       "portal"

@@ -31,3 +31,32 @@ craftingTable.addShaped("ie_hammer", <item:immersiveengineering:hammer>,[
 
 craftingTable.removeRecipe(<item:immersiveengineering:manual>);
 craftingTable.addShapeless("manual", <item:immersiveengineering:manual>, [<item:minecraft:book>, <item:create:goggles>]);
+
+//Guns
+craftingTable.removeRecipe(<item:immersiveengineering:gunpart_barrel>);
+craftingTable.removeRecipe(<item:immersiveengineering:gunpart_drum>);
+craftingTable.removeRecipe(<item:immersiveengineering:gunpart_hammer>);
+craftingTable.removeRecipe(<item:immersiveengineering:revolver>);
+craftingTable.removeRecipe(<item:immersiveengineering:speedloader>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_bayonet>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_magazine>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_revolver_electro>);
+craftingTable.removeRecipe(<item:immersiveengineering:turret_gun>);
+craftingTable.removeRecipe(<item:immersiveengineering:railgun>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_railgun_scope>);
+craftingTable.removeRecipe(<item:immersiveengineering:toolupgrade_railgun_capacitors>);
+craftingTable.removeRecipe(<item:immersiveengineering:turret_chem>);
+craftingTable.removeRecipe(<item:immersiveengineering:mold_bullet_casing>);
+craftingTable.removeRecipe(<item:immersiveengineering:casull>);
+craftingTable.removeRecipe(<item:immersiveengineering:armor_piercing>);
+craftingTable.removeRecipe(<item:immersiveengineering:buckshot>);
+craftingTable.removeRecipe(<item:immersiveengineering:he>);
+craftingTable.removeRecipe(<item:immersiveengineering:silver>);
+craftingTable.removeRecipe(<item:immersiveengineering:dragons_breath>);
+craftingTable.removeRecipe(<item:immersiveengineering:potion>);
+craftingTable.removeRecipe(<item:immersiveengineering:flare>);
+craftingTable.removeRecipe(<item:immersiveengineering:firework>);
+craftingTable.removeRecipe(<item:immersiveengineering:homing>);
+craftingTable.removeRecipe(<item:immersiveengineering:wolfpack>);
+craftingTable.removeRecipe(<item:immersiveengineering:empty_casing>);
+craftingTable.removeRecipe(<item:immersiveengineering:empty_shell>);

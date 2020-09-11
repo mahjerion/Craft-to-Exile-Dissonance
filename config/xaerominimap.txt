@@ -22,7 +22,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:1
+zoom:0
 mapSize:-1
 entityAmount:1
 chunkGrid:-1
@@ -65,7 +65,7 @@ hideWorldNames:1
 openSlimeSettings:true
 alwaysShowDistance:false
 playerNames:true
-showLightLevel:false
+showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:false
 showTime:1
@@ -84,6 +84,7 @@ hideWaypointCoordinates:false
 renderAllSets:false
 playerArrowOpacity:50
 ignoreHeightmaps:false
+waypointsBottom:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

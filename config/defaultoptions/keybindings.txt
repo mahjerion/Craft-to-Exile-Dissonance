@@ -39,49 +39,17 @@ key_customquests.open_device_key:key.keyboard.grave.accent:NONE
 key_key.immersiveengineering.magnetEquip:key.keyboard.s:NONE
 key_key.immersiveengineering.railgunZoom:key.mouse.middle:NONE
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown:NONE
-key_key.toastcontrol.clear:key.keyboard.unknown:NONE
+key_doubleslabs.key.toggleVerticalSlabPlacement:key.keyboard.caps.lock:NONE
 key_key.death_history:key.keyboard.u:NONE
-key_key.midnight.config:key.keyboard.unknown:NONE
-key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:NONE
-key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:NONE
+key_key.toastcontrol.clear:key.keyboard.j:NONE
+key_key.midnight.config:key.keyboard.backslash:CONTROL
 key_fpsreducer.key.openGui:key.keyboard.end:NONE
 key_fpsreducer.key.forceIdle:key.keyboard.pause:NONE
 key_key.waila.config:key.keyboard.keypad.0:NONE
 key_key.waila.show_overlay:key.keyboard.keypad.1:NONE
 key_key.waila.toggle_liquid:key.keyboard.keypad.2:NONE
-key_key.invtweaks_sort_player.desc:key.keyboard.backslash:NONE
-key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent:NONE
-key_key.invtweaks_sort_either.desc:key.mouse.middle:NONE
-key_Main Hub Screen:key.keyboard.h:NONE
-key_Swap Spell Hotbar:key.keyboard.r:NONE
-key_Spell Hotbar key 2:key.keyboard.2:SHIFT
-key_Spell Hotbar key 4:key.keyboard.4:SHIFT
-key_Spell Hotbar key 5:key.keyboard.5:SHIFT
-key_Spell Hotbar key 1:key.keyboard.1:SHIFT
-key_Spell Hotbar key 3:key.keyboard.3:SHIFT
-key_key.endergetic.boof_vest:key.keyboard.space:NONE
-key_key.endergetic.booflo_inflate:key.keyboard.space:NONE
-key_key.endergetic.booflo_slam:key.keyboard.x:NONE
-key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
-key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
-key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
-key_neat.keybind.toggle:key.keyboard.unknown:NONE
-key_key.curios.open.desc:key.keyboard.unknown:NONE
-key_quark.keybind.lock_rotation:key.keyboard.k:NONE
-key_key.mount.dismount:key.keyboard.c:NONE
-key_key.mount.descend:key.keyboard.left.shift:NONE
-key_key.mount.ability:key.keyboard.x:NONE
-key_key.mount.inventory:key.keyboard.unknown:NONE
-key_key.index:key.keyboard.g:NONE
-key_key.beastiary:key.keyboard.unknown:NONE
-key_key.pets:key.keyboard.unknown:NONE
-key_key.summoning:key.keyboard.unknown:NONE
-key_key.minions:key.keyboard.n:NONE
 key_quark.keybind.transfer_insert:key.keyboard.unknown:NONE
 key_quark.keybind.transfer_extract:key.keyboard.unknown:NONE
-key_quark.keybind.change_hotbar:key.keyboard.z:NONE
-key_quark.keybind.back:key.mouse.4:NONE
-key_key.dankstorage.construction:key.keyboard.j
 key_quark.emote.no:key.keyboard.unknown:NONE
 key_quark.emote.yes:key.keyboard.unknown:NONE
 key_quark.emote.wave:key.keyboard.unknown:NONE
@@ -100,9 +68,44 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown:NONE
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown:NONE
+key_create.keyinfo.toolmenu:key.keyboard.left.alt:NONE
+key_quark.keybind.lock_rotation:key.keyboard.k:NONE
+key_key.dankstorage.construction:key.keyboard.n:NONE
+key_quark.keybind.change_hotbar:key.keyboard.z:NONE
+key_quark.keybind.camera_mode:key.keyboard.f12:NONE
 key_quark.keybind.sort_player:key.keyboard.unknown:NONE
 key_quark.keybind.sort_container:key.keyboard.unknown:NONE
-key_quark.keybind.camera_mode:key.keyboard.f12:NONE
+key_Main Hub Screen:key.keyboard.h:NONE
+key_Swap Spell Hotbar:key.keyboard.r:NONE
+key_Spell Hotbar key 3:key.keyboard.3:SHIFT
+key_Spell Hotbar key 5:key.keyboard.5:SHIFT
+key_Spell Hotbar key 1:key.keyboard.1:SHIFT
+key_Spell Hotbar key 2:key.keyboard.2:SHIFT
+key_Spell Hotbar key 4:key.keyboard.4:SHIFT
+key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:NONE
+key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:NONE
+key_quark.keybind.back:key.mouse.4:NONE
+key_key.clienttweaks.hideOffhandItem:key.keyboard.unknown:NONE
+key_key.clienttweaks.disableStepAssist:key.keyboard.unknown:NONE
+key_key.curios.open.desc:key.keyboard.g:NONE
+key_key.caelus.toggle.desc:key.keyboard.unknown:NONE
+key_key.caelus.trigger.desc:key.keyboard.unknown:NONE
+key_neat.keybind.toggle:key.keyboard.unknown:NONE
+key_key.invtweaks_sort_player.desc:key.keyboard.backslash:NONE
+key_key.invtweaks_sort_inventory.desc:key.keyboard.grave.accent:NONE
+key_key.invtweaks_sort_either.desc:key.mouse.middle:NONE
+key_key.mount.dismount:key.keyboard.c:NONE
+key_key.mount.descend:key.keyboard.left.shift:NONE
+key_key.mount.ability:key.keyboard.x:NONE
+key_key.mount.inventory:key.keyboard.unknown:NONE
+key_key.index:key.keyboard.g:NONE
+key_key.beastiary:key.keyboard.unknown:NONE
+key_key.pets:key.keyboard.unknown:NONE
+key_key.summoning:key.keyboard.unknown:NONE
+key_key.minions:key.keyboard.r:NONE
+key_key.endergetic.boof_vest:key.keyboard.space:NONE
+key_key.endergetic.booflo_inflate:key.keyboard.space:NONE
+key_key.endergetic.booflo_slam:key.keyboard.x:NONE
 key_gui.xaero_switch_waypoint_set:key.keyboard.unknown:NONE
 key_gui.xaero_instant_waypoint:key.keyboard.keypad.add:NONE
 key_gui.xaero_toggle_slime:key.keyboard.unknown:NONE
@@ -122,6 +125,9 @@ key_gui.xaero_open_settings:key.keyboard.right.bracket:NONE
 key_gui.xaero_map_zoom_in:key.keyboard.unknown:NONE
 key_gui.xaero_map_zoom_out:key.keyboard.unknown:NONE
 key_gui.xaero_quick_confirm:key.keyboard.right.shift:NONE
+key_key.trashslot.toggle:key.keyboard.t:NONE
+key_key.trashslot.delete:key.keyboard.delete:NONE
+key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
 key_key.craftingtweaks.rotate:key.keyboard.unknown:NONE
 key_key.craftingtweaks.rotate_counter_clockwise:key.keyboard.unknown:NONE
 key_key.craftingtweaks.balance:key.keyboard.unknown:NONE
@@ -137,13 +143,10 @@ key_key.craftingtweaks.decompressStack:key.keyboard.unknown:NONE
 key_key.craftingtweaks.decompressAll:key.keyboard.unknown:NONE
 key_key.craftingtweaks.refill_last:key.keyboard.tab:NONE
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab:NONE
-key_key.trashslot.toggle:key.keyboard.t:NONE
-key_key.trashslot.delete:key.keyboard.delete:NONE
-key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
-key_key.toolbelt.open:key.keyboard.v:NONE
+key_key.toolbelt.open:key.keyboard.r:NONE
 key_key.toolbelt.cycle.left:key.keyboard.unknown:NONE
 key_key.toolbelt.cycle.right:key.keyboard.unknown:NONE
-key_key.toolbelt.slot:key.keyboard.unknown:NONE
+key_key.toolbelt.slot:key.keyboard.v:NONE
 key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
 key_key.jei.toggleCheatMode:key.keyboard.unknown:NONE

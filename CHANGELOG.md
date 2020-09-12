@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0c] - 2020-09-XX
+
+### Fixes
+- Fixed TofuCraft boots recipes.
+- Fixed server not having the proper recipe for Dank Storage.
+
+## [2.3.0b] - 2020-09-12
+
+### Mod Updates
+- Updated MineColonies.
+
+### Fixes
+- Disabled Quark sorting with Dank.
+- MineColonies crashes experienced in 2.3.0 should be mostly handled.
+
 ## [2.3.0] - 2020-09-11
 
 ### Updates

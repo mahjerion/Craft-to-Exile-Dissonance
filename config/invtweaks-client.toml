@@ -36,6 +36,62 @@
 		containerClass = "mcjty.rftoolsutility.modules.crafter.blocks.CrafterContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen1"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen2"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen3"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen4"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen5"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen6"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$DankStorageScreen7"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen1"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen2"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen3"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen4"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen5"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen6"
+		sortRange = ""
+
+	[[sorting.containerOverrides]]
+		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen7"
+		sortRange = ""
+
 	#Categor(y/ies) for sorting
 	#
 	#name: the name of the category

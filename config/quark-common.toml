@@ -588,7 +588,7 @@
 		[world.cave_crystal_underground_biome.biome_settings]
 			"Horizontal Size" = 42
 			Rarity = 600
-			"Min Y Level" = 0
+			"Min Y Level" = 32
 			"Horizontal Variation" = 22
 			"Max Y Level" = 64
 			"Vertical Size" = 18

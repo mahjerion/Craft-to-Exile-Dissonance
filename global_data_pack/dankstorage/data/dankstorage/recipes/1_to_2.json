@@ -7,7 +7,7 @@
   ],
   "key": {
     "r": {
-      "tag": "create:copper_sheet"
+      "item": "create:copper_sheet"
     },
     "m": {
       "item": "mmorpg:currency/add_secondary_stat"

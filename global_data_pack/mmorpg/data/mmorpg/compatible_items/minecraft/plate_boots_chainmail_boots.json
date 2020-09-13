@@ -3,23 +3,23 @@
   "item_id": "minecraft:chainmail_boots",
   "id": "plate_boots:minecraft:chainmail_boots",
   "gear_type": {
-    "normal_item_weight": 80,
-    "runed_item_weight": 20,
+    "normal_item_weight": 100,
+    "runed_item_weight": 0,
     "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 4
+    "max_rarity": 2
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,
-    "add_to_loot_drops": true,
+    "add_to_loot_drops": false,
     "loot_drop_weight": 1000,
     "can_be_salvaged": false
   },
   "level": {
-    "min_level": 1,
-    "max_level": 2147483647,
+    "min_level": 11,
+    "max_level": 20,
     "level_variance": 0
   },
   "unique": {

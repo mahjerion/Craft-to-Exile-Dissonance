@@ -9,9 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.3.0c] - 2020-09-XX
 
+### Updates
+- Added in Lycanites quest descriptions which creature you're supposed to be hunting in case of pig bug.
+
+### Mod Updates
+- Updated Wither Skeleton Tweaks, CraftTweaker, MineColonies.
+
 ### Fixes
 - Fixed TofuCraft boots recipes.
 - Fixed server not having the proper recipe for Dank Storage.
+- Fixed a Quark crystal caves lag issue.
+- Fixed Dank recipe issues.
+- Fixed chainmail boots spawning at incorrect levels.
 
 ## [2.3.0b] - 2020-09-12
 

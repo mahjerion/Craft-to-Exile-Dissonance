@@ -2083,7 +2083,7 @@
       "id": 48,
       "icon": "lycanitesmobs:equipmentpart_astarothclaw",
       "title": "Exploring Fiery Depths",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish astaroth minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2123,7 +2123,7 @@
       "id": 49,
       "icon": "lycanitesmobs:equipmentpart_argustail",
       "title": "Squashing Bugs",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish trite minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2163,7 +2163,7 @@
       "id": 50,
       "icon": "lycanitesmobs:boulderblastcharge",
       "title": "Burning Hides",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish salamander minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2203,7 +2203,7 @@
       "id": 51,
       "icon": "lycanitesmobs:beastspawn",
       "title": "Heebie Jeebies",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish belph minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2243,7 +2243,7 @@
       "id": 52,
       "icon": "lycanitesmobs:scorchfireballcharge",
       "title": "Firebolt!",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish afrit minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2283,7 +2283,7 @@
       "id": 53,
       "icon": "lycanitesmobs:raw_pinky_meat",
       "title": "And The Brain",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish pinky minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2323,7 +2323,7 @@
       "id": 54,
       "icon": "lycanitesmobs:embercharge",
       "title": "Finding The Source",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish behemoth minions by force to find out where the Demons Lords Reside!",
       "dependencies": [
         36
       ],
@@ -2493,7 +2493,7 @@
       "id": 58,
       "icon": "lycanitesmobs:geistliver",
       "title": "What Are These Anyway?",
-      "text": "These morbid undead beings feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful!",
+      "text": "These morbid undead geist feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful!",
       "dependencies": [
         57
       ],
@@ -2533,7 +2533,7 @@
       "id": 59,
       "icon": "lycanitesmobs:cooked_pinky_meat",
       "title": "And The Brain II",
-      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "text": "Kill these pinky creatures in The End to prevent some from leaving the void and into the Overworld.",
       "dependencies": [
         57
       ],
@@ -2573,7 +2573,7 @@
       "id": 60,
       "icon": "lycanitesmobs:demonicblastcharge",
       "title": "Firing That Lazer",
-      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "text": "Kill these astaroth creatures in The End to prevent some from leaving the void and into the Overworld.",
       "dependencies": [
         57
       ],

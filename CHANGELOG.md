@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.3.0c] - 2020-09-XX
+## [2.3.0c] - 2020-09-14
 
 ### Updates
 - Added in Lycanites quest descriptions which creature you're supposed to be hunting in case of pig bug.

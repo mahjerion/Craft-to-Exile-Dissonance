@@ -1,6 +1,6 @@
 ---
 name: Mod Suggestion
-about: Suggest a mod for Craft to Exile [Dissonance]
+about: Suggest a mod(s) for Craft to Exile [Dissonance]
 title: "[MOD]"
 labels: mod suggestion
 assignees: ''

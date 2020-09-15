@@ -7,16 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.1] - 2020-09-15
+
 ### Updates
 - Configured some Good Night Sleep quests to help with progression. You now receive negatite and positite gems from the first quests to help with the second quest, and the negatite gem quest require 75% less negatite.
+- Disabled Quark vertical slabs as they're causing a few recipe issues that I can't seem to resolve.
 
 ### Mod Updates
 - Updated MineColonies.
 - Added Flesh 2 Leather [FORGE].
 - Downgraded Performant.
-
-### Fixes
-- Changed grindstone recipe to not conflict with vertical slabs.
 
 ## [2.3.0c] - 2020-09-14
 

@@ -405,7 +405,7 @@
 	doSpawning = true
 	#The spawn chance compared to other entities (typically between 6-20)
 	#Range: 1 ~ 9999
-	weight = 30
+	weight = 3
 	#Must be greater than 0
 	#Range: 1 ~ 9999
 	minGroup = 1

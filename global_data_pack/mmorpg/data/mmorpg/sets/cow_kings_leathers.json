@@ -1,0 +1,29 @@
+{
+  "id": "cow_kings_leathers",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.cow_kings_leathers",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_chest",
+          "leather_boots",
+          "leather_pants",
+          "leather_helmet"
+        ]
+      },
+      {
+        "min_level": 20,
+        "max_level": 50
+      }
+    ]
+  },
+  "mods": {
+    "2": "nature_resist_flat",
+	"3": "thunder_focus_flat",
+	"4": "bonus_all_drops_flat"
+  }
+}

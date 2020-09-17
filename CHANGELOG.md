@@ -10,9 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Added 2 new set items: Angelic Raiment and Cow King's Leathers!
 - Made the zotzpyre much rarer.
+- Reduced the power of the Wither some more.
 
 ### Mod Updates
-- Updated Xaero's.
+- Updated Xaero's, Aquaculture 2, MineColonies.
 
 ## [2.3.1] - 2020-09-15
 

@@ -31,7 +31,7 @@
   },
   "mods": {
     "2": "high_mana_flat",
-    "3": "all_ele_spell_dmg_flat",
+    "3": "spell_elemental_damage_flat",
     "4": "all_ele_dmg_flat"
   }
 }

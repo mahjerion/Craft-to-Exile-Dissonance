@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added 2 new set items: Angelic Raiment and Cow King's Leathers!
 - Made the zotzpyre much rarer.
 - Reduced the power of the Wither some more.
+- Made villages spawn a little more common.
+- Increased spawn rate of Dungeon Crawl dungeons.
 
 ### Mod Updates
 - Updated Xaero's, Aquaculture 2, MineColonies.

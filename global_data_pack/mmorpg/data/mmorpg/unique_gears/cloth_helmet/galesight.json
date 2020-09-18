@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "water_resist_flat",
-    "all_ele_spell_dmg_flat",
+    "spell_elemental_damage_flat",
     "water_penetration_flat"
   ],
   "can_get_set": false,

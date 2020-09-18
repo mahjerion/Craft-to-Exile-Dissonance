@@ -26,8 +26,8 @@
   "mods": {
     "2": "high_mana_regen_percent",
     "3": "cdr_flat",
-    "4": "all_ele_spell_dmg_flat",
+    "4": "spell_elemental_damage_flat",
     "5": "bonus_currency_drops_flat",
-    "6": "all_ele_spell_dmg_flat"
+    "6": "spell_elemental_damage_flat"
   }
 }

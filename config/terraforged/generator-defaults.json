@@ -77,8 +77,8 @@
       "separation": 20
     },
     "villages": {
-      "distance": 36,
-      "separation": 12
+      "distance": 24,
+      "separation": 8
     },
     "otherStructures": {
       "distance": 32,

@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "elemental_resist_flat",
-    "all_ele_spell_dmg_flat"
+    "spell_elemental_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {

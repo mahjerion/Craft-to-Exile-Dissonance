@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0] - 2020-09-18
+
 ### Updates
+- Huge update with many skill rebalances. Main highlights are: increased projectile speed, Divine and Hunting tree buffs, new Purifying Flames synergy, increased area of effect across the board. Flower and totem spells will feel MUCH better to use now! See the full changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3060008
 - Added 2 new set items: Angelic Raiment and Cow King's Leathers!
 - Made the zotzpyre much rarer.
 - Reduced the power of the Wither some more.
@@ -15,7 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased spawn rate of Dungeon Crawl dungeons.
 
 ### Mod Updates
-- Updated Xaero's, Aquaculture 2, MineColonies.
+- Updated Mine and Slash, Xaero's, Aquaculture 2, MineColonies.
+
+### Fixes
+- Lots of Mine and Slash fixes.
 
 ## [2.3.1] - 2020-09-15
 

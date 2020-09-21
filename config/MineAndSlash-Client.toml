@@ -2,27 +2,21 @@
 #Client Settings
 [CLIENT]
 	#.
+	SHOW_UNMET_GEAR_REQUIREMENTS_GUI = true
+	#.
 	SHOW_VANILLA_HEARTS = false
 	#.
 	#Allowed Values: Top_Left, Bottom_Middle, Bottom_Middle_Corners, Middle, Azure_Top_Left, Vanilla, NONE
 	PLAYER_GUI_TYPE = "Bottom_Middle_Corners"
 	#.
+	SHOW_AFFIXED_NAME = true
+	#.
 	#Range: 0 ~ 1000
 	REMOVE_EMPTY_TOOLTIP_LINES_IF_MORE_THAN_X_LINES = 35
 	#.
-	SHOW_LOW_ENERGY_MANA_WARNING = true
-	#.
-	#Range: -10000 ~ 10000
-	LEFT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
-	#.
-	#Range: -10000 ~ 10000
-	RIGHT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
-	#.
-	SHOW_UNMET_GEAR_REQUIREMENTS_GUI = true
-	#.
-	SHOW_AFFIXED_NAME = true
-	#.
 	RENDER_SIMPLE_MOB_BAR = true
+	#.
+	SHOW_LOW_ENERGY_MANA_WARNING = true
 	#.
 	RENDER_ITEM_NAMES_ON_GROUND = true
 	#.
@@ -61,4 +55,52 @@
 		Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
 		"Render with Interface Disabled (F1)" = false
 		"Color Health Bar by type (instead of health percentage)" = false
+
+#Azure Top Left Settings
+["Azure Bars"]
+	#Adjusts All Bars Downwards
+	#Range: 0 ~ 1000
+	AZURE_Y_POS_ADJUST = 0
+	#Adjusts All Bars Rightwards
+	#Range: 0 ~ 1000
+	AZURE_X_POS_ADJUST = 0
+
+#Bottom Middle Corner Bar Settings
+["Bottom Middle Corner Bars"]
+	#Adjusts Mana/Energy Rightwards
+	#Range: 0 ~ 1000
+	BMC_RIGHT_X_POS_ADJUST = 0
+	#Adjusts Mana/Energy Upwards
+	#Range: 0 ~ 1000
+	BMC_RIGHT_Y_POS_ADJUST = 0
+	#Adjusts HP/XP Leftwards
+	#Range: 0 ~ 1000
+	BMC_LEFT_X_POS_ADJUST = 0
+	#Adjusts HP/XP Upwards
+	#Range: 0 ~ 1000
+	BMC_LEFT_Y_POS_ADJUST = 0
+
+#Middle Bar Settings
+["Middle Bars"]
+	#Adjusts All Bars Upwards
+	#Range: 0 ~ 1000
+	MIDDLE_Y_POS_ADJUST = 0
+
+#Top Left Settings
+["Top Left Bars"]
+	#Adjusts All Bars Rightwards
+	#Range: 0 ~ 1000
+	TOPLEFT_X_POS_ADJUST = 0
+	#Adjusts All Bars Downwards
+	#Range: 0 ~ 1000
+	TOPLEFT_Y_POS_ADJUST = 0
+
+#Vanilla Bar Settings
+["Vanilla Bars"]
+	#.
+	#Range: 0 ~ 1000
+	LEFT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
+	#.
+	#Range: 0 ~ 1000
+	RIGHT_VANILLA_LIKE_BARS_Y__POS_ADJUST = 0
 

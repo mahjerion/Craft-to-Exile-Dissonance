@@ -1,7 +1,7 @@
 {
   "item_type": "charm",
   "item_id": "cte_uniques:hellfire",
-  "id": "charm:cte_uniques:hellfire",
+  "id": "charm:cte_uniques:storm_hellfire",
   "gear_type": {
     "normal_item_weight": 0,
     "runed_item_weight": 0,

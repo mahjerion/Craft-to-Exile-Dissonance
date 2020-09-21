@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.4.1] - 2020-09-20
 
 ### Mod Updates
+- Brought back Mine and Slash 3.7.1.
+
+### Fixes
 - Fixed CraftTweaker issues.
 
 ## [2.4.0] - 2020-09-18

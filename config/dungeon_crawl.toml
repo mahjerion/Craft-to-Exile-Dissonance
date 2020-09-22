@@ -10,7 +10,7 @@
 	#Range: 1.0E-4 ~ 1.0
 	dungeon_probability = 0.26
 	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
-	ignore_dimension = false
+	ignore_dimension = true
 
 #Dungeon Settings
 [dungeon]

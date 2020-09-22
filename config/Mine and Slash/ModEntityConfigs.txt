@@ -913,6 +913,19 @@
       "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
+    },
+    "minecolonies": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 2.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 0,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": true,
+      "LEVEL_MODIFIER": 3,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     }
   }
 }

@@ -36,3 +36,4 @@ craftingTable.removeRecipe(<item:mmorpg:identify_tome>);
 craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<item:minecraft:book>, <item:mmorpg:ore2>]);
 
 craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
+craftingTable.addShapeless("customquests", <item:customquests:questing_device>, [<item:minecraft:book>, <item:minecraft:bone>]);

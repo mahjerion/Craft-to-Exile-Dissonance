@@ -7,7 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.2] - 2020-09-21
+
+### Updates
+- Turned on Dungeon Crawl in other dimensions.
+- Added a recipe for the questing device: book and bone.
+
+### Mod Updates
+- Updated Mine and Slash, Pandora's Creatures, MineColonies, Immersive Engineering.
+- Added Back Tools.
+- Added Big Buckets.
+
+### Fixes
+- Fixed some missing localization for Mine and Slash.
+
 ## [2.4.1] - 2020-09-20
+
+### Updates
+- Re-enabled vertical slabs.
 
 ### Mod Updates
 - Brought back Mine and Slash 3.7.1.

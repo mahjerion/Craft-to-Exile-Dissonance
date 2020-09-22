@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.2b] - 2020-09-21
+
+### Mod Updates
+- Added iChunUtil - dependency of Back Tools and I forgot it.
+
 ## [2.4.2] - 2020-09-21
 
 ### Updates

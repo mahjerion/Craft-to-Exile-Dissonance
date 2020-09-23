@@ -3329,7 +3329,7 @@
       "id": 75,
       "icon": "lycanitesmobs:doomfireballcharge",
       "title": "Flame On!",
-      "text": "Lava monsters can be found in most dimensions that have lava. They\u0027re not very cool!",
+      "text": "Seems like we need to go back to the Nether and find some blazes!",
       "dependencies": [
         71
       ],
@@ -3338,8 +3338,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lava_monster:lava_monster",
-              "amount": 10
+              "entity": "minecraft:blaze",
+              "amount": 3
             }
           ]
         }

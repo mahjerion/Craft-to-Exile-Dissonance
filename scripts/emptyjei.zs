@@ -416,9 +416,6 @@ mods.jei.JEI.hideItem(<item:goodnightsleep:lolipop_bush>);
 mods.jei.JEI.hideItem(<item:goodnightsleep:dead_flower>);
 mods.jei.JEI.hideItem(<item:goodnightsleep:present>);
 
-//LavaMonster
-mods.jei.JEI.hideItem(<item:lava_monster:lava_monster_spawn_egg>);
-
 //Mine&Slash
 mods.jei.JEI.hideItem(<item:mmorpg:scrabble>);
 mods.jei.JEI.hideItem(<item:mmorpg:lootbox/small_gear_lootbox_4>);

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.3] - 2020-09-23
+
+### Updates
+- Sorry for constant updates, really trying to optimize the pack's performance atm.
+- New Nether update adds more 1.16.X content! Find piglins, hoglins, zoglins, and more!
+- Changed some world gen configs to hopefully improve server CPU load.
+- Made monster boxes rarer.
+
+### Mod Updates
+- Updated Nether Extended.
+- Removed Lava Monsters - huge CPU resource hog.
+
 ## [2.4.2c] - 2020-09-22
 
 ### Fixes

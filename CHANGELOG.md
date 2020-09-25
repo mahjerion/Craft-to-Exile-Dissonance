@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.4] - 2020-09-25
+
+### Updates
+- Reduced the rate at which MineColonies sends updates, and reduced maximum number of citizens, among other MineColonies performance changes. This should  help with server load.
+- Reduced power of Nasty's.
+- Reduced HP and damage of Wither and Ender Dragon by a bit (moreso the Wither).
+- With the update of Better Animals Plus, Hirschgeists and Zotzpyre have been removed. However, taming should now work again!
+- Changed some dungeon spawn rate values.
+
+### Mod Updates
+- Updated Xaero's (no more loss of map data upon updates!), Atum 2, Extended Nether, Better Animals Plus, Waystone2Waypoint, MineColonies.
+- Downgraded Extended Nether to 3.1.3 until they figure out the extreme server lag.
+- Added FTB Backups.
+
+### Fixes
+- Fixed scripting error (I'm so bad with this).
+
 ## [2.4.3] - 2020-09-23
 
 ### Updates

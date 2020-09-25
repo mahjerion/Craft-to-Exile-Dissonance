@@ -18,8 +18,7 @@ mods.jei.JEI.hideItem(<item:nasty:skeleton_spawn_egg>);
 mods.jei.JEI.hideItem(<item:nasty:wolf_spawn_egg>);
 mods.jei.JEI.hideItem(<item:nasty:explosive_arrow>);
 
-//Better Animals Plus
-mods.jei.JEI.hideItem(<item:betteranimalsplus:hirschgeist_spawn_egg>);
+//Better Animals Plu
 mods.jei.JEI.hideItem(<item:betteranimalsplus:blackbear_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:goat_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:deer_spawn_egg>);
@@ -41,7 +40,6 @@ mods.jei.JEI.hideItem(<item:betteranimalsplus:walrus_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:coyote_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:horseshoecrab_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:boar_spawn_egg>);
-mods.jei.JEI.hideItem(<item:betteranimalsplus:zotzpyre_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:crab_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:whale_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:tarantula_spawn_egg>);
@@ -49,6 +47,13 @@ mods.jei.JEI.hideItem(<item:betteranimalsplus:squirrel_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:songbird_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:nautilus_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:goose_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:flying_fish_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:piranha_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:barracuda_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:squid_giant_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:dragonfly_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:octopus_spawn_egg>);
+mods.jei.JEI.hideItem(<item:betteranimalsplus:butterfly_spawn_egg>);
 
 //Rotten Creatures
 mods.jei.JEI.hideItem(<item:rotten_creatures:dead_beard>);

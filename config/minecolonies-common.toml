@@ -3,18 +3,18 @@
 [gameplay]
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1]
 	#Range: 1 ~ 100
-	updaterate = 1
+	updaterate = 3
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
 	#Max citizens in one colony. [Default: 50]
 	#Range: 4 ~ 500
-	maxcitizenpercolony = 75
+	maxcitizenpercolony = 50
 	#Amount of blocks the Builder checks (to decrease lag). [Default: 1000]
 	#Range: 1000 ~ 100000
 	maxblockscheckedbybuilder = 1000
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5]
 	#Range: 1 ~ 100
-	diseasemodifier = 5
+	diseasemodifier = 10
 	#Should development features be enabled (might be buggy). [Default: false]
 	enableindevelopmentfeatures = false
 	#Should the Builder place construction tape? [Default: true]
@@ -34,7 +34,7 @@
 	allowinfinitesupplychests = false
 	#Average citizen respawn interval (in seconds). [Default: 60]
 	#Range: 10 ~ 600
-	citizenrespawninterval = 60
+	citizenrespawninterval = 90
 	#Should colonies in other dimensions be allowed? Note: This is buggy if the dimension doesn't have day/night! [Default: false]
 	allowotherdimcolonies = false
 	#Should workers work during the rain? [Default: false]
@@ -49,10 +49,10 @@
 	fisherprismarinechance = 2.5
 	#Chat frequency of worker requests. [Default: 30]
 	#Range: 1 ~ 100
-	chatfrequency = 30
+	chatfrequency = 20
 	#Food consumption modifier. Min: 1.0. [Default: 1.0]
 	#Range: 0.1 ~ 100.0
-	foodmodifier = 1.0
+	foodmodifier = 0.75
 	#Delay modifier to mine a block (decreasing it decreases the delay). [Default: 500]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
@@ -66,7 +66,7 @@
 	allowglobalnamechanges = 1
 	#Delay after each block placement (increasing it increases the delay). [Default: 15]
 	#Range: 1 ~ 500
-	builderbuildblockdelay = 15
+	builderbuildblockdelay = 20
 	#Amount of initial citizens. [Default: 4]
 	#Range: 1 ~ 10
 	initialcitizenamount = 4
@@ -114,7 +114,7 @@
 	canplayeruseaddofficercommand = true
 	#Time until a next teleport (to a colony) can be executed in seconds. [Default: 120]
 	#Range: 30 ~ 99999
-	teleportbuffer = 120
+	teleportbuffer = 240
 	#Should a player be allowed to use the /mc home command? [Default: true]
 	canplayerusehometpcommand = false
 	#Can a player teleport to allied colonies? [Default:true]
@@ -162,7 +162,7 @@
 	mobattackcitizens = false
 	#The max size of a barbarian horde. [Default: 20]
 	#Range: 6 ~ 400
-	maxBarbarianSize = 80
+	maxBarbarianSize = 20
 	#Health multiplier for all Guards. [Default: 1.0]
 	#Range: 0.1 ~ 5.0
 	guardhealthmult = 1.0
@@ -250,7 +250,7 @@
 [pathfinding]
 	#Amount of additional threads to be used for pathfinding. [Default: 2]
 	#Range: 1 ~ 10
-	pathfindingmaxthreadcount = 2
+	pathfindingmaxthreadcount = 4
 	#Show pathfinding paths (might be laggy). [Default: false]
 	pathfindingdebugdraw = false
 	#Verbosity of pathfinding. [Default: 0]
@@ -261,7 +261,7 @@
 	minimumrailstopath = 5
 	#Max amount of nodes (positions) to map during pathfinding. Lowering increases performance, but might lead to pathing glitches. [Default: 5000]
 	#Range: 1 ~ 10000
-	pathfindingmaxnodes = 5000
+	pathfindingmaxnodes = 3000
 
 #minecolonies.config.requestsystem.comment
 [requestSystem]
@@ -274,7 +274,7 @@
 	canplayeruseresetcommand = false
 	#The amount of ticks between retries of the request system for retryable requests. Lower increases server load. [Default: 1200]
 	#Range: 30 ~ 10000
-	delaybetweenretries = 1200
+	delaybetweenretries = 1500
 	#The maximal amount of buildings the Courier should try to gather from before attempting a drop off at the warehouse. [Default: 6]
 	#Range: 1 ~ 50
 	maximalbuildingstogather = 6

@@ -8,7 +8,7 @@
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.26
+	dungeon_probability = 0.25
 	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
 	ignore_dimension = true
 

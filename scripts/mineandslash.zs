@@ -37,3 +37,7 @@ craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<i
 
 craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
 craftingTable.addShapeless("customquests", <item:customquests:item_questing_device>, [<item:minecraft:book>, <item:minecraft:bone>]);
+
+craftingTable.removeRecipe(<item:waystones:waystone>);
+craftingTable.removeRecipe(<item:waystones:mossy_waystone>);
+craftingTable.removeRecipe(<item:waystones:sandy_waystone>);

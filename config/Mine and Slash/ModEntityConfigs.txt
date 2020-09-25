@@ -572,18 +572,70 @@
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
-    "betteranimalsplus:hirschgeist": {
-      "LOOT_MULTI": 2.0,
-      "EXP_MULTI": 5.0,
-      "MIN_RARITY": 1,
-      "MAX_RARITY": 3,
-      "MIN_LEVEL": 1,
-      "MAX_LEVEL": 30,
-      "LEVEL_TO_NEAREST_PLAYER": true,
-      "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.25,
-      "STAT_MULTI": 1.1
+    "betteranimalsplus:flying_fish": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 0,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "betteranimalsplus:piranha": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.5,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 0,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "betteranimalsplus:barracuda": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.5,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 0,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "betteranimalsplus:dragonfly": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "betteranimalsplus:butterfly": {
+      "LOOT_MULTI": 0.009999999776482582,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.2,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     },
     "minecraft:cod": {
       "LOOT_MULTI": 0.009999999776482582,
@@ -724,8 +776,8 @@
       "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.5,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.2,
       "STAT_MULTI": 1.1
     },
     "minecraft:wither": {
@@ -737,9 +789,9 @@
       "MAX_LEVEL": 26,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.05,
-      "HP_MULTI": 1.05,
-      "STAT_MULTI": 1.05
+      "DMG_MULTI": 0.5,
+      "HP_MULTI": 0.8,
+      "STAT_MULTI": 1.0
     },
     "nasty:skeleton": {
       "LOOT_MULTI": 2.0,
@@ -750,7 +802,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 0.9,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },

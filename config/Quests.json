@@ -3660,7 +3660,7 @@
       "id": 83,
       "icon": "minecraft:writable_book",
       "title": "Beastiary III",
-      "text": "Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven\u0027t noticed, many of these creatures are tameable and mountable. The Hirschgeist is a powerful skeletal deer that is immortal during the day, and hostile at night. You can find the Hirschgeist in forested biomes, or you can summon it by craft a hand of fate. Light the hand of fate with flint and steel, then offer a cut of raw venison, an antler, and a nether wart (in any order)",
+      "text": "Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven\u0027t noticed, many of these creatures are tameable and mountable. The boar is a creature you\u0027ve probably already encountered. You\u0027ll find them in plains in the Overworld!",
       "dependencies": [
         36
       ],
@@ -3669,8 +3669,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "betteranimalsplus:hirschgeist",
-              "amount": 1
+              "entity": "betteranimalsplus:boar",
+              "amount": 15
             }
           ]
         }

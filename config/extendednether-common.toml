@@ -1,6 +1,10 @@
-#add new biomes into the world generation
-getExternalBiomes = ""
-#modify the biome size
-#Range: 1 ~ 10
-getBiomeSize = 2
+
+#Client Settings
+[Client_Settings]
+	#ExtendedNether Main Menu Panorama.
+	Panorama = true
+	#Extended Nether's Biome Fog Settings.
+	#Applies to "Overworld" ONLY.
+	#Allowed Values: DENSEFOGCOLOR, DENSEFOG, FOGCOLOR, OFF
+	BiomeFog = "DENSEFOGCOLOR"
 

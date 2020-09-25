@@ -4,7 +4,7 @@
 	#Toggle Crab Spawning
 	crabSpawning = true
 	#Toggle Acidic Archvine Spawning
-	acidicArchvineSpawning = true
+	acidicArchvineSpawning = false
 	#Toggle Bufflon Spawning
 	bufflonSpawning = true
 	#Toggle Seahorse Spawning

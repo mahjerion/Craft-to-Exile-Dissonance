@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.4b] - 2020-09-25
+
+### Updates
+- I'm culling some recently added mods in hopes of addressing a memory leak issue.
+- Added a recipe for leather - 5 rotten flesh in an X.
+- Disabled acidic archvines.
+
+### Mod Updates
+- Removed Flesh2Leather, Inventory Totem, Leaves Decay On Other Leaves, Repurposed Structures, Back Tools, Big Buckets, iChunUtil.
+
 ## [2.4.4] - 2020-09-25
 
 ### Updates

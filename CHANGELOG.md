@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.5] - 2020-09-25
+
+### Mod Updates
+- Re-added Repurposed Structures. Seems stable enough...
+
+### Fixes
+- Fixed Midnight ore recipes to actually work.
+
 ## [2.4.4b] - 2020-09-25
 
 ### Updates

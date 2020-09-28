@@ -7,11 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Updates:
+### Updates
+- Quests can now be synced in a party! To create a team, use "/ftbteams create Name here". To change it's settings, use "/ftbteams settings <key> <value>", use tab to cycle through them.
 - Made Atum 'raids' much less frequent.
 - Disabled vertical slabs again.
 
 ### Mod Updates
+- Added FTB Teams.
 - Removed AI Improvements.
 - Removed JEI Professions.
 

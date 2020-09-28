@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates:
+- Made Atum 'raids' much less frequent.
 - Disabled vertical slabs again.
 
 ### Mod Updates

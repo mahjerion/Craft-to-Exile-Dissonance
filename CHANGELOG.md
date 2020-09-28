@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Removed AI Improvements.
+- Removed JEI Professions.
 
 ### Fixes
 - Fixed some quest command rewards.

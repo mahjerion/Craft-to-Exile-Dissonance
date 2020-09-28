@@ -4,17 +4,26 @@
 	order_index: 7,
 	title: "Act VI: Midnight",
 	icon: "midnight:dark_pearl",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "Eternal Darkness",
 			icon: "midnight:dark_pearl",
 			x: 0.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks in the Overworld - these will spawn a portal at night that allows you access The Midnight.",
 				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;390],
+			dependency_requirement: "all_completed",
 			id: 393,
 			tasks: [{
 				id: 394,
@@ -27,7 +36,7 @@
 				title: "225000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 225000
 					}
@@ -38,14 +47,19 @@
 			title: "Rift Seeker",
 			x: 1.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Rifters are prominent in The Midnight. Perhaps killing them will give you a clue as to how to get back"],
+			min_required_dependencies: 0,
 			dependencies: [I;393],
+			dependency_requirement: "all_completed",
 			id: 395,
 			tasks: [{
 				id: 396,
 				type: "kill",
 				entity: "midnight:rifter",
-				value: 20
+				value: 20L
 			}],
 			rewards: [
 				{
@@ -59,7 +73,7 @@
 					title: "312500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 312500
 						}
@@ -71,14 +85,19 @@
 			title: "Richard Rider",
 			x: 1.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The nova is a creature that can be easily mistaken for ores. What even makes them float?"],
+			min_required_dependencies: 0,
 			dependencies: [I;393],
+			dependency_requirement: "all_completed",
 			id: 397,
 			tasks: [{
 				id: 398,
 				type: "kill",
 				entity: "midnight:nova",
-				value: 20
+				value: 20L
 			}],
 			rewards: [
 				{
@@ -92,7 +111,7 @@
 					title: "312500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 312500
 						}
@@ -104,14 +123,19 @@
 			title: "This Ain't The Bumblezone",
 			x: 1.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["These tiny scorpion-looking things have enough venom in their stingers to kill you in 10 seconds... If you don't do anything."],
+			min_required_dependencies: 0,
 			dependencies: [I;393],
+			dependency_requirement: "all_completed",
 			id: 399,
 			tasks: [{
 				id: 400,
 				type: "kill",
 				entity: "midnight:stinger",
-				value: 20
+				value: 20L
 			}],
 			rewards: [
 				{
@@ -125,7 +149,7 @@
 					title: "312500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 312500
 						}
@@ -137,14 +161,19 @@
 			title: "From The Shadows",
 			x: 1.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Don't be deceived by the adorable look these creatures can give you. They say skulks bring more misfortune to those they cross than black cats. Be warned, skulks have the ability to blend with their surroundings."],
+			min_required_dependencies: 0,
 			dependencies: [I;393],
+			dependency_requirement: "all_completed",
 			id: 401,
 			tasks: [{
 				id: 402,
 				type: "kill",
 				entity: "midnight:skulk",
-				value: 20
+				value: 20L
 			}],
 			rewards: [
 				{
@@ -158,7 +187,7 @@
 					title: "312500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 312500
 						}
@@ -170,14 +199,19 @@
 			title: "Stick To The Basics",
 			x: 0.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You sense power emanating from everything - even the trees. Fetch some sticks and maybe the source of power can be analyzed."],
+			min_required_dependencies: 0,
 			dependencies: [I;393],
+			dependency_requirement: "all_completed",
 			id: 403,
 			tasks: [{
 				id: 404,
 				type: "item",
 				item: "midnight:dark_stick",
-				count: 64
+				count: 64L
 			}],
 			rewards: [
 				{
@@ -191,7 +225,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -203,14 +237,19 @@
 			title: "Obsidian?",
 			x: 1.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Nightstone is native to The Midnight. Rumours have it that if you stare into nightstone for too long, you'll succumb to eternal darkness."],
+			min_required_dependencies: 0,
 			dependencies: [I;403],
+			dependency_requirement: "all_completed",
 			id: 405,
 			tasks: [{
 				id: 406,
 				type: "item",
 				item: "midnight:nightstone",
-				count: 64
+				count: 64L
 			}],
 			rewards: [
 				{
@@ -224,7 +263,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -236,14 +275,19 @@
 			title: "Bad Kind Of Shroom",
 			x: 3.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Rock on! These shrooms look radical... Let's bring some back for SCIENCE."],
+			min_required_dependencies: 0,
 			dependencies: [I;405],
+			dependency_requirement: "all_completed",
 			id: 407,
 			tasks: [{
 				id: 408,
 				type: "item",
 				item: "midnight:rockshroom_clump",
-				count: 64
+				count: 64L
 			}],
 			rewards: [
 				{
@@ -257,7 +301,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -269,14 +313,19 @@
 			title: "Midnight Rifts",
 			x: 4.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Ebonite ore literally stands for black ore. It's even darker than nightstone, so it's probably a good idea to grab what we need and leave."],
+			min_required_dependencies: 0,
 			dependencies: [I;407],
+			dependency_requirement: "all_completed",
 			id: 409,
 			tasks: [{
 				id: 410,
 				type: "item",
 				item: "midnight:ebonite",
-				count: 48
+				count: 48L
 			}],
 			rewards: [
 				{
@@ -290,7 +339,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -302,14 +351,19 @@
 			title: "Pitch Black",
 			x: 6.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Nagrilite possesses a unique characteristic: it's dark and shiny!"],
+			min_required_dependencies: 0,
 			dependencies: [I;409],
+			dependency_requirement: "all_completed",
 			id: 411,
 			tasks: [{
 				id: 412,
 				type: "item",
 				item: "midnight:nagrilite_ingot",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -323,7 +377,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -335,14 +389,19 @@
 			title: "Tenebrum",
 			x: 7.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Tenebrum: darkness. Once forged, the darkness in this metal aborbs light, making it impervious to holy attacks."],
+			min_required_dependencies: 0,
 			dependencies: [I;411],
+			dependency_requirement: "all_completed",
 			id: 413,
 			tasks: [{
 				id: 414,
 				type: "item",
 				item: "midnight:tenebrum_ingot",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -356,7 +415,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -368,6 +427,9 @@
 			title: "Tofu..?",
 			x: 4.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"After all that work... you hear murmurs of death coming from a world made of tofu... Find soybean seeds in the Overworld from grass and make tofu. You can put tofu into the furnace to obtain grilled tofu.",
 				"To access this quest, you only need to complete at least 3 dependencies."
@@ -380,6 +442,7 @@
 				401,
 				411
 			],
+			dependency_requirement: "all_completed",
 			id: 415,
 			tasks: [{
 				id: 416,
@@ -398,7 +461,7 @@
 					title: "300000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 300000
 						}
@@ -410,11 +473,16 @@
 			title: "Tasting Salt In The Air",
 			x: 6.0d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The salt furnace is used in the production of tofu. Place the salt furnace under a cauldron, fill the cauldron with water, and provide a fuel source to the salt furnace.",
 				"You will begin to harvest salt. You can also harvest bittern with an empty bottle from the leftover water in the cauldron. This is the main ingredient to making tofu! Use the bottle of bittern on soy milk to turn it into tofu!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;415],
+			dependency_requirement: "all_completed",
 			id: 417,
 			tasks: [{
 				id: 418,
@@ -427,7 +495,7 @@
 				title: "300000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 300000
 					}
@@ -439,11 +507,15 @@
 			x: 7.5d,
 			y: 3.0d,
 			shape: "rsquare",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"To get to Tofu World, you will need to make a 3x3 well (1 block deep) out of grilled tofu. Ensure that it's completely surrounded. Pour soymilk from a bucked into the well, then right click it with a tofu stick. Good luck in the Tofu World.",
 				"Don't be deceived by the cute critters!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;417],
+			dependency_requirement: "all_completed",
 			id: 419,
 			tasks: [{
 				id: 420,
@@ -456,7 +528,7 @@
 				title: "300000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 300000
 					}

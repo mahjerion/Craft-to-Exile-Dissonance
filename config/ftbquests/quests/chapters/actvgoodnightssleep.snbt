@@ -4,23 +4,32 @@
 	order_index: 6,
 	title: "Act V: Good Night's Sleep",
 	icon: "goodnightsleep:strange_bed_item",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "Blissful Awakening",
 			icon: {
 				id: "goodnightsleep:rainbow_sword",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
 			},
 			x: 0.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Lucky you! You've accessed the Good Dream dimension, where you'll find unicorns and rainbows. You sense that something is wrong with the balance of positive and negative energy.",
 				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;339],
+			dependency_requirement: "all_completed",
 			id: 344,
 			tasks: [{
 				id: 345,
@@ -33,7 +42,7 @@
 				title: "77500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 77500
 					}
@@ -44,18 +53,23 @@
 			title: "Sleep Paralysis",
 			icon: {
 				id: "goodnightsleep:zitrite_sword",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
 			},
 			x: 0.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"How unfortunate. You've accessed the Nightmare dimension, where you'll find demons and darkness. You sense that something is wrong with the balance of positive and negative energy.",
 				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;339],
+			dependency_requirement: "all_completed",
 			id: 356,
 			tasks: [{
 				id: 357,
@@ -68,7 +82,7 @@
 				title: "77500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 77500
 					}
@@ -79,8 +93,13 @@
 			title: "Make Your Bed II",
 			x: 1.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Making a wretched bed using your negatite gem will allow you to freely access the Nightmare dimension."],
+			min_required_dependencies: 0,
 			dependencies: [I;356],
+			dependency_requirement: "all_completed",
 			id: 358,
 			tasks: [{
 				id: 359,
@@ -104,7 +123,7 @@
 					title: "100000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 100000
 						}
@@ -116,21 +135,26 @@
 			title: "In A Haze",
 			x: 3.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Find your bearings in this nightmare realm. Find and harvest planks native to this area to find out more about how the Nightmare dimensions works."],
+			min_required_dependencies: 0,
 			dependencies: [I;358],
+			dependency_requirement: "all_completed",
 			id: 360,
 			tasks: [
 				{
 					id: 361,
 					type: "item",
 					item: "goodnightsleep:blood_plank",
-					count: 32
+					count: 32L
 				},
 				{
 					id: 362,
 					type: "item",
 					item: "goodnightsleep:dead_plank",
-					count: 32
+					count: 32L
 				}
 			],
 			rewards: [
@@ -150,7 +174,7 @@
 					title: "137500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 137500
 						}
@@ -162,14 +186,19 @@
 			title: "The Source Of The Undead",
 			x: 3.0d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["After analysing the various wooden planks, you find out that they're imbued with undead energy. Find the source of the undead energy in the underground."],
+			min_required_dependencies: 0,
 			dependencies: [I;360],
+			dependency_requirement: "all_completed",
 			id: 363,
 			tasks: [{
 				id: 364,
 				type: "item",
 				item: "goodnightsleep:necrum",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -188,7 +217,7 @@
 					title: "162500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 162500
 						}
@@ -200,14 +229,19 @@
 			title: "Zits Are Evil",
 			x: 4.5d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Ever since arriving in the Nightmare realm, you notice your acne has gotten worse. Zitrite is believed to be increase 'acne-causing' radiation levels. Get rid of it!"],
+			min_required_dependencies: 0,
 			dependencies: [I;363],
+			dependency_requirement: "all_completed",
 			id: 365,
 			tasks: [{
 				id: 366,
 				type: "item",
 				item: "goodnightsleep:zitrite_ingot",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -226,7 +260,7 @@
 					title: "212500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 212500
 						}
@@ -238,14 +272,19 @@
 			title: "Negative Karma",
 			x: 6.0d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You sense a great disturbance in the balance of positive and negative energies. Harvest negatite gems - maybe you can do something with the positite and negatite gems."],
+			min_required_dependencies: 0,
 			dependencies: [I;365],
+			dependency_requirement: "all_completed",
 			id: 367,
 			tasks: [{
 				id: 368,
 				type: "item",
 				item: "goodnightsleep:negatite_gem",
-				count: 4
+				count: 4L
 			}],
 			rewards: [
 				{
@@ -264,7 +303,7 @@
 					title: "275000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 275000
 						}
@@ -276,14 +315,19 @@
 			title: "Flame On!",
 			x: 4.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Looks like you'll need some flame extract from blazes... Head back to the Nether and kill some blazes!"],
+			min_required_dependencies: 0,
 			dependencies: [I;360],
+			dependency_requirement: "all_completed",
 			id: 369,
 			tasks: [{
 				id: 370,
 				type: "kill",
 				entity: "minecraft:blaze",
-				value: 3
+				value: 3L
 			}],
 			rewards: [
 				{
@@ -291,7 +335,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:lootbox/medium_currency_lootbox_3",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -300,7 +344,7 @@
 					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 200000
 						}
@@ -312,14 +356,19 @@
 			title: "Unpleasantries",
 			x: 4.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Spectres freely roam between dimensions and wreak havoc on the psyche of any living organism. Wherever they go, they bring with them misfortune. Find them and destroy them."],
+			min_required_dependencies: 0,
 			dependencies: [I;369],
+			dependency_requirement: "all_completed",
 			id: 371,
 			tasks: [{
 				id: 372,
 				type: "kill",
 				entity: "lycanitesmobs:spectre",
-				value: 3
+				value: 3L
 			}],
 			rewards: [
 				{
@@ -333,7 +382,7 @@
 					title: "250000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 250000
 						}
@@ -345,8 +394,13 @@
 			title: "Make Your Bed",
 			x: 1.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Making a luxurious bed using your positite gem will allow you to freely access the Good Dream dimension without worrying about having a nightmare."],
+			min_required_dependencies: 0,
 			dependencies: [I;344],
+			dependency_requirement: "all_completed",
 			id: 373,
 			tasks: [{
 				id: 374,
@@ -370,7 +424,7 @@
 					title: "87500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 87500
 						}
@@ -382,14 +436,19 @@
 			title: "Sweet Tooth",
 			x: 1.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Since we're here, let's harvest some of the natural sweet foods of the realm... Starting with lolipops! Harvest lolipops from the lolipop bushes."],
+			min_required_dependencies: 0,
 			dependencies: [I;373],
+			dependency_requirement: "all_completed",
 			id: 375,
 			tasks: [{
 				id: 376,
 				type: "item",
 				item: "goodnightsleep:lolipop",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -408,7 +467,7 @@
 					title: "100000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 100000
 						}
@@ -420,27 +479,32 @@
 			title: "In A Daze",
 			x: 3.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["It's very peaceful in this dream world. It's to try to find clues first. Try harvesting natural materials to analyse their components."],
+			min_required_dependencies: 0,
 			dependencies: [I;373],
+			dependency_requirement: "all_completed",
 			id: 378,
 			tasks: [
 				{
 					id: 379,
 					type: "item",
 					item: "goodnightsleep:dream_plank",
-					count: 64
+					count: 64L
 				},
 				{
 					id: 380,
 					type: "item",
 					item: "goodnightsleep:dream_dirt",
-					count: 32
+					count: 32L
 				},
 				{
 					id: 381,
 					type: "item",
 					item: "goodnightsleep:white_plank",
-					count: 64
+					count: 64L
 				}
 			],
 			rewards: [
@@ -460,7 +524,7 @@
 					title: "125000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 125000
 						}
@@ -472,14 +536,19 @@
 			title: "Unicorns...",
 			x: 4.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Perhaps killing the most pure creature will provide hints..."],
+			min_required_dependencies: 0,
 			dependencies: [I;378],
+			dependency_requirement: "all_completed",
 			id: 382,
 			tasks: [{
 				id: 383,
 				type: "kill",
 				entity: "goodnightsleep:unicorn",
-				value: 10
+				value: 10L
 			}],
 			rewards: [
 				{
@@ -498,7 +567,7 @@
 					title: "150000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 150000
 						}
@@ -510,14 +579,19 @@
 			title: "Candyland",
 			x: 3.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Sweet ore? Maybe it's connected to the nightares... Definitely. Mine some and smelt them into candy to find out... for science."],
+			min_required_dependencies: 0,
 			dependencies: [I;378],
+			dependency_requirement: "all_completed",
 			id: 384,
 			tasks: [{
 				id: 385,
 				type: "item",
 				item: "goodnightsleep:candy",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -536,7 +610,7 @@
 					title: "137500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 137500
 						}
@@ -548,14 +622,19 @@
 			title: "Staying Positive",
 			x: 6.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Positite gems radiate with positive energy. Perhaps collecting a few of these will help us understand how to restore balance."],
+			min_required_dependencies: 0,
 			dependencies: [I;388],
+			dependency_requirement: "all_completed",
 			id: 386,
 			tasks: [{
 				id: 387,
 				type: "item",
 				item: "goodnightsleep:positite_gem",
-				count: 16
+				count: 16L
 			}],
 			rewards: [
 				{
@@ -574,7 +653,7 @@
 					title: "225000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 225000
 						}
@@ -586,14 +665,19 @@
 			title: "... And Rainbows!",
 			x: 4.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["This multi-coloured ore has red in it! It has red in it! Must be evil."],
+			min_required_dependencies: 0,
 			dependencies: [I;384],
+			dependency_requirement: "all_completed",
 			id: 388,
 			tasks: [{
 				id: 389,
 				type: "item",
 				item: "goodnightsleep:rainbow_ingot",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -612,7 +696,7 @@
 					title: "162500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 162500
 						}
@@ -626,6 +710,8 @@
 			x: 6.0d,
 			y: 4.5d,
 			shape: "rsquare",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Reapers feed on the spiritual energy of the dead. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep.",
 				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight",
@@ -637,12 +723,13 @@
 				371,
 				367
 			],
+			dependency_requirement: "all_completed",
 			id: 390,
 			tasks: [{
 				id: 391,
 				type: "kill",
 				entity: "lycanitesmobs:reaper",
-				value: 10
+				value: 10L
 			}],
 			rewards: [
 				{
@@ -656,7 +743,7 @@
 					title: "125000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 125000
 						}
@@ -668,14 +755,19 @@
 			title: "Seeds To Happiness",
 			x: 1.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Harvest some rainbow seeds by breaking the grass. You can plant these seeds to harvest rainbow berries!"],
+			min_required_dependencies: 0,
 			dependencies: [I;375],
+			dependency_requirement: "all_completed",
 			id: 502,
 			tasks: [{
 				id: 503,
 				type: "item",
 				item: "goodnightsleep:rainbow_seeds",
-				count: 32
+				count: 32L
 			}],
 			rewards: [
 				{
@@ -694,7 +786,7 @@
 					title: "112500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 112500
 						}
@@ -706,14 +798,19 @@
 			title: "The Full Arch",
 			x: 1.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Rainbow berries are delicious, filling, and pretty to look at. That's really it though!"],
+			min_required_dependencies: 0,
 			dependencies: [I;502],
+			dependency_requirement: "all_completed",
 			id: 504,
 			tasks: [{
 				id: 505,
 				type: "item",
 				item: "goodnightsleep:rainbow_berries",
-				count: 64
+				count: 64L
 			}],
 			rewards: [
 				{
@@ -732,7 +829,7 @@
 					title: "125000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 125000
 						}

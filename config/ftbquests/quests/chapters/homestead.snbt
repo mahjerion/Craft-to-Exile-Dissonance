@@ -4,17 +4,26 @@
 	order_index: 9,
 	title: "Homestead",
 	icon: "structurize:sceptergold",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "My Tent",
 			x: 0.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The supply camp is the first thing you need to a successful establishment. Although not functionally useful, the supply camp is required since it will provide you with a town hall.",
 				"It is important to choose your first location for your town hall wisely. You will need a large flat area for your entire colony (the town hall must also be on flat ground).",
 				"You will notice that right-clicking with the supply camp (the supply camp does NOT require using the building tool) allows you to visualize where you can put your supply camp."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 251,
 			tasks: [{
 				id: 252,
@@ -27,7 +36,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore0",
-						Count: 10
+						Count: 10b
 					}
 				},
 				{
@@ -36,7 +45,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -48,11 +57,16 @@
 			title: "All Your Bases",
 			x: 1.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Craft to Exile includes the fantastic MineColonies mod which will allow you to establish a home 'base'. In a MineColonies, you will act as the leader and oversee production of new facilities and ensure that citizens remain happy.",
 				"Get started by crafting the building tool. From this point on, you will build your buildings by right-clicking with the tool. The wand will auto-detect any building blocks you have in your inventory."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;251],
+			dependency_requirement: "all_completed",
 			id: 255,
 			tasks: [{
 				id: 256,
@@ -65,7 +79,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore1",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -74,7 +88,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -85,11 +99,16 @@
 		{
 			x: 3.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"In your supply camp, you will find a town hall block in one of the storage units. Place the town hall in a large, flat, open space using your builder tool (the yellow wand). Do NOT place it down as a block or it will not work.",
 				"Upon placing down the town hall, some citizens will come to your colony. You must next build a builder's hut to assign the task of building to one of your newly recruited citizens."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;255],
+			dependency_requirement: "all_completed",
 			id: 259,
 			tasks: [{
 				id: 260,
@@ -102,7 +121,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:cooked_porkchop",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -111,7 +130,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -123,11 +142,16 @@
 			title: "Work Work",
 			x: 4.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Finally, some citizens from the town hall! To start actually building buildings, you will need to establish a builder's hut. Place the builder's hut with your building tool and  one of your citizens will become a builder.",
 				"Make sure to feed your citizens well! Explore the building options on JEI, or visit the MineColonies wiki for more information."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;259],
+			dependency_requirement: "all_completed",
 			id: 263,
 			tasks: [{
 				id: 264,
@@ -140,7 +164,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:identify_tome",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -149,7 +173,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -161,12 +185,17 @@
 			title: "Guardians Of The City",
 			x: 4.5d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The guard tower will employ and house 1 guard to protect your colony. The new guard will need a bed in a house in order to spawn.",
 				"However, once they are hired at the guard tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit).",
 				"Note: If you place guard towers near your colony border and level them up, your border will expand."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;263],
+			dependency_requirement: "all_completed",
 			id: 267,
 			tasks: [{
 				id: 268,
@@ -179,7 +208,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_sword",
-						Count: 2,
+						Count: 2b,
 						tag: {
 							Damage: 0
 						}
@@ -191,7 +220,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -203,28 +232,33 @@
 			title: "Barbarian Raids",
 			icon: {
 				id: "minecraft:iron_axe",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
 			},
 			x: 6.0d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Occasionally, your colony will be faced with barbarian and pirate raids. You should have established a guard tower already, but if your forces are overwhelmed, then you'll need to defend your colony yourself!"],
+			min_required_dependencies: 0,
 			dependencies: [I;267],
+			dependency_requirement: "all_completed",
 			id: 269,
 			tasks: [
 				{
 					id: 270,
 					type: "kill",
 					entity: "minecolonies:chiefbarbarian",
-					value: 1
+					value: 1L
 				},
 				{
 					id: 271,
 					type: "kill",
 					entity: "atum:barbarian",
-					value: 10
+					value: 10L
 				}
 			],
 			rewards: [
@@ -239,7 +273,7 @@
 					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000
 						}
@@ -251,11 +285,16 @@
 			title: "I'm A Lumberjack And I'm OK",
 			x: 6.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Now that you have some citizens and a builder's hut, you may find it easier to assign the task of wood gathering to one of your citizens. The lumberjack's hut is where the lumberjack will go in between chopping down trees.",
 				"The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn't have cobblestone placed beneath it."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;263],
+			dependency_requirement: "all_completed",
 			id: 274,
 			tasks: [{
 				id: 275,
@@ -268,7 +307,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_axe",
-						Count: 2,
+						Count: 2b,
 						tag: {
 							Damage: 0
 						}
@@ -280,7 +319,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -292,8 +331,13 @@
 			title: "It's All MINE!",
 			x: 7.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The mine is where the miner will mine for ores and materials. Once they are hired, the miner will create a shaft downward and then branch out."],
+			min_required_dependencies: 0,
 			dependencies: [I;274],
+			dependency_requirement: "all_completed",
 			id: 278,
 			tasks: [{
 				id: 279,
@@ -306,7 +350,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_pickaxe",
-						Count: 2,
+						Count: 2b,
 						tag: {
 							Damage: 0
 						}
@@ -318,7 +362,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -330,13 +374,18 @@
 			title: "Population Density",
 			x: 9.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The citizen's hut is a house for your citizens. They will go to the citizen's hut they are assigned to at night to sleep. It's also one of two ways to get more citizens for your colony (the other being the tavern).",
 				"For additional citizens to spawn, you first have to have enough space in your citizen's hut(s) to house your first four citizens. After you have created enough space for your initial four citizens, you have two options for your colony to grow.",
 				"The first way is to have at least one citizen's hut at least level 2 that houses a male and a female citizen, which will allow a child to be born in the colony when there is room.",
 				"You can also make space for a new citizen, go to the tavern, wait for a traveler to show up, and then give them the items they request to recruit them."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;278],
+			dependency_requirement: "all_completed",
 			id: 280,
 			tasks: [{
 				id: 281,
@@ -349,7 +398,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:oak_log",
-						Count: 64
+						Count: 64b
 					}
 				},
 				{
@@ -358,7 +407,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -370,8 +419,13 @@
 			title: "Fishy Food",
 			x: 7.5d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The fisherman's hut is where the fisherman will catch fish. The fisherman requires a fishing rod and a body of water of a minimum of 7 blocks wide x 7 blocks long x 1 block tall to be able to work. The water must also be near the hut."],
+			min_required_dependencies: 0,
 			dependencies: [I;278],
+			dependency_requirement: "all_completed",
 			id: 282,
 			tasks: [{
 				id: 283,
@@ -384,7 +438,7 @@
 					type: "item",
 					item: {
 						id: "aquaculture:worm",
-						Count: 16,
+						Count: 16b,
 						tag: {
 							Damage: 0
 						}
@@ -396,7 +450,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -408,12 +462,17 @@
 			title: "Getting Schooled",
 			x: 9.0d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The university is where a researcher will research various upgrades to your colony. Once you click on a research tree, you will see the options for each research branch.",
 				"Each option will tell you the requirements and how long it takes to research that option (time is real-world time spent in-game).",
 				"Each column of a research branch is also the level the university needs to be to begin a research from that column."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;278],
+			dependency_requirement: "all_completed",
 			id: 284,
 			tasks: [{
 				id: 285,
@@ -426,7 +485,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:book",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -435,7 +494,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -447,11 +506,16 @@
 			title: "Have A Beer",
 			x: 10.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The tavern is like a citizen's hut in that it houses citizens. However, the tavern houses four instead of one and can't be upgraded to house more. Every so often, travelers will come to the tavern.",
 				"You can recruit these travelers (with items) to live and work in your colony. Note: The tavern can only be upgraded to level 3, not level 5. You can also only have 1 tavern per colony."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;280],
+			dependency_requirement: "all_completed",
 			id: 286,
 			tasks: [{
 				id: 287,
@@ -470,7 +534,7 @@
 					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1500
 						}
@@ -483,15 +547,20 @@
 			icon: "aquaculture:goldfish",
 			x: 0.0d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Aquaculture is a fantastic mod that enhances the vanilla fishing experience. Follow this questline to see what Aquaculture has to offer!"],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 553,
 			tasks: [{
 				id: 554,
 				type: "item",
 				item: {
 					id: "minecraft:fishing_rod",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -503,7 +572,7 @@
 					type: "item",
 					item: {
 						id: "aquaculture:worm",
-						Count: 3,
+						Count: 3b,
 						tag: {
 							Damage: 0
 						}
@@ -515,7 +584,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -527,8 +596,13 @@
 			title: "So long...",
 			x: 1.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Craft yourself a tackle box if you want to be a true fisherman. A tacklebox will allow you to customize your fishing outfit and hold onto various fishing items!"],
+			min_required_dependencies: 0,
 			dependencies: [I;553],
+			dependency_requirement: "all_completed",
 			id: 555,
 			tasks: [{
 				id: 556,
@@ -547,7 +621,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -559,8 +633,13 @@
 			title: "Hooker",
 			x: 3.0d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Hooks can enhance your fishing rod with various effects. Iron hooks will increase your fishing rod durability. Try out other hooks to see their benefits!"],
+			min_required_dependencies: 0,
 			dependencies: [I;555],
+			dependency_requirement: "all_completed",
 			id: 557,
 			tasks: [{
 				id: 558,
@@ -573,7 +652,7 @@
 					type: "item",
 					item: {
 						id: "aquaculture:worm",
-						Count: 3,
+						Count: 3b,
 						tag: {
 							Damage: 0
 						}
@@ -585,7 +664,7 @@
 					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000
 						}
@@ -597,15 +676,20 @@
 			title: "Rodular Upgrade",
 			x: 4.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Higher tier fishing rods will increase your chances at catching better fish and have increased durability!"],
+			min_required_dependencies: 0,
 			dependencies: [I;557],
+			dependency_requirement: "all_completed",
 			id: 559,
 			tasks: [{
 				id: 560,
 				type: "item",
 				item: {
 					id: "aquaculture:iron_fishing_rod",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -623,7 +707,7 @@
 					title: "4000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 4000
 						}
@@ -635,14 +719,19 @@
 			title: "For All The Fish",
 			x: 6.0d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Neptunium is an ore specific to Aquaculture. You can craft really powerful fishing rods and accessories with neptunium."],
+			min_required_dependencies: 0,
 			dependencies: [I;559],
+			dependency_requirement: "all_completed",
 			id: 561,
 			tasks: [{
 				id: 562,
 				type: "item",
 				item: "aquaculture:neptunium_ingot",
-				count: 9
+				count: 9L
 			}],
 			rewards: [
 				{
@@ -656,7 +745,7 @@
 					title: "8000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 8000
 						}
@@ -668,12 +757,17 @@
 			title: "What's The Date?",
 			x: 0.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, Pam's HarvestCraft 2, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable.",
 				"To start off, it's a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the seeds at the optimal time.",
 				"Off-season crops will grow slower than in-season crops - keep this in mind when making your farm!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 567,
 			tasks: [{
 				id: 568,
@@ -686,7 +780,7 @@
 					type: "item",
 					item: {
 						id: "simplefarming:sweet_potato_seeds",
-						Count: 4
+						Count: 4b
 					}
 				},
 				{
@@ -694,7 +788,7 @@
 					type: "item",
 					item: {
 						id: "simplefarming:pea_seeds",
-						Count: 4
+						Count: 4b
 					}
 				},
 				{
@@ -708,7 +802,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -720,8 +814,13 @@
 			title: "Milkin' It",
 			x: 1.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket. Did you know that eating unique foods will permanently increase your health? Get to cookin' (use'/foodlist size' to see how many foods you've eaten)"],
+			min_required_dependencies: 0,
 			dependencies: [I;567],
+			dependency_requirement: "all_completed",
 			id: 569,
 			tasks: [{
 				id: 570,
@@ -734,7 +833,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:glass_bottle",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -748,7 +847,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -760,8 +859,13 @@
 			title: "Gouda Job!",
 			x: 3.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Cheese is used in a lot of recipes in Simple Farming. But you'll notice that there is no way to craft a cheese slice. That's because to get a cheese slice, you must place a wheel of cheese down and click it (similar to cake)."],
+			min_required_dependencies: 0,
 			dependencies: [I;569],
+			dependency_requirement: "all_completed",
 			id: 571,
 			tasks: [{
 				id: 572,
@@ -785,7 +889,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -797,11 +901,16 @@
 			title: "A Recipe For Disaster",
 			x: 4.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"You're probably feeling overwhelmed by all the possible foods you can make. Don't worry! You can just farm and worry about cooking later with the recipe book 'Cooking for Blockheads I'!",
 				"By using the book, you can see which foods you can make with the things you have in your inventory."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;571],
+			dependency_requirement: "all_completed",
 			id: 573,
 			tasks: [{
 				id: 574,
@@ -825,7 +934,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -837,8 +946,13 @@
 			title: "The Possibilities!",
 			x: 4.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["While 'Cooking for Blockheads I' can be mighty useful, sometimes you just want to see all the available recipes (and without scouring JEI). You can make an unfiltered recipe book to look at available foods to cook!"],
+			min_required_dependencies: 0,
 			dependencies: [I;573],
+			dependency_requirement: "all_completed",
 			id: 575,
 			tasks: [{
 				id: 576,
@@ -851,7 +965,7 @@
 					type: "item",
 					item: {
 						id: "simplefarming:cheese_block",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -865,7 +979,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -877,8 +991,13 @@
 			title: "Spice Of Life: Carrot Edition",
 			x: 3.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Eating unique foods will give you a small bonus to HP. Use the food book or /foodlist (requires permissions) to track your progress."],
+			min_required_dependencies: 0,
 			dependencies: [I;571],
+			dependency_requirement: "all_completed",
 			id: 577,
 			tasks: [{
 				id: 578,
@@ -897,7 +1016,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -909,7 +1028,13 @@
 			title: "Food Storage",
 			x: 6.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
 			dependencies: [I;573],
+			dependency_requirement: "all_completed",
 			id: 579,
 			tasks: [{
 				id: 580,
@@ -922,7 +1047,7 @@
 					type: "item",
 					item: {
 						id: "simplefarming:honeydew_seeds",
-						Count: 8
+						Count: 8b
 					}
 				},
 				{
@@ -936,7 +1061,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -948,8 +1073,13 @@
 			title: "Upgrading Your Kitchen",
 			x: 7.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["It was mentioned before that you can upgrade your kitchen, so we're going to do exactly that. The oven enables smelting abilities in your kitchen - try it out!"],
+			min_required_dependencies: 0,
 			dependencies: [I;579],
+			dependency_requirement: "all_completed",
 			id: 581,
 			tasks: [{
 				id: 582,
@@ -973,7 +1103,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -985,8 +1115,13 @@
 			title: "Back To The Chopping Board",
 			x: 9.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The cooking table functions similar to the oven, but provides your kitchen with crafting abilities."],
+			min_required_dependencies: 0,
 			dependencies: [I;581],
+			dependency_requirement: "all_completed",
 			id: 583,
 			tasks: [{
 				id: 584,
@@ -1010,7 +1145,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1022,11 +1157,16 @@
 			title: "Home Decor",
 			x: 6.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Craft to Exile includes a few decorative mods such as Macaw's, EmbellishCraft, Mr. CrayFish's Furniture Mod, and Mapper Base. Craft the items to receive a sample of bitumen.",
 				"You can use bitumen to craft asphalt. Alternatively, you can use put it in the furnace to turn it into common ore."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;579],
+			dependency_requirement: "all_completed",
 			id: 585,
 			tasks: [
 				{
@@ -1051,7 +1191,7 @@
 					type: "item",
 					item: {
 						id: "mapperbase:raw_bitumen",
-						Count: 32
+						Count: 32b
 					}
 				},
 				{
@@ -1060,7 +1200,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -1072,8 +1212,13 @@
 			title: "Tools Of The Trade",
 			x: 7.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Pam's HarvestCraft 2 brings many different and new foods to flesh out Spice of Life. Many of the foods require specialized tools."],
+			min_required_dependencies: 0,
 			dependencies: [I;581],
+			dependency_requirement: "all_completed",
 			id: 589,
 			tasks: [{
 				id: 590,
@@ -1092,7 +1237,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -1104,8 +1249,13 @@
 			title: "Seed Market",
 			x: 0.0d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The market is a special block that allows you to exchange emeralds for seeds. It is extremely useful, especially if your base is in a desolate biome."],
+			min_required_dependencies: 0,
 			dependencies: [I;567],
+			dependency_requirement: "all_completed",
 			id: 591,
 			tasks: [{
 				id: 592,
@@ -1118,7 +1268,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:bone_meal",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -1127,7 +1277,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1139,8 +1289,13 @@
 			title: "Make Me A Sandwich",
 			x: 9.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Well? Make me one!"],
+			min_required_dependencies: 0,
 			dependencies: [I;589],
+			dependency_requirement: "all_completed",
 			id: 593,
 			tasks: [{
 				id: 594,
@@ -1153,7 +1308,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:brick",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -1162,7 +1317,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -1174,12 +1329,17 @@
 			title: "Fertilization",
 			x: 1.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Farming for Blockheads introduces 3 different coloured fertilizers that each have unique properties.",
 				"Green fertilizer improves the yield from a harvest, yellow fertilizer prevents the crop from being trampled on, and red fertilizer improves the speed at which the crop grows.",
 				"Right-click with the fertilizer (consumed) on tilled soil to apply their effects!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;591],
+			dependency_requirement: "all_completed",
 			id: 595,
 			tasks: [
 				{
@@ -1204,7 +1364,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:wheat_seeds",
-						Count: 32
+						Count: 32b
 					}
 				},
 				{
@@ -1213,7 +1373,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1225,8 +1385,13 @@
 			title: "Automated Feeding",
 			x: 3.0d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The feeding trough is a block that can hold foods and auto-feed nearby animals. Place it down and place food into the trough to see its effects! The trough covers an 8x8 block area and can each feed 8 animals at simultaneously."],
+			min_required_dependencies: 0,
 			dependencies: [I;595],
+			dependency_requirement: "all_completed",
 			id: 599,
 			tasks: [{
 				id: 600,
@@ -1239,7 +1404,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:wheat",
-						Count: 32
+						Count: 32b
 					}
 				},
 				{
@@ -1248,7 +1413,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1260,8 +1425,13 @@
 			title: "Egg Collector",
 			x: 4.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The egg collector automatically collects chicken eggs in an 8x8 block area."],
+			min_required_dependencies: 0,
 			dependencies: [I;599],
+			dependency_requirement: "all_completed",
 			id: 601,
 			tasks: [{
 				id: 602,
@@ -1280,7 +1450,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -1292,8 +1462,13 @@
 			title: "Handyman",
 			x: 0.0d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The tool belt is a very useful item that allows you to equip more than one tool at a time. Press the tool belt key to access the radial menu!"],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 1703,
 			tasks: [{
 				id: 1704,
@@ -1306,7 +1481,7 @@
 				title: "500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 500
 					}
@@ -1317,8 +1492,13 @@
 			title: "Handyman+",
 			x: 1.5d,
 			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Pouches are used to upgrade your tool belt capacity."],
+			min_required_dependencies: 0,
 			dependencies: [I;1703],
+			dependency_requirement: "all_completed",
 			id: 1705,
 			tasks: [{
 				id: 1706,
@@ -1331,7 +1511,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}

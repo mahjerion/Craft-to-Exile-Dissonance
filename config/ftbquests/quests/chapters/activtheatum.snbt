@@ -4,12 +4,16 @@
 	order_index: 5,
 	title: "Act IV: The Atum",
 	icon: "atum:sand",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "Welcome To Atum",
 			icon: {
 				id: "minecolonies:pharaoscepter",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -17,11 +21,15 @@
 			x: 0.0d,
 			y: 0.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Atum is a desert dimension filled with evil mummies and treasure. Reach Atum by constructing a shallow 3x3 pool of water surrounded by sandstone blocks. Place 2 sandstone blocks in each corner to form 4 pillars.",
 				"Then throw a scarab into the pool of water."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;295],
+			dependency_requirement: "all_completed",
 			id: 317,
 			tasks: [{
 				id: 318,
@@ -34,7 +42,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:torch",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -43,7 +51,7 @@
 					title: "75000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 75000
 						}
@@ -56,14 +64,18 @@
 			x: 0.0d,
 			y: 1.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Even the land has been infused with negative energy. Be careful when mining stone - rumours mention the stone coming back to life..."],
+			min_required_dependencies: 0,
 			dependencies: [I;317],
+			dependency_requirement: "all_completed",
 			id: 319,
 			tasks: [{
 				id: 320,
 				type: "kill",
 				entity: "atum:stoneguard",
-				value: 3
+				value: 3L
 			}],
 			rewards: [
 				{
@@ -71,7 +83,7 @@
 					type: "item",
 					item: {
 						id: "atum:khnumite",
-						Count: 4
+						Count: 4b
 					}
 				},
 				{
@@ -80,7 +92,7 @@
 					title: "76000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 76000
 						}
@@ -93,14 +105,18 @@
 			x: -1.5d,
 			y: 1.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Due to the lack of resources, Atum is in constant disarray. Not to mention, the desert flows with undead energy..."],
+			min_required_dependencies: 0,
 			dependencies: [I;317],
+			dependency_requirement: "all_completed",
 			id: 321,
 			tasks: [{
 				id: 322,
 				type: "kill",
 				entity: "atum:mummy",
-				value: 10
+				value: 10L
 			}],
 			rewards: [
 				{
@@ -108,7 +124,7 @@
 					type: "item",
 					item: {
 						id: "atum:cloth_scrap",
-						Count: 4
+						Count: 4b
 					}
 				},
 				{
@@ -117,7 +133,7 @@
 					title: "75500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 75500
 						}
@@ -130,14 +146,18 @@
 			x: 1.5d,
 			y: 1.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["These sands are more coarse than the sands from the Overworld. Grab some so that you can inspect it more closely."],
+			min_required_dependencies: 0,
 			dependencies: [I;317],
+			dependency_requirement: "all_completed",
 			id: 323,
 			tasks: [{
 				id: 324,
 				type: "item",
 				item: "atum:sand",
-				count: 16
+				count: 16L
 			}],
 			rewards: [{
 				id: 1805,
@@ -145,7 +165,7 @@
 				title: "65000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 65000
 					}
@@ -157,14 +177,18 @@
 			x: -1.5d,
 			y: 3.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Nomads are the natives of the desert and will attack on sight. They are aggressive towards other creatures, too."],
+			min_required_dependencies: 0,
 			dependencies: [I;321],
+			dependency_requirement: "all_completed",
 			id: 325,
 			tasks: [{
 				id: 326,
 				type: "kill",
 				entity: "atum:nomad",
-				value: 8
+				value: 8L
 			}],
 			rewards: [
 				{
@@ -172,7 +196,7 @@
 					type: "item",
 					item: {
 						id: "atum:short_bow",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -184,7 +208,7 @@
 					title: "76000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 76000
 						}
@@ -197,27 +221,31 @@
 			x: -1.5d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["After fighting the nomads, we learnt that there are pyramids in Atum which contain great treasures... However, it seems like someone caught wind of us trying to find this treasure."],
+			min_required_dependencies: 0,
 			dependencies: [I;325],
+			dependency_requirement: "all_completed",
 			id: 327,
 			tasks: [
 				{
 					id: 328,
 					type: "kill",
 					entity: "atum:barbarian",
-					value: 3
+					value: 3L
 				},
 				{
 					id: 329,
 					type: "kill",
 					entity: "atum:brigand",
-					value: 3
+					value: 3L
 				},
 				{
 					id: 330,
 					type: "kill",
 					entity: "atum:sergeant",
-					value: 1
+					value: 1L
 				}
 			],
 			rewards: [
@@ -226,7 +254,7 @@
 					type: "item",
 					item: {
 						id: "atum:dagger_poison",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -238,7 +266,7 @@
 					title: "76500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 76500
 						}
@@ -251,14 +279,18 @@
 			x: -3.0d,
 			y: 3.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Tarantulas can be found all over Atum at night (and other sandy biomes). Are they stronger than vanilla spiders?"],
+			min_required_dependencies: 0,
 			dependencies: [I;321],
+			dependency_requirement: "all_completed",
 			id: 331,
 			tasks: [{
 				id: 332,
 				type: "kill",
 				entity: "betteranimalsplus:tarantula",
-				value: 20
+				value: 20L
 			}],
 			rewards: [
 				{
@@ -266,7 +298,7 @@
 					type: "item",
 					item: {
 						id: "atum:flax_seeds",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -275,7 +307,7 @@
 					title: "76000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 76000
 						}
@@ -288,14 +320,18 @@
 			x: -4.5d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["First mummies and now we have to deal with ghosts too?!"],
+			min_required_dependencies: 0,
 			dependencies: [I;331],
+			dependency_requirement: "all_completed",
 			id: 333,
 			tasks: [{
 				id: 334,
 				type: "kill",
 				entity: "atum:wraith",
-				value: 4
+				value: 4L
 			}],
 			rewards: [
 				{
@@ -303,7 +339,7 @@
 					type: "item",
 					item: {
 						id: "atum:fish_forsaken",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -312,7 +348,7 @@
 					title: "76500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 76500
 						}
@@ -325,17 +361,21 @@
 			x: -3.0d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You've been told that the pyramids hold great treasure - but that great treasure is guarded by an ancient pharaoh. Interrogate some followers and find out how you can get to the treasure."],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				327,
 				333
 			],
+			dependency_requirement: "all_completed",
 			id: 335,
 			tasks: [{
 				id: 336,
 				type: "kill",
 				entity: "atum:sergeant",
-				value: 3
+				value: 3L
 			}],
 			rewards: [
 				{
@@ -343,7 +383,7 @@
 					type: "item",
 					item: {
 						id: "atum:pharaoh_torch",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -352,7 +392,7 @@
 					title: "78500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 78500
 						}
@@ -365,14 +405,18 @@
 			x: 0.0d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Once revered, the ghosts of the past have come to haunt those who have forgotten them. That is, unless you can remove them first."],
+			min_required_dependencies: 0,
 			dependencies: [I;327],
+			dependency_requirement: "all_completed",
 			id: 337,
 			tasks: [{
 				id: 338,
 				type: "kill",
 				entity: "atum:forsaken",
-				value: 15
+				value: 15L
 			}],
 			rewards: [
 				{
@@ -380,7 +424,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore4",
-						Count: 8
+						Count: 8b
 					}
 				},
 				{
@@ -389,7 +433,7 @@
 					title: "77000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 77000
 						}
@@ -402,14 +446,18 @@
 			x: 0.0d,
 			y: 6.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You learn from the bandit sergeants that you need to find the pharaoh's sarcophagus and surround it with royal torches. You can find the sarcophagus deep in the pyramids."],
+			min_required_dependencies: 0,
 			dependencies: [I;335],
+			dependency_requirement: "all_completed",
 			id: 339,
 			tasks: [{
 				id: 340,
 				type: "kill",
 				entity: "atum:pharaoh",
-				value: 1
+				value: 1L
 			}],
 			rewards: [
 				{
@@ -423,7 +471,7 @@
 					title: "100000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 100000
 						}
@@ -436,8 +484,12 @@
 			x: 1.5d,
 			y: 6.0d,
 			shape: "rsquare",
+			subtitle: "",
+			size: 1.0d,
 			description: ["After killing the Pharaoh, you hear a whisper, 'it is too late, for my energy has seeped from Atum into the realm of dreams... I'll be back.' Go to the dream dimension and find the true source of negative energy."],
+			min_required_dependencies: 0,
 			dependencies: [I;339],
+			dependency_requirement: "all_completed",
 			id: 341,
 			tasks: [{
 				id: 342,
@@ -450,7 +502,7 @@
 				title: "75000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 75000
 					}
@@ -462,14 +514,18 @@
 			x: 1.5d,
 			y: 3.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Limestone is the most abundant type of rock available in Atum and is therefore used in many structures."],
+			min_required_dependencies: 0,
 			dependencies: [I;323],
+			dependency_requirement: "all_completed",
 			id: 489,
 			tasks: [{
 				id: 490,
 				type: "item",
 				item: "atum:limestone",
-				count: 16
+				count: 16L
 			}],
 			rewards: [
 				{
@@ -477,7 +533,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_pickaxe",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -489,7 +545,7 @@
 					title: "65500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 65500
 						}
@@ -502,14 +558,18 @@
 			x: 3.0d,
 			y: 3.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The oasis is a biome found in Atum that is untouched by the undead energy. You can find water and grow crops here."],
+			min_required_dependencies: 0,
 			dependencies: [I;323],
+			dependency_requirement: "all_completed",
 			id: 491,
 			tasks: [{
 				id: 492,
 				type: "item",
 				item: "atum:palm_log",
-				count: 4
+				count: 4L
 			}],
 			rewards: [
 				{
@@ -517,7 +577,7 @@
 					type: "item",
 					item: {
 						id: "atum:palm_sapling",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -526,7 +586,7 @@
 					title: "65500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 65500
 						}
@@ -539,14 +599,18 @@
 			x: 3.0d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Because of the sun and the never-ending heat, locals have adapted to use thin linen clothes for protection from both the heat, and terrors."],
+			min_required_dependencies: 0,
 			dependencies: [I;491],
+			dependency_requirement: "all_completed",
 			id: 493,
 			tasks: [{
 				id: 494,
 				type: "item",
 				item: "atum:linen_cloth",
-				count: 2
+				count: 2L
 			}],
 			rewards: [
 				{
@@ -554,7 +618,7 @@
 					type: "item",
 					item: {
 						id: "atum:flax_seeds",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -563,7 +627,7 @@
 					title: "66000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 66000
 						}
@@ -576,8 +640,12 @@
 			x: 1.5d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["In Atum, you can craft disenchanting scrolls which will let you remove enchantments from your equipment. Combine these with the equipment in a crafting table."],
+			min_required_dependencies: 0,
 			dependencies: [I;493],
+			dependency_requirement: "all_completed",
 			id: 495,
 			tasks: [{
 				id: 496,
@@ -596,7 +664,7 @@
 					title: "66500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 66500
 						}
@@ -609,15 +677,19 @@
 			x: 4.5d,
 			y: 4.5d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Locals realized that linen clothes were not enough to protect themselves from enemies, and learned to incorporate rare metals into their clothes for extra protection."],
+			min_required_dependencies: 0,
 			dependencies: [I;493],
+			dependency_requirement: "all_completed",
 			id: 497,
 			tasks: [{
 				id: 498,
 				type: "item",
 				item: {
 					id: "atum:desert_chest_diamond",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -635,7 +707,7 @@
 					title: "66500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 66500
 						}
@@ -648,8 +720,12 @@
 			x: 0.0d,
 			y: 3.0d,
 			shape: "diamond",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The kiln is made of limestone and functions similarly to the furnace. You will also want to make a spinning wheel to process threads."],
+			min_required_dependencies: 0,
 			dependencies: [I;489],
+			dependency_requirement: "all_completed",
 			id: 499,
 			tasks: [
 				{
@@ -669,7 +745,7 @@
 					type: "item",
 					item: {
 						id: "atum:papyrus_plant",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -678,7 +754,7 @@
 					title: "66000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 66000
 						}

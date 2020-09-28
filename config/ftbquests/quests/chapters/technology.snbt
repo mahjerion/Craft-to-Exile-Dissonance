@@ -5,22 +5,30 @@
 	title: "Technology",
 	icon: {
 		id: "immersiveengineering:hammer",
-		Count: 1,
+		Count: 1b,
 		tag: {
 			Damage: 0
 		}
 	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "Start Creating",
 			x: 0.0d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Create is a modular low-tech mod that brings functionality in pieces. Your imagination is the limit! Andesite alloy is required for Create's basal structures.",
 				"Please note: Create ores spawn in the Overworld, while Immersive Engineering ores only spawn in the Mining Dimension!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 1190,
 			tasks: [{
 				id: 1191,
@@ -33,7 +41,7 @@
 					type: "item",
 					item: {
 						id: "create:zinc_nugget",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -42,7 +50,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -55,14 +63,18 @@
 			x: 1.5d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Shafts are used in many apparatuses. Use shafts to connect Create conveyer belts or to place blocks on. Shafts relay rotation in a straight line!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1190],
+			dependency_requirement: "all_completed",
 			id: 1194,
 			tasks: [{
 				id: 1195,
 				type: "item",
 				item: "create:shaft",
-				count: 4
+				count: 4L
 			}],
 			rewards: [
 				{
@@ -70,7 +82,7 @@
 					type: "item",
 					item: {
 						id: "create:shaft",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -79,7 +91,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -92,8 +104,12 @@
 			x: 3.0d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Use cogwheels to relay rotation to other cogwheels. Stick them on a shaft and see what happens when coupled with a power source."],
+			min_required_dependencies: 0,
 			dependencies: [I;1194],
+			dependency_requirement: "all_completed",
 			id: 1198,
 			tasks: [{
 				id: 1199,
@@ -112,7 +128,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -125,8 +141,12 @@
 			x: 4.5d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The mechanical press compresses items beneath it. It can turn iron ingots into iron sheets. It requires constant rotational force."],
+			min_required_dependencies: 0,
 			dependencies: [I;1198],
+			dependency_requirement: "all_completed",
 			id: 1202,
 			tasks: [{
 				id: 1203,
@@ -139,7 +159,7 @@
 					type: "item",
 					item: {
 						id: "create:andesite_casing",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -148,7 +168,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -161,8 +181,12 @@
 			x: 4.5d,
 			y: 1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The belt connector can be used to attach 2 or more shafts. The belt can move both items and entities."],
+			min_required_dependencies: 0,
 			dependencies: [I;1202],
+			dependency_requirement: "all_completed",
 			id: 1206,
 			tasks: [{
 				id: 1207,
@@ -181,7 +205,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -194,8 +218,12 @@
 			x: 6.0d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Your first main source of power! Craft a water wheel and place under flowing water. Then attach it to the mechanical press to provide rotational power!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1202],
+			dependency_requirement: "all_completed",
 			id: 1210,
 			tasks: [{
 				id: 1211,
@@ -208,7 +236,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:oak_planks",
-						Count: 16
+						Count: 16b
 					}
 				},
 				{
@@ -217,7 +245,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -230,8 +258,12 @@
 			x: 4.5d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The extractor is a useful device that takes items from an inventory and places them onto the ground (or a conveyor belt)."],
+			min_required_dependencies: 0,
 			dependencies: [I;1206],
+			dependency_requirement: "all_completed",
 			id: 1214,
 			tasks: [{
 				id: 1215,
@@ -244,7 +276,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:chest",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -253,7 +285,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -266,8 +298,12 @@
 			x: 6.0d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Similar to the extractor, except that attaching this to a chest will instead pick up items from a belt."],
+			min_required_dependencies: 0,
 			dependencies: [I;1214],
+			dependency_requirement: "all_completed",
 			id: 1218,
 			tasks: [{
 				id: 1219,
@@ -280,7 +316,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:chest",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -289,7 +325,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -302,8 +338,12 @@
 			x: 6.0d,
 			y: 1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Engineer's goggles, when worn, will let you see more details about create blocks when you look at them. A must have!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1210],
+			dependency_requirement: "all_completed",
 			id: 1222,
 			tasks: [{
 				id: 1223,
@@ -316,7 +356,7 @@
 				title: "500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 500
 					}
@@ -328,8 +368,12 @@
 			x: 7.5d,
 			y: 1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["When attached to kinetic components, it will display the rotational speed."],
+			min_required_dependencies: 0,
 			dependencies: [I;1222],
+			dependency_requirement: "all_completed",
 			id: 1225,
 			tasks: [{
 				id: 1226,
@@ -342,7 +386,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}
@@ -354,8 +398,12 @@
 			x: 9.0d,
 			y: 1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["When attached to a kinetic network, it will display the overall stress."],
+			min_required_dependencies: 0,
 			dependencies: [I;1225],
+			dependency_requirement: "all_completed",
 			id: 1228,
 			tasks: [{
 				id: 1229,
@@ -368,7 +416,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}
@@ -380,8 +428,12 @@
 			x: 7.5d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Iron sheets are basic components of various Create structures. Place an iron ingot beneath a mechanical press that is powered by rotational force. Turn it on using a lever and make sure that you 'drop' the iron ingot below the press!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1210],
+			dependency_requirement: "all_completed",
 			id: 1231,
 			tasks: [{
 				id: 1232,
@@ -394,7 +446,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_ingot",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -403,7 +455,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -416,8 +468,12 @@
 			x: 9.0d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["A useful tool that can be used to rotate, dismantle, and configure contraptions."],
+			min_required_dependencies: 0,
 			dependencies: [I;1231],
+			dependency_requirement: "all_completed",
 			id: 1235,
 			tasks: [{
 				id: 1236,
@@ -430,7 +486,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:gold_ingot",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -439,7 +495,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -452,8 +508,12 @@
 			x: 10.5d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["An important item used in various Create recipes."],
+			min_required_dependencies: 0,
 			dependencies: [I;1235],
+			dependency_requirement: "all_completed",
 			id: 1239,
 			tasks: [{
 				id: 1240,
@@ -466,7 +526,7 @@
 				title: "500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 500
 					}
@@ -478,12 +538,16 @@
 			x: 10.5d,
 			y: 1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"When paired with a basin beneath it, the mechanical mixer will allow you to combine copper and zinc ingots with blaze powder to make brass ingots. However, you will need more rotational power for the mixer.",
 				"Place smaller cogwheels diagonally next to large cogwheels and they will rotate at higher speeds than the large cogwheel. You can place a large cogwheel on the same axis as the small cogwheel and repeat the pattern to increase your RPM.",
 				"However, doing so will increase stress on the machinery and as a result you can run less devices simultaneously on the same source of power."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;1239],
+			dependency_requirement: "all_completed",
 			id: 1242,
 			tasks: [{
 				id: 1243,
@@ -502,7 +566,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -515,14 +579,18 @@
 			x: 10.5d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Immersive Engineering is a tech mod that is included with Craft to Exile. Once you've familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions.",
 				"Remember that IE ores only spawn in the mining dimension!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				305,
 				1242
 			],
+			dependency_requirement: "all_completed",
 			id: 1246,
 			tasks: [{
 				id: 1247,
@@ -541,7 +609,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -554,8 +622,12 @@
 			x: 10.5d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Hemp is vital to starting Immersive Engineering. You can find hemp seeds in grass."],
+			min_required_dependencies: 0,
 			dependencies: [I;1246],
+			dependency_requirement: "all_completed",
 			id: 1250,
 			tasks: [{
 				id: 1251,
@@ -574,7 +646,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -587,14 +659,18 @@
 			x: 9.0d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Steel is the basic building block of all things IE. But to make steel, you'll first need a crude blast furnace. Consult the manual for the layout of the blast bricks. You will need an engineer's hammer"],
+			min_required_dependencies: 0,
 			dependencies: [I;1250],
+			dependency_requirement: "all_completed",
 			id: 1254,
 			tasks: [{
 				id: 1255,
 				type: "item",
 				item: "immersiveengineering:blastbrick",
-				count: 4
+				count: 4L
 			}],
 			rewards: [
 				{
@@ -608,7 +684,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -621,14 +697,18 @@
 			x: 7.5d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Coke coal is more efficient than regular coal and is used in a blast furnace. You will need an engineer's hammer."],
+			min_required_dependencies: 0,
 			dependencies: [I;1254],
+			dependency_requirement: "all_completed",
 			id: 1258,
 			tasks: [{
 				id: 1259,
 				type: "item",
 				item: "immersiveengineering:cokebrick",
-				count: 4
+				count: 4L
 			}],
 			rewards: [
 				{
@@ -636,7 +716,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:coal",
-						Count: 32
+						Count: 32b
 					}
 				},
 				{
@@ -645,7 +725,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -658,15 +738,19 @@
 			x: 6.0d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Wires connect an electricity source to a capacitor - which can disperse energy to nearby contraptions. You will need a wire cutter to remove any unwanted wires."],
+			min_required_dependencies: 0,
 			dependencies: [I;1258],
+			dependency_requirement: "all_completed",
 			id: 1262,
 			tasks: [{
 				id: 1263,
 				type: "item",
 				item: {
 					id: "immersiveengineering:wirecutter",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -678,7 +762,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}
@@ -690,8 +774,12 @@
 			x: 6.0d,
 			y: 6.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Use a wire coil to place down wires. It's fine to start with copper, but you can look into upgrading your wires later."],
+			min_required_dependencies: 0,
 			dependencies: [I;1262],
+			dependency_requirement: "all_completed",
 			id: 1265,
 			tasks: [{
 				id: 1266,
@@ -704,7 +792,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}
@@ -716,8 +804,12 @@
 			x: 4.5d,
 			y: 6.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Before you can even connect wires to anything, you will need to place wire connectors on the blocks themselves."],
+			min_required_dependencies: 0,
 			dependencies: [I;1265],
+			dependency_requirement: "all_completed",
 			id: 1268,
 			tasks: [{
 				id: 1269,
@@ -730,7 +822,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}
@@ -742,8 +834,12 @@
 			x: 4.5d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Capacitors are required to store energy which can be funneled to various contraptions. Attach the capacitor to an energy source such as the Create water wheel."],
+			min_required_dependencies: 0,
 			dependencies: [I;1268],
+			dependency_requirement: "all_completed",
 			id: 1271,
 			tasks: [{
 				id: 1272,
@@ -756,7 +852,7 @@
 					type: "item",
 					item: {
 						id: "create:cogwheel",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -765,7 +861,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -778,8 +874,12 @@
 			x: 3.0d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["In order to utilize rotational power from Create, you will need to convert it into power that IE understands. Use the dynamo to convert rotational power into RF. You will lose some power in the conversion."],
+			min_required_dependencies: 0,
 			dependencies: [I;1271],
+			dependency_requirement: "all_completed",
 			id: 1275,
 			tasks: [{
 				id: 1276,
@@ -792,7 +892,7 @@
 					type: "item",
 					item: {
 						id: "create:electron_tube",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -801,7 +901,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -814,8 +914,12 @@
 			x: 1.5d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Now seems like an appropriate time to start on a redstone flux generator. RF is the power source that IE uses. Craft a kinetic dynamo - this will be attached to IE's water wheel."],
+			min_required_dependencies: 0,
 			dependencies: [I;1275],
+			dependency_requirement: "all_completed",
 			id: 1279,
 			tasks: [{
 				id: 1280,
@@ -834,7 +938,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -847,8 +951,12 @@
 			x: 3.0d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The furnace heater can be placed next to a furnace. When provided with sufficient power, the furnace can run without fuel."],
+			min_required_dependencies: 0,
 			dependencies: [I;1275],
+			dependency_requirement: "all_completed",
 			id: 1283,
 			tasks: [{
 				id: 1284,
@@ -867,7 +975,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -880,8 +988,12 @@
 			x: 1.5d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Place the water wheel onto a kinetic dynamo near a large water fall. Be sure to connect it to a capable capacitor."],
+			min_required_dependencies: 0,
 			dependencies: [I;1279],
+			dependency_requirement: "all_completed",
 			id: 1287,
 			tasks: [{
 				id: 1288,
@@ -900,7 +1012,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -913,11 +1025,15 @@
 			x: 4.5d,
 			y: -1.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Upgrading the Dank brings improvements to the Dank capacity!"],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				1689,
 				1202
 			],
+			dependency_requirement: "all_completed",
 			id: 1707,
 			tasks: [{
 				id: 1708,
@@ -936,7 +1052,7 @@
 					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000
 						}
@@ -949,11 +1065,15 @@
 			x: 12.0d,
 			y: 3.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["As you upgrade your Dank, you'll notice it gets harder to obtain the materials."],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				1689,
 				1246
 			],
+			dependency_requirement: "all_completed",
 			id: 1710,
 			tasks: [{
 				id: 1711,
@@ -972,7 +1092,7 @@
 					title: "2500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2500
 						}
@@ -985,8 +1105,12 @@
 			x: 12.0d,
 			y: 4.5d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["This is the 2nd last Dank container. Good luck!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1710],
+			dependency_requirement: "all_completed",
 			id: 1713,
 			tasks: [{
 				id: 1714,
@@ -1005,7 +1129,7 @@
 					title: "3000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 3000
 						}

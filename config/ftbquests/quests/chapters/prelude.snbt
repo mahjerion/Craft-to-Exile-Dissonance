@@ -4,16 +4,26 @@
 	order_index: 1,
 	title: "Prelude: Overworld",
 	icon: "minecraft:grass_block",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
 	quests: [
 		{
 			title: "Getting Started",
 			x: 0.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Welcome to Craft to Exile! This progression log aims to provide you with some direction as to where to go next. For starters, it's recommended that you do some light exploring in the Overworld just as you would normally, and to set up camp.",
 				"Please make sure to redeem your rewards as you progress!",
 				"Don't forget, you can pin your quests to have them display on your in-game HUD! Main quests are indicated by round-edge squares."
 			],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
 			id: 3,
 			tasks: [{
 				id: 4,
@@ -26,7 +36,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:apple",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -39,7 +49,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore0",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -48,7 +58,7 @@
 					title: "375 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 375
 						}
@@ -60,43 +70,48 @@
 			title: "The Crux",
 			icon: {
 				id: "minecraft:wooden_sword",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
 			},
 			x: 1.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited.",
 				"Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some skeletons (not Nasty skeletons!) - hopefully you'll find a new piece of equipment.",
 				"Upon completing this quest, you will be able to choose between 3 weapons that represent the main fighting styles of Craft to Exile: melee, ranged, and magic."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 7,
 			tasks: [{
 				id: 8,
 				type: "kill",
 				entity: "minecraft:skeleton",
-				value: 2
+				value: 2L
 			}],
 			rewards: [
-				{
-					id: 1552,
-					type: "choice",
-					table: 0
-				},
 				{
 					id: 1716,
 					type: "item",
 					title: "750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 750
 						}
 					}
+				},
+				{
+					id: 1947,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_3"
 				}
 			]
 		},
@@ -105,31 +120,36 @@
 			icon: "minecraft:experience_bottle",
 			x: 3.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"As you fight mobs and complete quests, you will earn experience. Once enough experience is gained you will level up and become stronger. Upon leveling, you will earn stat points, skill points, and talent points.",
 				"Press H to access the Mine and Slash hub to distribute your points, and customize your character accordingly! Do not worry about messing up your stats as reset potions are available later in the game.",
 				"Kill zombies, skeletons and creepers!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;7],
+			dependency_requirement: "all_completed",
 			id: 10,
 			tasks: [
 				{
 					id: 11,
 					type: "kill",
 					entity: "minecraft:skeleton",
-					value: 4
+					value: 4L
 				},
 				{
 					id: 12,
 					type: "kill",
 					entity: "minecraft:zombie",
-					value: 2
+					value: 2L
 				},
 				{
 					id: 13,
 					type: "kill",
 					entity: "minecraft:creeper",
-					value: 1
+					value: 1L
 				}
 			],
 			rewards: [
@@ -138,7 +158,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:identify_tome",
-						Count: 8
+						Count: 8b
 					}
 				},
 				{
@@ -147,7 +167,7 @@
 					title: "1125 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1125
 						}
@@ -159,8 +179,13 @@
 			title: "Currency Items",
 			x: 4.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Currency items are powerful items with the ability to reroll the stats on your equipment. In order to use them, you must craft a modify station."],
+			min_required_dependencies: 0,
 			dependencies: [I;10],
+			dependency_requirement: "all_completed",
 			id: 16,
 			tasks: [{
 				id: 17,
@@ -185,7 +210,7 @@
 					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1500
 						}
@@ -197,14 +222,19 @@
 			title: "Ores",
 			x: 1.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair equipment or craft special items. Check JEI for more information."],
+			min_required_dependencies: 0,
 			dependencies: [I;7],
+			dependency_requirement: "all_completed",
 			id: 19,
 			tasks: [{
 				id: 20,
 				type: "item",
 				item: "mmorpg:ore0",
-				count: 25
+				count: 25L
 			}],
 			rewards: [
 				{
@@ -212,7 +242,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore0",
-						Count: 20
+						Count: 20b
 					}
 				},
 				{
@@ -221,7 +251,7 @@
 					title: "750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 750
 						}
@@ -233,8 +263,13 @@
 			title: "Broken Swords",
 			x: 1.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores."],
+			min_required_dependencies: 0,
 			dependencies: [I;19],
+			dependency_requirement: "all_completed",
 			id: 22,
 			tasks: [{
 				id: 23,
@@ -253,7 +288,7 @@
 					title: "3000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 3000
 						}
@@ -265,14 +300,19 @@
 			title: "Identification, Please",
 			x: 3.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You'll often find unidentified equipment that need to be identified before you can see its stats. Identify tomes are consumable items that do identify the top-right-most unidentified item in your inventory."],
+			min_required_dependencies: 0,
 			dependencies: [I;10],
+			dependency_requirement: "all_completed",
 			id: 25,
 			tasks: [{
 				id: 26,
 				type: "item",
 				item: "mmorpg:identify_tome",
-				count: 10
+				count: 10L
 			}],
 			rewards: [
 				{
@@ -286,7 +326,7 @@
 					title: "6750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 6750
 						}
@@ -298,8 +338,13 @@
 			title: "Optimization Algorithms",
 			x: 1.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Putting capacitors into repair stations is a great way to be more efficient with your ores. Did you know better capacitors are even more efficient?"],
+			min_required_dependencies: 0,
 			dependencies: [I;22],
+			dependency_requirement: "all_completed",
 			id: 29,
 			tasks: [{
 				id: 30,
@@ -312,7 +357,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore2",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -326,7 +371,7 @@
 					title: "6000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 6000
 						}
@@ -338,11 +383,16 @@
 			title: "Crafting Equipment",
 			x: 3.0d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"In Craft to Exile, it is possible to craft equipment. Feel free to craft equipment if you're in a bind. Crafted equipment follow a progression system as well. In general, equipment from stronger dimensions are for higher levels.",
 				"For more information please visit the wiki."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;22],
+			dependency_requirement: "all_completed",
 			id: 36,
 			tasks: [
 				{
@@ -350,7 +400,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_helmet",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -361,7 +411,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_chestplate",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -372,7 +422,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_leggings",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -383,7 +433,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_boots",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -396,7 +446,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:iron_sword",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -407,7 +457,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:crossbow",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							Damage: 0
 						}
@@ -419,7 +469,7 @@
 					title: "4500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 4500
 						}
@@ -431,8 +481,13 @@
 			title: "Archery Specialization",
 			x: 3.0d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Quivers are a special item in Craft to Exile that hold arrows. Arrows placed in the quiver are used first. If you remove the quiver then the arrows in the quiver will automatically dispense into your inventory."],
+			min_required_dependencies: 0,
 			dependencies: [I;36],
+			dependency_requirement: "all_completed",
 			id: 44,
 			tasks: [{
 				id: 45,
@@ -445,7 +500,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:arrow",
-						Count: 64
+						Count: 64b
 					}
 				},
 				{
@@ -454,7 +509,7 @@
 					title: "4500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 4500
 						}
@@ -466,18 +521,23 @@
 			title: "Point The Way",
 			x: 0.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Waystones is a mod that allows the player to teleport between waystones using warp stones or scrolls. They can be found naturally spawning around the world in large towers. It is possible to rename or configure the waystone into a global waystone.",
 				"Global waystones can be teleported to interdimensionally. The warp stone allows you to teleport to any waystone at a cost. It has a longer cooldown than using scrolls."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;1686],
+			dependency_requirement: "all_completed",
 			id: 48,
 			tasks: [{
 				id: 49,
 				type: "item",
 				item: {
 					id: "waystones:warp_stone",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -495,7 +555,7 @@
 					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000
 						}
@@ -507,19 +567,24 @@
 			title: "Summoning Aspect",
 			x: 6.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Complete this quest to unlock the summoning quest tab. Summoning from Lycanites Mobs is fully supported in Craft to Exile. Summons will scale off of your level and your damage stat. In CtE, you can only summon the primal elementals.",
 				"However, it is possible to summon 2 elementals at a time and have them fuse into the a more powerful elemental.",
 				"Press the beastiary (default: G) to change which elemental is equipped to the summon slot, and hold right-click with the staff to open a portal to summon the elemental."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;16],
+			dependency_requirement: "all_completed",
 			id: 57,
 			tasks: [{
 				id: 58,
 				type: "item",
 				item: {
 					id: "lycanitesmobs:sturdysummoningstaff",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -531,7 +596,7 @@
 				title: "1500 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1500
 					}
@@ -542,8 +607,13 @@
 			title: "Upgrading Your Equipment",
 			x: 4.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["With a modify station, you are able to upgrade or reroll your equipment using currency dropped by mobs. Craft one soon!"],
+			min_required_dependencies: 0,
 			dependencies: [I;16],
+			dependency_requirement: "all_completed",
 			id: 60,
 			tasks: [{
 				id: 61,
@@ -556,7 +626,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:identify_tome",
-						Count: 8
+						Count: 8b
 					}
 				},
 				{
@@ -565,7 +635,7 @@
 					title: "4500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 4500
 						}
@@ -580,13 +650,16 @@
 			y: 1.5d,
 			shape: "rsquare",
 			subtitle: "Optional",
+			size: 1.0d,
 			description: [
 				"Craft to Exile is focused around a dimension progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 14-18. The recommended levels for each dimension are as follows:",
 				"Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night's Sleep (40-50), Midnight (50-58), Tofu World (58-66), Maps (30-99).",
 				"To get to The Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave The Bumblezone by digging down or climbing above Y = 256.",
 				"The Bumblezone is an optional dimension. If you want to skip it, feel free to complete Taking The Long Route to access the Nether, instead!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;60],
+			dependency_requirement: "all_completed",
 			id: 64,
 			tasks: [{
 				id: 247,
@@ -599,7 +672,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore0",
-						Count: 10
+						Count: 10b
 					}
 				},
 				{
@@ -608,7 +681,7 @@
 					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1500
 						}
@@ -620,8 +693,13 @@
 			title: "TOO. MUCH. LOOT.",
 			x: 4.5d,
 			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Are you having issues with hoarding loot? Look no further! You can craft a salvage station to turn unused equipment into ores! Note: this will not work with crafted equipment."],
+			min_required_dependencies: 0,
 			dependencies: [I;60],
+			dependency_requirement: "all_completed",
 			id: 68,
 			tasks: [{
 				id: 69,
@@ -634,7 +712,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:diamond",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -643,7 +721,7 @@
 					title: "6750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 6750
 						}
@@ -655,8 +733,13 @@
 			title: "Still Too Much...",
 			x: 4.5d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["You can craft currency and equipment bags that will automagically pick up currency and equipment for you, while providing additional storage while adventuring. Check the JEI for the crafting recipe!"],
+			min_required_dependencies: 0,
 			dependencies: [I;68],
+			dependency_requirement: "all_completed",
 			id: 72,
 			tasks: [
 				{
@@ -676,7 +759,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore2",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -685,7 +768,7 @@
 					title: "9000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 9000
 						}
@@ -697,8 +780,13 @@
 			title: "The Master Bag",
 			x: 6.0d,
 			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Combining the three bag types will produce the master bag!"],
+			min_required_dependencies: 0,
 			dependencies: [I;72],
+			dependency_requirement: "all_completed",
 			id: 75,
 			tasks: [{
 				id: 76,
@@ -717,7 +805,7 @@
 					title: "37500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 37500
 						}
@@ -729,7 +817,11 @@
 			title: "I Can't Carry Anymore",
 			x: 7.5d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Sometimes you just want the good old fashioned travel storage solution."],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "one_completed",
 			id: 91,
@@ -750,7 +842,7 @@
 					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1500
 						}
@@ -762,15 +854,20 @@
 			title: "Shield Hero",
 			x: 7.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield."],
+			min_required_dependencies: 0,
 			dependencies: [I;91],
+			dependency_requirement: "all_completed",
 			id: 424,
 			tasks: [{
 				id: 425,
 				type: "item",
 				item: {
 					id: "minecraft:shield",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						Damage: 0
 					}
@@ -782,7 +879,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore1",
-						Count: 15
+						Count: 15b
 					}
 				},
 				{
@@ -791,7 +888,7 @@
 					title: "2250 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2250
 						}
@@ -803,8 +900,13 @@
 			title: "Storage Solutions",
 			x: 9.0d,
 			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Storage Drawers is a mod that makes sorting your loot a lot easier! Use storage drawers to label and autosort your items, and more! Visit the wiki to see the full capabilities of Storage Drawers!"],
+			min_required_dependencies: 0,
 			dependencies: [I;91],
+			dependency_requirement: "all_completed",
 			id: 426,
 			tasks: [{
 				id: 427,
@@ -823,7 +925,7 @@
 					title: "1875 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1875
 						}
@@ -835,15 +937,20 @@
 			title: "Ocarina Of Time",
 			x: 9.0d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can 'claim' the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!"],
+			min_required_dependencies: 0,
 			dependencies: [I;91],
+			dependency_requirement: "all_completed",
 			id: 428,
 			tasks: [{
 				id: 429,
 				type: "item",
 				item: {
 					id: "dwmh:ocarina",
-					Count: 1,
+					Count: 1b,
 					tag: {}
 				}
 			}],
@@ -859,7 +966,7 @@
 					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1500
 						}
@@ -871,11 +978,16 @@
 			title: "Bufflon Mounts",
 			x: 10.5d,
 			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"The bufflon is a unique mountable animal introduced by Pandora's Creatures. They can be customized using specialized bufflon saddles found in The End. However, upon completion of this quest, a basic bufflon saddle will be provided for you.",
 				"The bufflon can be found in cold and snowy biomes, and can be tamed using herb bundles."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;428],
+			dependency_requirement: "all_completed",
 			id: 430,
 			tasks: [{
 				id: 431,
@@ -894,7 +1006,7 @@
 					title: "2250 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2250
 						}
@@ -906,14 +1018,19 @@
 			title: "Show Me The Way",
 			x: 1.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Scrolls are a fast way of teleporting to a waystone. They are one-time use, but cheaper and faster than warp stones."],
+			min_required_dependencies: 0,
 			dependencies: [I;48],
+			dependency_requirement: "all_completed",
 			id: 432,
 			tasks: [{
 				id: 433,
 				type: "item",
 				item: "waystones:return_scroll",
-				count: 3
+				count: 3L
 			}],
 			rewards: [
 				{
@@ -921,7 +1038,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:ender_pearl",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -930,7 +1047,7 @@
 					title: "3000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 3000
 						}
@@ -942,14 +1059,19 @@
 			title: "Direct Me The Whey",
 			x: 3.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Warp scrolls are consumables that let you teleport to a waypoint. You could also use a warp stone, but warp stones have long cooldowns and are more costly to use."],
+			min_required_dependencies: 0,
 			dependencies: [I;432],
+			dependency_requirement: "all_completed",
 			id: 434,
 			tasks: [{
 				id: 435,
 				type: "item",
 				item: "waystones:warp_scroll",
-				count: 3
+				count: 3L
 			}],
 			rewards: [
 				{
@@ -962,7 +1084,7 @@
 					type: "item",
 					item: {
 						id: "waystones:return_scroll",
-						Count: 5
+						Count: 5b
 					}
 				},
 				{
@@ -971,7 +1093,7 @@
 					title: "5000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 5000
 						}
@@ -983,8 +1105,13 @@
 			title: "Shared Experience",
 			x: 4.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["If you're having problems teleporting back to your body then I have the solution for you! XP blocks are craftable blocks that can store experience. They can even be shared with other players!"],
+			min_required_dependencies: 0,
 			dependencies: [I;434],
+			dependency_requirement: "all_completed",
 			id: 436,
 			tasks: [{
 				id: 437,
@@ -997,7 +1124,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:experience_bottle",
-						Count: 10
+						Count: 10b
 					}
 				},
 				{
@@ -1006,7 +1133,7 @@
 					title: "8000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 8000
 						}
@@ -1018,8 +1145,13 @@
 			title: "Sleeping On The Job",
 			x: 6.0d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Can't deal with mobs at night while travelling? Tired of lugging an entire bed frame? Craft the sleeping bag and sleep whenever, wherever! Some conditions may apply."],
+			min_required_dependencies: 0,
 			dependencies: [I;436],
+			dependency_requirement: "all_completed",
 			id: 438,
 			tasks: [{
 				id: 439,
@@ -1032,7 +1164,7 @@
 					type: "item",
 					item: {
 						id: "mmorpg:ore2",
-						Count: 3
+						Count: 3b
 					}
 				},
 				{
@@ -1041,7 +1173,7 @@
 					title: "4000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 4000
 						}
@@ -1053,14 +1185,19 @@
 			title: "To The Top",
 			x: 7.5d,
 			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Tired of climbing slow ladders or walking up to the waystones on the towers? Craft stone ladders to get to the top faster! Upgrade your stone ladder to go even faster!!!"],
+			min_required_dependencies: 0,
 			dependencies: [I;438],
+			dependency_requirement: "all_completed",
 			id: 440,
 			tasks: [{
 				id: 441,
 				type: "item",
 				item: "speedyladders:stone_ladder",
-				count: 8
+				count: 8L
 			}],
 			rewards: [{
 				id: 1749,
@@ -1068,7 +1205,7 @@
 				title: "4000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 4000
 					}
@@ -1081,24 +1218,28 @@
 			x: 0.0d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"You'll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
 				"Kill rotten eskimos and mummies!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 442,
 			tasks: [
 				{
 					id: 443,
 					type: "kill",
 					entity: "rotten_creatures:spear_eskimo",
-					value: 5
+					value: 5L
 				},
 				{
 					id: 444,
 					type: "kill",
 					entity: "rotten_creatures:mummy",
-					value: 5
+					value: 5L
 				}
 			],
 			rewards: [
@@ -1113,7 +1254,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1127,17 +1268,21 @@
 			x: 1.5d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Pandora's Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
 				"Kill arachnons!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 447,
 			tasks: [{
 				id: 448,
 				type: "kill",
 				entity: "pandoras_creatures:arachnon",
-				value: 8
+				value: 8L
 			}],
 			rewards: [
 				{
@@ -1151,7 +1296,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1165,17 +1310,21 @@
 			x: 3.0d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable.",
 				"Kill feral wolves from Better Animals Plus!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 449,
 			tasks: [{
 				id: 450,
 				type: "kill",
 				entity: "betteranimalsplus:feralwolf",
-				value: 3
+				value: 3L
 			}],
 			rewards: [
 				{
@@ -1189,7 +1338,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1203,24 +1352,28 @@
 			x: 4.5d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you've completed Beastiary I.",
 				"The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare."
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 451,
 			tasks: [
 				{
 					id: 452,
 					type: "kill",
 					entity: "rotten_creatures:inmortal",
-					value: 1
+					value: 1L
 				},
 				{
 					id: 453,
 					type: "kill",
 					entity: "rotten_creatures:dead_beard",
-					value: 1
+					value: 1L
 				}
 			],
 			rewards: [
@@ -1235,7 +1388,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1249,14 +1402,18 @@
 			x: 6.0d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: ["On the outer islands of The End, you will find guardians that defend massiive structures. Be careful though, these golem-like creatures pack a punch."],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 454,
 			tasks: [{
 				id: 455,
 				type: "kill",
 				entity: "endreborn:endguard",
-				value: 5
+				value: 5L
 			}],
 			rewards: [
 				{
@@ -1270,7 +1427,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1284,14 +1441,18 @@
 			x: 7.5d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: ["These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason."],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 456,
 			tasks: [{
 				id: 457,
 				type: "kill",
 				entity: "pandoras_creatures:end_troll",
-				value: 5
+				value: 5L
 			}],
 			rewards: [
 				{
@@ -1305,7 +1466,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1319,14 +1480,18 @@
 			x: 9.0d,
 			y: 7.5d,
 			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone..."],
+			min_required_dependencies: 0,
 			dependencies: [I;288],
+			dependency_requirement: "all_completed",
 			id: 458,
 			tasks: [{
 				id: 459,
 				type: "kill",
 				entity: "lycanitesmobs:amalgalich",
-				value: 1
+				value: 1L
 			}],
 			rewards: [
 				{
@@ -1340,7 +1505,7 @@
 					title: "2000000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000000
 						}
@@ -1352,74 +1517,70 @@
 			title: "Eight Legs",
 			x: 1.5d,
 			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"In Craft to Exile, there are 3 main defensive options. Armor, dodge, and magic shield. Armor reduces incoming damage, dodge gives you a chance to completely evade an attack, and magic shield adds more to your life pool.",
 				"Kill cave spiders!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;7],
+			dependency_requirement: "all_completed",
 			id: 1542,
 			tasks: [{
 				id: 1543,
 				type: "kill",
 				title: "Eight Legs",
 				entity: "minecraft:cave_spider",
-				value: 8
+				value: 8L
 			}],
-			rewards: [
-				{
-					id: 1556,
-					type: "choice",
-					table: 1
-				},
-				{
-					id: 1717,
-					type: "item",
-					title: "1000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1,
-						tag: {
-							exp: 1000
-						}
+			rewards: [{
+				id: 1717,
+				type: "item",
+				title: "1000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000
 					}
 				}
-			]
+			}]
 		},
 		{
 			title: "Double Double Toil and Trouble",
 			x: 3.0d,
 			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: [
 				"During your travels, you will find shields and torches. These are off-hand equipment that can provide benefits to your character. Right-click with a shield to reduce incoming damage, and with a torch to regenerate mana and energy.",
 				"Kill witches!"
 			],
+			min_required_dependencies: 0,
 			dependencies: [I;1542],
+			dependency_requirement: "all_completed",
 			id: 1557,
 			tasks: [{
 				id: 1558,
 				type: "kill",
 				entity: "minecraft:witch",
-				value: 3
+				value: 3L
 			}],
-			rewards: [
-				{
-					id: 1561,
-					type: "choice",
-					table: 2
-				},
-				{
-					id: 1718,
-					type: "item",
-					title: "1250 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1,
-						tag: {
-							exp: 1250
-						}
+			rewards: [{
+				id: 1718,
+				type: "item",
+				title: "1250 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1250
 					}
 				}
-			]
+			}]
 		},
 		{
 			title: "Taking The Long Route",
@@ -1427,12 +1588,16 @@
 			x: 7.5d,
 			y: 4.5d,
 			shape: "rsquare",
+			subtitle: "",
+			size: 1.0d,
 			description: ["If you haven't already, you'll need get to the Nether. The Nether is the next zone and covers level 18-26. The wither is considered the end-of-dimension boss here."],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				75,
 				440,
 				424
 			],
+			dependency_requirement: "all_completed",
 			id: 1676,
 			tasks: [{
 				id: 1677,
@@ -1445,7 +1610,7 @@
 				title: "10000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 10000
 					}
@@ -1457,17 +1622,22 @@
 			icon: "mmorpg:alchemy/instant/misc/reset_talents",
 			x: 4.5d,
 			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Reset potions can be used to re-allocate your stats or skills!"],
+			min_required_dependencies: 0,
 			dependencies: [I;
 				10,
 				1557
 			],
+			dependency_requirement: "all_completed",
 			id: 1680,
 			tasks: [{
 				id: 1681,
 				type: "item",
 				item: "mmorpg:currency/orb_of_transmutation",
-				count: 3
+				count: 3L
 			}],
 			rewards: [
 				{
@@ -1491,7 +1661,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1505,8 +1675,12 @@
 			x: 0.0d,
 			y: 3.0d,
 			shape: "heart",
+			subtitle: "",
+			size: 1.0d,
 			description: ["TelePass's are linked to the player that crafted them. Give them to other players and they will be able to teleport to you!"],
+			min_required_dependencies: 0,
 			dependencies: [I;3],
+			dependency_requirement: "all_completed",
 			id: 1686,
 			tasks: [{
 				id: 1698,
@@ -1525,7 +1699,7 @@
 					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 500
 						}
@@ -1538,8 +1712,12 @@
 			x: 10.5d,
 			y: 0.0d,
 			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Dank Storage blocks are multipurpose - they can function as backpacks, chests, and even tools! Use the Dank key while holding one to see more."],
+			min_required_dependencies: 0,
 			dependencies: [I;426],
+			dependency_requirement: "all_completed",
 			id: 1689,
 			tasks: [{
 				id: 1690,
@@ -1552,7 +1730,7 @@
 					type: "item",
 					item: {
 						id: "minecraft:leather",
-						Count: 4
+						Count: 4b
 					}
 				},
 				{
@@ -1561,7 +1739,7 @@
 					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 2000
 						}
@@ -1575,8 +1753,12 @@
 			x: -1.5d,
 			y: 3.0d,
 			shape: "heart",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Endermail lets you send packages to specific coordinates. You will need to stamp the package and use the controller on the package."],
+			min_required_dependencies: 0,
 			dependencies: [I;1686],
+			dependency_requirement: "all_completed",
 			id: 1692,
 			tasks: [
 				{
@@ -1594,7 +1776,7 @@
 					type: "item",
 					item: {
 						id: "endermail:package_controller",
-						Count: 1,
+						Count: 1b,
 						tag: {}
 					}
 				}
@@ -1605,7 +1787,7 @@
 					type: "item",
 					item: {
 						id: "endermail:packing_tape",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -1613,7 +1795,7 @@
 					type: "item",
 					item: {
 						id: "endermail:stamp",
-						Count: 2
+						Count: 2b
 					}
 				},
 				{
@@ -1622,7 +1804,7 @@
 					title: "1000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
-						Count: 1,
+						Count: 1b,
 						tag: {
 							exp: 1000
 						}
@@ -1635,8 +1817,12 @@
 			x: -1.5d,
 			y: 4.5d,
 			shape: "heart",
+			subtitle: "",
+			size: 1.0d,
 			description: ["Endermail lockers have unique IDs. When sending a package, you can actually send it to a locker that belongs to a player!"],
+			min_required_dependencies: 0,
 			dependencies: [I;1692],
+			dependency_requirement: "all_completed",
 			id: 1699,
 			tasks: [{
 				id: 1700,
@@ -1649,7 +1835,7 @@
 				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
-					Count: 1,
+					Count: 1b,
 					tag: {
 						exp: 1000
 					}

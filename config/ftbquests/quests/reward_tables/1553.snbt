@@ -4,10 +4,10 @@
 	loot_size: 1,
 	rewards: [
 		{
-			player_command: 1,
+			player_command: 1b,
 			icon: {
 				id: "minecraft:iron_chestplate",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -17,10 +17,10 @@
 			command: "/slash give gear @p plate_chest 5 2 1"
 		},
 		{
-			player_command: 1,
+			player_command: 1b,
 			icon: {
 				id: "minecraft:leather_chestplate",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}
@@ -30,10 +30,10 @@
 			command: "/slash give gear @p leather_chest 5 2 1"
 		},
 		{
-			player_command: 1,
+			player_command: 1b,
 			icon: {
 				id: "atum:wanderer_chest",
-				Count: 1,
+				Count: 1b,
 				tag: {
 					Damage: 0
 				}

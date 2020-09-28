@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates:
+- Disabled vertical slabs again.
+
+### Mod Updates
+- Removed AI Improvements.
+
+### Fixes
+- Fixed some quest command rewards.
+- Fixed a quest dependency.
+- Attempted fix regarding Aquaculture.
+
 ## [2.4.6] - 2020-09-28
 
 ### Updates

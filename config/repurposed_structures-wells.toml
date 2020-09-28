@@ -9,13 +9,6 @@
 
 	["Small Wells".Spawnrate]
 		#
-		# Adds Badlands themed wells to Badlands biomes.
-		# This effects how often wells will attempt to spawn per chunk.
-		# The chance of a well generating at a chunk is 1/spawnrate.
-		# 1 for wells spawning in every chunk and 10000 for no wells.
-		#Range: 1 ~ 10000
-		badlandsWellSpawnrate = 250
-		#
 		# Adds Nether themed wells to Nether biomes.
 		# This effects how often wells will attempt to spawn per chunk.
 		# The chance of a well generating at a chunk is 1/spawnrate.
@@ -29,6 +22,13 @@
 		# 1 for wells spawning in every chunk and 10000 for no wells.
 		#Range: 1 ~ 10000
 		snowWellSpawnrate = 350
+		#
+		# Adds Badlands themed wells to Badlands biomes.
+		# This effects how often wells will attempt to spawn per chunk.
+		# The chance of a well generating at a chunk is 1/spawnrate.
+		# 1 for wells spawning in every chunk and 10000 for no wells.
+		#Range: 1 ~ 10000
+		badlandsWellSpawnrate = 250
 		#
 		# Adds mossy stone themed wells to Jungles, Dark Oak, and Swamp biomes.
 		# This effects how often wells will attempt to spawn per chunk.

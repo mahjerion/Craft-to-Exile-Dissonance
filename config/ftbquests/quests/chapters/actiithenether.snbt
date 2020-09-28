@@ -1,0 +1,705 @@
+{
+	id: 83,
+	filename: "actiithenether",
+	order_index: 3,
+	title: "Act II: The Nether",
+	icon: "minecraft:netherrack",
+	quests: [
+		{
+			title: "Stay Safe",
+			icon: "minecraft:netherrack",
+			x: 0.0d,
+			y: 0.0d,
+			description: ["The Nether is a lava-filled zombie pig-infested area. Be careful not to dig straight down."],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				125,
+				1676
+			],
+			id: 121,
+			tasks: [{
+				id: 206,
+				type: "kill",
+				entity: "minecraft:zombie_pigman",
+				value: 10
+			}],
+			rewards: [
+				{
+					id: 123,
+					type: "item",
+					item: {
+						id: "mmorpg:teleport_scroll",
+						Count: 4
+					}
+				},
+				{
+					id: 1769,
+					type: "item",
+					title: "26000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 26000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "What The Blaze?",
+			icon: "minecraft:blaze_powder",
+			x: 1.5d,
+			y: 0.0d,
+			description: ["The Nether has a plethora of enemies to encounter and many unique biomes. Hopefully, when you come across blazes you won't be so scorched."],
+			dependencies: [I;121],
+			id: 207,
+			tasks: [{
+				id: 208,
+				type: "kill",
+				entity: "minecraft:blaze",
+				value: 30
+			}],
+			rewards: [
+				{
+					id: 209,
+					type: "item",
+					item: {
+						id: "mmorpg:identify_tome",
+						Count: 8
+					}
+				},
+				{
+					id: 1770,
+					type: "item",
+					title: "32500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 32500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Who Cut Cheese?",
+			x: 3.0d,
+			y: 0.0d,
+			description: ["The Nether is an unforgiving realm. You're likely to shed tears from frustration. But did you know monsters in the Nether can cry too?"],
+			dependencies: [I;207],
+			id: 211,
+			tasks: [{
+				id: 212,
+				type: "item",
+				item: "minecraft:ghast_tear",
+				count: 3
+			}],
+			rewards: [
+				{
+					id: 213,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 2
+					}
+				},
+				{
+					id: 1771,
+					type: "item",
+					title: "37500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 37500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Withering Away",
+			x: 4.5d,
+			y: 0.0d,
+			description: ["As you traverse the Nether, darkness starts to gnaw at your psyche. Quickly, we must get out of here! Kill the withers and grab their skulls. Only then can we leave..."],
+			dependencies: [I;211],
+			id: 215,
+			tasks: [{
+				id: 216,
+				type: "item",
+				item: "minecraft:wither_skeleton_skull",
+				count: 3
+			}],
+			rewards: [
+				{
+					id: 217,
+					type: "item",
+					item: {
+						id: "mmorpg:ore4",
+						Count: 3
+					}
+				},
+				{
+					id: 1772,
+					type: "item",
+					title: "43750 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 43750
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Black Death",
+			icon: "minecraft:wither_skeleton_spawn_egg",
+			x: 6.0d,
+			y: 0.0d,
+			description: ["Finally, assemble 4 blocks of soul sand/soil in a T shape and THEN place the 3 wither skeleton heads on top, and kill the Wither! But be warned, it won't be easy!"],
+			dependencies: [I;215],
+			id: 219,
+			tasks: [{
+				id: 220,
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 1
+			}],
+			rewards: [
+				{
+					id: 221,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_4"
+				},
+				{
+					id: 1773,
+					type: "item",
+					title: "75000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 75000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "The End",
+			x: 7.5d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: ["With an Eye of Ender, you can locate a stronghold in the Overworld that will let you access The End. Be sure to bring 12 Eye of Enders with you to activate the portal. Get ready... The End is near."],
+			dependencies: [I;219],
+			id: 225,
+			tasks: [{
+				id: 226,
+				type: "item",
+				item: "minecraft:ender_eye"
+			}],
+			rewards: [{
+				id: 1774,
+				type: "item",
+				title: "50000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1,
+					tag: {
+						exp: 50000
+					}
+				}
+			}]
+		},
+		{
+			title: "Oooh Shiny",
+			x: 0.0d,
+			y: 3.0d,
+			description: ["A villager in town is really addicted to unique ores and materials. Help them out by finding 50 quartz!"],
+			dependencies: [I;125],
+			id: 228,
+			tasks: [{
+				id: 229,
+				type: "item",
+				item: "minecraft:quartz",
+				count: 50
+			}],
+			rewards: [
+				{
+					id: 230,
+					type: "item",
+					item: {
+						id: "mmorpg:ore1",
+						Count: 10
+					}
+				},
+				{
+					id: 1775,
+					type: "item",
+					title: "25000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 25000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Glowing Skin",
+			x: 1.5d,
+			y: 3.0d,
+			description: ["Now that you've given them quartz, they know you're capable of traversing the Nether! They've asked you to go back and bring them 30 glowstone blocks!"],
+			dependencies: [I;228],
+			id: 232,
+			tasks: [{
+				id: 233,
+				type: "item",
+				item: "minecraft:glowstone",
+				count: 30
+			}],
+			rewards: [
+				{
+					id: 234,
+					type: "item",
+					item: {
+						id: "mmorpg:ore1",
+						Count: 20
+					}
+				},
+				{
+					id: 1776,
+					type: "item",
+					title: "31250 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 31250
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Warts",
+			x: 3.0d,
+			y: 3.0d,
+			description: ["After sleeping with the glowstone and licking quartz, the poor villager has come out with a terrible case of warts. They've heard that nether wart can be a quick-fix cure and have asked you to bring them some nether wart!"],
+			dependencies: [I;232],
+			id: 236,
+			tasks: [{
+				id: 237,
+				type: "item",
+				item: "minecraft:nether_wart",
+				count: 50
+			}],
+			rewards: [
+				{
+					id: 238,
+					type: "item",
+					item: {
+						id: "mmorpg:ore2",
+						Count: 10
+					}
+				},
+				{
+					id: 1777,
+					type: "item",
+					title: "37500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 37500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Light In The Shadows",
+			x: 6.0d,
+			y: 3.0d,
+			description: ["Remember that villager? Yeah, they're back... Seems like warts weren't enough to get them off shiny objects. This time they're asking for nether stars... THREE of them!"],
+			dependencies: [I;
+				236,
+				219
+			],
+			id: 240,
+			tasks: [{
+				id: 241,
+				type: "item",
+				item: "minecraft:nether_star",
+				count: 3
+			}],
+			rewards: [
+				{
+					id: 242,
+					type: "item",
+					item: {
+						id: "mmorpg:lootbox/big_currency_lootbox_3",
+						Count: 3
+					}
+				},
+				{
+					id: 1778,
+					type: "item",
+					title: "46250 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 46250
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Exploring Fiery Depths",
+			icon: {
+				id: "lycanitesmobs:equipmentpart_astarothclaw",
+				Count: 1,
+				tag: {
+					equipmentLevel: 1
+				}
+			},
+			x: 0.0d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill astaroths."
+			],
+			dependencies: [I;288],
+			id: 472,
+			tasks: [{
+				id: 473,
+				type: "kill",
+				entity: "lycanitesmobs:astaroth",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 722,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_3"
+				},
+				{
+					id: 1779,
+					type: "item",
+					title: "52500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 52500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Squashing Bugs",
+			icon: {
+				id: "lycanitesmobs:equipmentpart_argustail",
+				Count: 1,
+				tag: {
+					equipmentLevel: 1
+				}
+			},
+			x: 1.5d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill trites."
+			],
+			dependencies: [I;288],
+			id: 474,
+			tasks: [{
+				id: 475,
+				type: "kill",
+				entity: "lycanitesmobs:trite",
+				value: 10
+			}],
+			rewards: [
+				{
+					id: 724,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 1780,
+					type: "item",
+					title: "37500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 37500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Burning Hides",
+			icon: "lycanitesmobs:boulderblastcharge",
+			x: 3.0d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill salamanders."
+			],
+			dependencies: [I;288],
+			id: 476,
+			tasks: [{
+				id: 477,
+				type: "kill",
+				entity: "lycanitesmobs:salamander",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 726,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_3"
+				},
+				{
+					id: 1781,
+					type: "item",
+					title: "45000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 45000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Heebie Jeebies",
+			icon: {
+				id: "lycanitesmobs:beastspawn",
+				Count: 1,
+				tag: {
+					CreatureInfoSpawnEgg: {
+						creaturename: "arisaur"
+					}
+				}
+			},
+			x: 4.5d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill belphs."
+			],
+			dependencies: [I;288],
+			id: 478,
+			tasks: [{
+				id: 479,
+				type: "kill",
+				entity: "lycanitesmobs:belph",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 729,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_3"
+				},
+				{
+					id: 1782,
+					type: "item",
+					title: "48750 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 48750
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Firebolt!",
+			icon: "lycanitesmobs:scorchfireballcharge",
+			x: 6.0d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill afrits."
+			],
+			dependencies: [I;288],
+			id: 480,
+			tasks: [{
+				id: 481,
+				type: "kill",
+				entity: "lycanitesmobs:afrit",
+				value: 5
+			}],
+			rewards: [
+				{
+					id: 731,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 1783,
+					type: "item",
+					title: "52500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 52500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "And The Brain",
+			icon: "lycanitesmobs:raw_pinky_meat",
+			x: 7.5d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill pinkys."
+			],
+			dependencies: [I;288],
+			id: 482,
+			tasks: [{
+				id: 483,
+				type: "kill",
+				entity: "lycanitesmobs:pinky",
+				value: 5
+			}],
+			rewards: [
+				{
+					id: 733,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_3"
+				},
+				{
+					id: 1784,
+					type: "item",
+					title: "45000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 45000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Finding The Source",
+			icon: "lycanitesmobs:embercharge",
+			x: 9.0d,
+			y: 4.5d,
+			description: [
+				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+				"Kill behemoths."
+			],
+			dependencies: [I;288],
+			id: 484,
+			tasks: [{
+				id: 485,
+				type: "kill",
+				entity: "lycanitesmobs:behemoth",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 735,
+					type: "item",
+					item: "mmorpg:lootbox/medium_currency_lootbox_3"
+				},
+				{
+					id: 1785,
+					type: "item",
+					title: "52500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 52500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Lords Of The Underworld",
+			icon: {
+				id: "lycanitesmobs:demonspawn",
+				Count: 1,
+				tag: {
+					CreatureInfoSpawnEgg: {
+						creaturename: "rahovart"
+					}
+				}
+			},
+			x: 4.5d,
+			y: 6.0d,
+			description: [
+				"Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki).",
+				"It is highly recommended that you fight these bosses with allies."
+			],
+			dependencies: [I;
+				472,
+				474,
+				476,
+				478,
+				480,
+				482,
+				484
+			],
+			id: 486,
+			tasks: [
+				{
+					id: 487,
+					type: "kill",
+					entity: "lycanitesmobs:asmodeus",
+					value: 1
+				},
+				{
+					id: 488,
+					type: "kill",
+					entity: "lycanitesmobs:rahovart",
+					value: 1
+				}
+			],
+			rewards: [
+				{
+					id: 737,
+					type: "item",
+					item: "mmorpg:lootbox/medium_gear_lootbox_4"
+				},
+				{
+					id: 1786,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 150000
+						}
+					}
+				}
+			]
+		}
+	]
+}

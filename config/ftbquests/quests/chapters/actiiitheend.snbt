@@ -1,0 +1,548 @@
+{
+	id: 84,
+	filename: "actiiitheend",
+	order_index: 4,
+	title: "Act III: The End",
+	icon: "minecraft:end_stone",
+	quests: [
+		{
+			title: "End Of An Era",
+			icon: "minecraft:end_stone",
+			x: 0.0d,
+			y: 0.0d,
+			description: ["You made it! You're at The End! Woo- *GRUMBLE GRUMBLE* what the?! Is that a dragon I hear?"],
+			dependencies: [I;225],
+			id: 244,
+			tasks: [{
+				id: 246,
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [{
+				id: 1787,
+				type: "item",
+				title: "62500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1,
+					tag: {
+						exp: 62500
+					}
+				}
+			}]
+		},
+		{
+			title: "The Ender Dragon",
+			icon: "minecraft:dragon_head",
+			x: 1.5d,
+			y: 0.0d,
+			description: ["Kill the Ender Dragon."],
+			dependencies: [I;244],
+			id: 288,
+			tasks: [{
+				id: 289,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1
+			}],
+			rewards: [
+				{
+					id: 739,
+					type: "item",
+					item: {
+						id: "mmorpg:lootbox/big_currency_lootbox_4",
+						Count: 3
+					}
+				},
+				{
+					id: 740,
+					type: "item",
+					item: "mmorpg:alchemy/instant/misc/reset_stats"
+				},
+				{
+					id: 741,
+					type: "item",
+					item: "mmorpg:alchemy/instant/misc/reset_spells"
+				},
+				{
+					id: 742,
+					type: "item",
+					item: "mmorpg:alchemy/instant/misc/reset_talents"
+				},
+				{
+					id: 1788,
+					type: "item",
+					title: "250000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 250000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "End Remnants",
+			x: 3.0d,
+			y: 0.0d,
+			description: ["With the Ender Dragon gone, you should revisit The End and explore the islands that are left. Maybe you'll find a special chest or something along the way..."],
+			dependencies: [I;288],
+			id: 290,
+			tasks: [{
+				id: 291,
+				type: "item",
+				item: "minecraft:shulker_shell",
+				count: 2
+			}],
+			rewards: [
+				{
+					id: 744,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 10
+					}
+				},
+				{
+					id: 1789,
+					type: "item",
+					title: "67500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 67500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Back To The Nether",
+			x: 4.5d,
+			y: 0.0d,
+			description: [
+				"After returning to the village, you heard rumours about villagers constantly having nightmares. According to a bar keeper, villagers have resorted to consuming mushrooms which seemed to have a 50% success rate at deterring the nightmares.",
+				"Find the mushrooms in the Nether and see what you can do about the nightmares."
+			],
+			dependencies: [I;290],
+			id: 292,
+			tasks: [
+				{
+					id: 293,
+					type: "item",
+					item: "goodnightsleep:hope_mushroom"
+				},
+				{
+					id: 294,
+					type: "item",
+					item: "goodnightsleep:despair_mushroom"
+				}
+			],
+			rewards: [
+				{
+					id: 746,
+					type: "item",
+					item: {
+						id: "minecraft:red_bed",
+						Count: 10
+					}
+				},
+				{
+					id: 1790,
+					type: "item",
+					title: "71250 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 71250
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Pharaoh-cious",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "rsquare",
+			description: ["You hear sleepless whispers of the undead rising - fear pierces every village in the Overworld. It seems like it's time to take a trip to Atum - the desert of the dead."],
+			dependencies: [I;292],
+			id: 295,
+			tasks: [{
+				id: 296,
+				type: "item",
+				item: "atum:scarab"
+			}],
+			rewards: [{
+				id: 1791,
+				type: "item",
+				title: "75000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1,
+					tag: {
+						exp: 75000
+					}
+				}
+			}]
+		},
+		{
+			title: "Mapping Device",
+			x: 1.5d,
+			y: 1.5d,
+			description: [
+				"The mapping device opens portals to a dungeon realm. In this realm, you are unable to place or break blocks... So tread carefully. Always bring teleportation scrolls with you in case you get stuck!",
+				"To use the mapping device, place it in an flat and open space. Fill it up with ores (fuel), then take the map in your hand and use it on the mapping device. Good luck!"
+			],
+			dependencies: [I;288],
+			id: 297,
+			tasks: [{
+				id: 298,
+				type: "item",
+				item: "mmorpg:map_device"
+			}],
+			rewards: [{
+				id: 1792,
+				type: "item",
+				title: "25000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1,
+					tag: {
+						exp: 25000
+					}
+				}
+			}]
+		},
+		{
+			title: "On The Hunt",
+			icon: "minecraft:ender_pearl",
+			x: 3.0d,
+			y: 1.5d,
+			description: ["The Endermen are hindering your ability to safely traverse The End. Clear out the remaining Endermen in The End."],
+			dependencies: [I;290],
+			id: 299,
+			tasks: [{
+				id: 300,
+				type: "kill",
+				entity: "minecraft:enderman",
+				value: 10
+			}],
+			rewards: [
+				{
+					id: 751,
+					type: "item",
+					item: "mmorpg:lootbox/medium_currency_lootbox_3"
+				},
+				{
+					id: 1793,
+					type: "item",
+					title: "33750 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 33750
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Phone Home",
+			x: 1.5d,
+			y: 3.0d,
+			description: ["Teleporting back from maps can be a little glitchy. Use teleport scrolls to guarantee a safe and precise return."],
+			dependencies: [I;297],
+			id: 301,
+			tasks: [{
+				id: 302,
+				type: "item",
+				item: "mmorpg:teleport_scroll",
+				count: 4
+			}],
+			rewards: [
+				{
+					id: 757,
+					type: "item",
+					item: {
+						id: "mmorpg:teleport_scroll",
+						Count: 4
+					}
+				},
+				{
+					id: 1796,
+					type: "item",
+					title: "52500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 52500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Mining Dimension",
+			x: 0.0d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["The Mining Dimension is an endless cave that can be accessed by crafting a teleporter (see JEI). It's recommended that you're at least level 30 before entering the Mining Dimension."],
+			dependencies: [I;244],
+			id: 303,
+			tasks: [{
+				id: 304,
+				type: "item",
+				item: "mining_dimension:teleporter"
+			}],
+			rewards: [
+				{
+					id: 763,
+					type: "item",
+					item: {
+						id: "minecraft:iron_pickaxe",
+						Count: 1,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1799,
+					type: "item",
+					title: "25000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 25000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Finding The Right Ores",
+			x: 1.5d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Immersive Engineering ores can only be found in the mining dimension. Go spelunking and stock up while you're there!"],
+			dependencies: [I;303],
+			id: 305,
+			tasks: [
+				{
+					id: 306,
+					type: "item",
+					item: "immersiveengineering:ore_lead"
+				},
+				{
+					id: 307,
+					type: "item",
+					item: "immersiveengineering:ore_nickel"
+				},
+				{
+					id: 308,
+					type: "item",
+					item: "immersiveengineering:ore_aluminum"
+				}
+			],
+			rewards: [
+				{
+					id: 765,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 16
+					}
+				},
+				{
+					id: 1800,
+					type: "item",
+					title: "30000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 30000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Squashing Bugs II",
+			x: 4.5d,
+			y: 1.5d,
+			description: ["It seems that The End and the Nether have some sort of connection. However, these trites seem to have undergone some sort of void transformation."],
+			dependencies: [I;299],
+			id: 309,
+			tasks: [{
+				id: 310,
+				type: "kill",
+				entity: "lycanitesmobs:trite",
+				value: 30
+			}],
+			rewards: [
+				{
+					id: 753,
+					type: "item",
+					item: "mmorpg:lootbox/medium_currency_lootbox_3"
+				},
+				{
+					id: 1794,
+					type: "item",
+					title: "37500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 37500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "What Are These Anyway?",
+			icon: "lycanitesmobs:geistliver",
+			x: 6.0d,
+			y: 1.5d,
+			description: ["These morbid undead beings feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful!"],
+			dependencies: [I;309],
+			id: 311,
+			tasks: [{
+				id: 312,
+				type: "kill",
+				entity: "lycanitesmobs:geist",
+				value: 15
+			}],
+			rewards: [
+				{
+					id: 755,
+					type: "item",
+					item: "mmorpg:lootbox/medium_gear_lootbox_3"
+				},
+				{
+					id: 1795,
+					type: "item",
+					title: "38750 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 38750
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Firing That Lazer",
+			x: 4.5d,
+			y: 3.0d,
+			description: ["Kill these creatures in The End to prevent some from leaving the void and into the Overworld."],
+			dependencies: [I;309],
+			id: 313,
+			tasks: [{
+				id: 314,
+				type: "kill",
+				entity: "lycanitesmobs:astaroth",
+				value: 3
+			}],
+			rewards: [
+				{
+					id: 759,
+					type: "item",
+					item: "mmorpg:lootbox/medium_currency_lootbox_4"
+				},
+				{
+					id: 1797,
+					type: "item",
+					title: "50000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 50000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "And The Brain II",
+			icon: "lycanitesmobs:cooked_pinky_meat",
+			x: 6.0d,
+			y: 3.0d,
+			description: ["Kill these creatures in The End to prevent some from leaving the void and into the Overworld."],
+			dependencies: [I;309],
+			id: 315,
+			tasks: [{
+				id: 316,
+				type: "kill",
+				entity: "lycanitesmobs:pinky",
+				value: 5
+			}],
+			rewards: [
+				{
+					id: 761,
+					type: "item",
+					item: {
+						id: "mmorpg:lootbox/medium_currency_lootbox_3",
+						Count: 3
+					}
+				},
+				{
+					id: 1798,
+					type: "item",
+					title: "35000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1,
+						tag: {
+							exp: 35000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Cave Lighter",
+			x: 3.0d,
+			y: 4.5d,
+			shape: "gear",
+			description: ["Craft the mining helmet to see in the dark without torches!"],
+			dependencies: [I;303],
+			id: 1701,
+			tasks: [{
+				id: 1702,
+				type: "item",
+				item: {
+					id: "mining_helmet:mining_helmet",
+					Count: 1,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 1801,
+				type: "item",
+				title: "20000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1,
+					tag: {
+						exp: 20000
+					}
+				}
+			}]
+		}
+	]
+}

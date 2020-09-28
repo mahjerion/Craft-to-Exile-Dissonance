@@ -7,10 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.6] - 2020-09-28
+
+### Updates
+- New questing mod - FTB Quests is possible now with the new Mine and Slash EXP item. Rejoice! The default quest key is "p" but you may need to change it yourself.
+- Nerfed Paxel - needs higher tier materials now to craft.
+
+### Mod Updates
+- Updated MineColonies, Mine and Slash.
+- Added FTB Quests.
+- Removed Custom Quests.
+
 ## [2.4.5] - 2020-09-25
 
 ### Mod Updates
-- Re-added Repurposed Structures. Seems stable enough...
+- Re-added Repurposed Structures. Seems stable enough...	
 
 ### Fixes
 - Fixed Midnight ore recipes to actually work.

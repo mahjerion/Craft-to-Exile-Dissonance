@@ -22,7 +22,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:2
+zoom:1
 mapSize:-1
 entityAmount:1
 chunkGrid:-1
@@ -55,8 +55,7 @@ playerHeads:false
 heightLimit:20
 worldMap:true
 terrainDepth:true
-terrainSlopes:true
-terrainSlopesExperiment:false
+terrainSlopes:2
 mainEntityAs:2
 blockTransparency:true
 waypointOpacityIngame:60
@@ -85,6 +84,7 @@ renderAllSets:false
 playerArrowOpacity:50
 ignoreHeightmaps:false
 waypointsBottom:false
+minimapShape:0
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

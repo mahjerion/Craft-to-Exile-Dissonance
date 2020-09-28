@@ -12,6 +12,10 @@
 		# Adds tiny boulders to modded Taiga biomes.
 		addTinyBouldersModdedBiomes = false
 		#
+		# Adds a large tree somewhat uncommonly to Swamp biome and replaces
+		# all vanilla trees in Swamp Hills biome with the larger tree.
+		hornedSwampTree = true
+		#
 		# Adds tiny boulders to Taiga Mountains and Snowy Taiga Mountains biomes 
 		# that can contain small amounts of Coal and Iron ores.
 		boulderTiny = true
@@ -20,12 +24,30 @@
 		# biomes with a larger boulder that can contain Coal, Iron, and extremely
 		# rarely, can also have Diamond Ores.
 		boulderGiant = true
-		#
-		# Adds a large tree somewhat uncommonly to Swamp biome and replaces
-		# all vanilla trees in Swamp Hills biome with the larger tree.
-		hornedSwampTree = true
 
 ["Structure Options"]
+
+	["Structure Options".Igloos]
+		#
+		# Add Grassy Igloos to modded biomes that are
+		# most likely grassy fields or temperate forests.
+		addGrassyIglooToModdedBiomes = false
+		#
+		# How rare are Stone Igloos in Giant Tree Taiga biomes.
+		# 
+		# 1 for spawning in most chunks and 1001 for no spawn.
+		#Range: 1 ~ 1001
+		stoneIglooSpawnrate = 20
+		#
+		# How rare are Grassy Igloos in Plains and Forests.
+		# 
+		# 1 for spawning in most chunks and 1001 for no spawn.
+		#Range: 1 ~ 1001
+		grassyIglooSpawnrate = 20
+		#
+		# Add Stone Igloos to modded biomes that are
+		# most likely Giant Tree Taiga variants.
+		addStoneIglooToModdedBiomes = false
 
 	["Structure Options"."Jungle Fortress"]
 		#
@@ -34,6 +56,9 @@
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
 		jungleFortressSpawnrate = 32
+		#
+		# Controls whether loot chests spawn or not in Jungle Fortresses.
+		lootChestsJF = true
 		#
 		# How often Silverfish Blocks will generate in Jungle Fortress as a percentage.
 		# Note: Mossy Stone Bricks block cannot be infected by Silverfish
@@ -46,22 +71,19 @@
 		# If turned off, the spawners will become Skeleton spawners.
 		allowSilverfishSpawnerJF = true
 		#
-		# Controls whether loot chests spawn or not in Jungle Fortresses.
-		lootChestsJF = true
-		#
 		# Add Jungle Fortress to modded jungle biomes.
 		addJungleFortressToModdedBiomes = false
 
 	["Structure Options"."Nether Temple"]
+		#
+		# Controls whether loot chests spawn or not in Nether Temples.
+		lootChestsNT = true
 		#
 		# How rare are Nether Temples in Nether.
 		# 
 		# 1 for spawning in most chunks and 1001 for no spawn.
 		#Range: 1 ~ 1001
 		netherTempleSpawnrate = 20
-		#
-		# Controls whether loot chests spawn or not in Nether Temples.
-		lootChestsNT = true
 		#
 		# Add Jungle Fortress to modded jungle biomes.
 		addNetherTempleToModdedBiomes = false
@@ -79,26 +101,4 @@
 		#
 		# Add Jungle Fortress to modded jungle biomes.
 		addBadlandsTempleToModdedBiomes = false
-
-	["Structure Options".Igloos]
-		#
-		# How rare are Grassy Igloos in Plains and Forests.
-		# 
-		# 1 for spawning in most chunks and 1001 for no spawn.
-		#Range: 1 ~ 1001
-		grassyIglooSpawnrate = 20
-		#
-		# Add Grassy Igloos to modded biomes that are
-		# most likely grassy fields or temperate forests.
-		addGrassyIglooToModdedBiomes = false
-		#
-		# How rare are Stone Igloos in Giant Tree Taiga biomes.
-		# 
-		# 1 for spawning in most chunks and 1001 for no spawn.
-		#Range: 1 ~ 1001
-		stoneIglooSpawnrate = 20
-		#
-		# Add Stone Igloos to modded biomes that are
-		# most likely Giant Tree Taiga variants.
-		addStoneIglooToModdedBiomes = false
 

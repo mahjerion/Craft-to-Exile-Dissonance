@@ -25,6 +25,8 @@
 	generatesupplyloot = true
 	#Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy! [Default: false]
 	allowinfinitecolonies = false
+	#If part of the colony is loaded by an owner/officer, the entire colony should be kept loaded. [Default: false]
+	forceloadcolony = false
 	#Child growth modifier. On average children take about 60min to grow at 1.0x modifier (the default). 5 = 5x as fast. [Default: 1]
 	#Range: 1.0 ~ 100.0
 	growthmodifier = 1.0
@@ -240,7 +242,7 @@
 	#minecolonies.config.debuginventories.comment
 	debuginventories = false
 	#minecolonies.config.luckyores.comment
-	luckyores = ["minecraft:coal_ore!64", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1"]
+	luckyores = ["minecraft:coal_ore!64", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1", "mmorpg:ore0!32", "mmorpg:ore1!16", "mmorpg:ore2!8", "mmorpg:ore3!4", "mmorpg:ore4!1"]
 	#minecolonies.config.luckyblocks.comment
 	luckyblocks = ["minecraft:stone", "minecraft:cobblestone"]
 	#minecolonies.config.configlistrecruitmentitems.comment

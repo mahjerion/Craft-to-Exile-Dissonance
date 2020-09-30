@@ -95,7 +95,7 @@
 	Thatch = true
 	"Variant Chests" = true
 	"Variant Ladders" = true
-	"Vertical Slabs" = false
+	"Vertical Slabs" = true
 	Shingles = true
 	"Nether Brick Fence Gate" = true
 	"Item Frames" = true
@@ -415,7 +415,7 @@
 	Crevices = true
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
-	"Mega Caves" = true
+	"Mega Caves" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
@@ -959,13 +959,13 @@
 	[world.mega_caves]
 
 		[world.mega_caves.spawn_settings]
-			"Horizontal Size" = 80
-			Rarity = 800
+			"Horizontal Size" = 50
+			Rarity = 1600
 			"Min Y Level" = 10
-			"Horizontal Variation" = 30
+			"Horizontal Variation" = 15
 			"Max Y Level" = 20
-			"Vertical Size" = 25
-			"Vertical Variation" = 10
+			"Vertical Size" = 20
+			"Vertical Variation" = 5
 
 			[world.mega_caves.spawn_settings.biomes]
 				"Biome Types" = ["OCEAN", "BEACH"]

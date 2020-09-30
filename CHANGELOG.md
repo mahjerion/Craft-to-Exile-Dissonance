@@ -7,20 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.7] - 2020-09-30
+
 ### Updates
-- Quests can now be synced in a party! To create a team, use "/ftbteams create Name here". To change it's settings, use "/ftbteams settings <key> <value>", use tab to cycle through them.
 - Made Atum 'raids' much less frequent.
-- Disabled vertical slabs again.
+- Added some Mine and Slash ores to "lucky ores" pool of miners from MineColonies.
+- Reduced spawn rate of "mega caves" from Quark.
 
 ### Mod Updates
-- Added FTB Teams.
+- Updated MineColonies.
 - Removed AI Improvements.
 - Removed JEI Professions.
+- Removed Double Slabs - causing a lot of issues/crashes probably with Quark vertical slabs. Should also help with vertical slab placement issues some people have been having.
+- Downgraded Aquaculture.
 
 ### Fixes
 - Fixed some quest command rewards.
 - Fixed a quest dependency.
-- Attempted fix regarding Aquaculture.
+- Fixed a crash regarding slabs.
+- Fix regarding Aquaculture.
 
 ## [2.4.6] - 2020-09-28
 

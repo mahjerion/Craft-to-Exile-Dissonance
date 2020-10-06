@@ -1,0 +1,30 @@
+{
+  "id": "nature_heretic",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.nature_heretic",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      },
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm",
+          "staff"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "critical_damage_flat",
+    "high_spell_nature_damage_flat"
+  ]
+}

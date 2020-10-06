@@ -1,0 +1,29 @@
+{
+  "id": "deep_mind",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.deep_mind",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 10,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "mana_regen_flat",
+    "mana_regen_percent"
+  ]
+}

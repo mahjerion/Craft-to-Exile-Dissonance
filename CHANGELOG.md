@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0] - 2020-10-06
+
+### Updates
+- Added a new dimension: Tropicraft's Tropics (Lv. 50-58)! Depending on how you complete Act V, gain access to EITHER the Tropics (Act VIa) or Midnight (Act VIb)! Be the first to adventure into uncharted territory. Encounter locals, new species of animal, and explore the vast water network of the Tropics. But beware... not all species are so friendly...
+- Explore the Tropics with the new updated quest log. Go scuba diving, document the different species, or just chill on the beach with a Pina Colada. The choice is your.
+- Mine and Slash has had a pretty large update. Check out the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3072727
+- Added Apotheosis which introduces some new village mechanics as well as a new enchanting table!
+- Added a bunch of new quests for Apotheosis.
+- Staves are now craftable early game - check out the new quest entry showing you how to do it!
+- Added some other stone blocks to the "lucky blocks" pool of miners from MineColonies.
+- Changed the recipe of the Immersive Engineering hammer to require one lead ore.
+- Added a new damage affixes for all weapons, and some special ones for bows.
+- Added a bunch of new potential spell-based affixes for staves.
+- Increased equipment drop rate by about 14.3%
+- Reduced the cost effectiveness of some of the fruit foods from Pam's.
+
+### Mod Updates
+- Updated Xaero's, MineColonies, Mine and Slash, Simple Farming, Immersive Engineering, Structurize, Collective, TerraForged.
+- Added Tropicraft.
+- Added Inventory Totem.
+- Added Apotheosis.
+- Added Forgiving Void - no longer will Corpse disappear in the void by chance!
+
+### Fixes
+- Fixed some quests not indicating which mobs to kill.
+
 ## [2.4.7] - 2020-09-30
 
 ### Updates

@@ -107,7 +107,10 @@
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["There are so many different bee types here... Exterminate!"],
+			description: [
+				"There are so many different bee types here... Exterminate!",
+				"Kill 5 bees, 3 iron bees, 2 gold bees, 1 diamond bee, and 1 emerald bee."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;95],
 			dependency_requirement: "all_completed",
@@ -511,6 +514,7 @@
 		},
 		{
 			title: "Slimey Means",
+			icon: "buzzierbees:honey_slime_spawn_egg",
 			x: 3.0d,
 			y: 3.0d,
 			shape: "hexagon",
@@ -524,6 +528,7 @@
 			tasks: [{
 				id: 471,
 				type: "kill",
+				icon: "minecraft:slime_ball",
 				entity: "buzzierbees:honey_slime",
 				value: 3L
 			}],
@@ -549,6 +554,37 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Don't Bee Shelfish!",
+			x: 4.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Apotheosis brings more than just one type of bookshelf!"],
+			min_required_dependencies: 0,
+			dependencies: [I;110],
+			dependency_requirement: "all_completed",
+			id: 1958,
+			tasks: [{
+				id: 1959,
+				type: "item",
+				item: "apotheosis:beeshelf",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1960,
+				type: "item",
+				title: "25000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 25000
+					}
+				}
+			}]
 		}
 	]
 }

@@ -795,6 +795,40 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Hellshelves!",
+			x: 3.0d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You can search in the JEI for all the different enchantments and shelves that Apotheosis brings to the table. Experiment with different configurations!"],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				207,
+				232
+			],
+			dependency_requirement: "all_completed",
+			id: 1961,
+			tasks: [{
+				id: 1962,
+				type: "item",
+				item: "apotheosis:hellshelf",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1963,
+				type: "item",
+				title: "30000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 30000
+					}
+				}
+			}]
 		}
 	]
 }

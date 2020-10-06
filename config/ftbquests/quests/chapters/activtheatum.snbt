@@ -66,7 +66,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Even the land has been infused with negative energy. Be careful when mining stone - rumours mention the stone coming back to life..."],
+			description: [
+				"Even the land has been infused with negative energy. Be careful when mining stone - rumours mention the stone coming back to life...",
+				"Kill 3 stoneguards."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;317],
 			dependency_requirement: "all_completed",
@@ -107,7 +110,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Due to the lack of resources, Atum is in constant disarray. Not to mention, the desert flows with undead energy..."],
+			description: [
+				"Due to the lack of resources, Atum is in constant disarray. Not to mention, the desert flows with undead energy...",
+				"Kill 10 mummies."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;317],
 			dependency_requirement: "all_completed",
@@ -223,7 +229,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["After fighting the nomads, we learnt that there are pyramids in Atum which contain great treasures... However, it seems like someone caught wind of us trying to find this treasure."],
+			description: [
+				"After fighting the nomads, we learnt that there are pyramids in Atum which contain great treasures... However, it seems like someone caught wind of us trying to find this treasure.",
+				"Kill 3 barbarians, 3 brigands, and 1 sergeant."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;325],
 			dependency_requirement: "all_completed",
@@ -322,7 +331,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["First mummies and now we have to deal with ghosts too?!"],
+			description: [
+				"First mummies and now we have to deal with ghosts too?!",
+				"Kill 4 wraiths."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;331],
 			dependency_requirement: "all_completed",
@@ -363,7 +375,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["You've been told that the pyramids hold great treasure - but that great treasure is guarded by an ancient pharaoh. Interrogate some followers and find out how you can get to the treasure."],
+			description: [
+				"You've been told that the pyramids hold great treasure - but that great treasure is guarded by an ancient pharaoh. Interrogate some followers and find out how you can get to the treasure.",
+				"Kill 3 sergeants."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;
 				327,
@@ -407,7 +422,10 @@
 			shape: "diamond",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Once revered, the ghosts of the past have come to haunt those who have forgotten them. That is, unless you can remove them first."],
+			description: [
+				"Once revered, the ghosts of the past have come to haunt those who have forgotten them. That is, unless you can remove them first.",
+				"Kill 15 forsaken."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;327],
 			dependency_requirement: "all_completed",

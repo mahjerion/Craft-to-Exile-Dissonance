@@ -479,14 +479,14 @@
 		},
 		{
 			title: "Archery Specialization",
-			x: 3.0d,
+			x: 4.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Quivers are a special item in Craft to Exile that hold arrows. Arrows placed in the quiver are used first. If you remove the quiver then the arrows in the quiver will automatically dispense into your inventory."],
 			min_required_dependencies: 0,
-			dependencies: [I;36],
+			dependencies: [I;1948],
 			dependency_requirement: "all_completed",
 			id: 44,
 			tasks: [{
@@ -731,8 +731,8 @@
 		},
 		{
 			title: "Still Too Much...",
-			x: 4.5d,
-			y: 4.5d,
+			x: 6.0d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -778,8 +778,8 @@
 		},
 		{
 			title: "The Master Bag",
-			x: 6.0d,
-			y: 4.5d,
+			x: 7.5d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1183,7 +1183,7 @@
 		},
 		{
 			title: "To The Top",
-			x: 7.5d,
+			x: 9.0d,
 			y: 6.0d,
 			shape: "default",
 			subtitle: "",
@@ -1585,8 +1585,8 @@
 		{
 			title: "Taking The Long Route",
 			icon: "extendednether:crimson_nylium",
-			x: 7.5d,
-			y: 4.5d,
+			x: 9.0d,
+			y: 3.0d,
 			shape: "rsquare",
 			subtitle: "",
 			size: 1.0d,
@@ -1838,6 +1838,187 @@
 					Count: 1b,
 					tag: {
 						exp: 1000
+					}
+				}
+			}]
+		},
+		{
+			title: "Fletcher's Paradise",
+			x: 3.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Apotheosis brings a new upgraded fletching table to [Dissonance]. It can craft arrows more efficiently than a regular crafting table!"],
+			min_required_dependencies: 0,
+			dependencies: [I;36],
+			dependency_requirement: "all_completed",
+			id: 1948,
+			tasks: [{
+				id: 1949,
+				type: "item",
+				item: "minecraft:fletching_table"
+			}],
+			rewards: [{
+				id: 1950,
+				type: "item",
+				title: "4000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 4000
+					}
+				}
+			}]
+		},
+		{
+			title: "Apotheosis",
+			x: 6.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Apotheosis brings about an overhaul to the enchantment system. There is now a new system for enchanting that uses three stats, instead of the original single stat system. Some stats are the same (Eterna is the already existing Enchanting Power).",
+				"Eterna is the stat that controls what level your enchanting table is at.",
+				"Quanta determines how much flux is in your enchanting process. When you begin an enchantment process, after spending your experience, your Quanta level will work behind the scenes to change your enchantment level. This is not always beneficial, as",
+				"is capable of both increasing and decreasing the actual enchanting level.",
+				"Arcana determines how hard it is to get rare enchantments. At 0%, the base rules for enchantment rarity apply, but as your Arcana increases, rare enchantments will become more common, and common enchantments will become quite rare.",
+				"It also brings about a lot of new enchantments - check out the wiki for more details!",
+				"Note: some enchantments simply don't work with Mine and Slash's damage system. Be warned!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;1680],
+			dependency_requirement: "all_completed",
+			id: 1951,
+			tasks: [{
+				id: 1952,
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: 1953,
+					type: "item",
+					title: "500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500
+						}
+					}
+				},
+				{
+					id: 1957,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s,
+								id: "apotheosis:icy_thorns"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Under The Sea",
+			x: 7.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ['Each type of booksheld can provide benefits to certain enchanting stats. The stats for various items can be seen in their tooltips, and can be searched in JEI via the search term "Enchanting Stats".'],
+			min_required_dependencies: 0,
+			dependencies: [I;1951],
+			dependency_requirement: "all_completed",
+			id: 1954,
+			tasks: [{
+				id: 1955,
+				type: "item",
+				item: "apotheosis:seashelf",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1956,
+				type: "item",
+				title: "1000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000
+					}
+				}
+			}]
+		},
+		{
+			title: "I Volunteer As Tribute",
+			x: 9.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Altar of the Sea is a block with allows you to recycle worthless enchanted items. To begin, you need four enchanted items and a fair amount of experience. Then, you place one enchanted item on each pillar (target the pillar and right click it",
+				"while holding the item). Once all four pillars hold an item, the Altar will begin to drain experience from nearby players.",
+				"The amount of experience required is based on the levels an rarities of the provided enchantments. Once the experience has been drained, all four items will be consumed, and a newly created enchanted book will be created."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;1954],
+			dependency_requirement: "all_completed",
+			id: 1964,
+			tasks: [{
+				id: 1965,
+				type: "item",
+				item: "apotheosis:prismatic_altar"
+			}],
+			rewards: [{
+				id: 1966,
+				type: "item",
+				title: "2000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "I Wanted The Other Staff",
+			x: 6.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"In Craft to Exile [Dissonance] you can craft staves from Atum! Check the JEI for more information.",
+				""
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;57],
+			dependency_requirement: "all_completed",
+			id: 2057,
+			tasks: [{
+				id: 2058,
+				type: "item",
+				item: "atum:loot_dirty_scepter"
+			}],
+			rewards: [{
+				id: 2059,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1500
 					}
 				}
 			}]

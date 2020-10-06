@@ -1,0 +1,31 @@
+{
+  "id": "of_critical_damage",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_critical_damage",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      },
+      {
+        "min_level": 10,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "critical_damage_flat"
+  ]
+}

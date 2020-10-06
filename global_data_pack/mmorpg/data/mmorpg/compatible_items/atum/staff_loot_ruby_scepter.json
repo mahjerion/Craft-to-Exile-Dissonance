@@ -3,13 +3,13 @@
   "item_id": "atum:loot_ruby_scepter",
   "id": "staff:atum:loot_ruby_scepter",
   "gear_type": {
-    "normal_item_weight": 96,
+    "normal_item_weight": 90,
     "runed_item_weight": 0,
-    "unique_item_weight": 4
+    "unique_item_weight": 10
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 4
+    "max_rarity": 3
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,
@@ -18,7 +18,7 @@
     "can_be_salvaged": false
   },
   "level": {
-    "min_level": 31,
+    "min_level": 35,
     "max_level": 40,
     "level_variance": 0
   },

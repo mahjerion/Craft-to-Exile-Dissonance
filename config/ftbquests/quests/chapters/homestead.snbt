@@ -1,7 +1,7 @@
 {
 	id: 250,
 	filename: "homestead",
-	order_index: 9,
+	order_index: 10,
 	title: "Homestead",
 	icon: "structurize:sceptergold",
 	always_invisible: false,
@@ -1514,6 +1514,37 @@
 					Count: 1b,
 					tag: {
 						exp: 1000
+					}
+				}
+			}]
+		},
+		{
+			title: "The Sky Is The Limit",
+			x: 1.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["With Apotheosis, certain crops can grow to very great heights. Sugar cane, cactus, and bamboo can grow up to twice as high!"],
+			min_required_dependencies: 0,
+			dependencies: [I;595],
+			dependency_requirement: "all_completed",
+			id: 1967,
+			tasks: [{
+				id: 1968,
+				type: "item",
+				item: "minecraft:sugar_cane",
+				count: 32L
+			}],
+			rewards: [{
+				id: 1969,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
 					}
 				}
 			}]

@@ -1,0 +1,39 @@
+{
+  "id": "of_giants",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_giants",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "shield",
+          "cloth_boots",
+          "plate_chest",
+          "plate_boots",
+          "leather_chest",
+          "cloth_helmet",
+          "cloth_pants",
+          "torch",
+          "leather_pants",
+          "cloth_chest",
+          "plate_pants",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 10,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "critical_damage_flat",
+    "health_percent"
+  ]
+}

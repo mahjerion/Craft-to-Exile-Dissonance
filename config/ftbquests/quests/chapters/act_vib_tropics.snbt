@@ -1,0 +1,846 @@
+{
+	id: 1972,
+	filename: "act_vib_tropics",
+	order_index: 7,
+	title: "Act VIa: Tropics",
+	icon: "tropicraft:pina_colada",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
+	quests: [
+		{
+			title: "Welcome To Paradise?",
+			icon: "tropicraft:pina_colada",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Ahhh paradise... Or so you thought. Welcome to the Tropics - an uncharted island found off the coast of another island. How do you get here? Easy! Simply sit on a beach chair and sip your Pina Colada at sunset!"],
+			min_required_dependencies: 0,
+			dependencies: [I;386],
+			dependency_requirement: "all_completed",
+			id: 1973,
+			tasks: [{
+				id: 1974,
+				type: "dimension",
+				dimension: "tropicraft:tropics"
+			}],
+			rewards: [
+				{
+					id: 1977,
+					type: "item",
+					item: {
+						id: "tropicraft:bamboo_stick",
+						Count: 4b
+					}
+				},
+				{
+					id: 1978,
+					type: "item",
+					title: "175000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 175000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Bare Necessities",
+			x: 1.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["In the Tropics, you'll need to be careful where you tread. You never know what might be around the corner... Craft a dagger to protect you."],
+			min_required_dependencies: 0,
+			dependencies: [I;1973],
+			dependency_requirement: "all_completed",
+			id: 1975,
+			tasks: [{
+				id: 1976,
+				type: "item",
+				item: {
+					id: "tropicraft:dagger",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 1979,
+					type: "item",
+					item: {
+						id: "minecraft:bucket",
+						Count: 3b
+					}
+				},
+				{
+					id: 1980,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 180000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Exploration Route",
+			x: 3.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Let's see what we can find for food around these islands!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1975],
+			dependency_requirement: "all_completed",
+			id: 1981,
+			tasks: [
+				{
+					id: 1982,
+					type: "item",
+					item: "tropicraft:lemon"
+				},
+				{
+					id: 1983,
+					type: "item",
+					item: "tropicraft:lime"
+				},
+				{
+					id: 1984,
+					type: "item",
+					item: "tropicraft:grapefruit"
+				},
+				{
+					id: 1985,
+					type: "item",
+					item: "tropicraft:orange"
+				}
+			],
+			rewards: [
+				{
+					id: 1986,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 1987,
+					type: "item",
+					title: "185000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 185000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Relaxation Route",
+			x: 3.0d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Now that we're here, let's take a stroll along the shore... After so many days, we really deserve a rest!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1975],
+			dependency_requirement: "all_completed",
+			id: 1988,
+			tasks: [
+				{
+					id: 1989,
+					type: "item",
+					item: "tropicraft:solonox_shell"
+				},
+				{
+					id: 1990,
+					type: "item",
+					item: "tropicraft:frox_conch"
+				},
+				{
+					id: 1991,
+					type: "item",
+					item: "tropicraft:starfish"
+				}
+			],
+			rewards: [
+				{
+					id: 1992,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 1993,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 185000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Chunky",
+			icon: "tropicraft:chunk",
+			x: 4.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Around the Tropics, you will find various Eastern island heads. The material they're composed of is very strong. They might be practical..."],
+			min_required_dependencies: 0,
+			dependencies: [I;1981],
+			dependency_requirement: "all_completed",
+			id: 1994,
+			tasks: [
+				{
+					id: 1995,
+					type: "item",
+					item: "tropicraft:drink_mixer"
+				},
+				{
+					id: 1996,
+					type: "item",
+					item: "tropicraft:air_compressor"
+				}
+			],
+			rewards: [
+				{
+					id: 1997,
+					type: "item",
+					item: {
+						id: "tropicraft:zircon_gem",
+						Count: 4b
+					}
+				},
+				{
+					id: 1998,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 200000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Gem Discovery",
+			x: 4.5d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["In the Tropics, you will find native ores and gems hidden underground. These are used for crafting various tools, weapons, and Tropicraft-specific items!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1988],
+			dependency_requirement: "all_completed",
+			id: 1999,
+			tasks: [
+				{
+					id: 2000,
+					type: "item",
+					item: "tropicraft:azurite_gem",
+					count: 4L
+				},
+				{
+					id: 2001,
+					type: "item",
+					item: "tropicraft:zircon_gem",
+					count: 6L
+				}
+			],
+			rewards: [
+				{
+					id: 2002,
+					type: "item",
+					item: {
+						id: "tropicraft:azurite_gem",
+						Count: 2b
+					}
+				},
+				{
+					id: 2003,
+					type: "item",
+					item: {
+						id: "tropicraft:zircon_gem",
+						Count: 2b
+					}
+				},
+				{
+					id: 2004,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 200000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Danger Route",
+			x: 3.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["In the Tropics, you will find variants of familiar species... Kill 1 tropicreeper, 1 tropibee, 1 tropi spider, and 1 tropiskelly."],
+			min_required_dependencies: 0,
+			dependencies: [I;1975],
+			dependency_requirement: "all_completed",
+			id: 2005,
+			tasks: [
+				{
+					id: 2006,
+					type: "kill",
+					icon: "tropicraft:tropicreeper_spawn_egg",
+					entity: "tropicraft:tropicreeper",
+					value: 1L
+				},
+				{
+					id: 2007,
+					type: "kill",
+					icon: "tropicraft:tropibee_spawn_egg",
+					entity: "tropicraft:tropibee",
+					value: 1L
+				},
+				{
+					id: 2008,
+					type: "kill",
+					icon: "tropicraft:tropi_spider_spawn_egg",
+					entity: "tropicraft:tropi_spider",
+					value: 1L
+				},
+				{
+					id: 2009,
+					type: "kill",
+					icon: "minecraft:skeleton_skull",
+					entity: "tropicraft:tropiskelly",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: 2010,
+					type: "item",
+					item: "mmorpg:lootbox/big_currency_lootbox_3"
+				},
+				{
+					id: 2011,
+					type: "item",
+					title: "200000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 200000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "A Local Encounter",
+			x: 4.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You find out there are 2 local tribes to the Tropics! The ashen - a vicious tribe with no interest in conversation... kill them on sight! The other tribe seems to be a little more peaceful..."],
+			min_required_dependencies: 0,
+			dependencies: [I;2005],
+			dependency_requirement: "all_completed",
+			id: 2012,
+			tasks: [{
+				id: 2013,
+				type: "kill",
+				icon: "tropicraft:ashen_spawn_egg",
+				entity: "tropicraft:ashen",
+				value: 12L
+			}],
+			rewards: [
+				{
+					id: 2014,
+					type: "item",
+					item: "mmorpg:lootbox/big_currency_lootbox_3"
+				},
+				{
+					id: 2015,
+					type: "item",
+					title: "250000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 250000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Skin Peeling",
+			x: 6.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Iguanas are a native species to the Tropics. They can drop valuable materials for crafting!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2012],
+			dependency_requirement: "all_completed",
+			id: 2016,
+			tasks: [{
+				id: 2017,
+				type: "item",
+				item: "tropicraft:iguana_leather",
+				count: 12L
+			}],
+			rewards: [
+				{
+					id: 2018,
+					type: "item",
+					item: {
+						id: "tropicraft:iguana_leather",
+						Count: 4b
+					}
+				},
+				{
+					id: 2019,
+					type: "item",
+					title: "225000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 225000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Tropical Crafts",
+			x: 6.0d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You'll find that a lot of resources in the Tropics are multi-purpose. Zircon can be upgraded into zirconium which can be used for equipment!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1999],
+			dependency_requirement: "all_completed",
+			id: 2020,
+			tasks: [{
+				id: 2021,
+				type: "item",
+				item: {
+					id: "tropicraft:zirconium_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2022,
+					type: "item",
+					item: {
+						id: "tropicraft:zirconium_gem",
+						Count: 8b
+					}
+				},
+				{
+					id: 2023,
+					type: "item",
+					title: "275000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 275000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Improved Gear",
+			x: 7.5d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Eudialyte is considered one of the toughest materials you can find in the Tropics."],
+			min_required_dependencies: 0,
+			dependencies: [I;2020],
+			dependency_requirement: "all_completed",
+			id: 2024,
+			tasks: [{
+				id: 2025,
+				type: "item",
+				item: {
+					id: "tropicraft:eudialyte_axe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2055,
+					type: "item",
+					item: {
+						id: "tropicraft:eudialyte_gem",
+						Count: 8b
+					}
+				},
+				{
+					id: 2056,
+					type: "item",
+					title: "275000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 275000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Fire Resistance",
+			x: 7.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Wearing full scale armor gives you a hidden fire resistance bonus! You can get scales from iguanas."],
+			min_required_dependencies: 0,
+			dependencies: [I;2016],
+			dependency_requirement: "all_completed",
+			id: 2026,
+			tasks: [
+				{
+					id: 2027,
+					type: "item",
+					item: {
+						id: "tropicraft:scale_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2028,
+					type: "item",
+					item: {
+						id: "tropicraft:scale_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2029,
+					type: "item",
+					item: {
+						id: "tropicraft:scale_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2030,
+					type: "item",
+					item: {
+						id: "tropicraft:scale_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 2031,
+					type: "item",
+					item: "mmorpg:lootbox/medium_gear_lootbox_4"
+				},
+				{
+					id: 2032,
+					type: "item",
+					title: "275000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 275000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Scuba Expedition",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"At this point, you can craft scuba gear! Using iguana leather and zircon, you can make the 3 pieces of scuba gear.",
+				"Refill the air in your scuba tank using the air compressor!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				1999,
+				1994,
+				2016
+			],
+			dependency_requirement: "all_completed",
+			id: 2033,
+			tasks: [
+				{
+					id: 2034,
+					type: "item",
+					item: {
+						id: "tropicraft:yellow_scuba_goggles",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2035,
+					type: "item",
+					item: {
+						id: "tropicraft:yellow_scuba_harness",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							scuba: {}
+						}
+					}
+				},
+				{
+					id: 2036,
+					type: "item",
+					item: {
+						id: "tropicraft:yellow_scuba_flippers",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 2037,
+					type: "item",
+					item: "mmorpg:lootbox/medium_currency_lootbox_3"
+				},
+				{
+					id: 2038,
+					type: "item",
+					title: "205000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 205000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Fishing For Trouble",
+			x: 7.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The ocean is vast and is filled with many different species of fish. You can catch some of the fish using buckets. Let's go fishing!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2033],
+			dependency_requirement: "all_completed",
+			id: 2039,
+			tasks: [
+				{
+					id: 2040,
+					type: "item",
+					item: "tropicraft:tropical_fish_bucket"
+				},
+				{
+					id: 2041,
+					type: "item",
+					item: "tropicraft:piranha_bucket"
+				},
+				{
+					id: 2042,
+					type: "item",
+					item: "tropicraft:sardine_bucket"
+				}
+			],
+			rewards: [
+				{
+					id: 2043,
+					type: "item",
+					item: {
+						id: "tropicraft:scale",
+						Count: 4b
+					}
+				},
+				{
+					id: 2044,
+					type: "item",
+					title: "200000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 200000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Vegetarian Option",
+			x: 9.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Find soybean seeds in the Overworld from grass and make tofu. You can put tofu into the furnace to obtain grilled tofu."],
+			min_required_dependencies: 0,
+			dependencies: [I;2039],
+			dependency_requirement: "all_completed",
+			id: 2045,
+			tasks: [{
+				id: 2046,
+				type: "item",
+				item: "tofucraft:tofugrilled"
+			}],
+			rewards: [
+				{
+					id: 2051,
+					type: "item",
+					item: "mmorpg:lootbox/small_gear_lootbox_4"
+				},
+				{
+					id: 2052,
+					type: "item",
+					title: "300000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 300000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "With Some Flavouring",
+			x: 10.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The salt furnace is used in the production of tofu. Place the salt furnace under a cauldron, fill the cauldron with water, and provide a fuel source to the salt furnace.",
+				"You will begin to harvest salt. You can also harvest bittern with an empty bottle from the leftover water in the cauldron. This is the main ingredient to making tofu! Use the bottle of bittern on soy milk to turn it into tofu!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2045],
+			dependency_requirement: "all_completed",
+			id: 2047,
+			tasks: [{
+				id: 2048,
+				type: "item",
+				item: "tofucraft:salt_furnace"
+			}],
+			rewards: [{
+				id: 2053,
+				type: "item",
+				title: "300000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 300000
+					}
+				}
+			}]
+		},
+		{
+			title: "I Want More!",
+			x: 12.0d,
+			y: 0.0d,
+			shape: "rsquare",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"To get to Tofu World, you will need to make a 3x3 well (1 block deep) out of grilled tofu. Ensure that it's completely surrounded. Pour soymilk from a bucked into the well, then right click it with a tofu stick. Good luck in the Tofu World.",
+				"Don't be deceived by the cute critters!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2047],
+			dependency_requirement: "all_completed",
+			id: 2049,
+			tasks: [{
+				id: 2050,
+				type: "item",
+				item: "tofucraft:tofustick"
+			}],
+			rewards: [{
+				id: 2054,
+				type: "item",
+				title: "300000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 300000
+					}
+				}
+			}]
+		}
+	]
+}

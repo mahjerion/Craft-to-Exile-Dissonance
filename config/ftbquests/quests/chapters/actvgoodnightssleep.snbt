@@ -272,12 +272,18 @@
 			title: "Negative Karma",
 			x: 6.0d,
 			y: 7.5d,
-			shape: "default",
+			shape: "rsquare",
 			subtitle: "",
 			size: 1.0d,
-			description: ["You sense a great disturbance in the balance of positive and negative energies. Harvest negatite gems - maybe you can do something with the positite and negatite gems."],
+			description: [
+				"You sense a great disturbance in the balance of positive and negative energies. Harvest negatite gems - maybe you can do something with the negatite gems.",
+				"By holding onto Negatite gems, you might be able to learn how to access a new dimension..."
+			],
 			min_required_dependencies: 0,
-			dependencies: [I;365],
+			dependencies: [I;
+				365,
+				390
+			],
 			dependency_requirement: "all_completed",
 			id: 367,
 			tasks: [{
@@ -622,10 +628,13 @@
 			title: "Staying Positive",
 			x: 6.0d,
 			y: 1.5d,
-			shape: "default",
+			shape: "rsquare",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Positite gems radiate with positive energy. Perhaps collecting a few of these will help us understand how to restore balance."],
+			description: [
+				"Positite gems radiate with positive energy. Perhaps collecting a few of these will help us understand how to restore balance.",
+				"By holding onto Positite gems, you might be able to learn how to access a new dimension..."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;388],
 			dependency_requirement: "all_completed",
@@ -709,20 +718,15 @@
 			icon: "goodnightsleep:dream_sapling",
 			x: 6.0d,
 			y: 4.5d,
-			shape: "rsquare",
+			shape: "circle",
 			subtitle: "",
 			size: 1.0d,
 			description: [
 				"Reapers feed on the spiritual energy of the dead. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep.",
-				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight",
-				"To access this quest, you only need to complete 2 of the dependencies."
+				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight"
 			],
-			min_required_dependencies: 2,
-			dependencies: [I;
-				386,
-				371,
-				367
-			],
+			min_required_dependencies: 0,
+			dependencies: [I;371],
 			dependency_requirement: "all_completed",
 			id: 390,
 			tasks: [{

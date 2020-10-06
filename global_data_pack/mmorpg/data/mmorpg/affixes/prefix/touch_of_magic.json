@@ -1,0 +1,25 @@
+{
+  "id": "touch_of_magic",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.touch_of_magic",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm",
+          "staff"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "spell_damage_percent"
+  ]
+}

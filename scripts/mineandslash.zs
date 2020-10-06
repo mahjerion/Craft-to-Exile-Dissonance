@@ -40,3 +40,28 @@ craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:
 craftingTable.removeRecipe(<item:waystones:waystone>);
 craftingTable.removeRecipe(<item:waystones:mossy_waystone>);
 craftingTable.removeRecipe(<item:waystones:sandy_waystone>);
+
+mods.jei.JEI.hideItem(<item:atum:loot_sapphire_scepter>);
+mods.jei.JEI.hideItem(<item:atum:loot_ruby_scepter>);
+mods.jei.JEI.hideItem(<item:atum:loot_emerald_scepter>);
+
+craftingTable.addShaped("dirty_scepter", <item:atum:loot_dirty_scepter>,[
+	[<item:minecraft:air>,<item:minecraft:air>,<item:mmorpg:ore0>],
+	[<item:minecraft:air>,<tag:forge:rods/wooden>,<item:minecraft:air>],
+	[<tag:forge:rods/wooden>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+craftingTable.addShaped("silver_scepter", <item:atum:loot_silver_scepter>,[
+	[<item:minecraft:air>,<item:minecraft:air>,<item:mmorpg:mat/infused_iron>],
+	[<item:minecraft:air>,<tag:forge:rods/iron>,<item:minecraft:air>],
+	[<tag:forge:rods/iron>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+craftingTable.addShaped("gold_scepter", <item:atum:loot_gold_scepter>,[
+	[<item:minecraft:air>,<item:minecraft:air>,<item:mmorpg:mat/golden_orb>],
+	[<item:minecraft:air>,<item:minecraft:gold_ingot>,<item:minecraft:air>],
+	[<item:minecraft:gold_ingot>,<item:minecraft:air>,<item:minecraft:air>]
+]);
+craftingTable.addShaped("diamond_scepter", <item:atum:loot_diamond_scepter>,[
+	[<item:minecraft:air>,<item:minecraft:air>,<item:mmorpg:mat/crystallized_essence>],
+	[<item:minecraft:air>,<item:minecraft:diamond>,<item:minecraft:air>],
+	[<item:minecraft:diamond>,<item:minecraft:air>,<item:minecraft:air>]
+]);

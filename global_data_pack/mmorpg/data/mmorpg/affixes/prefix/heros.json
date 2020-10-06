@@ -1,0 +1,22 @@
+{
+  "id": "heros",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.heros",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "shield"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "block_strength_percent",
+    "health_percent"
+  ]
+}

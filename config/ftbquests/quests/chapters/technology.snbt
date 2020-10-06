@@ -1,7 +1,7 @@
 {
 	id: 1189,
 	filename: "technology",
-	order_index: 10,
+	order_index: 11,
 	title: "Technology",
 	icon: {
 		id: "immersiveengineering:hammer",
@@ -583,7 +583,8 @@
 			size: 1.0d,
 			description: [
 				"Immersive Engineering is a tech mod that is included with Craft to Exile. Once you've familiarized yourself, feel free to delve into IE. Use the manual to assist you when uncertain about certain functions.",
-				"Remember that IE ores only spawn in the mining dimension!"
+				"Remember that IE ores only spawn in the mining dimension!",
+				'Note: in order to access this quest, you must complete "Finding The Right Ores" in Act III.'
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;

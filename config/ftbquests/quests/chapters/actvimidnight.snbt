@@ -1,8 +1,8 @@
 {
 	id: 392,
 	filename: "actvimidnight",
-	order_index: 7,
-	title: "Act VI: Midnight",
+	order_index: 8,
+	title: "Act VIb: Midnight",
 	icon: "midnight:dark_pearl",
 	always_invisible: false,
 	group: 0,
@@ -22,7 +22,7 @@
 				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;390],
+			dependencies: [I;367],
 			dependency_requirement: "all_completed",
 			id: 393,
 			tasks: [{

@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:fruits"
+    },
+    {
+      "tag": "forge:fruits"
+    },
+    {
+      "tag": "forge:fruits"
+    },
+    {
+      "item": "tropicraft:lemon"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcore:fruitsaladitem",
+	"count": 1}
+	
+}

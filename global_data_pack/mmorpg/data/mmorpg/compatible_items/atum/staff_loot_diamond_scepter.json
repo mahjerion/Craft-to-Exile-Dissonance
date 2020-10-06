@@ -3,13 +3,13 @@
   "item_id": "atum:loot_diamond_scepter",
   "id": "staff:atum:loot_diamond_scepter",
   "gear_type": {
-    "normal_item_weight": 95,
+    "normal_item_weight": 96,
     "runed_item_weight": 0,
-    "unique_item_weight": 5
+    "unique_item_weight": 4
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 4
+    "max_rarity": 3
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,

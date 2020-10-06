@@ -52,6 +52,9 @@
 	#Increase the distance at which certain TileEntities (specifically windmills) are still visible. This is a modifier, so set it to 1 for default render distance, to 2 for doubled distance and so on.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	increasedTileRenderdistance = 1.5
+	#Use VBOs to render certain blocks. This is significantly faster than the usual rendering,
+	#but may not work correctly with visual effects from other mods
+	enableVBO = true
 	#Disables most lighting code for certain models that are rendered dynamically (TESR). May improve FPS.
 	#Affects turrets and garden cloches
 	disableFancyTESR = false
@@ -69,12 +72,18 @@
 	#A base-modifier for all fluid fertilizers in the cloche
 	#Range: 0.001 ~ 1000.0
 	garden_cloche_fluid_fertilizer_mod = 1.0
+	#A modifier to apply to the time of every sawmill recipe
+	#Range: 0.001 ~ 1000.0
+	sawmill_timeModifier = 1.0
 	#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
 	#Range: > -1
 	excavator_yield = 38400
 	#The Flux the Assembler will consume to craft an item from a recipe
 	#Range: > 1
 	assembler_consumption = 80
+	#The amount of damage a sawblade in the sawmill takes for a single recipe.
+	#Range: > 1
+	sawmill_bladeDamage = 5
 	#A modifier to apply to the time of every fermenter recipe
 	#Range: 0.001 ~ 1000.0
 	fermenter_timeModifier = 1.0
@@ -232,6 +241,9 @@
 	#The Flux that will be output by the lightning rod when it is struck
 	#Range: > 0
 	lightning_output = 16000000
+	#A modifier to apply to the energy costs of every sawmill recipe
+	#Range: 0.001 ~ 1000.0
+	sawmill_energyModifier = 1.0
 	#The Flux the Fluid Pump will consume to pick up a fluid block in the world
 	#Range: > 1
 	pump_consumption = 250

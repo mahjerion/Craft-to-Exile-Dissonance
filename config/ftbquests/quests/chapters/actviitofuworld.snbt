@@ -1,7 +1,7 @@
 {
 	id: 421,
 	filename: "actviitofuworld",
-	order_index: 8,
+	order_index: 9,
 	title: "Act VII: Tofu World",
 	icon: "tofucraft:tofukinu",
 	always_invisible: false,
@@ -18,8 +18,11 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["Welcome to Tofu World! Don't be deceived by the local fauna, this place is creeping with enemies! Start out by exploring your surroundings."],
-			min_required_dependencies: 0,
-			dependencies: [I;419],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				419,
+				2049
+			],
 			dependency_requirement: "all_completed",
 			id: 422,
 			tasks: [{

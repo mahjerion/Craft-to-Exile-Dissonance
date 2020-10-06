@@ -1,0 +1,30 @@
+{
+  "id": "of_fire_storms",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_fire_storms",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm",
+          "staff"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "fire_penetration_flat",
+    "fire_spell_to_attack_dmg_flat"
+  ]
+}

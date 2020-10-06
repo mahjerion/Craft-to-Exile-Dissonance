@@ -1,0 +1,23 @@
+{
+  "id": "of_the_depths",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_the_depths",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "necklace"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "mana_flat",
+    "energy_flat",
+    "health_percent"
+  ]
+}

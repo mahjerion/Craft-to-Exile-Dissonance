@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Staves are now craftable early game - check out the new quest entry showing you how to do it!
 - Added some other stone blocks to the "lucky blocks" pool of miners from MineColonies.
 - Changed the recipe of the Immersive Engineering hammer to require one lead ore.
-- Added a new damage affixes for all weapons, and some special ones for bows.
+- Added a bunch of new damage affixes for all weapons, and some special ones for bows.
 - Added a bunch of new potential spell-based affixes for staves.
 - Increased equipment drop rate by about 14.3%
 - Reduced the cost effectiveness of some of the fruit foods from Pam's.

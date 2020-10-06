@@ -299,7 +299,7 @@
 		{
 			title: "Identification, Please",
 			x: 3.0d,
-			y: 1.5d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1551,7 +1551,7 @@
 		{
 			title: "Double Double Toil and Trouble",
 			x: 3.0d,
-			y: -1.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1875,7 +1875,7 @@
 		{
 			title: "Apotheosis",
 			x: 6.0d,
-			y: -3.0d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1992,9 +1992,9 @@
 			}]
 		},
 		{
-			title: "I Wanted The Other Staff",
-			x: 6.0d,
-			y: -1.5d,
+			title: "Magic!",
+			x: 3.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2003,7 +2003,7 @@
 				""
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;57],
+			dependencies: [I;10],
 			dependency_requirement: "all_completed",
 			id: 2057,
 			tasks: [{

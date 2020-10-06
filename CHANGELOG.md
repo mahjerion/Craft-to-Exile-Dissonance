@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.0c] - 2020-10-06
+
+### Updates
+- Moved the staff quest to an earlier spot.
+
+### Fixes
+- Included the quests in the server pack!
+
+## [2.5.0b] - 2020-10-06
+
+### Fixes
+- Fixed a MineColonies crash.
+
 ## [2.5.0] - 2020-10-06
 
 ### Updates

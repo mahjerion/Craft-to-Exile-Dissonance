@@ -378,8 +378,6 @@
 	diligent = ["minecraft:book*6"]
 	#minecolonies.config.rainman.comment
 	rainman = ["minecraft:salmon_bucket*27"]
-	#minecolonies.config.strong.comment
-	strong = ["minecraft:diamond*8"]
 	#minecolonies.config.hormones.comment
 	hormones = ["minecraft:cooked_chicken*64"]
 	#minecolonies.config.city.comment
@@ -576,10 +574,6 @@
 	firstaid2 = ["minecraft:hay_block*16"]
 	#minecolonies.config.bandages.comment
 	bandages = ["minecraft:golden_carrot*16"]
-	#minecolonies.config.enhanced_gates2.comment
-	enhanced_gates2 = ["minecolonies:gate_iron*64", "minecolonies:ancienttome*2", "minecraft:obsidian*32"]
-	#minecolonies.config.enhanced_gates1.comment
-	enhanced_gates1 = ["minecolonies:gate_wood*64", "minecolonies:ancienttome*2", "minecraft:iron_block*5"]
 	#minecolonies.config.village.comment
 	village = ["minecraft:cooked_beef*256"]
 	#minecolonies.config.madness.comment

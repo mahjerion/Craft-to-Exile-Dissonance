@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Added a new dimension: Tropicraft's Tropics (Lv. 50-58)! Depending on how you complete Act V, gain access to EITHER the Tropics (Act VIa) or Midnight (Act VIb)! Be the first to adventure into uncharted territory. Encounter locals, new species of animal, and explore the vast water network of the Tropics. But beware... not all species are so friendly...
-- Explore the Tropics with the new updated quest log. Go scuba diving, document the different species, or just chill on the beach with a Pina Colada. The choice is your.
+- Explore the Tropics with the new updated quest log. Go scuba diving, document the different species, or just chill on the beach with a Pina Colada. The choice is yours.
 - Mine and Slash has had a pretty large update. Check out the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3072727
 - Added Apotheosis which introduces some new village mechanics as well as a new enchanting table!
 - Added a bunch of new quests for Apotheosis.

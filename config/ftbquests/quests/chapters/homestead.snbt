@@ -1548,6 +1548,135 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Initializing Trades",
+			x: 1.5d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The trading post is where player trades will happen. Each trading post has it's own \"inventory\" but items can also be hoppered in. Additionally, you can connect trading posts with a cable network and a bank to centralize the currency to 1 bank block."],
+			min_required_dependencies: 0,
+			dependencies: [I;2065],
+			dependency_requirement: "all_completed",
+			id: 2060,
+			tasks: [{
+				id: 2061,
+				type: "item",
+				item: "calemiutils:trading_post"
+			}],
+			rewards: [{
+				id: 2068,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "Bringing It Together",
+			x: 3.0d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The bank block is a currency storage unit that can be used in your home, or as a currency storage when connected to trading posts via network cables. Don't worry, trading post blocks and bank blocks you create are protected!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2060],
+			dependency_requirement: "all_completed",
+			id: 2062,
+			tasks: [
+				{
+					id: 2063,
+					type: "item",
+					item: "calemiutils:bank"
+				},
+				{
+					id: 2064,
+					type: "item",
+					item: "calemiutils:network_cable"
+				}
+			],
+			rewards: [{
+				id: 2069,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "Setting Up Shop",
+			x: 0.0d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Calemi's Utilities add a fully-functioning economy that includes Coins, Wallets, Banks, Trading Posts, and more!",
+				"Wallets can store mass amounts of money. The security wrench is an invaluable asset when working with trading blocks. You will need it to set trades!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;3],
+			dependency_requirement: "all_completed",
+			id: 2065,
+			tasks: [{
+				id: 2066,
+				type: "item",
+				item: "calemiutils:security_wrench"
+			}],
+			rewards: [{
+				id: 2067,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "On Display",
+			x: 4.5d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The item stand lets you display your hard-earned items! Use the security wrench on the stand to customize the look."],
+			min_required_dependencies: 0,
+			dependencies: [I;2062],
+			dependency_requirement: "all_completed",
+			id: 2071,
+			tasks: [{
+				id: 2072,
+				type: "item",
+				item: "calemiutils:item_stand"
+			}],
+			rewards: [{
+				id: 2073,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
 		}
 	]
 }

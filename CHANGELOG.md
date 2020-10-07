@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.1] - 2020-10-07
+
+### Updates
+- Another leak... rolling back a bit as I look for the problem mod.
+- Calemi's Utilities adds shops!
+- No longer lose your equipped items and hotbar on death.
+- Going to keep Apotheosis and Tropicraft for now - don't think they're the cause.
+
+### Mod Updates
+- Added Calemi's Utilities.
+- Added Corpse Complex.
+- Removed Inventory Totem.
+- Removed Forgiving Void.
+- Downgraded Xaero's, Immersive Engineering, Simple Farming - updates were not game breaking and it was stable on last version.
+- Downgraded TerraForged - update is redundant and I know that 0.1.2 is stable.
+
 ## [2.5.0c] - 2020-10-06
 
 ### Updates

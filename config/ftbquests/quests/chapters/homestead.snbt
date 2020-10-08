@@ -1,7 +1,7 @@
 {
 	id: 250,
 	filename: "homestead",
-	order_index: 0,
+	order_index: 10,
 	title: "Homestead",
 	icon: "minecolonies:supplycampdeployer",
 	always_invisible: false,
@@ -455,6 +455,11 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2078,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
 			]
 		},
@@ -499,6 +504,11 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2077,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
 			]
 		},
@@ -539,6 +549,11 @@
 							exp: 1500
 						}
 					}
+				},
+				{
+					id: 2079,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
 			]
 		},
@@ -750,6 +765,11 @@
 							exp: 8000
 						}
 					}
+				},
+				{
+					id: 2080,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
 			]
 		},
@@ -1150,6 +1170,11 @@
 							exp: 500
 						}
 					}
+				},
+				{
+					id: 2082,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1322,6 +1347,11 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2083,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1455,6 +1485,11 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2081,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1505,18 +1540,25 @@
 				type: "item",
 				item: "toolbelt:pouch"
 			}],
-			rewards: [{
-				id: 1914,
-				type: "item",
-				title: "1000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1000
+			rewards: [
+				{
+					id: 1914,
+					type: "item",
+					title: "1000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
 					}
+				},
+				{
+					id: 2076,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "The Sky Is The Limit",
@@ -1603,18 +1645,25 @@
 					item: "calemiutils:network_cable"
 				}
 			],
-			rewards: [{
-				id: 2069,
-				type: "item",
-				title: "500 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 500
+			rewards: [
+				{
+					id: 2069,
+					type: "item",
+					title: "500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500
+						}
 					}
+				},
+				{
+					id: 2074,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "Setting Up Shop",
@@ -1666,17 +1715,24 @@
 				type: "item",
 				item: "calemiutils:item_stand"
 			}],
-			rewards: [{
-				id: 2073,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 500
+			rewards: [
+				{
+					id: 2073,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500
+						}
 					}
+				},
+				{
+					id: 2075,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
-			}]
+			]
 		}
 	]
 }

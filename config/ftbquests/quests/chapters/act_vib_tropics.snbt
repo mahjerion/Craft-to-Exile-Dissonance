@@ -829,18 +829,25 @@
 				type: "item",
 				item: "tofucraft:tofustick"
 			}],
-			rewards: [{
-				id: 2054,
-				type: "item",
-				title: "300000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 300000
+			rewards: [
+				{
+					id: 2054,
+					type: "item",
+					title: "300000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 300000
+						}
 					}
+				},
+				{
+					id: 2088,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
-			}]
+			]
 		}
 	]
 }

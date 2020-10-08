@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.2b] - 2020-10-08
+
+### Updates
+- Disabled damage-based enchantments and changed some other max values. You can still get OP enchants just not as OP.
+- Added some coin rewards to some quests.
+- Added a recipe for making pennies out of legendary ores.
+
+### Mod Updates
+- Updated MineColonies.
+
 ## [2.5.2] - 2020-10-08
 
 ### Updates

@@ -912,18 +912,25 @@
 				type: "dimension",
 				dimension: "mmorpg:resettable_dungeon"
 			}],
-			rewards: [{
-				id: 1874,
-				type: "item",
-				title: "250000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 250000
+			rewards: [
+				{
+					id: 1874,
+					type: "item",
+					title: "250000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 250000
+						}
 					}
+				},
+				{
+					id: 2086,
+					type: "item",
+					item: "calemiutils:coin_dollar"
 				}
-			}]
+			]
 		},
 		{
 			title: "Morijio",

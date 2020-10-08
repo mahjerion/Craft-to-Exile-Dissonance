@@ -686,6 +686,11 @@
 							exp: 1500
 						}
 					}
+				},
+				{
+					id: 2101,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1011,6 +1016,11 @@
 							exp: 2250
 						}
 					}
+				},
+				{
+					id: 2100,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1199,18 +1209,25 @@
 				item: "speedyladders:stone_ladder",
 				count: 8L
 			}],
-			rewards: [{
-				id: 1749,
-				type: "item",
-				title: "4000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 4000
+			rewards: [
+				{
+					id: 1749,
+					type: "item",
+					title: "4000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 4000
+						}
 					}
+				},
+				{
+					id: 2097,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "Beastiary I",
@@ -1259,6 +1276,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2105,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1301,6 +1323,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2104,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1343,6 +1370,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2106,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1393,6 +1425,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2107,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1432,6 +1469,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2108,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1471,6 +1513,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2109,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1510,6 +1557,11 @@
 							exp: 2000000
 						}
 					}
+				},
+				{
+					id: 2110,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1604,18 +1656,25 @@
 				type: "dimension",
 				dimension: "minecraft:overworld"
 			}],
-			rewards: [{
-				id: 1743,
-				type: "item",
-				title: "10000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 10000
+			rewards: [
+				{
+					id: 1743,
+					type: "item",
+					title: "10000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 10000
+						}
 					}
+				},
+				{
+					id: 2102,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
-			}]
+			]
 		},
 		{
 			title: "Mistakes Were Made",
@@ -1744,6 +1803,11 @@
 							exp: 2000
 						}
 					}
+				},
+				{
+					id: 2098,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1829,18 +1893,25 @@
 				type: "item",
 				item: "endermail:locker"
 			}],
-			rewards: [{
-				id: 1734,
-				type: "item",
-				title: "1000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1000
+			rewards: [
+				{
+					id: 1734,
+					type: "item",
+					title: "1000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
 					}
+				},
+				{
+					id: 2096,
+					type: "item",
+					item: "calemiutils:coin_penny"
 				}
-			}]
+			]
 		},
 		{
 			title: "Fletcher's Paradise",
@@ -1978,18 +2049,25 @@
 				type: "item",
 				item: "apotheosis:prismatic_altar"
 			}],
-			rewards: [{
-				id: 1966,
-				type: "item",
-				title: "2000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 2000
+			rewards: [
+				{
+					id: 1966,
+					type: "item",
+					title: "2000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
 					}
+				},
+				{
+					id: 2099,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "Magic!",

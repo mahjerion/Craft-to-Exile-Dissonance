@@ -234,18 +234,25 @@
 				type: "item",
 				item: "minecraft:ender_eye"
 			}],
-			rewards: [{
-				id: 1774,
-				type: "item",
-				title: "50000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 50000
+			rewards: [
+				{
+					id: 1774,
+					type: "item",
+					title: "50000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 50000
+						}
 					}
+				},
+				{
+					id: 2093,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "Oooh Shiny",
@@ -793,6 +800,11 @@
 							exp: 150000
 						}
 					}
+				},
+				{
+					id: 2111,
+					type: "item",
+					item: "calemiutils:coin_dollar"
 				}
 			]
 		},

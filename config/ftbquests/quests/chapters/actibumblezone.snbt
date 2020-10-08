@@ -308,6 +308,11 @@
 							exp: 33750
 						}
 					}
+				},
+				{
+					id: 2095,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -552,6 +557,11 @@
 							exp: 28125
 						}
 					}
+				},
+				{
+					id: 2094,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
 			]
 		},

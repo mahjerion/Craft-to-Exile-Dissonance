@@ -571,6 +571,11 @@
 							exp: 500
 						}
 					}
+				},
+				{
+					id: 2084,
+					type: "item",
+					item: "calemiutils:coin_quarter"
 				}
 			]
 		},
@@ -1018,6 +1023,11 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2085,
+					type: "item",
+					item: "calemiutils:coin_dollar"
 				}
 			]
 		},

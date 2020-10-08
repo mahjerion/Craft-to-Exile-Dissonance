@@ -514,18 +514,25 @@
 				type: "item",
 				item: "goodnightsleep:strange_bed_item"
 			}],
-			rewards: [{
-				id: 1819,
-				type: "item",
-				title: "75000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 75000
+			rewards: [
+				{
+					id: 1819,
+					type: "item",
+					title: "75000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 75000
+						}
 					}
+				},
+				{
+					id: 2091,
+					type: "item",
+					item: "calemiutils:coin_nickel"
 				}
-			}]
+			]
 		},
 		{
 			title: "Limestone?",

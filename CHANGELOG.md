@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.2] - 2020-10-08
+
+### Updates
+- Made it so you lose hotbar on death but keep what you're holding.
+- Renabled non-fast-gen on Quark underground features.
+
+### Mod Updates
+- Updated MineColonies, Xaero's.
+
 ## [2.5.1] - 2020-10-07
 
 ### Updates

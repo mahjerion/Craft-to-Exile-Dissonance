@@ -21,7 +21,7 @@
 				"The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks in the Overworld - these will spawn a portal at night that allows you access The Midnight.",
 				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well."
 			],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;367],
 			dependency_requirement: "all_completed",
 			id: 393,

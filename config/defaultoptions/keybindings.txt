@@ -82,6 +82,7 @@ key_Spell Hotbar key 5:key.keyboard.5:SHIFT
 key_Spell Hotbar key 1:key.keyboard.1:SHIFT
 key_Spell Hotbar key 2:key.keyboard.2:SHIFT
 key_Spell Hotbar key 4:key.keyboard.4:SHIFT
+key_Open Wallet:key.keyboard.b:SHIFT
 key_key.moreoverlays.lightoverlay.desc:key.keyboard.f7:NONE
 key_key.moreoverlays.chunkbounds.desc:key.keyboard.f9:NONE
 key_quark.keybind.back:key.mouse.4:NONE

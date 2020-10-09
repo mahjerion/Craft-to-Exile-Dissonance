@@ -122,7 +122,7 @@
 	[inventory.feet]
 		#Percent chance to keep feet item
 		#Range: 1.0 ~ 1.0
-		feetKeepChance = -1.0
+		feetKeepChance = 1.0
 		#Percent chance to destroy dropped feet item
 		#Range: -1.0 ~ 1.0
 		feetDestroyChance = -1.0

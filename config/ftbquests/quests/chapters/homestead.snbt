@@ -257,7 +257,7 @@
 				{
 					id: 271,
 					type: "kill",
-					entity: "atum:barbarian",
+					entity: "minecolonies:barbarian",
 					value: 10L
 				}
 			],

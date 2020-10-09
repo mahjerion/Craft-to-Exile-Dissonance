@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.3] - 2020-10-XX
+
+### Updates
+- Changed default keybinding for the wallet to 'SHIFT' + 'B'.
+
+### Mod Updates
+- Updated Aquaculture 2, Collective, FTB Quests.
+
+### Fixes
+- Fixed servers not having the new fruit recipes.
+- Fixed servers not applying new settings for Corpse Complex.
+- Fixed some enchantments not being disabled when they should have been.
+- Mine and Slash fixes the bugged bosses in maps, as well as synergy name fix.
+- Fixed quest 'Barbarian Raids' requiring the wrong type of barbarian.
+- Fixed losing boots on death.
+
 ## [2.5.2b] - 2020-10-08
 
 ### Updates

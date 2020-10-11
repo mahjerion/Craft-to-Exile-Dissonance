@@ -7,9 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Fixes
-- Fixed reapers spawning everywhere BUT the Nightmare dimension. I've now inversed this effect.
-
 ## [2.5.3] - 2020-10-11
 
 ### Updates
@@ -28,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mine and Slash fixes the bugged bosses in maps, as well as synergy name fix.
 - Fixed quest 'Barbarian Raids' requiring the wrong type of barbarian.
 - Fixed losing boots on death.
+- Fixed reapers spawning everywhere BUT the Nightmare dimension. I've now inversed this effect.
 - Re-enabled Grue spawns - they were off for some reason. They should spawn anytime after the Nether.
 
 ## [2.5.2b] - 2020-10-08

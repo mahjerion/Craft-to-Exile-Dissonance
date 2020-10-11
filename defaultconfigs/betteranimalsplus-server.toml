@@ -207,13 +207,13 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 9
+		weight = 2
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
 		#Must be greater or equal to min value!
 		#Range: 1 ~ 9999
-		maxGroup = 4
+		maxGroup = 2
 		#Enter biome Resource Locations. Supports modded biomes.
 		spawnBiomes = ["traverse:wooded_plateau", "terraforged:stone_forest", "minecraft:jungle_hills", "tofucraft:zundatofu_plain", "minecraft:shattered_savanna", "lotr:anduin_hills", "minecraft:dark_forest", "the_bumblezone:hive_wall", "traverse:mini_jungle", "swampexpansion:marsh", "minecraft:birch_forest_hills", "terraforged:flower_plains", "traverse:coniferous_woodland_hills_biome", "minecraft:birch_forest", "atmospheric:rosewood_mountains", "tofucraft:zundatofu_fungiforest", "minecraft:savanna_plateau", "atum:deadwood_forest", "lotr:shire", "traverse:high_coniferous_forest", "minecraft:snowy_taiga", "lotr:umbar", "lotr:woodland_realm", "lotr:breeland", "lotr:lothlorien", "midnight:phantasmal_valley", "lotr:fangorn", "traverse:coniferous_forest", "autumnity:pumpkin_fields", "midnight:crystal_spires", "minecraft:jungle_edge", "traverse:woodlands", "minecraft:savanna", "lotr:eregion", "minecraft:sunflower_plains", "midnight:night_plains", "lotr:shire_woodlands", "lotr:dale", "terraforged:steppe", "minecraft:flower_forest", "minecraft:forest", "endergetic:poise_forest", "lotr:dor_en_ernil", "atmospheric:rosewood_forest_plateau", "lotr:nan_curunir", "lotr:gondor", "lotr:lone_lands", "minecraft:taiga_mountains", "minecraft:taiga_hills", "tofucraft:tofu_forest", "lotr:brown_lands", "traverse:plains_plateau", "terraforged:shattered_savanna_scrub", "autumnity:maple_forest", "terraforged:savanna_scrub", "traverse:meadow", "midnight:fungi_forest", "lotr:ithilien", "autumnity:maple_forest_hills", "lotr:lindon_woodlands", "lotr:rohan", "minecraft:plains", "minecraft:taiga", "midnight:hilly_vigilant_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga_hills", "lotr:nurn", "lotr:emyn_en_ernil", "minecraft:tall_birch_forest", "lotr:northlands_forest", "lotr:lone_lands_hills", "minecraft:dark_forest_hills", "lotr:old_forest", "minecraft:jungle", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "lotr:harondor", "minecraft:giant_tree_taiga", "traverse:autumnal_wooded_hills", "minecraft:bamboo_jungle", "lotr:southron_coasts", "minecraft:wooded_hills", "traverse:snowy_coniferous_wooded_hills", "minecraft:modified_jungle_edge", "mining_dimension:mining_biome", "traverse:snowy_high_coniferous_forest", "lotr:enedwaith", "lotr:mirkwood", "minecraft:bamboo_jungle_hills", "lotr:chetwood", "lotr:dunland", "atmospheric:rosewood_plateau", "minecraft:giant_spruce_taiga", "tofucraft:tofu_plain", "lotr:vales_of_anduin", "traverse:autumnal_woods", "traverse:snowy_coniferous_forest", "tofucraft:tofu_building", "lotr:wilderland", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "lotr:lindon", "the_bumblezone:sugar_water_floor", "minecraft:shattered_savanna_plateau", "swampexpansion:mushroom_marsh", "minecraft:wooded_mountains", "traverse:rolling_hills", "lotr:eriador", "minecraft:snowy_taiga_hills", "atum:sand_plains", "midnight:hilly_fungi_forest", "lotr:trollshaws", "lotr:angmar", "lotr:eriador_downs", "midnight:vigilant_forest", "minecraft:modified_jungle", "the_bumblezone:hive_pillar"]
 		#True if this entity can despawn freely when no players are nearby.
@@ -245,7 +245,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 11
+		weight = 10
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -283,7 +283,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 7
+		weight = 5
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -317,7 +317,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 10
+		weight = 8
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -351,7 +351,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 4
+		weight = 1
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -370,7 +370,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 8
+		weight = 6
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -387,7 +387,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 11
+		weight = 10
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -421,7 +421,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 15
+		weight = 12
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 2
@@ -510,7 +510,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 10
+		weight = 5
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -527,7 +527,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 10
+		weight = 5
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -544,7 +544,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 8
+		weight = 4
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -561,7 +561,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 10
+		weight = 6
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1
@@ -629,7 +629,7 @@
 		doSpawning = true
 		#The spawn chance compared to other entities (typically between 6-20)
 		#Range: 1 ~ 9999
-		weight = 8
+		weight = 5
 		#Must be greater than 0
 		#Range: 1 ~ 9999
 		minGroup = 1

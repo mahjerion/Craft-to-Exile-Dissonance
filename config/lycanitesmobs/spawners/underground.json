@@ -3,14 +3,16 @@
   "type": "spawner",
   "enabled": false,
   "loadDefault": false,
-  "mobCountMin": 6,
+  "mobCountMin": 1,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,
   "conditions": [
     {
       "type": "world",
       "dimensionIds": [
-        "twilightforest:twilightforest"
+        "twilightforest:twilightforest",
+        "minecraft:overworld",
+        "minecraft:the_nether"
       ],
       "dimensionListType": "blacklist"
     }
@@ -19,7 +21,7 @@
     {
       "type": "world",
       "chance": 0.125,
-      "tickRate": 800
+      "tickRate": 1600
     }
   ],
   "locations": [

@@ -18,13 +18,13 @@
       "dimensionIds": [
         "goodnightsleep:nightmare"
       ],
-      "dimensionListType": "blacklist"
+      "dimensionListType": "whitelist"
     }
   ],
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.1,
+      "chance": 0.25,
       "entityTypes": [
         "undead"
       ],

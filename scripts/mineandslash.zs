@@ -37,10 +37,10 @@ craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<i
 
 craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
 craftingTable.addShapeless("pennies", <item:calemiutils:coin_penny>, [<item:mmorpg:ore4>]);
+craftingTable.addShapeless("blazebow_to_blazerod", <item:minecraft:blaze_rod>, [<item:awaa:blaze_bow>]);
 
 craftingTable.removeRecipe(<item:waystones:waystone>);
 craftingTable.removeRecipe(<item:waystones:mossy_waystone>);
-craftingTable.removeRecipe(<item:waystones:sandy_waystone>);
 
 mods.jei.JEI.hideItem(<item:atum:loot_sapphire_scepter>);
 mods.jei.JEI.hideItem(<item:atum:loot_ruby_scepter>);

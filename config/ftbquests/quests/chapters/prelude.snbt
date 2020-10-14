@@ -83,7 +83,7 @@
 			description: [
 				"You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited.",
 				"Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some skeletons (not Nasty skeletons!) - hopefully you'll find a new piece of equipment.",
-				"Upon completing this quest, you will be able to choose between 3 weapons that represent the main fighting styles of Craft to Exile: melee, ranged, and magic."
+				"Note: currently, the quest GUI is bugged. You can pin quests to your GUI if you're ever consued about what it is you need to kill/gather."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],

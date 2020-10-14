@@ -1,0 +1,17 @@
+{
+  "modId": "swampexpansion",
+  "group": {
+    "name": "Swamp Expansion Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "swampexpansion:willow_sapling"
+    }
+  ]
+}

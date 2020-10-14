@@ -1,0 +1,59 @@
+{
+  "modId": "simplefarming",
+  "group": {
+    "name": "SimpleFarming Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "simplefarming:apple_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:apricot_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:banana_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:cherry_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:mango_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:olive_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:orange_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:plum_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "simplefarming:pear_sapling"
+      }
+    }
+  ]
+}

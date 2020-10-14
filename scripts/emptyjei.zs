@@ -516,4 +516,3 @@ mods.jei.JEI.hideItem(<item:valhelsia_structures:dark_oak_post>);
 //Waystones
 mods.jei.JEI.hideItem(<item:waystones:waystone>);
 mods.jei.JEI.hideItem(<item:waystones:mossy_waystone>);
-mods.jei.JEI.hideItem(<item:waystones:sandy_waystone>);

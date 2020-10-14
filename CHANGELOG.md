@@ -7,16 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.5.3] - 2020-10-11
+## [2.5.3] - 2020-10-14
 
 ### Updates
+- Sandy Waystones are now craftable. They're not cheap, though.
 - Changed default keybinding for the wallet to 'SHIFT' + 'B'.
 - Lowered the spawn rates of some mobs from Better Animals Plus.
 - Lowered the max height of reeds.
+- Changed the currency of the weathered salesperson from Farming for Blockheads to use the new coins instead of emeralds.
+- Added buyable lootboxes from the weathered salesperson using coins.
+- Updated the marketplace quest description.
 
 ### Mod Updates
-- Updated Aquaculture 2, Collective, FTB Quests, MineColonies.
+- Updated Aquaculture 2, Collective, FTB Quests, MineColonies, Calemi's Utilities. 
 - Added No Nitwits.
+- Added Better Mob Griefing (server only).
 
 ### Fixes
 - Fixed servers not having the new fruit recipes.
@@ -27,6 +32,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed losing boots on death.
 - Fixed reapers spawning everywhere BUT the Nightmare dimension. I've now inversed this effect.
 - Re-enabled Grue spawns - they were off for some reason. They should spawn anytime after the Nether.
+- Fixed some outdated text in the quest log.
+- Disabled the Homecoming item from being dropped by the Pharaoh. It caused servers to hang.
+- Fixed an issue with Farming for Blockheads where none of my configs were applying.
+- Fixed Blaze Bows being non-furnacable. It is now a crafting recipe instead.
 
 ## [2.5.2b] - 2020-10-08
 

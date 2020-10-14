@@ -1,0 +1,17 @@
+{
+  "modId": "upgrade_aquatic",
+  "group": {
+    "name": "Upgrade Aquatic Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "upgrade_aquatic:river_sapling"
+    }
+  ]
+}

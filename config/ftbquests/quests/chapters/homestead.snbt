@@ -1277,7 +1277,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The market is a special block that allows you to exchange emeralds for seeds. It is extremely useful, especially if your base is in a desolate biome."],
+			description: [
+				"The market is a special block that allows you to exchange coins for seeds. It is extremely useful, especially if your base is in a desolate biome.",
+				"You can now also purchase equipment loot boxes from the market for coins!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;567],
 			dependency_requirement: "all_completed",

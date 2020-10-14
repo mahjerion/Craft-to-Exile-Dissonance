@@ -1,0 +1,29 @@
+{
+  "modId": "traverse",
+  "group": {
+    "name": "Traverse Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "traverse:red_autumnal_sapling"
+    },
+    {
+      "output": "traverse:brown_autumnal_sapling"
+    },
+    {
+      "output": "traverse:orange_autumnal_sapling"
+    },
+    {
+      "output": "traverse:yellow_autumnal_sapling"
+    },
+    {
+      "output": "traverse:fir_sapling"
+    }
+  ]
+}

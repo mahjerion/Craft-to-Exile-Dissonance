@@ -1,0 +1,37 @@
+
+[General]
+	#The radius in blocks around the player in which to check for area signs.
+	#Range: 0 ~ 1000
+	radiusAroundPlayerToCheckForSigns = 100
+	#When enabled, sends the player the area notifications in chat.
+	sendChatMessages = false
+	#When enabled, sends the player the area notifications in the HUD on screen.
+	showHUDMessages = true
+	#The prefix of the message whenever a player enters an area.
+	joinPrefix = "Entering "
+	#The suffix of the message whenever a player enters an area.
+	joinSuffixx = ""
+	#The prefix of the message whenever a player leaves an area.
+	leavePrefix = "Leaving "
+	#The suffix of the message whenever a player leaves an area.
+	leaveSuffix = ""
+
+[Hud]
+	#When enabled, only shows the areaname in the HUD. When disabled, the prefixes and suffices will also be used.
+	HUDOnlyAreaName = false
+	#The delay in ms after which the HUD message should fade out.
+	#Range: 100 ~ 360000
+	HUDMessageFadeDelayMs = 4000
+	#The vertical offset (y coord) for the HUD message. This determines how far down the message should be on the screen. Can be changed to prevent GUIs from overlapping.
+	#Range: 0 ~ 3000
+	HUDMessageHeightOffset = 300
+	#The red RGB value for the HUD message.
+	#Range: 0 ~ 255
+	HUD_RGB_R = 100
+	#The green RGB value for the HUD message.
+	#Range: 0 ~ 255
+	HUD_RGB_G = 200
+	#The blue RGB value for the HUD message.
+	#Range: 0 ~ 255
+	HUD_RGB_B = 50
+

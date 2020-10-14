@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.5.3] - 2020-10-14
 
 ### Updates
+- There is now a second official server. These servers are not currently synced in any way. Pick one and stick to it! Unless you want a fresh start!
 - Sandy Waystones are now craftable. They're not cheap, though.
 - Changed default keybinding for the wallet to 'SHIFT' + 'B'.
 - Lowered the spawn rates of some mobs from Better Animals Plus.
@@ -17,11 +18,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed the currency of the weathered salesperson from Farming for Blockheads to use the new coins instead of emeralds.
 - Added buyable lootboxes from the weathered salesperson using coins.
 - Updated the marketplace quest description.
+- Reduced spawn rate of Wraiths.
+- Reduced power of Wraiths and Cacodemons.
 
 ### Mod Updates
 - Updated Aquaculture 2, Collective, FTB Quests, MineColonies, Calemi's Utilities. 
 - Added No Nitwits.
-- Added Better Mob Griefing (server only).
+- Added Better Mob Griefing (servers only).
 
 ### Fixes
 - Fixed servers not having the new fruit recipes.
@@ -36,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled the Homecoming item from being dropped by the Pharaoh. It caused servers to hang.
 - Fixed an issue with Farming for Blockheads where none of my configs were applying.
 - Fixed Blaze Bows being non-furnacable. It is now a crafting recipe instead.
+- Fixed an impossible quest from Tofucraft.
 
 ## [2.5.2b] - 2020-10-08
 

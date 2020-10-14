@@ -19,7 +19,7 @@
     {
       "type": "world",
       "chance": 0.25,
-      "tickRate": 1200
+      "tickRate": 1800
     }
   ],
   "locations": [

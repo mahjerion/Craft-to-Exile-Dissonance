@@ -160,15 +160,15 @@
 			}]
 		},
 		{
-			title: "Tofu With Teeth",
+			title: "Vegan Beef",
 			x: 7.5d,
 			y: 0.0d,
 			shape: "square",
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"Well this is new. These creatures have pretty sharp-looking chompers. They don't seem too friendly.",
-				"Kill tofu chingers."
+				"Well, I don't really know what to say about this one.",
+				"Kill tofu cows!"
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;510],
@@ -177,7 +177,7 @@
 			tasks: [{
 				id: 515,
 				type: "kill",
-				entity: "tofucraft:tofu_chinger",
+				entity: "tofucraft:tofucow",
 				value: 8L
 			}],
 			rewards: [

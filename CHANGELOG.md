@@ -18,9 +18,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed the currency of the weathered salesperson from Farming for Blockheads to use the new coins instead of emeralds.
 - Added buyable lootboxes from the weathered salesperson using coins.
 - Updated the marketplace quest description.
+- Added a bunch of new enchantments - a lot of useful ones for bows included!
+- Whole-tree chopping has been introduced via an enchant.
 - Reduced spawn rate of Wraiths.
 - Reduced power of Wraiths and Cacodemons.
-- Added a bunch of new enchantments - a lot of useful ones for bows included!
 - There is now a Curios slot for Useful Backpacks.
 - You can now turn bamboo into bamboo sticks.
 - Lowered power of Wither Skeletons.

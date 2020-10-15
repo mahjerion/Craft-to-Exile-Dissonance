@@ -26,3 +26,6 @@ XaeroWaypoints/
 XaeroWorldMap/
 XaeroWaypoints_BACKUP062020/
 local/
+natives/
+/config.json
+/background.png

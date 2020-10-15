@@ -20,9 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated the marketplace quest description.
 - Reduced spawn rate of Wraiths.
 - Reduced power of Wraiths and Cacodemons.
+- Added a bunch of new enchantments - a lot of useful ones for bows included!
+- There is now a Curios slot for Useful Backpacks.
 
 ### Mod Updates
-- Updated Aquaculture 2, Collective, FTB Quests, MineColonies, Calemi's Utilities. 
+- Updated Aquaculture 2, FTB Quests, MineColonies, Calemi's Utilities, End: Reborn, Fast Leaf Decay, Global XP, Mining Helmet, More Overlays, Traverse, Useful Backpacks.
+- Added Ma Enchants.
 - Added No Nitwits.
 - Added Better Mob Griefing (servers only).
 

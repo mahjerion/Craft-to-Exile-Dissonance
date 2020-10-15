@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.5.3] - 2020-10-14
+## [2.5.3] - 2020-10-XX
 
 ### Updates
 - There is now a second official server. These servers are not currently synced in any way. Pick one and stick to it! Unless you want a fresh start!
@@ -22,9 +22,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced power of Wraiths and Cacodemons.
 - Added a bunch of new enchantments - a lot of useful ones for bows included!
 - There is now a Curios slot for Useful Backpacks.
+- You can now turn bamboo into bamboo sticks.
+- Lowered power of Wither Skeletons.
 
 ### Mod Updates
-- Updated Aquaculture 2, FTB Quests, MineColonies, Calemi's Utilities, End: Reborn, Fast Leaf Decay, Global XP, Mining Helmet, More Overlays, Traverse, Useful Backpacks.
+- Updated Aquaculture 2, FTB Quests, MineColonies, Calemi's Utilities, End: Reborn, Fast Leaf Decay, Global XP, Mining Helmet, More Overlays, Traverse, Useful Backpacks, Xaero's.
 - Added Ma Enchants.
 - Added No Nitwits.
 - Added Better Mob Griefing (servers only).
@@ -43,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue with Farming for Blockheads where none of my configs were applying.
 - Fixed Blaze Bows being non-furnacable. It is now a crafting recipe instead.
 - Fixed an impossible quest from Tofucraft.
+- Fixed some abusable bugs regarding the Ocarina.
 
 ## [2.5.2b] - 2020-10-08
 

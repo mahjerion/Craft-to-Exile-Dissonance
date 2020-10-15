@@ -1,10 +1,10 @@
 #allow horses to swim
-doHorsesSwim = true
+doHorsesSwim = false
 
 #Blacklist
 [blacklist]
 	#list of resourcelocations in string form
-	blacklist = [""]
+	blacklist = ["minecraft:tnt", "corpse:corpse", "farmingforblockheads:merchant", "minecraft:trader_llama"]
 
 #Whitelist
 [whitelist]

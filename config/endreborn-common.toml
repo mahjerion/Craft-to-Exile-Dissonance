@@ -28,4 +28,7 @@
 	#Cracked Purpur and Cracked End Bricks spawn rarity
 	#Range: 0 ~ 64
 	decorator_rarity = 4
+	#Tungsten Ore spawn rarity
+	#Range: 0 ~ 64
+	tungsten_rarity = 4
 

@@ -54,3 +54,9 @@
 	#Range: 0.0 ~ 1.7976931348623157E308
 	chunk_line_width = 1.5
 
+#Settings for the search overlay
+[searchoverlay]
+	#Also searches for the custom name of an item in user inventory (for example items named in anvil)
+	#Setting this to false will increase performance but will not find custom named items.
+	custom_search = true
+

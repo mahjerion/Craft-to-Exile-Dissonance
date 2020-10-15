@@ -283,7 +283,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.5,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 0.8,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:rahovart": {
@@ -296,7 +296,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.5,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 0.8,
       "STAT_MULTI": 1.0
     },
     "lycanitesmobs:asmodeus": {
@@ -309,7 +309,7 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.5,
-      "HP_MULTI": 1.0,
+      "HP_MULTI": 0.8,
       "STAT_MULTI": 1.0
     },
     "atum:pharaoh": {
@@ -322,7 +322,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.1,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "rotten_creatures:dead_beard": {
@@ -334,7 +334,7 @@
       "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.25,
       "HP_MULTI": 1.25,
       "STAT_MULTI": 1.1
     },
@@ -347,7 +347,7 @@
       "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
+      "DMG_MULTI": 1.25,
       "HP_MULTI": 6.0,
       "STAT_MULTI": 1.1
     },
@@ -776,8 +776,8 @@
       "MAX_LEVEL": 70,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.25,
+      "DMG_MULTI": 1.25,
+      "HP_MULTI": 1.0,
       "STAT_MULTI": 1.1
     },
     "minecraft:ender_dragon": {
@@ -803,7 +803,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 0.5,
-      "HP_MULTI": 0.8,
+      "HP_MULTI": 0.75,
       "STAT_MULTI": 1.0
     },
     "nasty:skeleton": {
@@ -1065,6 +1065,19 @@
       "DMG_MULTI": 1.2,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
+    },
+    "minecraft:wither_skeleton": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 3.0,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 0.75,
+      "HP_MULTI": 0.8,
+      "STAT_MULTI": 1.0
     }
   },
   "byEntityTypeDefault": {
@@ -1077,7 +1090,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -1090,7 +1103,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -1116,7 +1129,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },
@@ -1129,7 +1142,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     }
@@ -1144,7 +1157,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.05,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 0.75,
       "STAT_MULTI": 0.75
     },
@@ -1157,7 +1170,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },

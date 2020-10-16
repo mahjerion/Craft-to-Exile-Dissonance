@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.5.3] - 2020-10-XX
+## [2.5.3] - 2020-10-16
 
 ### Updates
 - There is now a second official server. These servers are not currently synced in any way. Pick one and stick to it! Unless you want a fresh start!
@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added No Nitwits.
 - Added Better Mob Griefing (servers only).
 - Removed TofuCraft.
+- Removed Lava Walker - enchant from Ma Enchants replaces this.
 
 ### Fixes
 - Fixed servers not having the new fruit recipes.

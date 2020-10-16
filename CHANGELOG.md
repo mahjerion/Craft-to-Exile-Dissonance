@@ -48,7 +48,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled the Homecoming item from being dropped by the Pharaoh. It caused servers to hang.
 - Fixed an issue with Farming for Blockheads where none of my configs were applying.
 - Fixed Blaze Bows being non-furnacable. It is now a crafting recipe instead.
-- Fixed an impossible quest from Tofucraft.
 - Fixed some abusable bugs regarding the Ocarina.
 
 ## [2.5.2b] - 2020-10-08

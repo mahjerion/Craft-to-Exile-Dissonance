@@ -24,7 +24,7 @@
 	HUD_RGB_G = 200
 	#The vertical offset (y coord) for the HUD message. This determines how far down the message should be on the screen. Can be changed to prevent GUIs from overlapping.
 	#Range: 0 ~ 3000
-	HUDMessageHeightOffset = 300
+	HUDMessageHeightOffset = 100
 	#The red RGB value for the HUD message.
 	#Range: 0 ~ 255
 	HUD_RGB_R = 100

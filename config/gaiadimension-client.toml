@@ -1,0 +1,6 @@
+#For those bothered by the sky transtions or using shaders. Disables the differing sky and fog colour to the default preset.
+enableSkyFog = true
+#Set the Sky and Fog color to any of the existing biome options. This config option does not work if enableSkyFog is true
+#Allowed Values: GENERAL, BLUE_AGATE, GREEN_AGATE, PURPLE_AGATE, MUTANT_AGATE, SALT_DUNES, STATIC_WASTELAND, VOLCANICLAND, GOLDSTONE, BISMUTH, AURA
+skyColors = "GENERAL"
+

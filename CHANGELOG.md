@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - There is now a second official server. These servers are not currently synced in any way. Pick one and stick to it! Unless you want a fresh start!
+- Tofuworld has been removed. I will replace this with something else eventually.
 - Sandy Waystones are now craftable. They're not cheap, though.
 - Changed default keybinding for the wallet to 'SHIFT' + 'B'.
 - Lowered the spawn rates of some mobs from Better Animals Plus.
@@ -31,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Ma Enchants.
 - Added No Nitwits.
 - Added Better Mob Griefing (servers only).
+- Removed TofuCraft.
 
 ### Fixes
 - Fixed servers not having the new fruit recipes.

@@ -182,24 +182,6 @@
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0
     },
-    "tofucraft:tofuworld": {
-      "USE_SPECIFIC_LVL_1_POSITION": false,
-      "SPECIFIC_LVL_1_POSITION": {
-        "x": 0,
-        "z": 0,
-        "y": 0
-      },
-      "MOB_LEVEL_PER_DISTANCE": 100,
-      "MOB_LEVEL_ONE_AREA": 50,
-      "MAXIMUM_MOB_LEVEL": 66,
-      "MINIMUM_MOB_LEVEL": 58,
-      "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
-      "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
-      "DROPS_UNIQUE_ITEMS": true,
-      "MAP_TIER": 0,
-      "DROP_MULTIPLIER": 1.0,
-      "MOB_STRENGTH_MULTIPLIER": 1.25
-    },
     "mining_dimension:mining_world": {
       "USE_SPECIFIC_LVL_1_POSITION": false,
       "SPECIFIC_LVL_1_POSITION": {
@@ -216,7 +198,7 @@
       "DROPS_UNIQUE_ITEMS": false,
       "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
-      "MOB_STRENGTH_MULTIPLIER": 2.0
+      "MOB_STRENGTH_MULTIPLIER": 1.5
     }
   }
 }

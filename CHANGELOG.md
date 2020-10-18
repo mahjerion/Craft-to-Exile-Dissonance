@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes.
+
 ## [2.5.3b] - 2020-10-16
 
 ### Fixes
@@ -33,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lowered power of Wither Skeletons.
 
 ### Mod Updates
-- Updated Aquaculture 2, FTB Quests, MineColonies, Calemi's Utilities, End: Reborn, Fast Leaf Decay, Global XP, Mining Helmet, More Overlays, Traverse, Useful Backpacks, Xaero's.
+- Updated Mine and Slash, Aquaculture 2, FTB Quests, MineColonies, Calemi's Utilities, End: Reborn, Fast Leaf Decay, Global XP, Mining Helmet, More Overlays, Traverse, Useful Backpacks, Xaero's.
 - Added Ma Enchants.
 - Added No Nitwits.
 - Added Better Mob Griefing (servers only).

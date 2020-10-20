@@ -69,7 +69,7 @@
 	#These options define restrictions when managing waystones.
 	[server.restrictions]
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-		restrictRenameToOwner = false
+		restrictRenameToOwner = true
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
 		restrictToCreative = false
 		#If enabled, waystones generated in worldgen are unbreakable.

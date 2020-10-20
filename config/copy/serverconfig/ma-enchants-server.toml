@@ -39,10 +39,10 @@
 	enable = true
 
 [detonation]
-	enable = true
+	enable = false
 
 [combo]
-	enable = true
+	enable = false
 
 [faster_attack]
 	enable = true

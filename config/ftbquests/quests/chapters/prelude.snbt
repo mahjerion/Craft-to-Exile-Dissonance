@@ -1242,7 +1242,7 @@
 				"Kill rotten eskimos and mummies!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 442,
 			tasks: [
@@ -1297,7 +1297,7 @@
 				"Kill arachnons!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 447,
 			tasks: [{
@@ -1344,7 +1344,7 @@
 				"Kill feral wolves from Better Animals Plus!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 449,
 			tasks: [{
@@ -1391,7 +1391,7 @@
 				"The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 451,
 			tasks: [
@@ -1443,7 +1443,7 @@
 			size: 1.0d,
 			description: ["On the outer islands of The End, you will find guardians that defend massiive structures. Be careful though, these golem-like creatures pack a punch."],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 454,
 			tasks: [{
@@ -1487,7 +1487,7 @@
 			size: 1.0d,
 			description: ["These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason."],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 456,
 			tasks: [{
@@ -1531,7 +1531,7 @@
 			size: 1.0d,
 			description: ["Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone..."],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;],
 			dependency_requirement: "all_completed",
 			id: 458,
 			tasks: [{

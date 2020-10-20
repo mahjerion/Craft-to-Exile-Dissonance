@@ -7,13 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.4] - 2020-10-XX
+
+### Updates
+- You can no longer name Waystones that you didn't place.
+- Modifed the min and max values of the Apotheosis spawner configs.
+- Modifying spawners now uses M&S currency instead of vanilla items. For the list, refer to spawner.cfg in the Apotheosis config file.
+- The beastiary quests and Nether 'beastiary' quests no longer require you to have defeated the Ender Dragon.
+
 ### Mod Updates
-- Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes.
+- Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes, Apotheosis, Tool Belt.
 
 ## [2.5.3b] - 2020-10-16
 
 ### Fixes
 - Enabled placing of waystones.
+- Disabled Detonation and Combo enchants.
 
 ## [2.5.3] - 2020-10-16
 

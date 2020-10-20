@@ -56,6 +56,7 @@
 			tasks: [{
 				id: 289,
 				type: "kill",
+				icon: "minecraft:dragon_head",
 				entity: "minecraft:ender_dragon",
 				value: 1L
 			}],
@@ -94,6 +95,11 @@
 							exp: 250000
 						}
 					}
+				},
+				{
+					id: 2113,
+					type: "item",
+					item: "quark:dragon_scale"
 				}
 			]
 		},

@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes, Apotheosis, Tool Belt.
+- Added Enchantment Descriptions.
 
 ## [2.5.3b] - 2020-10-16
 

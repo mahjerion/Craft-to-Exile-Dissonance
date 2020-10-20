@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.5.4] - 2020-10-XX
 
 ### Updates
+- Increased the spawn rate of maps by 25%.
 - You can no longer name Waystones that you didn't place.
 - Modifed the min and max values of the Apotheosis spawner configs.
 - Modifying spawners now uses M&S currency instead of vanilla items. For the list, refer to spawner.cfg in the Apotheosis config file.
@@ -18,6 +19,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes, Apotheosis, Tool Belt.
 - Added Enchantment Descriptions.
+
+### Fixes
+- Fixed the Ender Dragon quest not giving you a scale.
 
 ## [2.5.3b] - 2020-10-16
 

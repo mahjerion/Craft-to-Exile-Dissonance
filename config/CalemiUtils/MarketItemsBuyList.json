@@ -1,0 +1,44 @@
+{
+  "small_gear_lootbox_3": {
+    "index": 0,
+    "stackStr": "mmorpg:lootbox/small_gear_lootbox_3",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 100
+  },
+  "medium_gear_lootbox_3": {
+    "index": 1,
+    "stackStr": "mmorpg:lootbox/medium_gear_lootbox_3",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 175
+  },
+  "big_gear_lootbox_3": {
+    "index": 2,
+    "stackStr": "mmorpg:lootbox/big_gear_lootbox_3",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 250
+  },
+  "small_gear_lootbox_4": {
+    "index": 3,
+    "stackStr": "mmorpg:lootbox/small_gear_lootbox_4",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 400
+  },
+  "medium_gear_lootbox_4": {
+    "index": 4,
+    "stackStr": "mmorpg:lootbox/medium_gear_lootbox_4",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 700
+  },
+  "big_gear_lootbox_4": {
+    "index": 5,
+    "stackStr": "mmorpg:lootbox/big_gear_lootbox_4",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1000
+  }
+}

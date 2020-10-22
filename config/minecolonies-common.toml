@@ -299,7 +299,7 @@
 	#minecolonies.config.healingcream.comment
 	healingcream = ["minecraft:golden_carrot*8"]
 	#minecolonies.config.masterbowman.comment
-	masterbowman = ["minecraft:bow*27"]
+	masterbowman = ["minecraft:fletching_table*27"]
 	#minecolonies.config.regeneration.comment
 	regeneration = ["minecraft:emerald*1"]
 	#minecolonies.config.hamlet.comment
@@ -309,7 +309,7 @@
 	#minecolonies.config.accuracy.comment
 	accuracy = ["minecraft:iron_ingot*16"]
 	#minecolonies.config.captaintraining.comment
-	captaintraining = ["minecraft:shield*16"]
+	captaintraining = ["the_bumblezone:honey_crystal_shards*32"]
 	#minecolonies.config.tactictraining.comment
 	tactictraining = ["minecraft:iron_block*3"]
 	#minecolonies.config.ironarmour.comment
@@ -491,7 +491,7 @@
 	#minecolonies.config.theater.comment
 	theater = ["minecraft:enchanted_golden_apple*16"]
 	#minecolonies.config.tickshot.comment
-	tickshot = ["minecraft:bow*5"]
+	tickshot = ["minecraft:fletching_table*5"]
 	#minecolonies.config.evade.comment
 	evade = ["minecraft:emerald*16"]
 	#minecolonies.config.puberty.comment
@@ -507,7 +507,7 @@
 	#minecolonies.config.gorger.comment
 	gorger = ["minecraft:cookie*64"]
 	#minecolonies.config.rapidshot.comment
-	rapidshot = ["minecraft:bow*18"]
+	rapidshot = ["minecraft:fletching_table*18"]
 	#minecolonies.config.swift.comment
 	swift = ["minecraft:rabbit_foot*32"]
 	#minecolonies.config.improveddodge.comment
@@ -529,9 +529,9 @@
 	#minecolonies.config.penetratingshot.comment
 	penetratingshot = ["minecraft:flint*32"]
 	#minecolonies.config.knighttraining.comment
-	knighttraining = ["minecraft:shield*8"]
+	knighttraining = ["the_bumblezone:honey_crystal_shards*16"]
 	#minecolonies.config.multishot.comment
-	multishot = ["minecraft:bow*9"]
+	multishot = ["minecraft:fletching_table*9"]
 	#minecolonies.config.retreat.comment
 	retreat = ["minecraft:emerald*32"]
 	#minecolonies.config.keen.comment
@@ -555,7 +555,7 @@
 	#minecolonies.config.heavilyloaded.comment
 	heavilyloaded = ["minecraft:emerald*128"]
 	#minecolonies.config.squiretraining.comment
-	squiretraining = ["minecraft:shield*4"]
+	squiretraining = ["the_bumblezone:honey_crystal_shards*8"]
 	#minecolonies.config.woundingshot.comment
 	woundingshot = ["minecraft:flint*128"]
 	#minecolonies.config.guardianangel.comment
@@ -587,7 +587,7 @@
 	#minecolonies.config.bachelor.comment
 	bachelor = ["minecraft:bookshelf*12"]
 	#minecolonies.config.captainoftheguard.comment
-	captainoftheguard = ["minecraft:shield*27"]
+	captainoftheguard = ["the_bumblezone:honey_crystal_shards*64"]
 	#minecolonies.config.stringwork.comment
 	stringwork = ["minecraft:string*16"]
 	#minecolonies.config.fertilizer.comment

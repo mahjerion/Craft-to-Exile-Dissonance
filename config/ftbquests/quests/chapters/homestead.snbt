@@ -1277,10 +1277,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"The market is a special block that allows you to exchange coins for seeds. It is extremely useful, especially if your base is in a desolate biome.",
-				"You can now also purchase equipment loot boxes from the market for coins!"
-			],
+			description: ["The market is a special block that allows you to exchange coins for seeds. It is extremely useful, especially if your base is in a desolate biome."],
 			min_required_dependencies: 0,
 			dependencies: [I;567],
 			dependency_requirement: "all_completed",
@@ -1722,6 +1719,7 @@
 				{
 					id: 2073,
 					type: "item",
+					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
@@ -1736,6 +1734,36 @@
 					item: "calemiutils:coin_quarter"
 				}
 			]
+		},
+		{
+			title: "The Real Marketplace",
+			x: 3.0d,
+			y: 10.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The marketplace is a craftable block that can be accessed by anyone! By default, you can buy lootboxes using CED. This is configurable and is highly useful for servers."],
+			min_required_dependencies: 0,
+			dependencies: [I;2062],
+			dependency_requirement: "all_completed",
+			id: 2114,
+			tasks: [{
+				id: 2115,
+				type: "item",
+				item: "calemiutils:market"
+			}],
+			rewards: [{
+				id: 2116,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
 		}
 	]
 }

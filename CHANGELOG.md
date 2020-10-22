@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.5.4] - 2020-10-XX
+## [2.5.4] - 2020-10-22
 
 ### Updates
 - Increased the spawn rate of maps by 25%.
@@ -15,13 +15,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Modifed the min and max values of the Apotheosis spawner configs.
 - Modifying spawners now uses M&S currency instead of vanilla items. For the list, refer to spawner.cfg in the Apotheosis config file.
 - The beastiary quests and Nether 'beastiary' quests no longer require you to have defeated the Ender Dragon.
+- Increased the cost of the Arachnon hammer - too much value for essentially no cost.
+- The blaze bow and Arachnon hammer now have a 25% chance to roll their "guaranteed" unique, down from 100%.
+- You can now rarely earn coins from bounties.
+- All enchantments now have descriptions!
+- New quest showcasing the new market block.
+- Moved the lootbox purchasables in the Farming For Blockheads market into the new Calemi market.
 
 ### Mod Updates
-- Updated MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes, Apotheosis, Tool Belt.
+- Updated Mine and Slash, MineColonies, SwingThroughGrass, Calemi's Utilities, Horizontal Panes, Apotheosis, Tool Belt, Xaero's.
 - Added Enchantment Descriptions.
 
 ### Fixes
 - Fixed the Ender Dragon quest not giving you a scale.
+- Changed the upgrade costs of MineColonies when requiring weapons/armor to nbt-independent items.
 
 ## [2.5.3b] - 2020-10-16
 

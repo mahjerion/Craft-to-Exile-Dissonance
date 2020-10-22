@@ -3,9 +3,9 @@
   "item_id": "awaa:blaze_bow",
   "id": "bow:awaa:blaze_bow",
   "gear_type": {
-    "normal_item_weight": 0,
+    "normal_item_weight": 75,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 25
   },
   "rarity": {
     "min_rarity": 0,

@@ -1,0 +1,9 @@
+{
+  "Ore4": {
+    "index": 0,
+    "stackStr": "mmorpg:ore4",
+    "stackNBT": "",
+    "amount": 1,
+    "value": 1
+  }
+}

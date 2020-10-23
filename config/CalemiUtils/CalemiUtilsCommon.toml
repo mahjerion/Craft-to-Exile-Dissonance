@@ -88,7 +88,7 @@
 	#Wallet Currency Overlay Position
 	#The position of the screen of the Wallet overlay
 	#The valid values are {TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT}
-	walletOverlayPosition = "TOP_LEFT"
+	walletOverlayPosition = "BOTTOM_RIGHT"
 	#Wallet Currency Capacity
 	#The max amount of currency the Wallet can store.
 	#Range: 0 ~ 99999999

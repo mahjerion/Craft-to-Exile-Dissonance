@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated Calemi's Utilities.
+
+### Fixes
+- Crash when using a wrench on a block not belonging to you has been fixed.
+- Fixed wallet GUI appearing in the wrong spot.
+
 ## [2.5.4b] - 2020-10-22
 
 ### Fixes

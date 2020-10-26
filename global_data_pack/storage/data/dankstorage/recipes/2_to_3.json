@@ -1,8 +1,8 @@
 {
-  "type": "dankstorage:upgrade",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    "imi",
-    "m1m",
+    "iii",
+    "isi",
     "imi"
   ],
   "key": {
@@ -12,11 +12,11 @@
     "m": {
       "item": "mmorpg:currency/number_reroll"
     },
-    "1": {
-      "item": "dankstorage:dank_2"
+    "s": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dankstorage:dank_3"
+    "item": "dankstorage:2_to_3"
   }
 }

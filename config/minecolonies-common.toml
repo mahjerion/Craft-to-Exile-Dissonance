@@ -3,7 +3,7 @@
 [gameplay]
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1]
 	#Range: 1 ~ 100
-	updaterate = 3
+	updaterate = 10
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
 	#Max citizens in one colony. [Default: 50]
@@ -57,7 +57,7 @@
 	foodmodifier = 0.75
 	#Delay modifier to mine a block (decreasing it decreases the delay). [Default: 500]
 	#Range: 1 ~ 10000
-	blockminingdelaymodifier = 500
+	blockminingdelaymodifier = 600
 	#Chance to get a sponge from the Fisher (starting at hut level 4). [Default: 0.1]
 	#Range: 0.0 ~ 100.0
 	fisherspongechance = 0.1
@@ -198,7 +198,7 @@
 #All permission configuration options
 [permissions]
 	#Blocks players should be able to interact with in any colony (ex: vending machines)
-	freetointeractblocks = ["dirt", "0 0 0"]
+	freetointeractblocks = ["minecraft:dirt", "0 0 0", "waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "corpse:corpse"]
 	#Should colony protection be enabled? [Default: true]
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]
@@ -466,6 +466,8 @@
 	stamina = ["minecraft:carrot*1"]
 	#minecolonies.config.richveins.comment
 	richveins = ["minecraft:gold_ore*32"]
+	#minecolonies.config.knowtheend.comment
+	knowtheend = ["minecraft:chorus_fruit*64"]
 	#minecolonies.config.improvedevasion.comment
 	improvedevasion = ["minecraft:diamond*16"]
 	#minecolonies.config.space.comment

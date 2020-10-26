@@ -1,22 +1,22 @@
 {
-  "type": "dankstorage:upgrade",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    "imi",
-    "m1m",
-    "imi"
+    "rrr",
+    "rsr",
+    "rmr"
   ],
   "key": {
-    "i": {
+    "r": {
       "item": "create:copper_sheet"
     },
     "m": {
       "item": "mmorpg:currency/add_secondary_stat"
     },
-    "1": {
-      "item": "dankstorage:dank_1"
+    "s": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dankstorage:dank_2"
+    "item": "dankstorage:1_to_2"
   }
 }

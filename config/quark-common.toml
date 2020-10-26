@@ -413,7 +413,7 @@
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
 	Crevices = true
-	"Monster Box" = true
+	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = false
 
@@ -428,7 +428,7 @@
 		"Enable Extra Loot Table" = true
 
 		[world.monster_box.dimensions]
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 			"Is Blacklist" = false
 
 	[world.big_stone_clusters]

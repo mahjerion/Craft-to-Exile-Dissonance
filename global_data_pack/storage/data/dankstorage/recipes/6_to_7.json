@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "imi",
-    "msm",
+    "iii",
+    "isi",
     "imi"
   ],
   "key": {
     "i": {
-      "item": "create:brass_sheet"
+      "item": "immersiveengineering:storage_uranium"
     },
     "m": {
-      "item": "mmorpg:currency/number_reroll"
+      "item": "mmorpg:currency/reroll_set"
     },
     "s": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dankstorage:2_to_3"
+    "item": "dankstorage:6_to_7"
   }
 }

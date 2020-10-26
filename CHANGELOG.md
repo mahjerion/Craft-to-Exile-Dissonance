@@ -7,12 +7,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.5] - 2020-10-XX
+
+### Updates
+- Storage solutions: finally, say hello to Iron Chests. Iron Chests will follow the streamline progression system similar to Danks and are available from the get go.
+- New quests for Iron Chests.
+- Dank recipes have been eased slightly - starting from the Dirt Chest from Iron Chests, you can now branch into Iron Chests or Danks.
+- You _should_ be able to interact with corpses, market blocks, trade blocks, and waystones in other peoples' claims now.
+- Some performance improvements for MineColonies.
+- Added a minimum distance from worldspawn for MineColonies (servers only).
+- Disabled Quark's monster boxes in hopes it'll improve performance. I noticed a lot of lag happens when these boxes are generated, and threads seem to hang on it too.
+- Slightly lowered max level of Capturing enchant.
+
 ### Mod Updates
-- Updated Calemi's Utilities.
+- Updated Calemi's Utilities, MineColonies.
+- Added Iron Chests.
 
 ### Fixes
-- Crash when using a wrench on a block not belonging to you has been fixed.
+- Crash related to Calemi's Utilities should be fixed.
 - Fixed wallet GUI appearing in the wrong spot.
+- Lowered max level of pierce. Hopefully prevents some issues some users were having.
+- Fixed a quest dependency issue with Cave Lighter.
+- Fixed quest description of The Bumblezone quest.
 
 ## [2.5.4b] - 2020-10-22
 

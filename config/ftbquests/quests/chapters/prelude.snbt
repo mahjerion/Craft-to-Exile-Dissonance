@@ -653,7 +653,7 @@
 			size: 1.0d,
 			description: [
 				"Craft to Exile is focused around a dimension progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 14-18. The recommended levels for each dimension are as follows:",
-				"Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night's Sleep (40-50), Midnight (50-58), Tofu World (58-66), Maps (30-99).",
+				"Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night's Sleep (40-50), Tropicraft & Midnight (50-58), Maps (30-99).",
 				"To get to The Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave The Bumblezone by digging down or climbing above Y = 256.",
 				"The Bumblezone is an optional dimension. If you want to skip it, feel free to complete Taking The Long Route to access the Nether, instead!"
 			],
@@ -1239,10 +1239,11 @@
 			size: 1.0d,
 			description: [
 				"You'll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
-				"Kill rotten eskimos and mummies!"
+				"Kill rotten eskimos and mummies!",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 442,
 			tasks: [
@@ -1294,10 +1295,11 @@
 			size: 1.0d,
 			description: [
 				"Pandora's Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
-				"Kill arachnons!"
+				"Kill arachnons!",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 447,
 			tasks: [{
@@ -1341,10 +1343,11 @@
 			size: 1.0d,
 			description: [
 				"Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable.",
-				"Kill feral wolves from Better Animals Plus!"
+				"Kill feral wolves from Better Animals Plus!",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 449,
 			tasks: [{
@@ -1388,10 +1391,11 @@
 			size: 1.0d,
 			description: [
 				"Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you've completed Beastiary I.",
-				"The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare."
+				"The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare.",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 451,
 			tasks: [
@@ -1441,9 +1445,12 @@
 			shape: "octagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["On the outer islands of The End, you will find guardians that defend massiive structures. Be careful though, these golem-like creatures pack a punch."],
+			description: [
+				"On the outer islands of The End, you will find guardians that defend massive structures. Be careful though, these golem-like creatures pack a punch.",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
+			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 454,
 			tasks: [{
@@ -1485,9 +1492,12 @@
 			shape: "octagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason."],
+			description: [
+				"These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason.",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
+			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 456,
 			tasks: [{
@@ -1529,9 +1539,12 @@
 			shape: "octagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone..."],
+			description: [
+				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone...",
+				"To access this quest, you must complete 'The Ender Dragon' of act III."
+			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 458,
 			tasks: [{
@@ -1768,14 +1781,14 @@
 		},
 		{
 			title: "Dank Storage",
-			x: 10.5d,
-			y: 0.0d,
+			x: 12.0d,
+			y: -1.5d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Dank Storage blocks are multipurpose - they can function as backpacks, chests, and even tools! Use the Dank key while holding one to see more."],
 			min_required_dependencies: 0,
-			dependencies: [I;426],
+			dependencies: [I;2117],
 			dependency_requirement: "all_completed",
 			id: 1689,
 			tasks: [{
@@ -2097,6 +2110,69 @@
 					Count: 1b,
 					tag: {
 						exp: 1500
+					}
+				}
+			}]
+		},
+		{
+			title: "It's (Almost) Over 9000!",
+			x: 10.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Iron Chests is a storage mod that provides sheer volume. The dirt chest is a unique chest that stores only dirt, but it does a good job of it! The dirt chest can also be used to craft Danks - a unique storage device where normal 64 stack limitations",
+				"don't apply!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;426],
+			dependency_requirement: "all_completed",
+			id: 2117,
+			tasks: [{
+				id: 2118,
+				type: "item",
+				item: "ironchest:dirt_chest"
+			}],
+			rewards: [{
+				id: 2121,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "Iron Chests",
+			x: 10.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Iron Chests is a mod that introduces a progression-based storage solution. In [Dissonance], Iron Chests are easily craftable and provide a safe early-game solution for storage."],
+			min_required_dependencies: 0,
+			dependencies: [I;426],
+			dependency_requirement: "all_completed",
+			id: 2119,
+			tasks: [{
+				id: 2120,
+				type: "item",
+				item: "ironchest:iron_chest"
+			}],
+			rewards: [{
+				id: 2122,
+				type: "item",
+				title: "500 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
 					}
 				}
 			}]

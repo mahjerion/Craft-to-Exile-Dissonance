@@ -382,7 +382,7 @@
 		},
 		{
 			title: "Light In The Shadows",
-			x: 7.5d,
+			x: 4.5d,
 			y: 3.0d,
 			shape: "default",
 			subtitle: "",
@@ -443,7 +443,7 @@
 				"Kill astaroths."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 472,
 			tasks: [{
@@ -491,7 +491,7 @@
 				"Kill trites."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 474,
 			tasks: [{
@@ -533,7 +533,7 @@
 				"Kill salamanders."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 476,
 			tasks: [{
@@ -583,7 +583,7 @@
 				"Kill belphs."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 478,
 			tasks: [{
@@ -625,7 +625,7 @@
 				"Kill afrits."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 480,
 			tasks: [{
@@ -667,7 +667,7 @@
 				"Kill pinkys."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 482,
 			tasks: [{
@@ -709,7 +709,7 @@
 				"Kill behemoths."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;240],
 			dependency_requirement: "all_completed",
 			id: 484,
 			tasks: [{

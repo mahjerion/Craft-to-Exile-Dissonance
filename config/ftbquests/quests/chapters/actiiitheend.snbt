@@ -605,7 +605,7 @@
 			size: 1.0d,
 			description: ["Craft the mining helmet to see in the dark without torches!"],
 			min_required_dependencies: 0,
-			dependencies: [I;303],
+			dependencies: [I;305],
 			dependency_requirement: "all_completed",
 			id: 1701,
 			tasks: [{

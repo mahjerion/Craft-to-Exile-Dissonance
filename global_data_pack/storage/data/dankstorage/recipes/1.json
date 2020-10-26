@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "rmr",
-    "mbm",
+    "rrr",
+    "rbr",
     "rmr"
   ],
   "key": {
@@ -13,7 +13,7 @@
       "item": "mmorpg:currency/orb_of_transmutation"
     },
     "b": {
-      "item": "minecraft:barrel"
+      "item": "ironchest:dirt_chest"
     }
   },
   "result": {

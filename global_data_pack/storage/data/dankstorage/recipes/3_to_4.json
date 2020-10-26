@@ -1,8 +1,8 @@
 {
-  "type": "dankstorage:upgrade",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    "imi",
-    "m1m",
+    "iii",
+    "isi",
     "imi"
   ],
   "key": {
@@ -12,11 +12,11 @@
     "m": {
       "item": "mmorpg:currency/chaos_orb"
     },
-    "1": {
-      "item": "dankstorage:dank_3"
+    "s": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dankstorage:dank_4"
+    "item": "dankstorage:3_to_4"
   }
 }

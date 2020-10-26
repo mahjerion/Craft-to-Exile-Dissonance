@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MAM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"A": {
+			"item": "mmorpg:mat/infused_iron"
+		},
+		"M": {
+			"tag": "forge:ingots/iron"
+		},
+		"S": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "ironchest:iron_chest"
+	}
+}

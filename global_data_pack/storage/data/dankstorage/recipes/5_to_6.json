@@ -1,8 +1,8 @@
 {
-  "type": "dankstorage:upgrade",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    "imi",
-    "m1m",
+    "iii",
+    "isi",
     "imi"
   ],
   "key": {
@@ -12,11 +12,11 @@
     "m": {
       "item": "mmorpg:currency/create_new_unique"
     },
-    "1": {
-      "item": "dankstorage:dank_5"
+    "s": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dankstorage:dank_6"
+    "item": "dankstorage:5_to_6"
   }
 }

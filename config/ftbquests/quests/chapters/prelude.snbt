@@ -109,9 +109,9 @@
 					}
 				},
 				{
-					id: 1947,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_3"
+					id: 2123,
+					type: "choice",
+					table: 0
 				}
 			]
 		},
@@ -1600,18 +1600,25 @@
 				entity: "minecraft:cave_spider",
 				value: 8L
 			}],
-			rewards: [{
-				id: 1717,
-				type: "item",
-				title: "1000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1000
+			rewards: [
+				{
+					id: 1717,
+					type: "item",
+					title: "1000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
 					}
+				},
+				{
+					id: 2124,
+					type: "choice",
+					table: 1
 				}
-			}]
+			]
 		},
 		{
 			title: "Double Double Toil and Trouble",
@@ -1634,18 +1641,25 @@
 				entity: "minecraft:witch",
 				value: 3L
 			}],
-			rewards: [{
-				id: 1718,
-				type: "item",
-				title: "1250 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1250
+			rewards: [
+				{
+					id: 1718,
+					type: "item",
+					title: "1250 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1250
+						}
 					}
+				},
+				{
+					id: 2125,
+					type: "choice",
+					table: 2
 				}
-			}]
+			]
 		},
 		{
 			title: "Taking The Long Route",

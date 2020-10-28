@@ -4,7 +4,7 @@
 	loot_size: 1,
 	rewards: [
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "azurerpgitems:sword6",
 				Count: 1b,
@@ -17,7 +17,7 @@
 			command: "/slash give gear @p sword 15 2 1"
 		},
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "azurerpgitems:axe1",
 				Count: 1b,
@@ -30,7 +30,7 @@
 			command: "/slash give gear @p axe 15 2 1"
 		},
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "endreborn:iron_hammer",
 				Count: 1b,
@@ -43,7 +43,7 @@
 			command: "/slash give gear @p hammer 15 2 1"
 		},
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "azurerpgitems:bow5",
 				Count: 1b,
@@ -56,7 +56,7 @@
 			command: "/slash give gear @p bow 15 2 1"
 		},
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "azurerpgitems:staff4",
 				Count: 1b,

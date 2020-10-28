@@ -7,7 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.5.5] - 2020-10-XX
+### Updates
+- Choice rewards have returned and are available from the first few quests!
+- Various Quark configurations.
+- Reduced spawn rate of raritarium.
+- Reduced the chances of getting a kill bounty on non-hunting bounties.
+- Doubled the duration for kill bounties.
+
+### Mod Updates
+- Updated FTB Quests, MineColonies, Mine and Slash.
+- Removed Campfire Torches.
+- Removed Horizontal Panes.
+- Removed Item Zoom.
+- Removed Ma Enchants - had to disable half of them due to bugs only to find out even more were causing server hangs. Not worth it unfortunately.
+- Removed No More Nitwits.
+
+### Fixes
+- Quest GUI (mostly) works now. Lycanites forge still doesn't work.
+- Fixed some incorrect Bountiful entries.
+
+## [2.5.5] - 2020-10-26
 
 ### Updates
 - Storage solutions: finally, say hello to Iron Chests. Iron Chests will follow the streamline progression system similar to Danks and are available from the get go.

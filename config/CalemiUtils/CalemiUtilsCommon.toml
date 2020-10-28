@@ -15,11 +15,11 @@
 	#Range: 0.0 ~ 10.0
 	coinStackPennyRarity = 0.3
 	#Raritanium Vein Size
-	raritaniumVeinSize = 8
+	raritaniumVeinSize = 4
 	#Penny Coin Stack Gen
 	coinStackPennyGen = true
 	#Raritanium Veins Per Chunk
-	raritaniumOreVeinsPerChunk = 3
+	raritaniumOreVeinsPerChunk = 2
 	#Nickel Coin Stack Gen
 	coinStackNickelGen = true
 	#Quarter Coin Stack Rarity

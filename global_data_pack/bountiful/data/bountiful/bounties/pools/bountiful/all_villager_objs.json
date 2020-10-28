@@ -8,8 +8,8 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 1000,
-      "timeMult": 2.0
+      "weight": 500,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -19,8 +19,8 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 1000,
-      "timeMult": 2.0
+      "weight": 500,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -30,8 +30,8 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 1000,
-      "timeMult": 2.0
+      "weight": 500,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -41,8 +41,8 @@
         "max": 12
       },
       "unitWorth": 450,
-      "weight": 1000,
-      "timeMult": 2.0
+      "weight": 500,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -52,8 +52,8 @@
         "max": 4
       },
       "unitWorth": 700,
-      "weight": 500,
-      "timeMult": 3.0
+      "weight": 250,
+      "timeMult": 6.0
     },
     {
       "type": "entity",
@@ -63,8 +63,8 @@
         "max": 12
       },
       "unitWorth": 250,
-      "weight": 500,
-      "timeMult": 2.0
+      "weight": 250,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -74,8 +74,8 @@
         "max": 4
       },
       "unitWorth": 500,
-      "weight": 250,
-      "timeMult": 2.5
+      "weight": 125,
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -85,8 +85,8 @@
         "max": 4
       },
       "unitWorth": 500,
-      "weight": 250,
-      "timeMult": 2.5
+      "weight": 125,
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -96,8 +96,8 @@
         "max": 4
       },
       "unitWorth": 500,
-      "weight": 250,
-      "timeMult": 2.0
+      "weight": 125,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -107,8 +107,8 @@
         "max": 12
       },
       "unitWorth": 400,
-      "weight": 500,
-      "timeMult": 2.0
+      "weight": 250,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -118,8 +118,8 @@
         "max": 4
       },
       "unitWorth": 800,
-      "weight": 500,
-      "timeMult": 2.0
+      "weight": 250,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -129,8 +129,8 @@
         "max": 1
       },
       "unitWorth": 2000,
-      "weight": 200,
-      "timeMult": 3.0
+      "weight": 100,
+      "timeMult": 6.0
     },
     {
       "type": "entity",
@@ -140,8 +140,8 @@
         "max": 16
       },
       "unitWorth": 350,
-      "weight": 500,
-      "timeMult": 2.5
+      "weight": 250,
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -151,8 +151,8 @@
         "max": 16
       },
       "unitWorth": 350,
-      "weight": 500,
-      "timeMult": 2.5
+      "weight": 250,
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -162,8 +162,8 @@
         "max": 6
       },
       "unitWorth": 600,
-      "weight": 250,
-      "timeMult": 2.0
+      "weight": 125,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -173,8 +173,8 @@
         "max": 6
       },
       "unitWorth": 600,
-      "weight": 250,
-      "timeMult": 2.0
+      "weight": 125,
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -184,8 +184,8 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 100,
-      "timeMult": 3.0
+      "weight": 50,
+      "timeMult": 6.0
     },
     {
       "type": "entity",
@@ -195,8 +195,8 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 100,
-      "timeMult": 3.0
+      "weight": 50,
+      "timeMult": 6.0
     }
   ]
 }

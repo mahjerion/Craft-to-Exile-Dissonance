@@ -4,7 +4,7 @@
 	loot_size: 1,
 	rewards: [
 		{
-			player_command: 1b,
+			player_command: 0b,
 			icon: {
 				id: "azurerpgitems:shield1",
 				Count: 1b,
@@ -17,7 +17,8 @@
 			command: "/slash give gear @p shield 7 2 1"
 		},
 		{
-			player_command: 1b,
+			player_command: 0b,
+			icon: "extendednether:soul_torch",
 			title: "Lv. 7 Rare Torch",
 			type: "command",
 			command: "/slash give gear @p torch 7 2 1"

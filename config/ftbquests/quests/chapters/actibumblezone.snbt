@@ -257,18 +257,25 @@
 					item: "beesourceful:emerald_honeycomb"
 				}
 			],
-			rewards: [{
-				id: 1760,
-				type: "item",
-				title: "28125 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 28125
+			rewards: [
+				{
+					id: 1760,
+					type: "item",
+					title: "28125 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 28125
+						}
 					}
+				},
+				{
+					id: 2126,
+					type: "choice",
+					table: 3
 				}
-			}]
+			]
 		},
 		{
 			title: "The Nether Regions",

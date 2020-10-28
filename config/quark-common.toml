@@ -205,7 +205,7 @@
 		"Render Items In Chat" = true
 
 [tools]
-	Pickarang = true
+	Pickarang = false
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
@@ -298,7 +298,7 @@
 	"Enhanced Ladders" = true
 	"Snow Golem Player Heads" = true
 	"Glass Shard" = true
-	"Campfires Boost Elytra" = true
+	"Campfires Boost Elytra" = false
 
 	[tweaks.sign_editing]
 		"Requires Empty Hand" = false
@@ -328,7 +328,7 @@
 		#Can a dispenser be crafted by adding a bow to a dropper?
 		"Enable Dispenser" = true
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
-		"Bent Recipes" = true
+		"Bent Recipes" = false
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Can any wool color be dyed?
@@ -412,7 +412,7 @@
 	"Underground Clay" = true
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
-	Crevices = true
+	Crevices = false
 	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = false

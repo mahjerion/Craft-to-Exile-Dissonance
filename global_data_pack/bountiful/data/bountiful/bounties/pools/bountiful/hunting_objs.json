@@ -9,7 +9,7 @@
       },
       "unitWorth": 800,
       "weight": 1000,
-      "timeMult": 2.75
+      "timeMult": 6.0
     },
     {
       "type": "entity",
@@ -20,7 +20,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -31,7 +31,7 @@
       },
       "unitWorth": 900,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -42,7 +42,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 3.0
+      "timeMult": 6.0
     },
     {
       "type": "entity",
@@ -53,7 +53,7 @@
       },
       "unitWorth": 350,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -75,7 +75,7 @@
       },
       "unitWorth": 400,
       "weight": 1000,
-      "timeMult": 1.5
+      "timeMult": 3.0
     },
     {
       "type": "entity",
@@ -86,18 +86,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 1.5
-    },
-    {
-      "type": "entity",
-      "content": "lava_monster:lava_monster",
-      "amountRange": {
-        "min": 1,
-        "max": 2
-      },
-      "unitWorth": 800,
-      "weight": 1000,
-      "timeMult": 2.0
+      "timeMult": 3.0
     },
     {
       "type": "entity",
@@ -108,7 +97,7 @@
       },
       "unitWorth": 900,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -119,7 +108,7 @@
       },
       "unitWorth": 500,
       "weight": 1000,
-      "timeMult": 2.0
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -130,7 +119,7 @@
       },
       "unitWorth": 500,
       "weight": 1000,
-      "timeMult": 2.0
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -141,7 +130,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 1.5
+      "timeMult": 3.0
     },
     {
       "type": "entity",
@@ -152,7 +141,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 1.5
+      "timeMult": 3.0
     },
     {
       "type": "entity",
@@ -163,7 +152,7 @@
       },
       "unitWorth": 600,
       "weight": 1000,
-      "timeMult": 1.5
+      "timeMult": 3.0
     },
     {
       "type": "entity",
@@ -174,7 +163,7 @@
       },
       "unitWorth": 800,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -185,7 +174,7 @@
       },
       "unitWorth": 800,
       "weight": 1000,
-      "timeMult": 2.5
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -196,7 +185,7 @@
       },
       "unitWorth": 4000,
       "weight": 100,
-      "timeMult": 4.0
+      "timeMult": 8.0
     },
     {
       "type": "entity",
@@ -207,7 +196,7 @@
       },
       "unitWorth": 4000,
       "weight": 100,
-      "timeMult": 4.0
+      "timeMult": 8.0
     }
   ]
 }

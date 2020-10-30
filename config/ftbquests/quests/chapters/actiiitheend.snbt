@@ -175,10 +175,7 @@
 				{
 					id: 746,
 					type: "item",
-					item: {
-						id: "minecraft:red_bed",
-						Count: 10b
-					}
+					item: "minecraft:red_bed"
 				},
 				{
 					id: 1790,

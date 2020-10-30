@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- You can no longer make a waystone global unless you're in creative mode.
+
+### Mod Updates
+- Re-added Nether Portal Fix.
+
+### Fixes
+- Fixed a quest giving 10x the rewards.
+
 ## [2.5.6] - 2020-10-29
 
 ### Updates

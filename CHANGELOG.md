@@ -7,12 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.5.6] - 2020-10-29
+
 ### Updates
 - Choice rewards have returned and are available from the first few quests!
 - Various Quark configurations.
 - Reduced spawn rate of raritarium.
 - Reduced the chances of getting a kill bounty on non-hunting bounties.
 - Doubled the duration for kill bounties.
+- Greatly reduced the power of physical affixes on weapons.
 
 ### Mod Updates
 - Updated FTB Quests, MineColonies, Mine and Slash.
@@ -21,6 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed Item Zoom.
 - Removed Ma Enchants - had to disable half of them due to bugs only to find out even more were causing server hangs. Not worth it unfortunately.
 - Removed No More Nitwits.
+- Removed Nether Portal Fix.
 
 ### Fixes
 - Quest GUI (mostly) works now. Lycanites forge still doesn't work.

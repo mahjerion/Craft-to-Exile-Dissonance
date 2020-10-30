@@ -26,7 +26,7 @@
     ]
   },
   "mods": [
-	"physical_damage_flat",
+	"very_low_physical_damage_flat",
     "physical_damage_percent"
   ]
 }

@@ -664,6 +664,7 @@
 			tasks: [{
 				id: 247,
 				type: "dimension",
+				title: "Visit Dimension: The Bumblezone",
 				dimension: "the_bumblezone:bumblezone"
 			}],
 			rewards: [
@@ -1681,6 +1682,7 @@
 			tasks: [{
 				id: 1677,
 				type: "dimension",
+				title: "Visit Dimension: The Nether",
 				dimension: "minecraft:overworld"
 			}],
 			rewards: [

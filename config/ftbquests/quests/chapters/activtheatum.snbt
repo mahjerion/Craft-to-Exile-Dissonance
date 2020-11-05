@@ -34,6 +34,7 @@
 			tasks: [{
 				id: 318,
 				type: "dimension",
+				title: "Visit Dimension: Atum",
 				dimension: "atum:atum"
 			}],
 			rewards: [

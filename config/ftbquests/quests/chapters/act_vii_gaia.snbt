@@ -1,0 +1,129 @@
+{
+	id: 2150,
+	filename: "act_vii_gaia",
+	order_index: 0,
+	title: "Act VII: Gaia",
+	icon: {
+		id: "gaiadimension:gaia_champion_sword",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "default",
+	images: [],
+	quests: [
+		{
+			title: "Sparkling Grass",
+			x: 0.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Interesting... The grass literally sparkles as you step on it. I wonder what kind of adventures will be found here!"],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				2147,
+				2136
+			],
+			dependency_requirement: "all_completed",
+			id: 2152,
+			tasks: [{
+				id: 2153,
+				type: "item",
+				item: "gaiadimension:glitter_grass",
+				count: 16L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 2154,
+			tasks: [{
+				id: 2155,
+				type: "kill",
+				entity: "gaiadimension:growth_sapper",
+				value: 16L
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 2156,
+			tasks: [{
+				id: 2157,
+				type: "kill",
+				entity: "gaiadimension:howlite_wolf",
+				value: 16L
+			}]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 2158,
+			tasks: [{
+				id: 2159,
+				type: "kill",
+				entity: "gaiadimension:nomadic_lagrahk",
+				value: 8L
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 2160,
+			tasks: [{
+				id: 2161,
+				type: "item",
+				item: "gaiadimension:agate_crafting_table"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 2162,
+			tasks: [{
+				id: 2163,
+				type: "item",
+				item: "gaiadimension:agate_stick"
+			}]
+		}
+	]
+}

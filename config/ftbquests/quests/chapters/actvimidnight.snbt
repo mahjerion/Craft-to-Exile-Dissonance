@@ -28,6 +28,7 @@
 			tasks: [{
 				id: 394,
 				type: "dimension",
+				title: "Visit Dimension: Midnight",
 				dimension: "midnight:midnight"
 			}],
 			rewards: [{
@@ -422,6 +423,145 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Combustion",
+			x: 7.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["By putting together redstone and lapis lazuli, you can a block with high potential energy. You sense there must be some way to unleash the energy from the blocks... If only there was some way."],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				413,
+				2129
+			],
+			dependency_requirement: "all_completed",
+			id: 2127,
+			tasks: [
+				{
+					id: 2128,
+					type: "item",
+					item: {
+						id: "gaiadimension:glint_and_gold",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2132,
+					type: "item",
+					item: "gaiadimension:keystone_block",
+					count: 10L
+				}
+			],
+			rewards: [{
+				id: 2135,
+				type: "item",
+				title: "300000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 300000
+					}
+				}
+			}]
+		},
+		{
+			title: "Purification",
+			x: 4.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Rumours have it that burning redstone and lapis lazuli in a furnace purifies them... But for what purpose?"],
+			min_required_dependencies: 3,
+			dependencies: [I;
+				395,
+				397,
+				399,
+				401
+			],
+			dependency_requirement: "all_completed",
+			id: 2129,
+			tasks: [
+				{
+					id: 2130,
+					type: "item",
+					item: "gaiadimension:crystallized_lapis_lazuli",
+					count: 4L
+				},
+				{
+					id: 2131,
+					type: "item",
+					item: "gaiadimension:crystallized_redstone",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: 2133,
+					type: "item",
+					item: "mmorpg:lootbox/small_currency_lootbox_3"
+				},
+				{
+					id: 2134,
+					type: "item",
+					title: "300000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 300000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "A Secret World",
+			icon: {
+				id: "gaiadimension:gaia_champion_sword",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 9.0d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"By putting keystone blocks in an orientation not unlike a nether portal, and activiating it with the gold and diamond, you've activated a portal! Or... at least you think it's a portal.",
+				"Enter the Gaia dimension. Something tells you this will be the last time you see the Overworld..."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2127],
+			dependency_requirement: "all_completed",
+			id: 2136,
+			tasks: [{
+				id: 2137,
+				type: "dimension",
+				title: "Visit Dimension: Gaia",
+				dimension: "gaiadimension:gaia"
+			}],
+			rewards: [{
+				id: 2151,
+				type: "item",
+				title: "300000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 300000
+					}
+				}
+			}]
 		}
 	]
 }

@@ -19,7 +19,7 @@
   },
   "level": {
     "min_level": 21,
-    "max_level": 40,
+    "max_level": 60,
     "level_variance": 0
   },
   "unique": {

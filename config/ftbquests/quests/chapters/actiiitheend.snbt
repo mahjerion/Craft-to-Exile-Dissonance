@@ -25,6 +25,7 @@
 			tasks: [{
 				id: 246,
 				type: "dimension",
+				title: "Visit Dimension: The End",
 				dimension: "minecraft:the_end"
 			}],
 			rewards: [{

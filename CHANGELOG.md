@@ -7,14 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+WARNING! Some blocks may disappear due to the removal of Snow! Real Magic. To prevent this, go into /config/snowrealmagic-common.toml and change 'retainOriginalBlocks' to true. Start your world once and then update after.
+
 ### Updates
+- New dimension! Gaia dimension - a level 58-74 zone brimming with custom mobs and unique biomes. Comes with quests too!
+- Added TheMeowstardCat's Community Server to the list of default available servers. Thanks for supporting CtE for so long!
+- Updated to Forge 31.2.45.
 - You can no longer make a waystone global unless you're in creative mode.
+- Made apple juice and stew harder to craft.
+- Slightly increased difficulty of Good Night Sleep dimensions and onwards.
+- Neptunium equipment can be crafted up to level 60 now.
+- Bows can be crafted up to level 30 now.
+- Crossbows can be crafted up to level 45 now.
+- Added a recipe for Tropicraft's iguana leather.
+- Tropicraft is now marked as a SP-only area until it's fixed.
 
 ### Mod Updates
-- Re-added Nether Portal Fix.
+- Updated MineColonies, Immersive Engineering, Midnight.
+- Added Gaia Dimension.
+- Removed Snow! Real Magic - WARNING! Some blocks may disappear. To prevent this, go into /config/snowrealmagic-common.toml and change 'retainOriginalBlocks' to true. Start your world once and then update after.
 
 ### Fixes
 - Fixed a quest giving 10x the rewards.
+- Fixed an impossible quest in Tropicraft.
+- Fixed Frostball synergies.
+- Lilypads no longer drop - they were causing weird crashes so this should alleviate some of those issues in the long term.
+- Disabled Tropicraft sifter recipe - caused crashes.
 
 ## [2.5.6] - 2020-10-29
 

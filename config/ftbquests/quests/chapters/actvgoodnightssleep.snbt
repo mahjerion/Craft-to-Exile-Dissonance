@@ -10,7 +10,7 @@
 	images: [],
 	quests: [
 		{
-			title: "Blissful Awakening",
+			title: "Blissful Awakening (SP Route)",
 			icon: {
 				id: "goodnightsleep:rainbow_sword",
 				Count: 1b,
@@ -25,7 +25,8 @@
 			size: 1.0d,
 			description: [
 				"Lucky you! You've accessed the Good Dream dimension, where you'll find unicorns and rainbows. You sense that something is wrong with the balance of positive and negative energy.",
-				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes."
+				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
+				"Note: this route takes you to Tropicraft which is currently only available for singleplayer."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;339],
@@ -34,6 +35,7 @@
 			tasks: [{
 				id: 345,
 				type: "dimension",
+				title: "Visit Dimension: Good Dream",
 				dimension: "goodnightsleep:good_dream"
 			}],
 			rewards: [{
@@ -74,6 +76,7 @@
 			tasks: [{
 				id: 357,
 				type: "dimension",
+				title: "Visit Dimension: Nightmare",
 				dimension: "goodnightsleep:nightmare"
 			}],
 			rewards: [{

@@ -12,5 +12,5 @@ replaceWorldFeature = true
 #Requires Mixin
 sustainGrassIfLayerMoreThanOne = true
 #If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal.
-retainOriginalBlocks = false
+retainOriginalBlocks = true
 

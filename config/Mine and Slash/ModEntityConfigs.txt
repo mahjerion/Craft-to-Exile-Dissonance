@@ -1026,6 +1026,19 @@
       "DMG_MULTI": 0.75,
       "HP_MULTI": 0.8,
       "STAT_MULTI": 1.0
+    },
+    "gaiadimension:malachite_guard": {
+      "LOOT_MULTI": 1.0,
+      "EXP_MULTI": 3.0,
+      "MIN_RARITY": 1,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 74,
+      "MAX_LEVEL": 74,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     }
   },
   "byEntityTypeDefault": {

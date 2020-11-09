@@ -1,6 +1,12 @@
 
 #All the options that can be modified by players on server.
 [client]
+	#If true, when an entity is captured by a rifter it will rotate to look like it is being dragged. Default: true
+	experimental_capture_render = true
+	#Allows brightness to be changed in Midnight. Default: false
+	allow_brightness_change = false
+	#If true, The Midnight will check if version 0.6.0 or higher is available for release. The chat notification will be shown once when a world is loaded and again after each restart. Default: true
+	check_for_rewrite = true
 	#Hides the vignette effect in the darker areas of Midnight. Default: false
 	hide_vignette_effect = false
 	#If true, some ambient spore particles are spawned around the player. Default: true

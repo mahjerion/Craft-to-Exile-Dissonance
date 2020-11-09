@@ -7,12 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.0] - 2020-11-09
+
 WARNING! Some blocks may disappear due to the removal of Snow! Real Magic. To prevent this, go into /config/snowrealmagic-common.toml and change 'retainOriginalBlocks' to true. Start your world once and then update after.
 
 ### Updates
-- New dimension! Gaia dimension - a level 58-74 zone brimming with custom mobs and unique biomes. Comes with quests too!
+- New dimension! Gaia Dimension - a level 58-74 zone brimming with custom mobs and unique biomes. Comes with quests too!
+- ANOTHER new dimension! Dimensional Dungeons - a level 60-99 instanced dungeon similar to Mine and Slash maps. This zone is intended for party play and is extremely difficult.
 - Added TheMeowstardCat's Community Server to the list of default available servers. Thanks for supporting CtE for so long!
 - Updated to Forge 31.2.45.
+- Huge Mine and Slash bug fixed. All Elemental Spell Damage mods were not applying correctly. You should now receive a huge boost to spell damage from intelligence as intended.
 - You can no longer make a waystone global unless you're in creative mode.
 - Made apple juice and stew harder to craft.
 - Slightly increased difficulty of Good Night Sleep dimensions and onwards.
@@ -21,10 +25,13 @@ WARNING! Some blocks may disappear due to the removal of Snow! Real Magic. To pr
 - Crossbows can be crafted up to level 45 now.
 - Added a recipe for Tropicraft's iguana leather.
 - Tropicraft is now marked as a SP-only area until it's fixed.
+- Added some maps to the rewards of the Map Device quest.
 
 ### Mod Updates
-- Updated MineColonies, Immersive Engineering, Midnight.
+- Updated Mine and Slash, MineColonies, Immersive Engineering, Midnight. Aquaculture, Calemi's Utilities.
+- Re-added NetherPortalFix.
 - Added Gaia Dimension.
+- Added Dimensional Dungeons.
 - Removed Snow! Real Magic - WARNING! Some blocks may disappear. To prevent this, go into /config/snowrealmagic-common.toml and change 'retainOriginalBlocks' to true. Start your world once and then update after.
 
 ### Fixes

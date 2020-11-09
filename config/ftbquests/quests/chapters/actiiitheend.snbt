@@ -249,18 +249,126 @@
 				type: "item",
 				item: "mmorpg:map_device"
 			}],
-			rewards: [{
-				id: 1792,
-				type: "item",
-				title: "25000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 25000
+			rewards: [
+				{
+					id: 1792,
+					type: "item",
+					title: "25000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 25000
+						}
+					}
+				},
+				{
+					id: 2261,
+					type: "item",
+					item: {
+						id: "mmorpg:map/map0",
+						Count: 1b,
+						tag: {
+							MAP_ITEM_DATA: {
+								dimID: "mmorpg:resettable_dungeon",
+								worldGeneratorName: "dungeon",
+								tier: 1,
+								level: 30,
+								affixes: {
+									0: {
+										GUID: "less_all_fire_damage_affix",
+										percent: 30,
+										affectedEntities: 1
+									},
+									1: {
+										GUID: "bonus_water_damage_affix",
+										percent: 30,
+										affectedEntities: 0
+									},
+									size: 2
+								},
+								mapUUID: "76a0398f-c1d8-44f7-8dcc-c34c14ce3e56",
+								rarity: 0,
+								isExp: 0b
+							}
+						}
+					}
+				},
+				{
+					id: 2262,
+					type: "item",
+					item: {
+						id: "mmorpg:map/map0",
+						Count: 1b,
+						tag: {
+							MAP_ITEM_DATA: {
+								dimID: "mmorpg:resettable_dungeon",
+								worldGeneratorName: "dungeon",
+								tier: 1,
+								level: 30,
+								affixes: {
+									0: {
+										GUID: "less_trident_damage_affix",
+										percent: 17,
+										affectedEntities: 1
+									},
+									1: {
+										GUID: "less_bow_damage_affix",
+										percent: 19,
+										affectedEntities: 1
+									},
+									2: {
+										GUID: "bonus_nature_damage_affix",
+										percent: 25,
+										affectedEntities: 0
+									},
+									size: 3
+								},
+								mapUUID: "223d3354-168d-4104-976e-dddf478e7ee6",
+								rarity: 0,
+								isExp: 0b
+							}
+						}
+					}
+				},
+				{
+					id: 2263,
+					type: "item",
+					item: {
+						id: "mmorpg:map/map0",
+						Count: 1b,
+						tag: {
+							MAP_ITEM_DATA: {
+								dimID: "mmorpg:resettable_dungeon",
+								worldGeneratorName: "dungeon",
+								tier: 1,
+								level: 30,
+								affixes: {
+									0: {
+										GUID: "less_all_elemental_damage_affix",
+										percent: 30,
+										affectedEntities: 1
+									},
+									1: {
+										GUID: "less_all_nature_damage_affix",
+										percent: 15,
+										affectedEntities: 1
+									},
+									2: {
+										GUID: "bonus_thunder_damage_affix",
+										percent: 18,
+										affectedEntities: 0
+									},
+									size: 3
+								},
+								mapUUID: "79a01f7d-7d00-41c8-be8f-10f3222f0802",
+								rarity: 0,
+								isExp: 0b
+							}
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "On The Hunt",

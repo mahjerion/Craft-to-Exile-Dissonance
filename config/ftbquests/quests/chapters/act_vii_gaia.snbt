@@ -1,7 +1,7 @@
 {
 	id: 2150,
 	filename: "act_vii_gaia",
-	order_index: 0,
+	order_index: 9,
 	title: "Act VII: Gaia",
 	icon: {
 		id: "gaiadimension:gaia_champion_sword",
@@ -35,17 +35,29 @@
 				type: "item",
 				item: "gaiadimension:glitter_grass",
 				count: 16L
+			}],
+			rewards: [{
+				id: 2275,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
 			}]
 		},
 		{
+			title: "Stunted Growth",
 			x: 2.0d,
 			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Growth sappers are species that can be found in almost every biome in the Gaia."],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;2152],
 			dependency_requirement: "all_completed",
 			id: 2154,
 			tasks: [{
@@ -53,17 +65,29 @@
 				type: "kill",
 				entity: "gaiadimension:growth_sapper",
 				value: 16L
+			}],
+			rewards: [{
+				id: 2276,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
 			}]
 		},
 		{
+			title: "Awoooo!",
 			x: 2.0d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["These wolves are passive until attacked. They can be found in agate forests."],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;2154],
 			dependency_requirement: "all_completed",
 			id: 2156,
 			tasks: [{
@@ -71,17 +95,29 @@
 				type: "kill",
 				entity: "gaiadimension:howlite_wolf",
 				value: 16L
+			}],
+			rewards: [{
+				id: 2298,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
 			}]
 		},
 		{
+			title: "Nomadic Lagrahks",
 			x: 3.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Nomadic lagrahks can be found in Agate forests. These creatures carry sharp blades - be careful!"],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;2156],
 			dependency_requirement: "all_completed",
 			id: 2158,
 			tasks: [{
@@ -89,41 +125,1480 @@
 				type: "kill",
 				entity: "gaiadimension:nomadic_lagrahk",
 				value: 8L
+			}],
+			rewards: [{
+				id: 2303,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
 			}]
 		},
 		{
+			title: "Yet Another Crafting Table",
 			x: -2.0d,
 			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["I mean, you could just use your normal crafting table."],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;2152],
 			dependency_requirement: "all_completed",
 			id: 2160,
 			tasks: [{
 				id: 2161,
 				type: "item",
 				item: "gaiadimension:agate_crafting_table"
+			}],
+			rewards: [{
+				id: 2277,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
 			}]
 		},
 		{
-			x: -2.0d,
-			y: -1.5d,
+			title: "Stick It To Ya",
+			x: -3.5d,
+			y: -1.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Agate is the primary resource of the Gaia. Use sticks to craft various weapons, tools, and blocks!"],
 			min_required_dependencies: 0,
-			dependencies: [I;],
+			dependencies: [I;2160],
 			dependency_requirement: "all_completed",
 			id: 2162,
 			tasks: [{
 				id: 2163,
 				type: "item",
-				item: "gaiadimension:agate_stick"
+				item: "gaiadimension:agate_stick",
+				count: 64L
+			}],
+			rewards: [{
+				id: 2280,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
 			}]
+		},
+		{
+			x: -3.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				2256,
+				2252
+			],
+			dependency_requirement: "all_completed",
+			id: 2164,
+			tasks: [{
+				id: 2165,
+				type: "item",
+				item: "dimdungeons:item_guidebook"
+			}],
+			rewards: [{
+				id: 2319,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500000
+					}
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2164],
+			dependency_requirement: "all_completed",
+			id: 2166,
+			tasks: [
+				{
+					id: 2167,
+					type: "item",
+					item: "dimdungeons:block_gilded_portal",
+					count: 2L
+				},
+				{
+					id: 2170,
+					type: "item",
+					item: "dimdungeons:block_portal_keyhole"
+				},
+				{
+					id: 2171,
+					type: "item",
+					item: "minecraft:chiseled_stone_bricks",
+					count: 9L
+				}
+			],
+			rewards: [{
+				id: 2320,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500000
+					}
+				}
+			}]
+		},
+		{
+			x: -2.0d,
+			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2166],
+			dependency_requirement: "all_completed",
+			id: 2168,
+			tasks: [{
+				id: 2169,
+				type: "item",
+				item: "dimdungeons:item_portal_key"
+			}],
+			rewards: [{
+				id: 2321,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000000
+					}
+				}
+			}]
+		},
+		{
+			title: "Minerals II",
+			x: -5.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Sugilite is one of the basic gems and can be crafted into level 60 weapons and armor."],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				2162,
+				2183
+			],
+			dependency_requirement: "all_completed",
+			id: 2172,
+			tasks: [{
+				id: 2173,
+				type: "item",
+				item: "gaiadimension:sugilite",
+				count: 32L
+			}],
+			rewards: [{
+				id: 2288,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Black And Green",
+			x: -5.0d,
+			y: -2.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You'll want to collect these gems, they can be used to craft level 60-65 weapons."],
+			min_required_dependencies: 0,
+			dependencies: [I;2162],
+			dependency_requirement: "all_completed",
+			id: 2174,
+			tasks: [
+				{
+					id: 2175,
+					type: "item",
+					item: "gaiadimension:ixiolite",
+					count: 16L
+				},
+				{
+					id: 2176,
+					type: "item",
+					item: "gaiadimension:euclase",
+					count: 16L
+				}
+			],
+			rewards: [{
+				id: 2286,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Orange And Blue",
+			x: -3.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These colourful gems can be used to craft powerful weapons."],
+			min_required_dependencies: 0,
+			dependencies: [I;2162],
+			dependency_requirement: "all_completed",
+			id: 2177,
+			tasks: [
+				{
+					id: 2178,
+					type: "item",
+					item: "gaiadimension:carnelian",
+					count: 8L
+				},
+				{
+					id: 2179,
+					type: "item",
+					item: "gaiadimension:benitoite",
+					count: 8L
+				}
+			],
+			rewards: [{
+				id: 2285,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Rickety Weapon",
+			x: 5.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The old bow is the last of the craftable bows!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2200],
+			dependency_requirement: "all_completed",
+			id: 2180,
+			tasks: [{
+				id: 2181,
+				type: "item",
+				item: {
+					id: "gaiadimension:old_bow",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 2309,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Minerals",
+			x: -3.5d,
+			y: 1.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Gaia is home to various beautiful rocks and minerals. Many of which can be used to craft powerful armor and weapons. Proustite is one of the basal resources."],
+			min_required_dependencies: 0,
+			dependencies: [I;2160],
+			dependency_requirement: "all_completed",
+			id: 2183,
+			tasks: [{
+				id: 2184,
+				type: "item",
+				item: "gaiadimension:proustite",
+				count: 16L
+			}],
+			rewards: [{
+				id: 2281,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			title: "Leucite",
+			x: -5.0d,
+			y: 2.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Leucite is readily available underground and can be used to craft armor for your adventures."],
+			min_required_dependencies: 0,
+			dependencies: [I;2183],
+			dependency_requirement: "all_completed",
+			id: 2187,
+			tasks: [{
+				id: 2188,
+				type: "item",
+				item: "gaiadimension:leucite",
+				count: 16L
+			}],
+			rewards: [{
+				id: 2284,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Sturdy Rocks",
+			x: -3.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Carnelian and diopside are rocks that can be crafted into level 65-70 equipment."],
+			min_required_dependencies: 0,
+			dependencies: [I;2183],
+			dependency_requirement: "all_completed",
+			id: 2189,
+			tasks: [
+				{
+					id: 2190,
+					type: "item",
+					item: "gaiadimension:diopside",
+					count: 8L
+				},
+				{
+					id: 2193,
+					type: "item",
+					item: "gaiadimension:carnelian",
+					count: 8L
+				}
+			],
+			rewards: [{
+				id: 2283,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Minerals III",
+			x: -6.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Chalcedony is the rarest and most powerful gem. This magically infused gem can be used to craft end-game equipment!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2172],
+			dependency_requirement: "all_completed",
+			id: 2191,
+			tasks: [{
+				id: 2192,
+				type: "item",
+				item: "gaiadimension:chalcedony",
+				count: 16L
+			}],
+			rewards: [{
+				id: 2289,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
+			}]
+		},
+		{
+			title: "Ain't No Chest",
+			x: -2.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These crude crates are Gaia's form of storage. They're not really good..."],
+			min_required_dependencies: 0,
+			dependencies: [I;2160],
+			dependency_requirement: "all_completed",
+			id: 2194,
+			tasks: [{
+				id: 2195,
+				type: "item",
+				item: "gaiadimension:crude_storage_crate"
+			}],
+			rewards: [{
+				id: 2278,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			title: "Golemancy",
+			x: 6.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Gaia brings a few new golems to combat. The agate golem can be found in most biomes of the Gaia."],
+			min_required_dependencies: 0,
+			dependencies: [I;2229],
+			dependency_requirement: "all_completed",
+			id: 2196,
+			tasks: [{
+				id: 2197,
+				type: "kill",
+				entity: "gaiadimension:agate_golem",
+				value: 8L
+			}],
+			rewards: [{
+				id: 2312,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			title: "Prehistoric Lesson",
+			disable_toast: true,
+			x: 3.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Ancient lagrahks can be found in caves. What allows them to still function?"],
+			min_required_dependencies: 0,
+			dependencies: [I;2158],
+			dependency_requirement: "all_completed",
+			id: 2198,
+			tasks: [{
+				id: 2199,
+				type: "kill",
+				entity: "gaiadimension:ancient_lagrahk",
+				value: 6L
+			}],
+			rewards: [{
+				id: 2308,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			title: "Tower I",
+			x: 5.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Archaic warriors can be found in tall yellow towers in the Gaia dimension. You will find these towers spread in Agate forests."],
+			min_required_dependencies: 0,
+			dependencies: [I;2158],
+			dependency_requirement: "all_completed",
+			id: 2200,
+			tasks: [{
+				id: 2201,
+				type: "kill",
+				entity: "gaiadimension:archaic_warrior",
+				value: 24L
+			}],
+			rewards: [{
+				id: 2310,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Corruption",
+			x: 2.0d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Corrupted creatures can be found in corrupt biomes."],
+			min_required_dependencies: 0,
+			dependencies: [I;2154],
+			dependency_requirement: "all_completed",
+			id: 2202,
+			tasks: [{
+				id: 2203,
+				type: "kill",
+				entity: "gaiadimension:corrupt_sapper",
+				value: 16L
+			}],
+			rewards: [{
+				id: 2297,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
+			}]
+		},
+		{
+			title: "Pesky Critters",
+			x: 3.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These creatures can be found in caves and by Gaia waters."],
+			min_required_dependencies: 0,
+			dependencies: [I;2154],
+			dependency_requirement: "all_completed",
+			id: 2204,
+			tasks: [
+				{
+					id: 2205,
+					type: "kill",
+					entity: "gaiadimension:cavern_tick",
+					value: 16L
+				},
+				{
+					id: 2224,
+					type: "kill",
+					entity: "gaiadimension:saltion",
+					value: 8L
+				}
+			],
+			rewards: [{
+				id: 2299,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
+			}]
+		},
+		{
+			title: "From The Ashes...",
+			x: 6.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Spitfire can be found in hot and volcanous biomes."],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				2216,
+				2214
+			],
+			dependency_requirement: "all_completed",
+			id: 2206,
+			tasks: [{
+				id: 2207,
+				type: "kill",
+				entity: "gaiadimension:lesser_spitfire",
+				value: 8L
+			}],
+			rewards: [{
+				id: 2316,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			title: "Cave-Dwellers",
+			x: 3.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Shalurkers are creepy creatures that can be found in the underground. Stay alert while mining!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2204],
+			dependency_requirement: "all_completed",
+			id: 2208,
+			tasks: [{
+				id: 2209,
+				type: "kill",
+				entity: "gaiadimension:shalurker",
+				value: 8L
+			}],
+			rewards: [{
+				id: 2301,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Evil, Beware!",
+			x: 2.0d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Naga are evil creatures that can be found in corrupt biomes."],
+			min_required_dependencies: 0,
+			dependencies: [I;2202],
+			dependency_requirement: "all_completed",
+			id: 2210,
+			tasks: [{
+				id: 2211,
+				type: "kill",
+				entity: "gaiadimension:contorted_naga",
+				value: 8L
+			}],
+			rewards: [{
+				id: 2300,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Golemancy II",
+			x: 5.0d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Crystal golems are found underground. They're quite sturdy, so make sure you approach them with caution."],
+			min_required_dependencies: 0,
+			dependencies: [I;2208],
+			dependency_requirement: "all_completed",
+			id: 2212,
+			tasks: [{
+				id: 2213,
+				type: "kill",
+				entity: "gaiadimension:crystal_golem",
+				value: 2L
+			}],
+			rewards: [{
+				id: 2313,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Jellyfishing",
+			x: 6.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Arenthis are creatures that look like jellyfish - except they're found in the Gaia dimension! These mineral arenthis can be found underground."],
+			min_required_dependencies: 0,
+			dependencies: [I;2212],
+			dependency_requirement: "all_completed",
+			id: 2214,
+			tasks: [{
+				id: 2215,
+				type: "kill",
+				entity: "gaiadimension:mineral_arenthis",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2314,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Native Vegetation",
+			x: 6.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These plants can be found rarely in Agate forests. It's said that harvesting these plants yields useful resources."],
+			min_required_dependencies: 0,
+			dependencies: [I;2200],
+			dependency_requirement: "all_completed",
+			id: 2216,
+			tasks: [{
+				id: 2217,
+				type: "kill",
+				entity: "gaiadimension:markuzar_plant",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2315,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Geode Harvest",
+			x: 2.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Mutant growth sappers can be found around the Gaia and upon death drop valuable geodes."],
+			min_required_dependencies: 0,
+			dependencies: [I;2156],
+			dependency_requirement: "all_completed",
+			id: 2218,
+			tasks: [{
+				id: 2219,
+				type: "kill",
+				entity: "gaiadimension:mutant_growth_extractor",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2302,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Guardians Of The Stone",
+			x: 9.5d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Malachite can be found in great, green, malachite towers in Agate forests. Battle through the tower and reach the guard at the top!"],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				2216,
+				2214
+			],
+			dependency_requirement: "all_completed",
+			id: 2220,
+			tasks: [
+				{
+					id: 2221,
+					type: "kill",
+					entity: "gaiadimension:malachite_guard",
+					value: 1L
+				},
+				{
+					id: 2233,
+					type: "kill",
+					entity: "gaiadimension:malachite_drone",
+					value: 4L
+				}
+			],
+			rewards: [{
+				id: 2322,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000000
+					}
+				}
+			}]
+		},
+		{
+			title: "Rainbow Smoothie",
+			x: 2.0d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["There are 5 elixirs you can craft! The aromatic geode elixir combines 4 different geode flavours!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2218],
+			dependency_requirement: "all_completed",
+			id: 2222,
+			tasks: [{
+				id: 2223,
+				type: "item",
+				item: "gaiadimension:pearly_geode_elixir"
+			}],
+			rewards: [{
+				id: 2304,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			title: "Murky Waters",
+			x: 6.5d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Gaia has unique water that is home to various creatures. The shallow arenthis can be found in water aboveground."],
+			min_required_dependencies: 0,
+			dependencies: [I;2214],
+			dependency_requirement: "all_completed",
+			id: 2225,
+			tasks: [{
+				id: 2226,
+				type: "kill",
+				entity: "gaiadimension:shallow_arenthis",
+				value: 8L
+			}],
+			rewards: [{
+				id: 2317,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Selling lobbys!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2225],
+			dependency_requirement: "all_completed",
+			id: 2227,
+			tasks: [{
+				id: 2228,
+				type: "item",
+				item: "gaiadimension:small_calamari"
+			}],
+			rewards: [{
+				id: 2306,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			title: "Geo, Dude!",
+			x: 5.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These hard-shelled creatures can be found in mountainous biomes. Rumour has it that their meat tastes pretty good when cooked!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2200],
+			dependency_requirement: "all_completed",
+			id: 2229,
+			tasks: [{
+				id: 2230,
+				type: "kill",
+				entity: "gaiadimension:rocky_luggeroth",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2311,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Well Done",
+			x: 5.0d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The rumours were wrong... Luggeroth meat is extremely tough."],
+			min_required_dependencies: 0,
+			dependencies: [I;2229],
+			dependency_requirement: "all_completed",
+			id: 2231,
+			tasks: [{
+				id: 2232,
+				type: "item",
+				item: "gaiadimension:cooked_luggeroth_chop"
+			}],
+			rewards: [{
+				id: 2305,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			title: "Double Rainbow",
+			x: 3.5d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The rocky, colourful beast is exceptionally difficult to find. But they sure are wonderful to look at!"],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				2208,
+				2210
+			],
+			dependency_requirement: "all_completed",
+			id: 2234,
+			tasks: [{
+				id: 2235,
+				type: "kill",
+				entity: "gaiadimension:bismuth_uletrus",
+				value: 1L
+			}],
+			rewards: [{
+				id: 2307,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			title: "Shockers",
+			x: 8.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Shockshooters are similar to lesser spitfires. But I wonder... where can they be found?"],
+			min_required_dependencies: 0,
+			dependencies: [I;2206],
+			dependency_requirement: "all_completed",
+			id: 2236,
+			tasks: [{
+				id: 2237,
+				type: "kill",
+				entity: "gaiadimension:lesser_shockshooter",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2318,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 475000
+					}
+				}
+			}]
+		},
+		{
+			title: "Mid-Range",
+			x: -3.5d,
+			y: -4.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Benitoite and carnelian weapons can be used at around level 70!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2177],
+			dependency_requirement: "all_completed",
+			id: 2238,
+			tasks: [
+				{
+					id: 2239,
+					type: "item",
+					item: {
+						id: "gaiadimension:benitoite_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2240,
+					type: "item",
+					item: {
+						id: "gaiadimension:carnelian_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2287,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 375000
+					}
+				}
+			}]
+		},
+		{
+			title: "Proustite Equipment",
+			x: -2.0d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Craft proustite equipment!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2183],
+			dependency_requirement: "all_completed",
+			id: 2241,
+			tasks: [
+				{
+					id: 2242,
+					type: "item",
+					item: {
+						id: "gaiadimension:proustite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2243,
+					type: "item",
+					item: {
+						id: "gaiadimension:proustite_legs",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 2282,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 400000
+					}
+				}
+			}]
+		},
+		{
+			title: "Hole In Your Bucket",
+			x: -2.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["They're harder to make than iron buckets..."],
+			min_required_dependencies: 0,
+			dependencies: [I;2194],
+			dependency_requirement: "all_completed",
+			id: 2244,
+			tasks: [{
+				id: 2245,
+				type: "item",
+				item: "gaiadimension:scaynyx_bucket"
+			}],
+			rewards: [{
+				id: 2279,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 350000
+					}
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The restructurer is an important block that can break down minerals and rocks into smaller, usually more useful gems."],
+			min_required_dependencies: 0,
+			dependencies: [I;2191],
+			dependency_requirement: "all_completed",
+			id: 2246,
+			tasks: [{
+				id: 2247,
+				type: "item",
+				item: "gaiadimension:restructurer"
+			}],
+			rewards: [{
+				id: 2291,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "A Byproduct",
+			x: -6.5d,
+			y: 3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Tektite is a byproduct of restructurization. You can use it to craft tektite blocks, which are used to craft Dimensional Dungeon portal blocks!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2246],
+			dependency_requirement: "all_completed",
+			id: 2248,
+			tasks: [{
+				id: 2249,
+				type: "item",
+				item: "gaiadimension:tektite",
+				count: 9L
+			}],
+			rewards: [{
+				id: 2292,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The purifier can purify corrupt blocks and items."],
+			min_required_dependencies: 0,
+			dependencies: [I;2210],
+			dependency_requirement: "all_completed",
+			id: 2250,
+			tasks: [{
+				id: 2251,
+				type: "item",
+				item: "gaiadimension:purifier"
+			}],
+			rewards: [{
+				id: 2296,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Dimensional Blocks I",
+			x: -6.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Tektite blocks are used to craft Dimensional Dungeon blocks. You'll need quite a lot so be sure to stock up."],
+			min_required_dependencies: 0,
+			dependencies: [I;2248],
+			dependency_requirement: "all_completed",
+			id: 2252,
+			tasks: [{
+				id: 2253,
+				type: "item",
+				item: "gaiadimension:tektite_block",
+				count: 3L
+			}],
+			rewards: [{
+				id: 2293,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2250],
+			dependency_requirement: "all_completed",
+			id: 2254,
+			tasks: [{
+				id: 2255,
+				type: "item",
+				item: "gaiadimension:goldstone",
+				count: 9L
+			}],
+			rewards: [{
+				id: 2295,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 425000
+					}
+				}
+			}]
+		},
+		{
+			title: "Dimensional Blocks II",
+			x: -1.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Goldstone blocks are used to craft Dimensional Dungeon blocks. You'll need quite a lot so be sure to stock up."],
+			min_required_dependencies: 0,
+			dependencies: [I;2254],
+			dependency_requirement: "all_completed",
+			id: 2256,
+			tasks: [{
+				id: 2257,
+				type: "item",
+				item: "gaiadimension:goldstone_block",
+				count: 3L
+			}],
+			rewards: [{
+				id: 2294,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
+					}
+				}
+			}]
+		},
+		{
+			title: "Gemstone Collector",
+			icon: "gaiadimension:gemstone_pouch",
+			x: -8.0d,
+			y: 0.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Gotta catch 'em all!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2191],
+			dependency_requirement: "all_completed",
+			id: 2264,
+			tasks: [
+				{
+					id: 2265,
+					type: "item",
+					item: "gaiadimension:sugilite"
+				},
+				{
+					id: 2266,
+					type: "item",
+					item: "gaiadimension:hematite"
+				},
+				{
+					id: 2267,
+					type: "item",
+					item: "gaiadimension:cinnabar"
+				},
+				{
+					id: 2268,
+					type: "item",
+					item: "gaiadimension:labradorite"
+				},
+				{
+					id: 2269,
+					type: "item",
+					item: "gaiadimension:moonstone"
+				},
+				{
+					id: 2270,
+					type: "item",
+					item: "gaiadimension:blue_opal"
+				},
+				{
+					id: 2271,
+					type: "item",
+					item: "gaiadimension:white_opal"
+				},
+				{
+					id: 2272,
+					type: "item",
+					item: "gaiadimension:pyrite"
+				},
+				{
+					id: 2273,
+					type: "item",
+					item: "gaiadimension:scaynyx_ingot"
+				}
+			],
+			rewards: [
+				{
+					id: 2274,
+					type: "item",
+					item: "gaiadimension:gemstone_pouch"
+				},
+				{
+					id: 2290,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000000
+						}
+					}
+				}
+			]
 		}
 	]
 }

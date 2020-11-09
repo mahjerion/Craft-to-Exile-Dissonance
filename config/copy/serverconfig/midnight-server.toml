@@ -6,7 +6,7 @@
 	well_structure_rarity = 1
 	#The rarity of rift heap structures. Higher values increase rarity. When 0, rift structures are disabled. Default: 5
 	#Range: > 0
-	rift_structure_rarity = 2
+	rift_structure_rarity = 5
 	#The rarity of molten crater structures in the midnight. Higher values increase rarity. When 0, crater structures are disabled. Default: 1
 	#Range: > 0
 	crater_structure_rarity = 1
@@ -16,7 +16,7 @@
 
 #All the options that can only be set on the server.
 [logic]
-	#Sets whether random lightning effects appear in the midnight or not. Default: true
+	#Sets if random lightning effects appear in the midnight or not. Default: true
 	random_lightnings = true
 	#Allows rifters to teleport to players when they aren't being looked at. Default: true
 	allow_rifter_teleport = true
@@ -43,4 +43,10 @@
 	rifts_from_dark_pearls = true
 	#Allows the lightning in Midnight to burn blocks and do damage to entities. Default: false
 	allow_lightning_damage = false
+	#The percent chance (from 0 to 100) for a rifter to spawn naturally. If 0, no rifters spawn at all. Default: 75
+	#Range: 0 ~ 100
+	natural_rifter_spawn_rarity = 50
+	#The percent chance (from 0 to 100) for a rifter to make an ambience sound at any time. Default: 75
+	#Range: 0 ~ 100
+	rifter_ambience_chance = 75
 

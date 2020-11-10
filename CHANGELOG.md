@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Added Sound Device Options.
+
 ## [2.6.0] - 2020-11-09
 
 WARNING! Some blocks may disappear due to the removal of Snow! Real Magic. To prevent this, go into /config/snowrealmagic-common.toml and change 'retainOriginalBlocks' to true. Start your world once and then update after.

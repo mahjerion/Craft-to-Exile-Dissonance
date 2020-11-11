@@ -7,11 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Greatly increased difficult of Dimensional Dungeons, but also increased the rewards even more.
+- Added some more information for Dimensional Dungeon quests.
+
 ### Mod Updates
+- Updated Performant.
 - Added Sound Device Options.
 
 ### Fixes
+- Corrected a Gaia quest description.
 - Disabled Quark's ancient tomes.
+- Suffocation upon entering a world should be fixed.
+- Stonecutter recipe issues should be fixed.
+- Removed Montu's Blast from loot tables.
+- Fixed Calemi coins being in too high abundnace during generation.
 
 ## [2.6.0] - 2020-11-09
 

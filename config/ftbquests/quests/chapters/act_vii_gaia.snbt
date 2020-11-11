@@ -198,12 +198,13 @@
 			}]
 		},
 		{
+			title: "Dimensional Dungeons",
 			x: -3.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Dimensional Dungeons are instanced dungeons similar to maps, but are intended for group play. They are very difficult. Craft the guide book to see how to get started, or visit the wiki!"],
 			min_required_dependencies: 0,
 			dependencies: [I;
 				2256,
@@ -229,12 +230,13 @@
 			}]
 		},
 		{
+			title: "Crafting The Dungeon Portal",
 			x: -3.5d,
 			y: 6.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Crafting the basic structure of Dimensional Dungeon portals will require these blocks. Refer to the guidebook or wiki for information on how to assemble it."],
 			min_required_dependencies: 0,
 			dependencies: [I;2164],
 			dependency_requirement: "all_completed",
@@ -271,12 +273,16 @@
 			}]
 		},
 		{
+			title: "The Key To Victory",
 			x: -2.0d,
 			y: 6.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: [
+				"Portal keys are expensive to craft, but last a lifetime. They are blank at first and can be activated by using it on the top of an End portal frame. Keys will have a unique identifier which can be inserted into the portal keystone.",
+				""
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;2166],
 			dependency_requirement: "all_completed",
@@ -858,7 +864,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Crystal golems are found underground. They're quite sturdy, so make sure you approach them with caution."],
+			description: ["Crystal golems are found in the crystal plains. They're quite sturdy, so make sure you approach them with caution."],
 			min_required_dependencies: 0,
 			dependencies: [I;2208],
 			dependency_requirement: "all_completed",
@@ -1599,6 +1605,38 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Advanced Dimensional Dungeons",
+			x: -0.5d,
+			y: 6.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Rarely, you will find 'advanced portal keys' in dungeons. These keys can be used to access bigger, and harder dungeons. However, you will need to upgrade your Dimensional Dungeon portal structure to be able to withstand the power.",
+				"Refer to the wiki on how to get started with Advanced Dimensional Dungeons."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2168],
+			dependency_requirement: "all_completed",
+			id: 2323,
+			tasks: [{
+				id: 2324,
+				type: "item",
+				item: "dimdungeons:block_portal_crown"
+			}],
+			rewards: [{
+				id: 2325,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1500000
+					}
+				}
+			}]
 		}
 	]
 }

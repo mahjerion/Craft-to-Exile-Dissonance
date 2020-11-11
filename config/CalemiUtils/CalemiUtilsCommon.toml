@@ -13,7 +13,7 @@
 	#Penny Coin Stack Rarity
 	#The lower the value, the less often it appears.
 	#Range: 0.0 ~ 10.0
-	coinStackPennyRarity = 0.1
+	coinStackPennyRarity = 0.0
 	#Raritanium Vein Size
 	raritaniumVeinSize = 4
 	#Penny Coin Stack Gen
@@ -25,7 +25,7 @@
 	#Quarter Coin Stack Rarity
 	#The lower the value, the less often it appears.
 	#Range: 0.0 ~ 10.0
-	coinStackQuarterRarity = 0.00
+	coinStackQuarterRarity = 0.0
 	#Dollar Coin Stack Gen
 	coinStackDollarGen = true
 	#Raritanium Ore Max Y
@@ -33,7 +33,7 @@
 	#Nickel Coin Stack Rarity
 	#The lower the value, the less often it appears.
 	#Range: 0.0 ~ 10.0
-	coinStackNickelRarity = 0.01
+	coinStackNickelRarity = 0.0
 	#Quarter Coin Stack Gen
 	coinStackQuarterGen = true
 	#Dollar Coin Stack Rarity

@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.1] - 2020-11-11
+
 ### Updates
 - Greatly increased difficult of Dimensional Dungeons, but also increased the rewards even more.
 - Added some more information for Dimensional Dungeon quests.
+- Removed some useless enchanted books from Dimensional Dungeons loot tables.
+- Added some Mine and Slash items to Dimensional Dungeons loot tables.
 
 ### Mod Updates
 - Updated Performant.
@@ -21,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Suffocation upon entering a world should be fixed.
 - Stonecutter recipe issues should be fixed.
 - Removed Montu's Blast from loot tables.
-- Fixed Calemi coins being in too high abundnace during generation.
+- Fixed Calemi coins being in too high abundnace during generation by disabling natural generation.
 
 ## [2.6.0] - 2020-11-09
 

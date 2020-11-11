@@ -11,7 +11,7 @@
 		  "type": "item",
 		  "name": "minecraft:enchanted_book",
 		  "entryName": "dimdungeons:ebook_efficiency",
-		  "weight": 2,
+		  "weight": 1,
 		  "functions": [
 		    {
 			  "function": "set_nbt",
@@ -23,7 +23,7 @@
 		  "type": "item",
 		  "name": "minecraft:enchanted_book",
 		  "entryName": "dimdungeons:ebook_unbreaking",
-		  "weight": 4,
+		  "weight": 3,
 		  "functions": [
 		    {
 			  "function": "set_nbt",
@@ -40,78 +40,6 @@
 		    {
 			  "function": "set_nbt",
 			  "tag": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:4}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_sharpness",
-		  "weight": 3,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:7}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_power",
-		  "weight": 3,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:6}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_bane_of_arthropods",
-		  "weight": 3,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:9}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_smite",
-		  "weight": 3,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:smite\",lvl:9}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_impaling",
-		  "weight": 3,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:9}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_sweeping",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:sweeping\",lvl:4}]}"
 			}
 		  ]
 		},

@@ -46,18 +46,6 @@
         {
 		  "type": "item",
 		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_boots",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:feather_falling\",lvl:4}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
 		  "entryName": "dimdungeons:ebook_combo_helm",
 		  "weight": 2,
 		  "functions": [
@@ -70,48 +58,12 @@
         {
 		  "type": "item",
 		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_chest",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:thorns\",lvl:3}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_axe",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5},{id:\"minecraft:sharpness\",lvl:5}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_bow_infinity",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5},{id:\"minecraft:infinity\",lvl:1}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
 		  "entryName": "dimdungeons:ebook_combo_bow_mending",
 		  "weight": 2,
 		  "functions": [
 		    {
 			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:5},{id:\"minecraft:mending\",lvl:1}]}"
+			  "tag": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5},{id:\"minecraft:mending\",lvl:1}]}"
 			}
 		  ]
 		},
@@ -147,43 +99,7 @@
 		  "functions": [
 		    {
 			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:5},{id:\"minecraft:loyalty\",lvl:3}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_trident_riptide",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:impaling\",lvl:5},{id:\"minecraft:riptide\",lvl:3}]}"
-			}
-		  ]
-		},
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_sword_looting",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:looting\",lvl:3}]}"
-			}
-		  ]
-		},	
-        {
-		  "type": "item",
-		  "name": "minecraft:enchanted_book",
-		  "entryName": "dimdungeons:ebook_combo_sword_sweeping",
-		  "weight": 2,
-		  "functions": [
-		    {
-			  "function": "set_nbt",
-			  "tag": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:sweeping\",lvl:3}]}"
+			  "tag": "{StoredEnchantments:[{id:\"minecraft:riptide\",lvl:3},{id:\"minecraft:loyalty\",lvl:3}]}"
 			}
 		  ]
 		}		

@@ -209,7 +209,7 @@
 	"Pathfinder Maps" = true
 	"Bottled Cloud" = true
 	"Color Runes" = true
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Slime In A Bucket" = true
 	Camera = true
 	Trowel = true

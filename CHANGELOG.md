@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Suffocation upon entering a world should be fixed.
 - Stonecutter recipe issues should be fixed.
 - Removed Montu's Blast from loot tables.
-- Fixed Calemi coins being in too high abundnace during generation by disabling natural generation.
+- Fixed Calemi coins being in too high abundance during generation by disabling natural generation.
 
 ## [2.6.0] - 2020-11-09
 

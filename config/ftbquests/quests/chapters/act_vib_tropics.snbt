@@ -17,7 +17,12 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Ahhh paradise... Or so you thought. Welcome to the Tropics - an uncharted island found off the coast of another island. How do you get here? Easy! Simply sit on a beach chair and sip your Pina Colada at sunset!"],
+			description: [
+				"Ahhh paradise... Or so you thought. Welcome to the Tropics - an uncharted island found off the coast of another island. How do you get here? Easy! Simply sit on a beach chair and sip your Pina Colada at sunset!",
+				"You may need to look at the sun while you're sipping your drink!",
+				"Note: before coming to the Tropics, make sure you have set a global waystone up in the Overworld (you need to be in creative to do this). Also, be sure to bring a warpstone or scroll to teleport back. This is currently the only way to return from",
+				"the Tropics, and subsequently, why the Tropics is SP only!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;386],
 			dependency_requirement: "all_completed",
@@ -157,23 +162,12 @@
 			dependencies: [I;1975],
 			dependency_requirement: "all_completed",
 			id: 1988,
-			tasks: [
-				{
-					id: 1989,
-					type: "item",
-					item: "tropicraft:solonox_shell"
-				},
-				{
-					id: 1990,
-					type: "item",
-					item: "tropicraft:frox_conch"
-				},
-				{
-					id: 1991,
-					type: "item",
-					item: "tropicraft:starfish"
-				}
-			],
+			tasks: [{
+				id: 1991,
+				type: "item",
+				item: "tropicraft:starfish",
+				count: 6L
+			}],
 			rewards: [
 				{
 					id: 1992,
@@ -247,7 +241,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["In the Tropics, you will find native ores and gems hidden underground. These are used for crafting various tools, weapons, and Tropicraft-specific items!"],
+			description: ["In the Tropics, you will find native ores and gems hidden on the mountainside! These are used for crafting various tools, weapons, and Tropicraft-specific items!"],
 			min_required_dependencies: 0,
 			dependencies: [I;1988],
 			dependency_requirement: "all_completed",
@@ -365,7 +359,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["You find out there are 2 local tribes to the Tropics! The ashen - a vicious tribe with no interest in conversation... kill them on sight! The other tribe seems to be a little more peaceful..."],
+			description: [
+				"You find out there are 2 local tribes to the Tropics! The ashen - a vicious tribe with no interest in conversation... kill them on sight! The other tribe seems to be a little more peaceful...",
+				"You'll find these guys scattered across the Tropics."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;2005],
 			dependency_requirement: "all_completed",
@@ -707,9 +704,10 @@
 					item: "tropicraft:piranha_bucket"
 				},
 				{
-					id: 2042,
+					id: 2329,
 					type: "item",
-					item: "tropicraft:sardine_bucket"
+					item: "minecraft:dead_tube_coral_block",
+					count: 4L
 				}
 			],
 			rewards: [

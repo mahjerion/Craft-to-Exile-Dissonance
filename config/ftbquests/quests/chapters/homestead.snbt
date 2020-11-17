@@ -1674,7 +1674,8 @@
 			size: 1.0d,
 			description: [
 				"Calemi's Utilities add a fully-functioning economy that includes Coins, Wallets, Banks, Trading Posts, and more!",
-				"Wallets can store mass amounts of money. The security wrench is an invaluable asset when working with trading blocks. You will need it to set trades!"
+				"Wallets can store mass amounts of money. The security wrench is an invaluable asset when working with trading blocks. You will need it to set trades!",
+				"Note: you can place stacks of 8 coins as decoration, but these blocks will NOT drop your money on break!"
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],

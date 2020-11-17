@@ -7,8 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased max level from 99 to 100.
+- Mobs scale at a higher rate now. Level 1 mobs are the same, but level 100 mobs are 33% stronger.
+- Added a recipe that uses Tropicraft mahogany to craft bamboo. This will prevent having to go back to the Overworld just for bamboo.
+- Added a quest for Nature's Compass.
+- Beastiary quests have had their EXP nerfed by a factor of 10.
+- Reworded some Tropicraft quests to be more descriptive.
+- Reworded Amalgalich quest giving more warning to the player.
+
 ### Mod Updates
+- Updated MineColonies.
+- Added In Control!
 - Downgraded Performant.
+
+### Fixes
+- Iguanas now drop iguana leather and scales.
+- Fixed a possible dupe bug regarding coins. Coin stacks no longer drop coins (these have been disabled from pregeneration anyway).
 
 ## [2.6.1] - 2020-11-11
 

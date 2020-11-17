@@ -1,0 +1,13 @@
+[
+  {
+    "mob": "tropicraft:iguana",
+    "player": true,
+    "item": "tropicraft:iguana_leather"
+  },
+  {
+    "mob": "tropicraft:iguana",
+    "player": true,
+    "item": "tropicraft:scale",
+	"random": 0.25
+  }
+]

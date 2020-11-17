@@ -14,6 +14,7 @@ showMobs:true
 showItems:true
 showOther:true
 showOtherTeam:true
+showTamed:true
 showWaypoints:true
 showIngameWaypoints:true
 displayRedstone:true
@@ -22,7 +23,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:0
+zoom:1
 mapSize:-1
 entityAmount:1
 chunkGrid:-1
@@ -33,6 +34,7 @@ hostileColor:14
 itemsColor:12
 otherColor:5
 otherTeamColor:-1
+tamedMobsColor:-1
 mapSafeMode:false
 minimapOpacity:80.0
 waypointsScale:1.0
@@ -69,6 +71,7 @@ friendlyMobNames:0
 hostileMobNames:0
 itemNames:0
 otherNames:0
+tamedMobNames:3
 showLightLevel:0
 renderLayerIndex:1
 crossDimensionalTp:false

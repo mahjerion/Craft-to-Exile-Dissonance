@@ -1270,12 +1270,12 @@
 				{
 					id: 1750,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1318,12 +1318,12 @@
 				{
 					id: 1751,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1366,12 +1366,12 @@
 				{
 					id: 1752,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1422,12 +1422,12 @@
 				{
 					id: 1753,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1469,12 +1469,12 @@
 				{
 					id: 1754,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1516,12 +1516,12 @@
 				{
 					id: 1755,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -1541,7 +1541,7 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone...",
+				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone... Also, beware that summoning this creature will spawn in a large structure (do this away from your base).",
 				"To access this quest, you must complete 'The Ender Dragon' of act III."
 			],
 			min_required_dependencies: 0,
@@ -1563,12 +1563,12 @@
 				{
 					id: 1756,
 					type: "item",
-					title: "2000000 Experience",
+					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000000
+							exp: 200000
 						}
 					}
 				},
@@ -2189,6 +2189,40 @@
 					Count: 1b,
 					tag: {
 						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "One With Everything",
+			x: 6.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The nature's compass is a very useful tool to locate biomes. With the addition of so many different biomes, it becomes difficult to randomly come across what you're looking for!"],
+			min_required_dependencies: 0,
+			dependencies: [I;44],
+			dependency_requirement: "all_completed",
+			id: 2330,
+			tasks: [{
+				id: 2331,
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2332,
+				type: "item",
+				title: "5000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 5000
 					}
 				}
 			}]

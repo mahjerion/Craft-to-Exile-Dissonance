@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.6.2] - 2020-XX-XX
+
 ### Updates
 - Increased max level from 99 to 100.
 - Mobs scale at a higher rate now. Level 1 mobs are the same, but level 100 mobs are 33% stronger.

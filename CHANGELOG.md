@@ -31,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed a possible dupe bug regarding coins. Coin stacks no longer drop coins (these are supposed to be disabled from generation anyway).
 - Some Atum related crashes have been fixed.
 - Fixed NBT error when nesting backpacks in each other. Do NOT go into creative mode with a backpack though or your items will be wiped! This mostly pertains to dedicated servers.
+- That crash involving walruses should be resolved.
 
 ## [2.6.1] - 2020-11-11
 

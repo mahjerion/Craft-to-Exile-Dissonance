@@ -547,6 +547,15 @@
 		},
 		{
 			title: "Squashing Bugs II",
+			icon: {
+				id: "lycanitesmobs:demonspawn",
+				Count: 1b,
+				tag: {
+					CreatureInfoSpawnEgg: {
+						creaturename: "archvile"
+					}
+				}
+			},
 			x: 4.5d,
 			y: 1.5d,
 			shape: "default",
@@ -624,6 +633,7 @@
 		},
 		{
 			title: "Firing That Lazer",
+			icon: "lycanitesmobs:arcanelaserstormcharge",
 			x: 4.5d,
 			y: 3.0d,
 			shape: "default",

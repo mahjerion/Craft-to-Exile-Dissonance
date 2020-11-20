@@ -826,7 +826,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Sometimes you just want the good old fashioned travel storage solution."],
+			description: [
+				"Sometimes you just want the good old fashioned travel storage solution.",
+				"Note: do NOT go into creative mode with a backpack in your inventory. This may clear out the backpack!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "one_completed",

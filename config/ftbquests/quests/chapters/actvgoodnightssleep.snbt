@@ -368,6 +368,7 @@
 		},
 		{
 			title: "Unpleasantries",
+			icon: "lycanitesmobs:spectralboltcharge",
 			x: 4.5d,
 			y: 4.5d,
 			shape: "default",

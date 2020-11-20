@@ -59,6 +59,16 @@
       },
       "unitWorth": 750,
       "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:fletching_table",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 250,
+      "weight": 1000
     }
   ]
 }

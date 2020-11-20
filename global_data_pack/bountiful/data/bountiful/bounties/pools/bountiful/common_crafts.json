@@ -29,6 +29,26 @@
       },
       "unitWorth": 1000,
       "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:mat/infused_iron",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 750,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:mat/golden_orb",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1500,
+      "weight": 500
     }
   ]
 }

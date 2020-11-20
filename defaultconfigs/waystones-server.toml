@@ -37,7 +37,7 @@
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 3.0
 		#Set to false to allow non-creative players to make waystones globally activated.
-		globalWaystoneRequiresCreative = true
+		globalWaystoneRequiresCreative = false
 
 	#These options apply to teleporting using the Warp Stone item.
 	[server.warpStone]

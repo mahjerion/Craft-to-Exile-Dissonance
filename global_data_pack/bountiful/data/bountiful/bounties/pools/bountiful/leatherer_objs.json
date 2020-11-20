@@ -39,6 +39,16 @@
       },
       "unitWorth": 1000,
       "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "usefulbackpacks:backpack_small",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 500
     }
   ]
 }

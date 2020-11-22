@@ -10,36 +10,12 @@
 	raritaniumOreGen = true
 	#Raritanium Ore Min Y
 	raritaniumOreGenMinY = 0
-	#Penny Coin Stack Rarity
-	#The lower the value, the less often it appears.
-	#Range: 0.0 ~ 10.0
-	coinStackPennyRarity = 0.0
 	#Raritanium Vein Size
 	raritaniumVeinSize = 4
-	#Penny Coin Stack Gen
-	coinStackPennyGen = true
 	#Raritanium Veins Per Chunk
 	raritaniumOreVeinsPerChunk = 2
-	#Nickel Coin Stack Gen
-	coinStackNickelGen = true
-	#Quarter Coin Stack Rarity
-	#The lower the value, the less often it appears.
-	#Range: 0.0 ~ 10.0
-	coinStackQuarterRarity = 0.0
-	#Dollar Coin Stack Gen
-	coinStackDollarGen = true
 	#Raritanium Ore Max Y
 	raritaniumOreGenMaxY = 30
-	#Nickel Coin Stack Rarity
-	#The lower the value, the less often it appears.
-	#Range: 0.0 ~ 10.0
-	coinStackNickelRarity = 0.0
-	#Quarter Coin Stack Gen
-	coinStackQuarterGen = true
-	#Dollar Coin Stack Rarity
-	#The lower the value, the less often it appears.
-	#Range: 0.0 ~ 10.0
-	coinStackDollarRarity = 0.0
 
 [BlockScans]
 	#Vein Scan Max Size

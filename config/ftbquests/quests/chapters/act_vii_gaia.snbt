@@ -894,7 +894,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Arenthis are creatures that look like jellyfish - except they're found in the Gaia dimension! These mineral arenthis can be found underground."],
+			description: ["Arenthis are creatures that look like jellyfish - except they're found in the Gaia dimension! These mineral arenthis can be found in special lakes."],
 			min_required_dependencies: 0,
 			dependencies: [I;2212],
 			dependency_requirement: "all_completed",
@@ -1535,7 +1535,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Gotta catch 'em all!"],
+			description: [
+				"Gotta catch 'em all!",
+				"Note: do not put more than 16 of a single gem type in the pouch. Using the sort button will delete any gems in excess of 16! Or, just don't sort at all."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;2191],
 			dependency_requirement: "all_completed",

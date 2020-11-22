@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added more Bountiful objectives and rewards.
 - Added a quest for Nature's Compass.
 - Updated quest description for useful backpacks.
+- Added a warning regarding sorting gemstone pouches in the quest description.
 - Beastiary quests have had their EXP nerfed by a factor of 10.
 - Reworded some Tropicraft quests to be more descriptive.
 - Reworded Amalgalich quest giving more warning to the player.
@@ -23,15 +24,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Waystones can be made global in SP without creative mode.
 
 ### Mod Updates
-- Updated MineColonies, Xaero's, Atum, Kiwi, Simple Farming, TerraForged, Global XP, CraftPresence, Performant.
+- Updated MineColonies, Xaero's, Atum, Kiwi, Simple Farming, TerraForged, Global XP, CraftPresence, Performant, Calemi's Utilities.
 - Added In Control!
 
 ### Fixes
 - Iguanas now drop iguana leather and scales.
-- Fixed a possible dupe bug regarding coins. Coin stacks no longer drop coins (these are supposed to be disabled from generation anyway).
+- A possible dupe bug regarding coins has been fixed.
 - Some Atum related crashes have been fixed.
 - Fixed NBT error when nesting backpacks in each other. Do NOT go into creative mode with a backpack though or your items will be wiped! This mostly pertains to dedicated servers.
 - That crash involving walruses should be resolved.
+- Fixed improper location in description of Mineral Arenthis quest of the Gaia.
 
 ## [2.6.1] - 2020-11-11
 

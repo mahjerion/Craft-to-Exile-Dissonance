@@ -91,7 +91,7 @@
 	[[sorting.containerOverrides]]
 		containerClass = "tfar.dankstorage.client.screens.DankScreens$PortableDankStorageScreen7"
 		sortRange = ""
-		
+
 	[[sorting.containerOverrides]]
 		containerClass = "androsa.gaiadimension.item.inventory.GemPouchScreen"
 		sortRange = ""

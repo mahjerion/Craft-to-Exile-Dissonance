@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.6.2] - 2020-XX-XX
+## [2.6.2] - 2020-11-23
 
 ### Updates
 - Increased max level from 99 to 100.
@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated MineColonies, Xaero's, Atum, Kiwi, Simple Farming, TerraForged, Global XP, CraftPresence, Performant, Calemi's Utilities.
 - Added In Control!
+- Downgraded Aquaculture 2.
 
 ### Fixes
 - Iguanas now drop iguana leather and scales.
@@ -34,6 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed NBT error when nesting backpacks in each other. Do NOT go into creative mode with a backpack though or your items will be wiped! This mostly pertains to dedicated servers.
 - That crash involving walruses should be resolved.
 - Fixed improper location in description of Mineral Arenthis quest of the Gaia.
+- Non-working fishermen in MineColonies should work now. Let me know if it doesn't.
+- Disabled Quark scaffold replacement which would delete Dank inventory when used together.
 
 ## [2.6.1] - 2020-11-11
 

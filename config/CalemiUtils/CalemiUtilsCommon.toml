@@ -10,12 +10,12 @@
 	raritaniumOreGen = true
 	#Raritanium Ore Min Y
 	raritaniumOreGenMinY = 0
-	#Raritanium Vein Size
-	raritaniumVeinSize = 4
 	#Raritanium Veins Per Chunk
 	raritaniumOreVeinsPerChunk = 2
 	#Raritanium Ore Max Y
 	raritaniumOreGenMaxY = 30
+	#Raritanium Vein Size
+	raritaniumVeinSize = 4
 
 [BlockScans]
 	#Vein Scan Max Size

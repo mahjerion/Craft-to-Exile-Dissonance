@@ -123,7 +123,7 @@
 	#Should a player be allowed to use the /mc home command? [Default: true]
 	canplayerusehometpcommand = false
 	#Can a player teleport to allied colonies? [Default: true]
-	canplayeruseallytownhallteleport = true
+	canplayeruseallytownhallteleport = false
 	#Should the player be allowed to use the /mc citizens kill command? [Default: true]
 	canplayerusekillcitizenscommand = true
 

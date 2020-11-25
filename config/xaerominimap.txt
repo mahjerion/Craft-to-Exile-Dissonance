@@ -23,7 +23,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:3
+zoom:1
 mapSize:-1
 entityAmount:1
 chunkGrid:-1
@@ -42,6 +42,8 @@ antiAliasing:true
 blockColours:0
 lighting:true
 dotsScale:1.0
+headsScale:1.0
+dotNameScale:1.0
 compassOverWaypoints:false
 showBiome:true
 showEntityHeight:true
@@ -53,7 +55,10 @@ waypointTp:me tried to TP. Shame on them!
 arrowScale:1.0
 arrowColour:0
 smoothDots:true
-playerHeads:false
+playerIcons:1
+mobIcons:0
+hostileIcons:0
+tamedIcons:3
 heightLimit:20
 worldMap:true
 terrainDepth:true

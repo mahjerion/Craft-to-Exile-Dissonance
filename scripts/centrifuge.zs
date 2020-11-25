@@ -32,3 +32,7 @@ craftingTable.addShaped("beeswax_nept", <item:mmorpg:ore2> * 3,[
 	[<item:beesourceful:beeswax>,<item:aquaculture:neptunium_ingot>,<item:beesourceful:beeswax>],
 	[<item:beesourceful:beeswax>,<item:beesourceful:beeswax>,<item:beesourceful:beeswax>]
 ]);
+craftingTable.addShaped("beeswax_candle", <item:buzzierbees:candle>,[
+	[<item:minecraft:string>],
+	[<item:beesourceful:beeswax>]
+]);

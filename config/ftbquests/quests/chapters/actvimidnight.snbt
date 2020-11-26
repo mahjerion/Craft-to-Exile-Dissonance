@@ -89,7 +89,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The nova is a creature that can be easily mistaken for ores. What even makes them float?"],
+			description: [
+				"The nova is a creature that can be easily mistaken for ores. What even makes them float?",
+				"You can find nova near red crystal structures. If they stop spawning, leave for a bit and come back."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;393],
 			dependency_requirement: "all_completed",
@@ -98,7 +101,7 @@
 				id: 398,
 				type: "kill",
 				entity: "midnight:nova",
-				value: 20L
+				value: 10L
 			}],
 			rewards: [
 				{

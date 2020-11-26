@@ -9,9 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - You can now craft beeswax from Beesourceful into candles.
+- Nova quest has been made a little less tedious, and the description has been updated.
 
 ### Mod Updates
-- Updated Aquaculture 2.
+- Updated Aquaculture 2, Corpse.
 
 ### Fixes
 - Fixed a possible crash in The Bumblezone caused by last update.

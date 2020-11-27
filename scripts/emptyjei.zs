@@ -349,24 +349,6 @@ mods.jei.JEI.hideItem(<item:azurerpgitems:necklace5>);
 mods.jei.JEI.hideItem(<item:azurerpgitems:necklace6>);
 mods.jei.JEI.hideItem(<item:azurerpgitems:belt1>);
 
-//BeeSourceful
-mods.jei.JEI.hideItem(<item:beesourceful:gold_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:ender_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:iron_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:quartz_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:redstone_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:diamond_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:emerald_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:lapis_bee_nest>);
-mods.jei.JEI.hideItem(<item:beesourceful:iron_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:redstone_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:gold_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:lapis_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:emerald_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:diamond_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:quartz_bee_spawn_egg>);
-mods.jei.JEI.hideItem(<item:beesourceful:ender_bee_spawn_egg>);
-
 //Bountiful
 mods.jei.JEI.hideItem(<item:bountiful:bounty>);
 

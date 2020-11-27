@@ -12,7 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nova quest has been made a little less tedious, and the description has been updated.
 
 ### Mod Updates
-- Updated Aquaculture 2, Corpse.
+- Updated Aquaculture 2, Corpse, In Control!
+- Added Productive Bees.
+- Removed BeeSourceful.
 
 ### Fixes
 - Fixed a possible crash in The Bumblezone caused by last update.
@@ -89,7 +91,7 @@ WARNING! Some blocks may disappear due to the removal of Snow! Real Magic. To pr
 - Added some maps to the rewards of the Map Device quest.
 
 ### Mod Updates
-- Updated Mine and Slash, MineColonies, Immersive Engineering, Midnight. Aquaculture, Calemi's Utilities.
+- Updated Mine and Slash, MineColonies, Immersive Engineering, Midnight, Aquaculture, Calemi's Utilities.
 - Re-added NetherPortalFix.
 - Added Gaia Dimension.
 - Added Dimensional Dungeons.

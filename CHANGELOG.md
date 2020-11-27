@@ -12,8 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added new quests to The Bumblezone with the introduction of Productive Bees!
 - Nova quest has been made a little less tedious, and the description has been updated.
 - Saltion quest description has been updated to better reflect the spawn biome.
-- Added more riddles for Riddle Chests.
-- Added more items to the possible rewards of Riddle Chests.
+- Added over 250 Riddle Chests riddles.
+- Added more items to Riddle Chests loot tables.
 
 ### Mod Updates
 - Updated Aquaculture 2, Corpse, In Control!

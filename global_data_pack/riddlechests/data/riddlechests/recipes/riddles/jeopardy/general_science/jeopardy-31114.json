@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MHRVNHSFQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Highly flammable & once used for",
+      "photographic film, it was the first",
+      "commercial synthetic plastic"
+   ],
+   "solution" : "CELLULOID",
+   "type" : "riddlechests:word"
+}

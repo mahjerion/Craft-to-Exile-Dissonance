@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YSJWBUT",
+   "riddle" : [
+      "General Science",
+      "",
+      "Pumice is a variety of this type of rock",
+      "formed when lava cools"
+   ],
+   "solution" : "IGNEOUS",
+   "type" : "riddlechests:word"
+}

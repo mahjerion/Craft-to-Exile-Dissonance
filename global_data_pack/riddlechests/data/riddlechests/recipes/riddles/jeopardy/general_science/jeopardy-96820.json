@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KFYTPPJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Of the 3 main classes of rock, this one",
+      "is further divided into plutonic &",
+      "volcanic types"
+   ],
+   "solution" : "IGNEOUS",
+   "type" : "riddlechests:word"
+}

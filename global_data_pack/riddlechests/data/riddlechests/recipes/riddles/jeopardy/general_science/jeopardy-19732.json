@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RFEXEJGIBN",
+   "riddle" : [
+      "General Science",
+      "",
+      "Albert Einstein announced his special",
+      "theory of this in 1905 & his general",
+      "theory in 1915"
+   ],
+   "solution" : "RELATIVITY",
+   "type" : "riddlechests:word"
+}

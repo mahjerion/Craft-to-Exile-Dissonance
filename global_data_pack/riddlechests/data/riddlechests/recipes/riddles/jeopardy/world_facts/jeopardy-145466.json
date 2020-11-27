@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "JDMT",
+   "riddle" : [
+      "World Facts",
+      "",
+      "About a third of the people in this 25-mile-",
+      "long coastal territory between Egypt &",
+      "Israel live in refugee camps"
+   ],
+   "solution" : "GAZA",
+   "type" : "riddlechests:word"
+}

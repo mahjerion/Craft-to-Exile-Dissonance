@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "VCUXLWIDIED",
+   "riddle" : [
+      "General Science",
+      "",
+      "An abnormal fear of water, it's also",
+      "another name for rabies"
+   ],
+   "solution" : "HYDROPHOBIA",
+   "type" : "riddlechests:word"
+}

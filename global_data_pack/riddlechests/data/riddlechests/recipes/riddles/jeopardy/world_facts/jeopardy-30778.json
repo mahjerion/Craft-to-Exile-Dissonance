@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "UEMYSA",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This country is home to the University",
+      "of Bergen & the University of Trondheim"
+   ],
+   "solution" : "NORWAY",
+   "type" : "riddlechests:word"
+}

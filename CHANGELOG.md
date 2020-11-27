@@ -8,8 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- You can now craft beeswax from Beesourceful into candles.
+- I've replaced BeeSourceful with Productive Bees. This was a change I wanted to do once things settled down a bit. Productive Bees is basically BeeSourceful on steroids. Also, it's been reported that BeeSourceful slows down world generation heavily - it's possible that Productive Bees will show better results in this regard.
+- Added new quests to The Bumblezone with the introduction of Productive Bees!
 - Nova quest has been made a little less tedious, and the description has been updated.
+- Saltion quest description has been updated to better reflect the spawn biome.
+- Added more riddles for Riddle Chests.
+- Added more items to the possible rewards of Riddle Chests.
 
 ### Mod Updates
 - Updated Aquaculture 2, Corpse, In Control!

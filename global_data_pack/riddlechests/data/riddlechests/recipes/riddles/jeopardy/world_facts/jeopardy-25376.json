@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "BTDDHFEO",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This country in northeastern Africa was",
+      "once known as Abyssinia"
+   ],
+   "solution" : "ETHIOPIA",
+   "type" : "riddlechests:word"
+}

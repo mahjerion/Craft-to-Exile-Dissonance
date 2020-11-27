@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "UTUXQO",
+   "riddle" : [
+      "World Facts",
+      "",
+      "9,094 feet high, Mount Roraima is found",
+      "at the junction of Guyana, Venezuela &",
+      "this country"
+   ],
+   "solution" : "BRAZIL",
+   "type" : "riddlechests:word"
+}

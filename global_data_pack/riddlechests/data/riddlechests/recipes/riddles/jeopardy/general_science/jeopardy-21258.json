@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FCEGRAJUYFPZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "This process is the opposite of",
+      "evaporation"
+   ],
+   "solution" : "CONDENSATION",
+   "type" : "riddlechests:word"
+}

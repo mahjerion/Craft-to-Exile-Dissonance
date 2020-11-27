@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "TWQZTOMV",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Quite simply, this semolina favorite is",
+      "the national dish of Algeria"
+   ],
+   "solution" : "COUSCOUS",
+   "type" : "riddlechests:word"
+}

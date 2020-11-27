@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YHHFAQYNRSK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Utrecht in this country is nicknamed the",
+      "\"City of Spires and Bridges\""
+   ],
+   "solution" : "NETHERLANDS",
+   "type" : "riddlechests:word"
+}

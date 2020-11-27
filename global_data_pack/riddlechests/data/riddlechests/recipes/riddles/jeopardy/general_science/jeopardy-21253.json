@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NHGQHUB",
+   "riddle" : [
+      "General Science",
+      "",
+      "What goes up, must come down because of",
+      "this natural force"
+   ],
+   "solution" : "GRAVITY",
+   "type" : "riddlechests:word"
+}

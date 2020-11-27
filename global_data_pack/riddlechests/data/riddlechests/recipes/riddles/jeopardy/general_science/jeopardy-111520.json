@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "HKGKB",
+   "riddle" : [
+      "General Science",
+      "",
+      "In this type of simple machine, a",
+      "version of the inclined plane,",
+      "rotational force is translated into",
+      "linear force"
+   ],
+   "solution" : "SCREW",
+   "type" : "riddlechests:word"
+}

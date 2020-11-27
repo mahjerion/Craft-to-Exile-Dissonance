@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FBMVBYDLU",
+   "riddle" : [
+      "General Science",
+      "",
+      "Types of seismic waves include L, P & S,",
+      "which stand for Love, primary & this"
+   ],
+   "solution" : "SECONDARY",
+   "type" : "riddlechests:word"
+}

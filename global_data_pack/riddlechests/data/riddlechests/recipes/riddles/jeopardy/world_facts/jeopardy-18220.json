@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "DCRWZN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Including fjords & peninsulas, this",
+      "country has over 13,000 miles of",
+      "coastline"
+   ],
+   "solution" : "NORWAY",
+   "type" : "riddlechests:word"
+}

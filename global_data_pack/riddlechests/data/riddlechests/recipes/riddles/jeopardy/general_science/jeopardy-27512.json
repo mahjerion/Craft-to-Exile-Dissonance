@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LYYGP",
+   "riddle" : [
+      "General Science",
+      "",
+      "This, sound composed of a random mix",
+      "of frequencies, comes in \"white\" &",
+      "\"pink\" types"
+   ],
+   "solution" : "NOISE",
+   "type" : "riddlechests:word"
+}

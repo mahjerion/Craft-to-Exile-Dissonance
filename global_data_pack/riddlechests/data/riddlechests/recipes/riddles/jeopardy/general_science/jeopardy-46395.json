@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "BGJAXN",
+   "riddle" : [
+      "General Science",
+      "",
+      "\"For every action there's an equal &",
+      "opposite reaction\" is Newton's third",
+      "law of this"
+   ],
+   "solution" : "MOTION",
+   "type" : "riddlechests:word"
+}

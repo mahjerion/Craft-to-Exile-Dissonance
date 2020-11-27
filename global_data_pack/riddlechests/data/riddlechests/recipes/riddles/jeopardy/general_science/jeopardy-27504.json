@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GKWLZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Riboflavin deficiency can cause",
+      "photophobia, abnormal sensitivity to",
+      "this"
+   ],
+   "solution" : "LIGHT",
+   "type" : "riddlechests:word"
+}

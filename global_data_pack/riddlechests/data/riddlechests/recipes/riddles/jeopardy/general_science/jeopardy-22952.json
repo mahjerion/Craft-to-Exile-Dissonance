@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DDTAN",
+   "riddle" : [
+      "General Science",
+      "",
+      "When it precedes oz. for ounce, the",
+      "abbreviation fl. stands for this"
+   ],
+   "solution" : "FLUID",
+   "type" : "riddlechests:word"
+}

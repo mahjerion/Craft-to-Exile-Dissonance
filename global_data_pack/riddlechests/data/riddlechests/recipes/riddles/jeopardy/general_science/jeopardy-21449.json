@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "CKKXGTROTAQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Nearly all of the Earth's weather occurs",
+      "in this layer of the atmosphere below",
+      "the stratosphere"
+   ],
+   "solution" : "TROPOSPHERE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "XXHEDOLWDQCXT",
+   "riddle" : [
+      "General Science",
+      "",
+      "Perseus is one of these configurations:",
+      "it lies between Cassiopeia & Taurus"
+   ],
+   "solution" : "CONSTELLATION",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KMAVTA",
+   "riddle" : [
+      "General Science",
+      "",
+      "Matter has the \"potential\" form of this",
+      "by virtue of its position or structure"
+   ],
+   "solution" : "ENERGY",
+   "type" : "riddlechests:word"
+}

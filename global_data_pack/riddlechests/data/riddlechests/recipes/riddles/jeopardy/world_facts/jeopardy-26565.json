@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "APAMPKNXE",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The name of Wagga Wagga, a city in this",
+      "country, is an Aboriginal word meaning",
+      "\"many crows\""
+   ],
+   "solution" : "AUSTRALIA",
+   "type" : "riddlechests:word"
+}

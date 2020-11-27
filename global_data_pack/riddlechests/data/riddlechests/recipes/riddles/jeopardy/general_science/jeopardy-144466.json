@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LEVM",
+   "riddle" : [
+      "General Science",
+      "",
+      "Ferritin is a protein found in the",
+      "liver & spleen that binds to this",
+      "element for storage"
+   ],
+   "solution" : "IRON",
+   "type" : "riddlechests:word"
+}

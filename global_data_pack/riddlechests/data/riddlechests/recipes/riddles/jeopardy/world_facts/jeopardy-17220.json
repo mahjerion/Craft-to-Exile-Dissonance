@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "VOZTA",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This huge Asian country's 1st copyright",
+      "law is scheduled to go into effect on",
+      "June 1, 1991"
+   ],
+   "solution" : "CHINA",
+   "type" : "riddlechests:word"
+}

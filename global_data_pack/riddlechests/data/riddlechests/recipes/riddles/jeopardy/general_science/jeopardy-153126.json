@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZKLZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Thrust propels the weight of an airplane",
+      "forward; this directly opposing force",
+      "tends to hold it back"
+   ],
+   "solution" : "DRAG",
+   "type" : "riddlechests:word"
+}

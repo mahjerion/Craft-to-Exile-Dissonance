@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "KIASAPAJK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Curacao lies in the southern Caribbean,",
+      "about 40 miles north of this South",
+      "American country"
+   ],
+   "solution" : "VENEZUELA",
+   "type" : "riddlechests:word"
+}

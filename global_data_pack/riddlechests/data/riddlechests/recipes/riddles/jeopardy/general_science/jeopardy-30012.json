@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "SBJTSQF",
+   "riddle" : [
+      "General Science",
+      "",
+      "The Haber process is a method for",
+      "manufacturing this toxic gas from",
+      "nitrogen"
+   ],
+   "solution" : "AMMONIA",
+   "type" : "riddlechests:word"
+}

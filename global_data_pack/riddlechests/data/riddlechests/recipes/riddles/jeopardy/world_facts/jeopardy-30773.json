@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GUFINA",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Cuernavaca is the capital of this North",
+      "American country's state of Morelos"
+   ],
+   "solution" : "MEXICO",
+   "type" : "riddlechests:word"
+}

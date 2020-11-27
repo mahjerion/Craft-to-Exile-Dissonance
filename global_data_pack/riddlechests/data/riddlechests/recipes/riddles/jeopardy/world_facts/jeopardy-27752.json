@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "XXKZM",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In Africa it's the chief religion north",
+      "of the Sahara"
+   ],
+   "solution" : "ISLAM",
+   "type" : "riddlechests:word"
+}

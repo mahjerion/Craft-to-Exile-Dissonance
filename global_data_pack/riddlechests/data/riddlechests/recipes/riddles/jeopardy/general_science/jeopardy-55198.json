@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "WYDLAMYVQMT",
+   "riddle" : [
+      "General Science",
+      "",
+      "This plant-eating dinosaur's name, which",
+      "means \"cover lizard\", refers to the",
+      "triangular plates along its back"
+   ],
+   "solution" : "STEGOSAURUS",
+   "type" : "riddlechests:word"
+}

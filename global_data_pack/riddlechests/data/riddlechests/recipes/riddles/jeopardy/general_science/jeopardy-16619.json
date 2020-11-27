@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "AIBKQRJQA",
+   "riddle" : [
+      "General Science",
+      "",
+      "If run in reverse an electric motor",
+      "becomes one of these devices that",
+      "produces electric current"
+   ],
+   "solution" : "GENERATOR",
+   "type" : "riddlechests:word"
+}

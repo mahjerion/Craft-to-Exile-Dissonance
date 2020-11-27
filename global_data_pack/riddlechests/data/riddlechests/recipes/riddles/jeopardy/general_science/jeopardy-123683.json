@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "EKOK",
+   "riddle" : [
+      "General Science",
+      "",
+      "Kangaroos are marsupials known as",
+      "macropods, macro- meaning \"large\" & -",
+      "pod, from the Greek for this body part"
+   ],
+   "solution" : "FOOT",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "AJZHOND",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Sanjuanito is considered the",
+      "national dance of this country that is",
+      "crossed by the equator"
+   ],
+   "solution" : "ECUADOR",
+   "type" : "riddlechests:word"
+}

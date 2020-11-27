@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "HMFTXGB",
+   "riddle" : [
+      "General Science",
+      "",
+      "Check Google on your computer &",
+      "you'll discover that a googol has",
+      "this many zeros"
+   ],
+   "solution" : "HUNDRED",
+   "type" : "riddlechests:word"
+}

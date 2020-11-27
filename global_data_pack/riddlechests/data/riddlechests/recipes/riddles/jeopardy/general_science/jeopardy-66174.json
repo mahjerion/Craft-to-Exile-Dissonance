@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MQZKRJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "These organisms derive their individual",
+      "species names from the fungal partner,",
+      "not the algal partner"
+   ],
+   "solution" : "LICHEN",
+   "type" : "riddlechests:word"
+}

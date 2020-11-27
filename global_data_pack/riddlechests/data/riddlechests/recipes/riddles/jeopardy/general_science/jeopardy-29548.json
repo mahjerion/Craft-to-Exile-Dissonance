@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MKIZGY",
+   "riddle" : [
+      "General Science",
+      "",
+      "This is the most abundant element on",
+      "Earth, which is lucky -- we need it",
+      "to breathe"
+   ],
+   "solution" : "OXYGEN",
+   "type" : "riddlechests:word"
+}

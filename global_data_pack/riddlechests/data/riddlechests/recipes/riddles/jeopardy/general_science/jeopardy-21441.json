@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "QJJJXYA",
+   "riddle" : [
+      "General Science",
+      "",
+      "Aircraft often use the \"gyro\" type of",
+      "this instrument, as it's unaffected by",
+      "local magnetic fields"
+   ],
+   "solution" : "COMPASS",
+   "type" : "riddlechests:word"
+}

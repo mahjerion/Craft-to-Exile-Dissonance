@@ -37,17 +37,17 @@ craftingTable.removeRecipe(<item:swampexpansion:salmon_rice_cake>);
 craftingTable.addShapeless("salmon_rice_cake", <item:swampexpansion:salmon_rice_cake> * 2, [<tag:forge:riceball>, <item:minecraft:dried_kelp>, <item:minecraft:salmon>]);
 
 craftingTable.removeRecipe(<item:simplefarming:vinegar>);
-
 craftingTable.removeRecipe(<item:simplefarming:cheese_block>);
 craftingTable.removeRecipe(<item:simplefarming:pickle>);
 craftingTable.removeRecipe(<item:simplefarming:pickled_beetroot>);
+craftingTable.removeRecipe(<item:pamhc2foodcore:fruitpunchitem>);
 
 craftingTable.addShapeless("wheel_of_cheese", <item:simplefarming:cheese_block>, [<tag:forge:milk/milk>, <tag:forge:vinegar/vinegar>]);
 craftingTable.addShapeless("pickle", <item:simplefarming:pickle>, [<tag:forge:vegetables/cucumber>, <tag:forge:vinegar/vinegar>]);
 craftingTable.addShapeless("pickled_beetroot", <item:simplefarming:pickled_beetroot>, [<tag:forge:vegetables/beetroot>, <tag:forge:vinegar/vinegar>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:fruitpunchitem>);
-craftingTable.addShapeless("fruitpunchitem", <item:pamhc2foodcore:fruitpunchitem>, [<tag:forge:tool_juicer/juicer>,<tag:forge:fruits>,<tag:forge:glass_bottles>,<tag:forge:fruits>,<tag:forge:fruits>,<tag:forge:sugar/sugar>]);
+craftingTable.addShapeless("fruitpunchitem", <item:pamhc2foodcore:fruitpunchitem>, [<tag:forge:tool_juicer/juicer>,<tag:forge:fruits>,<item:minecraft:glass_bottle>,<tag:forge:fruits>,<tag:forge:fruits>,<tag:forge:sugar/sugar>]);
 
 craftingTable.removeRecipe(<item:pamhc2foodcore:pumpkincheesecakeitem>);
 craftingTable.addShapeless("pumpkincheesecakeitem", <item:pamhc2foodcore:pumpkincheesecakeitem>,[<tag:forge:tool_bakeware/bakeware>,<tag:forge:sugar/sugar>,<tag:forge:cheese/cheese>,<tag:forge:vegetables/pumpkin>,<tag:forge:batter/batter>]);

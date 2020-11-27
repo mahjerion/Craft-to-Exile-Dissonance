@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "CEJQF",
+   "riddle" : [
+      "General Science",
+      "",
+      "Of Venus, Mars or Saturn, the planet",
+      "whose mean distance from the sun is",
+      "67,230,000 miles"
+   ],
+   "solution" : "VENUS",
+   "type" : "riddlechests:word"
+}

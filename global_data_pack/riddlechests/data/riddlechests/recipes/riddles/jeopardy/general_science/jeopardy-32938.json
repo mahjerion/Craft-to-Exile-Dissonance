@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "TXALD",
+   "riddle" : [
+      "General Science",
+      "",
+      "Archaeologists measure the fluorine in",
+      "these animal remains to determine their",
+      "relative age"
+   ],
+   "solution" : "BONES",
+   "type" : "riddlechests:word"
+}

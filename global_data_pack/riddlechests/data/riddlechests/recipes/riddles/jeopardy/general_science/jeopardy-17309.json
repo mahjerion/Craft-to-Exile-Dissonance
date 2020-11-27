@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FXSQHGAZFV",
+   "riddle" : [
+      "General Science",
+      "",
+      "This element abbreviated Lr is named",
+      "after the inventor of the cyclotron"
+   ],
+   "solution" : "LAWRENCIUM",
+   "type" : "riddlechests:word"
+}

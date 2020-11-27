@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NYLVO",
+   "riddle" : [
+      "General Science",
+      "",
+      "Myocarditis is the inflammation of",
+      "this muscle"
+   ],
+   "solution" : "HEART",
+   "type" : "riddlechests:word"
+}

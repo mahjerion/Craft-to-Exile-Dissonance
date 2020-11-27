@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "FSDQOIUSCRX",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This country's Bellelay cheese was named",
+      "for the abbey where it was created in",
+      "the canton of Bern"
+   ],
+   "solution" : "SWITZERLAND",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LEGTI",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 1997 2 Dutch growers unveiled",
+      "\"Blackjack\", the darkest species of this",
+      "flower developed"
+   ],
+   "solution" : "TULIP",
+   "type" : "riddlechests:word"
+}

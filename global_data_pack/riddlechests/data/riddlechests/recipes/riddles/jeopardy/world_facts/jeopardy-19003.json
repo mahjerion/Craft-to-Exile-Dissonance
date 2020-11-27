@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YGZTN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Oracle bones were used to foretell the",
+      "future in this country during its",
+      "Shang dynasty"
+   ],
+   "solution" : "CHINA",
+   "type" : "riddlechests:word"
+}

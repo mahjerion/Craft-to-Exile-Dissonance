@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "FLSHBAQ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Peking is another name for this city"
+   ],
+   "solution" : "BEIJING",
+   "type" : "riddlechests:word"
+}

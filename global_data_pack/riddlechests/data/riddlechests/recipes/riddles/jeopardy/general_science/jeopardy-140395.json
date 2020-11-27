@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MYXXJQO",
+   "riddle" : [
+      "General Science",
+      "",
+      "These organisms are classified by their",
+      "fungal partner, not their algal partner"
+   ],
+   "solution" : "LICHENS",
+   "type" : "riddlechests:word"
+}

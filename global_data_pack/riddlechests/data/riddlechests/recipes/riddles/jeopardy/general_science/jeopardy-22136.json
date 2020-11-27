@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "SGZDZNNL",
+   "riddle" : [
+      "General Science",
+      "",
+      "In the Northern Hemisphere, the summer",
+      "one of these is on June 21 or 22, the",
+      "longest day of the year"
+   ],
+   "solution" : "SOLSTICE",
+   "type" : "riddlechests:word"
+}

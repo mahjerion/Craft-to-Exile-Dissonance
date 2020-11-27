@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NNKDY",
+   "riddle" : [
+      "General Science",
+      "",
+      "In tachycardia this beats over 100",
+      "times a minute"
+   ],
+   "solution" : "HEART",
+   "type" : "riddlechests:word"
+}

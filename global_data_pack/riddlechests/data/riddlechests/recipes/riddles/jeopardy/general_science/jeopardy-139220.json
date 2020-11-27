@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LRFJOKYVKZH",
+   "riddle" : [
+      "General Science",
+      "",
+      "Newts & this other main group of tailed",
+      "amphibians make up the order Caudata"
+   ],
+   "solution" : "SALAMANDERS",
+   "type" : "riddlechests:word"
+}

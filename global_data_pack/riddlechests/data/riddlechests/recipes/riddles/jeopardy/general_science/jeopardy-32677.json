@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "JHX",
+   "riddle" : [
+      "General Science",
+      "",
+      "This 3-letter substance that carries",
+      "the genetic code directs the",
+      "production of RNA"
+   ],
+   "solution" : "DNA",
+   "type" : "riddlechests:word"
+}

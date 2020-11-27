@@ -101,7 +101,6 @@
 		},
 		{
 			title: "Stop The Buzz 2",
-			icon: "beesourceful:diamond_honeycomb",
 			x: 1.5d,
 			y: 1.5d,
 			shape: "hexagon",
@@ -233,28 +232,23 @@
 				},
 				{
 					id: 112,
-					type: "item",
-					item: "beesourceful:lapis_honeycomb"
+					type: "item"
 				},
 				{
 					id: 113,
-					type: "item",
-					item: "beesourceful:redstone_honeycomb"
+					type: "item"
 				},
 				{
 					id: 114,
-					type: "item",
-					item: "beesourceful:iron_honeycomb"
+					type: "item"
 				},
 				{
 					id: 115,
-					type: "item",
-					item: "beesourceful:diamond_honeycomb"
+					type: "item"
 				},
 				{
 					id: 116,
-					type: "item",
-					item: "beesourceful:emerald_honeycomb"
+					type: "item"
 				}
 			],
 			rewards: [
@@ -383,8 +377,7 @@
 			id: 462,
 			tasks: [{
 				id: 463,
-				type: "item",
-				item: "beesourceful:centrifuge"
+				type: "item"
 			}],
 			rewards: [
 				{
@@ -420,8 +413,7 @@
 			id: 464,
 			tasks: [{
 				id: 465,
-				type: "item",
-				item: "beesourceful:ender_honeycomb"
+				type: "item"
 			}],
 			rewards: [
 				{
@@ -460,8 +452,7 @@
 			id: 466,
 			tasks: [{
 				id: 467,
-				type: "item",
-				item: "beesourceful:beeswax"
+				type: "item"
 			}],
 			rewards: [
 				{

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RYBKLJUZWZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "This branch of medicine is devoted to",
+      "the care & diseases of the elderly"
+   ],
+   "solution" : "GERIATRICS",
+   "type" : "riddlechests:word"
+}

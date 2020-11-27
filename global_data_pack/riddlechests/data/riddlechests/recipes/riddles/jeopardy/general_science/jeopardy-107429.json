@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "AENJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "This 4-letter neutral compound is",
+      "produced by the reaction of an acid & a",
+      "base"
+   ],
+   "solution" : "SALT",
+   "type" : "riddlechests:word"
+}

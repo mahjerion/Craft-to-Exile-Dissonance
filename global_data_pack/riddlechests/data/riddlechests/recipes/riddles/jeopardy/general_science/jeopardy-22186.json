@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "HMDKDFBGIL",
+   "riddle" : [
+      "General Science",
+      "",
+      "This branch of medicine is concerned",
+      "with the care & diseases of the elderly"
+   ],
+   "solution" : "GERIATRICS",
+   "type" : "riddlechests:word"
+}

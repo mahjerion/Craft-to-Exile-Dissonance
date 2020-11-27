@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "PKHI",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Inca Sun Festival is a major tourist",
+      "attraction in this country"
+   ],
+   "solution" : "PERU",
+   "type" : "riddlechests:word"
+}

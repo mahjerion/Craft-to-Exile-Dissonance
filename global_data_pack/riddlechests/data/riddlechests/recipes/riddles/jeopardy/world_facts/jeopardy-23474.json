@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "XJRW",
+   "riddle" : [
+      "World Facts",
+      "",
+      "You might call the Pearl Mosque the",
+      "\"pearl\" of this Taj Mahal city"
+   ],
+   "solution" : "AGRA",
+   "type" : "riddlechests:word"
+}

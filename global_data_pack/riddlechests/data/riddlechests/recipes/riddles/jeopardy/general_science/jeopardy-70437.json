@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MPOTKTO",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's what the letter \"C\" stands for in",
+      "the abbreviation AC/DC"
+   ],
+   "solution" : "CURRENT",
+   "type" : "riddlechests:word"
+}

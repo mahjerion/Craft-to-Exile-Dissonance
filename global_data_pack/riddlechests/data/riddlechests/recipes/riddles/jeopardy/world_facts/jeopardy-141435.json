@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YROFAVKZIFT",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Frisian is spoken in Friesland in",
+      "this country"
+   ],
+   "solution" : "NETHERLANDS",
+   "type" : "riddlechests:word"
+}

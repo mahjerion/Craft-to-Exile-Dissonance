@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GFUXTPQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "This malaria-fighting substance is",
+      "extracted from the bark of the",
+      "cinchona tree"
+   ],
+   "solution" : "QUININE",
+   "type" : "riddlechests:word"
+}

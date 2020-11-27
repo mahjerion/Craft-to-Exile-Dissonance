@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KGBLRGYWVV",
+   "riddle" : [
+      "General Science",
+      "",
+      "Zacharias Janssen is said to have",
+      "invented the compound this by placing",
+      "convex lenses at both ends of a tube"
+   ],
+   "solution" : "MICROSCOPE",
+   "type" : "riddlechests:word"
+}

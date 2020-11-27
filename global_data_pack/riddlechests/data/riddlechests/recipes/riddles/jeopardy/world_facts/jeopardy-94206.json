@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "RDPNULU",
+   "riddle" : [
+      "World Facts",
+      "",
+      "1/3 of the people in this South American",
+      "  country live in Montevideo; most of",
+      "  its 15 million sheep don't"
+   ],
+   "solution" : "URUGUAY",
+   "type" : "riddlechests:word"
+}

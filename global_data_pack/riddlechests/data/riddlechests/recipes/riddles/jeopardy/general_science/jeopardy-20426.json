@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DIBOJGQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Callisto is the outermost of this",
+      "planet's four Galilean moons"
+   ],
+   "solution" : "JUPITER",
+   "type" : "riddlechests:word"
+}

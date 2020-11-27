@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "DHIGB",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The green stripe in Afghanistan's flag",
+      "stands for this religion"
+   ],
+   "solution" : "ISLAM",
+   "type" : "riddlechests:word"
+}

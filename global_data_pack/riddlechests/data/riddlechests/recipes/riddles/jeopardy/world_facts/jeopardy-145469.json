@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "WTSJIZRPNW",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Oddly, Australia's highest peak is named",
+      "for this Polish patriot"
+   ],
+   "solution" : "KOSCIUSZKO",
+   "type" : "riddlechests:word"
+}

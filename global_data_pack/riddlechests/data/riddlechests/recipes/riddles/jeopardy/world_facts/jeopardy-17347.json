@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "VNKQJBID",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This town in Cornwall used to be raided",
+      "by pirates; Gilbert & Sullivan set an",
+      "operetta there"
+   ],
+   "solution" : "PENZANCE",
+   "type" : "riddlechests:word"
+}

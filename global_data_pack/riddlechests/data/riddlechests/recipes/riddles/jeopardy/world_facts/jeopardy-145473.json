@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "NYSOH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Japan's third-largest city, in 1970 it",
+      "became the first city in Asia to host",
+      "the World's Fair"
+   ],
+   "solution" : "OSAKA",
+   "type" : "riddlechests:word"
+}

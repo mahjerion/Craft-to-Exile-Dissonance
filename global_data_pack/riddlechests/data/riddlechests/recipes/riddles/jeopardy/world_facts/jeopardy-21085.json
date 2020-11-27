@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "FFXYLJXIC",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Because it uses geothermal energy this",
+      "Icelandic capital is often called the",
+      "\"Smokeless City\""
+   ],
+   "solution" : "REYKJAVIK",
+   "type" : "riddlechests:word"
+}

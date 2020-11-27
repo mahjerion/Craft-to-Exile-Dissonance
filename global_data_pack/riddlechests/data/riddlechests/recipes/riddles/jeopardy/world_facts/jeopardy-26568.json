@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "MHDQAN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "A statue of the young Queen Victoria",
+      "graces the Library of Parliament in this",
+      "capital of Canada"
+   ],
+   "solution" : "OTTAWA",
+   "type" : "riddlechests:word"
+}

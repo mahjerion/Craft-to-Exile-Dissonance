@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "SUHUUT",
+   "riddle" : [
+      "General Science",
+      "",
+      "The mineral argentite is an important",
+      "ore of this metal"
+   ],
+   "solution" : "SILVER",
+   "type" : "riddlechests:word"
+}

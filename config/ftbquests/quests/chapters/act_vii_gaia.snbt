@@ -733,7 +733,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["These creatures can be found in caves and by Gaia waters."],
+			description: ["Cavern ticks can be found in... well, caverns. Saltion can be found in salt dunes. These pesky guys will be sure to annoy you!"],
 			min_required_dependencies: 0,
 			dependencies: [I;2154],
 			dependency_requirement: "all_completed",

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "BMDXNKEG",
+   "riddle" : [
+      "World Facts",
+      "",
+      "NATO headquarters is in this Belgian",
+      "capital"
+   ],
+   "solution" : "BRUSSELS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KGWQRXS",
+   "riddle" : [
+      "General Science",
+      "",
+      "Ideally, this, the apparent boundary",
+      "between the sky & the Earth, is at 90",
+      "degrees from the zenith"
+   ],
+   "solution" : "HORIZON",
+   "type" : "riddlechests:word"
+}

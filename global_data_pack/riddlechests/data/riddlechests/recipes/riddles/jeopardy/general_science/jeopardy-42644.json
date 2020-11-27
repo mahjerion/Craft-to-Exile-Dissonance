@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MGQVR",
+   "riddle" : [
+      "General Science",
+      "",
+      "Of the noble gases, it's first,",
+      "alphabetically, was the first discovered",
+      "& is the most abundant in air"
+   ],
+   "solution" : "ARGON",
+   "type" : "riddlechests:word"
+}

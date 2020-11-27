@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DLCQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Scientists once tried to estimate the",
+      "Earth's age by measuring the level of",
+      "this substance in the ocean"
+   ],
+   "solution" : "SALT",
+   "type" : "riddlechests:word"
+}

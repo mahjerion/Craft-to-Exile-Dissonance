@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "BSJHGIAE",
+   "riddle" : [
+      "General Science",
+      "",
+      "The IRAS telescope, which discovered 5",
+      "comets, made its observations in this",
+      "spectrum of light"
+   ],
+   "solution" : "INFRARED",
+   "type" : "riddlechests:word"
+}

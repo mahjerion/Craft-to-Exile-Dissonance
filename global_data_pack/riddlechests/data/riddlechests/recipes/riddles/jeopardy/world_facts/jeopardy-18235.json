@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "UHJSDTKQ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In 1896 this capital on the Danube",
+      "became the 1st city in eastern Europe to",
+      "have a subway"
+   ],
+   "solution" : "BUDAPEST",
+   "type" : "riddlechests:word"
+}

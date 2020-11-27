@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FMAHXJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "This outer planet discovered by Herschel",
+      "has a 98-degree axial tilt & solstices",
+      "42 years apart"
+   ],
+   "solution" : "URANUS",
+   "type" : "riddlechests:word"
+}

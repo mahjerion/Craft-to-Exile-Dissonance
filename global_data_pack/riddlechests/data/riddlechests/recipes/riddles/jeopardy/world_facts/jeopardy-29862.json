@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "KJVATK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Schwedagon pagoda in this Myanmar",
+      "city may have been built more than",
+      "2000 years ago"
+   ],
+   "solution" : "YANGON",
+   "type" : "riddlechests:word"
+}

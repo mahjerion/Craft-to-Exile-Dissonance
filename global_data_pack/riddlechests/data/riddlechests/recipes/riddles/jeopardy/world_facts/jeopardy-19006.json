@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "UVCDYUVGFL",
+   "riddle" : [
+      "World Facts",
+      "",
+      "You'll find Stroget, a shopping area for",
+      "pedestrians only, near town hall in this",
+      "Danish capital"
+   ],
+   "solution" : "COPENHAGEN",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "BFWLIZBYY",
+   "riddle" : [
+      "World Facts",
+      "",
+      "An ice sheet covers more than 80% of",
+      "this largest island in the world"
+   ],
+   "solution" : "GREENLAND",
+   "type" : "riddlechests:word"
+}

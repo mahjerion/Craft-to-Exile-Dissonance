@@ -16,7 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added more items to Riddle Chests loot tables.
 
 ### Mod Updates
-- Updated Aquaculture 2, Corpse, In Control!
+- Updated Aquaculture 2, Corpse, In Control!, The Midnight
 - Added Productive Bees.
 - Removed BeeSourceful.
 

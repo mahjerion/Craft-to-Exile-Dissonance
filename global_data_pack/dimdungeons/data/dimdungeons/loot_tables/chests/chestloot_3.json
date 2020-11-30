@@ -295,6 +295,11 @@
           "type": "loot_table",
           "name": "dimdungeons:chests/chestbooks_2",
           "weight": 32
+        },
+        {
+          "type": "loot_table",
+          "name": "dimdungeons:chests/calemi_hammers",
+          "weight": 3
         }
       ]
     }

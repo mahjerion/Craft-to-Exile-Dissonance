@@ -1171,7 +1171,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The rocky, colourful beast is exceptionally difficult to find. But they sure are wonderful to look at!"],
+			description: [
+				"The rocky, colourful beast is exceptionally difficult to find. But they sure are wonderful to look at!",
+				"You'll find them in the smoldering bog..."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;
 				2208,

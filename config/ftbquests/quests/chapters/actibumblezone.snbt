@@ -102,12 +102,12 @@
 		{
 			title: "Stop The Buzz 2",
 			x: 1.5d,
-			y: 1.5d,
+			y: -1.5d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"There are so many different bee types here... Exterminate!",
+				"There are so many different bee types here... The Bumblezone is fully compatible with Productive Bees and Buzzier Bees! Productive bees introduces more than 20 different types of bees to automate your processes!",
 				"Kill 5 bees, 3 iron bees, 2 gold bees, 1 diamond bee, and 1 emerald bee."
 			],
 			min_required_dependencies: 0,
@@ -116,34 +116,38 @@
 			id: 99,
 			tasks: [
 				{
-					id: 100,
-					type: "kill",
-					entity: "beesourceful:iron_bee",
-					value: 3L
-				},
-				{
-					id: 101,
-					type: "kill",
-					entity: "beesourceful:gold_bee",
-					value: 2L
-				},
-				{
-					id: 102,
-					type: "kill",
-					entity: "beesourceful:diamond_bee",
-					value: 1L
-				},
-				{
-					id: 103,
-					type: "kill",
-					entity: "beesourceful:emerald_bee",
-					value: 1L
-				},
-				{
 					id: 104,
 					type: "kill",
 					entity: "minecraft:bee",
 					value: 5L
+				},
+				{
+					id: 2333,
+					type: "kill",
+					icon: "productivebees:spawn_egg_ashy_mining_bee",
+					entity: "productivebees:iron_bee",
+					value: 3L
+				},
+				{
+					id: 2334,
+					type: "kill",
+					icon: "productivebees:spawn_egg_dye_bee",
+					entity: "productivebees:gold_bee",
+					value: 2L
+				},
+				{
+					id: 2335,
+					type: "kill",
+					icon: "productivebees:spawn_egg_mason_bee",
+					entity: "productivebees:diamond_bee",
+					value: 1L
+				},
+				{
+					id: 2336,
+					type: "kill",
+					icon: "productivebees:spawn_egg_cupid_bee",
+					entity: "productivebees:emerald_bee",
+					value: 1L
 				}
 			],
 			rewards: [
@@ -210,78 +214,16 @@
 			}]
 		},
 		{
-			title: "Bittersweet",
-			x: 4.5d,
-			y: 0.0d,
-			shape: "hexagon",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"And thus, our journey in the hive comes to an end. But the bee's legacy may last forever. Honey slimes are special slimes that can generate honey similar to how a sheep produces wool.",
-				"Hint: you can find altars of assorted honeycomb in caves in The Bumblezone."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;108],
-			dependency_requirement: "all_completed",
-			id: 110,
-			tasks: [
-				{
-					id: 111,
-					type: "item",
-					item: "minecraft:honeycomb"
-				},
-				{
-					id: 112,
-					type: "item"
-				},
-				{
-					id: 113,
-					type: "item"
-				},
-				{
-					id: 114,
-					type: "item"
-				},
-				{
-					id: 115,
-					type: "item"
-				},
-				{
-					id: 116,
-					type: "item"
-				}
-			],
-			rewards: [
-				{
-					id: 1760,
-					type: "item",
-					title: "28125 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 28125
-						}
-					}
-				},
-				{
-					id: 2126,
-					type: "choice",
-					table: 3
-				}
-			]
-		},
-		{
 			title: "The Nether Regions",
 			icon: "minecraft:netherrack",
-			x: 6.0d,
+			x: 7.5d,
 			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["At level 20, you'll be able to take on the Nether. Craft an obsidian portal to access the Nether - you'll be able to take the same portal back to the Overworld. Enter the Nether and stop the Demon Lords from invading the Overworld!"],
 			min_required_dependencies: 0,
-			dependencies: [I;110],
+			dependencies: [I;2339],
 			dependency_requirement: "all_completed",
 			id: 125,
 			tasks: [{
@@ -320,7 +262,7 @@
 		{
 			title: "Sweet Retribution",
 			x: 3.0d,
-			y: 1.5d,
+			y: -1.5d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
@@ -365,24 +307,32 @@
 		},
 		{
 			title: "Centripetal Force",
-			x: 4.5d,
+			x: 7.5d,
 			y: 1.5d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The centrifuge is a powerful device that can turn your honeycombs into valuable resources."],
+			description: [
+				"The centrifuge is a powerful device that can turn your combs into valuable resources. Combs generated from bees in your advanced bee hives can be placed into these centrifuges - you can even make brass or tungsten!",
+				"You can also use the centrifuge to separate genetic material from bottles of bee material into genes."
+			],
 			min_required_dependencies: 0,
-			dependencies: [I;110],
+			dependencies: [I;2341],
 			dependency_requirement: "all_completed",
 			id: 462,
 			tasks: [{
 				id: 463,
-				type: "item"
+				type: "item",
+				item: "productivebees:centrifuge"
 			}],
 			rewards: [
 				{
 					id: 712,
 					type: "item",
+					icon: {
+						id: "productivebees:bee_cage",
+						Count: 4b
+					},
 					item: "minecraft:diamond"
 				},
 				{
@@ -401,7 +351,7 @@
 		},
 		{
 			title: "Stocking Up",
-			x: 4.5d,
+			x: 7.5d,
 			y: 3.0d,
 			shape: "hexagon",
 			subtitle: "",
@@ -413,7 +363,11 @@
 			id: 464,
 			tasks: [{
 				id: 465,
-				type: "item"
+				type: "item",
+				icon: {
+					id: "productivebees:honeycomb_ender",
+					Count: 4b
+				}
 			}],
 			rewards: [
 				{
@@ -425,53 +379,14 @@
 					}
 				},
 				{
-					id: 1768,
+					id: 2363,
 					type: "item",
-					title: "30500 Experience",
+					title: "15000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 30500
-						}
-					}
-				}
-			]
-		},
-		{
-			title: "None Of Yo Beeswax",
-			x: 6.0d,
-			y: 1.5d,
-			shape: "hexagon",
-			subtitle: "",
-			size: 1.0d,
-			description: ["You'll notice that using the centrifuge produces a by-product known as beeswax. I wonder... what can you do with it?"],
-			min_required_dependencies: 0,
-			dependencies: [I;462],
-			dependency_requirement: "all_completed",
-			id: 466,
-			tasks: [{
-				id: 467,
-				type: "item"
-			}],
-			rewards: [
-				{
-					id: 714,
-					type: "item",
-					item: {
-						id: "mmorpg:ore3",
-						Count: 3b
-					}
-				},
-				{
-					id: 1765,
-					type: "item",
-					title: "25000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 25000
+							exp: 15000
 						}
 					}
 				}
@@ -480,7 +395,7 @@
 		{
 			title: "Hit Them Where It Stings",
 			x: 1.5d,
-			y: 3.0d,
+			y: -3.0d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
@@ -519,7 +434,7 @@
 			title: "Slimey Means",
 			icon: "buzzierbees:honey_slime_spawn_egg",
 			x: 3.0d,
-			y: 3.0d,
+			y: -3.0d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
@@ -565,14 +480,14 @@
 		},
 		{
 			title: "Don't Bee Shelfish!",
-			x: 4.5d,
-			y: -1.5d,
-			shape: "default",
+			x: 1.5d,
+			y: 1.5d,
+			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Apotheosis brings more than just one type of bookshelf!"],
 			min_required_dependencies: 0,
-			dependencies: [I;110],
+			dependencies: [I;95],
 			dependency_requirement: "all_completed",
 			id: 1958,
 			tasks: [{
@@ -590,6 +505,336 @@
 					Count: 1b,
 					tag: {
 						exp: 25000
+					}
+				}
+			}]
+		},
+		{
+			title: "Bee Farming",
+			x: 4.5d,
+			y: 0.0d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Bee Cages are consumable items that are easy to craft, and easy to use. Interact with a bee with the cage to capture the bee. Right click it again to release it - it's that easy! Note: using the cage will expend the cage.",
+				"Note: the following quest line is better done in the Overworld, but some bees are easier to find in The Bumblezone!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;108],
+			dependency_requirement: "all_completed",
+			id: 2337,
+			tasks: [{
+				id: 2338,
+				type: "item",
+				item: "productivebees:bee_cage"
+			}],
+			rewards: [{
+				id: 2355,
+				type: "item",
+				title: "25000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 25000
+					}
+				}
+			}]
+		},
+		{
+			title: "Bee Colonies",
+			x: 6.0d,
+			y: 0.0d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Bee Hives are vanilla blocks that can house bees. They're particularly useful when first starting out."],
+			min_required_dependencies: 0,
+			dependencies: [I;2337],
+			dependency_requirement: "all_completed",
+			id: 2339,
+			tasks: [{
+				id: 2340,
+				type: "item",
+				item: "minecraft:beehive"
+			}],
+			rewards: [{
+				id: 2356,
+				type: "item",
+				title: "27000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 27000
+					}
+				}
+			}]
+		},
+		{
+			title: "Advanced Civilization",
+			x: 6.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Although more expensive to create than the non-advanced counterpart, the advanced beehive is an exceptionally powerful block from Productive Bees. Right-clicking the advanced beehive will bring up a GUI.",
+				"In the GUI, you can specify which bees you want the hive to house. You can also store up bottles to be filled automatically. Resource combs generated by bees will be stored in a special 9-slot storage on the right!",
+				"Empty glass bottles will use the honey being generated to make honey bottles.",
+				"Make sure you provide the bee with the appropriate flowering item - most bees will need flowers around their hives, but some require specific blocks. The bone bee for example, requires bone blocks nearby."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2339],
+			dependency_requirement: "all_completed",
+			id: 2341,
+			tasks: [{
+				id: 2342,
+				type: "item",
+				item: "productivebees:advanced_oak_beehive"
+			}],
+			rewards: [
+				{
+					id: 2358,
+					type: "item",
+					title: "15000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 15000
+						}
+					}
+				},
+				{
+					id: 2365,
+					type: "item",
+					item: {
+						id: "minecraft:honey_bottle",
+						Count: 4b
+					}
+				}
+			]
+		},
+		{
+			title: "Nesting Grounds",
+			x: 6.0d,
+			y: -1.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				'You may notice some logs with "holes" in them. These nests can actually house bees! Depending on the log, or even other blocks (such as gravel), different bees will be housed. For example, carpenter bees can be found in most nests in logs. However,',
+				"digger bees are only found in gravel and stone nests. Explore what bees can be found in nests via the very informative JEI - you can see the nest preference of bees."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2339],
+			dependency_requirement: "all_completed",
+			id: 2343,
+			tasks: [{
+				id: 2344,
+				type: "item",
+				item: "productivebees:oak_wood_nest"
+			}],
+			rewards: [{
+				id: 2357,
+				type: "item",
+				title: "25000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 25000
+					}
+				}
+			}]
+		},
+		{
+			title: "Cross Breeding",
+			icon: "minecraft:yellow_dye",
+			x: 4.5d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: ["With Productive Bees, it is possible to cross-breed bees to get new types of bees! The dye bee is a useful bee that can pollinate nearby flowers and create dyes based on the flowers they're pollinating!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2341],
+			dependency_requirement: "all_completed",
+			id: 2345,
+			tasks: [{
+				id: 2346,
+				type: "kill",
+				icon: "productivebees:spawn_egg_dye_bee",
+				entity: "productivebees:dye_bee",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 2359,
+					type: "item",
+					title: "15000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 15000
+						}
+					}
+				},
+				{
+					id: 2367,
+					type: "item",
+					item: "minecraft:red_dye"
+				},
+				{
+					id: 2368,
+					type: "item",
+					item: "minecraft:yellow_dye"
+				},
+				{
+					id: 2369,
+					type: "item",
+					item: "minecraft:blue_dye"
+				}
+			]
+		},
+		{
+			title: "Hivemind",
+			x: 6.0d,
+			y: 3.0d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Advanced bee hives can also be upgraded. There are currently 5 available upgrades."],
+			min_required_dependencies: 0,
+			dependencies: [I;2341],
+			dependency_requirement: "all_completed",
+			id: 2347,
+			tasks: [{
+				id: 2348,
+				type: "item",
+				item: "productivebees:upgrade_productivity"
+			}],
+			rewards: [
+				{
+					id: 2360,
+					type: "item",
+					title: "15000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 15000
+						}
+					}
+				},
+				{
+					id: 2366,
+					type: "item",
+					item: "productivebees:upgrade_base"
+				}
+			]
+		},
+		{
+			title: "Powered Up",
+			x: 7.5d,
+			y: 4.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The powered centrifuge requires energy (from Create or Immersive Engineering) to run, but will process your combs 3x as fast!"],
+			min_required_dependencies: 0,
+			dependencies: [I;464],
+			dependency_requirement: "all_completed",
+			id: 2349,
+			tasks: [{
+				id: 2350,
+				type: "item",
+				item: "productivebees:powered_centrifuge"
+			}],
+			rewards: [
+				{
+					id: 2364,
+					type: "item",
+					title: "15000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 15000
+						}
+					}
+				},
+				{
+					id: 2370,
+					type: "item",
+					item: {
+						id: "create:belt_connector",
+						Count: 8b
+					}
+				}
+			]
+		},
+		{
+			title: "Genetic Recombination",
+			x: 9.0d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Bottles of squashed bee material contains a mix of genetics from a bee. You can get this by squashing a bee into a bottle using a piston on top of a bottler. Make sure the bottler has empty bottles. Contain the bee between the bottler and the piston.",
+				"You can take the squashed bee material to the centrifuge to extract gene samples for each of the bee attributes."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;462],
+			dependency_requirement: "all_completed",
+			id: 2351,
+			tasks: [{
+				id: 2352,
+				type: "item",
+				item: "productivebees:bottler"
+			}],
+			rewards: [{
+				id: 2361,
+				type: "item",
+				title: "15000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 15000
+					}
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			shape: "hexagon",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You can combine gene samples with honey treats to feed them to a bee. This will transfer the gene!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2351],
+			dependency_requirement: "all_completed",
+			id: 2353,
+			tasks: [{
+				id: 2354,
+				type: "item",
+				item: "productivebees:honey_treat"
+			}],
+			rewards: [{
+				id: 2362,
+				type: "item",
+				title: "15000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 15000
 					}
 				}
 			}]

@@ -311,6 +311,8 @@
 	captaintraining = ["the_bumblezone:honey_crystal_shards*32"]
 	#minecolonies.config.tactictraining.comment 
 	tactictraining = ["minecraft:iron_block*3"]
+	#minecolonies.config.morescrolls.comment 
+	morescrolls = ["minecraft:paper*64", "minecolonies:ancienttome*1", "minecraft:lapis_lazuli*64"]
 	#minecolonies.config.ironarmour.comment 
 	ironarmour = ["minecraft:iron_ingot*32"]
 	#minecolonies.config.scholarly.comment 

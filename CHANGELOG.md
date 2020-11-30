@@ -8,20 +8,28 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Note: this update will delete existing bee hives! The new ones are better!
 - I've replaced BeeSourceful with Productive Bees. This was a change I wanted to do once things settled down a bit. Productive Bees is basically BeeSourceful on steroids. Also, it's been reported that BeeSourceful slows down world generation heavily - it's possible that Productive Bees will show better results in this regard.
-- Added new quests to The Bumblezone with the introduction of Productive Bees!
+- With the new addition of Productive Bees, it's possible to make a plethora of ore farms!
+- Added over 10 new quests to The Bumblezone with the introduction of Productive Bees!
 - Nova quest has been made a little less tedious, and the description has been updated.
-- Saltion quest description has been updated to better reflect the spawn biome.
+- Saltion and Bismuth quest description has been updated to better reflect the spawn biome.
 - Added over 250 Riddle Chests riddles.
 - Added more items to Riddle Chests loot tables.
+- Calemi Hammers, which are capable of vein mining, now drop as rare loot from Dimensional Dungeons.
+- Various performance improvements.
 
 ### Mod Updates
-- Updated Aquaculture 2, Corpse, In Control!, The Midnight
+- Updated Aquaculture 2, Corpse, In Control!, The Midnight, Xaero's, Performant, MineColonies.
 - Added Productive Bees.
 - Removed BeeSourceful.
 
 ### Fixes
+- Waystones, Banks, Markets, and Corpses, should all now finally be usable in other peoples claims.
+- Inactive colonies should now automatically delete after a week of inactivity - this function has always been enabled but was not working previously.
 - Fixed a possible crash in The Bumblezone caused by last update.
+- Stuttering caused by the last update should be fixed.
+- Various fixes for crashes.
 
 ## [2.6.2] - 2020-11-23
 

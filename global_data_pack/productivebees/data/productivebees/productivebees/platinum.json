@@ -1,0 +1,18 @@
+{
+    "primaryColor": "#6FEAEF",
+    "secondaryColor": "#804f40",
+    "createComb": false,
+    "attributes": {
+        "endurance": 2
+    },
+    "flowerTag": "forge:storage_blocks/platinum",
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:ingots/platinum"
+            }
+        }
+    ]
+}

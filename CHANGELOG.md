@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0] - 2020-XX-XX
+
 ### Updates
 - Note: this update will delete existing bee hives! The new ones are better!
+- A bunch of new skills and balance updates in Mine and Slash! General buffs towards ranged users, and changes for more interesting spell gameplay. Also, try out the new physical synergies or the new Ice Orb spell!
 - I've replaced BeeSourceful with Productive Bees. This was a change I wanted to do once things settled down a bit. Productive Bees is basically BeeSourceful on steroids. Also, it's been reported that BeeSourceful slows down world generation heavily - it's possible that Productive Bees will show better results in this regard.
 - With the new addition of Productive Bees, it's possible to make a plethora of ore farms!
 - Added over 10 new quests to The Bumblezone with the introduction of Productive Bees!
@@ -20,7 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Various performance improvements.
 
 ### Mod Updates
-- Updated Aquaculture 2, Corpse, In Control!, The Midnight, Xaero's, Performant, MineColonies.
+- Updated Aquaculture 2, Corpse, In Control!, The Midnight, Xaero's, Performant, MineColonies, Mine and Slash.
 - Added Productive Bees.
 - Removed BeeSourceful.
 

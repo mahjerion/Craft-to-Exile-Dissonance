@@ -435,6 +435,11 @@ mods.jei.JEI.hideItem(<item:minecolonies:norsemenchiefegg>);
 mods.jei.JEI.hideItem(<item:minecolonies:amazonegg>);
 mods.jei.JEI.hideItem(<item:minecolonies:amazonchiefegg>);
 mods.jei.JEI.hideItem(<item:minecolonies:mercegg>);
+mods.jei.JEI.hideItem(<item:minecolonies:scroll_guard_help>);
+mods.jei.JEI.hideItem(<item:minecolonies:scroll_buff>);
+mods.jei.JEI.hideItem(<item:minecolonies:scroll_tp>);
+mods.jei.JEI.hideItem(<item:minecolonies:scroll_area_tp>);
+mods.jei.JEI.hideItem(<item:minecolonies:scroll_highlight>);
 
 //Quark
 mods.jei.JEI.hideItem(<item:quark:root>);

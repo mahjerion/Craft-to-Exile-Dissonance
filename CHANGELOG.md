@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+- Changed so that deleted colonies don't automatically destroy the blocks (abandoned colonies).
+- Fixed a problem with servers.
+- Disabled immolation and blazing immolation blades.
+
 ## [2.7.0] - 2020-12-1
 
 ### Updates

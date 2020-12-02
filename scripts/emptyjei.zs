@@ -4,6 +4,8 @@ import mods.jei.JEI;
 
 mods.jei.JEI.hideItem(<item:pamhc2foodcore:cheeseitem>);
 mods.jei.JEI.hideItem(<item:mapperbase:steel_rod>);
+mods.jei.JEI.hideItem(<item:wstweaks:blaze_blade>);
+mods.jei.JEI.hideItem(<item:wstweaks:lava_blade>);
 
 //Minecraft
 mods.jei.JEI.hideItem(<item:minecraft:bat_spawn_egg>);

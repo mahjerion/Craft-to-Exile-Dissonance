@@ -1,0 +1,22 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:crystalline",
+    "parent2": "productivebees:ashy_mining_bee",
+    "offspring": [
+        "productivebees:aluminum"
+    ],
+    "breeding_items": [
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "tag": "forge:ingots/aluminum"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

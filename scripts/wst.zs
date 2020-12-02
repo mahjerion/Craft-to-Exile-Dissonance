@@ -7,3 +7,6 @@ craftingTable.addShaped("wss", <item:minecraft:wither_skeleton_skull>,[
 	[<tag:forge:fragments/wither_skull>,<tag:forge:fragments/wither_skull>,<tag:forge:fragments/wither_skull>],
 	[<tag:forge:fragments/wither_skull>,<tag:forge:fragments/wither_skull>,<tag:forge:fragments/wither_skull>]
 ]);
+
+craftingTable.removeRecipe(<item:wstweaks:blaze_blade>);
+craftingTable.removeRecipe(<item:wstweaks:lava_blade>);

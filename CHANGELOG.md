@@ -7,10 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0b] - 2020-12-2
+
+### Updates
+- Some additional balancing for spells: went a little overboard last patch, ball spells have been buffed a bit again (damage-wise). Cooldowns for all other spells have been reduced GREATLY. Physical spells have been nerfed a bit.
+- Changed Corpse for VanillaDeathChest because Corpse wasn't working with MineColonies claims. Shulker Boxes with your items will now spawn upon death. However, this also means that all Shulker Boxes are available to the public in MineColonies claims, so don't use them if you don't want the contents to be stolen from!
+- Changed MineColonies config so that Shulker Boxes are available to be interacted with in claims.
+
+### Mod Updates
+- Updated Atum 2, Productive Bees, Mine and Slash.
+- Added VanillaDeathChest.
+- Removed Corpse.
+
 ### Fixes
 - Changed so that deleted colonies don't automatically destroy the blocks (abandoned colonies).
 - Fixed a problem with servers.
 - Disabled immolation and blazing immolation blades.
+- Crash relating to Ender Pearls should be fixed.
+- Arrow Barrage is working again.
 
 ## [2.7.0] - 2020-12-1
 

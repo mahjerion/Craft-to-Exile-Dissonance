@@ -201,7 +201,7 @@
 #All permission configuration options
 [permissions]
 	#Blocks players should be able to interact with in any colony (ex: vending machines) 
-	freetointeractblocks = ["minecraft:dirt", "0 0 0", "waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "corpse:corpse"]
+	freetointeractblocks = ["waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "minecraft:shulker_box"]
 	#Should colony protection be enabled? [Default: true]
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]

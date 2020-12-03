@@ -7,10 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.0c] - 2020-12-03
+
 ### Updates
 - Increased max distance from world spawn from which you can place a colony.
 
-## [2.7.0b] - 2020-12-2
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed scripts sometimes not loading I think.
+- Shulker Boxes are interactable in maps now.
+- Fixed console spam from Mine and Slash.
+
+## [2.7.0b] - 2020-12-02
 
 ### Updates
 - Note: your corpse will disappear after updating! Make sure you get your belongings before you update.
@@ -30,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Crash relating to Ender Pearls should be fixed.
 - Arrow Barrage is working again.
 
-## [2.7.0] - 2020-12-1
+## [2.7.0] - 2020-12-01
 
 ### Updates
 - Note: this update will delete existing bee hives! The new ones are better anyway!

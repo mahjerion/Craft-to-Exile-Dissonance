@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased max distance from world spawn from which you can place a colony.
+
 ## [2.7.0b] - 2020-12-2
 
 ### Updates

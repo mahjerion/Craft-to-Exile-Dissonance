@@ -1,7 +1,7 @@
 {
 	id: 343,
 	filename: "actvgoodnightssleep",
-	order_index: 6,
+	order_index: 7,
 	title: "Act V: Good Night's Sleep",
 	icon: "goodnightsleep:strange_bed_item",
 	always_invisible: false,

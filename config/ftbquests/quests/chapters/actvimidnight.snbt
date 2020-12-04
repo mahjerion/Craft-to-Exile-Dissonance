@@ -1,7 +1,7 @@
 {
 	id: 392,
 	filename: "actvimidnight",
-	order_index: 8,
+	order_index: 9,
 	title: "Act VIb: Midnight",
 	icon: "midnight:dark_pearl",
 	always_invisible: false,

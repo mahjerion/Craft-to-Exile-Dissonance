@@ -13,7 +13,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 8
-	locationSearchRadius = 8
+	locationSearchRadius = 16
 	# Whether death chests can only spwan on solid blocks.
 	# Default: false
 	mustBeOnSolidBlocks = false
@@ -133,7 +133,7 @@
 	# Min: 0
 	# Max: 2147483647
 	# Default: 120000
-	period = 120000
+	period = 480000
 	# Whether death chests should be protected.
 	# When this is enabled, death chests can only be broken by their owners.
 	# Default: true

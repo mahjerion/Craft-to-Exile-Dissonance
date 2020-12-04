@@ -1,7 +1,7 @@
 {
 	id: 84,
 	filename: "actiiitheend",
-	order_index: 4,
+	order_index: 5,
 	title: "Act III: The End",
 	icon: "minecraft:end_stone",
 	always_invisible: false,

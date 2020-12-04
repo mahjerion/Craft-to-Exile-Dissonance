@@ -10,7 +10,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Minor menu changes.
 - MineColonies citizens are now very robust.
+- Enabled Frostweaver spawns in some cold Overworld biomes.
 - Updated Forge to 47.
+- Doubled Vanilla Death Chest search radius and increased protection timer from 5 in-game days to 20 in-game days.
+- You now keep your hotbar on death.
+
+### Fixes
+- Fixed Ender Comb quest being uncompletable.
 
 ## [2.7.0c] - 2020-12-03
 

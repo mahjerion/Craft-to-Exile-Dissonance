@@ -1,0 +1,31 @@
+{
+	id: 2376,
+	title: "Holiday Currency",
+	icon: "lycanitesmobs:wintergiftlarge",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "mmorpg:lootbox/small_currency_lootbox_3",
+			weight: 35
+		},
+		{
+			item: "mmorpg:lootbox/medium_currency_lootbox_3",
+			weight: 25
+		},
+		{
+			item: "mmorpg:lootbox/big_currency_lootbox_3",
+			weight: 15
+		},
+		{
+			item: "mmorpg:lootbox/small_currency_lootbox_4",
+			weight: 15
+		},
+		{
+			item: "mmorpg:lootbox/medium_currency_lootbox_4",
+			weight: 10
+		},
+		{
+			item: "mmorpg:lootbox/big_currency_lootbox_4"
+		}
+	]
+}

@@ -38,7 +38,7 @@
 	[inventory.hotbar]
 		#Percent chance to keep hotbar items
 		#Range: -1.0 ~ 1.0
-		hotbarKeepChance = -1.0
+		hotbarKeepChance = 1.0
 		#Percent chance to destroy dropped hotbar items
 		#Range: -1.0 ~ 1.0
 		hotbarDestroyChance = -1.0

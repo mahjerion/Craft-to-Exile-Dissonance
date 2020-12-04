@@ -1,7 +1,7 @@
 {
 	id: 82,
 	filename: "actibumblezone",
-	order_index: 2,
+	order_index: 3,
 	title: "Act I: The Bumblezone (Optional)",
 	icon: "minecraft:bee_nest",
 	always_invisible: false,
@@ -364,10 +364,8 @@
 			tasks: [{
 				id: 465,
 				type: "item",
-				icon: {
-					id: "productivebees:honeycomb_ender",
-					Count: 4b
-				}
+				item: "productivebees:honeycomb_ender",
+				count: 4L
 			}],
 			rewards: [
 				{

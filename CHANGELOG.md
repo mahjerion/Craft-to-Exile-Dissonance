@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- MineColonies citizens are now very robust.
+
 ## [2.7.0c] - 2020-12-03
 
 ### Updates

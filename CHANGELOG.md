@@ -8,7 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Minor menu changes.
 - MineColonies citizens are now very robust.
+- Updated Forge to 47.
 
 ## [2.7.0c] - 2020-12-03
 

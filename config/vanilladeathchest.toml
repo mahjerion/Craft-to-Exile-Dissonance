@@ -13,7 +13,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 8
-	locationSearchRadius = 16
+	locationSearchRadius = 8
 	# Whether death chests can only spwan on solid blocks.
 	# Default: false
 	mustBeOnSolidBlocks = false

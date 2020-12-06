@@ -7,16 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.1] - 2020-12-07
+
 ### Updates
 - Minor menu changes.
 - MineColonies citizens are now very robust.
 - Enabled Frostweaver spawns in some cold Overworld biomes.
-- Updated Forge to 47.
-- Doubled Vanilla Death Chest search radius and increased protection timer from 5 in-game days to 20 in-game days.
-- You now keep your hotbar on death.
+- Updated Forge to 31.2.47.
+- Vanilla Death Chest - increased protection timer from 5 in-game days to 20 in-game days.
+
+### Mod Updates
+- Updated Dimensional Dungeons, Storage Drawers, Nasty Mobs, Initial Inventory.
 
 ### Fixes
 - Fixed Ender Comb quest being uncompletable.
+- Fixed Copper Comb and Fossilized Comb issues.
+- Fixed some of The Bumblezone quests.
+- Fixed Shulker Boxes in Dimensional Dungeons.
 
 ## [2.7.0c] - 2020-12-03
 

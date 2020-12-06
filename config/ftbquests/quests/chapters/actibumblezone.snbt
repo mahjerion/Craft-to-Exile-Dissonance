@@ -329,11 +329,10 @@
 				{
 					id: 712,
 					type: "item",
-					icon: {
+					item: {
 						id: "productivebees:bee_cage",
 						Count: 4b
-					},
-					item: "minecraft:diamond"
+					}
 				},
 				{
 					id: 1764,

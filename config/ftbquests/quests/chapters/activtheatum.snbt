@@ -1,7 +1,7 @@
 {
 	id: 85,
 	filename: "activtheatum",
-	order_index: 6,
+	order_index: 5,
 	title: "Act IV: The Atum",
 	icon: "atum:sand",
 	always_invisible: false,

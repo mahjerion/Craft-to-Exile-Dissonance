@@ -1,7 +1,7 @@
 {
 	id: 1972,
 	filename: "act_vib_tropics",
-	order_index: 8,
+	order_index: 7,
 	title: "Act VIa: Tropics (SP Only)",
 	icon: "tropicraft:pina_colada",
 	always_invisible: false,

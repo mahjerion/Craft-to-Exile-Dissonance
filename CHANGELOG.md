@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.1b] - 2020-12-07
+
+### Fixes
+- Fixes bees spawning everywhere.
+
 ## [2.7.1] - 2020-12-07
 
 ### Updates

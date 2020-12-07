@@ -84,7 +84,7 @@
 	#Chance to get a lucky block as a percentage. [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
-	#Suggest building tool usage when trying to place a building without the building tool. [Default: true]
+	#Suggest build tool usage when trying to place a building without the build tool. [Default: true]
 	suggestbuildtoolplacement = true
 	#Should special holiday content be displayed? [Default: true]
 	holidayfeatures = true

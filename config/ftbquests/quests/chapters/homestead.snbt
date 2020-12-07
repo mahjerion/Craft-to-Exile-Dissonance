@@ -1,7 +1,7 @@
 {
 	id: 250,
 	filename: "homestead",
-	order_index: 11,
+	order_index: 10,
 	title: "Homestead",
 	icon: "minecolonies:supplycampdeployer",
 	always_invisible: false,

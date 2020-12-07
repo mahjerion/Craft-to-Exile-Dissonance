@@ -1,7 +1,7 @@
 {
 	id: 83,
 	filename: "actiithenether",
-	order_index: 4,
+	order_index: 3,
 	title: "Act II: The Nether",
 	icon: "minecraft:netherrack",
 	always_invisible: false,

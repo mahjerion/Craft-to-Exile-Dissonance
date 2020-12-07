@@ -1,7 +1,7 @@
 {
 	id: 1351,
 	filename: "",
-	order_index: 13,
+	order_index: 12,
 	title: "Summoning",
 	icon: {
 		id: "lycanitesmobs:sturdysummoningstaff",

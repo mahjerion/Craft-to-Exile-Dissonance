@@ -15,15 +15,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Enabled Frostweaver spawns in some cold Overworld biomes.
 - Updated Forge to 31.2.47.
 - Vanilla Death Chest - increased protection timer from 5 in-game days to 20 in-game days.
+- When returning from The Bumblezone, you now appear back where you entered. This makes more sense to me because you're "entering" the hive so you should exit the same place.
 
 ### Mod Updates
-- Updated Dimensional Dungeons, Storage Drawers, Nasty Mobs, Initial Inventory.
+- Updated Dimensional Dungeons, Storage Drawers, Nasty Mobs, Initial Inventory, Xaero's, MineColonies.
 
 ### Fixes
 - Fixed Ender Comb quest being uncompletable.
 - Fixed Copper Comb and Fossilized Comb issues.
 - Fixed some of The Bumblezone quests.
 - Fixed Shulker Boxes in Dimensional Dungeons.
+- Disabled honeycomb spawning in The Bumblezone due to some generation errors.
 
 ## [2.7.0c] - 2020-12-03
 

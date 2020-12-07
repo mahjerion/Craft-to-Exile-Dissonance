@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "dimension": "the_bumblezone:bumblezone",
+    "mobs": [
+      {
+        "mob": "productivebees:iron_bee",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "productivebees:gold_bee",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "productivebees:diamond_bee",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "productivebees:emerald_bee",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "productivebees:ender_bee",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+]

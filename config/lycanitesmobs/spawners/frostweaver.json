@@ -1,7 +1,7 @@
 {
   "name": "frostweaver",
   "type": "spawner",
-  "enabled": false,
+  "enabled": true,
   "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,

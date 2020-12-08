@@ -100,89 +100,6 @@
 			]
 		},
 		{
-			title: "Stop The Buzz 2",
-			x: 1.5d,
-			y: -1.5d,
-			shape: "hexagon",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"There are so many different bee types here... The Bumblezone is fully compatible with Productive Bees and Buzzier Bees! Productive bees introduces more than 20 different types of bees to automate your processes!",
-				"Kill 5 bees, 3 iron bees, 2 gold bees, 1 diamond bee, and 1 emerald bee."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;95],
-			dependency_requirement: "all_completed",
-			id: 99,
-			tasks: [
-				{
-					id: 104,
-					type: "kill",
-					entity: "minecraft:bee",
-					value: 5L
-				},
-				{
-					id: 2333,
-					type: "kill",
-					icon: "productivebees:spawn_egg_ashy_mining_bee",
-					entity: "productivebees:iron_bee",
-					value: 3L
-				},
-				{
-					id: 2334,
-					type: "kill",
-					icon: "productivebees:spawn_egg_dye_bee",
-					entity: "productivebees:gold_bee",
-					value: 2L
-				},
-				{
-					id: 2335,
-					type: "kill",
-					icon: "productivebees:spawn_egg_mason_bee",
-					entity: "productivebees:diamond_bee",
-					value: 1L
-				},
-				{
-					id: 2336,
-					type: "kill",
-					icon: "productivebees:spawn_egg_cupid_bee",
-					entity: "productivebees:emerald_bee",
-					value: 1L
-				}
-			],
-			rewards: [
-				{
-					id: 105,
-					type: "item",
-					item: {
-						id: "buzzierbees:honey_bread",
-						Count: 10b
-					}
-				},
-				{
-					id: 106,
-					type: "item",
-					item: {
-						id: "mmorpg:ore2",
-						Count: 3b
-					}
-				},
-				{
-					id: 1762,
-					type: "item",
-					title: "22500 Experience",
-					auto: "disabled",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 22500
-						}
-					}
-				}
-			]
-		},
-		{
 			title: "Feeling Sweet",
 			x: 3.0d,
 			y: 0.0d,
@@ -392,13 +309,13 @@
 		{
 			title: "Hit Them Where It Stings",
 			x: 1.5d,
-			y: -3.0d,
+			y: -1.5d,
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
 			description: ["These brood zones seem to be where the bees are being produced. Destroy the blocks and harvest the honey for yourself."],
 			min_required_dependencies: 0,
-			dependencies: [I;99],
+			dependencies: [I;95],
 			dependency_requirement: "all_completed",
 			id: 468,
 			tasks: [{
@@ -424,13 +341,18 @@
 							exp: 26250
 						}
 					}
+				},
+				{
+					id: 2454,
+					type: "item",
+					item: "buzzierbees:honey_bread"
 				}
 			]
 		},
 		{
 			title: "Slimey Means",
 			icon: "buzzierbees:honey_slime_spawn_egg",
-			x: 3.0d,
+			x: 1.5d,
 			y: -3.0d,
 			shape: "hexagon",
 			subtitle: "",

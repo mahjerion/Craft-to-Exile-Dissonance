@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.2] - 2020-12-08
+
+### Updates
+- Removed a quest in The Bumblezone that no longer seems appropriate.
+
+### Mod Updates
+- Updated Productive Bees, MineColonies.
+
+### Fixes
+- Fixed Productive Bees localization.
+- Bees with bee cages should be fixed. Please let me know if they're not.
+
 ## [2.7.1b] - 2020-12-07
 
 ### Fixes

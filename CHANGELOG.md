@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated MineColonies.
+
+### Fixes
+- Fixed a Waystone recipe error (Jipok).
+- Fixed some console spam (Jipok).
+
 ## [2.7.2] - 2020-12-08
 
 ### Updates

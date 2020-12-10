@@ -38,7 +38,7 @@
 	"Iron Rod" = true
 	"Weather Sensor" = true
 	"Ender Watcher" = true
-	"Endermites Form Shulkers" = true
+	"Endermites Form Shulkers" = false
 	"Color Slime" = true
 	"Dispensers Place Blocks" = true
 	"Redstone Circuit" = true

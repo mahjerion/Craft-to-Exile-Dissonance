@@ -3,7 +3,7 @@
 [gameplay]
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1, min: 1, max: 100]
 	#Range: 1 ~ 100
-	updaterate = 10
+	updaterate = 4
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
 	#Chance to get an evil tavern visitor which can run off with the resources, in % [Default: 2] [Default: 2, min: 1, max: 100]
@@ -201,7 +201,7 @@
 #All permission configuration options
 [permissions]
 	#Blocks players should be able to interact with in any colony (ex: vending machines) 
-	freetointeractblocks = ["waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "minecraft:shulker_box"]
+	freetointeractblocks = ["waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "minecraft:white_shulker_box"]
 	#Should colony protection be enabled? [Default: true]
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]

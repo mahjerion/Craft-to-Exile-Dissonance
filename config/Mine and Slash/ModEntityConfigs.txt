@@ -948,6 +948,32 @@
       "DMG_MULTI": 1.0,
       "HP_MULTI": 20.0,
       "STAT_MULTI": 1.0
+    },
+    "minecraft:endermite": {
+      "LOOT_MULTI": 0.15,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
+    },
+    "minecraft:silverfish": {
+      "LOOT_MULTI": 0.15,
+      "EXP_MULTI": 0.15,
+      "MIN_RARITY": 0,
+      "MAX_RARITY": 4,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 1,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     }
   },
   "byEntityTypeDefault": {

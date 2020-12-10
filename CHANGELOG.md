@@ -7,12 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Nerfed loot and experience gain from Endermite and Silverfish.
+
 ### Mod Updates
 - Updated MineColonies.
 
 ### Fixes
 - Fixed a Waystone recipe error (Jipok).
 - Fixed some console spam (Jipok).
+- Disabled Endermites Form Shulker module from Quark, which caused crashes.
+- Hopefully fixed MineColonies fishermen not working.
 
 ## [2.7.2] - 2020-12-08
 

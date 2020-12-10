@@ -38,7 +38,7 @@
 	[inventory.hotbar]
 		#Percent chance to keep hotbar items
 		#Range: -1.0 ~ 1.0
-		hotbarKeepChance = -1.0
+		hotbarKeepChance = 1.0
 		#Percent chance to destroy dropped hotbar items
 		#Range: -1.0 ~ 1.0
 		hotbarDestroyChance = -1.0
@@ -150,7 +150,7 @@
 	[inventory.cosmetic_armor]
 		#Percent chance to keep cosmetic armor item
 		#Range: -1.0 ~ 1.0
-		cosmeticArmorKeepChance = -1.0
+		cosmeticArmorKeepChance = 1.0
 		#Percent chance to destroy dropped cosmetic armor item
 		#Range: -1.0 ~ 1.0
 		cosmeticArmorDestroyChance = -1.0

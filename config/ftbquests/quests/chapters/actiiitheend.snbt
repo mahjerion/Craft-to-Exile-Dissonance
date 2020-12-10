@@ -569,8 +569,17 @@
 			tasks: [{
 				id: 310,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:aberrationspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "trite"
+						}
+					}
+				},
 				entity: "lycanitesmobs:trite",
-				value: 30L
+				value: 16L
 			}],
 			rewards: [
 				{
@@ -608,8 +617,9 @@
 			tasks: [{
 				id: 312,
 				type: "kill",
+				icon: "lycanitesmobs:geistliver",
 				entity: "lycanitesmobs:geist",
-				value: 15L
+				value: 6L
 			}],
 			rewards: [
 				{
@@ -647,6 +657,15 @@
 			tasks: [{
 				id: 314,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:aberrationspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "astaroth"
+						}
+					}
+				},
 				entity: "lycanitesmobs:astaroth",
 				value: 3L
 			}],
@@ -686,6 +705,7 @@
 			tasks: [{
 				id: 316,
 				type: "kill",
+				icon: "lycanitesmobs:cooked_pinky_meat",
 				entity: "lycanitesmobs:pinky",
 				value: 5L
 			}],
@@ -754,6 +774,30 @@
 					item: "calemiutils:coin_nickel"
 				}
 			]
+		},
+		{
+			title: "The Dragon's Nest",
+			icon: "productivebees:dragon_egg_hive",
+			x: 3.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Draconic Bees are unique bees from Productive Bees which require an active dragon egg. Activate the egg by pouring dragon's breath onto it."],
+			min_required_dependencies: 0,
+			dependencies: [I;290],
+			dependency_requirement: "all_completed",
+			id: 2455,
+			tasks: [{
+				id: 2456,
+				type: "item",
+				item: "productivebees:obsidian_nest"
+			}],
+			rewards: [{
+				id: 2457,
+				type: "item",
+				item: "productivebees:inactive_dragon_egg"
+			}]
 		}
 	]
 }

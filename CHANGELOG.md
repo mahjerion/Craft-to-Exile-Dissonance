@@ -8,7 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Added a quest in Act IV that should help with Draconic Bees.
 - Nerfed loot and experience gain from Endermite and Silverfish.
+- You no longer drop your hotbar on death. The White Shulker Box can only hold the main inventory and hotbar items would drop before.
+- Added a recipe that can turn non-vanilla forms of cobblestone into vanilla cobblestone.
 
 ### Mod Updates
 - Updated MineColonies.

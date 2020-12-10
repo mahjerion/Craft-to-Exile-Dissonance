@@ -6,3 +6,5 @@ craftingTable.addShaped("teleporter_min", <item:mining_dimension:teleporter>,[
 	[<item:waystones:warp_stone>,<item:minecraft:diamond_pickaxe>,<item:waystones:warp_stone>],
 	[<item:mmorpg:ore3>,<item:waystones:warp_stone>,<item:mmorpg:ore3>]
 ]);
+
+craftingTable.addShapeless("cobblestone_fix", <item:minecraft:cobblestone>,[<tag:forge:cobblestone>]);

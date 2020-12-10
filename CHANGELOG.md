@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- You can now wear armor in a cosmetic slot - these pieces won't provide any bonuses but will alter your appearance!
 - Added a quest in Act IV that should help with Draconic Bees.
 - Nerfed loot and experience gain from Endermite and Silverfish.
 - You no longer drop your hotbar on death. The White Shulker Box can only hold the main inventory and hotbar items would drop before.
@@ -15,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated MineColonies.
+- Added Cosmetic Armor Reworked.
 
 ### Fixes
 - Fixed a Waystone recipe error (Jipok).

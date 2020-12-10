@@ -16,7 +16,7 @@
 	#Format: modid:item;[keep/drop/destroy]
 	itemSettings = []
 	#Set to true to limit durability loss so that items do not break from death penalties
-	limitDurabilityLoss = false
+	limitDurabilityLoss = true
 	#Time (in seconds) that dropped items will take to despawn, -1 to disable despawning
 	#Range: > -1
 	dropDespawnTime = 300
@@ -30,7 +30,7 @@
 		mainhandDestroyChance = -1.0
 		#Percent durability loss on kept mainhand item
 		#Range: -1.0 ~ 1.0
-		mainhandKeepDurabilityLoss = -1.0
+		mainhandKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped mainhand item
 		#Range: -1.0 ~ 1.0
 		mainhandDropDurabilityLoss = -1.0
@@ -44,7 +44,7 @@
 		hotbarDestroyChance = -1.0
 		#Percent durability loss on kept hotbar items
 		#Range: -1.0 ~ 1.0
-		hotbarKeepDurabilityLoss = -1.0
+		hotbarKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped hotbar items
 		#Range: -1.0 ~ 1.0
 		hotbarDropDurabilityLoss = -1.0
@@ -58,7 +58,7 @@
 		offhandDestroyChance = -1.0
 		#Percent durability loss on kept offhand item
 		#Range: -1.0 ~ 1.0
-		offhandKeepDurabilityLoss = -1.0
+		offhandKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped offhand item
 		#Range: -1.0 ~ 1.0
 		offhandDropDurabilityLoss = -1.0
@@ -66,7 +66,7 @@
 	[inventory.main]
 		#Percent chance to keep main inventory items
 		#Range: -1.0 ~ 1.0
-		mainKeepChance = -1.0
+		mainKeepChance = 1.0
 		#Percent chance to destroy dropped main inventory items
 		#Range: -1.0 ~ 1.0
 		mainDestroyChance = -1.0
@@ -86,7 +86,7 @@
 		headDestroyChance = -1.0
 		#Percent durability loss on kept head item
 		#Range: -1.0 ~ 1.0
-		headKeepDurabilityLoss = -1.0
+		headKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped head item
 		#Range: -1.0 ~ 1.0
 		headDropDurabilityLoss = -1.0
@@ -100,7 +100,7 @@
 		chestDestroyChance = -1.0
 		#Percent durability loss on kept chest item
 		#Range: -1.0 ~ 1.0
-		chestKeepDurabilityLoss = -1.0
+		chestKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped chest item
 		#Range: -1.0 ~ 1.0
 		chestDropDurabilityLoss = -1.0
@@ -114,7 +114,7 @@
 		legsDestroyChance = -1.0
 		#Percent durability loss on kept legs item
 		#Range: -1.0 ~ 1.0
-		legsKeepDurabilityLoss = -1.0
+		legsKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped legs item
 		#Range: -1.0 ~ 1.0
 		legsDropDurabilityLoss = -1.0
@@ -128,7 +128,7 @@
 		feetDestroyChance = -1.0
 		#Percent durability loss on kept feet item
 		#Range: -1.0 ~ 1.0
-		feetKeepDurabilityLoss = -1.0
+		feetKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped head item
 		#Range: -1.0 ~ 1.0
 		feetDropDurabilityLoss = -1.0
@@ -142,7 +142,7 @@
 		curioDestroyChance = -1.0
 		#Percent durability loss on kept curio item
 		#Range: -1.0 ~ 1.0
-		curioKeepDurabilityLoss = -1.0
+		curioKeepDurabilityLoss = 0.33
 		#Percent durability loss on dropped curio item
 		#Range: -1.0 ~ 1.0
 		curioDropDurabilityLoss = -1.0
@@ -190,7 +190,7 @@
 	#List of effects to apply on respawn
 	#Format: modid:effect;duration(seconds);amplifier
 	#Append ';incurable' if applicable
-	effects = []
+	effects = ["minecraft:slowness;10;3","minecraft:hunger;30;1"]
 	#Sets whether kept effects list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	keepEffectsMode = "WHITELIST"

@@ -8,15 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- I decided to remove VanillaDeathChest, and will probably not look into adding any "death chest" mods. I tried testing GraveStone but it lacked some functionality that Corpse and VDC had. Unfortunately, Corpse doesn't work with MineColonies claims, and VDC doesn't respect the Corpse Complex (partial keepinventory rules). Since none of these mods really suit the pack's needs, I've decided to have keepinventory on by default via Corpse Complex with much greater penalties. FWIW, it was also quite troublesome to restore player inventories after bugs/glitches. Your currently existing shulker death chests will remain.
+- You now keep your inventory upon death.
+- You now lose 33% (up from 25%) of your XP and 33% of the durability on worn items and items on your hotbar. Cosmetic armor do not receive damage.
+- Upon spawning, you are afflicted by slowness and hunger.
 - You can now wear armor in a cosmetic slot - these pieces won't provide any bonuses but will alter your appearance!
 - Added a quest in Act IV that should help with Draconic Bees.
 - Nerfed loot and experience gain from Endermite and Silverfish.
-- You no longer drop your hotbar on death. The White Shulker Box can only hold the main inventory and hotbar items would drop before.
 - Added a recipe that can turn non-vanilla forms of cobblestone into vanilla cobblestone.
 
 ### Mod Updates
 - Updated MineColonies.
 - Added Cosmetic Armor Reworked.
+- Removed VanillaDeathChest.
 
 ### Fixes
 - Fixed a Waystone recipe error (Jipok).

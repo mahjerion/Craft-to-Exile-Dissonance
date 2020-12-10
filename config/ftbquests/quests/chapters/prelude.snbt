@@ -83,7 +83,7 @@
 			description: [
 				"You may have noticed the bag in your inventory - right click to use it. In Craft to Exile, equipment is mainly acquired by killing mobs. Crafted equipment can be used, but the power will be limited.",
 				"Dropped equipment scales with the mob level, so the stronger the mobs the better the equipment! Try to kill some skeletons (not Nasty skeletons!) - hopefully you'll find a new piece of equipment.",
-				"Note: currently, the quest GUI is bugged. You can pin quests to your GUI if you're ever consued about what it is you need to kill/gather."
+				"Note: currently, the quest GUI is bugged. You can pin quests to your GUI if you're ever confused about what it is you need to kill/gather."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
@@ -827,7 +827,7 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"Sometimes you just want the good old fashioned travel storage solution.",
+				"Sometimes you just want the good old fashioned travel storage solution. You can equip the backpack via Curios and access it with V!",
 				"Note: do NOT go into creative mode with a backpack in your inventory. This may clear out the backpack!"
 			],
 			min_required_dependencies: 0,

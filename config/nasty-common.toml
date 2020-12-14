@@ -53,7 +53,7 @@
 	#Range: 0 ~ 15
 	SpawnLightLevel = 7
 	#Explosive Arrow cause Armor to drop
-	ExplosiveArrowOnArmor = true
+	ExplosiveArrowOnArmor = false
 	#Bonus Power for Hard
 	#Range: 0 ~ 20
 	BonusHardPower = 1

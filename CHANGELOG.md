@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lowered Geonach spawn chance in the Mining Dimension.
 - Disabled seasonal drop chances from Lycanites Mobs - unfortunately it's completely unconfigurable (it's hardcoded), and they grief...
 - Nerfed the effeciency of some Bountiful objectives.
+- Increased Dimensional Dungeon drop multiplier by 20%.
 
 ### Mod Updates
 - Updated MineColonies, Mine and Slash.

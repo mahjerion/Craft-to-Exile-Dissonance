@@ -321,7 +321,7 @@
 
 [Items]
 	#The chance of seasonal items dropping such as Winter Gifts. Can be 0-1, 0.25 would be 25%. Set to 0 to disable these drops all together.
-	seasonalDropChance = 0.1
+	seasonalDropChance = 0.0
 	#If set to false, when the doFireTick gamerule is set to false, instead of removing all custom fire such as Hellfire, the fire simply stops spreading instead, this is useful for decorative fire on adventure maps and servers.
 	removeOnNoFireTick = true
 

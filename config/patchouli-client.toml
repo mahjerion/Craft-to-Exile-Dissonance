@@ -1,0 +1,5 @@
+
+[client]
+	#Set this to true to use Shift instead of Ctrl for the inventory quick lookup feature.
+	quickLookupShift = false
+

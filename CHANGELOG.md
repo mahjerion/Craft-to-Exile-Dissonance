@@ -7,19 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.3] - 2020-12-14
+
 ### Updates
+- You can now wear armor in a cosmetic slot - these pieces won't provide any bonuses but will alter your appearance!
 - I decided to remove VanillaDeathChest, and will probably not look into adding any "death chest" mods. I tried testing GraveStone but it lacked some functionality that Corpse and VDC had. Unfortunately, Corpse doesn't work with MineColonies claims, and VDC doesn't respect the Corpse Complex (partial keepinventory rules). Since none of these mods really suit the pack's needs, I've decided to have keepinventory on by default via Corpse Complex with much greater penalties. FWIW, it was also quite troublesome to restore player inventories after bugs/glitches. Your currently existing shulker death chests will remain.
 - You now keep your inventory upon death.
 - You now lose 33% (up from 25%) of your XP and 33% of the durability on worn items and items on your hotbar. Cosmetic armor do not receive damage.
 - Upon spawning, you are afflicted by slowness and hunger.
-- You can now wear armor in a cosmetic slot - these pieces won't provide any bonuses but will alter your appearance!
 - Added a quest in Act IV that should help with Draconic Bees.
 - Nerfed loot and experience gain from Endermite and Silverfish.
 - Added a recipe that can turn non-vanilla forms of cobblestone into vanilla cobblestone.
+- Increased update rate of MineColonies citizens.
+- Modified some DynView settings for servers to drastically improve performance.
+- Lowered Geonach spawn chance in the Mining Dimension.
+- Disabled seasonal drop chances from Lycanites Mobs - unfortunately it's completely unconfigurable (it's hardcoded), and they grief...
+- Nerfed the effeciency of some Bountiful objectives.
 
 ### Mod Updates
-- Updated MineColonies.
+- Updated MineColonies, Mine and Slash.
 - Added Cosmetic Armor Reworked.
+- Added Patchouli - in case some players wanted some in-game documentation for Productive Bees.
 - Removed VanillaDeathChest.
 
 ### Fixes
@@ -27,6 +35,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed some console spam (Jipok).
 - Disabled Endermites Form Shulker module from Quark, which caused crashes.
 - Hopefully fixed MineColonies fishermen not working.
+- Some map fixes.
+- Fixed Nasty Skeletons not being configured properly. They should no longer knock your armour off or be super strong.
+- Fixed a rare issue where players would accidentally place their Dank in maps and were not able to retrieve them.
 
 ## [2.7.2] - 2020-12-08
 

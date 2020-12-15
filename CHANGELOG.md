@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.4] - 2020-12-XX
+
+### Updates
+- Nerfed loot and experience gain from Endermen and Silverfish.
+
+### Mod Updates
+- Updated Serene Seasons.
+
+### Mod Updates
+
 ## [2.7.3c] - 2020-12-14
 
 ### Fixes

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.3c] - 2020-12-14
+
+### Fixes
+- I forgot to include the Global Data Packs folder...
+
 ## [2.7.3b] - 2020-12-14
 
 ### Fixes

@@ -7,15 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.7.4] - 2020-12-XX
-
 ### Updates
-- Nerfed loot and experience gain from Endermen and Silverfish.
+- Elder Guardians are now much more difficult and have increased drop rates.
+- Nerfed loot and experience gain from Endermen.
+- Disabled the Legendary Ore --> Penny recipe. It's original purpose was to ensure that servers with limited world gen could still get RC even when raritarium ran out. But with the introduction of RC in Bountiful rewards amongst other things, it's not really needed anymore.
 
 ### Mod Updates
-- Updated Serene Seasons.
-
-### Mod Updates
+- Updated Serene Seasons, MineColonies, Structurize.
 
 ## [2.7.3c] - 2020-12-14
 

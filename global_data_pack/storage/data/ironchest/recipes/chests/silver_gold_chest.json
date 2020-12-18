@@ -67,7 +67,13 @@
 		]
 	},
 	"result": {
-		"item": "minecraft:air"
+		"item": "ironchest:silver_chest"
 	},
-	"_comment": "replaceme with tag forge:glass when out."
+	"_comment": "replaceme with tag forge:glass when out.",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        }
+    ]
 }

@@ -3,6 +3,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.BlastFurnaceManager;
 import crafttweaker.api.FurnaceManager;
 
+<tag:forge:gems/quartz>.addItems([<item:endreborn:simple_quartz>]);
 craftingTable.removeRecipe(<item:mmorpg:map_device>);
 craftingTable.addShaped("map_device", <item:mmorpg:map_device>,[
 	[<item:minecraft:diamond>,<item:minecraft:diamond>,<item:minecraft:diamond>],
@@ -35,6 +36,7 @@ craftingTable.addShapeless("teleport_scroll", <item:mmorpg:teleport_scroll> * 4,
 craftingTable.removeRecipe(<item:mmorpg:identify_tome>);
 craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<item:minecraft:book>, <item:mmorpg:ore2>]);
 
+craftingTable.addShapeless("quartz", <item:minecraft:quartz>, [<tag:forge:gems/quartz>]);
 craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
 craftingTable.addShapeless("blazebow_to_blazerod", <item:minecraft:blaze_rod>, [<item:awaa:blaze_bow>]);
 

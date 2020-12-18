@@ -5,8 +5,16 @@
       "rolls": 0,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad"
         }
-      ]
+      ],
+	  "conditions": [
+		{
+		  "type": "forge:mod_loaded",
+		  "modid": "allthemodium"
+		}
+	  ]
     }
   ]
 }

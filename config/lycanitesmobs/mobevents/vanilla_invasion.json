@@ -1,0 +1,25 @@
+{
+  "name": "vanilla_invasion",
+  "type": "event",
+  "enabled": true,
+  "loadDefault": false,
+  "channel": "world",
+  "duration": 6000,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "minecraft:overworld"
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "random",
+      "weight": 8,
+      "priority": 1
+    }
+  ],
+  "effects": []
+}

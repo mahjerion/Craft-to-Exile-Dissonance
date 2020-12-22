@@ -174,8 +174,8 @@
 	#minecolonies.config.barbarianhordedifficulty.comment [Default: 5, min: 0, max: 10]
 	#Range: 0 ~ 10
 	barbarianhordedifficulty = 5
-	#The average number of nights between raids. [Default: 12, min: 1, max: 10]
-	#Range: 1 ~ 10
+	#The average number of nights between raids. [Default: 12, min: 1, max: 50]
+	#Range: 1 ~ 50
 	averagenumberofnightsbetweenraids = 7
 	#Damage multiplier for Knight Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0

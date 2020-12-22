@@ -14,8 +14,8 @@
   "triggers": [
     {
       "type": "random",
-      "weight": 8,
-      "priority": 2
+      "weight": 4,
+      "priority": 1
     }
   ],
   "effects": [

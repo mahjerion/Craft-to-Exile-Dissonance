@@ -1,0 +1,78 @@
+{
+  "name": "vanilla_invasion_spawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 5,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "vanilla_invasion",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "minecraft:zombie",
+      "weight": 8
+    },
+    {
+      "mobId": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:creeper",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:spider",
+      "weight": 4
+    },
+    {
+      "mobId": "minecraft:cave_spider",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:husk",
+      "weight": 4
+    },
+    {
+      "mobId": "minecraft:stray",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:drowned",
+      "weight": 4
+    },
+    {
+      "mobId": "minecraft:witch",
+      "weight": 1
+    }
+  ]
+}

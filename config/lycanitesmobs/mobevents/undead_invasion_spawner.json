@@ -1,0 +1,54 @@
+{
+  "name": "undead_invasion_spawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 3,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "undead_invasion",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "lycanitesmobs:ghoul",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:cryptkeeper",
+      "weight": 8
+    },
+    {
+      "mobId": "nasty:skeleton",
+      "weight": 4
+    }
+  ]
+}

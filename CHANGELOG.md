@@ -9,11 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - New Patreon-designed unique ring by Whiterun Mage: Milk Maid's Nose Ring! Thanks for your support!
-- Elder Guardians are now much more difficult and have increased drop rates.
+- Introducing: random invasions! Every 1-2 hours there is a chance than an invasion will trigger. There are currently 3 types of invasions: the undead invasion which can occur in any dimension (except the Good Night Sleep dimensions), the exile invasion which is basically a raid and can occur in any dimension, and a vanilla invasion which can only occur in the Overworld.
 - New Mine and Slash bees! Thanks Jonn!
 - Mine and Slash ore can now be silk touched and used in technology mods.
 - Mine and Slash skills have been slightly balanced again. See the Mine and Slash changelog for more details, but tl;dr fire small nerf, ball spells small nerf.
+- Mobs from raids now scale to player level.
 - Nerfed loot and experience gain from Endermen.
+- Elder Guardians are now much more difficult and have increased drop rates.
 - Decreased Ender Dragon health by 17% and increased damage by 50%.
 - Disabled the Legendary Ore --> Penny recipe. It's original purpose was to ensure that servers with limited world gen could still get RC even when raritarium ran out. But with the introduction of RC in Bountiful rewards amongst other things, it's not really needed anymore.
 - Gave End: Reborn's Simple Quartz the quartz tag so it's less useless now. Also added a recipe to turn anything tagged as quartz to vanilla quartz, should the need arise.
@@ -25,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixes
 - Fixed a bunch of log spam by resolving some datapack errors. These were intentional but I found a better way to disable some recipes without breaking the datapack.
-- Fixed the an impossible Tropics quest.
+- Fixed an impossible Tropics quest.
 - A few Mine and Slash party fixes, as well as bleed sound issues.
 - Various Productive Bee issues have been fixed. See their changelog for more details.
 

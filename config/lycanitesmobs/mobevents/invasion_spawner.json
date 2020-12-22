@@ -1,0 +1,66 @@
+{
+  "name": "invasion_spawner",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 4,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "ignoreGroupLimit": true,
+  "ignoreForgeCanSpawnEvent": true,
+  "forceNoDespawn": true,
+  "eventName": "invasion",
+  "conditions": [],
+  "triggers": [
+    {
+      "type": "player",
+      "chance": 1,
+      "tickRate": 100
+    }
+  ],
+  "locations": [
+    {
+      "type": "random",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        48,
+        32
+      ],
+      "sorting": "random",
+      "limit": 32,
+      "solidGround": true
+    }
+  ],
+  "mobSpawns": [
+    {
+      "mobId": "minecraft:pillager",
+      "weight": 12
+    },
+    {
+      "mobId": "minecraft:ravager",
+      "weight": 1
+    },
+    {
+      "mobId": "minecraft:vindicator",
+      "weight": 8
+    },
+    {
+      "mobId": "minecraft:witch",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:illusioner",
+      "weight": 2
+    },
+    {
+      "mobId": "minecraft:evoker",
+      "weight": 2
+    }
+  ]
+}

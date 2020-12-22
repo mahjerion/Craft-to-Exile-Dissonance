@@ -333,7 +333,7 @@
 
 	["Mob Events".random]
 		#Set to false to disable random mob events for every world.
-		enabled = false
+		enabled = true
 
 		["Mob Events".random.ticks]
 			#Minimum time in ticks until a random event can occur. 20 Ticks = 1 Second.
@@ -347,7 +347,7 @@
 
 	["Mob Events".altars]
 		#If set to true, Altars will only activate in dimensions that the monster spawned or event started is allowed in.
-		checkDimension = false
+		checkDimension = true
 		#Set to false to disable altars, Soulkeys can still be crafted but wont work on Altars.
 		enabled = true
 

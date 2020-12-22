@@ -2,7 +2,7 @@
   "name": "saltytree",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "world",
   "duration": 1200,
   "conditions": [
@@ -13,10 +13,9 @@
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_nether",
-        "minecraft:the_end"
+        "minecraft:overworld"
       ],
-      "dimensionListType": "blacklist"
+      "dimensionListType": "whitelist"
     }
   ],
   "triggers": [

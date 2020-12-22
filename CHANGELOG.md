@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled the Legendary Ore --> Penny recipe. It's original purpose was to ensure that servers with limited world gen could still get RC even when raritarium ran out. But with the introduction of RC in Bountiful rewards amongst other things, it's not really needed anymore.
 - Gave End: Reborn's Simple Quartz the quartz tag so it's less useless now. Also added a recipe to turn anything tagged as quartz to vanilla quartz, should the need arise.
 - Reverted MineColonies citizen tick rates to 1. For the most part, unless you're on a large server, 1 should be fine (does not apply to Official Servers).
+- Lycanites bosses can now only be summoned in the Nether.
 
 ### Mod Updates
 - Updated Serene Seasons, MineColonies, Structurize, Create, Xaero's, Mine and Slash, Productive Bees.

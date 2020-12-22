@@ -2,14 +2,16 @@
   "name": "asmodeus",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "boss",
   "duration": 600,
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [],
-      "dimensionListType": "blacklist"
+      "dimensionIds": [
+        "minecraft:the_nether"
+      ],
+      "dimensionListType": "whitelist"
     }
   ],
   "levelBoostMax": 0,

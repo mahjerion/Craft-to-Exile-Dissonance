@@ -2,7 +2,7 @@
   "name": "halloween_skyspawner",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 3,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -39,26 +39,18 @@
   ],
   "mobSpawns": [
     {
-      "mobId": "lycanitesmobs:wraith",
-      "weight": 8,
-      "mobNameTag": "Lost Soul"
-    },
-    {
       "mobId": "lycanitesmobs:banshee",
-      "weight": 4,
+      "weight": 10,
       "mobNameTag": "Maniacal Ghost"
     },
     {
       "mobId": "lycanitesmobs:cacodemon",
-      "weight": 4
-    },
-    {
-      "mobId": "lycanitesmobs:afrit",
-      "weight": 8
+      "weight": 4,
+      "mobNameTag": "Lost Soul"
     },
     {
       "mobId": "lycanitesmobs:grue",
-      "weight": 8,
+      "weight": 10,
       "mobNameTag": "Shadow Clown"
     },
     {

@@ -1,8 +1,8 @@
 {
   "name": "bladeflurry",
   "type": "event",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "channel": "world",
   "duration": 1200,
   "conditions": [

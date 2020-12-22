@@ -2,14 +2,16 @@
   "name": "amalgalich",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "boss",
   "duration": 600,
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [],
-      "dimensionListType": "blacklist"
+      "dimensionIds": [
+        "minecraft:the_nether"
+      ],
+      "dimensionListType": "whitelist"
     }
   ],
   "levelBoostMax": 0,
@@ -24,10 +26,6 @@
       "type": "structure",
       "structureBuilderName": "amalgalich",
       "eventTicksMax": 600
-    },
-    {
-      "type": "world",
-      "dayTime": 20000
     }
   ]
 }

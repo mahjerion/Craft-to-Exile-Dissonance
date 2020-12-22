@@ -2,7 +2,7 @@
   "name": "halloween_landspawner",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 2,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
@@ -47,14 +47,6 @@
       "mobId": "lycanitesmobs:treant",
       "weight": 4,
       "mobNameTag": "Wicked Treant"
-    },
-    {
-      "mobId": "lycanitesmobs:belph",
-      "weight": 8
-    },
-    {
-      "mobId": "lycanitesmobs:behemoth",
-      "weight": 4
     },
     {
       "mobId": "lycanitesmobs:triffid",

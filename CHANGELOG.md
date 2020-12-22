@@ -8,16 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- New Patreon-designed unique ring by Whiterun Mage: Milk Maid's Nose Ring! Thanks for your support!
 - Elder Guardians are now much more difficult and have increased drop rates.
 - Nerfed loot and experience gain from Endermen.
 - Disabled the Legendary Ore --> Penny recipe. It's original purpose was to ensure that servers with limited world gen could still get RC even when raritarium ran out. But with the introduction of RC in Bountiful rewards amongst other things, it's not really needed anymore.
 - Gave End: Reborn's Simple Quartz the quartz tag so it's less useless now. Also added a recipe to turn anything tagged as quartz to vanilla quartz, should the need arise.
+- Reverted MineColonies citizen tick rates to 1. For the most part, unless you're on a large server, 1 should be fine (does not apply to Official Servers).
 
 ### Mod Updates
-- Updated Serene Seasons, MineColonies, Structurize.
+- Updated Serene Seasons, MineColonies, Structurize, Create, Xaero's.
 
 ### Fixes
 - Fixed a bunch of log spam by resolving some datapack errors. These were intentional but I found a better way to disable some recipes without breaking the datapack.
+- Fixed the an impossible Tropics quest.
 
 ## [2.7.3c] - 2020-12-14
 

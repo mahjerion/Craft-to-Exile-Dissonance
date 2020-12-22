@@ -3,7 +3,7 @@
 [gameplay]
 	#AI Update rate. Increase this to improve performance. This throttles citizen updates. [Default: 1, min: 1, max: 100]
 	#Range: 1 ~ 100
-	updaterate = 3
+	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
 	#Chance to get an evil tavern visitor which can run off with the resources, in % [Default: 2] [Default: 2, min: 1, max: 100]

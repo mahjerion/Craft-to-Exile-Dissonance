@@ -699,11 +699,6 @@
 					item: "tropicraft:tropical_fish_bucket"
 				},
 				{
-					id: 2041,
-					type: "item",
-					item: "tropicraft:piranha_bucket"
-				},
-				{
 					id: 2329,
 					type: "item",
 					item: "minecraft:dead_tube_coral_block",

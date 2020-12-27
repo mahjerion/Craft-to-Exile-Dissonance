@@ -23,7 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lycanites bosses can now only be summoned in the Nether.
 
 ### Mod Updates
-- Updated Serene Seasons, MineColonies, Structurize, Create, Xaero's, Mine and Slash, Productive Bees.
+- Updated Serene Seasons, MineColonies, Structurize, Xaero's, Mine and Slash, Productive Bees.
+- The update for Create will come in a future update. Still waiting on Create Integration to update.
 
 ### Fixes
 - Fixed a bunch of log spam by resolving some datapack errors. These were intentional but I found a better way to disable some recipes without breaking the datapack.

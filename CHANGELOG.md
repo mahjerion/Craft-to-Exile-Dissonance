@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.7.4] - 2020-01-01
+## [2.7.4] - 2020-01-XX
 
 ### Updates
 - New Patreon-designed unique ring by Whiterun Mage: Milk Maid's Nose Ring! Thanks for your support!

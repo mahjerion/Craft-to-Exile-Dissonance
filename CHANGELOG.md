@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.7.4] - 2020-01-01
+
 ### Updates
 - New Patreon-designed unique ring by Whiterun Mage: Milk Maid's Nose Ring! Thanks for your support!
 - Introducing: random invasions! Every 1-2 hours there is a chance than an invasion will trigger. There are currently 3 types of invasions: the undead invasion which can occur in any dimension (except the Good Night Sleep dimensions), the exile invasion which is basically a raid and can occur in any dimension, and a vanilla invasion which can only occur in the Overworld.

@@ -78,6 +78,18 @@ mods.jei.JEI.hideItem(<item:lycanitesmobs:rabbitooze>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:sharacid>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:vesspoison>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:frostfire>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:wormtreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:undeadtreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:planttreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:undeadtreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:imptreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:dragontreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:demontreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:beasttreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:aviantreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:arthropodtreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:aquatictreat>);
+mods.jei.JEI.hideItem(<item:lycanitesmobs:aberrationtreat>);
 
 //Aquaculture
 mods.jei.JEI.hideItem(<item:aquaculture:box_turtle_spawn_egg>);

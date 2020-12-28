@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gave End: Reborn's Simple Quartz the quartz tag so it's less useless now. Also added a recipe to turn anything tagged as quartz to vanilla quartz, should the need arise.
 - Reverted MineColonies citizen tick rates to 1. For the most part, unless you're on a large server, 1 should be fine (does not apply to Official Servers).
 - Lycanites bosses can now only be summoned in the Nether.
+- Disabled Lycanites taming treats. They were useless since taming was disabled, just misled new players.
 
 ### Mod Updates
 - Updated Serene Seasons, MineColonies, Structurize, Xaero's, Mine and Slash, Productive Bees.
@@ -33,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an impossible Tropics quest.
 - A few Mine and Slash party fixes, as well as bleed sound issues.
 - Various Productive Bee issues have been fixed. See their changelog for more details.
+- Fixed the wording on the Soulstone to not mislead players about taming.
 
 ## [2.7.3c] - 2020-12-14
 

@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "lycanitesmobs:demontreat",
+    "count": 4
+  },
+  "pattern": [
+    " MM",
+    "BBM",
+    " MM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "M": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "powah"
+      }
+  ]
+}

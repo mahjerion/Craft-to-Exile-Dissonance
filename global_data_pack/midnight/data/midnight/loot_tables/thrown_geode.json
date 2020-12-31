@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "name": "midnight:thrown_geode",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "midnight:ebonite_ore",
+          "weight": 8,
+          "count": 1
+        },
+        {
+          "type": "item",
+          "name": "midnight:nagrilite_ore",
+          "weight": 4,
+          "count": 1
+        },
+        {
+          "type": "item",
+          "name": "midnight:tenebrum_ore",
+          "weight": 2,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

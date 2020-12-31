@@ -12,6 +12,7 @@
     "rah"
   ],
   "mods": [
+    "spell_thunder_damage_flat",
     "mana_flat",
     "mana_regen_flat",
     "thunder_resist_flat"

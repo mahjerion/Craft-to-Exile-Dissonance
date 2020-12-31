@@ -12,6 +12,7 @@
     "mos"
   ],
   "mods": [
+	"spell_damage_flat",
     "cdr_flat",
     "mana_regen_flat"
   ]

@@ -11,6 +11,6 @@
   ],
   "mods": [
     "fire_resist_flat",
-    "armor_flat"
+    "all_fire_damage_flat"
   ]
 }

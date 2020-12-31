@@ -11,7 +11,7 @@
     "voh"
   ],
   "mods": [
-    "critical_hit_percent",
+    "high_critical_hit_percent",
     "critical_hit_multi"
   ]
 }

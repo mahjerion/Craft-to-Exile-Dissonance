@@ -12,7 +12,7 @@
     "ber"
   ],
   "mods": [
-    "health_flat",
+    "high_health_flat",
     "armor_percent",
     "health_regen_flat"
   ]

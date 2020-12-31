@@ -10,6 +10,7 @@
     "mos"
   ],
   "mods": [
+    "low_spell_damage_flat",
     "magic_shield_percent"
   ]
 }

@@ -13,6 +13,7 @@
   ],
   "mods": [
     "high_health_flat",
-    "high_armor_flat"
+    "very_high_armor_flat",
+	"armor_percent
   ]
 }

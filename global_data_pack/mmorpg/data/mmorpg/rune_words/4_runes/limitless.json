@@ -12,6 +12,7 @@
     "xah"
   ],
   "mods": [
+	"high_armor_penetration_flat",
     "high_energy_regen_flat",
     "dodge_percent"
   ]

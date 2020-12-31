@@ -12,6 +12,7 @@
     "ber"
   ],
   "mods": [
+	"thunder_penetration_flat",
     "energy_regen_flat",
     "thunder_resist_flat",
     "high_armor_flat"

@@ -15,6 +15,7 @@
   "mods": [
     "cdr_flat",
     "mana_regen_flat",
+	"energy_regen_flat",
     "armor_flat"
   ]
 }

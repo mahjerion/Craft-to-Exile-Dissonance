@@ -10,6 +10,7 @@
     "goh"
   ],
   "mods": [
-    "health_percent"
+    "high_health_percent",
+	"health_regen_flat"
   ]
 }

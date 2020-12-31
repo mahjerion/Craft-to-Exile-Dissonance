@@ -11,7 +11,8 @@
     "goh"
   ],
   "mods": [
-    "dodge_flat",
+    "high_dodge_flat",
+	"health_flat",
     "critical_damage_flat"
   ]
 }

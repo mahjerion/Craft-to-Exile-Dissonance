@@ -12,6 +12,7 @@
   ],
   "mods": [
     "bow_damage_flat",
-	"dexterity_flat"
+	"dexterity_flat",
+	"dodge_flat"
   ]
 }

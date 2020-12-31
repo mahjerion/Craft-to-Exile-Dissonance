@@ -12,7 +12,8 @@
     "ita"
   ],
   "mods": [
-	"health_flat",
+	"cdr_flat",
+	"health_percent",
     "lifesteal_flat",
     "elemental_resist_flat"
   ]

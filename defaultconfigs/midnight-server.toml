@@ -40,7 +40,7 @@
 	#If true, players will respawn in Midnight after dying in the dimension. Default: false
 	can_respawn_in_midnight = false
 	#If true, dark pearls can be used to make rifts. Default: true
-	rifts_from_dark_pearls = true
+	rifts_from_dark_pearls = false
 	#Allows the lightning in Midnight to burn blocks and do damage to entities. Default: false
 	allow_lightning_damage = false
 	#The percent chance (from 0 to 100) for a rifter to spawn naturally. If 0, no rifters spawn at all. Default: 75

@@ -13,6 +13,7 @@
     "xah"
   ],
   "mods": [
+	"high_bow_damage_flat",
     "energy_flat",
     "energy_regen_flat",
     "energy_regen_percent"

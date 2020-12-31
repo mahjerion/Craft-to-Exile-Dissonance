@@ -7,14 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.7.4] - 2020-01-XX
+## [2.8.0] - 2020-01-XX
 
 ### Updates
 - New Patreon-designed unique ring by Whiterun Mage: Milk Maid's Nose Ring! Thanks for your support!
+- 6 new runewords! 5 of which are meant to be mid-level runewords for leveling, and 1 of which is a support runeword!
 - Introducing: random invasions! Every 1-2 hours there is a chance than an invasion will trigger. There are currently 3 types of invasions: the undead invasion which can occur in any dimension (except the Good Night Sleep dimensions), the exile invasion which is basically a raid and can occur in any dimension, and a vanilla invasion which can only occur in the Overworld.
 - New Mine and Slash bees! Thanks Jonn!
 - Mine and Slash ore can now be silk touched and used in technology mods.
 - Mine and Slash skills have been slightly balanced again. See the Mine and Slash changelog for more details, but tl;dr fire small nerf, ball spells small nerf.
+- You now earn extra total EXP when in a party. See Mine and Slash changelog for details.
+- Map drop rates have increased in maps.
+- Runewords have been buffed.
 - Mobs from raids now scale to player level.
 - Nerfed loot and experience gain from Endermen.
 - Elder Guardians are now much more difficult and have increased drop rates.
@@ -24,10 +28,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reverted MineColonies citizen tick rates to 1. For the most part, unless you're on a large server, 1 should be fine (does not apply to Official Servers).
 - Lycanites bosses can now only be summoned in the Nether.
 - Disabled Lycanites taming treats. They were useless since taming was disabled, just misled new players.
+- Geodes now give Midnight ores instead of Dark Pearls when thrown.
+- Dark Pearl function has been disabled by default.
 
 ### Mod Updates
 - Updated Serene Seasons, MineColonies, Structurize, Xaero's, Mine and Slash, Productive Bees.
 - The update for Create will come in a future update. Still waiting on Create Integration to update.
+- Removed Rough Mobs Revamped - doesn't really add much anymore besides mobs with equipment. Granted, removing this may make some of the vanilla mobs "easier", but this mod introduces a lot of issues with entity AI. Will monitor crash rates after removing, if removing this did nothing, I'll probably add it back in.
 
 ### Fixes
 - Fixed a bunch of log spam by resolving some datapack errors. These were intentional but I found a better way to disable some recipes without breaking the datapack.
@@ -35,6 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - A few Mine and Slash party fixes, as well as bleed sound issues.
 - Various Productive Bee issues have been fixed. See their changelog for more details.
 - Fixed the wording on the Soulstone to not mislead players about taming.
+- Tefnut's Call should now be registered as a trident.
 
 ## [2.7.3c] - 2020-12-14
 

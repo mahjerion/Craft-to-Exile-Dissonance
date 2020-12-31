@@ -10,6 +10,7 @@
     "ano"
   ],
   "mods": [
-    "armor_percent"
+    "high_armor_percent",
+	"armor_flat
   ]
 }

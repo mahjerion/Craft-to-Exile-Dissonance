@@ -13,7 +13,8 @@
     "mos"
   ],
   "mods": [
-    "magic_shield_flat",
+	"spell_damage_flat",
+    "high_magic_shield_flat",
     "magic_shield_regen_flat"
   ]
 }

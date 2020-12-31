@@ -10,6 +10,7 @@
     "ber"
   ],
   "mods": [
-    "lifesteal_flat"
+    "lifesteal_flat",
+	"strength_flat"
   ]
 }

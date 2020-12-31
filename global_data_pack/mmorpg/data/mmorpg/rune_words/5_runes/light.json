@@ -13,6 +13,7 @@
     "goh"
   ],
   "mods": [
+	"all_fire_damage_flat",
     "health_regen_flat",
     "health_flat",
     "fire_resist_flat"

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.0b] - 2020-01-01
+
+### Fixes
+- Fixed Mine and Slash ores not working properly.
+
 ## [2.8.0] - 2020-12-31
 
 ### Updates

@@ -3,20 +3,20 @@
   "type": "spawner",
   "enabled": true,
   "loadDefault": false,
-  "mobCountMin": 4,
+  "mobCountMin": 2,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,
   "ignoreGroupLimit": true,
   "ignoreForgeCanSpawnEvent": true,
-  "forceNoDespawn": true,
+  "forceNoDespawn": false,
   "eventName": "invasion",
   "conditions": [],
   "triggers": [
     {
       "type": "player",
       "chance": 1,
-      "tickRate": 100
+      "tickRate": 200
     }
   ],
   "locations": [
@@ -40,7 +40,7 @@
   "mobSpawns": [
     {
       "mobId": "minecraft:pillager",
-      "weight": 12
+      "weight": 6
     },
     {
       "mobId": "minecraft:ravager",

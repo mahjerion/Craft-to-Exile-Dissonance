@@ -673,8 +673,8 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 1,
       "DMG_MULTI": 1.0,
-      "HP_MULTI": 1.0,
-      "STAT_MULTI": 1.0
+      "HP_MULTI": 0.75,
+      "STAT_MULTI": 0.75
     },
     "lycanitesmobs:cryptkeeper": {
       "LOOT_MULTI": 1.0,
@@ -686,8 +686,8 @@
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 1,
       "DMG_MULTI": 1.0,
-      "HP_MULTI": 1.0,
-      "STAT_MULTI": 1.0
+      "HP_MULTI": 0.75,
+      "STAT_MULTI": 0.75
     },
     "betteranimalsplus:jellyfish": {
       "LOOT_MULTI": 0.009999999776482582,

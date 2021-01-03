@@ -9,16 +9,15 @@
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_nether",
-        "minecraft:the_end"
+        "minecraft:overworld"
       ],
-      "dimensionListType": "blacklist"
+      "dimensionListType": "whitelist"
     }
   ],
   "triggers": [
     {
       "type": "random",
-      "weight": 8,
+      "weight": 4,
       "priority": 1
     }
   ],

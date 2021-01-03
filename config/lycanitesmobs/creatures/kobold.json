@@ -125,11 +125,11 @@
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     },
     {
       "name": "theivery",
-      "value": true
+      "value": false
     }
   ]
 }

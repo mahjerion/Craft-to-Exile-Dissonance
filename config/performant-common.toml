@@ -5,7 +5,7 @@
 	#Enables improved entity collision and movement calculations for any non item entity, default = true
 	fastCollisions = true
 	#Enables less laggy entity item pickup, default = true
-	noLagItemPickup = true
+	noLagItemPickup = false
 	#Enable multithreading support for entities, requires fastCollisions to be enabled. default = true
 	multiEntities = true
 	#Enables improved entity collision and movement calculations for items, default = true

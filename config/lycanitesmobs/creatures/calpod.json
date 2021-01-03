@@ -126,7 +126,7 @@
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     },
     {
       "name": "swarmLimit",

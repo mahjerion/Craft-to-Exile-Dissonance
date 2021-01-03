@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Reduced frequency of invasions.
+- Rathpith's Globe now provides increased critical hit chance instead of flat.
+
+### Mod Updates
+- Updated Extended Nether Backport.
+
 ## [2.8.0b] - 2020-01-01
 
 ### Fixes

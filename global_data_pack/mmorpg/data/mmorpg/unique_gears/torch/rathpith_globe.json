@@ -12,7 +12,7 @@
   "unique_stats": [
     "high_health_percent",
     "spell_damage_flat",
-	"high_critical_hit_flat"
+	"critical_hit_percent"
   ],
   "can_get_set": false,
   "requirements": {

@@ -10,7 +10,7 @@
     "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_critical_hit_percent",
+    "critical_hit_percent",
     "critical_damage_percent",
     "energy_regen_flat"
   ],

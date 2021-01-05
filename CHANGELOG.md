@@ -14,10 +14,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Greatly reduced frequency of invasions (I'm talking like 10-15x less frequent).
 - Legendary Ore Bees are no longer a thing. Misleading since legendary ore doesn't spawn!
 - Rathpith's Globe now provides increased critical hit chance instead of flat.
+- Reduced critical hit from the unique critical ring.
 - Dimensional Dungeon mobs now have much, much more HP.
 - Added 2 new Nether quests showcasing the Extended Nether update a bit.
 - Changed the dependencies for the quests linked to The Crux to now require Getting Started instead. This should allow for a smoother start.
-- New Craft to Exile menu!
+- New updated look for the Craft to Exile menu!
+- Reduced spawn rate of zombies and baby zombies slightly.
+- Maps are 33% more likely to drop.
 
 ### Mod Updates
 - Updated Extended Nether Backport, MineColonies, Mine and Slash.

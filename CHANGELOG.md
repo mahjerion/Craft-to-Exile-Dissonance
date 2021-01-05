@@ -7,12 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.1] - 2020-01-XX
+
 ### Updates
-- Reduced frequency of invasions.
+- HUGE Mine and Slash update. You have been provided with a spell reset potion. Check the changelog over at https://github.com/mahjerion/Mine-and-Slash/blob/1.15.2/changelog.txt!
+- Greatly reduced frequency of invasions (I'm talking like 10-15x less frequent).
+- Legendary Ore Bees are no longer a thing. Misleading since legendary ore doesn't spawn!
 - Rathpith's Globe now provides increased critical hit chance instead of flat.
+- Dimensional Dungeon mobs now have much, much more HP.
 
 ### Mod Updates
-- Updated Extended Nether Backport, MineColonies.
+- Updated Extended Nether Backport, MineColonies, Mine and Slash.
+
+### Fixes
+- Nether crashes should more or less be resolved.
+- Fixed an issue with Productive Bees datapacks.
 
 ## [2.8.0b] - 2020-01-01
 

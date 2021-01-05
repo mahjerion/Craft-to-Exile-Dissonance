@@ -337,9 +337,9 @@
 
 		["Mob Events".random.ticks]
 			#Minimum time in ticks until a random event can occur. 20 Ticks = 1 Second.
-			min = 216000
+			min = 432000
 			#Maximum time in ticks until a random event can occur. 20 Ticks = 1 Second.
-			max = 432000
+			max = 864000
 
 		["Mob Events".random.day]
 			#If random events are enabled, they wont occur until this day is reached. Set to 0 to have random events enabled from the start of a world.

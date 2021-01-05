@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "VCH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "On Chad's flag the red stands for fire",
+      "& unity, the yellow for the sun & the",
+      "blue for this"
+   ],
+   "solution" : "SKY",
+   "type" : "riddlechests:word"
+}

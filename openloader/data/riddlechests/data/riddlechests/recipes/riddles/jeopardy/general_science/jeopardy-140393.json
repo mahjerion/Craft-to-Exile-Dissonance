@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "VSWVYXWVNXO",
+   "riddle" : [
+      "General Science",
+      "",
+      "In a lead-acid battery, this liquid used",
+      "to conduct current is usually 35%",
+      "sulfuric acid, 65% water"
+   ],
+   "solution" : "ELECTROLYTE",
+   "type" : "riddlechests:word"
+}

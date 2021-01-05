@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "EOSTCG",
+   "riddle" : [
+      "General Science",
+      "",
+      "While compounds of this element are",
+      "added to table salt, in its pure form",
+      "it's quite poisonous"
+   ],
+   "solution" : "IODINE",
+   "type" : "riddlechests:word"
+}

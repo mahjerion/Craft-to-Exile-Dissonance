@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THIURS",
+   "riddle" : [
+      "Claws like a cat",
+      "Crooked as a snakes hiss",
+      "Patch together your guesses",
+      "You wont guess this"
+   ],
+   "solution" : "BRIARS",
+   "type" : "riddlechests:word"
+}

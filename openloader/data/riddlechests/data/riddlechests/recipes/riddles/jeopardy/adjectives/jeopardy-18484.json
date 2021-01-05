@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VSP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Something that is senary has this many",
+      "things or parts"
+   ],
+   "solution" : "SIX",
+   "type" : "riddlechests:word"
+}

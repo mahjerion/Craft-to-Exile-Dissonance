@@ -1,0 +1,10 @@
+{
+    "primaryColor": "#fffd6e",
+    "secondaryColor": "#804f40",
+    "particleColor": "#fffd6e",
+    "flowerTag": "productivebees:flowers/gilded_flowers",
+    "createComb": false,
+    "attributes": {
+        "endurance": 0
+    }
+}

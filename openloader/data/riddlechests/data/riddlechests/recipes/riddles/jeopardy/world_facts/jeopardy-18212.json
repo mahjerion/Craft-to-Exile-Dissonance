@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "TIVUNXJN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In recent years, Botswana has",
+      "overtaken South Africa in the",
+      "production of these gems"
+   ],
+   "solution" : "DIAMONDS",
+   "type" : "riddlechests:word"
+}

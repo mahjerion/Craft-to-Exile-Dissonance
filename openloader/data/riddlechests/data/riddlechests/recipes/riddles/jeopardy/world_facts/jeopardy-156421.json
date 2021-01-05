@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "IJGLSFUNCY",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Letzeburgisch is the national language",
+      "of this European country"
+   ],
+   "solution" : "LUXEMBOURG",
+   "type" : "riddlechests:word"
+}

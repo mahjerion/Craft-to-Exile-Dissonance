@@ -1,0 +1,17 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BREETOEW",
+   "riddle" : [
+      "Death to our",
+      "Enemies! No",
+      "Living adversary shall",
+      "Escape the new",
+      "King of these isles",
+      "He will lead unto glory",
+      "And provide",
+      "New lands for our people!"
+   ],
+   "solution" : "DELEKHAN",
+   "type" : "riddlechests:word"
+}

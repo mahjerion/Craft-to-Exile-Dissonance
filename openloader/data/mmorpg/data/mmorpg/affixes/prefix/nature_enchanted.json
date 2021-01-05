@@ -1,0 +1,31 @@
+{
+  "id": "nature_enchanted",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.nature_enchanted",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      },
+      {
+        "min_level": 10,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "nature_spell_to_attack_dmg_flat"
+  ]
+}

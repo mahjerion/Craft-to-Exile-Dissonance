@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "XAVEIK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "About a fourth of this country's people",
+      "live in the city of Amman"
+   ],
+   "solution" : "JORDAN",
+   "type" : "riddlechests:word"
+}

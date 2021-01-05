@@ -145,8 +145,11 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["As you traverse the Nether, darkness starts to gnaw at your psyche. Quickly, we must get out of here! Kill the withers and grab their skulls. Only then can we leave..."],
-			min_required_dependencies: 0,
-			dependencies: [I;211],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				211,
+				2462
+			],
 			dependency_requirement: "all_completed",
 			id: 215,
 			tasks: [{
@@ -841,6 +844,88 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Hogging The Goods",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Extended Nether Backport brings some of that 1.16 goodness to 1.15.2! Find the Strider, Hoglin, and many more!"],
+			min_required_dependencies: 0,
+			dependencies: [I;121],
+			dependency_requirement: "all_completed",
+			id: 2458,
+			tasks: [{
+				id: 2459,
+				type: "kill",
+				icon: "extendednether:hoglin_spawn_egg",
+				entity: "extendednether:hoglin",
+				value: 8L
+			}],
+			rewards: [
+				{
+					id: 2460,
+					type: "item",
+					item: {
+						id: "mmorpg:identify_tome",
+						Count: 4b
+					}
+				},
+				{
+					id: 2461,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 32500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Zombie Pig Invasion",
+			x: 3.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These nasty zombie pigs can be found in the Nether as well!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2458],
+			dependency_requirement: "all_completed",
+			id: 2462,
+			tasks: [{
+				id: 2463,
+				type: "kill",
+				icon: "extendednether:zombified_piglin_spawn_egg",
+				entity: "extendednether:zombified_piglin",
+				value: 16L
+			}],
+			rewards: [
+				{
+					id: 2465,
+					type: "item",
+					item: {
+						id: "mmorpg:ore3",
+						Count: 4b
+					}
+				},
+				{
+					id: 2466,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 32500
+						}
+					}
+				}
+			]
 		}
 	]
 }

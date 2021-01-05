@@ -1,0 +1,26 @@
+{
+  "id": "of_malicious_intent",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_malicious_intent",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "much_less_magic_shield_percent",
+    "physical_damage_percent"
+  ]
+}

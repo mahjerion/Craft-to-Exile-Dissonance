@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ZCQSFTYNBM",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The world's lowest measured mean",
+      "temperature, -70Â°F., is at Plateau",
+      "Station on this continent"
+   ],
+   "solution" : "ANTARCTICA",
+   "type" : "riddlechests:word"
+}

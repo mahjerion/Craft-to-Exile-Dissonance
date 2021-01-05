@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "WNIYGZLUY",
+   "riddle" : [
+      "General Science",
+      "",
+      "There were only 63 known elements when",
+      "this Russian devised the periodic table"
+   ],
+   "solution" : "MENDELEEV",
+   "type" : "riddlechests:word"
+}

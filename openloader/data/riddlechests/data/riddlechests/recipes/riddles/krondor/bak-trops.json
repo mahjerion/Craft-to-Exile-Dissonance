@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TROPS",
+   "riddle" : [
+      "Moredhel brothers make it rain",
+      "Kingdom rivers crimson pain!"
+   ],
+   "solution" : "BLOOD",
+   "type" : "riddlechests:word"
+}

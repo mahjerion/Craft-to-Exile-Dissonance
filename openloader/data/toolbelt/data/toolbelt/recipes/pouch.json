@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "toolpouch",
+  "pattern": [
+    "sgs",
+    "l l",
+    "sls"
+  ],
+  "key": {
+    "s": { "item": "minecraft:string" },
+    "l": { "item": "minecraft:leather" },
+    "g": { "item": "mmorpg:mat/golden_orb" }
+  },
+  "result": {
+    "item": "toolbelt:pouch"
+  }
+}

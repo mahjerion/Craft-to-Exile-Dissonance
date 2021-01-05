@@ -1,0 +1,26 @@
+{
+  "result": {
+    "item": "lycanitesmobs:planttreat",
+    "count": 4
+  },
+  "pattern": [
+    " MM",
+    "BBM",
+    " MM"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:sugar_cane"
+    },
+    "M": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "conditions": [
+      {
+          "type": "forge:mod_loaded",
+          "modid": "powah"
+      }
+  ]
+}

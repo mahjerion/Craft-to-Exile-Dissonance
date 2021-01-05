@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GYCPOEWMKL",
+   "riddle" : [
+      "General Science",
+      "",
+      "The name of this primate suborder that",
+      "includes lemurs means \"before apes\""
+   ],
+   "solution" : "PROSIMIANS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHOTEED",
+   "riddle" : [
+      "With this one thing alone you will have defeated even the strongest foe"
+   ],
+   "solution" : "VICTORY",
+   "type" : "riddlechests:word"
+}

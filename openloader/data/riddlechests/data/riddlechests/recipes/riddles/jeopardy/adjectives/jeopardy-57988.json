@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "MGJGB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective for a sullen child can",
+      "also be used to describe full lips"
+   ],
+   "solution" : "POUTY",
+   "type" : "riddlechests:word"
+}

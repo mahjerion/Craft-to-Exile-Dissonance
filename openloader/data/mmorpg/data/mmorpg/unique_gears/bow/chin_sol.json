@@ -1,0 +1,24 @@
+{
+  "id": "chin_sol",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bow.chin_sol",
+  "lang_file_desc_string": "item.mmorpg.uniques.bow.chin_sol.desc",
+  "primary_stats": [
+    "physical_damage_flat",
+	"low_attack_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "dexterity_flat",
+    "very_high_dodge_flat",
+    "critical_damage_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "bow",
+  "item_id": "mmorpg:uniques/bow/bow_fire0"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KXNTWPPHQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "These white blood cells that have a",
+      "single well-defined nucleus are the",
+      "largest blood cells"
+   ],
+   "solution" : "MONOCYTES",
+   "type" : "riddlechests:word"
+}

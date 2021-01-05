@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "HATYXMEH",
+   "riddle" : [
+      "General Science",
+      "",
+      "Ammonia, widely used as a refrigerant",
+      "& cleaner, is composed of hydrogen &",
+      "this element"
+   ],
+   "solution" : "NITROGEN",
+   "type" : "riddlechests:word"
+}

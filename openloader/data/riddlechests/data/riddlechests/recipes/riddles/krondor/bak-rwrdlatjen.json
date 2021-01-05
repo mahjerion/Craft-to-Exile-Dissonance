@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RWRDL ATJEN",
+   "riddle" : [
+      "Two brothers wanted to race a course",
+      "To see which had the slowest horse",
+      "Since neither wanted to spur his mare",
+      "What must they do to make it fair"
+   ],
+   "solution" : "TRADE MARES",
+   "type" : "riddlechests:word"
+}

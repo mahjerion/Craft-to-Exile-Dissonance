@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "GSUIVQHA",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It can mean damaged from heavy use or",
+      "coated in a mixture of flour & eggs",
+      "for frying"
+   ],
+   "solution" : "BATTERED",
+   "type" : "riddlechests:word"
+}

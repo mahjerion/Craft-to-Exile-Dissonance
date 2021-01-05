@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CONS",
+   "riddle" : [
+      "Though not a plant has leaves",
+      "Though not a beast has spine",
+      "Though many wouldn't need this thing",
+      "Tis more valuable than wine"
+   ],
+   "solution" : "BOOK",
+   "type" : "riddlechests:word"
+}

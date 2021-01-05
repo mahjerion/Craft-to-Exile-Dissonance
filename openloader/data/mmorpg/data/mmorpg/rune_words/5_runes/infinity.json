@@ -1,0 +1,21 @@
+{
+  "id": "infinity",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.infinity",
+  "runes": [
+    "cen",
+    "dos",
+    "ano",
+    "ber",
+    "xah"
+  ],
+  "mods": [
+	"high_bow_damage_flat",
+    "energy_flat",
+    "energy_regen_flat",
+    "energy_regen_percent"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "WBEVSQ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Describing food fit to be eaten",
+      "according to Jewish law, it can also",
+      "mean on the up-&-up"
+   ],
+   "solution" : "KOSHER",
+   "type" : "riddlechests:word"
+}

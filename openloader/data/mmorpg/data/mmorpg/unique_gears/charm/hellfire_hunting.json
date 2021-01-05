@@ -1,0 +1,24 @@
+{
+  "id": "hellfire_hunting",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.hellfire",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.hellfire.desc",
+  "primary_stats": [
+    "plus_hunting_skill_lvls_flat"
+  ],
+  "unique_stats": [
+    "cdr_flat",
+    "all_attributes_flat",
+	"elemental_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.25,
+	"dexterity": 0.25
+  },
+  "gear_type": "charm",
+  "item_id": "cte_uniques:hellfire"
+}

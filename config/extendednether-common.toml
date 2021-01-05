@@ -1,10 +1,18 @@
 
-#Client Settings
-[Client_Settings]
-	#ExtendedNether Main Menu Panorama.
-	Panorama = true
-	#Extended Nether's Biome Fog Settings.
-	#Applies to "Overworld" ONLY.
-	#Allowed Values: DENSEFOGCOLOR, DENSEFOG, FOGCOLOR, OFF
-	BiomeFog = "DENSEFOGCOLOR"
+#Entity Spawns
+[Nether_Settings]
+	#spawn Piglins in all the external modded nether biomes, Default is true
+	spawnPiglins = true
+	#spawn Zombified Piglins in all the external modded nether biomes, Default is true
+	spawnZombifiedPiglins = true
+	#spawn Striders in all the external modded nether biomes, Default is true
+	spawnStriders = true
+
+#Nether World Options
+[Nether_Dimension_Settings]
+	#render the Biome Particles in the new Nether Biomes, Default is true
+	renderBiomeParticles = true
+	#define ther size of the new Nether Biomes
+	#Range: 1 ~ 10
+	biomesize = 2
 

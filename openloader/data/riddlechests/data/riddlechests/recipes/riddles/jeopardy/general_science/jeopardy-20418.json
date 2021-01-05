@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FUDNXWQNM",
+   "riddle" : [
+      "General Science",
+      "",
+      "Using this form of electromagnetic",
+      "radiation, you can cook an entire",
+      "chicken in 15 minutes"
+   ],
+   "solution" : "MICROWAVE",
+   "type" : "riddlechests:word"
+}

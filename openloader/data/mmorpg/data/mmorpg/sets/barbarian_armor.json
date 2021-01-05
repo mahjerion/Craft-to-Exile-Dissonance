@@ -1,0 +1,27 @@
+{
+  "id": "barbarian_armor",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.barbarian_armor",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "plate_chest",
+          "plate_boots",
+          "plate_pants",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 0,
+        "max_level": 20
+      }
+    ]
+  },
+  "mods": {
+    "2": "lifesteal_flat"
+  }
+}

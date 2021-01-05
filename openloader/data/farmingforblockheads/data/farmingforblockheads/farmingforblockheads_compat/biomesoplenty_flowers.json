@@ -1,0 +1,73 @@
+{
+  "modId": "biomesoplenty",
+  "group": {
+    "name": "BiomesOPlenty Flowers",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "biomesoplenty:rose"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:violet"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:lavender"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:wildflower"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:orange_cosmos"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_daffodil"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_hibiscus"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:glowflower"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:wilted_lily"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:burning_blossom"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:blue_hydrangea"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:goldenrod"
+      }
+    }
+  ]
+}

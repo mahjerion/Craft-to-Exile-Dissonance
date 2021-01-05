@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RHZYNJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Quarks are bound together by",
+      "hypothetical force particles called",
+      "these"
+   ],
+   "solution" : "GLUONS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "AYFAYP",
+   "riddle" : [
+      "General Science",
+      "",
+      "Most of these proteins that speed up",
+      "chemical reactions have names ending in",
+      "\"ase\""
+   ],
+   "solution" : "ENZYME",
+   "type" : "riddlechests:word"
+}

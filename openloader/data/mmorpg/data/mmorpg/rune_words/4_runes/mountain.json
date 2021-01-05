@@ -1,0 +1,19 @@
+{
+  "id": "mountain",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.mountain",
+  "runes": [
+    "ita",
+    "cen",
+    "voh",
+    "ber"
+  ],
+  "mods": [
+    "high_health_flat",
+    "armor_percent",
+    "health_regen_flat"
+  ]
+}

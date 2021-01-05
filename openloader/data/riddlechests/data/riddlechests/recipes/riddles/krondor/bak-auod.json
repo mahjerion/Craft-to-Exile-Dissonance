@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "AUOD",
+   "riddle" : [
+      "Pounds all day",
+      "Beats all night",
+      "Never rests"
+   ],
+   "solution" : "SURF",
+   "type" : "riddlechests:word"
+}

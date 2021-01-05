@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "GNWSZ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It's a 5-letter word meaning pertaining",
+      "to Francis or Alexander IV, for example"
+   ],
+   "solution" : "PAPAL",
+   "type" : "riddlechests:word"
+}

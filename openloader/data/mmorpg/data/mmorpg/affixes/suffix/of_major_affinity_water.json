@@ -1,0 +1,26 @@
+{
+  "id": "of_major_affinity_water",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_major_affinity_water",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "bracelet"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "very_low_spell_water_damage_flat",
+    "water_spell_to_attack_dmg_flat"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "CMVRUFZZHEVK",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Call me a compulsive liar, but it really",
+      "does mean \"pertaining to disease\""
+   ],
+   "solution" : "PATHOLOGICAL",
+   "type" : "riddlechests:word"
+}

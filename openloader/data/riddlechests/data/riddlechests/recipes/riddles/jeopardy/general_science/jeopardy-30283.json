@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DYWY",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the terrestrial planet farthest",
+      "from the sun"
+   ],
+   "solution" : "MARS",
+   "type" : "riddlechests:word"
+}

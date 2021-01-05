@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "BHEBEFPULRQLH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The coast of Syria lies on this sea"
+   ],
+   "solution" : "MEDITERRANEAN",
+   "type" : "riddlechests:word"
+}

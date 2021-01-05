@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YZAZDO",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This South American country grows twice",
+      "as much coffee as Colombia"
+   ],
+   "solution" : "BRAZIL",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CHLT",
+   "riddle" : [
+      "Has a tongue",
+      "But never talks",
+      "Has no legs",
+      "But sometimes walks"
+   ],
+   "solution" : "SHOE",
+   "type" : "riddlechests:word"
+}

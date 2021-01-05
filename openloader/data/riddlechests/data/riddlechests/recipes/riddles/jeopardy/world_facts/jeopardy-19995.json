@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QQXIEBIJRJM",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Manuel Roxas, not Manuel Quezon, was the",
+      "first president of this country after",
+      "independence"
+   ],
+   "solution" : "PHILIPPINES",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "COSAEFIE",
+   "riddle" : [
+      "You will invite him into your house",
+      "Yet you know him not",
+      "Once you get to know him",
+      "This thing he will no longer be"
+   ],
+   "solution" : "STRANGER",
+   "type" : "riddlechests:word"
+}

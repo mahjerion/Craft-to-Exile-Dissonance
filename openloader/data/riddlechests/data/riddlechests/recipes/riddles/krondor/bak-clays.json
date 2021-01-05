@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CLAYS",
+   "riddle" : [
+      "It stands while others sit",
+      "It groans when it is too full",
+      "It has four legs but cannot run"
+   ],
+   "solution" : "TABLE",
+   "type" : "riddlechests:word"
+}

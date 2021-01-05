@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "CSXF",
+   "riddle" : [
+      "General Science",
+      "",
+      "Geologists called stratigraphers are",
+      "involved with determining the",
+      "earth's age & history by looking at",
+      "layers of these"
+   ],
+   "solution" : "ROCK",
+   "type" : "riddlechests:word"
+}

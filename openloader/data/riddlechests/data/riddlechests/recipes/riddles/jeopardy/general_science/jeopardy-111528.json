@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ETZZS",
+   "riddle" : [
+      "General Science",
+      "",
+      "This Saturnian moon is the only one in",
+      "the solar system known to have clouds"
+   ],
+   "solution" : "TITAN",
+   "type" : "riddlechests:word"
+}

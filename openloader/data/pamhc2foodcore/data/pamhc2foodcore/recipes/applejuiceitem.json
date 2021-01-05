@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_juicer"
+    },
+    {
+      "tag": "forge:crops/apple"
+    },
+    {
+      "tag": "forge:crops/apple"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcore:applejuiceitem",
+	"count": 1}
+	
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "XUTJPFA",
+   "riddle" : [
+      "General Science",
+      "",
+      "About 70% of this pungent gas produced",
+      "is converted into fertilizer"
+   ],
+   "solution" : "AMMONIA",
+   "type" : "riddlechests:word"
+}

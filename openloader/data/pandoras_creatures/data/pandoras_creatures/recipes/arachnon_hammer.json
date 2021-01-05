@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern":
+	[
+		"AAA",
+		"ADA",
+		"LIL"
+	],
+	"key":
+    {
+        "A":
+        {
+            "item": "pandoras_creatures:arachnon_crystal"
+        },
+        "D":
+        {
+            "item": "mmorpg:mat/crystallized_essence"
+        },
+        "L":
+        {
+            "item": "minecraft:leather"
+        },
+        "I":
+        {
+            "item": "mmorpg:mat/infused_iron"
+        }
+    },
+    "result":
+    {
+        "item": "pandoras_creatures:arachnon_hammer"
+    }
+}

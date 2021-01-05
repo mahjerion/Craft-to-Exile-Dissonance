@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "lycanitesmobs:equipmentpart_woodenpaxel"
+  },
+  "ingredients": [
+    {
+      "item": "extendednether:netherite_axe"
+    },
+    {
+      "item": "extendednether:netherite_pickaxe"
+    },
+    {
+      "item": "extendednether:netherite_shovel"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

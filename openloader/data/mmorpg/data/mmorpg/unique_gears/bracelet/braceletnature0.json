@@ -1,0 +1,24 @@
+{
+  "id": "braceletnature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.braceletnature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletnature0.desc",
+  "primary_stats": [
+    "spell_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "high_nature_resist_flat",
+    "health_flat",
+    "health_regen_percent",
+    "plus_thorns_effect_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.75
+  },
+  "gear_type": "bracelet",
+  "item_id": "mmorpg:uniques/bracelet/braceletnature0"
+}

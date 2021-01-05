@@ -1,0 +1,20 @@
+{
+  "id": "magician",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.magician",
+  "runes": [
+    "dos",
+    "ano",
+    "xah",
+    "rah"
+  ],
+  "mods": [
+    "spell_thunder_damage_flat",
+    "mana_flat",
+    "mana_regen_flat",
+    "thunder_resist_flat"
+  ]
+}

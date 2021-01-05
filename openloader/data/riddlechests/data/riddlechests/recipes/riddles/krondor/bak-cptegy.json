@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CPTEGY",
+   "riddle" : [
+      "Holes at the top",
+      "Holes at the bottom",
+      "Holes in the middle",
+      "But still it holds water"
+   ],
+   "solution" : "SPONGE",
+   "type" : "riddlechests:word"
+}

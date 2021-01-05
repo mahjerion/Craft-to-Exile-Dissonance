@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "PJBH",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the term for molten rock flowing",
+      "from a volcano or other fissure in the",
+      "Earth's surface"
+   ],
+   "solution" : "LAVA",
+   "type" : "riddlechests:word"
+}

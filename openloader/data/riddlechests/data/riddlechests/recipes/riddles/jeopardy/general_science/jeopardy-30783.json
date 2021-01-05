@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DRYON",
+   "riddle" : [
+      "General Science",
+      "",
+      "Water is fluoridated to help prevent",
+      "these body parts from decaying"
+   ],
+   "solution" : "TEETH",
+   "type" : "riddlechests:word"
+}

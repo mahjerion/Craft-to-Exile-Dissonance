@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "YFLK",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Ottoman Emperor Selim I is known by this",
+      "adjective, like a certain \"reaper\""
+   ],
+   "solution" : "GRIM",
+   "type" : "riddlechests:word"
+}

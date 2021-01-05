@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "KNOWF",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Egypt is the world's leading grower of",
+      "these palm fruits"
+   ],
+   "solution" : "DATES",
+   "type" : "riddlechests:word"
+}

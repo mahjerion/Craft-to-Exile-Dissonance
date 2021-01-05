@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YPZOSZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Anthracite, the highest grade of",
+      "coal, is composed almost entirely of",
+      "this element"
+   ],
+   "solution" : "CARBON",
+   "type" : "riddlechests:word"
+}

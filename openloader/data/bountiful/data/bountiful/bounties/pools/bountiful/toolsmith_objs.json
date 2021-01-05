@@ -1,0 +1,74 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:cobblestone",
+      "amountRange": {
+        "min": 8,
+        "max": 64
+      },
+      "unitWorth": 3,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:stick",
+      "amountRange": {
+        "min": 8,
+        "max": 64
+      },
+      "unitWorth": 5,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:iron_nugget",
+      "amountRange": {
+        "min": 3,
+        "max": 15
+      },
+      "unitWorth": 25,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:gold_nugget",
+      "amountRange": {
+        "min": 3,
+        "max": 15
+      },
+      "unitWorth": 60,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 600,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:diamond",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "pandoras_creatures:arachnon_crystal",
+      "amountRange": {
+        "min": 1,
+        "max": 12
+      },
+      "unitWorth": 1000,
+      "weight": 500
+    }
+  ]
+}

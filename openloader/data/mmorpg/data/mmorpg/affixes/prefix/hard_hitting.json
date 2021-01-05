@@ -1,0 +1,27 @@
+{
+  "id": "hard_hitting",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.hard_hitting",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "critical_damage_flat"
+  ]
+}

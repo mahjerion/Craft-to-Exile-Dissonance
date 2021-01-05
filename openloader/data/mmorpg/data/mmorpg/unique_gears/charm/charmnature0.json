@@ -1,0 +1,24 @@
+{
+  "id": "charmnature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.charmnature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.charmnature0.desc",
+  "primary_stats": [
+    "spell_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "health_flat",
+    "nature_penetration_flat",
+    "high_nature_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75,
+    "wisdom": 0.75
+  },
+  "gear_type": "charm",
+  "item_id": "mmorpg:uniques/charm/charmnature0"
+}

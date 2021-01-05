@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "MKPNZFD",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Manus is the largest of the Admiralty",
+      "Islands, which are found in this ocean"
+   ],
+   "solution" : "PACIFIC",
+   "type" : "riddlechests:word"
+}

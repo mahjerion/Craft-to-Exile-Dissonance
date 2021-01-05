@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CESSHDN",
+   "riddle" : [
+      "He stands beside the road in a purple cap and tattered green cloak",
+      "Those who touch him curse him"
+   ],
+   "solution" : "THISTLE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "angelic_raiment",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.angelic_raiment",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "plate_helmet",
+          "cloth_helmet",
+          "leather_helmet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 5,
+        "max_level": 35
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_dexterity_flat",
+    "3": "high_physical_damage_percent",
+    "4": "very_high_armor_penetration_flat"
+  }
+}

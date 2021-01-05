@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "toolbelt",
+  "pattern": [
+    "sls",
+    "l l",
+    "lil"
+  ],
+  "key": {
+    "s": { "item": "minecraft:string" },
+    "l": { "item": "minecraft:leather" },
+    "i": { "item": "mmorpg:mat/infused_iron" }
+  },
+  "result": {
+    "item": "toolbelt:belt"
+  }
+}

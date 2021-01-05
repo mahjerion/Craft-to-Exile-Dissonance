@@ -1,0 +1,23 @@
+{
+  "id": "of_guidance",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_guidance",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_helmet",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "bonus_exp_flat"
+  ]
+}

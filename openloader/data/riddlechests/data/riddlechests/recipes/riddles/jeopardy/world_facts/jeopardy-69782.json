@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "NLVKSTOKH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Oceania has 5 peaks exceeding 15,000",
+      "feet in height: all are in this",
+      "country's Sudirman & Jayawijaya ranges"
+   ],
+   "solution" : "INDONESIA",
+   "type" : "riddlechests:word"
+}

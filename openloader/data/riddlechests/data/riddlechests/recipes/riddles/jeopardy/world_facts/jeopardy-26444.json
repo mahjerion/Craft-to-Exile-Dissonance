@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "WODTOPFGTH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Fort-de-France is the largest city in",
+      "the French West Indies, as well as the",
+      "capital of this island"
+   ],
+   "solution" : "MARTINIQUE",
+   "type" : "riddlechests:word"
+}

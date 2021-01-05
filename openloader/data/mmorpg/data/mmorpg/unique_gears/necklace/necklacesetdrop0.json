@@ -1,0 +1,22 @@
+{
+  "id": "necklacesetdrop0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklacesetdrop0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacesetdrop0.desc",
+  "primary_stats": [
+    "spell_damage_flat"
+  ],
+  "unique_stats": [
+    "all_attributes_flat"
+  ],
+  "can_get_set": true,
+  "requirements": {
+    "stamina": 0.25,
+    "wisdom": 0.75
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklacesetdrop0"
+}

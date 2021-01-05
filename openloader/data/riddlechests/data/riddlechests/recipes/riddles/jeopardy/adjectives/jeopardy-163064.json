@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "OZYDEPI",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "V is for this adjective that can mean",
+      "green with vegetation"
+   ],
+   "solution" : "VERDANT",
+   "type" : "riddlechests:word"
+}

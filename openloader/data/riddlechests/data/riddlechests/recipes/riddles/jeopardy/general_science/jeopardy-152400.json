@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "OREAHRP",
+   "riddle" : [
+      "General Science",
+      "",
+      "2 compounds made of the same elements in",
+      "the same proportions but with different",
+      "properties are called these"
+   ],
+   "solution" : "ISOMERS",
+   "type" : "riddlechests:word"
+}

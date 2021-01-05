@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "WTBSRP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From the Old French for \"sweet\", it's a",
+      "tone sweet to the ear"
+   ],
+   "solution" : "DULCET",
+   "type" : "riddlechests:word"
+}

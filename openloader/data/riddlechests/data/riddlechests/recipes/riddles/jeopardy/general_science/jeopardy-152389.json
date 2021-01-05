@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FRHWTT",
+   "riddle" : [
+      "General Science",
+      "",
+      "The fifth & sixth of these subatomic",
+      "particles, bottom & top, were once",
+      "called truth & beauty"
+   ],
+   "solution" : "QUARKS",
+   "type" : "riddlechests:word"
+}

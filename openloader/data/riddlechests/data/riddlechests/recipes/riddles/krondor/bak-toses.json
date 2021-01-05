@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TOSES",
+   "riddle" : [
+      "Once alive but now twisted round",
+      "It is used by moredhel and men to punish their own kind"
+   ],
+   "solution" : "NOOSE",
+   "type" : "riddlechests:word"
+}

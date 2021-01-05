@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "OWVJBR",
+   "riddle" : [
+      "General Science",
+      "",
+      "Most sponge skeletons consist of",
+      "either calcium carbonate or this",
+      "glasslike mineral"
+   ],
+   "solution" : "SILICA",
+   "type" : "riddlechests:word"
+}

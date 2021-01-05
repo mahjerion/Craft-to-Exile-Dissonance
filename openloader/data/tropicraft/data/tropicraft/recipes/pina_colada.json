@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tropicraft:bamboo_mug"
+    },
+    {
+      "item": "tropicraft:coconut_chunk"
+    },
+    {
+      "item": "tropicraft:pineapple_cubes"
+    },
+    {
+      "item": "goodnightsleep:positite_gem"
+    }
+  ],
+  "result": {
+    "item": "tropicraft:pina_colada"
+  }
+}

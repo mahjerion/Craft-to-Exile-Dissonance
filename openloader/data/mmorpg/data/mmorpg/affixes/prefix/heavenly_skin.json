@@ -1,0 +1,35 @@
+{
+  "id": "heavenly_skin",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.heavenly_skin",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "shield",
+          "cloth_boots",
+          "plate_chest",
+          "plate_boots",
+          "leather_chest",
+          "cloth_helmet",
+          "cloth_pants",
+          "torch",
+          "leather_pants",
+          "cloth_chest",
+          "plate_pants",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "armor_percent",
+    "health_percent"
+  ]
+}

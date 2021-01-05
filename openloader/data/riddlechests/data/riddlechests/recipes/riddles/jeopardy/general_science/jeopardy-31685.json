@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZQYGUIEOQT",
+   "riddle" : [
+      "General Science",
+      "",
+      "This instrument is used to check the",
+      "density of liquids, such as the acid in",
+      "a storage battery"
+   ],
+   "solution" : "HYDROMETER",
+   "type" : "riddlechests:word"
+}

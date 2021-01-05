@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CUOHHD",
+   "riddle" : [
+      "Flat as a leaf",
+      "Round as a ring",
+      "Has two eyes",
+      "But can't see a thing"
+   ],
+   "solution" : "BUTTON",
+   "type" : "riddlechests:word"
+}

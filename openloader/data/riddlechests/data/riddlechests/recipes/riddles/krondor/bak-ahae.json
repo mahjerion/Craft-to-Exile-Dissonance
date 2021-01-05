@@ -1,0 +1,17 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "AHAE",
+   "riddle" : [
+      "Be you ever so quick",
+      "With vision keen",
+      "By your eyes",
+      "We are never seen",
+      "Unless perchance",
+      "It should come to pass",
+      "You see our reflection",
+      "In a looking glass"
+   ],
+   "solution" : "EYES",
+   "type" : "riddlechests:word"
+}

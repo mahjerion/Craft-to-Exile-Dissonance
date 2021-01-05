@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VIBFXH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It's the first adjective in the poem",
+      "\"The Raven\""
+   ],
+   "solution" : "DREARY",
+   "type" : "riddlechests:word"
+}

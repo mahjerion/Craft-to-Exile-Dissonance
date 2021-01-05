@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "AQKJGRTMXZKKVLM",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "A doctor could tell you this 15-letter",
+      "adjective means pertaining to the",
+      "heart & lungs"
+   ],
+   "solution" : "CARDIOPULMONARY",
+   "type" : "riddlechests:word"
+}

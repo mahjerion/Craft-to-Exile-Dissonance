@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QRKYZ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Llangollen in this country of the",
+      "United Kingdom is just over the border",
+      "from England"
+   ],
+   "solution" : "WALES",
+   "type" : "riddlechests:word"
+}

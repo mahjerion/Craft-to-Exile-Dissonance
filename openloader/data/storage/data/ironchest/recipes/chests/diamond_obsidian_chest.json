@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MAM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"A": {
+			"item": "mmorpg:mat/mythic_essence"
+		},
+		"M": {
+			"item": "minecraft:obsidian"
+		},
+		"S": {
+			"item": "ironchest:diamond_chest"
+		}
+	},
+	"result": {
+		"item": "ironchest:obsidian_chest"
+	}
+}

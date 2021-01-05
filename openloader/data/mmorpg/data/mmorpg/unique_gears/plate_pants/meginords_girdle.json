@@ -1,0 +1,25 @@
+{
+  "id": "meginords_girdle",
+  "weight": 10000,
+  "rarity":1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.pants.meginords_girdle",
+  "lang_file_desc_string": "item.mmorpg.uniques.pants.meginords_girdle.desc",
+  "primary_stats": [
+    "armor_flat"
+  ],
+  "unique_stats": [
+    "high_strength_flat",
+	"high_health_flat",
+    "high_health_percent",
+	"water_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 1.0,
+	"strength": 0.5
+  },
+  "gear_type": "plate_pants",
+  "item_id": "cte_uniques:plate_unique_1_leggings"
+}

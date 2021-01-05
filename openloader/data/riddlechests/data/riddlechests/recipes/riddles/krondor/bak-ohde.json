@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "OHDE",
+   "riddle" : [
+      "Its tail is round and hollow",
+      "Seems to get chewed a bit",
+      "But youll rarely see this thing",
+      "Unless the other end is lit"
+   ],
+   "solution" : "PIPE",
+   "type" : "riddlechests:word"
+}

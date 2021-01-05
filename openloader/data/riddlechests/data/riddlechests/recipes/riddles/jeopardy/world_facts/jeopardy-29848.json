@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "FWYUNAEW",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Romanians enjoy eating mamaliga, a bread",
+      "or mush made from this meal"
+   ],
+   "solution" : "CORNMEAL",
+   "type" : "riddlechests:word"
+}

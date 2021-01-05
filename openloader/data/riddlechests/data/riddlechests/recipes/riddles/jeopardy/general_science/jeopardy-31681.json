@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "TNCMA",
+   "riddle" : [
+      "General Science",
+      "",
+      "2 nebulae lie within this constellation,",
+      "the Hunter: the Great Nebula & the",
+      "Horsehead Nebula"
+   ],
+   "solution" : "ORION",
+   "type" : "riddlechests:word"
+}

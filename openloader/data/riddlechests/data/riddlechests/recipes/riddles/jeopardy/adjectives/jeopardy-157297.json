@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "GTCQKNVQ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 8-letter word describes the journey",
+      "of the \"Man of La Mancha\""
+   ],
+   "solution" : "QUIXOTIC",
+   "type" : "riddlechests:word"
+}

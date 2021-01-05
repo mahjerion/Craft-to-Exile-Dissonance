@@ -1,0 +1,28 @@
+{
+  "id": "ranger_armor",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.ranger_armor",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "leather_chest",
+          "leather_pants",
+          "leather_helmet"
+        ]
+      },
+      {
+        "min_level": 0,
+        "max_level": 25
+      }
+    ]
+  },
+  "mods": {
+    "2": "critical_damage_flat",
+    "3": "bow_damage_flat"
+  }
+}

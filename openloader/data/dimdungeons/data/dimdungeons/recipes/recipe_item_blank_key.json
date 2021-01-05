@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:name_tag"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "gaiadimension:goldstone"
+    },
+    {
+      "item": "gaiadimension:tektite"
+    },
+    {
+      "item": "mmorpg:teleport_scroll"
+    }
+  ],
+  "result": {
+    "item": "dimdungeons:item_portal_key"
+  }
+}

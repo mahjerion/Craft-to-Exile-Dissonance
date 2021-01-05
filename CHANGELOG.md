@@ -15,13 +15,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Legendary Ore Bees are no longer a thing. Misleading since legendary ore doesn't spawn!
 - Rathpith's Globe now provides increased critical hit chance instead of flat.
 - Dimensional Dungeon mobs now have much, much more HP.
+- Added 2 new Nether quests showcasing the Extended Nether update a bit.
+- Changed the dependencies for the quests linked to The Crux to now require Getting Started instead. This should allow for a smoother start.
+- New Craft to Exile menu!
 
 ### Mod Updates
 - Updated Extended Nether Backport, MineColonies, Mine and Slash.
+- Added FancyMenu.
+- Added Open Loader.
+- Removed Global Data Pack.
+- Removed PackMenu.
+- Removed It's The Little Things.
+- Removed Better Title Screen.
+- Removed XL Packets.
 
 ### Fixes
 - Nether crashes should more or less be resolved.
 - Fixed an issue with Productive Bees datapacks.
+- With the removal of It's The Little Things and XL Packets, very rare crashes upon start should be resolved.
 
 ## [2.8.0b] - 2020-01-01
 

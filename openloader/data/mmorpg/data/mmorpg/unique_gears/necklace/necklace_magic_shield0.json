@@ -1,0 +1,24 @@
+{
+  "id": "necklace_magic_shield0",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklace_magic_shield0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_magic_shield0.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "very_low_elemental_resist_flat",
+    "magic_shield_regen_flat",
+    "high_wisdom_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 0.75,
+    "wisdom": 0.5
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklace_magic_shield0"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "of_the_hydra",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_the_hydra",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_helmet",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "low_axe_damage_flat",
+    "low_bow_damage_flat",
+    "low_hammer_damage_flat"
+  ]
+}

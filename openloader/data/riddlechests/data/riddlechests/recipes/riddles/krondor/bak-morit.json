@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "MORIT",
+   "riddle" : [
+      "An untiring servant it is carrying loads across muddy earth",
+      "But one thing that cannot be forced is a return to the place of its birth"
+   ],
+   "solution" : "RIVER",
+   "type" : "riddlechests:word"
+}

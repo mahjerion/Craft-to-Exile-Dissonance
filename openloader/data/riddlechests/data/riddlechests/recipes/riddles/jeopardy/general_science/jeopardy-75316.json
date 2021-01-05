@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RSMTPBMAKRUTQP",
+   "riddle" : [
+      "General Science",
+      "",
+      "This new field of science whose name in",
+      "part means \"billionth\" constructs",
+      "superminiature devices"
+   ],
+   "solution" : "NANOTECHNOLOGY",
+   "type" : "riddlechests:word"
+}

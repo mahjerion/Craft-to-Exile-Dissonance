@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UJVTM",
+   "riddle" : [
+      "General Science",
+      "",
+      "By definition, bioluminescence is the",
+      "production of this by living organisms"
+   ],
+   "solution" : "LIGHT",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GAAXDOK",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 2014 scientists found the first",
+      "evidence of tectonic plates outside the",
+      "Earth on a moon of this largest planet"
+   ],
+   "solution" : "JUPITER",
+   "type" : "riddlechests:word"
+}

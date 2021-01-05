@@ -1,0 +1,25 @@
+{
+  "id": "charmwater0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.charmwater0",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.charmwater0.desc",
+  "primary_stats": [
+    "magic_shield_flat",
+    "health_flat"
+  ],
+  "unique_stats": [
+    "mana_to_energy_conversion_flat",
+    "high_armor_flat",
+    "water_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "charm",
+  "item_id": "mmorpg:uniques/charm/charmwater0"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GFZTNKVIH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Kangaroo Island is this country's third-",
+      "largest island"
+   ],
+   "solution" : "AUSTRALIA",
+   "type" : "riddlechests:word"
+}

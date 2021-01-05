@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "BIFXOOAS",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Published by Viking, these 1-volume",
+      "editions of authors are so called",
+      "because they can be carried around"
+   ],
+   "solution" : "PORTABLE",
+   "type" : "riddlechests:word"
+}

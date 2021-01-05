@@ -1,0 +1,25 @@
+{
+  "id": "frostbreath",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.hammer.frostbreath",
+  "lang_file_desc_string": "item.mmorpg.uniques.hammer.frostbreath.desc",
+  "primary_stats": [
+    "low_attack_water_damage_flat"
+  ],
+  "unique_stats": [
+    "strength_flat",
+    "water_spell_to_attack_dmg_flat",
+    "water_penetration_flat",
+	"fire_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "hammer",
+  "item_id": "cte_uniques:frostbreath"
+}

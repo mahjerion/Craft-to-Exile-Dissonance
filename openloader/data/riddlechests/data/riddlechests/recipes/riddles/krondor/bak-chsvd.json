@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CHSVD",
+   "riddle" : [
+      "You seek it out",
+      "When your hungers ripe",
+      "It sits on four legs",
+      "And smokes a pipe"
+   ],
+   "solution" : "STOVE",
+   "type" : "riddlechests:word"
+}

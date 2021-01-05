@@ -1,0 +1,21 @@
+{
+  "id": "unending_field",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.unending_field",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "magic_shield_regen_flat"
+  ]
+}

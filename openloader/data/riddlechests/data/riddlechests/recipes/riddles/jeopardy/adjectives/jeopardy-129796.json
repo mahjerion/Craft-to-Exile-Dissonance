@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SZKJRDKO",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From the name of a god, it can refer",
+      "to ancient books of secrets, or to",
+      "the airtight seal that was one of",
+      "the secrets"
+   ],
+   "solution" : "HERMETIC",
+   "type" : "riddlechests:word"
+}

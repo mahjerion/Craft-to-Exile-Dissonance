@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "HWXFPKMPY",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Some of the ancestors of this",
+      "country's Batak people, who live in",
+      "Sumatra, were cannibals"
+   ],
+   "solution" : "INDONESIA",
+   "type" : "riddlechests:word"
+}

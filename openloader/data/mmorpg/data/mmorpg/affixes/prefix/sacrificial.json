@@ -1,0 +1,22 @@
+{
+  "id": "sacrificial",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.sacrificial",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "charm"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "less_health_flat",
+    "luck_flat"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SARDS",
+   "riddle" : [
+      "The wheel is steered",
+      "Despite the night",
+      "They prefer our lead",
+      "More than the light"
+   ],
+   "solution" : "STARS",
+   "type" : "riddlechests:word"
+}

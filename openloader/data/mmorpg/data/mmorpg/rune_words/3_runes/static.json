@@ -1,0 +1,18 @@
+{
+  "id": "static",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.static",
+  "runes": [
+    "cen",
+    "ano",
+    "goh"
+  ],
+  "mods": [
+    "spell_thunder_damage_flat",
+    "low_cdr_flat",
+	"low_critical_hit_flat"
+  ]
+}

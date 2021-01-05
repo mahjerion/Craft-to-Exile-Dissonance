@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "WOTSOMEN",
+   "riddle" : [
+      "Six legs two heads two hands one long nose",
+      "Yet he uses only four legs wherever he goes"
+   ],
+   "solution" : "HORSEMAN",
+   "type" : "riddlechests:word"
+}

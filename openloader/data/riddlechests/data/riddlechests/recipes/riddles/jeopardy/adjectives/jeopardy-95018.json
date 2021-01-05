@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "EDOYGR",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Yawn! 6-letter word describing the dull,",
+      "tedious time spent drilling a hole"
+   ],
+   "solution" : "BORING",
+   "type" : "riddlechests:word"
+}

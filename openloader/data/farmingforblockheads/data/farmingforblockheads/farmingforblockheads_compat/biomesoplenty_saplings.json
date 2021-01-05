@@ -1,0 +1,98 @@
+{
+  "modId": "biomesoplenty",
+  "group": {
+    "name": "BiomesOPlenty Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "biomesoplenty:origin_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:flowering_oak_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:yellow_autumn_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:orange_autumn_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:maple_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:fir_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:redwood_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:white_cherry_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:pink_cherry_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:mahogany_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:jacaranda_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:palm_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:willow_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:dead_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:magic_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:umbran_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "biomesoplenty:hellbark_sapling"
+      }
+    }
+  ]
+}

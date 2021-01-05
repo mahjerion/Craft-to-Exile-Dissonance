@@ -1,0 +1,27 @@
+{
+  "id": "stone_of_jordan",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.stone_of_jordan",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.stone_of_jordan.desc",
+  "primary_stats": [
+    "high_mana_flat",
+	"mana_regen_flat"
+  ],
+  "unique_stats": [
+    "plus_ocean_skill_lvls_flat",
+    "plus_fire_skill_lvls_flat",
+    "plus_storm_skill_lvls_flat",
+    "plus_nature_skill_lvls_flat",
+    "plus_hunting_skill_lvls_flat",
+    "plus_divine_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.5
+  },
+  "gear_type": "ring",
+  "item_id": "cte_uniques:stone_of_jordan"
+}

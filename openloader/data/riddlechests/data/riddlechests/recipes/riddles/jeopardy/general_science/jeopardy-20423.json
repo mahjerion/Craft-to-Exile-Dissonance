@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "EWZFQNIUTVO",
+   "riddle" : [
+      "General Science",
+      "",
+      "Marble, which is formed from",
+      "limestone, is an example of this type",
+      "of changing rock"
+   ],
+   "solution" : "METAMORPHIC",
+   "type" : "riddlechests:word"
+}

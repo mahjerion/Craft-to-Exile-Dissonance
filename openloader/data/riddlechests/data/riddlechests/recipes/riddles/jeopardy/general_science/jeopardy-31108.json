@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LJTDKO",
+   "riddle" : [
+      "General Science",
+      "",
+      "A lens that curves inward is concave &",
+      "one that curves outward is this type"
+   ],
+   "solution" : "CONVEX",
+   "type" : "riddlechests:word"
+}

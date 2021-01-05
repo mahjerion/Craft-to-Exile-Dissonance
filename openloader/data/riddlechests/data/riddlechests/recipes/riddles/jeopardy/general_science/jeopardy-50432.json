@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MHOPBIW",
+   "riddle" : [
+      "General Science",
+      "",
+      "On the pH scale, a pH of 7 indicates",
+      "this type of solution"
+   ],
+   "solution" : "NEUTRAL",
+   "type" : "riddlechests:word"
+}

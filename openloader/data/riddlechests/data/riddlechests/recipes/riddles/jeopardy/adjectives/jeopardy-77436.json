@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "NYIWY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Lipton describes its teas with this 5-",
+      "letter adjective"
+   ],
+   "solution" : "BRISK",
+   "type" : "riddlechests:word"
+}

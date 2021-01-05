@@ -1,0 +1,37 @@
+{
+  "id": "artifact_armor",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.artifact_armor",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "cloth_boots",
+          "plate_chest",
+          "plate_boots",
+          "leather_chest",
+          "cloth_helmet",
+          "cloth_pants",
+          "leather_pants",
+          "cloth_chest",
+          "plate_pants",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 35,
+        "max_level": 70
+      }
+    ]
+  },
+  "mods": {
+    "2": "bonus_exp_flat",
+    "3": "health_percent",
+    "4": "very_high_armor_flat"
+  }
+}

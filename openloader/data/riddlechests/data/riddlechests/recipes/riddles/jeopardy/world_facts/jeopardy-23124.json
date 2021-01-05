@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "KJOAFKNU",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In 1982 the people of this Asian country",
+      "celebrated the bicentennial of the",
+      "Chakri dynasty"
+   ],
+   "solution" : "THAILAND",
+   "type" : "riddlechests:word"
+}

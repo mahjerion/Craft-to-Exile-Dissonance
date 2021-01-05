@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "JUVFIEUKR",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Marvelous, like Sam's hair care",
+      "franchises or 4 certain comic book",
+      "superheroes"
+   ],
+   "solution" : "FANTASTIC",
+   "type" : "riddlechests:word"
+}

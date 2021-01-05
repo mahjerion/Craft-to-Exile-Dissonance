@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YUPORPNI",
+   "riddle" : [
+      "General Science",
+      "",
+      "Sweeter than sucrose or glucose, this",
+      "fruit sugar is also called levulose"
+   ],
+   "solution" : "FRUCTOSE",
+   "type" : "riddlechests:word"
+}

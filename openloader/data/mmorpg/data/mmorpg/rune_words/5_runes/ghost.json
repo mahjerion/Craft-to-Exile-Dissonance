@@ -1,0 +1,21 @@
+{
+  "id": "ghost",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.ghost",
+  "runes": [
+    "voh",
+    "xah",
+    "ber",
+    "ano",
+    "cen"
+  ],
+  "mods": [
+	"physical_damage_percent",
+    "high_dodge_flat",
+    "dodge_percent",
+    "nature_resist_flat"
+  ]
+}

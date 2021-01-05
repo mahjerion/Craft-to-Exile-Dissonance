@@ -1,0 +1,25 @@
+{
+  "id": "rebuke_of_the_vaal",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal",
+  "lang_file_desc_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal.desc",
+  "primary_stats": [
+    "all_ele_dmg_flat"
+  ],
+  "unique_stats": [
+    "fire_spell_to_attack_dmg_flat",
+    "water_spell_to_attack_dmg_flat",
+    "thunder_spell_to_attack_dmg_flat",
+    "nature_spell_to_attack_dmg_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.25,
+	"intelligence": 0.75
+  },
+  "gear_type": "sword",
+  "item_id": "cte_uniques:rebuke_of_the_vaal"
+}

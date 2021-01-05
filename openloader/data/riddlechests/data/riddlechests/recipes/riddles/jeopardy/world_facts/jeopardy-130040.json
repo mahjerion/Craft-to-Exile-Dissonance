@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "RNRRRS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "It's the most widely spoken first",
+      "language in Israel"
+   ],
+   "solution" : "HEBREW",
+   "type" : "riddlechests:word"
+}

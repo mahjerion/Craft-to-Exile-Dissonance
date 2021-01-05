@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SOOES",
+   "riddle" : [
+      "With sharp edged wit",
+      "And pointed poise",
+      "It can settle disputes",
+      "Without a noise"
+   ],
+   "solution" : "SWORD",
+   "type" : "riddlechests:word"
+}

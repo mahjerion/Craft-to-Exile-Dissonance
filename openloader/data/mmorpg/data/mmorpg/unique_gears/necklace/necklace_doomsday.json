@@ -1,0 +1,27 @@
+{
+  "id": "necklace_doomsday",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklace_doomsday",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_doomsday.desc",
+  "primary_stats": [
+    "much_less_magic_shield_flat",
+    "much_less_health_flat"
+  ],
+  "unique_stats": [
+    "less_mana_regen_flat",
+    "much_less_energy_regen_flat",
+    "high_all_elemental_damage_flat",
+    "high_physical_damage_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.25,
+    "stamina": 0.25,
+    "wisdom": 0.25
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklace_doomsday"
+}

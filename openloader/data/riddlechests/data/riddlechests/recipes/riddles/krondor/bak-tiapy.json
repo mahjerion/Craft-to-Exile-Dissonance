@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TIAPY",
+   "riddle" : [
+      "Plow and hoe reap and sow",
+      "What soon does every farmer grow"
+   ],
+   "solution" : "WEARY",
+   "type" : "riddlechests:word"
+}

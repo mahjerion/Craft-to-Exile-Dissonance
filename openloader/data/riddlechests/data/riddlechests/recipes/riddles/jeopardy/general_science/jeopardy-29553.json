@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "QREJCC",
+   "riddle" : [
+      "General Science",
+      "",
+      "Lampblack, an amorphous form of this",
+      "element, is produced by burning liquid",
+      "fuel with too little air"
+   ],
+   "solution" : "CARBON",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "iii",
+    "i1i",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:plate_silver"
+    },
+    "m": {
+      "item": "mmorpg:currency/item_levelup"
+    },
+    "1": {
+      "item": "dankstorage:dank_4"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_5"
+  }
+}

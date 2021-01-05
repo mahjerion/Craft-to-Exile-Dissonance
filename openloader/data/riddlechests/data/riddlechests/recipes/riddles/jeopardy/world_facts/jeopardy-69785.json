@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QDMCKVP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The world's largest producer of",
+      "Brazil nuts is not Brazil but this",
+      "landlocked neighbor"
+   ],
+   "solution" : "BOLIVIA",
+   "type" : "riddlechests:word"
+}

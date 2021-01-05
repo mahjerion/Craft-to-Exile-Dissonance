@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "DXDAACIVE",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This country's ADF sent troops to the",
+      "Solomon Islands in 2006 to help restore",
+      "order following riots"
+   ],
+   "solution" : "AUSTRALIA",
+   "type" : "riddlechests:word"
+}

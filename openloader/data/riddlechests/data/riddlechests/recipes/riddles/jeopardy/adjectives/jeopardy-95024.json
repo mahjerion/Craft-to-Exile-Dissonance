@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "BZAPLHODG",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "A style of sofa, or an adjective",
+      "preceding \"playoffs\" in high school",
+      "sports"
+   ],
+   "solution" : "SECTIONAL",
+   "type" : "riddlechests:word"
+}

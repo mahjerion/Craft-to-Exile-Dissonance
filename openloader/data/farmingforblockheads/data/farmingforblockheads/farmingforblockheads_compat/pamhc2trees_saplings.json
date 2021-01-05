@@ -1,0 +1,259 @@
+{
+  "modId": "pamhc2trees",
+  "group": {
+    "name": "Pam's HarvestCraft 2 Trees Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "pamhc2trees:apple_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:avocado_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:candlenut_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cherry_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:chestnut_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:gooseberry_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lemon_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:nutmeg_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:orange_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:peach_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pear_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:plum_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:walnut_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:spiderweb_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:hazelnut_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pawpaw_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:soursop_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:almond_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:apricot_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:banana_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cashew_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:cinnamon_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:coconut_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:date_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:dragonfruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:durian_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:fig_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:grapefruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lime_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:mango_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:olive_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:papaya_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:paperbark_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pecan_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:peppercorn_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:persimmon_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pistachio_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pomegranate_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:starfruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:vanillabean_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:breadfruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:guava_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:jackfruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:lychee_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:passionfruit_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:rambutan_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:tamarind_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:maple_sapling"
+      }
+    },
+    {
+      "output": {
+        "item": "pamhc2trees:pinenut_sapling"
+      }
+    }
+  ]
+}

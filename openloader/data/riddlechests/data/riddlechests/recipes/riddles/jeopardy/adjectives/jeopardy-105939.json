@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SOYK",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "4-letter antonym of \"domesticated\""
+   ],
+   "solution" : "WILD",
+   "type" : "riddlechests:word"
+}

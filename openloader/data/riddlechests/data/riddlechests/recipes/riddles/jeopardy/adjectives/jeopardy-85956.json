@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "BSI",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It's used of bizarre behavior or the",
+      "numbers 37, 59, 83, etc."
+   ],
+   "solution" : "ODD",
+   "type" : "riddlechests:word"
+}

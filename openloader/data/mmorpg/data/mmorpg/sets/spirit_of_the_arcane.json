@@ -1,0 +1,29 @@
+{
+  "id": "spirit_of_the_arcane",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.spirit_of_the_arcane",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 50
+      }
+    ]
+  },
+  "mods": {
+    "2": "mana_flat",
+    "3": "magic_shield_flat",
+    "4": "spell_damage_flat"
+  }
+}

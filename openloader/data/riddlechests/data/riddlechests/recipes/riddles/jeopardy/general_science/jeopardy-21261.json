@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FXANBX",
+   "riddle" : [
+      "General Science",
+      "",
+      "There are thought to be 6 types of these",
+      "hypothetical particles, incl. \"up\",",
+      "\"down\" & \"strange\""
+   ],
+   "solution" : "QUARKS",
+   "type" : "riddlechests:word"
+}

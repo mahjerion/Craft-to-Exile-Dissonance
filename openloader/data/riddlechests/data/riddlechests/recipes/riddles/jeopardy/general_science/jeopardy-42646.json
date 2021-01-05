@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UVCJQLB",
+   "riddle" : [
+      "General Science",
+      "",
+      "This tiny planet's thin atmosphere is",
+      "mostly composed of helium & sodium",
+      "thought to come from the solar wind"
+   ],
+   "solution" : "MERCURY",
+   "type" : "riddlechests:word"
+}

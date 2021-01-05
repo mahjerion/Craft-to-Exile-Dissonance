@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "AXGU",
+   "riddle" : [
+      "General Science",
+      "",
+      "Biologically speaking, something that is",
+      "subcutaneous is beneath this"
+   ],
+   "solution" : "SKIN",
+   "type" : "riddlechests:word"
+}

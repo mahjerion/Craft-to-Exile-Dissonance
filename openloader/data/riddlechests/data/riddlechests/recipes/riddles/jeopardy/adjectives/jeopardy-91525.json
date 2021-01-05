@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "UDIPKLQBM",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective is used to describe a",
+      "tree that sheds its leaves annually"
+   ],
+   "solution" : "DECIDUOUS",
+   "type" : "riddlechests:word"
+}

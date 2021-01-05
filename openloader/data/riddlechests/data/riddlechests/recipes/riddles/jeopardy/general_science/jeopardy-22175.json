@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KGABD",
+   "riddle" : [
+      "General Science",
+      "",
+      "A hydrate contains this compound weakly",
+      "bound in its crystals"
+   ],
+   "solution" : "WATER",
+   "type" : "riddlechests:word"
+}

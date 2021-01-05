@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "GQBMWB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "In cooking, this adjective usually",
+      "follows a noun & tells us the food is",
+      "covered with blazing liquor"
+   ],
+   "solution" : "FLAMBE",
+   "type" : "riddlechests:word"
+}

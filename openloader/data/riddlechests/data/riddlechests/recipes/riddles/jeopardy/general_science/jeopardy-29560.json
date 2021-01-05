@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MZGFUJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "It has the lowest boiling point of any",
+      "element, -452 degrees Fahrenheit"
+   ],
+   "solution" : "HELIUM",
+   "type" : "riddlechests:word"
+}

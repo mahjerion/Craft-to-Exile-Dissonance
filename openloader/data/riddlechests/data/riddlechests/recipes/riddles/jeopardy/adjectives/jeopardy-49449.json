@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "NWZSUIBC",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It can refer to a person without mercy",
+      "or to a Bible missing the book between",
+      "Judges & Samuel"
+   ],
+   "solution" : "RUTHLESS",
+   "type" : "riddlechests:word"
+}

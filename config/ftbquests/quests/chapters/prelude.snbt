@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "prelude",
-	order_index: 1,
+	order_index: 2,
 	title: "Prelude: Overworld",
 	icon: "minecraft:grass_block",
 	always_invisible: false,
@@ -227,7 +227,7 @@
 			size: 1.0d,
 			description: ["In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair equipment or craft special items. Check JEI for more information."],
 			min_required_dependencies: 0,
-			dependencies: [I;7],
+			dependencies: [I;3],
 			dependency_requirement: "all_completed",
 			id: 19,
 			tasks: [{
@@ -1594,7 +1594,7 @@
 				"Kill cave spiders!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;7],
+			dependencies: [I;3],
 			dependency_requirement: "all_completed",
 			id: 1542,
 			tasks: [{

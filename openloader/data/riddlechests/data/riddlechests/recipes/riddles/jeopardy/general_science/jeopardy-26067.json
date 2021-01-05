@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZZEXWKM",
+   "riddle" : [
+      "General Science",
+      "",
+      "The name of this violent tropical",
+      "cyclone of the Western Pacific comes",
+      "from Cantonese for \"Big Wind\""
+   ],
+   "solution" : "TYPHOON",
+   "type" : "riddlechests:word"
+}

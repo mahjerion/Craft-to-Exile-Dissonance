@@ -1,0 +1,11 @@
+{
+    "primaryColor": "#f2f24f",
+    "secondaryColor": "#d0581f",
+    "createComb": false,
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "allthemodium"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ECYZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Technically, the measure of a body's",
+      "inertia is known as this property of",
+      "matter"
+   ],
+   "solution" : "MASS",
+   "type" : "riddlechests:word"
+}

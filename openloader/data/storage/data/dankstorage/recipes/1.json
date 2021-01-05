@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rbr",
+    "rmr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:iron_ingot"
+    },
+    "m": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "b": {
+      "item": "ironchest:dirt_chest"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PERDE",
+   "riddle" : [
+      "The language of men can be mastered",
+      "But what Kingdom word is always pronounced wrong"
+   ],
+   "solution" : "WRONG",
+   "type" : "riddlechests:word"
+}

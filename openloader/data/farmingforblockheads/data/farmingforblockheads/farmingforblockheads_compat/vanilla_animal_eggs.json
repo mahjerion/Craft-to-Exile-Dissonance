@@ -1,0 +1,82 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Animal Eggs",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:chicken_spawn_egg"
+    },
+    {
+      "output": "minecraft:cod_spawn_egg"
+    },
+    {
+      "output": "minecraft:cow_spawn_egg"
+    },
+    {
+      "output": "minecraft:dolphin_spawn_egg"
+    },
+    {
+      "output": "minecraft:donkey_spawn_egg"
+    },
+    {
+      "output": "minecraft:horse_spawn_egg"
+    },
+    {
+      "output": "minecraft:llama_spawn_egg"
+    },
+    {
+      "output": "minecraft:mooshroom_spawn_egg"
+    },
+    {
+      "output": "minecraft:mule_spawn_egg"
+    },
+    {
+      "output": "minecraft:ocelot_spawn_egg"
+    },
+    {
+      "output": "minecraft:parrot_spawn_egg"
+    },
+    {
+      "output": "minecraft:pig_spawn_egg"
+    },
+    {
+      "output": "minecraft:polar_bear_spawn_egg"
+    },
+    {
+      "output": "minecraft:pufferfish_spawn_egg"
+    },
+    {
+      "output": "minecraft:rabbit_spawn_egg"
+    },
+    {
+      "output": "minecraft:salmon_spawn_egg"
+    },
+    {
+      "output": "minecraft:sheep_spawn_egg"
+    },
+    {
+      "output": "minecraft:squid_spawn_egg"
+    },
+    {
+      "output": "minecraft:tropical_fish_spawn_egg"
+    },
+    {
+      "output": "minecraft:turtle_spawn_egg"
+    },
+    {
+      "output": "minecraft:wolf_spawn_egg"
+    },
+    {
+      "output": "minecraft:panda_spawn_egg"
+    },
+    {
+      "output": "minecraft:bee_spawn_egg"
+    }
+  ]
+}

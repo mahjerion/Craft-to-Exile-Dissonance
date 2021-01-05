@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "HKRLS",
+   "riddle" : [
+      "General Science",
+      "",
+      "Emeralds & aquamarines are forms of",
+      "this mineral"
+   ],
+   "solution" : "BERYL",
+   "type" : "riddlechests:word"
+}

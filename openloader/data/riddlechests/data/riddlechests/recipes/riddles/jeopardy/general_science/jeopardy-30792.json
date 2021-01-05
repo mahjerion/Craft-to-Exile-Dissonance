@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LTHQTNZOK",
+   "riddle" : [
+      "General Science",
+      "",
+      "Its symbol K comes from kalium, a",
+      "Latinized version of the Arabic word",
+      "for alkali"
+   ],
+   "solution" : "POTASSIUM",
+   "type" : "riddlechests:word"
+}

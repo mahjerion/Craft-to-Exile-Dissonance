@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VOILS",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This word describing a strong, muscular",
+      "lumberjack is often paired with hurly"
+   ],
+   "solution" : "BURLY",
+   "type" : "riddlechests:word"
+}

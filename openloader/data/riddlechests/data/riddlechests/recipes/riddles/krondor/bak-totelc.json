@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TOTELC",
+   "riddle" : [
+      "Stay away fom these hideous beasts",
+      "They kill our females and chidren"
+   ],
+   "solution" : "TROLLS",
+   "type" : "riddlechests:word"
+}

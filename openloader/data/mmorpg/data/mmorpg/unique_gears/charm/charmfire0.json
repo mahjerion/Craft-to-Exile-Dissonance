@@ -1,0 +1,24 @@
+{
+  "id": "charmfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.charmfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.charmfire0.desc",
+  "primary_stats": [
+    "spell_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "mana_regen_percent",
+    "high_fire_penetration_flat",
+    "fire_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "charm",
+  "item_id": "mmorpg:uniques/charm/charmfire0"
+}

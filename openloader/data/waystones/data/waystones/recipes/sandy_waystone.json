@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "waystones:sandy_waystone"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "SWS",
+    "ODO"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "O": {
+      "item": "mmorpg:mat/crystallized_essence"
+    }
+  }
+}

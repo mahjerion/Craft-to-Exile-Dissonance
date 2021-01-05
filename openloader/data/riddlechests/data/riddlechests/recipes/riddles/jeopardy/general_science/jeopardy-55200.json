@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LATETUR",
+   "riddle" : [
+      "General Science",
+      "",
+      "This brownish-black pigment gives the",
+      "iris in the eye its color"
+   ],
+   "solution" : "MELANIN",
+   "type" : "riddlechests:word"
+}

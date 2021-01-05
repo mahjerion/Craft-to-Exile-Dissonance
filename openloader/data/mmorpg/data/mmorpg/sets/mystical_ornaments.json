@@ -1,0 +1,30 @@
+{
+  "id": "mystical_ornaments",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.mystical_ornaments",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": {
+    "2": "nature_resist_flat",
+    "3": "thunder_resist_flat",
+    "4": "nature_spell_to_attack_dmg_flat",
+    "5": "thunder_spell_to_attack_dmg_flat"
+  }
+}

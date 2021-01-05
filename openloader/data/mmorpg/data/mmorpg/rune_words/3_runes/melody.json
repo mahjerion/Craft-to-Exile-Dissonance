@@ -1,0 +1,18 @@
+{
+  "id": "melody",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.melody",
+  "runes": [
+    "ber",
+    "cen",
+    "mos"
+  ],
+  "mods": [
+    "bow_damage_flat",
+	"dexterity_flat",
+	"dodge_flat"
+  ]
+}

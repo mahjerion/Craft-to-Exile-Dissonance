@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MHGEXR",
+   "riddle" : [
+      "General Science",
+      "",
+      "This white, glossy coating on your",
+      "teeth is the hardest substance in the",
+      "human body"
+   ],
+   "solution" : "ENAMEL",
+   "type" : "riddlechests:word"
+}

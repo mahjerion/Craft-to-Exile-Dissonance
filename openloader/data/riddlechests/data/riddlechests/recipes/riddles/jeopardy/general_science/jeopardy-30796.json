@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GFPLZHB",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the type of energy a body possesses",
+      "by virtue of its movement"
+   ],
+   "solution" : "KINETIC",
+   "type" : "riddlechests:word"
+}

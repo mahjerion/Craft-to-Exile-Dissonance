@@ -1,0 +1,21 @@
+{
+  "id": "purity",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.purity",
+  "runes": [
+    "goh",
+    "ano",
+    "dos",
+    "cen",
+    "mos"
+  ],
+  "mods": [
+	"plus_divine_skill_lvls_flat",
+    "health_regen_flat",
+    "health_flat",
+    "mana_regen_flat"
+  ]
+}

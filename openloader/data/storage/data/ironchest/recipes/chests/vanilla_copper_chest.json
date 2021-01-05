@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"MAM",
+		"MSM",
+		"MMM"
+	],
+	"key": {
+		"A": {
+			"item": "mmorpg:ore1"
+		},
+		"M": {
+			"tag": "forge:ingots/copper"
+		},
+		"S": {
+			"tag": "forge:chests/wooden"
+		}
+	},
+	"result": {
+		"item": "ironchest:copper_chest"
+	}
+}

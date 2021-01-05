@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "PVZDCAG",
+   "riddle" : [
+      "General Science",
+      "",
+      "g. Acceleration due to this, varies",
+      "   slightly with latitude since the",
+      "   Earth is not a perfect sphere"
+   ],
+   "solution" : "GRAVITY",
+   "type" : "riddlechests:word"
+}

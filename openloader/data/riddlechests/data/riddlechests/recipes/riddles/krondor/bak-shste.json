@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHSTE",
+   "riddle" : [
+      "He got it in the woods and brought it home in his hand because he couldn't",
+      "find it",
+      "The more he looked for it the more he felt it",
+      "When he finally found it he threw it away"
+   ],
+   "solution" : "THORN",
+   "type" : "riddlechests:word"
+}

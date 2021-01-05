@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:crops/apple"
+    },
+    {
+      "tag": "forge:crops/apple"
+    },
+    {
+      "tag": "forge:crops/apple"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcore:applesauceitem",
+	"count": 1}
+	
+}

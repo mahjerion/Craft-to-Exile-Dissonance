@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XPXJW",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "When found before \"potato\", it's not a",
+      "potato; before \"meats\", not meats; &",
+      "before \"bread\", not bread"
+   ],
+   "solution" : "SWEET",
+   "type" : "riddlechests:word"
+}

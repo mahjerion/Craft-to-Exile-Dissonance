@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ZFHXFBE",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In 1989, a year of political change in",
+      "Europe, this country that borders China",
+      "changed its name"
+   ],
+   "solution" : "MYANMAR",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QAYJG",
+   "riddle" : [
+      "World Facts",
+      "",
+      "A seafood cocktail called zarzuela is a",
+      "specialty of this country's Costa Brava"
+   ],
+   "solution" : "SPAIN",
+   "type" : "riddlechests:word"
+}

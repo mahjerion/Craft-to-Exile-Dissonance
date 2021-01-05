@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "QZROZIR",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective found before \"law\" &",
+      "\"arts\" means \"warlike\""
+   ],
+   "solution" : "MARTIAL",
+   "type" : "riddlechests:word"
+}

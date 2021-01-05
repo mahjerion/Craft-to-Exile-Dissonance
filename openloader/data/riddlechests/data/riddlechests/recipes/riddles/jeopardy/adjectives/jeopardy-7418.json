@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "RUFIPVZJ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Abbreviated \"mil.\", it means pertaining",
+      "to soldiers"
+   ],
+   "solution" : "MILITARY",
+   "type" : "riddlechests:word"
+}

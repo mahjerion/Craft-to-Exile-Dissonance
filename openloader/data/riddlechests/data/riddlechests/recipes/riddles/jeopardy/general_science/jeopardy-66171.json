@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "QXIZMAX",
+   "riddle" : [
+      "General Science",
+      "",
+      "This aluminum ore is named for the",
+      "French village near where it was",
+      "discovered in 1821"
+   ],
+   "solution" : "BAUXITE",
+   "type" : "riddlechests:word"
+}

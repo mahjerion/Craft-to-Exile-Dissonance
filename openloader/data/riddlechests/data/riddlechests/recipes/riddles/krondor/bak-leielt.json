@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "LEIELT",
+   "riddle" : [
+      "You see me oft",
+      "In woods and town",
+      "With my roots above",
+      "I must grow down"
+   ],
+   "solution" : "ICICLE",
+   "type" : "riddlechests:word"
+}

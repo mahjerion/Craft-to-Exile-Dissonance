@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "WEMHI",
+   "riddle" : [
+      "A barrel of rainwater weighs twenty pounds.",
+      "What must you add to make it weigh fifteen?"
+   ],
+   "solution" : "HOLES",
+   "type" : "riddlechests:word"
+}

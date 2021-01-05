@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "PQZZG",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "In a natural, unrefined state, like",
+      "raw petroleum"
+   ],
+   "solution" : "CRUDE",
+   "type" : "riddlechests:word"
+}

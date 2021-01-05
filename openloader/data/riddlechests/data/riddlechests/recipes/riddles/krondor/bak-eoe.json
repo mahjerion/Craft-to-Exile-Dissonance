@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "EOE",
+   "riddle" : [
+      "When it comes in",
+      "From sea to shore",
+      "Twenty paces you'll see ",
+      "No less no more"
+   ],
+   "solution" : "FOG",
+   "type" : "riddlechests:word"
+}

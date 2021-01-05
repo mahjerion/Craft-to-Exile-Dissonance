@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SELET",
+   "riddle" : [
+      "A strange earthen house",
+      "That brings nought but disdain",
+      "And yet those who stay there",
+      "Never do complain"
+   ],
+   "solution" : "GRAVE",
+   "type" : "riddlechests:word"
+}

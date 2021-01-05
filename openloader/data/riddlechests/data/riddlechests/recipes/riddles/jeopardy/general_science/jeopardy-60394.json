@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YBVFTVW",
+   "riddle" : [
+      "General Science",
+      "",
+      "The Earth's crust consists of about 46%",
+      "oxygen; this element is second most",
+      "abundant at about 28%"
+   ],
+   "solution" : "SILICON",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TERIES",
+   "riddle" : [
+      "Up and down they go but never move"
+   ],
+   "solution" : "STAIRS",
+   "type" : "riddlechests:word"
+}

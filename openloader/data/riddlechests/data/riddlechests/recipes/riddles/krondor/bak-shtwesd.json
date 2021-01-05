@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SHT WESD",
+   "riddle" : [
+      "They feel no pain",
+      "No sorrow no greed",
+      "They have no anger",
+      "No hatred nor need"
+   ],
+   "solution" : "THE DEAD",
+   "type" : "riddlechests:word"
+}

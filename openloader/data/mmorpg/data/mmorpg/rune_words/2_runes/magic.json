@@ -1,0 +1,16 @@
+{
+  "id": "magic",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.magic",
+  "runes": [
+    "ano",
+    "mos"
+  ],
+  "mods": [
+    "low_spell_damage_flat",
+    "magic_shield_percent"
+  ]
+}

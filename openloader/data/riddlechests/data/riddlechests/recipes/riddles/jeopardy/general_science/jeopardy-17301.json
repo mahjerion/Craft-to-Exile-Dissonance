@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZKNBROVFRR",
+   "riddle" : [
+      "General Science",
+      "",
+      "The horn or horns on this animal, whose",
+      "name is Greek for \"nose horn\" are",
+      "always growing"
+   ],
+   "solution" : "RHINOCEROS",
+   "type" : "riddlechests:word"
+}

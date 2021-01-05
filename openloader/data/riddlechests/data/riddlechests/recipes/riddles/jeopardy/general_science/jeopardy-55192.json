@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "BBRJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the celestial object on which",
+      "you'd find Tycho, Oceanus Procellarum &",
+      "Mare Imbrium"
+   ],
+   "solution" : "MOON",
+   "type" : "riddlechests:word"
+}

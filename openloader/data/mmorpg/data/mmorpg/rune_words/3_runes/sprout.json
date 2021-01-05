@@ -1,0 +1,18 @@
+{
+  "id": "sprout",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.sprout",
+  "runes": [
+    "goh",
+    "ber",
+    "ano"
+  ],
+  "mods": [
+    "spell_water_damage_flat",
+    "mana_regen_flat",
+	"thunder_resist_flat"
+  ]
+}

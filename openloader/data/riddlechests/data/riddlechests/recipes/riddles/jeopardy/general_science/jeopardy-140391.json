@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KTRFDQDEM",
+   "riddle" : [
+      "General Science",
+      "",
+      "The name of this geologic era in which",
+      "amphibians & reptiles were introduced",
+      "means \"ancient life\""
+   ],
+   "solution" : "PALEOZOIC",
+   "type" : "riddlechests:word"
+}

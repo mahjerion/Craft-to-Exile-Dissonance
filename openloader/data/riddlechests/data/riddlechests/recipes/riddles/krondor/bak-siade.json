@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SIADE",
+   "riddle" : [
+      "Widows and orphans",
+      "Parents and kin",
+      "This is disturbed most by riots and war"
+   ],
+   "solution" : "PEACE",
+   "type" : "riddlechests:word"
+}

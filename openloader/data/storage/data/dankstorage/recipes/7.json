@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "iii",
+    "i1i",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:storage_uranium"
+    },
+    "m": {
+      "item": "mmorpg:currency/reroll_set"
+    },
+    "1": {
+      "item": "dankstorage:dank_6"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_7"
+  }
+}

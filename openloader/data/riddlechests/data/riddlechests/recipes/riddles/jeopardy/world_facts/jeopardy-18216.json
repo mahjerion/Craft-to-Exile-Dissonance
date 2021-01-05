@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "NLVIDFLIUHS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "As a British mandate & emirate, Jordan",
+      "was known by this longer name"
+   ],
+   "solution" : "TRANSJORDAN",
+   "type" : "riddlechests:word"
+}

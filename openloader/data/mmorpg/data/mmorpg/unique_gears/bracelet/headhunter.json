@@ -1,0 +1,24 @@
+{
+  "id": "headhunter",
+  "weight": 1,
+  "rarity": 4,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.headhunter",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.headhunter.desc",
+  "primary_stats": [
+    "high_health_flat"
+  ],
+  "unique_stats": [
+    "very_high_health_flat",
+    "high_all_attributes_flat",
+	"high_physical_damage_flat",
+	"high_all_elemental_damage_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 1.0
+  },
+  "gear_type": "bracelet",
+  "item_id": "cte_uniques:headhunter"
+}

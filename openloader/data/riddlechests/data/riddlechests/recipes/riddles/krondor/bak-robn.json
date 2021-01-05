@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "ROBN",
+   "riddle" : [
+      "A precious gift this",
+      "Yet it has no end or beginning",
+      "And in the middle nothing "
+   ],
+   "solution" : "RING",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "QHYOPHMM",
+   "riddle" : [
+      "General Science",
+      "",
+      "According to Boyle's Law, when a gas is",
+      "compressed to half its size, this",
+      "doubles"
+   ],
+   "solution" : "PRESSURE",
+   "type" : "riddlechests:word"
+}

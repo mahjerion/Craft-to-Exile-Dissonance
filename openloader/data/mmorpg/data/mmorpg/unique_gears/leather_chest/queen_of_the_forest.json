@@ -1,0 +1,24 @@
+{
+  "id": "queen_of_the_forest",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.queen_of_the_forest",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.queen_of_the_forest.desc",
+  "primary_stats": [
+    "very_high_dodge_flat"
+  ],
+  "unique_stats": [
+    "high_dodge_percent",
+	"health_flat",
+    "low_elemental_resist_flat",
+    "high_bow_damage_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.1
+  },
+  "gear_type": "leather_chest",
+  "item_id": "cte_uniques:leather_unique_1_chestplate"
+}

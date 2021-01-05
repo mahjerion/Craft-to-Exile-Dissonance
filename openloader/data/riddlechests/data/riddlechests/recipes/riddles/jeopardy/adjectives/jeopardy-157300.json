@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "AYLBBOLXQXT",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Neither donkey nor elephant, the",
+      "Congressional Budget Office says it",
+      "offers this type of objective analysis"
+   ],
+   "solution" : "NONPARTISAN",
+   "type" : "riddlechests:word"
+}

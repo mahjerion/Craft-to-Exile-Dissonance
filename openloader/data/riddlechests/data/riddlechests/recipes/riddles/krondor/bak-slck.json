@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SLCK",
+   "riddle" : [
+      "You hear it speak",
+      "For it has a hard tongue",
+      "But it cannot breathe",
+      "For it has not a lung"
+   ],
+   "solution" : "BELL",
+   "type" : "riddlechests:word"
+}

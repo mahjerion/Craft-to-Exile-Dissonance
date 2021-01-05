@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YCVZB",
+   "riddle" : [
+      "World Facts",
+      "",
+      "It's the religion of most of the people",
+      "in Mauritania"
+   ],
+   "solution" : "ISLAM",
+   "type" : "riddlechests:word"
+}

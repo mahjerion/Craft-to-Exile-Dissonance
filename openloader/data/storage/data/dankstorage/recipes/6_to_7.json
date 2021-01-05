@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "isi",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:storage_uranium"
+    },
+    "m": {
+      "item": "mmorpg:currency/reroll_set"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:6_to_7"
+  }
+}

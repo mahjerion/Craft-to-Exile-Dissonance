@@ -1,0 +1,23 @@
+{
+  "id": "braceletthunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.braceletthunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletthunder0.desc",
+  "primary_stats": [
+    "spell_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "very_high_critical_hit_percent",
+    "very_high_critical_damage_percent",
+    "strength_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75
+  },
+  "gear_type": "bracelet",
+  "item_id": "mmorpg:uniques/bracelet/braceletthunder0"
+}

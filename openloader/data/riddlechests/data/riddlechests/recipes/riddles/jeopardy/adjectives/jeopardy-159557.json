@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ICFOYHPBXH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Tragically, the Titanic didn't live up",
+      "to this adjective that became Molly",
+      "Brown's moniker"
+   ],
+   "solution" : "UNSINKABLE",
+   "type" : "riddlechests:word"
+}

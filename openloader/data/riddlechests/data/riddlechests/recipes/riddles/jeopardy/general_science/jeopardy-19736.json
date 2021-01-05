@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ULYDN",
+   "riddle" : [
+      "General Science",
+      "",
+      "Under the oceans, this part of the Earth",
+      "is generally only 3-5 miles thick"
+   ],
+   "solution" : "CRUST",
+   "type" : "riddlechests:word"
+}

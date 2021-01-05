@@ -1,0 +1,19 @@
+{
+  "id": "fortitude",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.fortitude",
+  "runes": [
+    "cen",
+    "goh",
+    "ita",
+    "mos"
+  ],
+  "mods": [
+    "high_health_flat",
+    "very_high_armor_flat",
+	"armor_percent
+  ]
+}

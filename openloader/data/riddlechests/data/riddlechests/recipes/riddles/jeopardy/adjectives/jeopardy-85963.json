@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "GDFOIGF",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "13 popes have been Innocent; 14 have",
+      "been this, meaning \"merciful\""
+   ],
+   "solution" : "CLEMENT",
+   "type" : "riddlechests:word"
+}

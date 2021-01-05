@@ -1,0 +1,16 @@
+{
+  "id": "attuned",
+  "weight": 75,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.attuned",
+  "runes": [
+    "rah",
+    "qar",
+    "ber"
+  ],
+  "mods": [
+    "high_elemental_resist_flat"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "NOCH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Liberia's flag has 11 stripes but just",
+      "one of these"
+   ],
+   "solution" : "STAR",
+   "type" : "riddlechests:word"
+}

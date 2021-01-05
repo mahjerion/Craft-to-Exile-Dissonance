@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "isi",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:plate_uranium"
+    },
+    "m": {
+      "item": "mmorpg:currency/create_new_unique"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:5_to_6"
+  }
+}

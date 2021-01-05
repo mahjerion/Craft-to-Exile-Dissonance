@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "FSAOT",
+   "riddle" : [
+      "All about the house",
+      "With his Lady he dances",
+      "Yet he always works",
+      "And never romances"
+   ],
+   "solution" : "BROOM",
+   "type" : "riddlechests:word"
+}

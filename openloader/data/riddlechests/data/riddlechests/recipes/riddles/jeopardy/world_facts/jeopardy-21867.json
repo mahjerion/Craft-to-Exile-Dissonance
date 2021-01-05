@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "XDUTH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This country's Kathmandu Valley was once",
+      "home to 3 principalities"
+   ],
+   "solution" : "NEPAL",
+   "type" : "riddlechests:word"
+}

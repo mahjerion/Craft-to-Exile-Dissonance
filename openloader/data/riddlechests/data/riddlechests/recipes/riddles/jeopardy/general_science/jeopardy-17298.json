@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FDNTD",
+   "riddle" : [
+      "General Science",
+      "",
+      "Chambers in a canal used to move ships",
+      "from 1 water level to another"
+   ],
+   "solution" : "LOCKS",
+   "type" : "riddlechests:word"
+}

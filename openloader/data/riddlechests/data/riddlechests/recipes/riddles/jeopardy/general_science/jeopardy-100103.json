@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "DHGSJJDWGBHQX",
+   "riddle" : [
+      "General Science",
+      "",
+      "Diatoms are among the most numerous of",
+      "these plantlike plankton that drift with",
+      "the ocean currents"
+   ],
+   "solution" : "PHYTOPLANKTON",
+   "type" : "riddlechests:word"
+}

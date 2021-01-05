@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CIC",
+    "IDI",
+    "CFC"
+  ],
+  "key": {
+    "C": {
+      "item": "calemiutils:gold_chip"
+    },
+    "I": {
+      "item" : "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "calemiutils:coin_dollar"
+    },
+    "F": {
+      "item": "farmingforblockheads:market"
+    }
+  },
+  "result": {
+    "item": "calemiutils:market",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "WPCLK",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "An adjective meaning \"elaborate\"; to",
+      "Brits, it's a verb meaning \"to like or",
+      "enjoy\""
+   ],
+   "solution" : "FANCY",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "of_the_thimble",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_the_thimble",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "bow",
+		  "crossbow"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "energy_flat",
+	"energy_regen_percent"
+  ]
+}

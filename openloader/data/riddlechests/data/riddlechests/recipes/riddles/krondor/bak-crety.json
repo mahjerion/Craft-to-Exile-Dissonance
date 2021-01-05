@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CRETY",
+   "riddle" : [
+      "We travel much yet prisoners are",
+      "And close confined to boot",
+      "Yet with any horse we will keep pace",
+      "And always go on foot"
+   ],
+   "solution" : "SPURS",
+   "type" : "riddlechests:word"
+}

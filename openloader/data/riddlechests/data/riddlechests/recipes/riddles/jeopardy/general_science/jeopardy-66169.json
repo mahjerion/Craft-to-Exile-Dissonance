@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "XQDKGW",
+   "riddle" : [
+      "General Science",
+      "",
+      "Like our moon, only one side of Titan,",
+      "this planet's satellite, always faces",
+      "the planet's surface"
+   ],
+   "solution" : "SATURN",
+   "type" : "riddlechests:word"
+}

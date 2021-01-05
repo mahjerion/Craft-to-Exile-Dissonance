@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ECNRQTRHC",
+   "riddle" : [
+      "World Facts",
+      "",
+      "You'll find the Museum of Catalan",
+      "Art in this Spanish city, the",
+      "capital of Catalonia"
+   ],
+   "solution" : "BARCELONA",
+   "type" : "riddlechests:word"
+}

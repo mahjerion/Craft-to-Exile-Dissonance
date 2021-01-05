@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "SVET",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Via Condotti is one of the most",
+      "elegant shopping streets in this",
+      "capital city"
+   ],
+   "solution" : "ROME",
+   "type" : "riddlechests:word"
+}

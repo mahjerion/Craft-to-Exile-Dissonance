@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XBGDQATJYB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It can mean difficult to understand, or",
+      "traveling in a route similar to a",
+      "planet's orbit"
+   ],
+   "solution" : "ELLIPTICAL",
+   "type" : "riddlechests:word"
+}

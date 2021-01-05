@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZEPVAAAK",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the branch of biology dealing with",
+      "heredity; everybody into the pool!"
+   ],
+   "solution" : "GENETICS",
+   "type" : "riddlechests:word"
+}

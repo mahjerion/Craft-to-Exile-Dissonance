@@ -1,0 +1,23 @@
+{
+  "id": "cane_of_unravelling",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.staff.cane_of_unravelling",
+  "lang_file_desc_string": "item.mmorpg.uniques.staff.cane_of_unravelling.desc",
+  "primary_stats": [
+    "attack_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "cdr_flat",
+    "high_nature_spell_to_attack_dmg_flat",
+    "nature_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "staff",
+  "item_id": "cte_uniques:cane_of_unravelling"
+}

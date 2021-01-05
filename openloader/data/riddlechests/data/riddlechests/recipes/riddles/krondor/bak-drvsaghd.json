@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "DRV SAGHD",
+   "riddle" : [
+      "The light one breaks but never falls",
+      "His brother falls but never breaks"
+   ],
+   "solution" : "DAY NIGHT",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KJECSKRP",
+   "riddle" : [
+      "General Science",
+      "",
+      "All amino acids contain carbon,",
+      "hydrogen, oxygen & this element"
+   ],
+   "solution" : "NITROGEN",
+   "type" : "riddlechests:word"
+}

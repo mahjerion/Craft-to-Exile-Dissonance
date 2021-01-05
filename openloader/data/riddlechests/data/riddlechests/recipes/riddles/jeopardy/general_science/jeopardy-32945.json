@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "USSYZA",
+   "riddle" : [
+      "General Science",
+      "",
+      "The neon in a sign produces light when",
+      "electricity ionizes it into this fourth",
+      "state of matter"
+   ],
+   "solution" : "PLASMA",
+   "type" : "riddlechests:word"
+}

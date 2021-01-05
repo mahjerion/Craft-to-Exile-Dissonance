@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NBPGXDMK",
+   "riddle" : [
+      "General Science",
+      "",
+      "This element is taken from the air by a",
+      "fixation process to make fertilizer"
+   ],
+   "solution" : "NITROGEN",
+   "type" : "riddlechests:word"
+}

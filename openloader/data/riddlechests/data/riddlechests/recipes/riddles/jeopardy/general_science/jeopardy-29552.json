@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ABFYMNM",
+   "riddle" : [
+      "General Science",
+      "",
+      "The hormone gastrin causes this organ to",
+      "secrete acid"
+   ],
+   "solution" : "STOMACH",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "BJKAEIGP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This city in West Bengal is the cultural",
+      "center of eastern India"
+   ],
+   "solution" : "CALCUTTA",
+   "type" : "riddlechests:word"
+}

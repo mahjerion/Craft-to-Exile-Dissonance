@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GYLGVP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "All distances in Spain are measured from",
+      "kilometer 0 on the Puerta Del Sol in",
+      "this capital city"
+   ],
+   "solution" : "MADRID",
+   "type" : "riddlechests:word"
+}

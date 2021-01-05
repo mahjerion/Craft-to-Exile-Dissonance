@@ -1,0 +1,25 @@
+{
+  "id": "thirst_of_frost",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.thirst_of_frost",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "lifesteal_flat",
+    "spell_water_damage_flat"
+  ]
+}

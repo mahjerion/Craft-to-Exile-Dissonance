@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "KLICBTR",
+   "riddle" : [
+      "It asks no questions but demands many answers",
+      "Don't knock it until you are ready to see what waits on the other side"
+   ],
+   "solution" : "KNOCKER",
+   "type" : "riddlechests:word"
+}

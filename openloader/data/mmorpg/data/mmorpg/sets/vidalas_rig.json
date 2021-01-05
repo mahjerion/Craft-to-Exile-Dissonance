@@ -1,0 +1,29 @@
+{
+  "id": "vidalas_rig",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.vidalas_rig",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "leather_chest",
+          "leather_pants",
+          "leather_helmet"
+        ]
+      },
+      {
+        "min_level": 15,
+        "max_level": 50
+      }
+    ]
+  },
+  "mods": {
+    "2": "bow_damage_flat",
+    "3": "high_dexterity_flat",
+    "4": "water_spell_to_attack_dmg_flat"
+  }
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NKAWRVS",
+   "riddle" : [
+      "General Science",
+      "",
+      "Proteins such as pepsin & rennin that",
+      "act as catalysts in the body are",
+      "termed these"
+   ],
+   "solution" : "ENZYMES",
+   "type" : "riddlechests:word"
+}

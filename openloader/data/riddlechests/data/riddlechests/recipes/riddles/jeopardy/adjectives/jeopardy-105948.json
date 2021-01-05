@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ROYMBTHC",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "The same Latin word gave us",
+      "\"trepidation\", meaning fear, & this",
+      "adjective, meaning fearless"
+   ],
+   "solution" : "INTREPID",
+   "type" : "riddlechests:word"
+}

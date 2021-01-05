@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "HRDYGP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The magnificent ruins of the Mayan city",
+      "of Palenque were discovered in this",
+      "country in 1773"
+   ],
+   "solution" : "MEXICO",
+   "type" : "riddlechests:word"
+}

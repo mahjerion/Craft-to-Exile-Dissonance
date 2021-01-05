@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "SJSZXP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Dominica was discovered on this day of",
+      "the week, hence its name"
+   ],
+   "solution" : "SUNDAY",
+   "type" : "riddlechests:word"
+}

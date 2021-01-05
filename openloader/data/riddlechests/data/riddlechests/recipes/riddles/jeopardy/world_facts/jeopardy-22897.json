@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GXVFE",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Kashmiri arts & crafts are on display in",
+      "the Pratap Singh Museum in Srinagar in",
+      "this country"
+   ],
+   "solution" : "INDIA",
+   "type" : "riddlechests:word"
+}

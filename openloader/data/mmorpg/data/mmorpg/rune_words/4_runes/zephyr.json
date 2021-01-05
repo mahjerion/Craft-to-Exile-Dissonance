@@ -1,0 +1,20 @@
+{
+  "id": "zephyr",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.zephyr",
+  "runes": [
+    "mos",
+    "xah",
+    "cen",
+    "ber"
+  ],
+  "mods": [
+	"thunder_penetration_flat",
+    "energy_regen_flat",
+    "thunder_resist_flat",
+    "high_armor_flat"
+  ]
+}

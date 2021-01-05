@@ -1,0 +1,25 @@
+{
+  "id": "wisdom_of_the_elders",
+  "weight": 200555,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.wisdom_of_the_elders",
+  "requirements": {
+    "list": [
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      },
+      {
+        "possible_uniques": [
+          "helmetwisdom0",
+          "shield_wisdom0"
+        ]
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_wisdom_flat"
+  }
+}

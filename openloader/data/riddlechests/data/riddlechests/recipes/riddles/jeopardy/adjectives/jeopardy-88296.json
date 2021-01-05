@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "TQQHJAT",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective can mean \"relating to",
+      "fingers\" or \"relating to numbers\""
+   ],
+   "solution" : "DIGITAL",
+   "type" : "riddlechests:word"
+}

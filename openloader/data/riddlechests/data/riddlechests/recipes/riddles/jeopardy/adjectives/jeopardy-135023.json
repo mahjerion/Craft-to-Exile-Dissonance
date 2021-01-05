@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ECGLGYB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "The opposite of poetic, this adjective",
+      "meaning unimaginative or dull comes from",
+      "the Latin for \"straightforward\""
+   ],
+   "solution" : "PROSAIC",
+   "type" : "riddlechests:word"
+}

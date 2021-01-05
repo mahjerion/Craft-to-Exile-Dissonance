@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "VMHZQKJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Whether alternating or direct, it's a",
+      "flow of electricity"
+   ],
+   "solution" : "CURRENT",
+   "type" : "riddlechests:word"
+}

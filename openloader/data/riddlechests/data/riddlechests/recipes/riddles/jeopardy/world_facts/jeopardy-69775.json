@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "DEVYVPZ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Ironically, this north Atlantic",
+      "nation has the world's greatest",
+      "number of hot springs"
+   ],
+   "solution" : "ICELAND",
+   "type" : "riddlechests:word"
+}

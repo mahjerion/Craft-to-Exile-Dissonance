@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ZTRPV",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The university of this Bulgarian capital",
+      "was founded in 1888"
+   ],
+   "solution" : "SOFIA",
+   "type" : "riddlechests:word"
+}

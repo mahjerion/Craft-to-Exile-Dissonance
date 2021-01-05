@@ -1,0 +1,25 @@
+{
+  "id": "of_the_sage",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_the_sage",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "mana_regen_percent",
+    "mana_regen_flat"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "massive",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.massive",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "high_health_percent",
+	  "health_flat"
+    ]
+  }
+}

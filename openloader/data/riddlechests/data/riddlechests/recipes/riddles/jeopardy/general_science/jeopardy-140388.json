@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RIDZZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "George Beadle & E.L. Tatum's studies of",
+      "the Neurospora crassa mold on this food",
+      "helped launch molecular genetics in 1941"
+   ],
+   "solution" : "BREAD",
+   "type" : "riddlechests:word"
+}

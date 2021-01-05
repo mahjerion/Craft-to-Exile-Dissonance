@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UEEAQY",
+   "riddle" : [
+      "General Science",
+      "",
+      "In the chemical formula for propane,",
+      "C3H8, the H stands for hydrogen & the C",
+      "stands for this element"
+   ],
+   "solution" : "CARBON",
+   "type" : "riddlechests:word"
+}

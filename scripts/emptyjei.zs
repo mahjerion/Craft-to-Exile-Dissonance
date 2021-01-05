@@ -136,6 +136,7 @@ mods.jei.JEI.hideItem(<item:midnight:skulk_spawn_egg>);
 mods.jei.JEI.hideItem(<item:midnight:hanging_dark_willow_leaves>);
 
 //UpgradeAquatic
+mods.jei.JEI.hideItem(<item:upgrade_aquatic:jellyfish_bucket>);
 mods.jei.JEI.hideItem(<item:upgrade_aquatic:jellyfish_spawn_egg>);
 mods.jei.JEI.hideItem(<item:upgrade_aquatic:flare_spawn_egg>);
 mods.jei.JEI.hideItem(<item:upgrade_aquatic:great_thrasher_spawn_egg>);

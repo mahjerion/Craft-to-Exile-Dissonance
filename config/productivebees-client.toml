@@ -1,0 +1,5 @@
+
+[Client]
+	#Render centrifuge comb inventory on the block.
+	renderCombsInCentrifuge = true
+

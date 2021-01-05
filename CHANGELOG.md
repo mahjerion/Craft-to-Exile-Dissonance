@@ -18,12 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dimensional Dungeon mobs now have much, much more HP.
 - Added 2 new Nether quests showcasing the Extended Nether update a bit.
 - Changed the dependencies for the quests linked to The Crux to now require Getting Started instead. This should allow for a smoother start.
-- New updated look for the Craft to Exile menu!
 - Reduced spawn rate of zombies and baby zombies slightly.
 - Maps are 33% more likely to drop.
+- New updated look for the Craft to Exile menu!
 
 ### Mod Updates
-- Updated Extended Nether Backport, MineColonies, Mine and Slash.
+- Updated Extended Nether Backport, MineColonies, Mine and Slash, Productive Bees.
 - Added FancyMenu.
 - Added Open Loader.
 - Removed Global Data Pack.
@@ -33,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed XL Packets.
 
 ### Fixes
+- Disabled jellyfish (and therefore the Jellyfish Bucket) from Upgrade Aquatic as they have been known to cause crashes.
 - Nether crashes should more or less be resolved.
 - Fixed an issue with Productive Bees datapacks.
 - With the removal of It's The Little Things and XL Packets, very rare crashes upon start should be resolved.

@@ -1,7 +1,7 @@
 {
 	id: 2,
 	filename: "prelude",
-	order_index: 2,
+	order_index: 1,
 	title: "Prelude: Overworld",
 	icon: "minecraft:grass_block",
 	always_invisible: false,

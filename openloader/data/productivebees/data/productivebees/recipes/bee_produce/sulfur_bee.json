@@ -1,0 +1,24 @@
+{
+    "type": "productivebees:advanced_beehive",
+    "ingredient": "productivebees:sulfur",
+    "results": [
+        {
+            "item": {
+                "tag": "forge:honeycombs/sulfur"
+            }
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:dusts/sulfur"
+            }
+        },
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

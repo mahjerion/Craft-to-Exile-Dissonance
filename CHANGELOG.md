@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Greatly reduced frequency of invasions (I'm talking like 10-15x less frequent).
 - Legendary Ore Bees are no longer a thing. Misleading since legendary ore doesn't spawn!
 - Rathpith's Globe now provides increased critical hit chance instead of flat.
+- Disabled Sulfur Bees.
 - Reduced critical hit from the unique critical ring.
 - Dimensional Dungeon mobs now have much, much more HP.
 - Added 2 new Nether quests showcasing the Extended Nether update a bit.

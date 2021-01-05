@@ -38,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nether crashes should more or less be resolved.
 - Fixed an issue with Productive Bees datapacks.
 - With the removal of It's The Little Things and XL Packets, very rare crashes upon start should be resolved.
+- Fixed some broken runewords.
 
 ## [2.8.0b] - 2020-01-01
 

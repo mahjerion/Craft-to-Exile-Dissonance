@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.8.1] - 2020-01-XX
+## [2.8.1] - 2020-01-05
 
 ### Updates
 - HUGE Mine and Slash update. You have been provided with a spell reset potion. Check the changelog over at https://github.com/mahjerion/Mine-and-Slash/blob/1.15.2/changelog.txt!

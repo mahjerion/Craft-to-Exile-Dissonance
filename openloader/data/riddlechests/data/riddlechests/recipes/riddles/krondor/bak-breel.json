@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BREEL",
+   "riddle" : [
+      "Round as an apple",
+      "Deep as a cup",
+      "All the Bitter Sea",
+      "Can't fill it up"
+   ],
+   "solution" : "SIEVE",
+   "type" : "riddlechests:word"
+}

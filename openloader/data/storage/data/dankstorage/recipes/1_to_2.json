@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rsr",
+    "rmr"
+  ],
+  "key": {
+    "r": {
+      "item": "create:copper_sheet"
+    },
+    "m": {
+      "item": "mmorpg:currency/add_secondary_stat"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:1_to_2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "MQWHEDUTIW",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Malagasy is an official language of",
+      "this country once known as the",
+      "Malagasy Republic"
+   ],
+   "solution" : "MADAGASCAR",
+   "type" : "riddlechests:word"
+}

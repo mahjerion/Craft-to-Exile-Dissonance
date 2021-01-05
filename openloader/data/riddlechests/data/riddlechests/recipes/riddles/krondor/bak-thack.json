@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THACK",
+   "riddle" : [
+      "What is this thing that having it",
+      "You can no longer give it away",
+      "But lacking it for the moment at least",
+      "You can give it to those who must pay"
+   ],
+   "solution" : "DEATH",
+   "type" : "riddlechests:word"
+}

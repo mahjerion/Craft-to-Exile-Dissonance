@@ -1,0 +1,154 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:bread",
+      "amountRange": {
+        "min": 1,
+        "max": 48
+      },
+      "unitWorth": 50,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:melon_slice",
+      "amountRange": {
+        "min": 1,
+        "max": 56
+      },
+      "unitWorth": 30,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:melon",
+      "amountRange": {
+        "min": 1,
+        "max": 18
+      },
+      "unitWorth": 130,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:pumpkin",
+      "amountRange": {
+        "min": 1,
+        "max": 18
+      },
+      "unitWorth": 180,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:beetroot_soup",
+      "amountRange": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 250,
+      "weight": 800
+    },
+    {
+      "type": "item",
+      "content": "minecraft:mushroom_stew",
+      "amountRange": {
+        "min": 1,
+        "max": 18
+      },
+      "unitWorth": 250,
+      "weight": 800
+    },
+    {
+      "type": "item",
+      "content": "minecraft:rabbit_stew",
+      "amountRange": {
+        "min": 1,
+        "max": 14
+      },
+      "unitWorth": 300,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "minecraft:sweet_berries",
+      "amountRange": {
+        "min": 1,
+        "max": 36
+      },
+      "unitWorth": 30,
+      "weight": 800
+    },
+    {
+      "type": "item",
+      "content": "minecraft:pumpkin_pie",
+      "amountRange": {
+        "min": 1,
+        "max": 36
+      },
+      "unitWorth": 300,
+      "weight": 400
+    },
+    {
+      "type": "item",
+      "content": "minecraft:cake",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600,
+      "weight": 200
+    },
+    {
+      "type": "item",
+      "content": "minecraft:milk_bucket",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 200
+    },
+    {
+      "type": "item",
+      "content": "pamhc2foodcore:chickennuggetitem",
+      "amountRange": {
+        "min": 4,
+        "max": 36
+      },
+      "unitWorth": 300,
+      "weight": 400
+    },
+    {
+      "type": "item",
+      "content": "pamhc2foodcore:fishandchipsitem",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 700,
+      "weight": 200
+    },
+    {
+      "type": "item",
+      "content": "pamhc2foodcore:basichamburgeritem",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1500,
+      "weight": 200
+    },
+    {
+      "type": "item",
+      "content": "pamhc2foodcore:baconcheeseburgeritem",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2200,
+      "weight": 150
+    }
+  ]
+}

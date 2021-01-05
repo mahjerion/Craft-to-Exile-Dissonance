@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YSPYPO",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the point in the heavens",
+      "directly above you; the nadir is",
+      "directly below you"
+   ],
+   "solution" : "ZENITH",
+   "type" : "riddlechests:word"
+}

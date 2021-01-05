@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LLLRERY",
+   "riddle" : [
+      "General Science",
+      "",
+      "All existing species of these have",
+      "placentas except marsupials & monotremes"
+   ],
+   "solution" : "MAMMALS",
+   "type" : "riddlechests:word"
+}

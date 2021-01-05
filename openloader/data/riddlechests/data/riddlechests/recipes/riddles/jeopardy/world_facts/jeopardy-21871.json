@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QOIBILUGS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The 1494 line that split South America",
+      "between Spain & Portugal also split this",
+      "north Atlantic island"
+   ],
+   "solution" : "GREENLAND",
+   "type" : "riddlechests:word"
+}

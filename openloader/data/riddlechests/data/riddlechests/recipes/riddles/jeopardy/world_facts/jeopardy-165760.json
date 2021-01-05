@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ZFCJMLFR",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The only active volcano on the European",
+      "mainland, it had its first recorded",
+      "eruption in 79 A.D."
+   ],
+   "solution" : "VESUVIUS",
+   "type" : "riddlechests:word"
+}

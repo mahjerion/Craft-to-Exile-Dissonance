@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ZRDIKI",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It comes between 2 \"Sunday\"s in a U2 title--",
+      "\"and the battle's just begun\""
+   ],
+   "solution" : "BLOODY",
+   "type" : "riddlechests:word"
+}

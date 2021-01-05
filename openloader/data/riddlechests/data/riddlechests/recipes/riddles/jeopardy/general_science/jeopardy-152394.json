@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LFVHOJVPKUJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Marble is classified as this type of",
+      "rock because it changed from limestone",
+      "due to heat & pressure"
+   ],
+   "solution" : "METAMORPHIC",
+   "type" : "riddlechests:word"
+}

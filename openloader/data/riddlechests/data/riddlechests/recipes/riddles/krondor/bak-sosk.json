@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SOSK",
+   "riddle" : [
+      "You can spin wheel and twist",
+      "But it can turn without moving"
+   ],
+   "solution" : "MILK",
+   "type" : "riddlechests:word"
+}

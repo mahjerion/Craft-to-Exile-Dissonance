@@ -1,0 +1,29 @@
+{
+  "id": "seers_guidance",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.seers_guidance",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_helmet",
+          "leather_helmet",
+          "plate_helmet",
+          "necklace",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 85,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": {
+    "2": "bonus_exp_flat",
+    "3": "wisdom_flat"
+  }
+}

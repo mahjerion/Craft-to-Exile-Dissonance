@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FGJRBSNOOTMM",
+   "riddle" : [
+      "General Science",
+      "",
+      "Andres Celsius & Gabriel Fahrenheit",
+      "invented types of these that use",
+      "different scales"
+   ],
+   "solution" : "THERMOMETERS",
+   "type" : "riddlechests:word"
+}

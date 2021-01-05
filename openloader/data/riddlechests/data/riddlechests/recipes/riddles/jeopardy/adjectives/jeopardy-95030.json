@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "QHQKWTZ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Windward's opposite, it's the side",
+      "toward which the wind blows"
+   ],
+   "solution" : "LEEWARD",
+   "type" : "riddlechests:word"
+}

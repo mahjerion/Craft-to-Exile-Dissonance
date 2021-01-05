@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "JMSKZZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "The horizontal rows on the periodic",
+      "table are periods; vertical columns of",
+      "related elements are these"
+   ],
+   "solution" : "GROUPS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,22 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:gold",
+    "parent2": "productivebees:silver",
+    "offspring": [
+        "productivebees:electrum"
+    ],
+    "breeding_items": [
+        {
+            "tag": "forge:ingots/gold"
+        },
+        {
+            "tag": "forge:ingots/silver"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

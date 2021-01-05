@@ -1,7 +1,7 @@
 {
 	id: 82,
 	filename: "actibumblezone",
-	order_index: 2,
+	order_index: 1,
 	title: "Act I: The Bumblezone (Optional)",
 	icon: "minecraft:bee_nest",
 	always_invisible: false,

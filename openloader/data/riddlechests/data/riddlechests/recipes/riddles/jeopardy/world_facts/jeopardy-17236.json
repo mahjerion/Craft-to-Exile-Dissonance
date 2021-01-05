@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "VWCAWKF",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The world's leading dinosaur museum",
+      "is in this westernmost prairie",
+      "province of Canada"
+   ],
+   "solution" : "ALBERTA",
+   "type" : "riddlechests:word"
+}

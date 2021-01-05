@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "IHPUWXX",
+   "riddle" : [
+      "General Science",
+      "",
+      "This adjective refers to metals that can",
+      "be drawn out into a wire"
+   ],
+   "solution" : "DUCTILE",
+   "type" : "riddlechests:word"
+}

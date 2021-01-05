@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RAFOZNQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "The Babylonians kept abreast of the",
+      "times using a form of this instrument",
+      "seen here:"
+   ],
+   "solution" : "SUNDIAL",
+   "type" : "riddlechests:word"
+}

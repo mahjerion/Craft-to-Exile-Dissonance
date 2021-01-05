@@ -1,0 +1,17 @@
+{
+  "id": "ancients_pledge",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.ancients_pledge",
+  "runes": [
+    "rah",
+    "mos",
+    "ita"
+  ],
+  "mods": [
+    "low_elemental_resist_flat",
+	"armor_flat"
+  ]
+}

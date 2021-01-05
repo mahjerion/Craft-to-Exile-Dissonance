@@ -1,0 +1,23 @@
+{
+  "id": "ringenergy0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.ringenergy0",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.ringenergy0.desc",
+  "primary_stats": [
+    "spell_damage_flat"
+  ],
+  "unique_stats": [
+    "high_energy_regen_flat",
+    "high_energy_regen_percent",
+    "much_less_critical_damage_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 1.0
+  },
+  "gear_type": "ring",
+  "item_id": "mmorpg:uniques/ring/ringenergy0"
+}

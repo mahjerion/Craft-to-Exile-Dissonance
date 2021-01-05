@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": "mapperbase:steel_ingot",
+  "experience": 1.0,
+  "cookingtime": 120,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

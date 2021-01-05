@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BRINK",
+   "riddle" : [
+      "Blessed are the first",
+      "Slow are the second",
+      "Playful are the third",
+      "Bold are the fourth",
+      "Brave are the fifth"
+   ],
+   "solution" : "BLADE",
+   "type" : "riddlechests:word"
+}

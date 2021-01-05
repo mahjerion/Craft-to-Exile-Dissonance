@@ -1,0 +1,25 @@
+{
+  "id": "axewaterfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.axe.axewaterfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.axe.axewaterfire0.desc",
+  "primary_stats": [
+    "low_attack_fire_damage_flat",
+    "low_attack_water_damage_flat"
+  ],
+  "unique_stats": [
+    "crippled_critical_damage_percent",
+    "crippled_lifesteal_percent",
+    "crippled_mana_on_hit_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.5,
+    "intelligence": 0.5
+  },
+  "gear_type": "axe",
+  "item_id": "mmorpg:uniques/axe/axewaterfire0"
+}

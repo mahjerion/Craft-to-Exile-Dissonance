@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ILUQOS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "A basilica stands in this Portuguese",
+      "village where the Virgin Mary",
+      "purportedly appeared in 1917"
+   ],
+   "solution" : "FATIMA",
+   "type" : "riddlechests:word"
+}

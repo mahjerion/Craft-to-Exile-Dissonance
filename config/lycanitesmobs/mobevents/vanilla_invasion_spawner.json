@@ -10,6 +10,7 @@
   "ignoreGroupLimit": true,
   "ignoreForgeCanSpawnEvent": true,
   "forceNoDespawn": false,
+  "levelBoostMax": 0,
   "eventName": "vanilla_invasion",
   "conditions": [],
   "triggers": [
@@ -23,14 +24,14 @@
     {
       "type": "random",
       "rangeMin": [
-        16,
+        12,
         0,
-        16
+        12
       ],
       "rangeMax": [
-        32,
-        48,
-        32
+        24,
+        36,
+        24
       ],
       "sorting": "random",
       "limit": 32,

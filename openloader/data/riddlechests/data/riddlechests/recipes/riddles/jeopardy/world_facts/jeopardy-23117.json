@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "HAJOEXOTYH",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Letzburgish is considered the national",
+      "language of this small European country"
+   ],
+   "solution" : "LUXEMBOURG",
+   "type" : "riddlechests:word"
+}

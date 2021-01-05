@@ -1,0 +1,24 @@
+{
+  "id": "ringwaterfire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.ringwaterfire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.ringwaterfire0.desc",
+  "primary_stats": [
+    "very_high_spell_fire_damage_flat",
+    "very_high_spell_water_damage_flat"
+  ],
+  "unique_stats": [
+    "very_high_water_resist_flat",
+    "very_high_fire_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.5,
+    "intelligence": 0.5
+  },
+  "gear_type": "ring",
+  "item_id": "mmorpg:uniques/ring/ringwaterfire0"
+}

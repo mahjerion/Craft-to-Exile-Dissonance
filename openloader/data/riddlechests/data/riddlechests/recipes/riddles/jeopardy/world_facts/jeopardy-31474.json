@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YQVVMKAS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In population, Brandon is the second-",
+      "largest city in Manitoba; this is",
+      "the largest"
+   ],
+   "solution" : "WINNIPEG",
+   "type" : "riddlechests:word"
+}

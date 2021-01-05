@@ -1,0 +1,24 @@
+{
+  "id": "necklacefire0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklacefire0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacefire0.desc",
+  "primary_stats": [
+    "spell_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "fire_spell_to_attack_dmg_flat",
+    "high_energy_flat",
+    "water_resist_flat",
+    "plus_blazing_inferno_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklacefire0"
+}

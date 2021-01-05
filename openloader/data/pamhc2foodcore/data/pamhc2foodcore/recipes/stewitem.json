@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	
+	"ingredients":
+	[
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "tag": "forge:rawmeats"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:vegetables"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+
+
+	],
+	
+	"result": {"item": "pamhc2foodcore:stewitem",
+	"count": 1}
+	
+}

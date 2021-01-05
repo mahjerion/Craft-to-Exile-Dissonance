@@ -1,0 +1,23 @@
+{
+  "id": "steelclash",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.shield.steelclash",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.steelclash.desc",
+  "primary_stats": [
+    "block_strength_flat"
+  ],
+  "unique_stats": [
+    "low_elemental_resist_flat",
+    "block_strength_percent",
+	"plus_divine_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.75
+  },
+  "gear_type": "shield",
+  "item_id": "cte_uniques:steelclash"
+}

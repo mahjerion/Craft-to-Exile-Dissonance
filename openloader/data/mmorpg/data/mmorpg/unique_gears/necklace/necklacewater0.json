@@ -1,0 +1,26 @@
+{
+  "id": "necklacewater0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklacewater0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacewater0.desc",
+  "primary_stats": [
+    "spell_water_damage_flat"
+  ],
+  "unique_stats": [
+    "health_percent",
+    "magic_shield_percent",
+    "high_armor_flat",
+    "high_water_resist_flat",
+    "plus_heart_of_ice_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklacewater0"
+}

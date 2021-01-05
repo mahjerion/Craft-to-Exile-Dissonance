@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FBUVK",
+   "riddle" : [
+      "General Science",
+      "",
+      "When hit by electrons, a phosphor gives",
+      "off electromagnetic energy in this form"
+   ],
+   "solution" : "LIGHT",
+   "type" : "riddlechests:word"
+}

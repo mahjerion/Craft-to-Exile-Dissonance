@@ -12,17 +12,14 @@
 	#Max citizens in one colony. [Default: 150, min: 4, max: 500]
 	#Range: 4 ~ 500
 	maxcitizenpercolony = 50
-	#Amount of blocks the Builder checks (to decrease lag). [Default: 1000, min: 1000, max: 100000]
-	#Range: 1000 ~ 100000
-	maxblockscheckedbybuilder = 1000
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	#Range: 1 ~ 100
 	diseasemodifier = 10
-	#Should development features be enabled (might be buggy). [Default: false]
+	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
-	#Should the Builder place construction tape? [Default: true]
+	#Should construction tape be placed around in-construction builds? [Default: true]
 	builderplaceconstructiontape = true
-	#Should the Builder and Miner build without resources? (This also turns off what they produce.) [Default: false]
+	#Should the Builder and Miner build without resources? (This also turns off what the Miner produces.) [Default: false]
 	builderinfiniteresources = false
 	#Whether to generate supply ship/camps in chests occasionally. [Default: true]
 	generatesupplyloot = true
@@ -37,10 +34,10 @@
 	alwaysrendernametag = true
 	#Should players be able to place an infinite amount of supply camps/ships? [Default: false]
 	allowinfinitesupplychests = false
-	#Average citizen respawn interval (in seconds). [Default: 60, min: 10, max: 600]
+	#If a colony is under the initial citizen count, this changes the amount of time before a new citizen spawns. [Default: 60, min: 10, max: 600]
 	#Range: 10 ~ 600
 	citizenrespawninterval = 90
-	#Should colonies in other dimensions be allowed? Note: This is buggy if the dimension doesn't have day/night! [Default: false]
+	#Should colonies in other dimensions be allowed? [Default: false]
 	allowotherdimcolonies = false
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
@@ -49,10 +46,10 @@
 	#Quantity of dirt per compost filling. [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
-	#Chance to get a prismarine shard or crystal drop from the Fisher (starting at hut level 3). Overall chance of prismarine is 2x this number [Default: 2.500000, min: 0.000000, max: 100.000000]
+	#Chance to get a prismarine shard or crystal drop from the Fisher (starting at hut level 3). Overall chance of prismarine is 2x this number. [Default: 2.500000, min: 0.000000, max: 100.000000]
 	#Range: 0.0 ~ 100.0
 	fisherprismarinechance = 2.5
-	#Chat frequency of worker requests. [Default: 30, min: 1, max: 100]
+	#minecolonies.config.chatfrequency.comment [Default: 30, min: 1, max: 100]
 	#Range: 1 ~ 100
 	chatfrequency = 20
 	#Food consumption modifier. Min: 1.0. [Default: 1.000000, min: 0.100000, max: 100.000000]
@@ -66,7 +63,7 @@
 	fisherspongechance = 0.1
 	#Should players be sent entering/leaving colony notifications? [Default: true]
 	sendenteringleavingmessages = true
-	#Should players be allowed to change names? -1 for false, 0 for specific groups, 1 for true. [Default: 1, min: -1, max: 1]
+	#Should players be allowed to change citizen names? -1 for false, 0 for certain players only, 1 for true. (To set which players can change the names, see "Special Permissions Group" below.) [Default: 1, min: -1, max: 1]
 	#Range: -1 ~ 1
 	allowglobalnamechanges = 1
 	#Delay after each block placement (increasing it increases the delay). [Default: 15, min: 1, max: 500]
@@ -77,11 +74,11 @@
 	initialcitizenamount = 4
 	#Should the Builder be slower when working underground? [Default: true]
 	restrictbuilderunderground = true
-	#Should there be a max of 1 warehouse per colony?. [Default: true]
+	#Should there be a max of 1 warehouse per colony? [Default: true]
 	limittoonewarehousepercolony = true
-	#Should a player get one guidebook on their first join to a new world? [Default: true]
+	#minecolonies.config.playergetsguidebookonfirstjoin.comment [Default: true]
 	playergetsguidebookonfirstjoin = true
-	#Chance to get a lucky block as a percentage. [Default: 1, min: 0, max: 100]
+	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
 	#Suggest build tool usage when trying to place a building without the build tool. [Default: true]
@@ -96,36 +93,25 @@
 
 #All configurations related to the MineColonies commands
 [commands]
-	#Should a player be allowed to use the /mc colony teleport command? [Default: false]
+	#Should players be allowed to use the /mc colony teleport command? [Default: false]
 	canplayerusecolonytpcommand = false
-	#Which level counts as OP on a server. [Default: 3, min: 0, max: 3]
-	#Range: 0 ~ 3
-	oplevelforserver = 3
-	#Sets whether or not colony structures are destroyed automatically when a colony is deleted. [Default: true]
-	autodestroycolonyblocks = false
-	#Should a player be allowed to use the /mc rtp command? [Default: true]
+	#Should players be allowed to use the /mc home command? Note: Only owners of the colony can use this command. [Default: true]
+	canplayerusehometpcommand = false
+	#Can players teleport to allied colonies? [Default: true]
+	canplayeruseallytownhallteleport = false
+	#Should players be allowed to use the /mc citizens kill command? [Default: true]
+	canplayerusekillcitizenscommand = true
+	#Should players be allowed to use the /mc rtp command? [Default: true]
 	canplayerusertpcommand = false
 	#minecolonies.config.numberofattemptsforsafetp.comment [Default: 4, min: 1, max: 10]
 	#Range: 1 ~ 10
 	numberofattemptsforsafetp = 4
-	#Should the player be allowed to use the /mc colony delete command? [Default: true]
+	#Should players be allowed to use the /mc colony delete command? [Default: true]
 	canplayerusedeletecolonycommand = true
-	#Sets the amount of hours until a colony will be deleted after not seeing its governor. Set to zero to disable this. [Default: 0, min: 168, max: 10000]
-	#Range: 168 ~ 10000
-	autodeletecoloniesinhours = 168
-	#Should the player be allowed to use the /mc colony info command? [Default: true]
+	#Should players be allowed to use the /mc colony info command? [Default: true]
 	canplayeruseshowcolonyinfocommand = true
-	#Should the player be allowed to use the /mc colony addOfficer command? [Default: true]
+	#Should players be allowed to use the /mc colony addOfficer command? [Default: true]
 	canplayeruseaddofficercommand = true
-	#Time until a next teleport (to a colony) can be executed in seconds. [Default: 120, min: 30, max: 99999]
-	#Range: 30 ~ 99999
-	teleportbuffer = 240
-	#Should a player be allowed to use the /mc home command? [Default: true]
-	canplayerusehometpcommand = false
-	#Can a player teleport to allied colonies? [Default: true]
-	canplayeruseallytownhallteleport = false
-	#Should the player be allowed to use the /mc citizens kill command? [Default: true]
-	canplayerusekillcitizenscommand = true
 
 #minecolonies.config.claims.comment
 [claims]
@@ -161,11 +147,11 @@
 	daysuntilpirateshipsdespawn = 3
 	#minecolonies.config.citizencallforhelp.comment [Default: true]
 	citizencallforhelp = true
-	#Whether or not barbarians can break, scale, and bridge obstacles. [Default: true]
+	#Whether or not raiders can break, scale, and bridge obstacles. [Default: true]
 	dobarbariansbreakthroughwalls = true
 	#Should mobs attack citizens? [Default: true]
 	mobattackcitizens = false
-	#The max size of a barbarian horde. [Default: 80, min: 6, max: 400]
+	#The max size of a raider horde. [Default: 80, min: 6, max: 400]
 	#Range: 6 ~ 400
 	maxBarbarianSize = 20
 	#Health multiplier for all Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
@@ -180,19 +166,19 @@
 	#Damage multiplier for Knight Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
 	knightdamagemult = 1.0
-	#Turn on MineColonies pvp mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
+	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
 	pvp_mode = false
 	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
 	shouldraiderbreakdoors = true
-	#Max Y level (height) for Barbarians to spawn. [Default: 200, min: 1, max: 500]
+	#Max Y level (height) for Raiders to spawn. [Default: 200, min: 1, max: 500]
 	#Range: 1 ~ 500
 	maxyforbarbarians = 200
-	#Whether or not to spawn barbarians. [Default: true]
+	#Whether or not to spawn raiders. [Default: true]
 	dobarbariansspawn = true
 	#Damage multiplier for Archer Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
 	rangerdamagemult = 1.0
-	#The min size of a barbarian horde. [Default: 5, min: 1, max: 10]
+	#The min size of a raider horde. [Default: 5, min: 1, max: 10]
 	#Range: 1 ~ 10
 	spawnbarbariansize = 5
 	#Should Archer Guards benefit from Power/Punch/Flame enchants (on bows)? [Default: true]
@@ -206,7 +192,7 @@
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]
 	turnoffexplosionsincolonies = true
-	#Seconds between permission messages. [Default: 30, min: 1, max: 1000]
+	#Seconds between each permission message (to reduce spam). [Default: 30, min: 1, max: 1000]
 	#Range: 1 ~ 1000
 	secondsBetweenPermissionMessages = 30
 	#minecolonies.config.specialpermgroup.comment 
@@ -254,7 +240,7 @@
 	pathfindingmaxthreadcount = 4
 	#Show pathfinding paths (might be laggy). [Default: false]
 	pathfindingdebugdraw = false
-	#Verbosity of pathfinding. [Default: 0, min: 0, max: 10]
+	#Verbosity of pathfinding debug messages. [Default: 0, min: 0, max: 10]
 	#Range: 0 ~ 10
 	pathfindingdebugverbosity = 0
 	#minecolonies.config.minimumrailstopath.comment [Default: 5, min: 5, max: 100]
@@ -269,9 +255,9 @@
 	#The maximal amount of tries that the request system will perform for retryable requests. Higher increases server load. [Default: 3, min: 1, max: 10]
 	#Range: 1 ~ 10
 	maximalretries = 3
-	#Should the request system creatively resolve (if possible) when the player is required to resolve a request. [Default: false]
+	#Should the request system creatively resolve (if possible) when the player is required to resolve a request? [Default: false]
 	creativeresolve = false
-	#Should a player be allowed to use the /mc colony rs reset command? [Default: false]
+	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
 	#The amount of ticks between retries of the request system for retryable requests. Lower increases server load. [Default: 1200, min: 30, max: 10000]
 	#Range: 30 ~ 10000

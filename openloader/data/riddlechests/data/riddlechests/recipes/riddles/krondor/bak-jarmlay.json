@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "JARMLAY",
+   "riddle" : [
+      "Our valiant leaders will keep this",
+      "But only after they have given it"
+   ],
+   "solution" : "PROMISE",
+   "type" : "riddlechests:word"
+}

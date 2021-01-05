@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MQBWVDJ",
+   "riddle" : [
+      "General Science",
+      "",
+      "A horse's hooves are made up of this",
+      "protein, the same protein found in your",
+      "fingernails"
+   ],
+   "solution" : "KERATIN",
+   "type" : "riddlechests:word"
+}

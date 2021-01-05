@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "isi",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:plate_aluminum"
+    },
+    "m": {
+      "item": "mmorpg:currency/chaos_orb"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:3_to_4"
+  }
+}

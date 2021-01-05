@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VUWREBX",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "\"Small\" word meaning commonplace; this",
+      "type of \"pursuit\" could lead to success",
+      "at game night"
+   ],
+   "solution" : "TRIVIAL",
+   "type" : "riddlechests:word"
+}

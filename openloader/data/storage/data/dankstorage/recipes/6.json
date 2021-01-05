@@ -1,0 +1,22 @@
+{
+  "type": "dankstorage:upgrade",
+  "pattern": [
+    "iii",
+    "i1i",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:plate_uranium"
+    },
+    "m": {
+      "item": "mmorpg:currency/create_new_unique"
+    },
+    "1": {
+      "item": "dankstorage:dank_5"
+    }
+  },
+  "result": {
+    "item": "dankstorage:dank_6"
+  }
+}

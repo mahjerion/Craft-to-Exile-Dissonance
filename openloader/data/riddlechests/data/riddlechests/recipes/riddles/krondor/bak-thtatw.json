@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THTATW",
+   "riddle" : [
+      "It can move over water",
+      "But cannot fly It can move under water",
+      "But stay quite dry"
+   ],
+   "solution" : "SHADOW",
+   "type" : "riddlechests:word"
+}

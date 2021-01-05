@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "YHPSLMGKIN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "By a 127-6 vote, the U.N. expelled this",
+      "country September 22, 1992"
+   ],
+   "solution" : "YUGOSLAVIA",
+   "type" : "riddlechests:word"
+}

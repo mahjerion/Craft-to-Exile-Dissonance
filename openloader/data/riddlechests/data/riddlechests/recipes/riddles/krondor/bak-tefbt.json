@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TEFBT",
+   "riddle" : [
+      "Although lower than a fence",
+      "And thinner than a rail",
+      "It can still be used to hold a horse",
+      "Hooves mane and tail"
+   ],
+   "solution" : "STAKE",
+   "type" : "riddlechests:word"
+}

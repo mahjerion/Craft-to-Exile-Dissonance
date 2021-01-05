@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RSMST",
+   "riddle" : [
+      "Though a tasty treat",
+      "Made in spiral towers",
+      "Rarely will it be eaten alone"
+   ],
+   "solution" : "HONEY",
+   "type" : "riddlechests:word"
+}

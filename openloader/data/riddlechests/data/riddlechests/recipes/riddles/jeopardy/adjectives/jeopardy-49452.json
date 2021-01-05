@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "AKUTLX",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Adjective in the name of Hans, the turn-of-the-",
+      "century calculating horse"
+   ],
+   "solution" : "CLEVER",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,174 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:emerald",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1250,
+      "weight": 800
+    },
+    {
+      "type": "item",
+      "content": "bountiful:decree",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 120
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:ore0",
+      "amountRange": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 50,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:ore1",
+      "amountRange": {
+        "min": 4,
+        "max": 24
+      },
+      "unitWorth": 200,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:ore2",
+      "amountRange": {
+        "min": 4,
+        "max": 16
+      },
+      "unitWorth": 800,
+      "weight": 750
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:ore3",
+      "amountRange": {
+        "min": 4,
+        "max": 8
+      },
+      "unitWorth": 3600,
+      "weight": 750
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:currency/orb_of_transmutation",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:currency/number_reroll",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:currency/randomize_prefix",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:currency/randomize_suffix",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:currency/add_secondary_stat",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 1000,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:lootbox/small_currency_lootbox_3",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:lootbox/small_gear_lootbox_3",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:lootbox/small_currency_lootbox_4",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "mmorpg:lootbox/small_gear_lootbox_4",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "calemiutils:money_bag_cheap",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000,
+      "weight": 50
+    },
+    {
+      "type": "item",
+      "content": "calemiutils:money_bag_rich",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 30000,
+      "weight": 25
+    }
+  ]
+}

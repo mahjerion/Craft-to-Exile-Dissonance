@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SVZUXHSG",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Meaning holy or sacred, in the Lord's",
+      "Prayer it precedes \"be thy name\""
+   ],
+   "solution" : "HALLOWED",
+   "type" : "riddlechests:word"
+}

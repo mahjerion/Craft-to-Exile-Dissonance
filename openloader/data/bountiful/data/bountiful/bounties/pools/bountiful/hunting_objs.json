@@ -1,0 +1,202 @@
+{
+  "content": [
+    {
+      "type": "entity",
+      "content": "minecraft:enderman",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 800,
+      "weight": 1000,
+      "timeMult": 6.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:blaze",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:ghast",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:phantom",
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 6.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:slime",
+      "amountRange": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 350,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:witch",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1200,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "minecraft:zombie_pigman",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 400,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "betteranimalsplus:tarantula",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "nasty:skeleton",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 900,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:mummy",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 500,
+      "weight": 1000,
+      "timeMult": 4.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:eskimo",
+      "amountRange": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 500,
+      "weight": 1000,
+      "timeMult": 4.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:cold",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:burned",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:marshied",
+      "amountRange": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 600,
+      "weight": 1000,
+      "timeMult": 3.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:spear_eskimo",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:ancient_mummy",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 800,
+      "weight": 1000,
+      "timeMult": 5.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:inmortal",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000,
+      "weight": 100,
+      "timeMult": 8.0
+    },
+    {
+      "type": "entity",
+      "content": "rotten_creatures:dead_beard",
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000,
+      "weight": 100,
+      "timeMult": 8.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ENSFP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Pronounced differently, this adjective",
+      "meaning \"pertaining to birth\" is a",
+      "former province of South Africa"
+   ],
+   "solution" : "NATAL",
+   "type" : "riddlechests:word"
+}

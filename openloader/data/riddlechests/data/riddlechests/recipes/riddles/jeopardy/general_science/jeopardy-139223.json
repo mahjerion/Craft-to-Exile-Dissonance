@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "IIWT",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 1891 Eugene Dubois found a skull",
+      "cap of Homo erectus on this",
+      "Indonesian island"
+   ],
+   "solution" : "JAVA",
+   "type" : "riddlechests:word"
+}

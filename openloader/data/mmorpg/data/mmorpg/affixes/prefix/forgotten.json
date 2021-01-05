@@ -1,0 +1,25 @@
+{
+  "id": "forgotten",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.forgotten",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "less_health_percent",
+    "mana_cost_red_flat"
+  ]
+}

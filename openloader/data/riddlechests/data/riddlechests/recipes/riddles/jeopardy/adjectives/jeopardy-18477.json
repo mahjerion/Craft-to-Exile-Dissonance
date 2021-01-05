@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "BPTXOLZOTS",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Meaning adapted for seizing or grasping,",
+      "it often describes a monkey's tail"
+   ],
+   "solution" : "PREHENSILE",
+   "type" : "riddlechests:word"
+}

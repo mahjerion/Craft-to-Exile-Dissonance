@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "EDZDAK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This Belgian city is famous for its",
+      "bridges & its name is Dutch for bridges"
+   ],
+   "solution" : "BRUGES",
+   "type" : "riddlechests:word"
+}

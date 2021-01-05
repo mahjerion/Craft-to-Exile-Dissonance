@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YZGOC",
+   "riddle" : [
+      "General Science",
+      "",
+      "On June 22, 1978 James W. Christy",
+      "discovered Charon, a moon orbiting this",
+      "distant planet"
+   ],
+   "solution" : "PLUTO",
+   "type" : "riddlechests:word"
+}

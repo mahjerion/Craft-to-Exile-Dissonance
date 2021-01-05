@@ -1,0 +1,25 @@
+{
+  "id": "alphas_howl",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.alphas_howl",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.alphas_howl.desc",
+  "primary_stats": [
+    "high_dodge_flat"
+  ],
+  "unique_stats": [
+    "cdr_flat",
+    "high_water_resist_flat",
+    "high_mana_regen_flat",
+	"plus_divine_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "leather_helmet",
+  "item_id": "cte_uniques:leather_unique_1_helmet"
+}

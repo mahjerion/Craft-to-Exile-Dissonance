@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TAFKTE",
+   "riddle" : [
+      "The one who made it didnt want it",
+      "The one who bought it didnt need it",
+      "The one who used it never saw it"
+   ],
+   "solution" : "COFFIN",
+   "type" : "riddlechests:word"
+}

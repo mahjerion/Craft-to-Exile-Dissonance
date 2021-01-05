@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "OCKIBV",
+   "riddle" : [
+      "General Science",
+      "",
+      "A block & tackle uses 2 or more of this",
+      "simple machine to reduce the amount of",
+      "effort needed to lift a load"
+   ],
+   "solution" : "PULLEY",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "of_leeching",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.of_leeching",
+  "type": "suffix",
+  "mods": {
+    "mods": [
+      "major_lifesteal_flat",
+      "life_on_hit_flat"
+    ]
+  }
+}

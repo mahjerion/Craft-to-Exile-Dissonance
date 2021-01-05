@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GJWHCTGN",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Nanduti, a lace that looks like spider",
+      "webs, is made in Itaugua, a town near",
+      "Asuncion in this country"
+   ],
+   "solution" : "PARAGUAY",
+   "type" : "riddlechests:word"
+}

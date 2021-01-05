@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "RFIBCOS",
+   "riddle" : [
+      "General Science",
+      "",
+      "This wax obtained from sheep wool is",
+      "composed largely of cholesterol esters"
+   ],
+   "solution" : "LANOLIN",
+   "type" : "riddlechests:word"
+}

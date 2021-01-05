@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "LIEULOX",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Queen Mary's dolls' house is one of the",
+      "attractions at this castle 22 miles",
+      "west of London"
+   ],
+   "solution" : "WINDSOR",
+   "type" : "riddlechests:word"
+}

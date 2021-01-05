@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "BCWHGY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From Latin for \"one\", it describes",
+      "something that's one of a kind"
+   ],
+   "solution" : "UNIQUE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UTEFIK",
+   "riddle" : [
+      "General Science",
+      "",
+      "The Mohorovicic Discontinuity is the",
+      "boundary between the Earth's crust &",
+      "this layer"
+   ],
+   "solution" : "MANTLE",
+   "type" : "riddlechests:word"
+}

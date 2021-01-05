@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "isi",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "immersiveengineering:plate_silver"
+    },
+    "m": {
+      "item": "mmorpg:currency/item_levelup"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:4_to_5"
+  }
+}

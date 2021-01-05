@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "PFKQWCV",
+   "riddle" : [
+      "General Science",
+      "",
+      "In most other parts of the world, this",
+      "scale, not Fahrenheit, is used for",
+      "measuring temperature"
+   ],
+   "solution" : "CELSIUS",
+   "type" : "riddlechests:word"
+}

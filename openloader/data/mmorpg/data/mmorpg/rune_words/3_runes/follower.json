@@ -1,0 +1,18 @@
+{
+  "id": "follower",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.follower",
+  "runes": [
+    "ita",
+    "dos",
+    "voh"
+  ],
+  "mods": [
+    "critical_hit_flat",
+    "critical_damage_flat",
+    "health_percent"
+  ]
+}

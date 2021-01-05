@@ -1,0 +1,29 @@
+{
+  "id": "berserkers_arsenal",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.berserkers_arsenal",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "plate_chest",
+          "plate_boots",
+          "plate_pants",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 15,
+        "max_level": 50
+      }
+    ]
+  },
+  "mods": {
+    "2": "health_flat",
+	"3": "nature_resist_flat",
+	"4": "high_physical_damage_percent"
+  }
+}

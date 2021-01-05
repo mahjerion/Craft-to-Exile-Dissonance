@@ -1,0 +1,21 @@
+{
+  "id": "biscos_collar",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.biscos_collar",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.biscos_collar.desc",
+  "primary_stats": [
+    "bonus_all_drops_flat"
+  ],
+  "unique_stats": [
+    "bonus_all_drops_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.25
+  },
+  "gear_type": "necklace",
+  "item_id": "cte_uniques:biscos_collar"
+}

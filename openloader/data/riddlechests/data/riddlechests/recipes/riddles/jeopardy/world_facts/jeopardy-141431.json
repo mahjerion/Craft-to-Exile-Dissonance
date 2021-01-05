@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GFWGSSI",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Portugal is the smaller of the 2",
+      "countries that occupy this peninsula"
+   ],
+   "solution" : "IBERIAN",
+   "type" : "riddlechests:word"
+}

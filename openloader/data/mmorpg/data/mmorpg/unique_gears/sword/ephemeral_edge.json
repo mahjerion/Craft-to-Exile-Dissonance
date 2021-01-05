@@ -1,0 +1,26 @@
+{
+  "id": "ephemeral_edge",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.sword.ephemeral_edge",
+  "lang_file_desc_string": "item.mmorpg.uniques.sword.ephemeral_edge.desc",
+  "primary_stats": [
+    "physical_damage_flat"
+  ],
+  "unique_stats": [
+    "critical_hit_flat",
+    "magic_shield_flat",
+    "magic_shield_percent",
+    "mana_on_hit_flat",
+    "less_health_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "stamina": 0.25,
+	"intelligence": 0.75
+  },
+  "gear_type": "sword",
+  "item_id": "cte_uniques:ephemeral_edge"
+}

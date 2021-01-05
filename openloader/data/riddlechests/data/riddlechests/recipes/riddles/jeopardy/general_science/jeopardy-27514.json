@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NKNIHF",
+   "riddle" : [
+      "General Science",
+      "",
+      "Titan, a moon of this planet, has a",
+      "thicker atmosphere than Earth"
+   ],
+   "solution" : "SATURN",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "QAIOXQJFLV",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This word describes fresh foods like",
+      "meat & fruit that need to be",
+      "refrigerated before they go bad"
+   ],
+   "solution" : "PERISHABLE",
+   "type" : "riddlechests:word"
+}

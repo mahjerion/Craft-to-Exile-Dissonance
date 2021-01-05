@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "WTEDS",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Of the more than 50 independent",
+      "countries in Africa, it's the",
+      "largest in area"
+   ],
+   "solution" : "SUDAN",
+   "type" : "riddlechests:word"
+}

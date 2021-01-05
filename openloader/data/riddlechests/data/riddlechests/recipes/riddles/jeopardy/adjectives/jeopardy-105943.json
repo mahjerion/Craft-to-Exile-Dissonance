@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "XWIIT",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This synonym for \"wide\" can be found",
+      "before \"cloth\" or \"minded\""
+   ],
+   "solution" : "BROAD",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "HSGPTGZYMZ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "\"Eloquent\" comes from the same root as",
+      "this word that means overly talkative"
+   ],
+   "solution" : "LOQUACIOUS",
+   "type" : "riddlechests:word"
+}

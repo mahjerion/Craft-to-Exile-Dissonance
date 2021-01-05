@@ -1,0 +1,29 @@
+{
+  "item_type": "staff",
+  "item_id": "atum:loot_ruby_scepter",
+  "id": "staff:atum:loot_ruby_scepter",
+  "gear_type": {
+    "normal_item_weight": 90,
+    "runed_item_weight": 0,
+    "unique_item_weight": 10
+  },
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 3
+  },
+  "misc": {
+    "only_add_stats_if_loot_drop": false,
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": false
+  },
+  "level": {
+    "min_level": 35,
+    "max_level": 40,
+    "level_variance": 0
+  },
+  "unique": {
+    "if_unique_random_up_to_tier": 3,
+    "unique_id": ""
+  }
+}

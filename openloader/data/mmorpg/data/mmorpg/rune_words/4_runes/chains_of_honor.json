@@ -1,0 +1,20 @@
+{
+  "id": "chains_of_honor",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.chains_of_honor",
+  "runes": [
+    "mos",
+    "xah",
+    "goh",
+    "ita"
+  ],
+  "mods": [
+	"cdr_flat",
+	"health_percent",
+    "lifesteal_flat",
+    "elemental_resist_flat"
+  ]
+}

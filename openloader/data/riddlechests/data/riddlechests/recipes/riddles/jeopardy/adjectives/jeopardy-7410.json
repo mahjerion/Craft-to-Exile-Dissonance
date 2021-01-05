@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "YLMHNGUJQP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Adjective rightly describing Molly Brown",
+      "& wrongly describing the Titanic"
+   ],
+   "solution" : "UNSINKABLE",
+   "type" : "riddlechests:word"
+}

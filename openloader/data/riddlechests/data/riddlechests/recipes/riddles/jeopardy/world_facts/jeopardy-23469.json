@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "KTFU",
+   "riddle" : [
+      "World Facts",
+      "",
+      "It's the monetary unit of Vatican City"
+   ],
+   "solution" : "LIRA",
+   "type" : "riddlechests:word"
+}

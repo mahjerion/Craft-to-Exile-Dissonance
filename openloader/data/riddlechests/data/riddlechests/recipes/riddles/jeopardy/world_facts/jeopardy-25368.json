@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ABUEJR",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Because it grows so much wheat,",
+      "Saskatchewan is called this country's",
+      "\"Breadbasket\""
+   ],
+   "solution" : "CANADA",
+   "type" : "riddlechests:word"
+}

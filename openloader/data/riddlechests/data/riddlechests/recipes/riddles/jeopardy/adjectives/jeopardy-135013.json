@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "FJPSUXFFU",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective can refer to a lazy",
+      "person, or maybe to someone who types",
+      "only in lowercase"
+   ],
+   "solution" : "SHIFTLESS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,25 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Seeds",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:wheat_seeds"
+    },
+    {
+      "output": "minecraft:melon_seeds"
+    },
+    {
+      "output": "minecraft:pumpkin_seeds"
+    },
+    {
+      "output": "minecraft:beetroot_seeds"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "BRHN",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's the dried outer covering of a seed",
+      "or fruit; corn has one"
+   ],
+   "solution" : "HUSK",
+   "type" : "riddlechests:word"
+}

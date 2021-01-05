@@ -1,0 +1,23 @@
+{
+  "id": "bated_breath",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.pants.bated_breath",
+  "lang_file_desc_string": "item.mmorpg.uniques.pants.bated_breath.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "intelligence_flat",
+    "magic_shield_percent",
+    "magic_shield_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 1.0
+  },
+  "gear_type": "cloth_pants",
+  "item_id": "cte_uniques:cloth_unique_3_leggings"
+}

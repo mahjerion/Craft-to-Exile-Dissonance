@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "YAFKRQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Muscles in this sensory organ include",
+      "the genioglossus & the hyoglossus"
+   ],
+   "solution" : "TONGUE",
+   "type" : "riddlechests:word"
+}

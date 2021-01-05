@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZAAKVLGTYOI",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 1931 2 Americans modified the",
+      "Mercalli scale to measure the intensity",
+      "of these in California"
+   ],
+   "solution" : "EARTHQUAKES",
+   "type" : "riddlechests:word"
+}

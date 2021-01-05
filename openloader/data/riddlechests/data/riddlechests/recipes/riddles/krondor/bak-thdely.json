@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THDELY",
+   "riddle" : [
+      "When it is down",
+      "It is lower than a horses belly",
+      "When it is up",
+      "It is higher than a horses back"
+   ],
+   "solution" : "SADDLE",
+   "type" : "riddlechests:word"
+}

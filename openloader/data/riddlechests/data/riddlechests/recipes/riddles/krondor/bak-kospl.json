@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "KOSPL",
+   "riddle" : [
+      "Bloodless and boneless it travels about",
+      "Yet it never leaves home"
+   ],
+   "solution" : "SNAIL",
+   "type" : "riddlechests:word"
+}

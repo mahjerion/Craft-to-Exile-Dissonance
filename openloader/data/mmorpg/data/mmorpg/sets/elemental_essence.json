@@ -1,0 +1,28 @@
+{
+  "id": "elemental_essence",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.elemental_essence",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 70
+      }
+    ]
+  },
+  "mods": {
+    "2": "elemental_resist_flat",
+    "3": "spell_elemental_damage_flat"
+  }
+}

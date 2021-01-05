@@ -1,0 +1,24 @@
+{
+  "id": "goldwyrm",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.goldwyrm",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.goldwyrm.desc",
+  "primary_stats": [
+    "dodge_flat"
+  ],
+  "unique_stats": [
+    "bonus_currency_drops_flat",
+    "fire_resist_flat",
+    "mana_regen_flat",
+    "energy_regen_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "leather_boots",
+  "item_id": "cte_uniques:leather_unique_2_boots"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "XRQCVB",
+   "riddle" : [
+      "General Science",
+      "",
+      "A bluish-black solid at room",
+      "temperature, this halogen changes into a",
+      "purple vapor when heated"
+   ],
+   "solution" : "IODINE",
+   "type" : "riddlechests:word"
+}

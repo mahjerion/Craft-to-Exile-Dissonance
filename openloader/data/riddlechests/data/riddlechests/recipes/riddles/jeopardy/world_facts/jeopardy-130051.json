@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "AVRVOWWEHFP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "In 2013 Queen Beatrix of this country",
+      "abdicated in favor of her son, Prince",
+      "Willem-Alexander"
+   ],
+   "solution" : "NETHERLANDS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "PTTNPN",
+   "riddle" : [
+      "General Science",
+      "",
+      "The 2 heaviest ones of these particles,",
+      "top & bottom, were originally called",
+      "truth & beauty"
+   ],
+   "solution" : "QUARKS",
+   "type" : "riddlechests:word"
+}

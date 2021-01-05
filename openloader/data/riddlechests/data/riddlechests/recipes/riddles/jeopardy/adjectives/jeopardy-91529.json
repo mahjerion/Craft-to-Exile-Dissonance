@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "MGUJK",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective that means weirdly",
+      "frightening comes from Old English for",
+      "\"cowardly\""
+   ],
+   "solution" : "EERIE",
+   "type" : "riddlechests:word"
+}

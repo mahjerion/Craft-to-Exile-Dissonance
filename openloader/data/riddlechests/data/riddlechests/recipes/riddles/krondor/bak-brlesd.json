@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BRLESD",
+   "riddle" : [
+      "This Kingdom fool has married many women",
+      "Yet he has never been married"
+   ],
+   "solution" : "PRIEST",
+   "type" : "riddlechests:word"
+}

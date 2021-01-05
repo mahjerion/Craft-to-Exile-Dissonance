@@ -1,0 +1,28 @@
+{
+  "id": "heavenly_strikes",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.heavenly_strikes",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "critical_hit_flat",
+    "high_critical_hit_percent"
+  ]
+}

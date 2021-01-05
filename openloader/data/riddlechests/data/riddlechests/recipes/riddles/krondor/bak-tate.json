@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TATE",
+   "riddle" : [
+      "Though blind as well",
+      "Can lead the blind well"
+   ],
+   "solution" : "CANE",
+   "type" : "riddlechests:word"
+}

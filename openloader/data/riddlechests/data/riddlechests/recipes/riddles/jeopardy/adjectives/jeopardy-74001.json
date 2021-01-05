@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "MHSYKFFMZJ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This 10-letter adjective can mean false,",
+      "spurious, of doubtful authorship or",
+      "uncanonical"
+   ],
+   "solution" : "APOCRYPHAL",
+   "type" : "riddlechests:word"
+}

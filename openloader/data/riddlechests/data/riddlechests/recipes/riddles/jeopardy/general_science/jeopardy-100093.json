@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "WRPKUR",
+   "riddle" : [
+      "General Science",
+      "",
+      "Using spectrometry, you'll find that",
+      "helium produces a bright line of",
+      "this color"
+   ],
+   "solution" : "YELLOW",
+   "type" : "riddlechests:word"
+}

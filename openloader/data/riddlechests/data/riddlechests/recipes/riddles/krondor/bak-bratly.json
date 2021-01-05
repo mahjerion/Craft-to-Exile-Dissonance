@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BRATLY",
+   "riddle" : [
+      "The bones of the dead",
+      "Can be used to trap the living"
+   ],
+   "solution" : "SNARES",
+   "type" : "riddlechests:word"
+}

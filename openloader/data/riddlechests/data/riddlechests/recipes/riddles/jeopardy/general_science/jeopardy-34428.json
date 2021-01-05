@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "MSLVGGZXP",
+   "riddle" : [
+      "General Science",
+      "",
+      "Hydrogen has 3 isotopes: protium,",
+      "tritium & this one with a mass",
+      "number of 2"
+   ],
+   "solution" : "DEUTERIUM",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FVM",
+   "riddle" : [
+      "General Science",
+      "",
+      "Deoxyribonucleic acid, the genetic",
+      "material of all cells is better known by",
+      "this abbreviation"
+   ],
+   "solution" : "DNA",
+   "type" : "riddlechests:word"
+}

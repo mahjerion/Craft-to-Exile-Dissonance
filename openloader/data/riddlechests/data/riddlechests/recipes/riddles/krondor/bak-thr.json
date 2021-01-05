@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THR",
+   "riddle" : [
+      "Power enough to smash ships and crush roofs",
+      "Yet it still must fear the sun"
+   ],
+   "solution" : "ICE",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NPLISCUCYYX",
+   "riddle" : [
+      "General Science",
+      "",
+      "In weather forecasting, the UV index",
+      "refers to the intensity of this type",
+      "of radiation"
+   ],
+   "solution" : "ULTRAVIOLET",
+   "type" : "riddlechests:word"
+}

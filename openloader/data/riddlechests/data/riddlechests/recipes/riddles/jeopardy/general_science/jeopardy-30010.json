@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "VSPDIZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Generally yellow or orange, it's",
+      "transferred from flower to flower by",
+      "wind, birds & insects"
+   ],
+   "solution" : "POLLEN",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "strength",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.strength",
+  "runes": [
+    "ano",
+    "ber"
+  ],
+  "mods": [
+    "lifesteal_flat",
+	"strength_flat"
+  ]
+}

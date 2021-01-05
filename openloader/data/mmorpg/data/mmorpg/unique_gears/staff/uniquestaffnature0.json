@@ -1,0 +1,25 @@
+{
+  "id": "uniquestaffnature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.staff.uniquestaffnature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestaffnature0.desc",
+  "primary_stats": [
+    "attack_nature_damage_flat"
+  ],
+  "unique_stats": [
+    "nature_penetration_flat",
+    "life_on_hit_flat",
+    "health_regen_flat",
+    "plus_poison_ball_spell_lvl_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.5,
+    "intelligence": 0.75
+  },
+  "gear_type": "staff",
+  "item_id": "mmorpg:uniques/staff/uniquestaffnature0"
+}

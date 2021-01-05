@@ -1,0 +1,31 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:oak_sapling"
+    },
+    {
+      "output": "minecraft:spruce_sapling"
+    },
+    {
+      "output": "minecraft:birch_sapling"
+    },
+    {
+      "output": "minecraft:jungle_sapling"
+    },
+    {
+      "output": "minecraft:acacia_sapling"
+    },
+    {
+      "output": "minecraft:dark_oak_sapling"
+    }
+  ]
+}

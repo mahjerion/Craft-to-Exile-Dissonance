@@ -1,0 +1,22 @@
+{
+    "type": "productivebees:bee_breeding",
+    "parent1": "productivebees:iron",
+    "parent2": "productivebees:coal",
+    "offspring": [
+        "productivebees:steel"
+    ],
+    "breeding_items": [
+        {
+            "tag": "forge:ingots/iron"
+        },
+        {
+            "item": "minecraft:coal"
+        }
+    ],
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "powah"
+        }
+    ]
+}

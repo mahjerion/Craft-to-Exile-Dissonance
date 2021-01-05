@@ -1,8 +1,0 @@
-{
-  "type": "riddlechests:loottable_mapping",
-  "category": "riddlechests:betrayal_at_krondor",
-
-  "lootTables": [
-    "riddlechests:cte_loot"
-  ]
-}

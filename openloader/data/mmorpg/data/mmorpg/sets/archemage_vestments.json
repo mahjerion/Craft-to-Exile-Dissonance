@@ -1,0 +1,27 @@
+{
+  "id": "archemage_vestments",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.archemage_vestments",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_boots",
+          "cloth_helmet",
+          "cloth_pants",
+          "cloth_chest"
+        ]
+      },
+      {
+        "min_level": 0,
+        "max_level": 20
+      }
+    ]
+  },
+  "mods": {
+    "2": "magic_shield_regen_flat"
+  }
+}

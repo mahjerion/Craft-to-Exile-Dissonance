@@ -1,0 +1,17 @@
+{
+  "result": {
+    "item": "lycanitesmobs:equipmentpart_ironpaxel"
+  },
+  "ingredients": [
+    {
+      "item": "immersiveengineering:axe_steel"
+    },
+    {
+      "item": "immersiveengineering:pickaxe_steel"
+    },
+    {
+      "item": "immersiveengineering:shovel_steel"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless"
+}

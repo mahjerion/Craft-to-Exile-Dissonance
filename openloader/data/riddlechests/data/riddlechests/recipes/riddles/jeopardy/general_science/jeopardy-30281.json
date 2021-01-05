@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "AJSJLQG",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 1862 Darwin published a book on how",
+      "orchids are fertilized by these",
+      "creatures"
+   ],
+   "solution" : "INSECTS",
+   "type" : "riddlechests:word"
+}

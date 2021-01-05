@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "COXBOP",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective, from the Latin for",
+      "\"flowing\", means \"able to speak or write",
+      "smoothly\", as a foreign language"
+   ],
+   "solution" : "FLUENT",
+   "type" : "riddlechests:word"
+}

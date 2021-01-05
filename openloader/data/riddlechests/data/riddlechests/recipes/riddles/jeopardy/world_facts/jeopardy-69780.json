@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "QFVNPFFOV",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The world's longest cable-car route runs",
+      "over 10,000 feet up Pico Espejo south of",
+      "Lake Maracaibo in this country"
+   ],
+   "solution" : "VENEZUELA",
+   "type" : "riddlechests:word"
+}

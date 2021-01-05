@@ -1,0 +1,16 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Bone Meal",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:bone_meal"
+    }
+  ]
+}

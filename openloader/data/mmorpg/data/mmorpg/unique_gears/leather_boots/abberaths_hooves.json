@@ -1,0 +1,25 @@
+{
+  "id": "abberaths_hooves",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.boots.abberaths_hooves",
+  "lang_file_desc_string": "item.mmorpg.uniques.boots.abberaths_hooves.desc",
+  "primary_stats": [
+    "high_dodge_flat"
+  ],
+  "unique_stats": [
+    "high_strength_flat",
+    "high_fire_spell_to_attack_dmg_flat",
+    "fire_penetration_flat",
+    "plus_fire_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0,
+    "strength": 1.0
+  },
+  "gear_type": "leather_boots",
+  "item_id": "cte_uniques:leather_unique_1_boots"
+}

@@ -1,0 +1,19 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Mushrooms",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:brown_mushroom"
+    },
+    {
+      "output": "minecraft:red_mushroom"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "of_vampirism",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_vampirism",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "lifesteal_flat",
+    "life_on_hit_flat",
+    "lifesteal_percent"
+  ]
+}

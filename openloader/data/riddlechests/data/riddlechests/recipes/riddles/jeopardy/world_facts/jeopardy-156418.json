@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "LUBZPFMBJ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Grand Canyon is a gorge in Arizona;",
+      "Grand Cayman is an island in this sea"
+   ],
+   "solution" : "CARIBBEAN",
+   "type" : "riddlechests:word"
+}

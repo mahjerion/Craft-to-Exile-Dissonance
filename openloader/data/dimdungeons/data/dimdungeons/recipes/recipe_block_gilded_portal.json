@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GTG",
+    "OSO",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "T": {
+      "item": "gaiadimension:tektite_block"
+    },
+    "O": {
+      "item": "gaiadimension:goldstone_block"
+    },
+    "S": {
+      "item": "minecraft:chiseled_stone_bricks",
+      "_comment": "in 1.13 the item here needs to be changed to minecraft:chiseled_stone_bricks and the data value of 3 omitted"
+    }
+  },
+  "result": {
+    "item": "dimdungeons:block_gilded_portal"
+  }
+}

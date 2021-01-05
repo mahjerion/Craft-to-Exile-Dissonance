@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "RZZUDMKP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "This landlocked country is South",
+      "America's largest exporter of",
+      "electricity"
+   ],
+   "solution" : "PARAGUAY",
+   "type" : "riddlechests:word"
+}

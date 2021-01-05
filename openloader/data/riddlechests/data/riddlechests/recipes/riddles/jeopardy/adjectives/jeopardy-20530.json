@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "OPJSNXH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It describes a person with strict moral",
+      "principles, or a piano whose strings run",
+      "vertically"
+   ],
+   "solution" : "UPRIGHT",
+   "type" : "riddlechests:word"
+}

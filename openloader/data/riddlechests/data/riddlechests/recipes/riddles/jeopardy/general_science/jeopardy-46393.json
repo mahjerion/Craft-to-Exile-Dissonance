@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "OXAZFCMSCJN",
+   "riddle" : [
+      "General Science",
+      "",
+      "Since limestone undergoes changes to",
+      "become marble, marble is classified as",
+      "this type of rock"
+   ],
+   "solution" : "METAMORPHIC",
+   "type" : "riddlechests:word"
+}

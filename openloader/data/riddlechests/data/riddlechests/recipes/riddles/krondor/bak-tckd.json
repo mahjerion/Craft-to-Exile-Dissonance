@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TCKD",
+   "riddle" : [
+      "Answers its caller without being asked",
+      "Responds within seconds and speaks all languages with equal ease"
+   ],
+   "solution" : "ECHO",
+   "type" : "riddlechests:word"
+}

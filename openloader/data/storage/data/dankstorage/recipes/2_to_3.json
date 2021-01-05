@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "isi",
+    "imi"
+  ],
+  "key": {
+    "i": {
+      "item": "create:brass_sheet"
+    },
+    "m": {
+      "item": "mmorpg:currency/number_reroll"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dankstorage:2_to_3"
+  }
+}

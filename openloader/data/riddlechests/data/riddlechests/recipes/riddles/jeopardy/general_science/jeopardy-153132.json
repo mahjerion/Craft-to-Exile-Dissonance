@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UWXAVL",
+   "riddle" : [
+      "General Science",
+      "",
+      "Sodium hypochlorite, NaOCl, is the main",
+      "ingredient in this laundry product"
+   ],
+   "solution" : "BLEACH",
+   "type" : "riddlechests:word"
+}

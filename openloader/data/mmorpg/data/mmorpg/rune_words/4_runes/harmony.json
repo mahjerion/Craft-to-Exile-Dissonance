@@ -1,0 +1,20 @@
+{
+  "id": "harmony",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.harmony",
+  "runes": [
+    "dos",
+    "ber",
+    "cen",
+    "rah"
+  ],
+  "mods": [
+	"low_all_ele_dmg_flat",
+    "fire_spell_to_attack_dmg_flat",
+    "thunder_spell_to_attack_dmg_flat",
+    "water_spell_to_attack_dmg_flat"
+  ]
+}

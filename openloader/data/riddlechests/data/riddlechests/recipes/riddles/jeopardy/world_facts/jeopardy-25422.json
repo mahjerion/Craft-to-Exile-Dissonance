@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "PTUEMP",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Prince Albert is this tiny European",
+      "country's heir apparent"
+   ],
+   "solution" : "MONACO",
+   "type" : "riddlechests:word"
+}

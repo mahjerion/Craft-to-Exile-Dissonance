@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "HLALY",
+   "riddle" : [
+      "This odd thing seems to get wetter",
+      "The more it dries"
+   ],
+   "solution" : "TOWEL",
+   "type" : "riddlechests:word"
+}

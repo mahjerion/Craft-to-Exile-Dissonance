@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "EADEZKFY",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Battambang, the 2nd-largest urban area",
+      "in this country, contains 10th century",
+      "ruins of the Khmer Empire"
+   ],
+   "solution" : "CAMBODIA",
+   "type" : "riddlechests:word"
+}

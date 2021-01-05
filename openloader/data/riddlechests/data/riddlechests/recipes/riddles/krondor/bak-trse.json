@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TRSE",
+   "riddle" : [
+      "Passed from father to son",
+      "And shared between brothers",
+      "Its importance is unquestioned",
+      "Though it is used more by others"
+   ],
+   "solution" : "NAME",
+   "type" : "riddlechests:word"
+}

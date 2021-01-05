@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "PIESCS",
+   "riddle" : [
+      "Everyone offers this thing",
+      "But few will take it when it is offered by someone else"
+   ],
+   "solution" : "ADVICE",
+   "type" : "riddlechests:word"
+}

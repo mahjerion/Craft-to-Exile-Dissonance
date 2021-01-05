@@ -1,0 +1,31 @@
+{
+  "id": "magic_siphon",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.magic_siphon",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "high_magic_steal_flat"
+  ]
+}

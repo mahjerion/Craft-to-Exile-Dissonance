@@ -1,0 +1,21 @@
+{
+  "id": "promise",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.promise",
+  "runes": [
+    "voh",
+    "ano",
+    "cen",
+    "xah",
+    "ber"
+  ],
+  "mods": [
+    "cdr_flat",
+    "mana_regen_flat",
+	"energy_regen_flat",
+    "armor_flat"
+  ]
+}

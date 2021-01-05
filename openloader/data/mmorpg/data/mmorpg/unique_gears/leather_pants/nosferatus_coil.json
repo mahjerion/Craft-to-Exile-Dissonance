@@ -1,0 +1,24 @@
+{
+  "id": "nosferatus_coil",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.pants.nosferatus_coil",
+  "lang_file_desc_string": "item.mmorpg.uniques.pants.nosferatus_coil.desc",
+  "primary_stats": [
+    "dodge_flat"
+  ],
+  "unique_stats": [
+    "energy_regen_flat",
+    "lifesteal_flat",
+	"lifesteal_percent",
+	"strength_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "leather_pants",
+  "item_id": "cte_uniques:leather_unique_1_leggings"
+}

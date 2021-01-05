@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "RSOE",
+   "riddle" : [
+      "You see it about in field and town",
+      "It cannot get up",
+      "But will oft fall down"
+   ],
+   "solution" : "RAIN",
+   "type" : "riddlechests:word"
+}

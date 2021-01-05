@@ -1,0 +1,84 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:paper",
+      "amountRange": {
+        "min": 4,
+        "max": 48
+      },
+      "unitWorth": 45,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:glass_pane",
+      "amountRange": {
+        "min": 4,
+        "max": 32
+      },
+      "unitWorth": 100,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:compass",
+      "amountRange": {
+        "min": 4,
+        "max": 24
+      },
+      "unitWorth": 100,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "minecraft:comparator",
+      "amountRange": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 500,
+      "weight": 1000
+    },
+    {
+      "type": "item",
+      "content": "waystones:return_scroll",
+      "amountRange": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 300,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "waystones:warp_scroll",
+      "amountRange": {
+        "min": 3,
+        "max": 12
+      },
+      "unitWorth": 500,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "naturescompass:naturescompass",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+    {
+      "type": "item",
+      "content": "waystones:warp_stone",
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    }
+  ]
+}

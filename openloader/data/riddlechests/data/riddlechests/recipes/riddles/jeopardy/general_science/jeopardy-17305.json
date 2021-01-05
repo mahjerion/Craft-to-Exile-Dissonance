@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KYFLC",
+   "riddle" : [
+      "General Science",
+      "",
+      "Also called chert, this rock was used by",
+      "early man for tools"
+   ],
+   "solution" : "FLINT",
+   "type" : "riddlechests:word"
+}

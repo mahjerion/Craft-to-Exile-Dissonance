@@ -1,0 +1,24 @@
+{
+  "id": "of_magic_shield",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_magic_shield",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_boots",
+          "cloth_helmet",
+          "cloth_chest",
+          "cloth_pants"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "magic_shield_percent"
+  ]
+}

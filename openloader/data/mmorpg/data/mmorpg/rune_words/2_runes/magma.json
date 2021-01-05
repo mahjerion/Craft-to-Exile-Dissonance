@@ -1,0 +1,16 @@
+{
+  "id": "magma",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.magma",
+  "runes": [
+    "dos",
+    "voh"
+  ],
+  "mods": [
+    "fire_resist_flat",
+    "all_fire_damage_flat"
+  ]
+}

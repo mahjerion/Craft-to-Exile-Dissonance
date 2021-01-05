@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "MAYTWD",
+   "riddle" : [
+      "World Facts",
+      "",
+      "One of these, the Sistema de",
+      "Transporte Collectivo, opened in 1969",
+      "in Mexico City"
+   ],
+   "solution" : "SUBWAY",
+   "type" : "riddlechests:word"
+}

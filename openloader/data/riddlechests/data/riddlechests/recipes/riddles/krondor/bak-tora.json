@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TORA",
+   "riddle" : [
+      "It is a journey whose path depends on anothers vision of where it ends"
+   ],
+   "solution" : "BOOK",
+   "type" : "riddlechests:word"
+}

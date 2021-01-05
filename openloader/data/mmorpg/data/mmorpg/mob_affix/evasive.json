@@ -1,0 +1,14 @@
+{
+  "id": "evasive",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.evasive",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "major_dodge_flat"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BESTD",
+   "riddle" : [
+      "What goes with a wagon that doesn't benefit the wagon but the wagon cannot move",
+      "without"
+   ],
+   "solution" : "NOISE",
+   "type" : "riddlechests:word"
+}

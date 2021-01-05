@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "PRJWTXJ",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "From the Greek word for \"hidden\", it",
+      "describes something mysterious in",
+      "meaning"
+   ],
+   "solution" : "CRYPTIC",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "light",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.light",
+  "runes": [
+    "ita",
+    "ano",
+    "dos",
+    "xah",
+    "goh"
+  ],
+  "mods": [
+	"all_fire_damage_flat",
+    "health_regen_flat",
+    "health_flat",
+    "fire_resist_flat"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "JHDDWK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "A lion on this country's coat of arms",
+      "holds Saint Olaf's battle-axe"
+   ],
+   "solution" : "NORWAY",
+   "type" : "riddlechests:word"
+}

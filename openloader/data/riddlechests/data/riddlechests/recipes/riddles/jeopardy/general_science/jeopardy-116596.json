@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "QSHXZS",
+   "riddle" : [
+      "General Science",
+      "",
+      "The proton consists of 2 types of this",
+      "elementary particle: 2 up & 1 down"
+   ],
+   "solution" : "QUARKS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "SYZZMMY",
+   "riddle" : [
+      "World Facts",
+      "",
+      "It's the smallest of the Great Lakes by",
+      "surface area & the one farthest east"
+   ],
+   "solution" : "ONTARIO",
+   "type" : "riddlechests:word"
+}

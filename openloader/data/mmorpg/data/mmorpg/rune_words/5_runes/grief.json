@@ -1,0 +1,21 @@
+{
+  "id": "grief",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.grief",
+  "runes": [
+    "voh",
+    "dos",
+    "ita",
+    "xah",
+    "goh"
+  ],
+  "mods": [
+	"nature_focus_flat",
+    "nature_spell_to_attack_dmg_flat",
+    "nature_spell_to_attack_dmg_percent",
+    "nature_penetration_flat"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "charmthunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.charm.charmthunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.charm.charmthunder0.desc",
+  "primary_stats": [
+    "spell_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "thunder_resist_flat",
+    "mana_regen_percent",
+    "thunder_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.75,
+    "intelligence": 0.75
+  },
+  "gear_type": "charm",
+  "item_id": "mmorpg:uniques/charm/charmthunder0"
+}

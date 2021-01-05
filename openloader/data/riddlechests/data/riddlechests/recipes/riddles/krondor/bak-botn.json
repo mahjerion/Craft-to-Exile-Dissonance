@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BOTN",
+   "riddle" : [
+      "It can pierce the best armor",
+      "And make swords crumble with a rub",
+      "Yet for all its power",
+      "It can't harm a club"
+   ],
+   "solution" : "RUST",
+   "type" : "riddlechests:word"
+}

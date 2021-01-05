@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "MAOHLL",
+   "riddle" : [
+      "Neck but no head",
+      "Arms but no hands",
+      "Waist but no legs"
+   ],
+   "solution" : "JACKET",
+   "type" : "riddlechests:word"
+}

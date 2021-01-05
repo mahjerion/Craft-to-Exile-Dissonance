@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "MBTN",
+   "riddle" : [
+      "Ten trolls strength",
+      "Ten trolls length",
+      "One troll can pick it up",
+      "No troll can stand it up"
+   ],
+   "solution" : "ROPE",
+   "type" : "riddlechests:word"
+}

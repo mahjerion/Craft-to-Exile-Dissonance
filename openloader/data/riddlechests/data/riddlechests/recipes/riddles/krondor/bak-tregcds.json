@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TREGCDS",
+   "riddle" : [
+      "This side of a wolfhound has the most hair"
+   ],
+   "solution" : "OUTSIDE",
+   "type" : "riddlechests:word"
+}

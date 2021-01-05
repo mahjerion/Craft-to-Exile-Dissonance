@@ -1,0 +1,23 @@
+{
+  "id": "the_searing_touch",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.staff.the_searing_touch",
+  "lang_file_desc_string": "item.mmorpg.uniques.staff.the_searing_touch.desc",
+  "primary_stats": [
+    "attack_fire_damage_flat"
+  ],
+  "unique_stats": [
+    "high_fire_spell_to_attack_dmg_flat",
+    "fire_spell_to_attack_dmg_percent",
+    "fire_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "staff",
+  "item_id": "cte_uniques:the_searing_touch"
+}

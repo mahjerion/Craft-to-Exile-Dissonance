@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CEORLIY",
+   "riddle" : [
+      "A carpenter left some wood",
+      "Would not take it back",
+      "I saw some dust where he left it",
+      "But couldn't find his stack"
+   ],
+   "solution" : "SAWDUST",
+   "type" : "riddlechests:word"
+}

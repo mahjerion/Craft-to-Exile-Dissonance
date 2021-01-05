@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "KGTON",
+   "riddle" : [
+      "General Science",
+      "",
+      "Olfaction is the sense of smell &",
+      "gustation is this sense"
+   ],
+   "solution" : "TASTE",
+   "type" : "riddlechests:word"
+}

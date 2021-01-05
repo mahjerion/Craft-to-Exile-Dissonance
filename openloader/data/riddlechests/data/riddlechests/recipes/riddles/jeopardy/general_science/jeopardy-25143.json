@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "ZNEU",
+   "riddle" : [
+      "General Science",
+      "",
+      "Voyager 1 found one of these above",
+      "Jupiter; astronomers had only known of",
+      "Saturn's & Uranus'"
+   ],
+   "solution" : "RING",
+   "type" : "riddlechests:word"
+}

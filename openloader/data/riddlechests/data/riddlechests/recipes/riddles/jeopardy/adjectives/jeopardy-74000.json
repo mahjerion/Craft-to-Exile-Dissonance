@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SZPSB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective that means tastelessly",
+      "flashy dates from the 1500s & may come",
+      "from the Latin for \"joy\""
+   ],
+   "solution" : "GAUDY",
+   "type" : "riddlechests:word"
+}

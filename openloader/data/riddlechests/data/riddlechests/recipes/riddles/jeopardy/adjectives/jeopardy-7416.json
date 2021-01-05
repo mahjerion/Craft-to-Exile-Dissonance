@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "VUDQRUXFMA",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Adjective describing the works &",
+      "literary style of the author of \"Great",
+      "Expectations\""
+   ],
+   "solution" : "DICKENSIAN",
+   "type" : "riddlechests:word"
+}

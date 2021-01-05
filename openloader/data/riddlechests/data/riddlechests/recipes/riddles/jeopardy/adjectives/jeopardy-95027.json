@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "YIB",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Of Disney's \"Seven Dwarfs\", he's the",
+      "only one whose name is not an adjective"
+   ],
+   "solution" : "DOC",
+   "type" : "riddlechests:word"
+}

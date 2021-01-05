@@ -1,0 +1,15 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "UQLNMY",
+   "riddle" : [
+      "General Science",
+      "",
+      "In 1869 this Austrian monk published a",
+      "paper on hawkweed: the experiments",
+      "didn't work as well as the ones with",
+      "peas"
+   ],
+   "solution" : "MENDEL",
+   "type" : "riddlechests:word"
+}

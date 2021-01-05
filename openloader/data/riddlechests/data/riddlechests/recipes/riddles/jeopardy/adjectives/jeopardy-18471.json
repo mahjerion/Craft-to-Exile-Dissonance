@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "DTNXNIMBGW",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It means meticulous, though it sounds",
+      "like a combination of \"fast\" & \"hideous\""
+   ],
+   "solution" : "FASTIDIOUS",
+   "type" : "riddlechests:word"
+}

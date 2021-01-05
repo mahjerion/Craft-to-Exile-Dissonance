@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "TOB",
+   "riddle" : [
+      "Axes and swords",
+      "Will not help you through",
+      "Yet it and a little push will do",
+      "Some in the road would have fought and soon died",
+      "Were it not close at hand to let them inside"
+   ],
+   "solution" : "KEY",
+   "type" : "riddlechests:word"
+}

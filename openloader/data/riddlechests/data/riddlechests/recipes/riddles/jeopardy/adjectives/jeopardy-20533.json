@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "TXAUPJNDH",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It means \"capable of being placed",
+      "opposite something else\" and often",
+      "refers to a monkey's thumbs"
+   ],
+   "solution" : "OPPOSABLE",
+   "type" : "riddlechests:word"
+}

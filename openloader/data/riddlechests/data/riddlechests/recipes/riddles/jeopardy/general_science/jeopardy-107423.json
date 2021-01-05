@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "CQKDBMDYN",
+   "riddle" : [
+      "General Science",
+      "",
+      "Unusual names borne by these celestial",
+      "objects include 3834 Zappafrank &",
+      "10221 Kubrick"
+   ],
+   "solution" : "ASTEROIDS",
+   "type" : "riddlechests:word"
+}

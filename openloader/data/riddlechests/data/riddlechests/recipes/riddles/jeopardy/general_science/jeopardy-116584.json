@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "NACKMZ",
+   "riddle" : [
+      "General Science",
+      "",
+      "In palynology scientists study the past",
+      "distribution of seed plants by looking",
+      "at grains of this"
+   ],
+   "solution" : "POLLEN",
+   "type" : "riddlechests:word"
+}

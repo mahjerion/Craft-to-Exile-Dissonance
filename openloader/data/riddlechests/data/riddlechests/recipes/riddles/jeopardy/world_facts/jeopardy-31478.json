@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "GTIAGZ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The sultan of this country on the island",
+      "of Borneo is also his country's minister",
+      "of defense"
+   ],
+   "solution" : "BRUNEI",
+   "type" : "riddlechests:word"
+}

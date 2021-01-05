@@ -1,0 +1,12 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BRRD",
+   "riddle" : [
+      "Put into a pit",
+      "Locked behind a steel grate",
+      "Guarded all through the night still it goes out"
+   ],
+   "solution" : "FIRE",
+   "type" : "riddlechests:word"
+}

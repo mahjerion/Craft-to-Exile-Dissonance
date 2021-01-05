@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "ICNFRPBJRWL",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This proper adjective refers to the",
+      "Frankish dynasty which reigned from 751",
+      "to 987 A.D."
+   ],
+   "solution" : "CAROLINGIAN",
+   "type" : "riddlechests:word"
+}

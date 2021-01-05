@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "BRIROED",
+   "riddle" : [
+      "There is a shoemaker in the dell",
+      "Makes his shoes with steel and nail",
+      "Although his goods last right well",
+      "Folks need two pair without fail"
+   ],
+   "solution" : "FARRIER",
+   "type" : "riddlechests:word"
+}

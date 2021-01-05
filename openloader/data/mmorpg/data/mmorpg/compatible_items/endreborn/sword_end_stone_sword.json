@@ -1,0 +1,29 @@
+{
+  "item_type": "sword",
+  "item_id": "endreborn:end_stone_sword",
+  "id": "sword:endreborn:end_stone_sword",
+  "gear_type": {
+    "normal_item_weight": 100,
+    "runed_item_weight": 0,
+    "unique_item_weight": 0
+  },
+  "rarity": {
+    "min_rarity": 0,
+    "max_rarity": 2
+  },
+  "misc": {
+    "only_add_stats_if_loot_drop": false,
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": false
+  },
+  "level": {
+    "min_level": 26,
+    "max_level": 30,
+    "level_variance": 0
+  },
+  "unique": {
+    "if_unique_random_up_to_tier": 10,
+    "unique_id": ""
+  }
+}

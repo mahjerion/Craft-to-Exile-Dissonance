@@ -1,0 +1,22 @@
+{
+  "id": "of_the_cactus",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_the_cactus",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "nature_thorns_reflect_flat",
+    "very_high_lifesteal_flat"
+  ]
+}

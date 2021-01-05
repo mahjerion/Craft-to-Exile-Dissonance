@@ -1,0 +1,26 @@
+{
+  "id": "bonus_fire_reflect_prefix",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.bonus_fire_reflect_prefix",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "shield"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "fire_thorns_reflect_flat",
+    "fire_resist_flat"
+  ]
+}

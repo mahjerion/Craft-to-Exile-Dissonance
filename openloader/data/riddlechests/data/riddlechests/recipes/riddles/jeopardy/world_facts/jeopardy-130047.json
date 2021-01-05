@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "FNAWXK",
+   "riddle" : [
+      "World Facts",
+      "",
+      "It's a one-word term for a tropical",
+      "rainforest, especially one in Africa,",
+      "loud with monkeys & parrots"
+   ],
+   "solution" : "JUNGLE",
+   "type" : "riddlechests:word"
+}

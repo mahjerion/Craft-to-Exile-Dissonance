@@ -1,0 +1,15 @@
+{
+  "id": "flaming",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.flaming",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "attack_fire_damage_flat",
+      "fire_resist_flat"
+    ]
+  }
+}

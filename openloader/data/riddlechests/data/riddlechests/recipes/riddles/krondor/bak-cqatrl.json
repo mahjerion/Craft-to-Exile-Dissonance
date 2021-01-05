@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "CQATRL",
+   "riddle" : [
+      "One pace to the North",
+      "Two paces to the East",
+      "Two paces to the South",
+      "Two paces to the West",
+      "One pace to the North"
+   ],
+   "solution" : "SQUARE",
+   "type" : "riddlechests:word"
+}

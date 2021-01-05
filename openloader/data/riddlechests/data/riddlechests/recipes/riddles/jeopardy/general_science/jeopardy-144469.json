@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "BSKKJXLL",
+   "riddle" : [
+      "General Science",
+      "",
+      "This metal was discovered by 2 Spanish",
+      "chemists in 1783 in samples of the",
+      "mineral wolframite"
+   ],
+   "solution" : "TUNGSTEN",
+   "type" : "riddlechests:word"
+}

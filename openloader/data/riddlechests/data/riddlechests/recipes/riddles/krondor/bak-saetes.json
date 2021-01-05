@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "SAETES",
+   "riddle" : [
+      "A box beneath a tree",
+      "Inside some tasty meat",
+      "Kept for a month or more",
+      "It still tastes just as sweet"
+   ],
+   "solution" : "WALNUT",
+   "type" : "riddlechests:word"
+}

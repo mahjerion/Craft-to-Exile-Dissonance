@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "LJYGROKHG",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It describes a legislature such as our",
+      "own or the U.K.'s, made up of 2 houses"
+   ],
+   "solution" : "BICAMERAL",
+   "type" : "riddlechests:word"
+}

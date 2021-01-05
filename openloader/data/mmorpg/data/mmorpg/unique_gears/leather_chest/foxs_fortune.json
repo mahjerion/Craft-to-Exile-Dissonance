@@ -1,0 +1,24 @@
+{
+  "id": "foxs_fortune",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.foxs_fortune",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.foxs_fortune.desc",
+  "primary_stats": [
+    "health_flat",
+    "very_high_dodge_flat"
+  ],
+  "unique_stats": [
+    "dexterity_flat",
+    "bow_damage_flat",
+    "dodge_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "leather_chest",
+  "item_id": "cte_uniques:leather_unique_2_chestplate"
+}

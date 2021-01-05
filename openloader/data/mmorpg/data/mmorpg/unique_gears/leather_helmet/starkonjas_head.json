@@ -1,0 +1,23 @@
+{
+  "id": "starkonjas_head",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.starkonjas_head",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.starkonjas_head.desc",
+  "primary_stats": [
+    "very_high_dodge_flat"
+  ],
+  "unique_stats": [
+    "high_health_percent",
+    "dodge_percent",
+	"high_critical_hit_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "dexterity": 1.0
+  },
+  "gear_type": "leather_helmet",
+  "item_id": "cte_uniques:leather_unique_4_helmet"
+}

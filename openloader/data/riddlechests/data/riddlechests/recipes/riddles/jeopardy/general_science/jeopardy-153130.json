@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "WVAHR",
+   "riddle" : [
+      "General Science",
+      "",
+      "6 noble gases were discovered between",
+      "1894 & 1900 with argon being the first &",
+      "this one, Rn, the last"
+   ],
+   "solution" : "RADON",
+   "type" : "riddlechests:word"
+}

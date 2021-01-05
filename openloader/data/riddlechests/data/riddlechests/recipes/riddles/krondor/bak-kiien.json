@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "KIIEN",
+   "riddle" : [
+      "She has tasteful friends",
+      "And tasteless enemies",
+      "Tears are often shed on her behalf",
+      "Yet never has she broken a heart"
+   ],
+   "solution" : "ONION",
+   "type" : "riddlechests:word"
+}

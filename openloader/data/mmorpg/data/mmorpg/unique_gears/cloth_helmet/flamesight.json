@@ -1,0 +1,23 @@
+{
+  "id": "flamesight",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.helmet.flamesight",
+  "lang_file_desc_string": "item.mmorpg.uniques.helmet.flamesight.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "fire_resist_flat",
+    "spell_elemental_damage_flat",
+    "fire_penetration_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 1.0
+  },
+  "gear_type": "cloth_helmet",
+  "item_id": "cte_uniques:cloth_unique_2_helmet"
+}

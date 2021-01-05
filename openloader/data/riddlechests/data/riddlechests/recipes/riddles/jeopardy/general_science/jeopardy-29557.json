@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "SHIN",
+   "riddle" : [
+      "General Science",
+      "",
+      "This planet is 1.5 times farther from",
+      "the sun than Earth is"
+   ],
+   "solution" : "MARS",
+   "type" : "riddlechests:word"
+}

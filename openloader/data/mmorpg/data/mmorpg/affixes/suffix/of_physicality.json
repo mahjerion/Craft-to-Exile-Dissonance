@@ -1,0 +1,27 @@
+{
+  "id": "of_physicality",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_physicality",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "physical_damage_percent"
+  ]
+}

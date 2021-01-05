@@ -1,0 +1,7 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lootTables" : [
+      "riddlechests:cte_loot"
+   ],
+   "type" : "riddlechests:loottable_mapping"
+}

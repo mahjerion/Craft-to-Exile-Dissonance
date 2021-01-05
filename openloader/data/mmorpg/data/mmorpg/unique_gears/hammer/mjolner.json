@@ -1,0 +1,25 @@
+{
+  "id": "mjolner",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.hammer.mjolner",
+  "lang_file_desc_string": "item.mmorpg.uniques.hammer.mjolner.desc",
+  "primary_stats": [
+    "attack_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "thunder_focus_flat",
+    "high_thunder_spell_to_attack_dmg_flat",
+    "high_thunder_spell_to_attack_dmg_percent",
+    "plus_storm_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 1.1,
+    "intelligence": 1.1
+  },
+  "gear_type": "hammer",
+  "item_id": "cte_uniques:mjolner"
+}

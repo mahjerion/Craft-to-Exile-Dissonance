@@ -1,0 +1,22 @@
+{
+  "id": "eternal_field",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.eternal_field",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "magic_shield_regen_flat",
+    "magic_shield_percent"
+  ]
+}

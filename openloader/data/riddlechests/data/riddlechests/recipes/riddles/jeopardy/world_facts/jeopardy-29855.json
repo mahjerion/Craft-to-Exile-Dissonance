@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "JFUNHFT",
+   "riddle" : [
+      "World Facts",
+      "",
+      "The Count of Urgel was the first known",
+      "ruler of this country in the Pyrenees"
+   ],
+   "solution" : "ANDORRA",
+   "type" : "riddlechests:word"
+}

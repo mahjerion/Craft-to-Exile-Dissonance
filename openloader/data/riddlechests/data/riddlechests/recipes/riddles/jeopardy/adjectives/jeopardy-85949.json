@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "KBHMOY",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "This adjective for an empty lot or",
+      "uninhabited house also refers to an",
+      "estate that no heir has claimed"
+   ],
+   "solution" : "VACANT",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "forceful",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.forceful",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "hammer",
+          "crossbow",
+          "bow",
+          "axe",
+          "trident",
+          "staff",
+          "sword"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "very_low_physical_damage_flat"
+  ]
+}

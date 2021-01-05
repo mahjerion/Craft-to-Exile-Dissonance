@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GUUUXQEFSWRUJP",
+   "riddle" : [
+      "General Science",
+      "",
+      "This method of preserving food by",
+      "killing bacteria was developed by a",
+      "French chemist in the 1860s"
+   ],
+   "solution" : "PASTEURIZATION",
+   "type" : "riddlechests:word"
+}

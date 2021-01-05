@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "PYAQJFWRUHQ",
+   "riddle" : [
+      "General Science",
+      "",
+      "Since limestone is transformed into",
+      "marble under severe heat, marble is",
+      "classified as this type of rock"
+   ],
+   "solution" : "METAMORPHIC",
+   "type" : "riddlechests:word"
+}

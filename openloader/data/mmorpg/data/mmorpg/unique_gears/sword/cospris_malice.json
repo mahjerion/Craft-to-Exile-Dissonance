@@ -1,0 +1,26 @@
+{
+  "id": "cospris_malice",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 5,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.sword.cospris_malice",
+  "lang_file_desc_string": "item.mmorpg.uniques.sword.cospris_malice.desc",
+  "primary_stats": [
+    "attack_water_damage_flat"
+  ],
+  "unique_stats": [
+    "spell_water_damage_flat",
+    "high_water_spell_to_attack_dmg_percent",
+	"water_focus_flat",
+	"critical_hit_flat",
+	"physical_dispersion_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0,
+	"dexterity": 1.0
+  },
+  "gear_type": "sword",
+  "item_id": "cte_uniques:cospris_malice"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "the_protector",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.the_protector",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "plate_chest",
+          "leather_chest",
+          "cloth_chest",
+          "shield"
+        ]
+      },
+      {
+        "min_level": 0,
+        "max_level": 99
+      }
+    ]
+  },
+  "mods": {
+    "2": "block_strength_percent"
+  }
+}

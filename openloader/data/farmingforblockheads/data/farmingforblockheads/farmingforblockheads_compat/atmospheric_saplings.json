@@ -1,0 +1,29 @@
+{
+  "modId": "atmospheric",
+  "group": {
+    "name": "Atmospheric Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:coin_penny",
+	  "count": 2
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "atmospheric:grimwood_sapling"
+    },
+    {
+      "output": "atmospheric:aspen_sapling"
+    },
+    {
+      "output": "atmospheric:kousa_sapling"
+    },
+    {
+      "output": "atmospheric:yucca_sapling"
+    },
+    {
+      "output": "atmospheric:rosewood_sapling"
+    }
+  ]
+}

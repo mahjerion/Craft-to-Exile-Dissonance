@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "TNTNPS",
+   "riddle" : [
+      "General Science",
+      "",
+      "With 2 neutrons & 2 protons, an alpha",
+      "particle is identical to the nucleus of",
+      "an atom of this gas"
+   ],
+   "solution" : "HELIUM",
+   "type" : "riddlechests:word"
+}

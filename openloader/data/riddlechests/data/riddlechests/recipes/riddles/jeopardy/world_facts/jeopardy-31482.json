@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "IMXAKZ",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Though popular, Noninke & Wolof are also",
+      "spoken there, this is the official",
+      "language of Mauritania"
+   ],
+   "solution" : "ARABIC",
+   "type" : "riddlechests:word"
+}

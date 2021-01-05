@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SVSSYT",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "It describes a feature found on the back",
+      "of an animal, like the fin on a dolphin"
+   ],
+   "solution" : "DORSAL",
+   "type" : "riddlechests:word"
+}

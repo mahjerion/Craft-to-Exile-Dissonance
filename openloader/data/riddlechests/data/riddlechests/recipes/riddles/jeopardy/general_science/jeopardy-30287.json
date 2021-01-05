@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "LDYNRK",
+   "riddle" : [
+      "General Science",
+      "",
+      "The mammalian order edentata has 3",
+      "families: anteaters, armadillos & these",
+      "slow movers"
+   ],
+   "solution" : "SLOTHS",
+   "type" : "riddlechests:word"
+}

@@ -1,0 +1,166 @@
+{
+  "content": [
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "id": "minecraft:efficiency",
+            "lvl": 1
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1750,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "minecraft:protection"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1250,
+      "weight": 500
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "minecraft:fire_protection"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "minecraft:unbreaking"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "minecraft:flame"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "leap:leaping"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3500,
+      "weight": 150
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "step:stepping"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2750,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "apotheosis:icy_thorns"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 250
+    },
+    {
+      "type": "item",
+      "content": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "apotheosis:crescendo"
+          }
+        ]
+      },
+      "amountRange": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 250
+    }
+  ]
+}

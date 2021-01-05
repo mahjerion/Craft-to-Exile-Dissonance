@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "THEDTS",
+   "riddle" : [
+      "When it is stout",
+      "People gladly tread",
+      "When it is thin",
+      "People walk in dread"
+   ],
+   "solution" : "BRIDGE",
+   "type" : "riddlechests:word"
+}

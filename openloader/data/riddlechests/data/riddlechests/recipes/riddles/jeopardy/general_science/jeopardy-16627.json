@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "OENSB",
+   "riddle" : [
+      "General Science",
+      "",
+      "It's found in layered beds or as",
+      "nodules in chalk; early man chipped it",
+      "to form tools"
+   ],
+   "solution" : "FLINT",
+   "type" : "riddlechests:word"
+}

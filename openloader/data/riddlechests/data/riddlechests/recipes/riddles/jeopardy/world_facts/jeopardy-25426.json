@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "ARYTXSW",
+   "riddle" : [
+      "World Facts",
+      "",
+      "Simon Bolivar's birthplace is one of",
+      "the main attractions in this",
+      "Venezuelan capital"
+   ],
+   "solution" : "CARACAS",
+   "type" : "riddlechests:word"
+}

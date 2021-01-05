@@ -1,0 +1,18 @@
+{
+  "id": "leaf",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.leaf",
+  "runes": [
+    "ber",
+    "ano",
+    "goh"
+  ],
+  "mods": [
+    "spell_fire_damage_flat",
+    "mana_on_hit_flat",
+	"water_resist_flat"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "necklace_wisdom0",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.necklace.necklace_wisdom0",
+  "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_wisdom0.desc",
+  "primary_stats": [
+    "very_high_wisdom_flat"
+  ],
+  "unique_stats": [
+    "high_mana_flat",
+    "high_magic_shield_regen_flat",
+    "thunder_resist_flat",
+    "fire_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0,
+    "wisdom": 0.25
+  },
+  "gear_type": "necklace",
+  "item_id": "mmorpg:uniques/necklace/necklace_wisdom0"
+}

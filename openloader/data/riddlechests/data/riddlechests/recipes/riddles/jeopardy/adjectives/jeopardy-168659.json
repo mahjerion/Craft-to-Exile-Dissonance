@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "CVVLNGHQXTWAU",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "Able to be decomposed easily by living",
+      "organisms, thereby avoiding pollution"
+   ],
+   "solution" : "BIODEGRADABLE",
+   "type" : "riddlechests:word"
+}

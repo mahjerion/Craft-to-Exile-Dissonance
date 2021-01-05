@@ -1,0 +1,15 @@
+{
+  "id": "cold",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.cold",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "attack_water_damage_flat",
+      "water_resist_flat"
+    ]
+  }
+}

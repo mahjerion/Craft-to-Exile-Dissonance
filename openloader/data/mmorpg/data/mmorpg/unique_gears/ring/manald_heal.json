@@ -1,0 +1,23 @@
+{
+  "id": "manald_heal",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.ring.manald_heal",
+  "lang_file_desc_string": "item.mmorpg.uniques.ring.manald_heal.desc",
+  "primary_stats": [
+    "low_health_regen_flat"
+  ],
+  "unique_stats": [
+    "mana_on_hit_flat",
+    "low_mana_regen_flat",
+    "low_health_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "wisdom": 0.75
+  },
+  "gear_type": "ring",
+  "item_id": "cte_uniques:manald_heal"
+}

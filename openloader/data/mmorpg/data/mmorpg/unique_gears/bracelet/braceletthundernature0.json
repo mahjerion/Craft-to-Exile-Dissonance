@@ -1,0 +1,25 @@
+{
+  "id": "braceletthundernature0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.bracelet.braceletthundernature0",
+  "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletthundernature0.desc",
+  "primary_stats": [
+    "spell_nature_damage_flat",
+    "spell_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "high_mana_flat",
+    "high_health_flat",
+    "high_energy_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75,
+    "vitality": 0.75
+  },
+  "gear_type": "bracelet",
+  "item_id": "mmorpg:uniques/bracelet/braceletthundernature0"
+}

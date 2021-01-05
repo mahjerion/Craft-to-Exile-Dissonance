@@ -1,0 +1,24 @@
+{
+  "id": "the_covenant",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.chest.the_covenant",
+  "lang_file_desc_string": "item.mmorpg.uniques.chest.the_covenant.desc",
+  "primary_stats": [
+    "magic_shield_flat"
+  ],
+  "unique_stats": [
+    "blood_mage_trait_flat",
+    "high_intelligence_flat",
+    "high_health_percent",
+    "high_nature_spell_to_attack_dmg_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 1.0
+  },
+  "gear_type": "cloth_chest",
+  "item_id": "cte_uniques:cloth_unique_1_chestplate"
+}

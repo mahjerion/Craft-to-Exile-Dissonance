@@ -1,0 +1,16 @@
+{
+  "id": "lore",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.lore",
+  "runes": [
+    "goh",
+    "ano"
+  ],
+  "mods": [
+    "energy_regen_percent",
+	"thunder_resist_flat"
+  ]
+}

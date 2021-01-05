@@ -1,0 +1,172 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = config/fancymenu/backgrounds/background.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-left
+  x = 24
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=400382%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = 59
+}
+
+customization {
+  identifier = %id=502382%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = Are You Sure?
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-left
+  x = 2
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400298%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = 49
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/images/wiki_hover.png
+  label = 
+  backgroundnormal = config/fancymenu/images/wiki.png
+  value = https://github.com/mahjerion/Craft-to-Exile-Dissonance/wiki
+  height = 30
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  x = -46
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundhovered = config/fancymenu/images/disc_hover.png
+  label = 
+  backgroundnormal = config/fancymenu/images/disc.png
+  value = https://discord.gg/cJS6ZHs
+  height = 30
+}
+
+customization {
+  path = config/fancymenu/images/title.png
+  orientation = mid-centered
+  x = -278
+  width = 557
+  action = addtexture
+  y = -209
+  height = 125
+}
+
+customization {
+  orientation = bottom-centered
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu/images/akliz_hover.png
+  description = Get 20% off with this affiliate link!
+  label = 
+  hoverlabel = 
+  x = -141
+  width = 93
+  action = addbutton
+  y = -33
+  backgroundnormal = config/fancymenu/images/akliz.png
+  value = https://www.akliz.net/crafttoexile
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  buttonaction = openlink
+  x = 46
+  width = 80
+  action = addbutton
+  y = -23
+  backgroundhovered = config/fancymenu/images/patreon_hover.png
+  label = 
+  backgroundnormal = config/fancymenu/images/patreon.png
+  value = https://www.patreon.com/crafttoexile
+  height = 20
+}
+

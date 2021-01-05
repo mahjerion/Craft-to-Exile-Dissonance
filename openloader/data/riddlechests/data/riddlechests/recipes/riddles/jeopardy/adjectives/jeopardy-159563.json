@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/adjectives",
+   "lang" : "en_us",
+   "original" : "SENGKAJCQTM",
+   "riddle" : [
+      "Adjectives",
+      "",
+      "November can be described as this 11-",
+      "letter month of the year, meaning",
+      "next to last"
+   ],
+   "solution" : "PENULTIMATE",
+   "type" : "riddlechests:word"
+}

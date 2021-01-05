@@ -1,0 +1,13 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "GLNIUFV",
+   "riddle" : [
+      "General Science",
+      "",
+      "This tiny center region of an atom",
+      "consists of protons & neutrons"
+   ],
+   "solution" : "NUCLEUS",
+   "type" : "riddlechests:word"
+}

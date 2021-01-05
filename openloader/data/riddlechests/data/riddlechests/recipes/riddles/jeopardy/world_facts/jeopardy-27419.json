@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/world_facts",
+   "lang" : "en_us",
+   "original" : "EIXHVB",
+   "riddle" : [
+      "World Facts",
+      "",
+      "At over 3,500,000 square miles, this",
+      "desert covers an area larger than",
+      "Australia"
+   ],
+   "solution" : "SAHARA",
+   "type" : "riddlechests:word"
+}

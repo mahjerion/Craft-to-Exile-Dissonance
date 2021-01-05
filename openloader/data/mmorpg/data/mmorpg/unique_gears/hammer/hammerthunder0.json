@@ -1,0 +1,24 @@
+{
+  "id": "hammerthunder0",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 3,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.hammer.hammerthunder0",
+  "lang_file_desc_string": "item.mmorpg.uniques.hammer.hammerthunder0.desc",
+  "primary_stats": [
+    "attack_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "thunder_spell_to_attack_dmg_flat",
+    "critical_damage_flat",
+    "critical_hit_multi"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.75,
+    "stamina": 0.75
+  },
+  "gear_type": "hammer",
+  "item_id": "mmorpg:uniques/hammer/hammerthunder0"
+}

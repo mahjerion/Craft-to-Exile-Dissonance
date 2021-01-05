@@ -1,0 +1,10 @@
+{
+   "category" : "riddlechests:betrayal_at_krondor",
+   "lang" : "en_us",
+   "original" : "EITL",
+   "riddle" : [
+      "They go up white but come down yellow and white"
+   ],
+   "solution" : "EGGS",
+   "type" : "riddlechests:word"
+}

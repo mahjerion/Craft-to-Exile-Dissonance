@@ -1,0 +1,29 @@
+{
+  "id": "of_water_dissonance",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_water_dissonance",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      },
+      {
+        "slots": [
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "critical_damage_flat",
+    "low_water_resist_flat"
+  ]
+}

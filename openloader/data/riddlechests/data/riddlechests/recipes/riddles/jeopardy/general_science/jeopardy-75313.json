@@ -1,0 +1,14 @@
+{
+   "category" : "riddlechests:jeopardy/general_science",
+   "lang" : "en_us",
+   "original" : "FBILIGTRP",
+   "riddle" : [
+      "General Science",
+      "",
+      "Light that bounces off a flat surface is",
+      "reflected; light bent in a transparent",
+      "medium is this"
+   ],
+   "solution" : "REFRACTED",
+   "type" : "riddlechests:word"
+}

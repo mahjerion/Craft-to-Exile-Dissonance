@@ -7,6 +7,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Pretty large update to Mine and Slash once again. Since all the updates are from M&S this time around, I'll paste the changelog here.
+- New stat: Spell Lifesteal! Lifesteal, but for spells!
+- Added lifesteal and spell lifesteal nodes to the tree.
+- Life/spell lifesteal now has a minimum of 1. So even if you do 6 damage with 1% lifesteal, you will still heal 1 HP.
+- Major Arcana stat "Judgment" now provides spell lifesteal, and the "thirst of" affixes provide a minor amount of spell lifesteal instead of lifesteal.
+- Increased crit hit and damage percents and multis, flat values are still the same.
+- Nature's Balm has had its values readjusted again (buff).
+- Flat physical damage values have been lowered, but percent has been increased. This means physical will about 20% less damage early game, but investing into physical damage will improve it about 30% more.
+- Increased early game effectiveness of Retribution.
+- Fixed some localization typos and made some stats/skills more clear. "Judgment" is now spelled correctly, yay!
+- Plate gear now also provides armor.
+- Leather gear provides a bit less HP.
+- Increased durability of equipment, especially at lower rarities.
+- Lessened the effect of gear damage on loot drop at lower levels. You will still definitely feel this at higher levels.
+- Vanilla ores provide a little more fuel than they used to.
+- Setting tiers in the Dimension Config should work now.
+
+### Mod Updates
+- Updated Performant, Mine and Slash.
+
+### Fixes
+- Suffocation on dimension entry should be fixed.
+- Inability to pickup items sometimes should be fixed.
+
 ## [2.8.1c] - 2020-01-06
 
 ### Updates

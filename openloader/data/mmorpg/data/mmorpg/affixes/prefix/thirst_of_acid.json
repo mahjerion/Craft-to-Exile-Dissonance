@@ -19,7 +19,7 @@
     ]
   },
   "mods": [
-    "lifesteal_flat",
+    "very_low_spellsteal_flat",
     "spell_nature_damage_flat"
   ]
 }

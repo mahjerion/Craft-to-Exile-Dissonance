@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.1c] - 2020-01-06
+
+### Updates
+- Some minor balance fixes for Mine and Slash. I went overboard with some nerfs. Also some Hunting buffs (again).
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.8.1b] - 2020-01-05
 
 ### Fixes

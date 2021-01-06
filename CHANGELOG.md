@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.2] - 2020-01-06
+
 ### Updates
-- Pretty large update to Mine and Slash once again. Since all the updates are from M&S this time around, I'll paste the changelog here.
+- Dimensional Dungeons should be able to drop tier 4+ uniques now (may or may not work).
+- Pretty large update to Mine and Slash once again. Since all the updates are from M&S this time around, I'll paste the changelog here:
 - New stat: Spell Lifesteal! Lifesteal, but for spells!
 - Added lifesteal and spell lifesteal nodes to the tree.
 - Life/spell lifesteal now has a minimum of 1. So even if you do 6 damage with 1% lifesteal, you will still heal 1 HP.

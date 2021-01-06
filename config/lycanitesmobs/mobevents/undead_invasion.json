@@ -4,7 +4,7 @@
   "enabled": true,
   "loadDefault": false,
   "channel": "world",
-  "duration": 1200,
+  "duration": 6000,
   "conditions": [
     {
       "type": "world",

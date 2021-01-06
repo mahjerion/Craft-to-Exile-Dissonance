@@ -35,6 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Suffocation on dimension entry should be fixed.
 - Inability to pickup items sometimes should be fixed.
+- Fixed invasions being too short.
 
 ## [2.8.1c] - 2020-01-06
 

@@ -5,6 +5,7 @@
   "loadDefault": false,
   "channel": "world",
   "duration": 6000,
+  "levelBoostMax": 0,
   "conditions": [
     {
       "type": "world",

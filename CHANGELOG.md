@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Elytras should work again as intended.
 - Disabled Hoglin spawn since it was causing severe Nether lag.
+- Attempt at preventing Lycanites levels during invasions.
 
 ## [2.8.2] - 2020-01-06
 

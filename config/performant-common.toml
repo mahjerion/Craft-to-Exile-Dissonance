@@ -99,5 +99,5 @@
 	#Range: 15 ~ 400
 	disconnectTimeout = 60
 	#List of mobs disallowed from spawning: e.g. format :  ["minecraft:zombie", "minecraft:creeper"]
-	forbiddenMobs = ["upgade_aquatic:box_jellyfish", "upgade_aquatic:cassiopea_jellyfish", "upgade_aquatic:immortal_jellyfish"]
+	forbiddenMobs = ["upgade_aquatic:box_jellyfish", "upgade_aquatic:cassiopea_jellyfish", "upgade_aquatic:immortal_jellyfish", "extendednether:hoglin"]
 

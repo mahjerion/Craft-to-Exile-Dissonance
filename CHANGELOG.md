@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Made the Malachite Guard (last boss) immensely more difficult. Also much more rewarding!
+- Changed some Nether quests.
+- Swapped quest positions of Restructurer and Minerals III.
+
+### Mod Updates
+- Updated Caelus API.
+
+### Fixes
+- Elytras should work again as intended.
+- Disabled Hoglin spawn since it was causing severe Nether lag.
+
 ## [2.8.2] - 2020-01-06
 
 ### Updates

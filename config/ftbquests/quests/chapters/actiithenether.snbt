@@ -846,7 +846,14 @@
 			}]
 		},
 		{
-			title: "Hogging The Goods",
+			title: "Making Strides",
+			icon: {
+				id: "extendednether:netherite_boots",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
 			x: 1.5d,
 			y: -1.5d,
 			shape: "default",
@@ -860,8 +867,8 @@
 			tasks: [{
 				id: 2459,
 				type: "kill",
-				icon: "extendednether:hoglin_spawn_egg",
-				entity: "extendednether:hoglin",
+				icon: "extendednether:strider_spawn_egg",
+				entity: "extendednether:strider",
 				value: 8L
 			}],
 			rewards: [
@@ -888,6 +895,7 @@
 		},
 		{
 			title: "Zombie Pig Invasion",
+			icon: "minecraft:cooked_porkchop",
 			x: 3.0d,
 			y: -1.5d,
 			shape: "default",

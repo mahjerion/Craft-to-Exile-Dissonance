@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Hoglin spawn since it was causing severe Nether lag.
 - Attempt at preventing Lycanites levels during invasions.
 
-## [2.8.2] - 2020-01-06
+## [2.8.2] - 2021-01-06
 
 ### Updates
 - Sorry for constant updates - I thought the item pickup and suffocation fixes warranted pushing this out early. This should be the last for a while assuming the change directly below doesn't break dimensions.
@@ -50,7 +50,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Inability to pickup items sometimes should be fixed.
 - Fixed invasions being too short.
 
-## [2.8.1c] - 2020-01-06
+## [2.8.1c] - 2021-01-06
 
 ### Updates
 - Some minor balance fixes for Mine and Slash. I went overboard with some nerfs. Also some Hunting buffs (again).
@@ -58,12 +58,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated Mine and Slash.
 
-## [2.8.1b] - 2020-01-05
+## [2.8.1b] - 2021-01-05
 
 ### Fixes
 - Fixing dependencies.
 
-## [2.8.1] - 2020-01-05
+## [2.8.1] - 2021-01-05
 
 ### Updates
 - HUGE Mine and Slash update. You have been provided with a spell reset potion. Check the changelog over at https://github.com/mahjerion/Mine-and-Slash/blob/1.15.2/changelog.txt!
@@ -96,7 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - With the removal of It's The Little Things and XL Packets, very rare crashes upon start should be resolved.
 - Fixed some broken runewords.
 
-## [2.8.0b] - 2020-01-01
+## [2.8.0b] - 2021-01-01
 
 ### Fixes
 - Fixed Mine and Slash ores not working properly.

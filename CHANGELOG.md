@@ -7,15 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.3] - 2021-01-12
+
 ### Updates
 - Pretty large Mine and Slash update. View the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3166056!
 - Made the Malachite Guard (last boss) immensely more difficult. Also much more rewarding!
 - Changed some Nether quests.
 - Swapped quest positions of Restructurer and Minerals III.
 - Players have been provided with more reset potions because of the Mine and Slash update.
+- Increased difficulty of Dimensional Dungeons (like x2-x3 harder), but also increased rewards. I want to stress: I'm trying to make this a group-based dimension! I want to make it so that as a group this is completely doable and rewarding.
 
 ### Mod Updates
-- Updated Caelus API, Productive Bees, MineColonies, Mine and Slash.
+- Updated Caelus API, Productive Bees, MineColonies, Mine and Slash, Advanced Mining Dimension.
 
 ### Fixes
 - Elytras should work again as intended.

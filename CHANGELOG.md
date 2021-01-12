@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Swapped quest positions of Restructurer and Minerals III.
 
 ### Mod Updates
-- Updated Caelus API, Productive Bees.
+- Updated Caelus API, Productive Bees, MineColonies, Mine and Slash.
 
 ### Fixes
 - Elytras should work again as intended.

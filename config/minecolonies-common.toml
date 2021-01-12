@@ -131,8 +131,6 @@
 	#minecolonies.config.mincolonydistance.comment [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
 	minColonyDistance = 8
-	#Should players be allowed to build their colonies over existing (vanilla) villages? [Default: false]
-	protectvillages = false
 	#Min distance (in blocks) from world spawn for a colony. [Default: 512, min: 1, max: 1000]
 	#Range: 1 ~ 1000
 	mindistancefromworldspawn = 512

@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.3b] - 2021-01-12
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed some issues with party commands.
+- Fixed Battery Fusilade.
+
 ## [2.8.3] - 2021-01-12
 
 ### Updates

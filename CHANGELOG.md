@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Pretty large Mine and Slash update. View the changelog here: https://github.com/mahjerion/Mine-and-Slash/blob/1.15.2/changelog.txt!
+- Pretty large Mine and Slash update. View the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3166056!
 - Made the Malachite Guard (last boss) immensely more difficult. Also much more rewarding!
 - Changed some Nether quests.
 - Swapped quest positions of Restructurer and Minerals III.

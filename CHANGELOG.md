@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.8.3] - 2021-01-12
 
 ### Updates
+- New official Patreon server is packaged with this update!
 - Pretty large Mine and Slash update. View the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3166056!
 - Made the Malachite Guard (last boss) immensely more difficult. Also much more rewarding!
 - Changed some Nether quests.

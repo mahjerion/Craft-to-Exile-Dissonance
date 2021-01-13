@@ -1,0 +1,20 @@
+{
+  "id": "paladin",
+  "weight": 75,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.paladin",
+  "runes": [
+    "rah",
+    "goh",
+    "mos",
+    "ano"
+  ],
+  "mods": [
+	"health_percent",
+    "increase_healing_flat",
+    "cdr_flat",
+    "low_mana_regen_flat"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "holy",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.holy",
+  "runes": [
+    "ano",
+    "cen"
+  ],
+  "mods": [
+    "increase_healing",
+	"low_spell_damage_flat"
+  ]
+}

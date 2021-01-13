@@ -1,0 +1,18 @@
+{
+  "id": "heart",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.heart",
+  "runes": [
+    "goh",
+    "ano",
+    "ita"
+  ],
+  "mods": [
+    "low_health_percent",
+	"low_increase_healing",
+	"low_cdr_flat"
+  ]
+}

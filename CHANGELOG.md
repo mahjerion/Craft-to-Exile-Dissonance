@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Added 3 new runewords for support.
+- Added 2 new sets for support.
+- Adjusted mins an maxes of Apotheosis spawner module.
+
 ## [2.8.3b] - 2021-01-12
 
 ### Mod Updates

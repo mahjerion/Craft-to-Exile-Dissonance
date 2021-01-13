@@ -10,7 +10,7 @@
     "cen"
   ],
   "mods": [
-    "increase_healing",
+    "increase_healing_flat",
 	"low_spell_damage_flat"
   ]
 }

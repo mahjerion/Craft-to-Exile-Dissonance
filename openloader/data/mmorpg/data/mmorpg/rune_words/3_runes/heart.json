@@ -12,7 +12,7 @@
   ],
   "mods": [
     "low_health_percent",
-	"low_increase_healing",
+	"low_increase_healing_flat",
 	"low_cdr_flat"
   ]
 }

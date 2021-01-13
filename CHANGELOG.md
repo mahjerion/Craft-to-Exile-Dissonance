@@ -7,10 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.3d] - 2021-01-13
+
+### Fixes
+- Fixed runewords not working.
+
+## [2.8.3c] - 2021-01-13
+
 ### Updates
-- Added 3 new runewords for support.
-- Added 2 new sets for support.
+- General Mine and Slash balance. View the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3167703
+- Added 3 new runewords for support builds.
+- Added 2 new sets for support builds.
 - Adjusted mins an maxes of Apotheosis spawner module.
+
+### Mod Updates
+- Updated Mine and Slash.
 
 ## [2.8.3b] - 2021-01-12
 

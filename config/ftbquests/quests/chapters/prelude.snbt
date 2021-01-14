@@ -830,6 +830,7 @@
 				"Sometimes you just want the good old fashioned travel storage solution. You can equip the backpack via Curios and access it with V!",
 				"Note: do NOT go into creative mode with a backpack in your inventory. This may clear out the backpack!"
 			],
+			hide_dependency_lines: true,
 			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "one_completed",

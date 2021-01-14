@@ -117,18 +117,25 @@
 				item: "the_bumblezone:sugar_water_bottle",
 				count: 2L
 			}],
-			rewards: [{
-				id: 1759,
-				type: "item",
-				title: "21000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 21000
+			rewards: [
+				{
+					id: 1759,
+					type: "item",
+					title: "21000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 21000
+						}
 					}
+				},
+				{
+					id: 2469,
+					type: "choice",
+					table: 3
 				}
-			}]
+			]
 		},
 		{
 			title: "The Nether Regions",

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Removed the Richard Rider quest and replaced it with a new mob to make the questing experience smoother.
 
 ### Mod Updates
 - Updated Productive Bees, Curios.

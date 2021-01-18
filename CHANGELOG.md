@@ -7,8 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+
 ### Mod Updates
 - Updated Productive Bees, Curios.
+
+### Fixes
+- Fixed not being able to craft Mining Dimension block.
 
 ## [2.8.3e] - 2021-01-13
 

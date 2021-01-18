@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "PIP",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "item": "mmorpg:ore3"
+    },
+    "P": {
+      "item": "waystones:warp_stone"
+    },
+    "I": {
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "result": {
+    "item": "mining_dimension:teleporter",
+    "count": 1
+  }
+}

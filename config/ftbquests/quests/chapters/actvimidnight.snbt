@@ -83,15 +83,15 @@
 			]
 		},
 		{
-			title: "Richard Rider",
+			title: "Bugger Off!",
 			x: 1.5d,
 			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"The nova is a creature that can be easily mistaken for ores. What even makes them float?",
-				"You can find nova near red crystal structures. If they stop spawning, leave for a bit and come back."
+				"Crystal Bugs are everywhere! As their name suggests, find the most vibrant biome in the Midnight. Voila!",
+				"Hint: the crystal spires are really bright..."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;393],
@@ -100,8 +100,8 @@
 			tasks: [{
 				id: 398,
 				type: "kill",
-				entity: "midnight:nova",
-				value: 10L
+				entity: "midnight:crystal_bug",
+				value: 24L
 			}],
 			rewards: [
 				{
@@ -139,7 +139,7 @@
 				id: 400,
 				type: "kill",
 				entity: "midnight:stinger",
-				value: 20L
+				value: 18L
 			}],
 			rewards: [
 				{

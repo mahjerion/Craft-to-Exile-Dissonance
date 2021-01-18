@@ -39,6 +39,7 @@ craftingTable.addShapeless("identify_tome", <item:mmorpg:identify_tome> * 8, [<i
 craftingTable.addShapeless("quartz", <item:minecraft:quartz>, [<tag:forge:gems/quartz>]);
 craftingTable.addShapeless("vanilla_chest", <item:minecraft:chest>, [<tag:forge:chests/wooden>]);
 craftingTable.addShapeless("blazebow_to_blazerod", <item:minecraft:blaze_rod>, [<item:awaa:blaze_bow>]);
+craftingTable.addShapeless("cobblestone_fix", <item:minecraft:cobblestone>,[<tag:forge:cobblestone>]);
 
 craftingTable.removeRecipe(<item:waystones:waystone>);
 craftingTable.removeRecipe(<item:waystones:mossy_waystone>);

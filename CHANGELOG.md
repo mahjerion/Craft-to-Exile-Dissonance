@@ -7,14 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.4] - 2021-01-XX
+
 ### Updates
+- New Patreon-designed unique bow by Chesty Puller: Righteous Sentience Puller! Check out this awesome build-around bow that scales off of your health. Thanks for your support!
+- Huge update to the Mine and Slash talent tree, as well as various game balance changes and bug fixes.
 - Removed the Richard Rider quest and replaced it with a new mob to make the questing experience smoother.
+- Changed some Gaia quests and removed a few of the extremely, extremely difficult to find kill quests.
+- Mining Dimension is now capped at level 50 instead of 100.
+- Reduced the amount of flat physical damage you could get from affixes.
 
 ### Mod Updates
-- Updated Productive Bees, Curios.
+- Updated Productive Bees, Curios, Xaero's, Mine and Slash, Craft to Exile Custom Uniques.
 
 ### Fixes
 - Fixed not being able to craft Mining Dimension block.
+- Fixed some stonecutter issues.
 
 ## [2.8.3e] - 2021-01-13
 

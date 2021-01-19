@@ -606,36 +606,6 @@
 			}]
 		},
 		{
-			title: "Golemancy",
-			x: 6.5d,
-			y: -3.0d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Gaia brings a few new golems to combat. The agate golem can be found in most biomes of the Gaia."],
-			min_required_dependencies: 0,
-			dependencies: [I;2229],
-			dependency_requirement: "all_completed",
-			id: 2196,
-			tasks: [{
-				id: 2197,
-				type: "kill",
-				entity: "gaiadimension:agate_golem",
-				value: 8L
-			}],
-			rewards: [{
-				id: 2312,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 450000
-					}
-				}
-			}]
-		},
-		{
 			title: "Prehistoric Lesson",
 			disable_toast: true,
 			x: 3.5d,
@@ -948,36 +918,6 @@
 			}]
 		},
 		{
-			title: "Geode Harvest",
-			x: 2.0d,
-			y: -3.0d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Mutant growth sappers can be found around the Gaia and upon death drop valuable geodes."],
-			min_required_dependencies: 0,
-			dependencies: [I;2156],
-			dependency_requirement: "all_completed",
-			id: 2218,
-			tasks: [{
-				id: 2219,
-				type: "kill",
-				entity: "gaiadimension:mutant_growth_extractor",
-				value: 4L
-			}],
-			rewards: [{
-				id: 2302,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 425000
-					}
-				}
-			}]
-		},
-		{
 			title: "Guardians Of The Stone",
 			x: 9.5d,
 			y: 0.0d,
@@ -1019,35 +959,6 @@
 			}]
 		},
 		{
-			title: "Rainbow Smoothie",
-			x: 2.0d,
-			y: -4.5d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["There are 5 elixirs you can craft! The aromatic geode elixir combines 4 different geode flavours!"],
-			min_required_dependencies: 0,
-			dependencies: [I;2218],
-			dependency_requirement: "all_completed",
-			id: 2222,
-			tasks: [{
-				id: 2223,
-				type: "item",
-				item: "gaiadimension:pearly_geode_elixir"
-			}],
-			rewards: [{
-				id: 2304,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 350000
-					}
-				}
-			}]
-		},
-		{
 			title: "Murky Waters",
 			x: 6.5d,
 			y: 3.0d,
@@ -1078,8 +989,8 @@
 			}]
 		},
 		{
-			x: 6.5d,
-			y: 4.5d,
+			x: 8.0d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1137,8 +1048,8 @@
 		},
 		{
 			title: "Well Done",
-			x: 5.0d,
-			y: -4.5d,
+			x: 6.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1196,36 +1107,6 @@
 					Count: 1b,
 					tag: {
 						exp: 450000
-					}
-				}
-			}]
-		},
-		{
-			title: "Shockers",
-			x: 8.0d,
-			y: 0.0d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Shockshooters are similar to lesser spitfires. But I wonder... where can they be found?"],
-			min_required_dependencies: 0,
-			dependencies: [I;2206],
-			dependency_requirement: "all_completed",
-			id: 2236,
-			tasks: [{
-				id: 2237,
-				type: "kill",
-				entity: "gaiadimension:lesser_shockshooter",
-				value: 4L
-			}],
-			rewards: [{
-				id: 2318,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 475000
 					}
 				}
 			}]
@@ -1640,6 +1521,36 @@
 					Count: 1b,
 					tag: {
 						exp: 1500000
+					}
+				}
+			}]
+		},
+		{
+			title: "Primal Urges",
+			x: 3.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["These mobs seem to attack on sight... take them out! You'll find them in large carves underground."],
+			min_required_dependencies: 0,
+			dependencies: [I;2198],
+			dependency_requirement: "all_completed",
+			id: 2470,
+			tasks: [{
+				id: 2471,
+				type: "kill",
+				entity: "gaiadimension:primal_beast",
+				value: 16L
+			}],
+			rewards: [{
+				id: 2472,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 450000
 					}
 				}
 			}]

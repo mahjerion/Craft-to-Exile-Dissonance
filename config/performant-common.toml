@@ -75,7 +75,7 @@
 
 ["General performance improvements settings"]
 	#Reduces crafting lag by caching recipe lookups, helps a lot with autocrafting/crafting related lag. default = true
-	cacheRecipes = true
+	cacheRecipes = false
 	#Enable fast spawn radius check, this makes entity spawn mechanics lag less. default = true
 	fastSpawnRadius = true
 	#Enable fast chunk save, unmodified chunks are saved a lot faster and cause less lag when saving to disk. default = true

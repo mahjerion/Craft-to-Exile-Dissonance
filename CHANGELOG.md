@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Fixed not being able to craft Mining Dimension block.
 - Fixed some stonecutter issues.
+- Blacklisted Malachite Guards from spawners.
 
 ## [2.8.3e] - 2021-01-13
 

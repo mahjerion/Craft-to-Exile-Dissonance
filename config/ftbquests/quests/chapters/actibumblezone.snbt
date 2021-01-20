@@ -96,6 +96,20 @@
 							exp: 12000
 						}
 					}
+				},
+				{
+					id: 2499,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -117,25 +131,18 @@
 				item: "the_bumblezone:sugar_water_bottle",
 				count: 2L
 			}],
-			rewards: [
-				{
-					id: 1759,
-					type: "item",
-					title: "21000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 21000
-						}
+			rewards: [{
+				id: 1759,
+				type: "item",
+				title: "21000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 21000
 					}
-				},
-				{
-					id: 2469,
-					type: "choice",
-					table: 3
 				}
-			]
+			}]
 		},
 		{
 			title: "The Nether Regions",
@@ -224,6 +231,20 @@
 						Count: 1b,
 						tag: {
 							exp: 30000
+						}
+					}
+				},
+				{
+					id: 2497,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -333,11 +354,6 @@
 			}],
 			rewards: [
 				{
-					id: 716,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1766,
 					type: "item",
 					title: "26250 Experience",
@@ -353,6 +369,20 @@
 					id: 2454,
 					type: "item",
 					item: "buzzierbees:honey_bread"
+				},
+				{
+					id: 2495,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -401,6 +431,20 @@
 					id: 2094,
 					type: "item",
 					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2496,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -455,18 +499,34 @@
 				type: "item",
 				item: "productivebees:bee_cage"
 			}],
-			rewards: [{
-				id: 2355,
-				type: "item",
-				title: "25000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 25000
+			rewards: [
+				{
+					id: 2355,
+					type: "item",
+					title: "25000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 25000
+						}
+					}
+				},
+				{
+					id: 2498,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Bee Colonies",
@@ -660,6 +720,20 @@
 					id: 2366,
 					type: "item",
 					item: "productivebees:upgrade_base"
+				},
+				{
+					id: 2500,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -699,6 +773,20 @@
 					item: {
 						id: "create:belt_connector",
 						Count: 8b
+					}
+				},
+				{
+					id: 2502,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
 					}
 				}
 			]
@@ -752,18 +840,34 @@
 				type: "item",
 				item: "productivebees:honey_treat"
 			}],
-			rewards: [{
-				id: 2362,
-				type: "item",
-				title: "15000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 15000
+			rewards: [
+				{
+					id: 2362,
+					type: "item",
+					title: "15000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 15000
+						}
+					}
+				},
+				{
+					id: 2501,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 2
+						}
 					}
 				}
-			}]
+			]
 		}
 	]
 }

@@ -24,7 +24,7 @@ distance:1
 showCoords:true
 lockNorth:true
 zoom:1
-mapSize:-1
+minimapSize:0
 entityAmount:1
 chunkGrid:-1
 slimeChunks:false
@@ -37,7 +37,10 @@ otherTeamColor:-1
 tamedMobsColor:-1
 mapSafeMode:false
 minimapOpacity:80.0
-waypointsScale:1.0
+waypointsIngameScale:1.0
+waypointsDistanceScale:1.0
+waypointsNameScale:0.8
+waypointsClampDepth:0.0
 antiAliasing:true
 blockColours:0
 lighting:true

@@ -173,6 +173,20 @@
 							exp: 500
 						}
 					}
+				},
+				{
+					id: 2624,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -605,11 +619,6 @@
 			}],
 			rewards: [
 				{
-					id: 1248,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1934,
 					type: "item",
 					title: "1000 Experience",
@@ -618,6 +627,20 @@
 						Count: 1b,
 						tag: {
 							exp: 1000
+						}
+					}
+				},
+				{
+					id: 2623,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
 						}
 					}
 				}
@@ -762,18 +785,34 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 1939,
-				type: "item",
-				title: "1000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1000
+			rewards: [
+				{
+					id: 1939,
+					type: "item",
+					title: "1000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
+					}
+				},
+				{
+					id: 2626,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Creating A Line",
@@ -912,6 +951,20 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2627,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
 				}
 			]
 		},
@@ -986,6 +1039,20 @@
 							exp: 1000
 						}
 					}
+				},
+				{
+					id: 2628,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -1028,6 +1095,20 @@
 					id: 2085,
 					type: "item",
 					item: "calemiutils:coin_dollar"
+				},
+				{
+					id: 2629,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
 				}
 			]
 		},
@@ -1143,6 +1224,20 @@
 						Count: 1b,
 						tag: {
 							exp: 3000
+						}
+					}
+				},
+				{
+					id: 2625,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
 						}
 					}
 				}

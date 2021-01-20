@@ -66,17 +66,33 @@
 				entity: "gaiadimension:growth_sapper",
 				value: 16L
 			}],
-			rewards: [{
-				id: 2276,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 400000
+			rewards: [
+				{
+					id: 2276,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 400000
+						}
+					}
+				},
+				{
+					id: 2595,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Awoooo!",
@@ -217,17 +233,33 @@
 				type: "item",
 				item: "dimdungeons:item_guidebook"
 			}],
-			rewards: [{
-				id: 2319,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 500000
+			rewards: [
+				{
+					id: 2319,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500000
+						}
+					}
+				},
+				{
+					id: 2596,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Crafting The Dungeon Portal",
@@ -325,17 +357,33 @@
 				item: "gaiadimension:sugilite",
 				count: 32L
 			}],
-			rewards: [{
-				id: 2288,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 375000
+			rewards: [
+				{
+					id: 2288,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 375000
+						}
+					}
+				},
+				{
+					id: 2587,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Black And Green",
@@ -363,17 +411,33 @@
 					count: 16L
 				}
 			],
-			rewards: [{
-				id: 2286,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 375000
+			rewards: [
+				{
+					id: 2286,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 375000
+						}
+					}
+				},
+				{
+					id: 2586,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Orange And Blue",
@@ -436,17 +500,33 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 2309,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 375000
+			rewards: [
+				{
+					id: 2309,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 375000
+						}
+					}
+				},
+				{
+					id: 2589,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "dexterity_req_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Minerals",
@@ -564,17 +644,33 @@
 				item: "gaiadimension:chalcedony",
 				count: 16L
 			}],
-			rewards: [{
-				id: 2289,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 400000
+			rewards: [
+				{
+					id: 2289,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 400000
+						}
+					}
+				},
+				{
+					id: 2588,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Ain't No Chest",
@@ -722,17 +818,33 @@
 					value: 8L
 				}
 			],
-			rewards: [{
-				id: 2299,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 400000
+			rewards: [
+				{
+					id: 2299,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 400000
+						}
+					}
+				},
+				{
+					id: 2594,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "From The Ashes...",
@@ -755,17 +867,33 @@
 				entity: "gaiadimension:lesser_spitfire",
 				value: 8L
 			}],
-			rewards: [{
-				id: 2316,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 450000
+			rewards: [
+				{
+					id: 2316,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 450000
+						}
+					}
+				},
+				{
+					id: 2593,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Cave-Dwellers",
@@ -946,17 +1074,33 @@
 					value: 4L
 				}
 			],
-			rewards: [{
-				id: 2322,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1000000
+			rewards: [
+				{
+					id: 2322,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000000
+						}
+					}
+				},
+				{
+					id: 2597,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Murky Waters",
@@ -1048,8 +1192,8 @@
 		},
 		{
 			title: "Well Done",
-			x: 6.5d,
-			y: -3.0d,
+			x: 5.0d,
+			y: -4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1099,17 +1243,33 @@
 				entity: "gaiadimension:bismuth_uletrus",
 				value: 1L
 			}],
-			rewards: [{
-				id: 2307,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 450000
+			rewards: [
+				{
+					id: 2307,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 450000
+						}
+					}
+				},
+				{
+					id: 2591,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Mid-Range",
@@ -1147,17 +1307,33 @@
 					}
 				}
 			],
-			rewards: [{
-				id: 2287,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 375000
+			rewards: [
+				{
+					id: 2287,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 375000
+						}
+					}
+				},
+				{
+					id: 2584,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Proustite Equipment",
@@ -1195,17 +1371,33 @@
 					}
 				}
 			],
-			rewards: [{
-				id: 2282,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 400000
+			rewards: [
+				{
+					id: 2282,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 400000
+						}
+					}
+				},
+				{
+					id: 2585,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 60,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Hole In Your Bucket",
@@ -1513,17 +1705,33 @@
 				type: "item",
 				item: "dimdungeons:block_portal_crown"
 			}],
-			rewards: [{
-				id: 2325,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1500000
+			rewards: [
+				{
+					id: 2325,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1500000
+						}
+					}
+				},
+				{
+					id: 2598,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 80,
+							SCORE: "AMAZING",
+							TIER: 5
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Primal Urges",
@@ -1554,6 +1762,106 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Geode Harvest",
+			icon: "gaiadimension:purple_geode",
+			x: 2.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Mutant growth sappers can be found around the Gaia in the Mutant Agate Wildwoods biome and drop valuable geodes! Which can be used to craft various elixirs for consumption!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2156],
+			dependency_requirement: "all_completed",
+			id: 2473,
+			tasks: [
+				{
+					id: 2474,
+					type: "kill",
+					entity: "gaiadimension:mutant_growth_extractor",
+					value: 4L
+				},
+				{
+					id: 2475,
+					type: "item",
+					item: "gaiadimension:pearly_geode_elixir"
+				}
+			],
+			rewards: [
+				{
+					id: 2476,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 450000
+						}
+					}
+				},
+				{
+					id: 2590,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Golemancy",
+			x: 6.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Gaia brings a few new golems to combat. The agate golem can be found in the Pink Agate Forest biome of the Gaia."],
+			min_required_dependencies: 0,
+			dependencies: [I;2229],
+			dependency_requirement: "all_completed",
+			id: 2479,
+			tasks: [{
+				id: 2480,
+				type: "kill",
+				entity: "gaiadimension:agate_golem",
+				value: 8L
+			}],
+			rewards: [
+				{
+					id: 2481,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 450000
+						}
+					}
+				},
+				{
+					id: 2592,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 75,
+							SCORE: "GOOD",
+							TIER: 4
+						}
+					}
+				}
+			]
 		}
 	]
 }

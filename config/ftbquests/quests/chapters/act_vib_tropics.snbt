@@ -98,6 +98,20 @@
 							exp: 180000
 						}
 					}
+				},
+				{
+					id: 2565,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -132,11 +146,6 @@
 			],
 			rewards: [
 				{
-					id: 1986,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1987,
 					type: "item",
 					title: "185000 Experience",
@@ -145,6 +154,20 @@
 						Count: 1b,
 						tag: {
 							exp: 185000
+						}
+					}
+				},
+				{
+					id: 2557,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -170,11 +193,6 @@
 			}],
 			rewards: [
 				{
-					id: 1992,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1993,
 					type: "item",
 					item: {
@@ -182,6 +200,20 @@
 						Count: 1b,
 						tag: {
 							exp: 185000
+						}
+					}
+				},
+				{
+					id: 2566,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -287,6 +319,20 @@
 							exp: 200000
 						}
 					}
+				},
+				{
+					id: 2567,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -334,11 +380,6 @@
 			],
 			rewards: [
 				{
-					id: 2010,
-					type: "item",
-					item: "mmorpg:lootbox/big_currency_lootbox_3"
-				},
-				{
 					id: 2011,
 					type: "item",
 					title: "200000 Experience",
@@ -347,6 +388,20 @@
 						Count: 1b,
 						tag: {
 							exp: 200000
+						}
+					}
+				},
+				{
+					id: 2559,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -376,11 +431,6 @@
 			}],
 			rewards: [
 				{
-					id: 2014,
-					type: "item",
-					item: "mmorpg:lootbox/big_currency_lootbox_3"
-				},
-				{
 					id: 2015,
 					type: "item",
 					title: "250000 Experience",
@@ -389,6 +439,20 @@
 						Count: 1b,
 						tag: {
 							exp: 250000
+						}
+					}
+				},
+				{
+					id: 2564,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -430,6 +494,20 @@
 						Count: 1b,
 						tag: {
 							exp: 225000
+						}
+					}
+				},
+				{
+					id: 2562,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -478,6 +556,20 @@
 							exp: 275000
 						}
 					}
+				},
+				{
+					id: 2568,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -522,6 +614,20 @@
 						Count: 1b,
 						tag: {
 							exp: 275000
+						}
+					}
+				},
+				{
+					id: 2569,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -602,6 +708,20 @@
 							exp: 275000
 						}
 					}
+				},
+				{
+					id: 2563,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -662,11 +782,6 @@
 			],
 			rewards: [
 				{
-					id: 2037,
-					type: "item",
-					item: "mmorpg:lootbox/medium_currency_lootbox_3"
-				},
-				{
 					id: 2038,
 					type: "item",
 					title: "205000 Experience",
@@ -675,6 +790,20 @@
 						Count: 1b,
 						tag: {
 							exp: 205000
+						}
+					}
+				},
+				{
+					id: 2558,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -756,11 +885,6 @@
 			],
 			rewards: [
 				{
-					id: 2141,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 2142,
 					type: "item",
 					title: "300000 Experience",
@@ -769,6 +893,20 @@
 						Count: 1b,
 						tag: {
 							exp: 300000
+						}
+					}
+				},
+				{
+					id: 2570,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -849,18 +987,34 @@
 				title: "Visit Dimension: Gaia",
 				dimension: "gaiadimension:gaia"
 			}],
-			rewards: [{
-				id: 2149,
-				type: "item",
-				title: "300000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 300000
+			rewards: [
+				{
+					id: 2149,
+					type: "item",
+					title: "300000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 300000
+						}
+					}
+				},
+				{
+					id: 2571,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 55,
+							SCORE: "GOOD",
+							TIER: 3
+						}
 					}
 				}
-			}]
+			]
 		}
 	]
 }

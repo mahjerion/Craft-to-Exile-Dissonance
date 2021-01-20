@@ -12,10 +12,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - New Patreon-designed unique bow by Chesty Puller: Righteous Sentience Puller! Check out this awesome build-around bow that scales off of your health. Thanks for your support!
 - Huge update to the Mine and Slash talent tree, as well as various game balance changes and bug fixes.
+- Removed all the loot crates obtainable from the quests. They have been replaced with more modern and specific loot crates. Instead of the generic "equipment" and "currency" crate, we now have weapon, armor, jewelry, warrior/mage/ranger, currency, and map crates. These new crates are also level specific, so no more hoarding crates until you're level 80.
+- At the end of every act after Act III, you now receive a map crate.
 - Removed the Richard Rider quest and replaced it with a new mob to make the questing experience smoother.
-- Changed some Gaia quests and removed a few of the extremely, extremely difficult to find kill quests.
+- Reworded some Gaia quests to make them easier to accomplish and combined some of the quests.
 - Mining Dimension is now capped at level 50 instead of 100.
 - Reduced the amount of flat physical damage you could get from affixes.
+- Increased the cost of the crates in Calemi's market by x5. This is NOT in response to any duping bugs, but rather I misjudged how easy it would be to get coins legitimately. You should no longer need to "rely" on these chests while leveling as I have put in a BUNCH of crate rewards from quests. These are meant to be money sinks in the LATE game (70-100).
 
 ### Mod Updates
 - Updated Productive Bees, Curios, Xaero's, Mine and Slash, Craft to Exile Custom Uniques.

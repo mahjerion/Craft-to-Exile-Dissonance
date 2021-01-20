@@ -134,6 +134,20 @@
 							exp: 37500
 						}
 					}
+				},
+				{
+					id: 2509,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -183,7 +197,7 @@
 		},
 		{
 			title: "Black Death",
-			icon: "minecraft:wither_skeleton_spawn_egg",
+			icon: "minecraft:wither_rose",
 			x: 6.0d,
 			y: 0.0d,
 			shape: "default",
@@ -197,15 +211,11 @@
 			tasks: [{
 				id: 220,
 				type: "kill",
+				icon: "minecraft:wither_rose",
 				entity: "minecraft:wither",
 				value: 1L
 			}],
 			rewards: [
-				{
-					id: 221,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_4"
-				},
 				{
 					id: 1773,
 					type: "item",
@@ -215,6 +225,20 @@
 						Count: 1b,
 						tag: {
 							exp: 75000
+						}
+					}
+				},
+				{
+					id: 2504,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -406,14 +430,6 @@
 			}],
 			rewards: [
 				{
-					id: 242,
-					type: "item",
-					item: {
-						id: "mmorpg:lootbox/big_currency_lootbox_3",
-						Count: 3b
-					}
-				},
-				{
 					id: 1778,
 					type: "item",
 					title: "46250 Experience",
@@ -422,6 +438,20 @@
 						Count: 1b,
 						tag: {
 							exp: 46250
+						}
+					}
+				},
+				{
+					id: 2505,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -457,11 +487,6 @@
 			}],
 			rewards: [
 				{
-					id: 722,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_3"
-				},
-				{
 					id: 1779,
 					type: "item",
 					title: "52500 Experience",
@@ -470,6 +495,20 @@
 						Count: 1b,
 						tag: {
 							exp: 52500
+						}
+					}
+				},
+				{
+					id: 2511,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -505,11 +544,6 @@
 			}],
 			rewards: [
 				{
-					id: 724,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1780,
 					type: "item",
 					title: "37500 Experience",
@@ -518,6 +552,20 @@
 						Count: 1b,
 						tag: {
 							exp: 37500
+						}
+					}
+				},
+				{
+					id: 2512,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -547,11 +595,6 @@
 			}],
 			rewards: [
 				{
-					id: 726,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_3"
-				},
-				{
 					id: 1781,
 					type: "item",
 					title: "45000 Experience",
@@ -560,6 +603,20 @@
 						Count: 1b,
 						tag: {
 							exp: 45000
+						}
+					}
+				},
+				{
+					id: 2513,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -597,11 +654,6 @@
 			}],
 			rewards: [
 				{
-					id: 729,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_3"
-				},
-				{
 					id: 1782,
 					type: "item",
 					title: "48750 Experience",
@@ -610,6 +662,20 @@
 						Count: 1b,
 						tag: {
 							exp: 48750
+						}
+					}
+				},
+				{
+					id: 2514,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -639,11 +705,6 @@
 			}],
 			rewards: [
 				{
-					id: 731,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1783,
 					type: "item",
 					title: "52500 Experience",
@@ -652,6 +713,20 @@
 						Count: 1b,
 						tag: {
 							exp: 52500
+						}
+					}
+				},
+				{
+					id: 2515,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -681,11 +756,6 @@
 			}],
 			rewards: [
 				{
-					id: 733,
-					type: "item",
-					item: "mmorpg:lootbox/small_gear_lootbox_3"
-				},
-				{
 					id: 1784,
 					type: "item",
 					title: "45000 Experience",
@@ -694,6 +764,20 @@
 						Count: 1b,
 						tag: {
 							exp: 45000
+						}
+					}
+				},
+				{
+					id: 2516,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -723,11 +807,6 @@
 			}],
 			rewards: [
 				{
-					id: 735,
-					type: "item",
-					item: "mmorpg:lootbox/medium_currency_lootbox_3"
-				},
-				{
 					id: 1785,
 					type: "item",
 					title: "52500 Experience",
@@ -736,6 +815,20 @@
 						Count: 1b,
 						tag: {
 							exp: 52500
+						}
+					}
+				},
+				{
+					id: 2517,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -789,11 +882,6 @@
 			],
 			rewards: [
 				{
-					id: 737,
-					type: "item",
-					item: "mmorpg:lootbox/medium_gear_lootbox_4"
-				},
-				{
 					id: 1786,
 					type: "item",
 					item: {
@@ -808,6 +896,20 @@
 					id: 2111,
 					type: "item",
 					item: "calemiutils:coin_dollar"
+				},
+				{
+					id: 2510,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -832,18 +934,34 @@
 				item: "apotheosis:hellshelf",
 				count: 4L
 			}],
-			rewards: [{
-				id: 1963,
-				type: "item",
-				title: "30000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 30000
+			rewards: [
+				{
+					id: 1963,
+					type: "item",
+					title: "30000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 30000
+						}
+					}
+				},
+				{
+					id: 2506,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Making Strides",
@@ -888,6 +1006,20 @@
 						Count: 1b,
 						tag: {
 							exp: 32500
+						}
+					}
+				},
+				{
+					id: 2508,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}

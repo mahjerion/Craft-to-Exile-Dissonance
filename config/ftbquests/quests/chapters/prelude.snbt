@@ -109,9 +109,18 @@
 					}
 				},
 				{
-					id: 2123,
-					type: "choice",
-					table: 0
+					id: 2482,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 5,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -195,16 +204,6 @@
 			}],
 			rewards: [
 				{
-					id: 52,
-					type: "item",
-					item: "mmorpg:currency/orb_of_transmutation"
-				},
-				{
-					id: 53,
-					type: "item",
-					item: "mmorpg:currency/add_secondary_stat"
-				},
-				{
 					id: 1721,
 					type: "item",
 					title: "1500 Experience",
@@ -213,6 +212,20 @@
 						Count: 1b,
 						tag: {
 							exp: 1500
+						}
+					}
+				},
+				{
+					id: 2485,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -293,6 +306,20 @@
 							exp: 3000
 						}
 					}
+				},
+				{
+					id: 2633,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "strength_req_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -331,6 +358,20 @@
 							exp: 6750
 						}
 					}
+				},
+				{
+					id: 2634,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "wisdom_req_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -361,11 +402,6 @@
 					}
 				},
 				{
-					id: 34,
-					type: "item",
-					item: "mmorpg:lootbox/small_currency_lootbox_3"
-				},
-				{
 					id: 1739,
 					type: "item",
 					title: "6000 Experience",
@@ -374,6 +410,20 @@
 						Count: 1b,
 						tag: {
 							exp: 6000
+						}
+					}
+				},
+				{
+					id: 2490,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -514,6 +564,20 @@
 							exp: 4500
 						}
 					}
+				},
+				{
+					id: 2491,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "dexterity_req_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 4
+						}
+					}
 				}
 			]
 		},
@@ -590,18 +654,34 @@
 					}
 				}
 			}],
-			rewards: [{
-				id: 1722,
-				type: "item",
-				title: "1500 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1500
+			rewards: [
+				{
+					id: 1722,
+					type: "item",
+					title: "1500 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1500
+						}
+					}
+				},
+				{
+					id: 2493,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 2
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Upgrading Your Equipment",
@@ -653,7 +733,7 @@
 			size: 1.0d,
 			description: [
 				"Craft to Exile is focused around a dimension progression system. While you could stay in the Overworld until level 30, The Bumblezone is a recommended zone for level 14-18. The recommended levels for each dimension are as follows:",
-				"Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night's Sleep (40-50), Tropicraft & Midnight (50-58), Maps (30-99).",
+				"Overworld (1-30), The Bumblezone (14-18), Nether (16-26), The End (26-30), Atum (30-40) Good Night's Sleep (40-50), Tropicraft & Midnight (50-58), Gaia (58-74), Maps (30-99).",
 				"To get to The Bumblezone, throw an Enderpearl at any Bee Nest or Beehive. You can leave The Bumblezone by digging down or climbing above Y = 256.",
 				"The Bumblezone is an optional dimension. If you want to skip it, feel free to complete Taking The Long Route to access the Nether, instead!"
 			],
@@ -692,6 +772,20 @@
 					id: 2101,
 					type: "item",
 					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2631,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -801,11 +895,6 @@
 			}],
 			rewards: [
 				{
-					id: 80,
-					type: "item",
-					item: "mmorpg:lootbox/big_currency_lootbox_4"
-				},
-				{
 					id: 1742,
 					type: "item",
 					title: "37500 Experience",
@@ -814,6 +903,20 @@
 						Count: 1b,
 						tag: {
 							exp: 37500
+						}
+					}
+				},
+				{
+					id: 2489,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -855,6 +958,20 @@
 						Count: 1b,
 						tag: {
 							exp: 1500
+						}
+					}
+				},
+				{
+					id: 2487,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -1619,9 +1736,18 @@
 					}
 				},
 				{
-					id: 2124,
-					type: "choice",
-					table: 1
+					id: 2483,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 5,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -1660,9 +1786,18 @@
 					}
 				},
 				{
-					id: 2125,
-					type: "choice",
-					table: 2
+					id: 2484,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 5,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -1706,6 +1841,20 @@
 					id: 2102,
 					type: "item",
 					item: "calemiutils:coin_quarter"
+				},
+				{
+					id: 2632,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
 				}
 			]
 		},
@@ -1963,18 +2112,34 @@
 				type: "item",
 				item: "minecraft:fletching_table"
 			}],
-			rewards: [{
-				id: 1950,
-				type: "item",
-				title: "4000 Experience",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 4000
+			rewards: [
+				{
+					id: 1950,
+					type: "item",
+					title: "4000 Experience",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 4000
+						}
+					}
+				},
+				{
+					id: 2492,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "dexterity_req_crate",
+							LVL: 15,
+							SCORE: "GOOD",
+							TIER: 4
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "Apotheosis",
@@ -2099,6 +2264,20 @@
 					id: 2099,
 					type: "item",
 					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2486,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -2122,17 +2301,33 @@
 				type: "item",
 				item: "atum:loot_dirty_scepter"
 			}],
-			rewards: [{
-				id: 2059,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 1500
+			rewards: [
+				{
+					id: 2059,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1500
+						}
+					}
+				},
+				{
+					id: 2630,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "intelligence_req_crate",
+							LVL: 10,
+							SCORE: "GOOD",
+							TIER: 3
+						}
 					}
 				}
-			}]
+			]
 		},
 		{
 			title: "It's (Almost) Over 9000!",

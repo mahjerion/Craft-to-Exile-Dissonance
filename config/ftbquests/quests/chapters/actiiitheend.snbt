@@ -63,14 +63,6 @@
 			}],
 			rewards: [
 				{
-					id: 739,
-					type: "item",
-					item: {
-						id: "mmorpg:lootbox/big_currency_lootbox_4",
-						Count: 3b
-					}
-				},
-				{
 					id: 740,
 					type: "item",
 					item: "mmorpg:alchemy/instant/misc/reset_stats"
@@ -101,6 +93,20 @@
 					id: 2113,
 					type: "item",
 					item: "quark:dragon_scale"
+				},
+				{
+					id: 2519,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 4
+						}
+					}
 				}
 			]
 		},
@@ -140,6 +146,20 @@
 						Count: 1b,
 						tag: {
 							exp: 67500
+						}
+					}
+				},
+				{
+					id: 2523,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -263,108 +283,16 @@
 					}
 				},
 				{
-					id: 2261,
+					id: 2520,
 					type: "item",
 					item: {
-						id: "mmorpg:map/map0",
+						id: "mmorpg:loot_crate",
 						Count: 1b,
 						tag: {
-							MAP_ITEM_DATA: {
-								dimID: "mmorpg:resettable_dungeon",
-								worldGeneratorName: "dungeon",
-								tier: 1,
-								level: 30,
-								affixes: {
-									0: {
-										GUID: "less_all_fire_damage_affix",
-										percent: 30,
-										affectedEntities: 1
-									},
-									1: {
-										GUID: "bonus_water_damage_affix",
-										percent: 30,
-										affectedEntities: 0
-									},
-									size: 2
-								},
-								mapUUID: "76a0398f-c1d8-44f7-8dcc-c34c14ce3e56",
-								rarity: 0,
-								isExp: 0b
-							}
-						}
-					}
-				},
-				{
-					id: 2262,
-					type: "item",
-					item: {
-						id: "mmorpg:map/map0",
-						Count: 1b,
-						tag: {
-							MAP_ITEM_DATA: {
-								dimID: "mmorpg:resettable_dungeon",
-								worldGeneratorName: "dungeon",
-								tier: 1,
-								level: 30,
-								affixes: {
-									0: {
-										GUID: "less_trident_damage_affix",
-										percent: 17,
-										affectedEntities: 1
-									},
-									1: {
-										GUID: "less_bow_damage_affix",
-										percent: 19,
-										affectedEntities: 1
-									},
-									2: {
-										GUID: "bonus_nature_damage_affix",
-										percent: 25,
-										affectedEntities: 0
-									},
-									size: 3
-								},
-								mapUUID: "223d3354-168d-4104-976e-dddf478e7ee6",
-								rarity: 0,
-								isExp: 0b
-							}
-						}
-					}
-				},
-				{
-					id: 2263,
-					type: "item",
-					item: {
-						id: "mmorpg:map/map0",
-						Count: 1b,
-						tag: {
-							MAP_ITEM_DATA: {
-								dimID: "mmorpg:resettable_dungeon",
-								worldGeneratorName: "dungeon",
-								tier: 1,
-								level: 30,
-								affixes: {
-									0: {
-										GUID: "less_all_elemental_damage_affix",
-										percent: 30,
-										affectedEntities: 1
-									},
-									1: {
-										GUID: "less_all_nature_damage_affix",
-										percent: 15,
-										affectedEntities: 1
-									},
-									2: {
-										GUID: "bonus_thunder_damage_affix",
-										percent: 18,
-										affectedEntities: 0
-									},
-									size: 3
-								},
-								mapUUID: "79a01f7d-7d00-41c8-be8f-10f3222f0802",
-								rarity: 0,
-								isExp: 0b
-							}
+							REGISTRY_ID: "map_crate",
+							LVL: 30,
+							SCORE: "AMAZING",
+							TIER: 0
 						}
 					}
 				}
@@ -391,11 +319,6 @@
 			}],
 			rewards: [
 				{
-					id: 751,
-					type: "item",
-					item: "mmorpg:lootbox/medium_currency_lootbox_3"
-				},
-				{
 					id: 1793,
 					type: "item",
 					title: "33750 Experience",
@@ -404,6 +327,20 @@
 						Count: 1b,
 						tag: {
 							exp: 33750
+						}
+					}
+				},
+				{
+					id: 2524,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -445,6 +382,20 @@
 						Count: 1b,
 						tag: {
 							exp: 52500
+						}
+					}
+				},
+				{
+					id: 2521,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 30,
+							SCORE: "AMAZING",
+							TIER: 0
 						}
 					}
 				}
@@ -583,11 +534,6 @@
 			}],
 			rewards: [
 				{
-					id: 753,
-					type: "item",
-					item: "mmorpg:lootbox/medium_currency_lootbox_3"
-				},
-				{
 					id: 1794,
 					type: "item",
 					title: "37500 Experience",
@@ -596,6 +542,20 @@
 						Count: 1b,
 						tag: {
 							exp: 37500
+						}
+					}
+				},
+				{
+					id: 2526,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -623,11 +583,6 @@
 			}],
 			rewards: [
 				{
-					id: 755,
-					type: "item",
-					item: "mmorpg:lootbox/medium_gear_lootbox_3"
-				},
-				{
 					id: 1795,
 					type: "item",
 					title: "38750 Experience",
@@ -636,6 +591,20 @@
 						Count: 1b,
 						tag: {
 							exp: 38750
+						}
+					}
+				},
+				{
+					id: 2525,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -671,11 +640,6 @@
 			}],
 			rewards: [
 				{
-					id: 759,
-					type: "item",
-					item: "mmorpg:lootbox/medium_currency_lootbox_4"
-				},
-				{
 					id: 1797,
 					type: "item",
 					title: "50000 Experience",
@@ -684,6 +648,20 @@
 						Count: 1b,
 						tag: {
 							exp: 50000
+						}
+					}
+				},
+				{
+					id: 2527,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -711,14 +689,6 @@
 			}],
 			rewards: [
 				{
-					id: 761,
-					type: "item",
-					item: {
-						id: "mmorpg:lootbox/medium_currency_lootbox_3",
-						Count: 3b
-					}
-				},
-				{
 					id: 1798,
 					type: "item",
 					title: "35000 Experience",
@@ -727,6 +697,20 @@
 						Count: 1b,
 						tag: {
 							exp: 35000
+						}
+					}
+				},
+				{
+					id: 2528,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 30,
+							SCORE: "AMAZING",
+							TIER: 0
 						}
 					}
 				}
@@ -772,6 +756,20 @@
 					id: 2112,
 					type: "item",
 					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2522,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 25,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},

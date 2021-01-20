@@ -101,6 +101,20 @@
 							exp: 76000
 						}
 					}
+				},
+				{
+					id: 2529,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "armorcrafter_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -220,6 +234,20 @@
 							exp: 76000
 						}
 					}
+				},
+				{
+					id: 2530,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "dexterity_req_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -281,6 +309,20 @@
 							exp: 76500
 						}
 					}
+				},
+				{
+					id: 2533,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -320,6 +362,20 @@
 						Count: 1b,
 						tag: {
 							exp: 76000
+						}
+					}
+				},
+				{
+					id: 2531,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "jewerlycrafter_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 2
 						}
 					}
 				}
@@ -413,6 +469,20 @@
 							exp: 78500
 						}
 					}
+				},
+				{
+					id: 2532,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "weaponcrafter_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
 				}
 			]
 		},
@@ -495,6 +565,20 @@
 							exp: 100000
 						}
 					}
+				},
+				{
+					id: 2535,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -532,6 +616,20 @@
 					id: 2091,
 					type: "item",
 					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2548,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -658,6 +756,20 @@
 							exp: 66000
 						}
 					}
+				},
+				{
+					id: 2538,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
+						}
+					}
 				}
 			]
 		},
@@ -693,6 +805,20 @@
 						Count: 1b,
 						tag: {
 							exp: 66500
+						}
+					}
+				},
+				{
+					id: 2536,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -736,6 +862,20 @@
 						Count: 1b,
 						tag: {
 							exp: 66500
+						}
+					}
+				},
+				{
+					id: 2537,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}
@@ -783,6 +923,20 @@
 						Count: 1b,
 						tag: {
 							exp: 66000
+						}
+					}
+				},
+				{
+					id: 2539,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "intelligence_req_crate",
+							LVL: 35,
+							SCORE: "GOOD",
+							TIER: 3
 						}
 					}
 				}

@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - New Patreon-designed unique bow by Chesty Puller: Righteous Sentience Puller! Check out this awesome build-around bow that scales off of your health. Thanks for your support!
-- Huge update to the Mine and Slash talent tree, as well as various game balance changes and bug fixes.
+- Huge update to the Mine and Slash talent tree, as well as various game balance changes and bug fixes. View the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3175536
 - You have been provided with another talent reset potion.
 - Removed all the loot crates obtainable from the quests. They have been replaced with more modern and specific loot crates. Instead of the generic "equipment" and "currency" crate, we now have weapon, armor, jewelry, warrior/mage/ranger, currency, and map crates. These new crates are also level specific, so no more hoarding crates until you're level 80.
 - At the end of every act after Act III, you now receive a map crate.

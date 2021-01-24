@@ -1,7 +1,7 @@
 {
   "id": "braceletsetdrop0",
-  "weight": 10000,
-  "rarity": 1,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 4,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.bracelet.braceletsetdrop0",

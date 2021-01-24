@@ -7,11 +7,12 @@
   "lang_file_string": "item.mmorpg.uniques.sword.swordnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordnature0.desc",
   "primary_stats": [
-    "attack_nature_damage_flat"
+    "high_attack_nature_damage_flat"
   ],
   "unique_stats": [
     "lifesteal_flat",
-    "lifesteal_percent"
+    "lifesteal_percent",
+	"armor_flat"
   ],
   "can_get_set": false,
   "requirements": {

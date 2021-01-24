@@ -12,7 +12,7 @@
   "unique_stats": [
     "blood_mage_trait_flat",
     "high_intelligence_flat",
-    "high_health_percent",
+    "very_high_health_percent",
     "high_nature_spell_to_attack_dmg_percent"
   ],
   "can_get_set": false,

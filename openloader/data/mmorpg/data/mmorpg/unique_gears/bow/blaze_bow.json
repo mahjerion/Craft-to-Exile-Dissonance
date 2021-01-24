@@ -1,8 +1,8 @@
 {
   "id": "blaze_bow",
-  "weight": 10000,
+  "weight": 0,
   "rarity": 1,
-  "tier": 10,
+  "tier": 2,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.bow.blaze_bow",
   "lang_file_desc_string": "item.mmorpg.uniques.bow.blaze_bow.desc",

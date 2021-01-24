@@ -7,11 +7,11 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.water_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.water_ele_hammer0.desc",
   "primary_stats": [
-    "low_attack_water_damage_flat"
+    "high_attack_water_damage_flat"
   ],
   "unique_stats": [
-    "very_high_critical_damage_flat",
-    "very_high_critical_hit_percent",
+    "cdr_flat",
+    "high_increase_healing_flat",
     "water_focus_flat"
   ],
   "can_get_set": false,

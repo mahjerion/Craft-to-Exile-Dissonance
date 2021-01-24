@@ -12,7 +12,8 @@
   ],
   "unique_stats": [
     "water_penetration_flat",
-    "fire_penetration_flat"
+    "fire_penetration_flat",
+	"very_low_cdr_flat"
   ],
   "can_get_set": false,
   "requirements": {

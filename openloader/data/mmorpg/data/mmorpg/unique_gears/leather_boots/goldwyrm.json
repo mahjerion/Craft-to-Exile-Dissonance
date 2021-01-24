@@ -1,8 +1,8 @@
 {
   "id": "goldwyrm",
-  "weight": 10000,
-  "rarity": 1,
-  "tier": 1,
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 2,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.boots.goldwyrm",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.goldwyrm.desc",

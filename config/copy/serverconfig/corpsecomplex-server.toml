@@ -121,7 +121,7 @@
 
 	[inventory.feet]
 		#Percent chance to keep feet item
-		#Range: 1.0 ~ 1.0
+		#Range: -1.0 ~ 1.0
 		feetKeepChance = 1.0
 		#Percent chance to destroy dropped feet item
 		#Range: -1.0 ~ 1.0
@@ -161,6 +161,14 @@
 		#Range: -1.0 ~ 1.0
 		cosmeticArmorDropDurabilityLoss = -1.0
 
+	[inventory.toolbelt]
+		#Percent chance to keep tool belt item
+		#Range: -1.0 ~ 1.0
+		toolBeltKeepChance = 1.0
+		#Percent chance to destroy dropped tool belt item
+		#Range: -1.0 ~ 1.0
+		toolBeltDestroyChance = -1.0
+
 [soulbinding]
 	#The rarity of the enchantment
 	#Allowed Values: COMMON, UNCOMMON, RARE, VERY_RARE
@@ -190,7 +198,7 @@
 	#List of effects to apply on respawn
 	#Format: modid:effect;duration(seconds);amplifier
 	#Append ';incurable' if applicable
-	effects = ["minecraft:slowness;10;3","minecraft:hunger;30;1"]
+	effects = ["minecraft:slowness;10;3", "minecraft:hunger;30;1"]
 	#Sets whether kept effects list is a blacklist or whitelist
 	#Allowed Values: BLACKLIST, WHITELIST
 	keepEffectsMode = "WHITELIST"

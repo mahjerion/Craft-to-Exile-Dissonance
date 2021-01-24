@@ -2,7 +2,7 @@
   "id": "bow_fire0",
   "weight": 10000,
   "rarity": 1,
-  "tier": 3,
+  "tier": 1,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.bow.bow_fire0",
   "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_fire0.desc",
@@ -12,7 +12,8 @@
   "unique_stats": [
     "dexterity_flat",
     "fire_spell_to_attack_dmg_flat",
-    "very_high_critical_hit_flat"
+    "critical_hit_flat",
+	"lifesteal_flat"
   ],
   "can_get_set": false,
   "requirements": {

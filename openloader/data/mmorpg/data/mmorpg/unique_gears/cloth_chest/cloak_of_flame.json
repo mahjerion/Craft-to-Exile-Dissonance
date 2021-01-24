@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.chest.cloak_of_flame",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.cloak_of_flame.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "high_magic_shield_flat"
   ],
   "unique_stats": [
     "fire_resist_flat",

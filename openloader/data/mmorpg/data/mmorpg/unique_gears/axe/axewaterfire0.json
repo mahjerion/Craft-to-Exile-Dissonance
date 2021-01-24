@@ -7,8 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.axe.axewaterfire0",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.axewaterfire0.desc",
   "primary_stats": [
-    "low_attack_fire_damage_flat",
-    "low_attack_water_damage_flat"
+    "high_attack_fire_damage_flat",
+    "high_attack_water_damage_flat"
   ],
   "unique_stats": [
     "crippled_critical_damage_percent",

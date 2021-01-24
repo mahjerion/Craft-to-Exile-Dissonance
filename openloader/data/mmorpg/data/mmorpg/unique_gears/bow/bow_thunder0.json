@@ -7,11 +7,12 @@
   "lang_file_string": "item.mmorpg.uniques.bow.bow_thunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_thunder0.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "high_attack_thunder_damage_flat"
   ],
   "unique_stats": [
-    "dexterity_flat",
+    "intelligence_flat",
     "thunder_spell_to_attack_dmg_flat",
+	"low_cdr_flat",
     "very_high_critical_hit_flat"
   ],
   "can_get_set": false,

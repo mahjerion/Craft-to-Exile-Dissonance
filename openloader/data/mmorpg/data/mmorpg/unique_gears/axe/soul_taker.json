@@ -13,7 +13,8 @@
   "unique_stats": [
     "water_resist_flat",
 	"high_water_spell_to_attack_dmg_flat",
-    "energy_regen_percent"
+    "energy_regen_percent",
+	"spellsteal_flat"
   ],
   "can_get_set": false,
   "requirements": {

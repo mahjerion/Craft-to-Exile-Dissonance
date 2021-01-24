@@ -11,6 +11,7 @@
   ],
   "unique_stats": [
     "high_wisdom_flat",
+	"increase_healing_flat",
     "armor_flat",
     "mana_on_hit_flat"
   ],

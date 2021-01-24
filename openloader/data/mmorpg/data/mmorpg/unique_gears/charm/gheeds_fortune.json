@@ -1,7 +1,7 @@
 {
   "id": "gheeds_fortune",
-  "weight": 2500,
-  "rarity": 2,
+  "weight": 250,
+  "rarity": 3,
   "tier": 3,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.charm.gheeds_fortune",
@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "bonus_currency_drops_flat",
-    "bonus_unique_item_drops_flat"
+    "low_bonus_unique_item_drops_flat"
   ],
   "can_get_set": false,
   "requirements": {

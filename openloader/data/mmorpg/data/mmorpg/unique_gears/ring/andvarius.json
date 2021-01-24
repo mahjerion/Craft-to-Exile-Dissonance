@@ -1,8 +1,8 @@
 {
   "id": "andvarius",
-  "weight": 50,
+  "weight": 1,
   "rarity": 4,
-  "tier": 4,
+  "tier": 5,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.ring.andvarius",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.andvarius.desc",
@@ -10,7 +10,7 @@
     "bonus_unique_item_drops_flat"
   ],
   "unique_stats": [
-    "bonus_all_drops_flat",
+    "low_bonus_all_drops_flat",
     "much_less_elemental_resist_flat",
     "less_health_percent"
   ],

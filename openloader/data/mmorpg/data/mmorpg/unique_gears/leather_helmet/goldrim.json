@@ -1,7 +1,7 @@
 {
   "id": "goldrim",
-  "weight": 10000,
-  "rarity": 1,
+  "weight": 250,
+  "rarity": 3,
   "tier": 1,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.helmet.goldrim",
@@ -10,7 +10,7 @@
     "dodge_flat"
   ],
   "unique_stats": [
-    "bonus_all_drops_flat",
+    "low_bonus_all_drops_flat",
     "elemental_resist_flat"
   ],
   "can_get_set": false,

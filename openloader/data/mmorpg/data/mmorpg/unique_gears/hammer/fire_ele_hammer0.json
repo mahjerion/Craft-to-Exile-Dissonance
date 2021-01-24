@@ -7,12 +7,14 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0.desc",
   "primary_stats": [
-    "low_attack_fire_damage_flat"
+    "high_attack_fire_damage_flat"
+	"low_physical_damage_flat"
   ],
   "unique_stats": [
-    "very_high_critical_damage_flat",
+    "spell_fire_damage_flat",
     "very_high_critical_hit_percent",
-    "fire_focus_flat"
+    "fire_focus_flat",
+	"physical_dispersion_flat"
   ],
   "can_get_set": false,
   "requirements": {

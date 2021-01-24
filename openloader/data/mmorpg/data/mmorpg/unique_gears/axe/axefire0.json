@@ -12,7 +12,7 @@
   "unique_stats": [
     "critical_hit_multi",
     "critical_damage_percent",
-    "fire_penetration_flat"
+    "very_high_fire_penetration_flat"
   ],
   "can_get_set": false,
   "requirements": {

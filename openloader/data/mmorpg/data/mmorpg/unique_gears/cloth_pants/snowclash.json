@@ -12,7 +12,7 @@
   "unique_stats": [
     "armor_flat",
     "very_high_water_resist_flat",
-    "spell_water_damage_flat",
+    "high_spell_water_damage_flat",
 	"plus_blizzard_spell_lvl_flat"
   ],
   "can_get_set": false,

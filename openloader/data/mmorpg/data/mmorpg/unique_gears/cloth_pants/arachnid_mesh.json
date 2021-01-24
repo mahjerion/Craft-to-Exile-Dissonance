@@ -11,6 +11,7 @@
   ],
   "unique_stats": [
     "armor_flat",
+	"spell_damage_flat",
     "cdr_flat",
     "high_mana_flat"
   ],

@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.wurms_molt",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.wurms_molt.desc",
   "primary_stats": [
-    "health_flat"
+    "high_health_flat"
   ],
   "unique_stats": [
     "strength_flat",

@@ -6,7 +6,7 @@
 	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
-	#Chance to get an evil tavern visitor which can run off with the resources, in % [Default: 2] [Default: 2, min: 1, max: 100]
+	#Chance to get an evil Tavern visitor that will run off with the resources you give them. This is a %. [Default: 2] [Default: 2, min: 1, max: 100]
 	#Range: 1 ~ 100
 	badvisitorchance = 2
 	#Max citizens in one colony. [Default: 150, min: 4, max: 500]
@@ -78,7 +78,7 @@
 	limittoonewarehousepercolony = true
 	#minecolonies.config.playergetsguidebookonfirstjoin.comment [Default: true]
 	playergetsguidebookonfirstjoin = true
-	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. [Default: 1, min: 0, max: 100]
+	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
 	#Suggest build tool usage when trying to place a building without the build tool. [Default: true]
@@ -103,7 +103,7 @@
 	canplayerusekillcitizenscommand = true
 	#Should players be allowed to use the /mc rtp command? [Default: true]
 	canplayerusertpcommand = false
-	#minecolonies.config.numberofattemptsforsafetp.comment [Default: 4, min: 1, max: 10]
+	#Amount of attempts to find a safe random teleport (with /mc rtp). [Default: 4, min: 1, max: 10]
 	#Range: 1 ~ 10
 	numberofattemptsforsafetp = 4
 	#Should players be allowed to use the /mc colony delete command? [Default: true]
@@ -119,16 +119,16 @@
 	restrictcolonyplacement = false
 	#minecolonies.config.officersreceiveadvancements.comment [Default: true]
 	officersreceiveadvancements = true
-	#minecolonies.config.initialcolonysize.comment [Default: 4, min: 1, max: 200]
+	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 200]
 	#Range: 1 ~ 200
 	initialColonySize = 4
-	#minecolonies.config.maxcolonysize.comment [Default: 20, min: 1, max: 50]
+	#Maximum claim range for a colony. This is the radius, measured in chunks. [Default: 20, min: 1, max: 50]
 	#Range: 1 ~ 50
 	maxColonySize = 20
 	#Max distance (in blocks) from world spawn for a colony. [Default: 8000, min: 1000, max: 100000]
 	#Range: 1000 ~ 100000
 	maxdistancefromworldspawn = 20000
-	#minecolonies.config.mincolonydistance.comment [Default: 8, min: 1, max: 200]
+	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
 	minColonyDistance = 8
 	#Min distance (in blocks) from world spawn for a colony. [Default: 512, min: 1, max: 1000]
@@ -161,7 +161,7 @@
 	#The average number of nights between raids. [Default: 12, min: 1, max: 50]
 	#Range: 1 ~ 50
 	averagenumberofnightsbetweenraids = 7
-	#Damage multiplier for Knight Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
+	#Attack damage multiplier for Knight Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
 	knightdamagemult = 1.0
 	#Turn on MineColonies PVP mode (colonies can be destroyed and griefed under certain conditions). [Default: false]
@@ -173,7 +173,7 @@
 	maxyforbarbarians = 200
 	#Whether or not to spawn raiders. [Default: true]
 	dobarbariansspawn = true
-	#Damage multiplier for Archer Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
+	#Attack damage multiplier for Archer Guards. [Default: 1.000000, min: 0.100000, max: 5.000000]
 	#Range: 0.1 ~ 5.0
 	rangerdamagemult = 1.0
 	#The min size of a raider horde. [Default: 5, min: 1, max: 10]
@@ -193,7 +193,7 @@
 	#Seconds between each permission message (to reduce spam). [Default: 30, min: 1, max: 1000]
 	#Range: 1 ~ 1000
 	secondsBetweenPermissionMessages = 30
-	#minecolonies.config.specialpermgroup.comment 
+	#Players who have special permissions, especially to change citizen names (see "Name Changes" above). 
 	specialpermgroup = ["_Raycoms_"]
 
 #All configuration related to mod compatibility
@@ -203,7 +203,7 @@
 	enchanterexperiencemultiplier = 2.0
 	#The items and item-tags that the Florist can plant. 
 	listofplantables = ["minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:fern", "minecraft:sugar_cane", "minecraft:cactus", "small_flowers"]
-	#minecolonies.config.siftableblocks.comment 
+	#List of materials a Sifter can rifle through for resources. 
 	siftableblocks = ["minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:soul_sand"]
 	#All diseases citizens can get. The name, how common it is, and all ingredients to cure it. 
 	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honeycomb,minecraft:golden_apple"]
@@ -211,24 +211,24 @@
 	configliststudyitems = ["minecraft:paper;400;100"]
 	#The possible enchantments for the enchanter. 
 	enchantments = ["1,minecraft:aqua_affinity,1,50", "1,minecraft:bane_of_arthropods,1,50", "1,minecraft:blast_protection,1,50", "1,minecraft:depth_strider,1,50", "1,minecraft:feather_falling,1,50", "1,minecraft:fire_aspect,1,50", "1,minecraft:fire_protection,1,50", "1,minecraft:flame,1,50", "1,minecraft:frost_walker,1,50", "1,minecraft:knockback,1,50", "1,minecraft:looting,1,50", "1,minecraft:power,1,50", "1,minecraft:projectile_protection,1,50", "1,minecraft:protection,1,50", "1,minecraft:punch,1,50", "1,minecraft:respiration,1,50", "1,minecraft:sharpness,1,50", "1,minecraft:smite,1,50", "1,minecraft:sweeping,1,50", "1,minecraft:unbreaking,1,50", "2,minecraft:aqua_affinity,2,25", "2,minecraft:bane_of_arthropods,2,25", "2,minecraft:blast_protection,2,25", "2,minecraft:depth_strider,2,25", "2,minecraft:feather_falling,2,25", "2,minecraft:fire_aspect,2,25", "2,minecraft:fire_protection,2,25", "2,minecraft:flame,2,25", "2,minecraft:frost_walker,2,25", "2,minecraft:knockback,2,25", "2,minecraft:looting,2,25", "2,minecraft:power,2,25", "2,minecraft:projectile_protection,2,25", "2,minecraft:protection,2,25", "2,minecraft:punch,2,25", "2,minecraft:respiration,2,25", "2,minecraft:sharpness,2,25", "2,minecraft:smite,2,25", "2,minecraft:sweeping,2,25", "2,minecraft:unbreaking,2,25", "3,minecraft:aqua_affinity,3,15", "3,minecraft:bane_of_arthropods,3,15", "3,minecraft:blast_protection,3,15", "3,minecraft:depth_strider,3,15", "3,minecraft:feather_falling,3,15", "3,minecraft:fire_aspect,3,15", "3,minecraft:fire_protection,3,15", "3,minecraft:flame,3,15", "3,minecraft:frost_walker,3,15", "3,minecraft:knockback,3,15", "3,minecraft:looting,3,15", "3,minecraft:power,3,15", "3,minecraft:projectile_protection,3,15", "3,minecraft:protection,3,15", "3,minecraft:punch,3,15", "3,minecraft:respiration,3,15", "3,minecraft:sharpness,3,15", "3,minecraft:smite,3,15", "3,minecraft:sweeping,3,15", "3,minecraft:unbreaking,3,15", "4,minecraft:aqua_affinity,4,5", "4,minecraft:bane_of_arthropods,4,5", "4,minecraft:blast_protection,4,5", "4,minecraft:depth_strider,4,5", "4,minecraft:feather_falling,4,5", "4,minecraft:fire_aspect,4,5", "4,minecraft:fire_protection,4,5", "4,minecraft:flame,4,5", "4,minecraft:frost_walker,4,5", "4,minecraft:infinity,1,5", "4,minecraft:knockback,4,5", "4,minecraft:looting,4,5", "4,minecraft:power,4,5", "4,minecraft:projectile_protection,4,5", "4,minecraft:protection,4,5", "4,minecraft:punch,4,5", "4,minecraft:respiration,4,5", "4,minecraft:sharpness,4,5", "4,minecraft:smite,4,5", "4,minecraft:sweeping,4,5", "4,minecraft:unbreaking,4,5", "5,minecraft:aqua_affinity,5,1", "5,minecraft:bane_of_arthropods,5,1", "5,minecraft:blast_protection,5,1", "5,minecraft:depth_strider,5,1", "5,minecraft:feather_falling,5,1", "5,minecraft:fire_aspect,5,1", "5,minecraft:fire_protection,5,1", "5,minecraft:flame,5,1", "5,minecraft:frost_walker,5,1", "5,minecraft:infinity,1,1", "5,minecraft:knockback,5,1", "5,minecraft:looting,5,1", "5,minecraft:mending,1,1", "5,minecraft:power,5,1", "5,minecraft:projectile_protection,5,1", "5,minecraft:protection,5,1", "5,minecraft:punch,5,1", "5,minecraft:respiration,5,1", "5,minecraft:sharpness,5,1", "5,minecraft:smite,5,1", "5,minecraft:sweeping,5,1", "5,minecraft:unbreaking,5,1"]
-	#minecolonies.config.siftermeshes.comment 
+	#List of materials a sifter can use as a mesh material, along with bonus weights 
 	siftermeshes = ["minecraft:string,0", "minecraft:flint,0.1", "minecraft:iron_ingot,0.1", "minecraft:diamond,0.1"]
-	#minecolonies.config.sifterdrops.comment 
+	#List of materials a sifter can find from raw materials, as well as their weights. 
 	sifterdrops = ["0,0,minecraft:wheat_seeds,25", "0,0,minecraft:oak_sapling,1", "0,0,minecraft:birch_sapling,1", "0,0,minecraft:spruce_sapling,1", "0,0,minecraft:jungle_sapling,1", "0,1,minecraft:wheat_seeds,50", "0,1,minecraft:oak_sapling,5", "0,1,minecraft:birch_sapling,5", "0,1,minecraft:spruce_sapling,5", "0,1,minecraft:jungle_sapling,5", "0,1,minecraft:carrot:0,1", "0,1,minecraft:potato:0,1", "0,2,minecraft:wheat_seeds,50", "0,2,minecraft:oak_sapling,10", "0,2,minecraft:birch_sapling,10", "0,2,minecraft:spruce_sapling,10", "0,2,minecraft:jungle_sapling,10", "0,2,minecraft:pumpkin_seeds:0,1", "0,2,minecraft:melon_seeds:0,1", "0,2,minecraft:beetroot_seeds:0,1", "0,2,minecraft:carrot,1", "0,2,minecraft:potato,1", "0,2,minecraft:dark_oak_sapling,1", "0,2,minecraft:acacia_sapling,1", "0,3,minecraft:wheat_seeds,25", "0,3,minecraft:oak_sapling,10", "0,3,minecraft:birch_sapling,10", "0,3,minecraft:spruce_sapling,10", "0,3,minecraft:jungle_sapling,10", "0,3,minecraft:pumpkin_seeds:0,5", "0,3,minecraft:melon_seeds:0,5", "0,3,minecraft:beetroot_seeds:0,5", "0,3,minecraft:carrot:0,5", "0,3,minecraft:potato:0,5", "0,3,minecraft:dark_oak_sapling,5", "0,3,minecraft:acacia_sapling,5", "1,0,minecraft:cactus,2.5", "1,0,minecraft:sugar_cane,2.5", "1,1,minecraft:cactus,5", "1,1,minecraft:sugar_cane,5", "1,1,minecraft:gold_nugget,5", "1,2,minecraft:cactus,10", "1,2,minecraft:sugar_cane,10", "1,2,minecraft:cocoa_beans,10", "1,2,minecraft:gold_nugget,10", "1,3,minecraft:cactus,15", "1,3,minecraft:sugar_cane,15", "1,3,minecraft:cocoa_beans,15", "1,3,minecraft:gold_nugget,15", "2,0,minecraft:iron_nugget,5", "2,0,minecraft:flint,5", "2,0,minecraft:coal,5", "2,1,minecraft:redstone,10", "2,1,minecraft:iron_nugget,10", "2,1,minecraft:flint,10", "2,1,minecraft:coal,10", "2,2,minecraft:redstone,15", "2,2,minecraft:iron_nugget,15", "2,2,minecraft:coal,15", "2,2,minecraft:lapis_lazuli,5", "2,2,minecraft:iron_ingot,1", "2,2,minecraft:gold_ingot,1", "2,2,minecraft:emerald,1", "2,2,minecraft:diamond,1", "2,3,minecraft:redstone,20", "2,3,minecraft:coal,20", "2,3,minecraft:lapis_lazuli,10", "2,3,minecraft:iron_ingot,2.5", "2,3,minecraft:gold_ingot,2.5", "2,3,minecraft:emerald,2.5", "2,3,minecraft:diamond,2.5", "3,0,minecraft:nether_wart,5", "3,0,minecraft:quartz,5", "3,1,minecraft:nether_wart,10", "3,1,minecraft:quartz,10", "3,1,minecraft:glowstone_dust,5", "3,2,minecraft:nether_wart,10", "3,2,minecraft:quartz,10", "3,2,minecraft:glowstone_dust,10", "3,2,minecraft:blaze_powder,1", "3,2,minecraft:magma_cream,1", "3,3,minecraft:nether_wart,15", "3,3,minecraft:quartz,15", "3,3,minecraft:glowstone_dust,15", "3,3,minecraft:blaze_powder,5", "3,3,minecraft:magma_cream,5", "3,3,minecraft:player_head,5"]
-	#minecolonies.config.crusherproduction.comment 
+	#List of materials a Crusher can reduce and what they convert into, separated by exclamation marks. 
 	crusherproduction = ["minecraft:cobblestone!minecraft:gravel", "minecraft:gravel!minecraft:sand", "minecraft:sand!minecraft:clay"]
-	#minecolonies.config.guardresourcelocations.comment 
+	#List of mobs Guards will target. They target all hostile mobs by default, but if a hostile mob isn't being targeted, try adding it here. 
 	guardresourcelocations = ["minecraft:slime", "tconstruct:blueslime"]
-	#minecolonies.config.enabledmodtags.comment 
+	#List of recognized and enabled tags. 
 	enabledmodtags = ["minecraft:wool", "minecraft:planks", "minecraft:stone_bricks", "minecraft:wooden_buttons", "minecraft:buttons", "minecraft:carpets", "minecraft:wooden_doors", "minecraft:wooden_stairs", "minecraft:wooden_slabs", "minecraft:wooden_fences", "minecraft:wooden_pressure_plates", "minecraft:wooden_trapdoors", "minecraft:saplings", "minecraft:logs", "minecraft:dark_oak_logs", "minecraft:oak_logs", "minecraft:birch_logs", "minecraft:acacia_logs", "minecraft:jungle_logs", "minecraft:spruce_logs", "minecraft:banners", "minecraft:sand", "minecraft:walls", "minecraft:anvil", "minecraft:leaves", "minecraft:small_flowers", "minecraft:beds", "minecraft:fishes", "minecraft:signs", "minecraft:music_discs", "minecraft:arrows", "forge:bones", "forge:bookshelves", "forge:chests/ender", "forge:chests/trapped", "forge:chests/wooden", "forge:cobblestone", "forge:crops/beetroot", "forge:crops/carrot", "forge:crops/nether_wart", "forge:crops/potato", "forge:crops/wheat", "forge:dusts/prismarine", "forge:dusts/redstone", "forge:dusts/glowstone", "forge:dyes", "forge:dyes/black", "forge:dyes/red", "forge:dyes/green", "forge:dyes/brown", "forge:dyes/blue", "forge:dyes/purple", "forge:dyes/cyan", "forge:dyes/light_gray", "forge:dyes/gray", "forge:dyes/pink", "forge:dyes/lime", "forge:dyes/yellow", "forge:dyes/light_blue", "forge:dyes/magenta", "forge:dyes/orange", "forge:dyes/white", "forge:eggs", "forge:ender_pearls", "forge:feathers", "forge:fence_gates", "forge:fence_gates/wooden", "forge:fences", "forge:fences/nether_brick", "forge:fences/wooden", "forge:gems/diamond", "forge:gems/emerald", "forge:gems/lapis", "forge:gems/prismarine", "forge:gems/quartz", "forge:glass", "forge:glass/black", "forge:glass/blue", "forge:glass/brown", "forge:glass/colorless", "forge:glass/cyan", "forge:glass/gray", "forge:glass/green", "forge:glass/light_blue", "forge:glass/light_gray", "forge:glass/lime", "forge:glass/magenta", "forge:glass/orange", "forge:glass/pink", "forge:glass/purple", "forge:glass/red", "forge:glass/white", "forge:glass/yellow", "forge:glass_panes", "forge:glass_panes/black", "forge:glass_panes/blue", "forge:glass_panes/brown", "forge:glass_panes/colorless", "forge:glass_panes/cyan", "forge:glass_panes/gray", "forge:glass_panes/green", "forge:glass_panes/light_blue", "forge:glass_panes/light_gray", "forge:glass_panes/lime", "forge:glass_panes/magenta", "forge:glass_panes/orange", "forge:glass_panes/pink", "forge:glass_panes/purple", "forge:glass_panes/red", "forge:glass_panes/white", "forge:glass_panes/yellow", "forge:gravel", "forge:gunpowder", "forge:heads", "forge:ingots/brick", "forge:ingots/gold", "forge:ingots/iron", "forge:ingots/nether_brick", "forge:leather", "forge:mushrooms", "forge:nether_stars", "forge:netherrack", "forge:nuggets/gold", "forge:nuggets/iron", "forge:obsidian", "forge:ores/coal", "forge:ores/diamond", "forge:ores/emerald", "forge:ores/gold", "forge:ores/iron", "forge:ores/lapis", "forge:ores/quartz", "forge:ores/redstone", "forge:rods/blaze", "forge:rods/wooden", "forge:sand", "forge:sand/colorless", "forge:sand/red", "forge:sandstone", "forge:seeds", "forge:seeds/beetroot", "forge:seeds/melon", "forge:seeds/pumpkin", "forge:seeds/wheat", "forge:slimeballs", "forge:stained_glass", "forge:stained_glass_panes", "forge:stone", "forge:storage_blocks/coal", "forge:storage_blocks/diamond", "forge:storage_blocks/emerald", "forge:storage_blocks/gold", "forge:storage_blocks/iron", "forge:storage_blocks/lapis", "forge:storage_blocks/quartz", "forge:storage_blocks/redstone", "forge:string"]
 	#Forester harvest trunk size for dynamic trees: 1-8. [Default: 5, min: 1, max: 5]
 	#Range: 1 ~ 5
 	dynamictreeharvestsize = 5
-	#minecolonies.config.debuginventories.comment [Default: false]
+	#Enable inventory debugging. [Default: false]
 	debuginventories = false
-	#minecolonies.config.luckyores.comment 
+	#List of ore blocks rarely found magically by miners (see "Ore Chance"). 
 	luckyores = ["minecraft:coal_ore!64", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1", "mmorpg:ore0!32", "mmorpg:ore1!16", "mmorpg:ore2!8", "mmorpg:ore3!4", "mmorpg:ore4!1"]
-	#minecolonies.config.configlistrecruitmentitems.comment 
+	#Items requested by Tavern visitors. 
 	configlistrecruitmentitems = ["minecraft:hay_block;2", "minecraft:book;2", "minecraft:diamond;7", "minecraft:emerald;10", "minecraft:baked_potato;1", "minecraft:gold;3", "minecraft:redstone;2", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;4"]
 
 #All configurations related to pathfinding

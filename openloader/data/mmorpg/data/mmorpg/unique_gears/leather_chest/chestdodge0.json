@@ -7,8 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.chest.chestdodge0",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.chestdodge0.desc",
   "primary_stats": [
-    "health_flat",
-    "very_high_dodge_flat"
+    "very_high_dodge_flat",
+    "health_flat"
   ],
   "unique_stats": [
     "armor_flat",

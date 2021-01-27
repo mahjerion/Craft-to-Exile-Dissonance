@@ -7,7 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.boots.goldwyrm",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.goldwyrm.desc",
   "primary_stats": [
-    "dodge_flat"
+    "dodge_flat",
+	"very_low_health_flat"
   ],
   "unique_stats": [
     "bonus_currency_drops_flat",

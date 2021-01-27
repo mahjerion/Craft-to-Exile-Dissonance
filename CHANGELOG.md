@@ -10,20 +10,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.8.5] - 2021-XX-XX
 
 ### Updates
+- New Patreon-designed unique plate chest by QuetzaCoco: Vessel of Charisma! For those of you who enjoy magic find and raw damage, this is the chest for you! A truly glass-cannon armor, this chest reduces your defensive prowess to give you power overwhelming. Thanks for your support Quetza!
 - Increased drop rate of maps.
 - Reduced drop rate of unique items and runed gear.
 - Increased mob difficulty scaling by about 50% at max level.
 - Unique bows have all been given appropriate models and names.
 - Overall balance changes regarding uniques. Magic find uniques are generally MORE rare to find now, and some values have been reduced slightly. Some uniques have been reduced in power, and some have been brought back up to "standards". For example, Headhunter's flat physical damage has been changed to percent, and most unique bows have been buffed.
 - Productive Bee's Mine and Slash bees have been SUPER, SUPER nerfed.
+- Some leather and plate uniques have been standardized with the armor and health stats.
 
 ### Mod Updates
-- Mine and Slash, Craft to Exile Custom Uniques, Corpse Complex, MineColonies.
+- Mine and Slash, Craft to Exile Custom Uniques, Corpse Complex, MineColonies, Xaero's, Productive Bees.
 
 ### Fixes
 - Hopefully tiers should properly register when uniques drop in non-map worlds now.
 - Fixed tooltip error with Stone of Corruption.
 - Toolbelts should now retain on death when equipped in their slot.
+- Bee bomb crash on servers has been fixed.
 
 ## [2.8.4] - 2021-01-20
 

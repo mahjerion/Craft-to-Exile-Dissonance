@@ -7,6 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.boots.bootsthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.bootsthunder0.desc",
   "primary_stats": [
+	"very_low_armor_flat",
     "health_flat"
   ],
   "unique_stats": [

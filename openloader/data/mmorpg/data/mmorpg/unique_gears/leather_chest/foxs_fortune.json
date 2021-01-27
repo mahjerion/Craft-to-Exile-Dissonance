@@ -7,8 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.chest.foxs_fortune",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.foxs_fortune.desc",
   "primary_stats": [
-    "health_flat",
-    "very_high_dodge_flat"
+    "very_high_dodge_flat",
+	"health_flat"
   ],
   "unique_stats": [
     "dexterity_flat",

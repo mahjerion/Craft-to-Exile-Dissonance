@@ -7,8 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.chest.shaftstop",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.shaftstop.desc",
   "primary_stats": [
-    "health_flat",
-	"armor_flat"
+	"armor_flat",
+    "health_flat"
   ],
   "unique_stats": [
     "high_armor_flat",

@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.8.5] - 2021-01-XX
+## [2.8.5] - 2021-01-27
 
 ### Updates
 - New Patreon-designed unique plate chest by QuetzaCoco: Vessel of Charisma! For those of you who enjoy magic find and raw damage, this is the chest for you! A truly glass-cannon armor, this chest reduces your defensive prowess to give you power overwhelming. Thanks for your support Quetza!

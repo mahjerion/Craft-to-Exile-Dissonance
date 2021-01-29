@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.8.5c] - 2021-01-29
 
 ### Mod Updates
-- Updated MineColonies.
+- Updated MineColonies, Better Animals Plus.
 
 ### Fixes
 - Fixed unique fire hammer and water bow not working.

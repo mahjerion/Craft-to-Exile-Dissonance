@@ -12,7 +12,7 @@
   "unique_stats": [
     "very_high_health_flat",
     "high_all_attributes_flat",
-	"high_physical_damage_percent",
+	"very_high_physical_damage_percent",
 	"high_all_elemental_damage_flat"
   ],
   "can_get_set": false,

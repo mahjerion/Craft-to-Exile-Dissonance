@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated MineColonies.
+
+## [2.8.5b] - 2021-01-28
+
+### Mod Updates
+- Updated Craft to Exile Custom Uniques.
+
+### Fixes
+- Some fixes to uniques.
+
 ## [2.8.5] - 2021-01-27
 
 ### Updates

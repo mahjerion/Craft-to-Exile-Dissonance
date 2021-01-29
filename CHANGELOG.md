@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Updated MineColonies.
 
+### Fixes
+- Fixed unique fire hammer and water bow not working.
+
 ## [2.8.5b] - 2021-01-28
 
 ### Mod Updates

@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.6] - 2021-02-04
+
+### Updates
+- Many new high-quality dungeons have been added to Craft to Exile!
+- Mine and Slash naming conventions, tooltips, and descriptions are hopefully more consistent and more clear now.
+
+### Mod Updates
+- Updated Productive Bees, Xaero's, Mine and Slash, MineColonies.
+- Added When Dungeons Arise.
+- Added Unbreakable Spawner - mob spawners are now unbreakable.
+
+### Fixes
+- Nature scaling now scales properly.
+- Fixed a misguiding tooltip regarding spawners. They no longer say you can mine them with Silk Touch. In fact, you can't even mine them at all anymore.
+
 ## [2.8.5c] - 2021-01-29
 
 ### Mod Updates

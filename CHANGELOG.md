@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.6b] - 2021-02-04
+
+### Mod Updates
+- Updated When Dungeons Arise.
+
+### Fixes
+- Fixed lang file.
+
 ## [2.8.6] - 2021-02-04
 
 ### Updates

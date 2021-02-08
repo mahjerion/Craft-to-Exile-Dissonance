@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.7] - 2021-02-XX
+
+### Updates
+- Spawners are no longer unbreakable. However, it takes substantially longer to break them (obsidian hardness), so it's still more worthwhile to just torch up the place instead of trying to break the spawner. This will circumvent the issue of pirate raids being uncompletable.
+
+### Mod Updates
+- Updated Craft to Exile Custom Uniques, Collective, Areas.
+- Removed Unbreakable Spawner.
+
+### Fixes
+- Fixed lang file again.
+- Some occasional and seemingly random crashes should be fixed.
+
 ## [2.8.6b] - 2021-02-04
 
 ### Mod Updates

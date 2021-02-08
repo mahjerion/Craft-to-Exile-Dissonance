@@ -12,9 +12,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Spawners are no longer unbreakable. However, it takes substantially longer to break them (obsidian hardness), so it's still more worthwhile to just torch up the place instead of trying to break the spawner. This will circumvent the issue of pirate raids being uncompletable.
 - When Dungeons Arise dungeons are slightly less frequent.
+- Healing Wave was buffed.
+- Increased difficulty and rewards of Dimensional Dungeons. Remember, they can drop tier 5 loot!
 
 ### Mod Updates
-- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas.
+- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash.
 - Removed Unbreakable Spawner.
 
 ### Fixes

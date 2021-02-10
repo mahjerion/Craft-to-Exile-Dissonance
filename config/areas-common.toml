@@ -12,7 +12,7 @@
 	#The prefix of the message whenever a player enters an area.
 	joinPrefix = "Entering "
 	#The suffix of the message whenever a player enters an area.
-	joinSuffixx = ""
+	joinSuffix = ""
 	#The suffix of the message whenever a player leaves an area.
 	leaveSuffix = ""
 

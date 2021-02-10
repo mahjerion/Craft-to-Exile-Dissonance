@@ -21,6 +21,12 @@
           "name": "midnight:tenebrum_ore",
           "weight": 2,
           "count": 1
+        },
+        {
+          "type": "item",
+          "name": "midnight:dark_pearl",
+          "weight": 2,
+          "count": 1
         }
       ]
     }

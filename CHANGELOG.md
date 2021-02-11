@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased difficulty and rewards of Dimensional Dungeons. Remember, they can drop tier 5 loot!
 - You can receive dark pearls from thrown geodes again. I didn't realize they were used as fuel for the Midnight furnaces.
 - Enabled the true infinity enchantment (might also me known as endless quiver), which should function with all arrows. Do not that some other arrow types may not function properly, such as arrows that do extra damage, due to Mine and Slash damage methods.
+- The client now comes bundled with FTB Backups as well (affects SP). By default, it will auto backup every 2 hours.
 
 ### Mod Updates
 - Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash.
@@ -27,6 +28,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed lang file again.
 - Some occasional and seemingly random crashes should be fixed.
 - Pillagers will spawn with a bow in pillager camps.
+- Fixed Angel Garb's set not working properly.
+- Fixed Stone of Jordan not working.
 
 ## [2.8.6b] - 2021-02-04
 

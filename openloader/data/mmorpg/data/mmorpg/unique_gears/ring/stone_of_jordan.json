@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.ring.stone_of_jordan",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.stone_of_jordan.desc",
   "primary_stats": [
-    "high_mana_percent",
+    "high_mana_flat",
 	"mana_regen_flat"
   ],
   "unique_stats": [

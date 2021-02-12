@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.7b] - 2021-02-12
+
+### Updates
+- Some uniques have been reworked to have + all spells.
+- Bosses are a little easier to deal with.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed bosses spawning bosses in maps.
+- Equipping equipment that give + skills will no longer put your skill points into the negatives.
+
 ## [2.8.7] - 2021-02-11
 
 ### Updates

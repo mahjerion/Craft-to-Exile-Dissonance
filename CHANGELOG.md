@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - A few uniques have been reworked to have + all spells.
 - Bosses are a little easier to deal with.
+- DefaultConfigs has been combined with config/copy/serverconfig.
 
 ### Mod Updates
 - Updated Mine and Slash.

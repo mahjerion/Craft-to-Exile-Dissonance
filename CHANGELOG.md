@@ -7,21 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.8.7] - 2021-02-XX
+## [2.8.7] - 2021-02-11
 
 ### Updates
 - IT'S FINALLY HERE. Partying now only requires /slash party! You do NOT need to use /team anymore.
-- /team will remain in the pack as I see no harm in keeping it. Just remmeber you don't have to use it for partying! Teamed questing is coming soon to a modpack near you...
+- /team will remain in the pack as I see no harm in keeping it. Just remember you don't have to use it for partying! Teamed questing is coming soon to a modpack near you...
 - Spawners are no longer unbreakable. However, it takes substantially longer to break them (obsidian hardness), so it's still more worthwhile to just torch up the place instead of trying to break the spawner. This will circumvent the issue of pirate raids being uncompletable, and will allow players to still break them if they really want to. Note: it was my intention to make dungeons substantially harder with this change.
 - When Dungeons Arise dungeons are slightly less frequent.
-- Various Mine and Slash changes, view the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3199648
+- Various Mine and Slash changes, view the changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3200946
 - Increased difficulty and rewards of Dimensional Dungeons. Remember, they can drop tier 5 loot!
 - You can receive dark pearls from thrown geodes again. I didn't realize they were used as fuel for the Midnight furnaces.
 - Enabled the true infinity enchantment (might also me known as endless quiver), which should function with all arrows. Do not that some other arrow types may not function properly, such as arrows that do extra damage, due to Mine and Slash damage methods.
 - The client now comes bundled with FTB Backups as well (affects SP). By default, it will auto backup every 2 hours.
 
 ### Mod Updates
-- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash.
+- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash, Xaero's.
 - Removed Unbreakable Spawner.
 
 ### Fixes

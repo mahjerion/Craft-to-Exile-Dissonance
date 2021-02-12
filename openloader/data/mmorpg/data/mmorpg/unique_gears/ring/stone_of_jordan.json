@@ -11,12 +11,8 @@
 	"mana_regen_flat"
   ],
   "unique_stats": [
-    "plus_ocean_skill_lvls_flat",
-    "plus_fire_skill_lvls_flat",
-    "plus_storm_skill_lvls_flat",
-    "plus_nature_skill_lvls_flat",
-    "plus_hunting_skill_lvls_flat",
-    "plus_divine_skill_lvls_flat"
+    "spell_damage_flat",
+    "plus_all_skill_lvls_flat"
   ],
   "can_get_set": false,
   "requirements": {

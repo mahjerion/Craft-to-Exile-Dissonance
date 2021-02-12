@@ -11,9 +11,9 @@
   ],
   "unique_stats": [
     "armor_flat",
-	"spell_damage_flat",
     "cdr_flat",
-    "high_mana_flat"
+    "high_mana_flat",
+	"plus_all_skill_lvls_flat"
   ],
   "can_get_set": false,
   "requirements": {

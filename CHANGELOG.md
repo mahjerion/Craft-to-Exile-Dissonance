@@ -21,7 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The client now comes bundled with FTB Backups as well (affects SP). By default, it will auto backup every 2 hours.
 
 ### Mod Updates
-- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash.
+- Updated When Dungeons Arise, Craft to Exile Custom Uniques, Collective, Areas, Mine and Slash, Xaero's.
 - Removed Unbreakable Spawner.
 
 ### Fixes

@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated Collective, MineColonies.
+
 ## [2.8.7b] - 2021-02-12
 
 ### Updates

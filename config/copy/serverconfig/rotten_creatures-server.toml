@@ -5,7 +5,7 @@
 	frostbitten_chance = 80
 	#UNDEAD MINER's spawn chance. Default=80. ----------
 	#Range: 0 ~ 100
-	undead_miner_chance = 80
+	undead_miner_chance = 0
 	#SWAMPY's spawn chance. Default=80. ----------------
 	#Range: 0 ~ 100
 	swampy_chance = 80

@@ -7,8 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.8.7c] - 2021-02-XX
+
+### Updates
+- Set undead miner's spawn rate to 0. They spawned regardless of light level and condition... Apparently this might fix the unable to sleep issue?
+- Reduced the reward weight of Cauldrons on bounties.
+- Lowered the weight of common objectives in bounties (less killing).
+
 ### Mod Updates
 - Updated Collective, MineColonies.
+
+### Fixes
+- Removed some duplicate entries in bounties.
 
 ## [2.8.7b] - 2021-02-12
 

@@ -72,16 +72,6 @@
     },
     {
       "type": "item",
-      "content": "minecraft:pumpkin_seeds",
-      "amountRange": {
-        "min": 8,
-        "max": 16
-      },
-      "unitWorth": 250,
-      "weight": 300
-    },
-    {
-      "type": "item",
       "content": "minecraft:carrot",
       "amountRange": {
         "min": 8,

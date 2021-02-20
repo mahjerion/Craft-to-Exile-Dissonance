@@ -67,8 +67,8 @@
         "min": 1,
         "max": 2
       },
-      "unitWorth": 3000,
-      "weight": 1000
+      "unitWorth": 2000,
+      "weight": 7500
     },
     {
       "type": "item",

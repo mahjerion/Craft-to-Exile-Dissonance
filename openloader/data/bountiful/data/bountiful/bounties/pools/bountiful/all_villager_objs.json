@@ -8,7 +8,7 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 500,
+      "weight": 250,
       "timeMult": 4.0
     },
     {
@@ -19,7 +19,7 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 500,
+      "weight": 250,
       "timeMult": 4.0
     },
     {
@@ -30,7 +30,7 @@
         "max": 16
       },
       "unitWorth": 225,
-      "weight": 500,
+      "weight": 250,
       "timeMult": 4.0
     },
     {
@@ -41,7 +41,7 @@
         "max": 12
       },
       "unitWorth": 450,
-      "weight": 500,
+      "weight": 250,
       "timeMult": 4.0
     },
     {
@@ -52,7 +52,7 @@
         "max": 4
       },
       "unitWorth": 700,
-      "weight": 250,
+      "weight": 125,
       "timeMult": 6.0
     },
     {
@@ -63,19 +63,8 @@
         "max": 12
       },
       "unitWorth": 250,
-      "weight": 250,
-      "timeMult": 4.0
-    },
-    {
-      "type": "entity",
-      "content": "betteranimalsplus:brownbear",
-      "amountRange": {
-        "min": 1,
-        "max": 4
-      },
-      "unitWorth": 500,
       "weight": 125,
-      "timeMult": 5.0
+      "timeMult": 4.0
     },
     {
       "type": "entity",
@@ -85,7 +74,7 @@
         "max": 4
       },
       "unitWorth": 500,
-      "weight": 125,
+      "weight": 50,
       "timeMult": 5.0
     },
     {
@@ -96,7 +85,7 @@
         "max": 4
       },
       "unitWorth": 500,
-      "weight": 125,
+      "weight": 50,
       "timeMult": 4.0
     },
     {
@@ -107,7 +96,7 @@
         "max": 12
       },
       "unitWorth": 400,
-      "weight": 250,
+      "weight": 125,
       "timeMult": 4.0
     },
     {
@@ -118,7 +107,7 @@
         "max": 4
       },
       "unitWorth": 800,
-      "weight": 250,
+      "weight": 125,
       "timeMult": 4.0
     },
     {
@@ -129,19 +118,8 @@
         "max": 1
       },
       "unitWorth": 2000,
-      "weight": 100,
+      "weight": 50,
       "timeMult": 6.0
-    },
-    {
-      "type": "entity",
-      "content": "rotten_creatures:mummy",
-      "amountRange": {
-        "min": 4,
-        "max": 16
-      },
-      "unitWorth": 350,
-      "weight": 250,
-      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -151,19 +129,8 @@
         "max": 16
       },
       "unitWorth": 350,
-      "weight": 250,
-      "timeMult": 5.0
-    },
-    {
-      "type": "entity",
-      "content": "rotten_creatures:ancient_mummy",
-      "amountRange": {
-        "min": 2,
-        "max": 6
-      },
-      "unitWorth": 600,
       "weight": 125,
-      "timeMult": 4.0
+      "timeMult": 5.0
     },
     {
       "type": "entity",
@@ -173,7 +140,7 @@
         "max": 6
       },
       "unitWorth": 600,
-      "weight": 125,
+      "weight": 75,
       "timeMult": 4.0
     },
     {
@@ -184,7 +151,7 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 50,
+      "weight": 25,
       "timeMult": 6.0
     },
     {
@@ -195,7 +162,7 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 50,
+      "weight": 25,
       "timeMult": 6.0
     }
   ]

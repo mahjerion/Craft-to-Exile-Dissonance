@@ -101,17 +101,6 @@
     },
     {
       "type": "entity",
-      "content": "rotten_creatures:mummy",
-      "amountRange": {
-        "min": 1,
-        "max": 6
-      },
-      "unitWorth": 500,
-      "weight": 1000,
-      "timeMult": 4.0
-    },
-    {
-      "type": "entity",
       "content": "rotten_creatures:eskimo",
       "amountRange": {
         "min": 1,
@@ -157,17 +146,6 @@
     {
       "type": "entity",
       "content": "rotten_creatures:spear_eskimo",
-      "amountRange": {
-        "min": 1,
-        "max": 2
-      },
-      "unitWorth": 800,
-      "weight": 1000,
-      "timeMult": 5.0
-    },
-    {
-      "type": "entity",
-      "content": "rotten_creatures:ancient_mummy",
       "amountRange": {
         "min": 1,
         "max": 2

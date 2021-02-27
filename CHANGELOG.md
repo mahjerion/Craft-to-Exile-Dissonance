@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.8.8] - 2021-02-27
+## [2.9.0] - 2021-02-27
 
 ### Updates
 - With Create Additions replacing Create Integration, the update to Create v0.3e is made possible! Check out the new blocks from 0.3e and have fun! Finally!
 - Technology quest line has been reworked slightly. There are about 5 new quests.
-- HUGE Mine and Slash spell rebalance update, and some mechanic reworks. TL;DR defense was buffed, armor getting buffed more than the others. Block has been changed from a flat damage reduction to a percent chance to block all damage, and still reducing damage by 25% if you fail to block. See the full changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3218740
+- HUGE Mine and Slash spell rebalance update, and some mechanic reworks. TL;DR defense was buffed, armor getting buffed more than the others. Block has been changed from a flat damage reduction to a percent chance to block all damage, and still reducing damage by 25% if you fail to block. See the full changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3220907
+- A talent reset potion has been provided in lieu of the talent tree changes.
 - 3 new mobs have been introduced by Outvoted - a mod that brings creatures from the Minecraft live mob votes! Find the Inferno in the Nether, and the Hunger and Kraken in the Overworld! Also, craft the new Inferno Shield from level 21-30, which has a low chance of becoming a unique.
 - Beastiary quests have been reworked to showcase Outvoted. The beastiary quest icons have also been changed to better reflect the mob you're hunting.
 - MineColonies quest line has been expanded!
@@ -21,12 +22,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Set the Mummy and Ancient Mummy spawn rates to 0. They were causing crashes. I also feel comfortable removing these because of the newly added Outvoted mobs. Bounties and quests in regards to these mobs have also been removed/reworked.
 - Reduced the reward weight of Cauldrons on bounties.
 - Lowered the weight of common objectives in bounties (less killing).
+- You can now disable spawners by placing 5 torches on them.
 
 ### Mod Updates
 - Updated Collective, MineColonies, When Dungeons Arise, Create, Mine and Slash, Global XP.
 - Added Outvoted.
 - Added GeckoLib.
 - Added Create Additions.
+- Added Better Spawner Control.
 - Removed Create Integration.
 - Removed Comforts.
 

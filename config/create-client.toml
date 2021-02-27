@@ -6,6 +6,14 @@
 	#Range: 0.0 ~ 1.0
 	fanParticleDensity = 0.5
 	#
+	#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
+	#Range: > -2147483648
+	overlayOffsetY = 0
+	#
+	#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
+	#Range: > -2147483648
+	overlayOffsetX = 20
+	#
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
 	#

@@ -17,7 +17,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The Nether is a lava-filled zombie pig-infested area. Be careful not to dig straight down."],
+			description: [
+				"The Nether is a lava-filled zombie pig-infested area. Be careful not to dig straight down.",
+				"To access this quest, you must complete 'The Nether Regions' of Act I or 'Taking The Long Route' of Prelude."
+			],
 			min_required_dependencies: 1,
 			dependencies: [I;
 				125,
@@ -288,7 +291,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["A villager in town is really addicted to unique ores and materials. Help them out by finding 50 quartz!"],
+			description: [
+				"A villager in town is really addicted to unique ores and materials. Help them out by finding 50 quartz!",
+				"To access this quest, you must complete 'The Nether Regions' of Act I or 'Taking The Long Route' of Prelude."
+			],
 			min_required_dependencies: 1,
 			dependencies: [I;
 				125,

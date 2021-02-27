@@ -17,7 +17,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["You made it! You're at The End! Woo- *GRUMBLE GRUMBLE* what the?! Is that a dragon I hear?"],
+			description: [
+				"You made it! You're at The End! Woo- *GRUMBLE GRUMBLE* what the?! Is that a dragon I hear?",
+				"To access this quest, you must complete 'The End' of Act II."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;225],
 			dependency_requirement: "all_completed",
@@ -49,7 +52,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Kill the Ender Dragon."],
+			description: ["Kill the Ender Dragon! Be warned, the dragon is IMMUNE TO MAGIC!"],
 			min_required_dependencies: 0,
 			dependencies: [I;244],
 			dependency_requirement: "all_completed",

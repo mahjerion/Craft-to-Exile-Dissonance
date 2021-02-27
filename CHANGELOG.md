@@ -7,18 +7,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.8.7c] - 2021-02-XX
+## [2.8.8] - 2021-02-27
 
 ### Updates
-- Set undead miner's spawn rate to 0. They spawned regardless of light level and condition... Apparently this might fix the unable to sleep issue?
+- With Create Additions replacing Create Integration, the update to Create v0.3e is made possible! Check out the new blocks from 0.3e and have fun! Finally!
+- Technology quest line has been reworked slightly. There are about 5 new quests.
+- HUGE Mine and Slash spell rebalance update, and some mechanic reworks. TL;DR defense was buffed, armor getting buffed more than the others. Block has been changed from a flat damage reduction to a percent chance to block all damage, and still reducing damage by 25% if you fail to block. See the full changelog here: https://www.curseforge.com/minecraft/mc-mods/mine-and-slash-reloaded/files/3218740
+- 3 new mobs have been introduced by Outvoted - a mod that brings creatures from the Minecraft live mob votes! Find the Inferno in the Nether, and the Hunger and Kraken in the Overworld! Also, craft the new Inferno Shield from level 21-30, which has a low chance of becoming a unique.
+- Beastiary quests have been reworked to showcase Outvoted. The beastiary quest icons have also been changed to better reflect the mob you're hunting.
+- MineColonies quest line has been expanded!
+- Improved the tooltips of many quests, especially the "first quests" of acts. They now indicate which quests you need to complete to access them! Hopefully no one will wonder why they can't finish The End quest when randomly coming across a end portal.
+- Set undead miner's spawn rate to 0. They spawned regardless of light level and condition...
+- Set the Mummy and Ancient Mummy spawn rates to 0. They were causing crashes. I also feel comfortable removing these because of the newly added Outvoted mobs. Bounties and quests in regards to these mobs have also been removed/reworked.
 - Reduced the reward weight of Cauldrons on bounties.
 - Lowered the weight of common objectives in bounties (less killing).
 
 ### Mod Updates
-- Updated Collective, MineColonies.
+- Updated Collective, MineColonies, When Dungeons Arise, Create, Mine and Slash, Global XP.
+- Added Outvoted.
+- Added GeckoLib.
+- Added Create Additions.
+- Removed Create Integration.
+- Removed Comforts.
 
 ### Fixes
 - Removed some duplicate entries in bounties.
+- With the removal of Mummies, the rare Mummy crash should be gone.
+- Crashes caused on servers by Comforts should be resolved.
 
 ## [2.8.7b] - 2021-02-12
 

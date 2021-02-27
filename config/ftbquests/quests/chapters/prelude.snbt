@@ -1287,8 +1287,7 @@
 			id: 438,
 			tasks: [{
 				id: 439,
-				type: "item",
-				item: "comforts:sleeping_bag_white"
+				type: "item"
 			}],
 			rewards: [
 				{
@@ -1360,9 +1359,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"You'll find these unique zombie creatures in snow and desert biomes. Your task is to kill the eskimo zombies with spears and the ancient mummies, which both are rare variants of the non-spear and non-ancient zombies.",
-				"Kill rotten eskimos and mummies!",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"Find the Kraken and Elder Guardian and kill them! You'll find them in the ocean of the Overworld.",
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1370,16 +1368,18 @@
 			id: 442,
 			tasks: [
 				{
-					id: 443,
+					id: 2682,
 					type: "kill",
-					entity: "rotten_creatures:spear_eskimo",
-					value: 5L
+					icon: "outvoted:kraken_tooth",
+					entity: "outvoted:kraken",
+					value: 2L
 				},
 				{
-					id: 444,
+					id: 2683,
 					type: "kill",
-					entity: "rotten_creatures:mummy",
-					value: 5L
+					icon: "upgrade_aquatic:elder_eye",
+					entity: "minecraft:elder_guardian",
+					value: 3L
 				}
 			],
 			rewards: [
@@ -1418,7 +1418,7 @@
 			description: [
 				"Pandora's Creatures brings unique mobs to the Overworld. One of which is a powerful spider mini-boss that can be found in plains or mountain biomes.",
 				"Kill arachnons!",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1427,6 +1427,7 @@
 			tasks: [{
 				id: 448,
 				type: "kill",
+				icon: "pandoras_creatures:arachnon_crystal",
 				entity: "pandoras_creatures:arachnon",
 				value: 8L
 			}],
@@ -1466,7 +1467,7 @@
 			description: [
 				"Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable.",
 				"Kill feral wolves from Better Animals Plus!",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1475,6 +1476,7 @@
 			tasks: [{
 				id: 450,
 				type: "kill",
+				icon: "betteranimalsplus:feralwolfhead_brown",
 				entity: "betteranimalsplus:feralwolf",
 				value: 3L
 			}],
@@ -1514,7 +1516,7 @@
 			description: [
 				"Rotten Creatures is a mob-centric mod that brings powerful zombies to the Overworld. You probably have already encountered some, especially if you've completed Beastiary I.",
 				"The Immortal and Deadbeard are two powerful boss zombies. The Immortal can be found in the Overworld during thunderstorms, and Deadbeard can be found in beach biomes. Note: these two spawns are extremely rare.",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1530,6 +1532,13 @@
 				{
 					id: 453,
 					type: "kill",
+					icon: {
+						id: "minecolonies:pirate_top",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
 					entity: "rotten_creatures:dead_beard",
 					value: 1L
 				}
@@ -1569,7 +1578,7 @@
 			size: 1.0d,
 			description: [
 				"On the outer islands of The End, you will find guardians that defend massive structures. Be careful though, these golem-like creatures pack a punch.",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1578,6 +1587,7 @@
 			tasks: [{
 				id: 455,
 				type: "kill",
+				icon: "endreborn:purpur_eye",
 				entity: "endreborn:endguard",
 				value: 5L
 			}],
@@ -1616,7 +1626,7 @@
 			size: 1.0d,
 			description: [
 				"These grotesque creatures can be found in prisons in The End. Be warned... for they were locked up for a reason.",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1625,6 +1635,7 @@
 			tasks: [{
 				id: 457,
 				type: "kill",
+				icon: "pandoras_creatures:end_troll_skin",
 				entity: "pandoras_creatures:end_troll",
 				value: 5L
 			}],
@@ -1663,7 +1674,7 @@
 			size: 1.0d,
 			description: [
 				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone... Also, beware that summoning this creature will spawn in a large structure (do this away from your base).",
-				"To access this quest, you must complete 'The Ender Dragon' of act III."
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
@@ -1672,6 +1683,15 @@
 			tasks: [{
 				id: 459,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:undeadspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "amalgalich"
+						}
+					}
+				},
 				entity: "lycanitesmobs:amalgalich",
 				value: 1L
 			}],

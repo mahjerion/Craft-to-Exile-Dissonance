@@ -22,7 +22,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Interesting... The grass literally sparkles as you step on it. I wonder what kind of adventures will be found here!"],
+			description: [
+				"Interesting... The grass literally sparkles as you step on it. I wonder what kind of adventures will be found here!",
+				"To access this quest, you must complete 'A Secret World' of Act VIa or VIb."
+			],
 			min_required_dependencies: 1,
 			dependencies: [I;
 				2147,
@@ -220,7 +223,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Dimensional Dungeons are instanced dungeons similar to maps, but are intended for group play. They are very difficult. Craft the guide book to see how to get started, or visit the wiki!"],
+			description: [
+				"Dimensional Dungeons are instanced dungeons similar to maps, but are intended for group play. They are very difficult. Craft the guide book to see how to get started, or visit the wiki!",
+				"It is possible to find the highest tier of uniques in Dimensional Dungeons!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;
 				2256,

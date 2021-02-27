@@ -529,7 +529,7 @@
 			]
 		},
 		{
-			title: "Getting Schooled",
+			title: "Further Education",
 			x: 9.0d,
 			y: 7.5d,
 			shape: "default",
@@ -2045,6 +2045,470 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Getting Schooled",
+			x: 10.5d,
+			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The School is where the Teacher will level up the Pupils’ (children) skills. Paper will increase the leveling speed of the Pupils.",
+				"The level of the School determines how many Pupils can be taught at a time."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;284],
+			dependency_requirement: "all_completed",
+			id: 2635,
+			tasks: [{
+				id: 2636,
+				type: "item",
+				item: "minecolonies:blockhutschool"
+			}],
+			rewards: [
+				{
+					id: 2657,
+					type: "item",
+					item: "minecraft:book"
+				},
+				{
+					id: 2675,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Having Fun Isn't Hard...",
+			x: 12.0d,
+			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Library is a way for you to raise your adult citizens’ Intelligence skill, which influences all other skill increases (at other jobs). A citizen will randomly level up their Intelligence as long as they’re assigned to the Library.",
+				"Being a Library Student is their full-time job, so you can’t have one citizen work at the Library and another worker hut at the same time."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2635],
+			dependency_requirement: "all_completed",
+			id: 2637,
+			tasks: [{
+				id: 2638,
+				type: "item",
+				item: "minecolonies:blockhutlibrary"
+			}],
+			rewards: [
+				{
+					id: 2658,
+					type: "item",
+					item: "minecraft:writable_book"
+				},
+				{
+					id: 2674,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Nourishment",
+			x: 10.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Restaurant is where the Cook will cook food, provided they have the necessary ingredients and fuel. When citizens are hungry, they will come to the Restaurant and the Cook will give them food. The Assistant Cook also works at the Restaurant. They",
+				"Note: You can only hire an Assistant Cook when the Restaurant is level 3 or higher."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;286],
+			dependency_requirement: "all_completed",
+			id: 2639,
+			tasks: [{
+				id: 2640,
+				type: "item",
+				item: "minecolonies:blockhutcook"
+			}],
+			rewards: [
+				{
+					id: 2667,
+					type: "item",
+					item: "minecraft:cake"
+				},
+				{
+					id: 2676,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 7.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Warehouse is the central storage from where a Courier will store and retrieve everything your workers harvest, craft, or need. Items will be stored in racks.",
+				"The level of the Warehouse will determine how many Couriers will be able to use it at the same time. Level up the Warehouse to increase the amount of Couriers that can work in it. Leveling up the Warehouse will also increase its storage capacity."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;278],
+			dependency_requirement: "all_completed",
+			id: 2641,
+			tasks: [{
+				id: 2642,
+				type: "item",
+				item: "minecolonies:blockhutwarehouse"
+			}],
+			rewards: [{
+				id: 2678,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "Runner Up!",
+			x: 9.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Courier runs back and forth from the Warehouse to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse.",
+				"The level of the Courier’s Hut will dictate how many items the Courier can deliver, so if you want them to carry more materials/tools, upgrade their hut. Upgrading the hut will also increase the amount of requests they can keep track of at a time."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2641],
+			dependency_requirement: "all_completed",
+			id: 2643,
+			tasks: [{
+				id: 2644,
+				type: "item",
+				item: "minecolonies:blockhutdeliveryman"
+			}],
+			rewards: [{
+				id: 2677,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "Ready To Work",
+			x: 6.0d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Farm is where the Farmer will grow crops for your colony. The crops the Farmer currently cultivates are wheat, carrots, potatoes, beets, melons, pumpkins, and most crops from other mods (as long as they have normal growth behavior).",
+				"Before the Farmer can start, you will have to give the Farmer a hoe, an axe (for harvesting crops), and the crop you want to cultivate.",
+				"The Farmer will also craft seeds, carved pumpkins, hay bales, composted dirt, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;282],
+			dependency_requirement: "all_completed",
+			id: 2645,
+			tasks: [{
+				id: 2646,
+				type: "item",
+				item: "minecolonies:blockhutfarmer"
+			}],
+			rewards: [
+				{
+					id: 2666,
+					type: "item",
+					item: {
+						id: "minecraft:diamond_hoe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 2668,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Jagged Teeth",
+			x: 9.0d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Sawmill is where the Carpenter will craft any items made of at least 75% wood that do not include ingots, stone, redstone (or produce a redstone signal), or string.",
+				"The Carpenter will also craft a few other items, including cactus planks, shingles, timber frames, compost barrels, and racks.",
+				"For them to do this, you must teach the Sawmill the recipes and the Carpenter must receive a request for an item from another worker."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;284],
+			dependency_requirement: "all_completed",
+			id: 2647,
+			tasks: [{
+				id: 2648,
+				type: "item",
+				item: "minecolonies:blockhutsawmill"
+			}],
+			rewards: [
+				{
+					id: 2664,
+					type: "item",
+					item: {
+						id: "minecraft:oak_planks",
+						Count: 64b
+					}
+				},
+				{
+					id: 2669,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Copper + Tin = Copper Bar",
+			x: 10.5d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Smeltery is where the Smelter will smelt ores into ingots.",
+				"Hint: The higher the level of the Smeltery, the more furnaces the Smelter will be able to use. ",
+				"A higher level will also have a higher chance to double and even triple the ingot output per block of ore. The Smelter’s Strength level will sometimes determine the chance to double or triple the ingot output of ores, according to the Smeltery level."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;284],
+			dependency_requirement: "all_completed",
+			id: 2649,
+			tasks: [{
+				id: 2650,
+				type: "item",
+				item: "minecolonies:blockhutsmeltery"
+			}],
+			rewards: [
+				{
+					id: 2659,
+					type: "item",
+					item: "minecraft:iron_ingot"
+				},
+				{
+					id: 2660,
+					type: "item",
+					item: "create:copper_ingot"
+				},
+				{
+					id: 2671,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "99 Smithing",
+			x: 10.5d,
+			y: 10.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Blacksmith is a 3x3 crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). The Blacksmith will work when they receive a request for any of those items from another worker."],
+			min_required_dependencies: 0,
+			dependencies: [I;2649],
+			dependency_requirement: "all_completed",
+			id: 2651,
+			tasks: [{
+				id: 2652,
+				type: "item",
+				item: "minecolonies:blockhutblacksmith"
+			}],
+			rewards: [
+				{
+					id: 2663,
+					type: "item",
+					item: "minecraft:diamond"
+				},
+				{
+					id: 2672,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Always Out Of Stone",
+			x: 12.0d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Stonemason’s Hut is where the Stonemason will craft 3x3 recipes made entirely out of cobblestone, stone, andesite, diorite, granite, quartz, purpur, nether bricks, prismarine, sandstones, blackstone, basalt, and/or ores.",
+				"They can also craft end stone from cobblestone and an ender pearl, but only if you have completed the Know the End research in the University.",
+				"The Stonemason will only work when they receive a request from another worker and have the needed materials. You will also need to teach the Stonemason’s Hut the recipes you want the Stonemason to craft."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2649],
+			dependency_requirement: "all_completed",
+			id: 2653,
+			tasks: [{
+				id: 2654,
+				type: "item",
+				item: "minecolonies:blockhutstonemason"
+			}],
+			rewards: [
+				{
+					id: 2662,
+					type: "item",
+					item: {
+						id: "minecraft:cobblestone",
+						Count: 64b
+					}
+				},
+				{
+					id: 2673,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Reduce, Reuse, Recycle",
+			x: 7.5d,
+			y: 9.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers. They can also create dirt if you have the setting enabled, which the Builder",
+				"can use in buildings. The Composter uses compost barrels to make compost or dirt."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				2645,
+				284
+			],
+			dependency_requirement: "all_completed",
+			id: 2655,
+			tasks: [{
+				id: 2656,
+				type: "item",
+				item: "minecolonies:blockhutcomposter"
+			}],
+			rewards: [
+				{
+					id: 2665,
+					type: "item",
+					item: "minecraft:composter"
+				},
+				{
+					id: 2670,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Sifter's Hut",
+			x: 6.0d,
+			y: 10.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Sifter’s Hut is where the Sifter will sift through dirt, gravel, sand, or soul sand to find loot. Doing this will make the block the Sifter is sifting disappear."],
+			min_required_dependencies: 0,
+			dependencies: [I;2645],
+			dependency_requirement: "all_completed",
+			id: 2679,
+			tasks: [{
+				id: 2680,
+				type: "item",
+				item: "minecolonies:blockhutsifter"
+			}],
+			rewards: [{
+				id: 2681,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
 		}
 	]
 }

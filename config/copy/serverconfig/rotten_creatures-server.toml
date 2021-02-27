@@ -17,7 +17,7 @@
 	rotten_eskimo_chance = 30
 	#MUMMY's spawn chance. Default=50. -----------------
 	#Range: 0 ~ 100
-	mummy_chance = 50
+	mummy_chance = 0
 	#DEAD BEARD's spawn chance. Default=3. -------------
 	#Range: 0 ~ 100
 	dead_beard_chance = 3

@@ -247,7 +247,7 @@
       "MAP_TIER": 5,
       "DROP_MULTIPLIER": 16.0,
       "MOB_STRENGTH_MULTIPLIER": 12.0,
-      "MOB_HP_MULTIPLIER": 6.0
+      "MOB_HP_MULTIPLIER": 8.0
     }
   }
 }

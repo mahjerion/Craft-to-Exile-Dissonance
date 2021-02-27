@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.shield.steelclash",
   "lang_file_desc_string": "item.mmorpg.uniques.shield.steelclash.desc",
   "primary_stats": [
-    "block_strength_flat"
+    "major_block_strength_flat"
   ],
   "unique_stats": [
     "low_elemental_resist_flat",

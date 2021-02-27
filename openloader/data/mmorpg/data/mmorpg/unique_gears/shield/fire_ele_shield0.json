@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.shield.fire_ele_shield0",
   "lang_file_desc_string": "item.mmorpg.uniques.shield.fire_ele_shield0.desc",
   "primary_stats": [
-    "block_strength_flat",
+    "major_block_strength_flat",
     "fire_thorns_reflect_flat"
   ],
   "unique_stats": [

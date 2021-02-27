@@ -21,7 +21,8 @@
 				"Ahhh paradise... Or so you thought. Welcome to the Tropics - an uncharted island found off the coast of another island. How do you get here? Easy! Simply sit on a beach chair and sip your Pina Colada at sunset!",
 				"You may need to look at the sun while you're sipping your drink!",
 				"Note: before coming to the Tropics, make sure you have set a global waystone up in the Overworld (you need to be in creative to do this). Also, be sure to bring a warpstone or scroll to teleport back. This is currently the only way to return from",
-				"the Tropics, and subsequently, why the Tropics is SP only!"
+				"the Tropics, and subsequently, why the Tropics is SP only!",
+				"To access this quest, you must complete 'Staying Positive' of Act V."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;386],
@@ -975,7 +976,7 @@
 			size: 1.0d,
 			description: [
 				"By putting keystone blocks in an orientation not unlike a nether portal, and activiating it with the gold and diamond, you've activated a portal! Or... at least you think it's a portal.",
-				"Enter the Gaia dimension. Something tells you this will be the last time you see the Overworld..."
+				"Enter the Gaia dimension. Something tells you this will be a difficult journey..."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;2143],

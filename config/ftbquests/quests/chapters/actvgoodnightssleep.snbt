@@ -26,7 +26,8 @@
 			description: [
 				"Lucky you! You've accessed the Good Dream dimension, where you'll find unicorns and rainbows. You sense that something is wrong with the balance of positive and negative energy.",
 				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
-				"Note: this route takes you to Tropicraft which is currently only available for singleplayer."
+				"Note: this route takes you to Tropicraft which is currently only available for singleplayer.",
+				"To access this quest, you must complete 'The Pharaoh' of Act IV."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;339],
@@ -67,7 +68,8 @@
 			size: 1.0d,
 			description: [
 				"How unfortunate. You've accessed the Nightmare dimension, where you'll find demons and darkness. You sense that something is wrong with the balance of positive and negative energy.",
-				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes."
+				"If you'd like, use positite or negatite gems to craft a luxurious or wretched bed to access the respective dimension directly. You will automagically leave the dream dimensions after 20 minutes.",
+				"To access this quest, you must complete 'The Pharaoh' of Act IV."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;339],

@@ -274,7 +274,7 @@
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The extractor is a useful device that takes items from an inventory and places them onto the ground (or a conveyor belt)."],
+			description: ["The funnel is a useful device that can filter out items."],
 			min_required_dependencies: 0,
 			dependencies: [I;1206],
 			dependency_requirement: "all_completed",
@@ -282,7 +282,7 @@
 			tasks: [{
 				id: 1215,
 				type: "item",
-				item: "create:extractor"
+				item: "create:brass_funnel"
 			}],
 			rewards: [
 				{
@@ -295,46 +295,6 @@
 				},
 				{
 					id: 1932,
-					type: "item",
-					title: "1000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 1000
-						}
-					}
-				}
-			]
-		},
-		{
-			title: "Reception",
-			x: 6.0d,
-			y: 3.0d,
-			shape: "gear",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Similar to the extractor, except that attaching this to a chest will instead pick up items from a belt."],
-			min_required_dependencies: 0,
-			dependencies: [I;1214],
-			dependency_requirement: "all_completed",
-			id: 1218,
-			tasks: [{
-				id: 1219,
-				type: "item",
-				item: "create:funnel"
-			}],
-			rewards: [
-				{
-					id: 1220,
-					type: "item",
-					item: {
-						id: "minecraft:chest",
-						Count: 2b
-					}
-				},
-				{
-					id: 1933,
 					type: "item",
 					title: "1000 Experience",
 					item: {
@@ -915,13 +875,13 @@
 			]
 		},
 		{
-			title: "RPM Conversion",
+			title: "Electric Motors",
 			x: 3.0d,
 			y: 4.5d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
-			description: ["In order to utilize rotational power from Create, you will need to convert it into power that IE understands. Use the dynamo to convert rotational power into RF. You will lose some power in the conversion."],
+			description: ["In order to utilize energy from Immersive Engineering as kinetic energy, you will need an electric motor."],
 			min_required_dependencies: 0,
 			dependencies: [I;1271],
 			dependency_requirement: "all_completed",
@@ -929,7 +889,7 @@
 			tasks: [{
 				id: 1276,
 				type: "item",
-				item: "createintegration:dynamo"
+				item: "createaddition:electric_motor"
 			}],
 			rewards: [
 				{
@@ -1237,6 +1197,210 @@
 							REGISTRY_ID: "currency_crate",
 							LVL: 10,
 							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Rolling... THUNDER!",
+			x: 12.0d,
+			y: 1.5d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You will need the rolling mill to make the crafting components of the energy converter blocks."],
+			min_required_dependencies: 0,
+			dependencies: [I;1242],
+			dependency_requirement: "all_completed",
+			id: 2684,
+			tasks: [{
+				id: 2685,
+				type: "item",
+				item: "createaddition:rolling_mill"
+			}],
+			rewards: [
+				{
+					id: 2695,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
+					}
+				},
+				{
+					id: 2696,
+					type: "item",
+					item: "createaddition:iron_wire"
+				}
+			]
+		},
+		{
+			title: "RPM Converter",
+			x: 13.5d,
+			y: 1.5d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["This block will convert kinetic energy into IE energy at 75% efficiency!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2684],
+			dependency_requirement: "all_completed",
+			id: 2686,
+			tasks: [{
+				id: 2687,
+				type: "item",
+				item: "createaddition:alternator"
+			}],
+			rewards: [
+				{
+					id: 2697,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				},
+				{
+					id: 2698,
+					type: "item",
+					item: "create:andesite_alloy"
+				}
+			]
+		},
+		{
+			title: "The Mechanical Crafter",
+			x: 12.0d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["A kinetic assembler that automates the crafting process! You'll need to place these in a grid with the appropriate items on them."],
+			min_required_dependencies: 0,
+			dependencies: [I;1239],
+			dependency_requirement: "all_completed",
+			id: 2688,
+			tasks: [{
+				id: 2689,
+				type: "item",
+				item: "create:mechanical_crafter"
+			}],
+			rewards: [{
+				id: 2694,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000
+					}
+				}
+			}]
+		},
+		{
+			title: "Arm For An Arm",
+			x: 13.5d,
+			y: 0.0d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["This advanced arm will pick up and relocate items for you!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2688],
+			dependency_requirement: "all_completed",
+			id: 2690,
+			tasks: [{
+				id: 2691,
+				type: "item",
+				item: "create:mechanical_arm"
+			}],
+			rewards: [{
+				id: 2699,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "Platforms",
+			x: 10.5d,
+			y: -1.5d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Acts as a platform for items to be placed. Many machines interact with the items on this block."],
+			min_required_dependencies: 0,
+			dependencies: [I;1239],
+			dependency_requirement: "all_completed",
+			id: 2692,
+			tasks: [{
+				id: 2693,
+				type: "item",
+				item: "create:depot"
+			}],
+			rewards: [{
+				id: 2700,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "Dankest Of Them All",
+			x: 12.0d,
+			y: 6.0d,
+			shape: "gear",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You monster... You actually made it!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1713],
+			dependency_requirement: "all_completed",
+			id: 2701,
+			tasks: [{
+				id: 2702,
+				type: "item",
+				item: "dankstorage:dank_7"
+			}],
+			rewards: [
+				{
+					id: 2703,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 10000
+						}
+					}
+				},
+				{
+					id: 2704,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 30,
+							SCORE: "AMAZING",
 							TIER: 5
 						}
 					}

@@ -16,7 +16,10 @@
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Welcome to The Bumblezone! Here you'll find a plethora of biomes filled with honey, bees, and more! Explore The Bumblezone and return with all the sweets! But beware, taking honey from bees may involve risks..."],
+			description: [
+				"Welcome to The Bumblezone! Here you'll find a plethora of biomes filled with honey, bees, and more! Explore The Bumblezone and return with all the sweets! But beware, taking honey from bees may involve risks...",
+				"To access this quest, you must complete 'The Bumblezone' of Prelude."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;64],
 			dependency_requirement: "all_completed",

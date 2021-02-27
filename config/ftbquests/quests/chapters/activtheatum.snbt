@@ -25,7 +25,8 @@
 			size: 1.0d,
 			description: [
 				"Atum is a desert dimension filled with evil mummies and treasure. Reach Atum by constructing a shallow 3x3 pool of water surrounded by sandstone blocks. Place 2 sandstone blocks in each corner to form 4 pillars.",
-				"Then throw a scarab into the pool of water."
+				"Then throw a scarab into the pool of water.",
+				"To access this quest, you must complete 'Pharaoh-cious' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;295],

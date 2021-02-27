@@ -19,7 +19,8 @@
 			size: 1.0d,
 			description: [
 				"The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks in the Overworld - these will spawn a portal at night that allows you access The Midnight.",
-				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well."
+				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well.",
+				"To access this quest, you must complete 'Negative Karma' of Act V."
 			],
 			min_required_dependencies: 1,
 			dependencies: [I;367],
@@ -640,7 +641,7 @@
 			size: 1.0d,
 			description: [
 				"By putting keystone blocks in an orientation not unlike a nether portal, and activiating it with the gold and diamond, you've activated a portal! Or... at least you think it's a portal.",
-				"Enter the Gaia dimension. Something tells you this will be the last time you see the Overworld..."
+				"Enter the Gaia dimension. Something tells you this will be a difficult journey..."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;2127],

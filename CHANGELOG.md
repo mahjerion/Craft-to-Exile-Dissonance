@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.0b] - 2021-02-28
+
+### Mod Updates
+- Updated Collective.
+- Downgraded Global XP.
+
+### Fixes
+- Fixed the Mummy and Undead Miner's not actually being disabled.
+- Fixed XP block not functioning.
+
 ## [2.9.0] - 2021-02-27
 
 ### Updates

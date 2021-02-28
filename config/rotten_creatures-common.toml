@@ -2,16 +2,16 @@
 [spawn]
 	#UNDEAD MINER's spawn chance. Default=80. ----------
 	#Range: 0 ~ 100
-	undead_miner_chance = 80
+	undead_miner_chance = 0
 	#IMMORTAL's spawn chance. Default=1. ---------------
 	#Range: 0 ~ 100
-	immortal_chance = 1
+	immortal_chance = 3
 	#ROTTEN ESKIMO's spawn chance. Default=30. ---------
 	#Range: 0 ~ 100
 	rotten_eskimo_chance = 30
 	#MUMMY's spawn chance. Default=50. -----------------
 	#Range: 0 ~ 100
-	mummy_chance = 50
+	mummy_chance = 0
 	#FROSTBITTEN's spawn chance. Default=80. -----------
 	#Range: 0 ~ 100
 	frostbitten_chance = 80

@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.1] - 2021-XX-XX
+
+### Updates
+- Tiers now scale at a higher rate, tier 0 and 1 are the same, but tier 5 is more difficult now.
+- You can now ping nearby players, similar to MOBA pings or Portal pings.
+- You can now see if a player is in a menu - they will no longer stare off into space.
+- The modpack should now start up faster and use less resources.
+
+### Mod Updates
+- Updated Areas, Xaero's, Collective, GeckoLib.
+- Added Smooth Boot.
+- Added Public Gui Announcement.
+- Added Ping.
+
+### Fixes
+- Disabled Create's Mechanical Saw until it gets fixed by Create.
+
 ## [2.9.0b] - 2021-02-28
 
 ### Mod Updates

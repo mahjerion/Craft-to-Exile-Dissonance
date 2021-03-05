@@ -15,6 +15,8 @@
 	joinSuffix = ""
 	#The suffix of the message whenever a player leaves an area.
 	leaveSuffix = ""
+	#When enabled, gives signs without an area name a randomly chosen one from a preset list.
+	giveUnnamedAreasRandomName = true
 
 [Hud]
 	#When enabled, only shows the areaname in the HUD. When disabled, the prefixes and suffices will also be used.
@@ -34,4 +36,7 @@
 	#The delay in ms after which the HUD message should fade out.
 	#Range: 100 ~ 360000
 	HUDMessageFadeDelayMs = 4000
+	#Increases the font size of the text in the HUD message. If you change this value, make sure to test the different GUI scale settings in-game. 6.0 is considered large.
+	#Range: 0.0 ~ 10.0
+	HUD_FontModifier = 1.0
 

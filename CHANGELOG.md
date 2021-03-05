@@ -21,9 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Public Gui Announcement.
 - Added Ping.
 
-### Fixes
-- Disabled Create's Mechanical Saw recipe until it gets fixed by Create.
-
 ## [2.9.0b] - 2021-02-28
 
 ### Mod Updates

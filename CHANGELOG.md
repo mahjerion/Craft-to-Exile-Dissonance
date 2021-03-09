@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.2] - 2021-03-09
+
 ### Updates
 - Mine and Slash has been updated which brings about new stats, skill changes, and talent tree changes.
 - Lowered spawn rate of Great Hunger in the desert which were eating players' enchantments.
@@ -20,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced the max level of curse Life Mending and enchantment Capturing to 1.
 - Increased stringency of spawner variables. Basically, spawners got nerfed.
 - Halved Aegis drop rates.
-- SUMMONING BUFFS BELOW:
+- SUMMONING BUFFS BELOW (please let me know if these buffs did not work...):
 - The normal summoning staff has been re-enabled, which reduces the focus cost of summons!
 - Damage of primal elementals (primary) has been increased by 50-100%.
 - Health of primal elementals (primary) has been increased by 40%.
@@ -36,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Fixed a leftover quest in Prelude.
 - Renamed some of the entities that had the same name (Rotten Eskimo's, Tarantula), to prevent confusion with bounty boards and quests.
+- Thunder Dash and Dash should fail to fail now.
 
 ## [2.9.1] - 2021-03-05
 

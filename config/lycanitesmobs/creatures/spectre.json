@@ -24,7 +24,7 @@
     "biomeTags": [
       "end"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 4,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,
@@ -38,11 +38,11 @@
   "width": 0.8,
   "height": 1.6,
   "experience": 15,
-  "health": 30,
+  "health": 60,
   "defense": 0,
   "armor": 0,
   "speed": 32,
-  "damage": 3,
+  "damage": 6,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,

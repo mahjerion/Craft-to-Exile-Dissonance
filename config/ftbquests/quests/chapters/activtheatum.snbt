@@ -343,7 +343,7 @@
 				id: 332,
 				type: "kill",
 				entity: "betteranimalsplus:tarantula",
-				value: 20L
+				value: 10L
 			}],
 			rewards: [
 				{

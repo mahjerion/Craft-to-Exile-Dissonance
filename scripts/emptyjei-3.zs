@@ -6,7 +6,6 @@ mods.jei.JEI.hideItem(<item:pamhc2foodcore:cheeseitem>);
 mods.jei.JEI.hideItem(<item:mapperbase:steel_rod>);
 
 //Lycanites
-mods.jei.JEI.hideItem(<item:lycanitesmobs:summoningstaff>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:savagesummoningstaff>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:stablesummoningstaff>);
 mods.jei.JEI.hideItem(<item:lycanitesmobs:bloodsummoningstaff>);

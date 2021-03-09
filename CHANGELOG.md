@@ -7,6 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Mine and Slash has been updated which brings about new stats, skill changes, and talent tree changes.
+- Lowered spawn rate of Great Hunger in the desert which were eating players' enchantments.
+- Added a quest detailing Great Hunger a bit.
+- Increased Reaper spawns in the Nightmare dimension.
+- Greatly increased Spectre spawns in the Nightmare dimension.
+- Updated the quest description of the Reaper quest to better reflect how to find them.
+- Reduced the number of required tarantula kills in Atum.
+- Updated the quest description of the Salvage Station quest to let players know they can use vanilla ingots.
+- Reduced max level of enchantments Fortune, Scavenger, Knowledge of the Ages by 1 each.
+- Reduced the max level of curse Life Mending and enchantment Capturing to 1.
+- Increased stringency of spawner variables. Basically, spawners got nerfed.
+- Halved Aegis drop rates.
+- SUMMONING BUFFS BELOW:
+- The normal summoning staff has been re-enabled, which reduces the focus cost of summons!
+- Damage of primal elementals (primary) has been increased by 50-100%.
+- Health of primal elementals (primary) has been increased by 40%.
+- Health and damage of para-elementals (secondary) have been increased by 100%.
+- Eechetick poison duration has been doubled (% damage over time).
+- Tremor explosion duration has been increased from 5s to 7s.
+- Banshee sight has been increased from 10 to 12.\
+- Players have been provided with another talent reset potion.
+
+### Mod Updates
+- Updated Collective, Mine and Slash.
+
+### Fixes
+- Fixed a leftover quest in Prelude.
+- Renamed some of the entities that had the same name (Rotten Eskimo's, Tarantula), to prevent confusion with bounty boards and quests.
+
 ## [2.9.1] - 2021-03-05
 
 ### Updates

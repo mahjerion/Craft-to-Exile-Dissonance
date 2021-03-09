@@ -801,8 +801,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"Reapers feed on the spiritual energy of the dead. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep.",
-				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight"
+				"Reapers feed on the spiritual energy of the dead. Kill non-undead mobs to spawn Reapers in this dimension. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep.",
+				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;371],

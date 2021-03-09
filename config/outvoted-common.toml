@@ -32,7 +32,7 @@
 #Great Hunger
 [hunger]
 	#Range: 1 ~ 100
-	"Spawn Weight" = 5
+	"Spawn Weight" = 1
 	"Maximum Stored Enchantments" = 5
 	"Natural Spawning" = true
 	#Range: 1.0 ~ Infinity

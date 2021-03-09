@@ -10,7 +10,8 @@
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_end"
+        "minecraft:the_end",
+        "goodnightsleep:nightmare"
       ],
       "dimensionListType": "whitelist"
     }

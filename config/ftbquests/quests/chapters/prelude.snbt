@@ -279,7 +279,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores."],
+			description: [
+				"With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores.",
+				"You can also use vanilla ingots such as iron and gold, and diamond to add fuel to your repair station too!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;19],
 			dependency_requirement: "all_completed",
@@ -319,6 +322,14 @@
 							SCORE: "GOOD",
 							TIER: 3
 						}
+					}
+				},
+				{
+					id: 2705,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 8b
 					}
 				}
 			]
@@ -1274,45 +1285,6 @@
 			]
 		},
 		{
-			title: "Sleeping On The Job",
-			x: 6.0d,
-			y: 6.0d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Can't deal with mobs at night while travelling? Tired of lugging an entire bed frame? Craft the sleeping bag and sleep whenever, wherever! Some conditions may apply."],
-			min_required_dependencies: 0,
-			dependencies: [I;436],
-			dependency_requirement: "all_completed",
-			id: 438,
-			tasks: [{
-				id: 439,
-				type: "item"
-			}],
-			rewards: [
-				{
-					id: 693,
-					type: "item",
-					item: {
-						id: "mmorpg:ore2",
-						Count: 3b
-					}
-				},
-				{
-					id: 1748,
-					type: "item",
-					title: "4000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 4000
-						}
-					}
-				}
-			]
-		},
-		{
 			title: "To The Top",
 			x: 9.0d,
 			y: 6.0d,
@@ -1320,8 +1292,11 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["Tired of climbing slow ladders or walking up to the waystones on the towers? Craft stone ladders to get to the top faster! Upgrade your stone ladder to go even faster!!!"],
-			min_required_dependencies: 0,
-			dependencies: [I;438],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				436,
+				2330
+			],
 			dependency_requirement: "all_completed",
 			id: 440,
 			tasks: [{
@@ -2414,7 +2389,7 @@
 		},
 		{
 			title: "One With Everything",
-			x: 6.0d,
+			x: 7.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -2445,6 +2420,56 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Insatiable",
+			icon: {
+				id: "create:sand_paper",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: 1.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Great Hunger is a mob found in deserts and swamps that can be very frustrating to deal with. It can consume items and their enchantments, and even take enchantments off of equipment that a player is currently wearing!",
+				"Be careful around these mobs."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;1542],
+			dependency_requirement: "all_completed",
+			id: 2706,
+			tasks: [{
+				id: 2707,
+				type: "kill",
+				entity: "outvoted:hunger",
+				value: 4L
+			}],
+			rewards: [
+				{
+					id: 2708,
+					type: "item",
+					item: {
+						id: "minecraft:smooth_sandstone",
+						Count: 12b
+					}
+				},
+				{
+					id: 2709,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1250
+						}
+					}
+				}
+			]
 		}
 	]
 }

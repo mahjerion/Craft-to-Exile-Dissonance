@@ -24,10 +24,8 @@
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.25,
-      "entityTypes": [
-        "undead"
-      ],
+      "chance": 0.5,
+      "entityTypes": [],
       "entityTypesListType": "blacklist"
     }
   ],

@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.2b] - 2021-03-10
+
+### Updates
+- Added some new GUI elements to provide players with more information.
+- Changed the weights of Atum mobs so that they're less mummy/tarantula/forsaken heavy. This means other mobs will spawn more frequently.
+- Summons and hits without a Mine and Slash weapon will now proc on attack effects such as the extra damage from the Frozen and Petrify effects.
+
+### Mod Updates
+- Updated Mine and Slash.
+- Added Inventory HUD+.
+
+### Fixes
+- Fixed the new gain nodes being lifesteal nodes instead.
+- Lightning Essence, Power Surge, Critical Surge, should now work properly.
+
 ## [2.9.2] - 2021-03-09
 
 ### Updates

@@ -37,18 +37,18 @@
 
 ["world gen"]
 	#Range: 1 ~ 256
-	"Lighthouse spacing" = 14
+	"Lighthouse spacing" = 12
 	#Range: 1 ~ 256
-	"Pyramid separation" = 12
+	"Pyramid separation" = 10
 	#Range: 1 ~ 256
-	"Ruins separation" = 4
+	"Ruins separation" = 3
 	#Specify the amount of ruin variants structures/ruins. Allows for additional ruin structures with a resourcepack
 	#Range: 1 ~ 999
 	"Ruins Amount" = 19
 	#Range: 1 ~ 256
-	"Pyramid spacing" = 18
+	"Pyramid spacing" = 14
 	#Range: 1 ~ 256
-	"Lighthouse separation" = 4
+	"Lighthouse separation" = 3
 	#Range: 0 ~ 255
 	"Fossils chance, set to 0 to disable" = 64
 	#Range: 0 ~ 64
@@ -56,16 +56,16 @@
 	#Should Lighthouses generate in Atum?
 	"Enable Lighthouse" = true
 	#Range: 1 ~ 256
-	"Ruins spacing" = 5
+	"Ruins spacing" = 4
 	#Probability of mineshafts generating. Set to 0 to disable. Default value same as vanilla overworld
 	#Range: 0.0 ~ 1.0
-	"Minecraft probability" = 0.008
+	"Minecraft probability" = 0.012
 	#Should Ruins generate in Atum?
 	"Enable Ruins" = true
 	#Should Pyramids generate in Atum?
 	"Enable Pyramids" = true
 	#Range: 0 ~ 255
-	"Dungeon chance, set to 0 to disable" = 8
+	"Dungeon chance, set to 0 to disable" = 32
 	#Sets above what Y-level water will vaporize at (Except Oasis). Set to 0 to disable
 	#Range: 0 ~ 255
 	"Water Level" = 50
@@ -107,10 +107,10 @@
 [mobs]
 	#How frequent Bandit patrols are. The higher the number, the less patrols will spawn
 	#Range: -1 ~ 10000
-	banditPatrolFrequency = 750
+	banditPatrolFrequency = 700
 	#How long time is required for an Assassin to spawn. The higher the number, the less frequent Assassin will spawn
 	#Range: 1 ~ 10000
-	markedForDeathFrequency = 2500
+	markedForDeathFrequency = 2000
 
 	[mobs.bonestorm]
 		#Range: -1 ~ 63
@@ -158,7 +158,7 @@
 		#Range: 1 ~ 64
 		max = 3
 		#Range: -1 ~ 1000
-		weight = 30
+		weight = 24
 
 	[mobs.forsaken]
 		#Range: -1 ~ 63
@@ -166,7 +166,7 @@
 		#Range: 1 ~ 64
 		max = 4
 		#Range: -1 ~ 1000
-		weight = 22
+		weight = 18
 
 	[mobs.stoneguard]
 		#Range: -1 ~ 63
@@ -174,7 +174,7 @@
 		#Range: 1 ~ 64
 		max = 2
 		#Range: -1 ~ 1000
-		weight = 34
+		weight = 26
 
 	[mobs.desert_rabbit]
 		#Range: -1 ~ 63
@@ -190,7 +190,7 @@
 		#Range: 1 ~ 64
 		max = 3
 		#Range: -1 ~ 1000
-		weight = 20
+		weight = 16
 
 ["mod integration"]
 	champions = false

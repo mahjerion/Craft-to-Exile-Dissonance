@@ -1,0 +1,20 @@
+import crafttweaker.api.item.IIngredient;
+import crafttweaker.api.item.IItemStack;
+import mods.jei.JEI;
+
+mods.jei.JEI.hideItem(<item:mowziesmobs:lantern_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:naga_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:foliaath_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:barako_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:barakoana_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:wroughtnaut_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:frostmaw_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:grottol_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_spawn_egg>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:mob_remover>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:earth_talisman>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_mask_fury>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_mask_misery>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:ice_crystal>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:blowgun>);
+mods.jei.JEI.hideItem(<item:mowziesmobs:dart>);

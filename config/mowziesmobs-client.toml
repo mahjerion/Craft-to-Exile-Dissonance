@@ -1,0 +1,5 @@
+
+[client]
+	#Toggles the lantern glow effect, which may look bad with certain shaders
+	glow_effect = true
+

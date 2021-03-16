@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.3] - 2021-03-16
+
+### Updates
+- HUGE fundamental change to the mastery system. Your spells and the stat bonus from mastery level now scales based on the TOTAL mastery level, rather than per tree. That means you can have 30 points in the Fire tree at level 30, instead of being forced to go 15 Fire and 15 *insert element*. This means you can get higher level skills quicker without being "punished" for mono-speccing. This change also makes spells scale off of your total mastery level, meaning you can have just 1 point in Ocean and 1 point in Frostball, and 10 points in Fire, and your Frostball will be effectively scaled to level 11! Additionally, at level 100, there are no fundamental changes, as you'd still have 50 points into 2 trees given the old system, and the new system. Have fun!
+- Increased skill points per level from 2 to 3! You will probably need to consume a spell reset potion to get the skills points. I did this because speccing into 2 trees was quite difficult given how you had to allocate 2 points every other level to mastery. Given the new system, you will still allocated 1 point per level, so this doesn't change.
+- A free spell reset potion has been provided for the above change.
+- The new Mine and Slash update also rebalances a bunch of the spells, introduces new synergies, and reduces the cooldowns of almost all the spells.
+- Non-M&S equipment can now be salvaged!!! This does not include wooden and stone equipment, though.
+- Increased drop rate of equipment by 25%, and reduced drop rate of non-M&S equipment by 50%.
+- Reduced how powerful some of the elemental mob affixes were. They were definitely overtuned for lower levels!
+- Mowzie's Mobs introduces 8 new very unique mobs, and some new equipment! 2 of which have been added to the Midnight dimension to spruce it up a bit!
+- New gauranteed unique axe from the Mowzie Wrought.
+- Increased spawn rate of Rotten Eskimos by 40%.
+- Added a bunch of new quests to the Overworld focused on mob killing, and reworked Beastiary III.
+- Spawners take have half the hardness they previously had.
+- Halved spawn rate of Dungeons Arise dungeons - they were really cool but too frequent.
+- Rebound enchantment max level has been reduced to 1.
+- Added a new community server to the default server list! Welcome Path to Craft! Thanks for your support.
+
+### Mod Updates
+- Updated Collective, Mine and Slash, Craft to Exile Custom Uniques.
+- Added Mowzie's Mobs.
+
+### Fixes
+- Fixed some default keybinds.
+- Moved the potion GUI out of the corner.
+- Fixed Faraday's Cloth Pants dropping when it shouldn't have.
+- Fixed quiver having incorrect capitalization.
+- Fixed incorrect quest description for Double Double Toil And Trouble.
+- Some talent tree nodes were fixed.
+
 ## [2.9.2b] - 2021-03-10
 
 ### Updates

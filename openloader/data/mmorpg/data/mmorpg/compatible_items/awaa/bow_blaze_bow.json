@@ -9,7 +9,7 @@
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 5
+    "max_rarity": 4
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,

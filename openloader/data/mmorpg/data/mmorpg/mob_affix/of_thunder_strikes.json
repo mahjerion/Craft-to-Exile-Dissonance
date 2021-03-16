@@ -9,8 +9,8 @@
   "mods": {
     "mods": [
       "physical_dispersion_flat",
-      "attack_thunder_damage_flat",
-      "very_high_thunder_penetration_flat"
+      "low_attack_thunder_damage_flat",
+      "high_thunder_penetration_flat"
     ]
   }
 }

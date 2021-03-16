@@ -1,0 +1,17 @@
+{
+  "id": "prismatic",
+  "weight": 500,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.prismatic",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "very_low_attack_nature_damage_flat",
+      "very_low_attack_thunder_damage_flat",
+      "very_low_attack_water_damage_flat",
+      "very_low_attack_fire_damage_flat"
+    ]
+  }
+}

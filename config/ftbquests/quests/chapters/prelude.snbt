@@ -540,7 +540,7 @@
 		},
 		{
 			title: "Archery Specialization",
-			x: 4.5d,
+			x: 6.0d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -1432,20 +1432,16 @@
 			]
 		},
 		{
-			title: "Beastiary III",
-			icon: "minecraft:writable_book",
-			x: 3.0d,
-			y: 7.5d,
+			title: "Feral Creatures",
+			icon: "betteranimalsplus:feralwolfhead_red",
+			x: 4.5d,
+			y: -3.0d,
 			shape: "octagon",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable.",
-				"Kill feral wolves from Better Animals Plus!",
-				"To access this quest, you must complete 'The Ender Dragon' of Act III."
-			],
+			description: ["Better Animals Plus brings a whole slew of creatures that blend in with the Overworld. If you haven't noticed, many of these creatures are tameable and mountable."],
 			min_required_dependencies: 0,
-			dependencies: [I;288],
+			dependencies: [I;1557],
 			dependency_requirement: "all_completed",
 			id: 449,
 			tasks: [{
@@ -1457,26 +1453,23 @@
 			}],
 			rewards: [
 				{
-					id: 700,
+					id: 2734,
 					type: "item",
-					item: "mmorpg:lootbox/big_currency_lootbox_3"
+					item: {
+						id: "minecraft:bone",
+						Count: 4b
+					}
 				},
 				{
-					id: 1752,
+					id: 2735,
 					type: "item",
-					title: "200000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 200000
+							exp: 2000
 						}
 					}
-				},
-				{
-					id: 2106,
-					type: "item",
-					item: "calemiutils:coin_nickel"
 				}
 			]
 		},
@@ -1501,6 +1494,7 @@
 				{
 					id: 452,
 					type: "kill",
+					icon: "lycanitesmobs:lightballcharge",
 					entity: "rotten_creatures:inmortal",
 					value: 1L
 				},
@@ -1697,26 +1691,32 @@
 		},
 		{
 			title: "Eight Legs",
+			icon: "minecraft:spider_eye",
 			x: 1.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"In Craft to Exile, there are 3 main defensive options. Armor, dodge, and magic shield. Armor reduces incoming damage, dodge gives you a chance to completely evade an attack, and magic shield adds more to your life pool.",
-				"Kill cave spiders!"
-			],
+			description: ["In Craft to Exile, there are 3 main defensive options. Armor, dodge, and magic shield. Armor reduces incoming damage, dodge gives you a chance to completely evade an attack, and magic shield adds more to your life pool."],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
+			hide: false,
 			dependency_requirement: "all_completed",
 			id: 1542,
-			tasks: [{
-				id: 1543,
-				type: "kill",
-				title: "Eight Legs",
-				entity: "minecraft:cave_spider",
-				value: 8L
-			}],
+			tasks: [
+				{
+					id: 1543,
+					type: "kill",
+					entity: "minecraft:cave_spider",
+					value: 4L
+				},
+				{
+					id: 2720,
+					type: "kill",
+					entity: "minecraft:spider",
+					value: 4L
+				}
+			],
 			rewards: [
 				{
 					id: 1717,
@@ -1748,15 +1748,13 @@
 		},
 		{
 			title: "Double Double Toil and Trouble",
+			icon: "minecraft:cauldron",
 			x: 3.0d,
 			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"During your travels, you will find shields and torches. These are off-hand equipment that can provide benefits to your character. Right-click with a shield to reduce incoming damage, and with a torch to regenerate mana and energy.",
-				"Kill witches!"
-			],
+			description: ["During your travels, you will find shields and torches. These are off-hand equipment that can provide benefits to your character. Right-click with a shield to reduce incoming damage."],
 			min_required_dependencies: 0,
 			dependencies: [I;1542],
 			dependency_requirement: "all_completed",
@@ -2092,7 +2090,7 @@
 		},
 		{
 			title: "Fletcher's Paradise",
-			x: 3.0d,
+			x: 4.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -2430,8 +2428,8 @@
 					Damage: 0
 				}
 			},
-			x: 1.5d,
-			y: -3.0d,
+			x: 3.0d,
+			y: -4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2440,7 +2438,7 @@
 				"Be careful around these mobs."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;1542],
+			dependencies: [I;1557],
 			dependency_requirement: "all_completed",
 			id: 2706,
 			tasks: [{
@@ -2466,6 +2464,271 @@
 						Count: 1b,
 						tag: {
 							exp: 1250
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Loot Filter",
+			x: 3.0d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Ever get tired of sifting through a bunch of crappy common gear? With the salvage bag, you can immediately salvage gear based on the rarity of your choice upon pick up! To configure the bag, hold the bag and right click it",
+				"while you have the item with the rarity you want to filter in your off-hand. If you want to automatically salvage uncommon runes and below upon picking them up, hold an uncommon rune in your off-hand and right click with the bag!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;22],
+			dependency_requirement: "all_completed",
+			id: 2710,
+			tasks: [{
+				id: 2711,
+				type: "item",
+				item: "mmorpg:auto_salvage_bag0"
+			}],
+			rewards: [
+				{
+					id: 2712,
+					type: "item",
+					item: "mmorpg:alchemy/instant/misc/reset_stats"
+				},
+				{
+					id: 2713,
+					type: "item",
+					item: "mmorpg:ore2"
+				},
+				{
+					id: 2714,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 5000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Jungle Foliage",
+			x: 4.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"These jungle-lurking plant monsters want nothing more than to eat anything that moves! They may seem like ordinary ferns, but they'll emerge if you come close. You can't get close enough to strike them, so find some other way of killing them!",
+				"Upon killing them, they drop foliaath seeds which can be grown on grass or dirt. Every half-day for two days, feed the baby foliaath by tossing it a meat item. Then, it will emerge as a fully grown foliaath.",
+				"Be careful: grown foliaaths aren't tamed and will still attack you!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;1557],
+			dependency_requirement: "all_completed",
+			id: 2718,
+			tasks: [{
+				id: 2719,
+				type: "kill",
+				icon: "mowziesmobs:foliaath_seed",
+				entity: "mowziesmobs:foliaath",
+				value: 4L
+			}],
+			rewards: [
+				{
+					id: 2724,
+					type: "item",
+					item: "mowziesmobs:foliaath_seed"
+				},
+				{
+					id: 2737,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1250
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Iron Man",
+			icon: "mowziesmobs:wrought_helmet",
+			x: 6.0d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? They have forgotten what. Are they waiting for something?",
+				"They have forgotten when. Are they mourning someone? They have forgotten whom. All they know is to slay those who approach their chambers. There is only one way to damage a Ferrous Wroughtnaut; its weakness is for you to discover.",
+				"Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut. Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor.",
+				"Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you. Neither tool can break."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2718],
+			dependency_requirement: "all_completed",
+			id: 2721,
+			tasks: [{
+				id: 2722,
+				type: "kill",
+				icon: "mowziesmobs:wrought_helmet",
+				entity: "mowziesmobs:ferrous_wroughtnaut",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 2723,
+					type: "item",
+					item: "minecraft:iron_block"
+				},
+				{
+					id: 2738,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 5000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Beastiary III",
+			icon: "minecraft:writable_book",
+			x: 3.0d,
+			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Mowzie's Mobs brings new unique mobs, and 3 new bosses to the Overworld.",
+				"Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams.",
+				"He can also create Barakoa followers from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his villages, lest they be smitten by his heliomancy.",
+				"Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents.",
+				"If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay.",
+				"To access this quest, you must complete 'The Ender Dragon' of Act III."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;288],
+			dependency_requirement: "all_completed",
+			id: 2725,
+			tasks: [
+				{
+					id: 2726,
+					type: "kill",
+					icon: {
+						id: "mowziesmobs:barakoa_mask_fury",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "mowziesmobs:barako",
+					value: 1L
+				},
+				{
+					id: 2727,
+					type: "kill",
+					icon: {
+						id: "mowziesmobs:ice_crystal",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "mowziesmobs:frostmaw",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: 2731,
+					type: "item",
+					item: "mmorpg:lootbox/big_currency_lootbox_3"
+				},
+				{
+					id: 2732,
+					type: "item",
+					item: "calemiutils:coin_nickel"
+				},
+				{
+					id: 2733,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 200000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Rotten Creatures",
+			icon: "betteranimalsplus:wolf_pelt_snowy",
+			x: 6.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Rotten Creatures brings many new Overworld mobs - mostly zombies. Find Rotten Eskimos in snow biomes, Swampy's in swamps, and many more!"],
+			min_required_dependencies: 0,
+			dependencies: [I;449],
+			dependency_requirement: "all_completed",
+			id: 2728,
+			tasks: [
+				{
+					id: 2729,
+					type: "kill",
+					icon: "betteranimalsplus:wolf_pelt_snowy",
+					entity: "rotten_creatures:eskimo",
+					value: 3L
+				},
+				{
+					id: 2730,
+					type: "kill",
+					icon: {
+						id: "mowziesmobs:spear",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
+					entity: "rotten_creatures:spear_eskimo",
+					value: 3L
+				}
+			],
+			rewards: [
+				{
+					id: 2736,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 2000
+						}
+					}
+				},
+				{
+					id: 2739,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 10,
+							SCORE: "BAD",
+							TIER: 1
 						}
 					}
 				}

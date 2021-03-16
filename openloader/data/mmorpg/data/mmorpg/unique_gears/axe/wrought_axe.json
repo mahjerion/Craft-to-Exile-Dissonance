@@ -1,0 +1,24 @@
+{
+  "id": "wrought_axe",
+  "weight": 0,
+  "rarity": 1,
+  "tier": 2,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.axe.wrought_axe",
+  "lang_file_desc_string": "item.mmorpg.uniques.axe.wrought_axe.desc",
+  "primary_stats": [
+    "high_attack_thunder_damage_flat"
+  ],
+  "unique_stats": [
+    "high_wisdom_flat",
+    "high_thunder_focus_flat",
+	"plus_storm_skill_lvls_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "strength": 0.5,
+	"wisdom": 0.5
+  },
+  "gear_type": "axe",
+  "item_id": "mowziesmobs:wrought_axe"
+}

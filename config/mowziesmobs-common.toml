@@ -1,0 +1,422 @@
+
+[mobs]
+
+	[mobs.barakoa]
+
+		#Controls spawning for Barakoana hunting groups
+		#Group size controls how many elites spawn, not followers
+		#See Barako config for village controls
+		[mobs.barakoa.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["SAVANNA"]
+
+		[mobs.barakoa.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for vanilla-style mob spawning
+		[mobs.barakoa.spawn_config]
+			#Minimum height for this spawn. -1 to ignore.
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Maximum number of mobs that appear in a spawn group
+			max_group_size = 1
+			#Maximum height for this spawn. -1 to ignore.
+			height_max = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
+			allowed_blocks = ["grass_block", "sand"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Minimum number of mobs that appear in a spawn group
+			min_group_size = 1
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			spawn_rate = 5
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.barako]
+		#Disable/enable Barako healing while not in combat
+		heals_out_of_battle = true
+		#Disable/enable Barako's boss health bar
+		has_boss_bar = false
+
+		#Generation controls for Barakoa villages
+		[mobs.barako.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["SAVANNA"]
+
+		[mobs.barako.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.barako.generation_config]
+			#Minimum height for generation placement. -1 to ignore
+			height_min = 50.0
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure
+			generation_separation = 8
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure
+			generation_distance = 25
+			#Maximum height for generation placement. -1 to ignore
+			height_max = 100.0
+			#Names of dimensions this mob/structure can generate in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.foliaath]
+
+		[mobs.foliaath.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["JUNGLE"]
+
+		[mobs.foliaath.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for vanilla-style mob spawning
+		[mobs.foliaath.spawn_config]
+			#Minimum height for this spawn. -1 to ignore.
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Maximum number of mobs that appear in a spawn group
+			max_group_size = 4
+			#Maximum height for this spawn. -1 to ignore.
+			height_max = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
+			allowed_blocks = ["grass_block", "podzol", "jungle_leaves", "oak_leaves", "oak_log", "jungle_log"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Minimum number of mobs that appear in a spawn group
+			min_group_size = 1
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			spawn_rate = 70
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.frostmaw]
+		#Disable/enable frostmaws healing while asleep
+		heals_out_of_battle = true
+		#Allow players to steal frostmaws' ice crystals (only using specific means!)
+		stealable_ice_crystal = false
+		#Disable/enable Barako's boss health bar
+		has_boss_bar = false
+
+		[mobs.frostmaw.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["SNOWY,!OCEAN,!RIVER,!BEACH"]
+
+		[mobs.frostmaw.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.frostmaw.generation_config]
+			#Minimum height for generation placement. -1 to ignore
+			height_min = 50.0
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure
+			generation_separation = 8
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure
+			generation_distance = 25
+			#Maximum height for generation placement. -1 to ignore
+			height_max = 100.0
+			#Names of dimensions this mob/structure can generate in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.grottol]
+		#Scale mob health by this value
+		health_multiplier = 1.0
+
+		[mobs.grottol.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = [""]
+
+		#Controls for vanilla-style mob spawning
+		[mobs.grottol.spawn_config]
+			#Minimum height for this spawn. -1 to ignore.
+			height_min = -1
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Maximum number of mobs that appear in a spawn group
+			max_group_size = 1
+			#Maximum height for this spawn. -1 to ignore.
+			height_max = 55
+			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
+			allowed_blocks = []
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Minimum number of mobs that appear in a spawn group
+			min_group_size = 1
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			spawn_rate = 3
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.lantern]
+		#Scale mob health by this value
+		health_multiplier = 1.0
+
+		[mobs.lantern.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = ["minecraft:dark_forest", "minecraft:dark_forest_hills"]
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["FOREST,MAGICAL,!SNOWY"]
+
+		#Controls for vanilla-style mob spawning
+		[mobs.lantern.spawn_config]
+			#Minimum height for this spawn. -1 to ignore.
+			height_min = 60
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = true
+			#Maximum number of mobs that appear in a spawn group
+			max_group_size = 4
+			#Maximum height for this spawn. -1 to ignore.
+			height_max = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
+			allowed_blocks = ["grass_block", "dark_oak_leaves", "dark_oak_log", "oak_leaves", "oak_log", "birch_leaves", "birch_log"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Minimum number of mobs that appear in a spawn group
+			min_group_size = 2
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = false
+			#Smaller number causes less spawning, 0 to disable spawning
+			spawn_rate = 5
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.naga]
+
+		[mobs.naga.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = ["minecraft:stone_shore"]
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = ["BEACH,MOUNTAIN", "BEACH,HILLS"]
+
+		[mobs.naga.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for vanilla-style mob spawning
+		[mobs.naga.spawn_config]
+			#Minimum height for this spawn. -1 to ignore.
+			height_min = -1
+			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
+			needs_darkness = false
+			#Maximum number of mobs that appear in a spawn group
+			max_group_size = 4
+			#Maximum height for this spawn. -1 to ignore.
+			height_max = -1
+			#Names of blocks this mob is allowed to spawn on. Leave blank to allow any block.
+			allowed_blocks = ["grass_block", "stone", "sand"]
+			#Set to true to only spawn mob if it can't see the sky.
+			needs_cant_see_sky = false
+			#Minimum number of mobs that appear in a spawn group
+			min_group_size = 2
+			#Set to true to only spawn mob if it can see the sky.
+			needs_see_sky = true
+			#Smaller number causes less spawning, 0 to disable spawning
+			spawn_rate = 35
+			#Names of dimensions this mob can spawn in
+			dimensions = ["minecraft:overworld"]
+
+	[mobs.ferrous_wroughtnaut]
+		#Disable/enable Ferrous Wroughtnaut healing while not active
+		heals_out_of_battle = true
+		#Disable/enable Ferrous Wroughtnauts' boss health bars
+		has_boss_bar = false
+
+		[mobs.ferrous_wroughtnaut.biome_config]
+			#Prevent spawns in these biomes regardless of the biome type settings
+			biome_blacklist = []
+			#Allow spawns in these biomes regardless of the biome type settings
+			biome_whitelist = []
+			#Each entry is a combination of allowed biome types.
+			#Separate types with commas to require biomes to have all types in an entry
+			#Put a '!' before a biome type to mean NOT that type
+			#A blank entry means all biomes. No entries means no biomes.
+			#For example, 'FOREST,MAGICAL,!SNOWY' would mean all biomes that are magical forests but not snowy
+			#'!MOUNTAIN' would mean all non-mountain biomes
+			biome_type = [""]
+
+		[mobs.ferrous_wroughtnaut.combat_config]
+			#Scale mob attack damage by this value
+			attack_multiplier = 1.0
+			#Scale mob health by this value
+			health_multiplier = 1.0
+
+		#Controls for spawning structure/mob with world generation
+		[mobs.ferrous_wroughtnaut.generation_config]
+			#Minimum height for generation placement. -1 to ignore
+			height_min = 30.0
+			#Smaller number causes more generation, -1 to disable generation
+			#Minimum number of chunks between placements of this mob/structure
+			generation_separation = 5
+			#Smaller number causes more generation, -1 to disable generation
+			#Maximum number of chunks between placements of this mob/structure
+			generation_distance = 15
+			#Maximum height for generation placement. -1 to ignore
+			height_max = 55.0
+			#Names of dimensions this mob/structure can generate in
+			dimensions = ["minecraft:overworld"]
+
+[general]
+	#Add a mob's full name here to prevent it from being frozen or taking damage from ice magic.
+	freeze_blacklist = ["mowziesmobs:frostmaw", "minecraft:enderdragon", "minecraft:blaze", "minecraft:magma_cube"]
+
+[tools_and_abilities]
+	suns_blessing_attack_multiplier = 1.0
+	geomancy_attack_multiplier = 1.0
+
+	[tools_and_abilities.wrought_helm]
+		#Set to true for the Wrought Helm to have limited durability.
+		breakable = false
+
+		[tools_and_abilities.wrought_helm.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			damage_reduction = 2
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			toughness = 0.0
+
+	[tools_and_abilities.ice_crystal]
+		#Multiply all damage done with the ice crystal by this amount.
+		attack_multiplier = 1.0
+		#Ice crystal durability
+		durability = 600
+		#Set to true for the ice crystal to have limited durability.
+		#Prevents regeneration in inventory.
+		breakable = false
+
+	[tools_and_abilities.barakoa_spear]
+
+		[tools_and_abilities.barakoa_spear.tool_config]
+			#Tool attack damage
+			attack_damage = 5.0
+			#Tool attack speed
+			attack_speed = 1.6
+
+	[tools_and_abilities.sol_visage]
+		#Set to true for the Sol Visage to have limited durability.
+		breakable = false
+
+		[tools_and_abilities.sol_visage.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			damage_reduction = 2
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			toughness = 0.0
+
+	[tools_and_abilities.barakoa_mask]
+
+		[tools_and_abilities.barakoa_mask.armor_config]
+			#See official Minecraft Wiki for an explanation of how armor damage reduction works.
+			damage_reduction = 1
+			#See official Minecraft Wiki for an explanation of how armor toughness works.
+			toughness = 0.0
+
+	[tools_and_abilities.naga_fang_dagger]
+		#Bonus damage when attacking from behind
+		bonus_damage = 3.0
+		#Duration in ticks of the poison effect (20 ticks = 1 second).
+		poison_duration = 40
+
+		[tools_and_abilities.naga_fang_dagger.tool_config]
+			#Tool attack damage
+			attack_damage = 3.0
+			#Tool attack speed
+			attack_speed = 2.0
+
+	[tools_and_abilities.axe_of_a_thousand_metals]
+		#Set to true for the Axe of a Thousand Metals to have limited durability.
+		breakable = false
+
+		[tools_and_abilities.axe_of_a_thousand_metals.tool_config]
+			#Tool attack damage
+			attack_damage = 9.0
+			#Tool attack speed
+			attack_speed = 0.9
+
+	[tools_and_abilities.blowgun]
+		#Multiply all damage done with the blowgun/darts by this amount.
+		attack_damage = 1.0
+		#Duration in ticks of the poison effect (20 ticks = 1 second).
+		poison_duration = 40
+

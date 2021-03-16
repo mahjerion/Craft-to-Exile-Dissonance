@@ -1072,6 +1072,35 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Teleportation Enabled?",
+			x: 6.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["With a star, it's possible to craft a waystone! If you're playing singleplayer, you can even make it a global waystone which lets you teleport to it from any dimension."],
+			min_required_dependencies: 0,
+			dependencies: [I;219],
+			dependency_requirement: "all_completed",
+			id: 2715,
+			tasks: [{
+				id: 2716,
+				type: "item",
+				item: "waystones:sandy_waystone"
+			}],
+			rewards: [{
+				id: 2717,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 80000
+					}
+				}
+			}]
 		}
 	]
 }

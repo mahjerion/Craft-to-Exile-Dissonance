@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "frostmaw",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "mmorpg:ore3",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "mmorpg:ore3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

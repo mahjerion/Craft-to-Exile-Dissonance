@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Added Random Patches again.
+- Removed DEUF (server-only).
+
+## [2.9.3b] - 2021-03-23
+
+### Updates
+- Reduced spell points per level back to 2 from 3. 3 was way too much.
+- Made some of the Nether quests a less tedious.
+- When Dungeons Arise update introduces new structures and rebalances some of the existing structures.
+- Reduced damage and health of Dimensional Dungeons mobs.
+- Some Atum loot is no longer salvagable and can no longer reroll as uniques (staves, brooches, idols). This is do prevent an exploitable bug.
+
+### Mod Updates
+- Updated When Dungeons Arise.
+- Removed Mowzie's Mobs temporarily. It's still new and a little buggy.
+
+### Fixes
+- Fixed crashes from Mowize's Mobs by removing it (lol).
+
 ## [2.9.3] - 2021-03-16
 
 ### Updates

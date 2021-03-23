@@ -1,0 +1,29 @@
+{
+  "item_type": "leather_helmet",
+  "item_id": "mowziesmobs:wrought_helmet",
+  "id": "leather_helmet:mowziesmobs:wrought_helmet",
+  "gear_type": {
+    "normal_item_weight": 100,
+    "runed_item_weight": 0,
+    "unique_item_weight": 0
+  },
+  "rarity": {
+    "min_rarity": 2,
+    "max_rarity": 4
+  },
+  "misc": {
+    "only_add_stats_if_loot_drop": false,
+    "add_to_loot_drops": false,
+    "loot_drop_weight": 1000,
+    "can_be_salvaged": true
+  },
+  "level": {
+    "min_level": 1,
+    "max_level": 30,
+    "level_variance": 0
+  },
+  "unique": {
+    "if_unique_random_up_to_tier": 10,
+    "unique_id": ""
+  }
+}

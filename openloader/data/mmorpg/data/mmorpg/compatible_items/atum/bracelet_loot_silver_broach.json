@@ -4,8 +4,8 @@
   "id": "bracelet:atum:loot_silver_broach",
   "gear_type": {
     "normal_item_weight": 98,
-    "runed_item_weight": 0,
-    "unique_item_weight": 2
+    "runed_item_weight": 2,
+    "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,
@@ -15,7 +15,7 @@
     "only_add_stats_if_loot_drop": false,
     "add_to_loot_drops": false,
     "loot_drop_weight": 1000,
-    "can_be_salvaged": true
+    "can_be_salvaged": false
   },
   "level": {
     "min_level": 31,

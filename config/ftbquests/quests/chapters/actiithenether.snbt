@@ -32,7 +32,7 @@
 				id: 206,
 				type: "kill",
 				entity: "minecraft:zombie_pigman",
-				value: 10L
+				value: 8L
 			}],
 			rewards: [
 				{
@@ -73,8 +73,9 @@
 			tasks: [{
 				id: 208,
 				type: "kill",
+				icon: "minecraft:blaze_powder",
 				entity: "minecraft:blaze",
-				value: 30L
+				value: 10L
 			}],
 			rewards: [
 				{

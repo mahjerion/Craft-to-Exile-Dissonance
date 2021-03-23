@@ -2514,92 +2514,6 @@
 			]
 		},
 		{
-			title: "Jungle Foliage",
-			x: 4.5d,
-			y: -4.5d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"These jungle-lurking plant monsters want nothing more than to eat anything that moves! They may seem like ordinary ferns, but they'll emerge if you come close. You can't get close enough to strike them, so find some other way of killing them!",
-				"Upon killing them, they drop foliaath seeds which can be grown on grass or dirt. Every half-day for two days, feed the baby foliaath by tossing it a meat item. Then, it will emerge as a fully grown foliaath.",
-				"Be careful: grown foliaaths aren't tamed and will still attack you!"
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;1557],
-			dependency_requirement: "all_completed",
-			id: 2718,
-			tasks: [{
-				id: 2719,
-				type: "kill",
-				icon: "mowziesmobs:foliaath_seed",
-				entity: "mowziesmobs:foliaath",
-				value: 4L
-			}],
-			rewards: [
-				{
-					id: 2724,
-					type: "item",
-					item: "mowziesmobs:foliaath_seed"
-				},
-				{
-					id: 2737,
-					type: "item",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 1250
-						}
-					}
-				}
-			]
-		},
-		{
-			title: "Iron Man",
-			icon: "mowziesmobs:wrought_helmet",
-			x: 6.0d,
-			y: -4.5d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? They have forgotten what. Are they waiting for something?",
-				"They have forgotten when. Are they mourning someone? They have forgotten whom. All they know is to slay those who approach their chambers. There is only one way to damage a Ferrous Wroughtnaut; its weakness is for you to discover.",
-				"Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut. Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor.",
-				"Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you. Neither tool can break."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;2718],
-			dependency_requirement: "all_completed",
-			id: 2721,
-			tasks: [{
-				id: 2722,
-				type: "kill",
-				icon: "mowziesmobs:wrought_helmet",
-				entity: "mowziesmobs:ferrous_wroughtnaut",
-				value: 1L
-			}],
-			rewards: [
-				{
-					id: 2723,
-					type: "item",
-					item: "minecraft:iron_block"
-				},
-				{
-					id: 2738,
-					type: "item",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 5000
-						}
-					}
-				}
-			]
-		},
-		{
 			title: "Beastiary III",
 			icon: "minecraft:writable_book",
 			x: 3.0d,
@@ -2608,45 +2522,20 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"Mowzie's Mobs brings new unique mobs, and 3 new bosses to the Overworld.",
-				"Barako is the chief of the Barakoa tribe, residing in a stationary seat upon a throne in Barakoa villages. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams.",
-				"He can also create Barakoa followers from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his villages, lest they be smitten by his heliomancy.",
-				"Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents.",
-				"If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay.",
+				"Frostweavers are frost-spiders found in cold biomes. You'll know when you've found them as you'll probably get stuck in their projectile web!",
 				"To access this quest, you must complete 'The Ender Dragon' of Act III."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;288],
 			dependency_requirement: "all_completed",
 			id: 2725,
-			tasks: [
-				{
-					id: 2726,
-					type: "kill",
-					icon: {
-						id: "mowziesmobs:barakoa_mask_fury",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					entity: "mowziesmobs:barako",
-					value: 1L
-				},
-				{
-					id: 2727,
-					type: "kill",
-					icon: {
-						id: "mowziesmobs:ice_crystal",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
-					entity: "mowziesmobs:frostmaw",
-					value: 1L
-				}
-			],
+			tasks: [{
+				id: 2742,
+				type: "kill",
+				icon: "lycanitesmobs:frostweb",
+				entity: "lycanitesmobs:frostweaver",
+				value: 16L
+			}],
 			rewards: [
 				{
 					id: 2731,
@@ -2695,13 +2584,6 @@
 				{
 					id: 2730,
 					type: "kill",
-					icon: {
-						id: "mowziesmobs:spear",
-						Count: 1b,
-						tag: {
-							Damage: 0
-						}
-					},
 					entity: "rotten_creatures:spear_eskimo",
 					value: 3L
 				}

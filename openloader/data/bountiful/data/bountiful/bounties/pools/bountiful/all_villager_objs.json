@@ -129,7 +129,7 @@
         "max": 16
       },
       "unitWorth": 350,
-      "weight": 125,
+      "weight": 100,
       "timeMult": 5.0
     },
     {
@@ -140,7 +140,7 @@
         "max": 6
       },
       "unitWorth": 600,
-      "weight": 75,
+      "weight": 50,
       "timeMult": 4.0
     },
     {
@@ -151,7 +151,7 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 25,
+      "weight": 20,
       "timeMult": 6.0
     },
     {
@@ -162,7 +162,7 @@
         "max": 1
       },
       "unitWorth": 2500,
-      "weight": 25,
+      "weight": 20,
       "timeMult": 6.0
     }
   ]

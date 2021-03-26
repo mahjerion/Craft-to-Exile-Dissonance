@@ -7,7 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Find new bees with the new Productive Bees update!
+- Reduced the weight of non-vanilla mob killing tasks in Bounties.
+
 ### Mod Updates
+- Updated Productive Bees.
 - Added Random Patches again.
 - Removed DEUF (server-only).
 

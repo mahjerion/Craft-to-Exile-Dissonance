@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced the weight of non-vanilla mob killing tasks in Bounties.
 
 ### Mod Updates
-- Updated Productive Bees.
+- Updated Productive Bees, Xaero's.
 - Added Random Patches again.
 - Removed DEUF (server-only).
 

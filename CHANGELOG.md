@@ -8,12 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
-- Welcome Create 0.3.1! New blocks and contraptions to play with!
+- Welcome Create 0.3.1a! New blocks and contraptions to play with!
 - Find new bees with the new Productive Bees update!
 - Reduced the weight of non-vanilla mob killing tasks in Bounties.
+- New community server: Decisive Victory. Thanks for hosting!
 
 ### Mod Updates
-- Updated Productive Bees, Xaero's, When Dungeons Arise, Create.
+- Updated Productive Bees, Xaero's, When Dungeons Arise, Create, JEI.
 - Added Random Patches again.
 - Removed DEUF (server-only).
 

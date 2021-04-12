@@ -10,7 +10,6 @@ mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_quarry_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_rancher_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_hoarder_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_farmer_bee>);
-mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_cartographer_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_creeper_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_cupid_bee>);
 mods.jei.JEI.hideItem(<item:productivebees:spawn_egg_ashy_mining_bee>);

@@ -9,16 +9,24 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
-      "lava"
+      "sky"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether"
-	],
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end",
+      "the_bumblezone:bumblezone",
+      "atum:atum",
+      "midnight:midnight",
+      "goodnightsleep:good_dream",
+      "goodnightsleep:nightmare",
+      "gaiadimension:gaia"
+    ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "all"
     ],
@@ -27,7 +35,7 @@
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
     "spawnGroupMax": 1,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
@@ -36,11 +44,11 @@
   "width": 8.9,
   "height": 8.9,
   "experience": 30,
-  "health": 360,
+  "health": 180,
   "defense": 0,
   "armor": 0,
   "speed": 27,
-  "damage": 6,
+  "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -81,6 +89,12 @@
   "dungeonLevel": 3,
   "drops": [
     {
+      "item": "mmorpg:mmorpg:lootbox/big_gear_lootbox_4",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 7
+    },
+    {
       "item": "minecraft:gunpowder",
       "minAmount": 4,
       "maxAmount": 16,
@@ -118,5 +132,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 2
+  "hitboxScale": 6
 }

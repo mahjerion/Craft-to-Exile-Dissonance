@@ -17,6 +17,9 @@
 	#Log a stack-trace when rendering issues happen within a moving contraption.
 	explainRenderErrors = false
 	#
+	#Use modern OpenGL features to drastically increase performance.
+	experimentalRendering = true
+	#
 	#Show colourful debug information while the F3-Menu is open.
 	enableRainbowDebug = true
 	#
@@ -25,4 +28,24 @@
 	#
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
+
+	#
+	#Ponder settings
+	[client.ponder]
+		#
+		#Slow down a ponder scene whenever there is text on screen.
+		comfyReading = false
+
+	#
+	#Settings for the Placement Assist
+	[client.placementAssist]
+		#
+		#Change the size of the Indicator by this multiplier
+		#Range: 0.0 ~ 3.4028234663852886E38
+		indicatorScale = 1.0
+		#
+		#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
+		#Choose 'NONE' to disable the Indicator altogether
+		#Allowed Values: TEXTURE, TRIANGLE, NONE
+		indicatorType = "TEXTURE"
 

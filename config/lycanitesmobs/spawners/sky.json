@@ -3,29 +3,45 @@
   "type": "spawner",
   "enabled": false,
   "loadDefault": false,
-  "mobCountMin": 2,
-  "ignoreBiomes": false,
-  "ignoreLightLevel": false,
-  "conditions": [],
+  "mobCountMin": 1,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+		"minecraft:overworld",
+		"minecraft:the_nether",
+		"minecraft:the_end",
+		"the_bumblezone:bumblezone",
+		"atum:atum",
+		"midnight:midnight",
+		"goodnightsleep:good_dream",
+		"goodnightsleep:nightmare",
+		"gaiadimension:gaia"
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
   "triggers": [
     {
       "type": "world",
-      "chance": 0.25,
-      "tickRate": 800
+      "chance": 0.1,
+      "tickRate": 1200
     }
   ],
   "locations": [
     {
       "type": "random",
       "rangeMin": [
-        32,
+        24,
         0,
-        32
+        24
       ],
       "rangeMax": [
+        32,
         48,
-        48,
-        48
+        32
       ],
       "sorting": "random",
       "limit": 32,

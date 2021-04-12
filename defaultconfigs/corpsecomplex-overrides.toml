@@ -1,0 +1,6 @@
+[[overrides]]
+  priority = 100
+  conditions = ["fireDamage"]
+[[conditions]]
+  identifier = "fireDamage"
+  damageType = "fire"

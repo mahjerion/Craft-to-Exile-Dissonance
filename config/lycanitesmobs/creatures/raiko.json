@@ -10,9 +10,7 @@
   "enabled": true,
   "spawning": {
     "enabled": false,
-    "spawners": [
-      "sky"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld"

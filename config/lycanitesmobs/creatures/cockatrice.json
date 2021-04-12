@@ -10,18 +10,25 @@
   "enabled": true,
   "spawning": {
     "enabled": false,
-    "spawners": [
-      "sky"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
-    "dimensionIds": [],
+    "dimensionIds": [
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end",
+      "the_bumblezone:bumblezone",
+      "atum:atum",
+      "midnight:midnight",
+      "goodnightsleep:good_dream",
+      "goodnightsleep:nightmare",
+      "gaiadimension:gaia"
+    ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [
-      "jungle",
-      "mountain"
+      "all"
     ],
-    "spawnWeight": 1,
+    "spawnWeight": 2,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
@@ -35,11 +42,11 @@
   "width": 2.8,
   "height": 4.8,
   "experience": 20,
-  "health": 180,
+  "health": 90,
   "defense": 0,
   "armor": 0,
   "speed": 44,
-  "damage": 3,
+  "damage": 2,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -85,6 +92,12 @@
   "dungeonLevel": 1,
   "drops": [
     {
+      "item": "mmorpg:mmorpg:lootbox/big_gear_lootbox_4",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 3
+    },
+    {
       "item": "minecraft:bone",
       "minAmount": 3,
       "maxAmount": 6,
@@ -122,5 +135,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 2
+  "hitboxScale": 4
 }

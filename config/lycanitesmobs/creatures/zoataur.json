@@ -9,29 +9,33 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
-      "monster",
-      "beast"
+      "sky"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:overworld",
+      "minecraft:the_nether",
+      "minecraft:the_end",
+      "the_bumblezone:bumblezone",
+      "atum:atum",
+      "midnight:midnight",
+      "goodnightsleep:good_dream",
+      "goodnightsleep:nightmare",
+      "gaiadimension:gaia"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
-      "wasteland",
-      "mesa",
-      "-snowy",
-      "-cold"
+      "all"
     ],
-    "spawnWeight": 1,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
     "spawnGroupMax": 1,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
@@ -40,11 +44,11 @@
   "width": 2.8,
   "height": 2.8,
   "experience": 20,
-  "health": 220,
+  "health": 110,
   "defense": 0,
   "armor": 0,
   "speed": 36,
-  "damage": 4,
+  "damage": 3,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -89,6 +93,12 @@
   "dungeonLevel": 2,
   "drops": [
     {
+      "item": "mmorpg:mmorpg:lootbox/big_gear_lootbox_4",
+      "minAmount": 1,
+      "maxAmount": 1,
+      "chance": 5
+    },
+    {
       "item": "minecraft:bone",
       "minAmount": 1,
       "maxAmount": 5,
@@ -126,5 +136,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 2
+  "hitboxScale": 6
 }

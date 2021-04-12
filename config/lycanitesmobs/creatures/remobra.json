@@ -10,9 +10,7 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "sky"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:the_end"

@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.4b] - 2021-04-22
+
+### Fixes
+- Hotfix for Mine and Slash bees.
+
 ## [2.9.4] - 2021-04-22
 
 ### Updates

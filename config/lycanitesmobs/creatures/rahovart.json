@@ -104,18 +104,6 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:doomfireballcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:hellfireballcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:demonstone",
       "minAmount": 64,
       "maxAmount": 128,

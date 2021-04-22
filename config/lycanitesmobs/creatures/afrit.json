@@ -95,12 +95,6 @@
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.25
-    },
-    {
-      "item": "lycanitesmobs:scorchfireballcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 0.1
     }
   ],
   "sizeScale": 1,

@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.4] - 2021-04-22
+
 ### Updates
 - Welcome Create 0.3.1a! New blocks and contraptions to play with!
 - Find new bees with the new Productive Bees update!
@@ -14,9 +16,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New community server: Decisive Victory. Thanks for hosting!
 
 ### Mod Updates
-- Updated Productive Bees, Xaero's, When Dungeons Arise, Create, JEI.
+- Updated Productive Bees, Xaero's, When Dungeons Arise, Create, JEI, Xaero's, Nasty Mobs, Mine and Slash.
 - Added Random Patches again.
 - Removed DEUF (server-only).
+
+### Fixes
+- Disabled Lycanites fire charge items.
+- Tidal Wave and Retribution no longer multi-hit (unintended).
 
 ## [2.9.3b] - 2021-03-23
 

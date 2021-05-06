@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.9.5] - 2021-05-06
+
+### Updates
+- Note that I'm aware of the issues with the recent Create update. Unfortunately, it's out of my control. Check out the Create issues tracker on GitHub for up to date news.
+- Updated Meowstard Cat's server info.
+
+### Mod Updates
+- Updated Xaero's, End Reborn, Clumps.
+
 ## [2.9.4b] - 2021-04-22
 
 ### Fixes

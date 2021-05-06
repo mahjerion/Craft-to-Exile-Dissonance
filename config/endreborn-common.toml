@@ -11,7 +11,7 @@
 	quartz_rarity = 4
 	#The End new structures
 	new_structures_end = true
-	#Random model size | If enabled, server logs can warning about enderman spawning
+	#Random model size | If enabled, server logs may warn about endermans spawning
 	enderman_tweaks = false
 	#End Crypt maximum size
 	#Range: 0 ~ 64
@@ -28,7 +28,7 @@
 	#Cracked Purpur and Cracked End Bricks spawn rarity
 	#Range: 0 ~ 64
 	decorator_rarity = 4
-	#Tungsten Ore spawn rarity
-	#Range: 0 ~ 64
+	#End Stone Coral spawn rarity
+	#Range: 0 ~ 32
 	tungsten_rarity = 4
 

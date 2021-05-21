@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated Xaero's.
+
 ## [2.9.5] - 2021-05-06
 
 ### Updates
@@ -14,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated Meowstard Cat's server info.
 
 ### Mod Updates
-- Updated Xaero's, End Reborn, Clumps.
+- Updated Xaero's, End: Reborn, Clumps.
 
 ## [2.9.4b] - 2021-04-22
 

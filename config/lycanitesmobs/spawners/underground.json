@@ -12,6 +12,7 @@
       "dimensionIds": [
         "twilightforest:twilightforest",
         "minecraft:overworld",
+		"overworldmirror:dimension",
         "minecraft:the_nether"
       ],
       "dimensionListType": "blacklist"

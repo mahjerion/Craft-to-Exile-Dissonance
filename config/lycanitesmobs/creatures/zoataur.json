@@ -16,6 +16,7 @@
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld",
+	  "overworldmirror:dimension",
       "minecraft:the_nether",
       "minecraft:the_end",
       "the_bumblezone:bumblezone",

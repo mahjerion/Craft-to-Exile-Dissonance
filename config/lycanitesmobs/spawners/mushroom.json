@@ -12,6 +12,7 @@
       "type": "world",
       "dimensionIds": [
         "minecraft:overworld",
+		"overworldmirror:dimension",
         "twilightforest:twilightforest"
       ],
       "dayTimeMin": 14000

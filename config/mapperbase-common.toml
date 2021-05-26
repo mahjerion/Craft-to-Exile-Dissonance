@@ -19,7 +19,7 @@
 #Biome Blacklist: list here the biomes you do not want bitumen ore to be generated in (syntax: "modid:biome". Examples: "minecraft:plains", "biomesoplenty:meadow"...). Note: you can replace the default values, bitumen ore only generates where stone is. It never generates in the Nether or the End.
 [blacklist]
 	#List of blacklisted biomes for bitumen ore generation
-	bitumenBiomeBlacklist = ["minecraft:overworld"]
+	bitumenBiomeBlacklist = ["minecraft:overworld", "overworldmirror:dimension"]
 	#Set to true to switch bitumen ore blacklist to whitelist mode [true / false]
 	bitumenWhitelist = true
 

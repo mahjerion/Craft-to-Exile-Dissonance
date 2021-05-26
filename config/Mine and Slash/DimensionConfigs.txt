@@ -40,6 +40,25 @@
       "MOB_STRENGTH_MULTIPLIER": 1.0,
       "MOB_HP_MULTIPLIER": 1.0
     },
+    "overworldmirror:dimension": {
+      "USE_SPECIFIC_LVL_1_POSITION": false,
+      "SPECIFIC_LVL_1_POSITION": {
+        "x": 0,
+        "z": 0,
+        "y": 0
+      },
+      "MOB_LEVEL_PER_DISTANCE": 200,
+      "MOB_LEVEL_ONE_AREA": 250,
+      "MAXIMUM_MOB_LEVEL": 30,
+      "MINIMUM_MOB_LEVEL": 1,
+      "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
+      "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": false,
+      "DROPS_UNIQUE_ITEMS": true,
+      "MAP_TIER": 0,
+      "DROP_MULTIPLIER": 1.0,
+      "MOB_STRENGTH_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.0
+    },
     "the_bumblezone:bumblezone": {
       "USE_SPECIFIC_LVL_1_POSITION": false,
       "SPECIFIC_LVL_1_POSITION": {

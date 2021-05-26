@@ -2615,6 +2615,51 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Reflections",
+			icon: "minecraft:white_stained_glass_pane",
+			x: 0.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Rumour has it that there's a mirror of the Overworld...",
+				"Some say you can access it with a 3x3 square of poppies, surrounded by stone bricks...",
+				"They say you can activate the portal with bone meal, but they also say you need to be crouching...",
+				"Note: the Overworld Mirror dimension should be the same as the Overworld. However, you will NOT be able to set up colonies in this dimension!"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;3],
+			dependency_requirement: "all_completed",
+			id: 2743,
+			tasks: [{
+				id: 2744,
+				type: "dimension",
+				dimension: "overworldmirror:dimension"
+			}],
+			rewards: [
+				{
+					id: 2745,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ore",
+						Count: 4b
+					}
+				},
+				{
+					id: 2746,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500
+						}
+					}
+				}
+			]
 		}
 	]
 }

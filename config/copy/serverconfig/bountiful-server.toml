@@ -63,7 +63,7 @@
 	coopKillsCount = true
 	#If coopKillsCount is true, this determines how far a player can be from the mob
 	#or other player for their bounties to also get updated.
-	coopKillDistance = 6.0
+	coopKillDistance = 20.0
 
 [experience_bounties]
 	#If true, XP point bounty rewards will drop where the player is standing.

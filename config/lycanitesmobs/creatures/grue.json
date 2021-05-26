@@ -17,6 +17,7 @@
     "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:overworld",
+	  "overworldmirror:dimension",
       "minecraft:the_nether"
     ],
     "dimensionListType": "blacklist",

@@ -15,7 +15,8 @@
     ],
     "disableSubspecies": true,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:overworld",
+	  "overworldmirror:dimension"
 	],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

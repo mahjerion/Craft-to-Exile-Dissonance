@@ -18,6 +18,7 @@
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld",
+	  "overworldmirror:dimension",
 	  "the_bumblezone:bumblezone",
 	  "goodnightsleep:good_night"
     ],

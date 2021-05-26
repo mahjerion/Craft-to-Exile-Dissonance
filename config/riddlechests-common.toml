@@ -3,8 +3,8 @@
 [general]
 	#How likely is a vanilla loot chest being replaced by a riddle chest?
 	#Range: 0.0 ~ 1.0
-	chestReplaceChance = 0.05
+	chestReplaceChance = 0.025
 	#How many extra characters for each riddle?
 	#Range: 1 ~ 25
-	extraChars = 7
+	extraChars = 6
 

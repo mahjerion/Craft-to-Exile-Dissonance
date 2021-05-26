@@ -7,8 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.0] - 2021-05-27
+
+### Updates
+- New dimension which mimics the Overworld! The main reason I added this mod was so that MineColonies could be kept on the main Overworld, while this world could function as an "adventure" Overworld dimension. Mobs and structures should be the same on both. The travel factor should be 1:1 between this world and the Overworld! The Overworld Mirror is mainly for server longevity, but may still be useful for players in singleplayer worlds. You CANNOT make colonies in the Overworld Mirror dimension.
+- Added a quest to guide players into the Overworld Mirror dimension.
+- This update introduces a few new spells and some balance changes. See below for details!
+- Bountiful co-op range has increased to 20 from 6.
+- Marketplace has been revamped, in general, legendary ores sell for more and the crates are cheaper to purchase.
+- Removed useless enchantments from Dungeon Crawl pool and added some useful ones.
+- Riddle Chests are a bit more rare now and should be slightly easier to solve (less characters per letter).
+- Reduced the health of the Ender Dragon by 25%.
+- The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.
+
+Mine and Slash Updates:
+- New Nature Spell: Rock Slide - a spell that summons a rock barrage on enemies.
+- New Fire Spell: Lava Quake - a cone AoE melee spell.
+- New Hunting Spell: Exert - similar to Imbue, buffs your arrow spells. But instead of adding damage, arrows will explode on contact and do half damage in a small area. This effect CAN stack with Imbue.
+- New Synergy for Rock Slide: Stone Sharpnel - turns Rock Slide into a "storm" spell.
+- New Synergy for Battery Fusilade: Overcharge - projectiles release a small AoE upon hitting an enemy.
+- Dash now propels you twice as fast/far.
+- Lightning Spear mana cost reduced slightly.
+- Fire Ball now travels almost 3x faster and lasts 1 second instead of 3 seconds. It should feel a lot more responsive to use now.
+- Poison Ball now shoots 3 projectiles instead of 1, and travels much slower. I want to give each "ball" spell more identity.
+- Corrosive Shadow, Thought Seize, Mortality Sap, Poison Cloud, Gorgon's Gaze, and Freeze can no longer affect allies.
+- Reduced number of arrows per wave of Arrow Storm.
+- Imbue now provides less of a damage boost.
+- You can now learn Spell Blade 5 mastery levels earlier.
+- You can now learn the Trap spells earlier.
+
 ### Mod Updates
-- Updated Xaero's.
+- Updated Xaero's, Mine and Slash.
+- Added Overworld Mirror.
+
+### Fixes
+- Fixed misleading description for the Ender Dragon quest.
 
 ## [2.9.5] - 2021-05-06
 

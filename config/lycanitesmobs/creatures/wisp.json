@@ -13,7 +13,8 @@
     "spawners": [],
     "disableSubspecies": true,
     "dimensionIds": [
-      "minecraft:overworld"
+      "minecraft:overworld",
+	  "overworldmirror:dimension"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,

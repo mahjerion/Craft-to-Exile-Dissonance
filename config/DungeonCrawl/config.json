@@ -142,12 +142,10 @@
     }
   ],
   "bow_enchantments": [
-    "minecraft:power",
     "minecraft:unbreaking",
     "minecraft:punch"
   ],
   "sword_enchantments": [
-    "minecraft:sharpness",
     "minecraft:unbreaking",
     "minecraft:fire_aspect",
     "minecraft:knockback"
@@ -159,10 +157,9 @@
     "minecraft:efficiency"
   ],
   "armor_enchantments": [
-    "minecraft:protection",
     "minecraft:unbreaking",
     "minecraft:thorns",
-    "minecraft:projectile_protection"
+    "minecraft:fire_protection"
   ],
   "config_version": 0,
   "dungeon_bosses": []

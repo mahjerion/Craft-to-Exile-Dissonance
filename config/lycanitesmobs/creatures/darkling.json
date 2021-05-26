@@ -18,6 +18,7 @@
     "dimensionIds": [
       "minecraft:the_nether",
 	  "minecraft:overworld",
+	  "overworldmirror:dimension",
 	  "the_bumblezone:bumblezone",
 	  "atum:atum"
     ],

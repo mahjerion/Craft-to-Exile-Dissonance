@@ -17,6 +17,7 @@
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:overworld",
+	  "overworldmirror:dimension",
 	  "atum:atum"
     ],
     "dimensionListType": "whitelist",

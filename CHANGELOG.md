@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.\
 - Reduced spawn weight of some Better Animals.
 - Dungeon Crawl dungeons have changed and can include mobs from other mods!
+- Some Nether quests have been made a little easier.
 
 Mine and Slash Updates
 - New Nature Spell: Rock Slide - a spell that summons a rock barrage on enemies.
@@ -39,7 +40,6 @@ Mine and Slash Updates
 - Imbue now provides less of a damage boost.
 - You can now learn Spell Blade 5 mastery levels earlier.
 - You can now learn the Trap spells earlier.
-- Some Nether quests have been made a little easier.
 
 ### Mod Updates
 - Updated Xaero's, Mine and Slash, Areas, Better Animals Plus, Collective, CraftTweaker, Dungeon Crawl, FPS Reducer, GeckoLib, Inventory HUD+, Macaw's Bridges, Macaw's Furniture, MysticalLib, Serene Seasons, Outvoted.

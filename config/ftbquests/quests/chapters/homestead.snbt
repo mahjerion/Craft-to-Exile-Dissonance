@@ -1384,8 +1384,7 @@
 				},
 				{
 					id: 587,
-					type: "item",
-					item: "mcwfurnitures:nightstand"
+					type: "item"
 				},
 				{
 					id: 588,

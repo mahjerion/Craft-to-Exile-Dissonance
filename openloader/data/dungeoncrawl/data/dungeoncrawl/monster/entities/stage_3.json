@@ -1,0 +1,48 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:spider"
+    },
+    {
+      "entity": "minecraft:cave_spider"
+    },
+    {
+      "entity": "minecraft:stray",
+      "weight": 2
+    },
+    {
+      "entity": "betteranimalsplus:feralwolf"
+    },
+    {
+      "entity": "rotten_creatures:eskimo"
+    },
+    {
+      "entity": "rotten_creatures:spear_eskimo"
+    }
+  ],
+  "rare": [
+    {
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "minecraft:enderman"
+    },
+    {
+      "entity": "minecraft:silverfish"
+    },
+    {
+      "entity": "minecraft:wither_skeleton"
+    },
+    {
+      "entity": "outvoted:hunger"
+    }
+  ]
+}

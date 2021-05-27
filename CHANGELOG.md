@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.10.0] - 2021-05-27
+## [2.10.0] - 2021-05-XX
 
 ### Updates
+- NOTE: YOU MAY NEED TO START A NEW WORLD FOR THIS UPDATE. BACK UP YOUR WORLD! DUNGEON CRAWL UPDATE MAY OR MAY NOT BREAK YOUR EXISTING WORLD.
+- NOTE: YOU WILL NEED TO RESET YOUR SPELLS FOR THIS UPDATE. A SPELL RESET POTION SHOULD BE PROVIDED.
 - New dimension which mimics the Overworld! The main reason I added this mod was so that MineColonies could be kept on the main Overworld, while this world could function as an "adventure" Overworld dimension. Mobs and structures should be the same on both. The travel factor should be 1:1 between this world and the Overworld! The Overworld Mirror is mainly for server longevity, but may still be useful for players in singleplayer worlds. You CANNOT make colonies in the Overworld Mirror dimension.
 - Added a quest to guide players into the Overworld Mirror dimension.
 - This update introduces a few new spells and some balance changes. See below for details!
@@ -18,7 +20,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed useless enchantments from Dungeon Crawl pool and added some useful ones.
 - Riddle Chests are a bit more rare now and should be slightly easier to solve (less characters per letter).
 - Reduced the health of the Ender Dragon by 25%.
-- The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.
+- The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.\
+- Reduced spawn weight of some Better Animals.
+- Dungeon Crawl dungeons have changed and can include mobs from other mods!
 
 Mine and Slash Updates:
 - New Nature Spell: Rock Slide - a spell that summons a rock barrage on enemies.
@@ -35,13 +39,17 @@ Mine and Slash Updates:
 - Imbue now provides less of a damage boost.
 - You can now learn Spell Blade 5 mastery levels earlier.
 - You can now learn the Trap spells earlier.
+- Some Nether quests have been made a little easier.
 
 ### Mod Updates
-- Updated Xaero's, Mine and Slash.
+- Updated Xaero's, Mine and Slash, Areas, Better Animals Plus, Collective, CraftTweaker, Dungeon Crawl, FPS Reducer, GeckoLib, Inventory HUD+, Macaw's Bridges, Macaw's Furniture, MysticalLib, Serene Seasons, Outvoted.
 - Added Overworld Mirror.
+- Removed World Pre Generator.
 
 ### Fixes
 - Fixed misleading description for the Ender Dragon quest.
+- Some rare instances of servers hanging should be resolved.
+- Boars no longer breed like mad.
 
 ## [2.9.5] - 2021-05-06
 

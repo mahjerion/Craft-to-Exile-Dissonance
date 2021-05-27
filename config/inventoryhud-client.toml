@@ -1,6 +1,8 @@
 
 #Settings for Inventory HUD
 [inventoryhud]
+	#Hide background if inventory is empty
+	hideBackground = false
 	#Inventory HUD alpha
 	#Range: 0 ~ 100
 	invAlpha = 0
@@ -8,6 +10,8 @@
 	byDefault = false
 	#Inventory HUD vertical mode
 	invVert = false
+	#Animate recently picked up items
+	animatedInv = false
 	#Inventory HUD mini mode
 	invMini = false
 
@@ -15,17 +19,10 @@
 [armorhud]
 	#Show/Hide armor
 	showArmor = true
-	#Show item durability bar
-	armBars = true
 	#Show/Hide armor
 	showOff = true
 	#Is Armor Damage HUD enabled
 	ArmorDamage = true
-	#Hide if durability is above this (in percentage):
-	#Range: 0 ~ 100
-	armAbove = 25
-	#Show/Hide armor
-	showMain = true
 	#Show/Hide armor
 	showInv = false
 	#Armor HUD durability view (PERCENTAGE, DAMAGE, DAMAGE LEFT)
@@ -33,10 +30,22 @@
 	armView = "OFF"
 	#Show/Hide empty slot icon
 	showEmpty = false
-	#Show/Hide armor
-	showArrows = true
 	#Move all items at once or each one
 	moveAll = false
+	#Show overall count of items in main/off hand
+	showCount = false
+	#ArmorHUD scale in persentage from 50 to 150
+	#Range: 50 ~ 150
+	armScale = 100
+	#Show item durability bar
+	armBars = true
+	#Hide if durability is above this (in percentage):
+	#Range: 0 ~ 100
+	armAbove = 25
+	#Show/Hide armor
+	showMain = true
+	#Show/Hide armor
+	showArrows = true
 
 #Settings for Potions HUD
 [potionshud]
@@ -45,6 +54,8 @@
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 1
+	#Potion HUD horizontal mode
+	potHor = false
 	#Potion HUD mini mode
 	potMini = true
 	#Potion HUD alpha

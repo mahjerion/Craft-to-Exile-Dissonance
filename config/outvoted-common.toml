@@ -1,34 +1,4 @@
 
-#Hovering Inferno
-[inferno]
-	#Blue coloration to *both* Blazes and Infernos in Soul Sand Valleys. Disabled by default to keep it vanilla. Does not affect Inferno Helmet textures
-	"Biome Variants" = false
-	#Restrict Infernos to spawn only in Nether Wastes or not
-	"Restrict Spawning" = true
-	#This will affect all Inferno spawns (natural + spawner)
-	"Natural Spawning" = true
-	#Range: 1.0 ~ Infinity
-	"Max Health" = 50.0
-	#Range: 1 ~ 100
-	"Inferno Spawn Weight" = 1
-
-	#Attack Configuration
-	[inferno.attack]
-		#Angle between fireballs in degrees
-		#Range: 1.0 ~ 359.0
-		"Fireball Spacing" = 4.0
-		#Determines whether Inferno Fireball should explode
-		Explode = false
-		#Amount of fireballs per attack
-		#Range: 1 ~ 360
-		"Fireball Count" = 17
-		#Sets Inferno Fireball explosion radius
-		#Range: 0.1 ~ 4.0
-		"Explosion Radius" = 0.5
-		#Maximum downwards angle in degrees inferno can shoot fireballs. Prevents the Inferno from shooting straight down
-		#Range: 1.0 ~ 89.0
-		"Fireball Max Depression" = 50.0
-
 #Great Hunger
 [hunger]
 	#Range: 1 ~ 100
@@ -45,4 +15,34 @@
 	"Natural Spawning" = true
 	#Range: 1.0 ~ Infinity
 	"Max Health" = 40.0
+
+#Wildfire
+[wildfire]
+	#Range: 1 ~ 100
+	"Wildfire Spawn Weight" = 1
+	#Blue coloration to *both* Blazes and Wildfires in Soul Sand Valleys. Disabled by default to keep it vanilla. Does not affect Wildfire Helmet textures
+	"Biome Variants" = false
+	#Restrict Wildfires to spawn only in Nether Wastes or not
+	"Restrict Spawning" = true
+	#This will affect all Wildfire spawns (natural + spawner)
+	"Natural Spawning" = true
+	#Range: 1.0 ~ Infinity
+	"Max Health" = 50.0
+
+	#Attack Configuration
+	[wildfire.attack]
+		#Angle between fireballs in degrees
+		#Range: 1.0 ~ 359.0
+		"Fireball Spacing" = 4.0
+		#Determines whether Wildfire Fireball should explode
+		Explode = false
+		#Amount of fireballs per attack
+		#Range: 1 ~ 360
+		"Fireball Count" = 17
+		#Sets Wildfire Fireball explosion radius
+		#Range: 0.1 ~ 4.0
+		"Explosion Radius" = 0.5
+		#Maximum downwards angle in degrees wildfire can shoot fireballs. Prevents the Wildfire from shooting straight down
+		#Range: 1.0 ~ 89.0
+		"Fireball Max Depression" = 50.0
 

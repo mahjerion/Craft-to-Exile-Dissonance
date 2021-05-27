@@ -32,7 +32,7 @@
 				id: 206,
 				type: "kill",
 				entity: "minecraft:zombie_pigman",
-				value: 8L
+				value: 4L
 			}],
 			rewards: [
 				{
@@ -75,7 +75,7 @@
 				type: "kill",
 				icon: "minecraft:blaze_powder",
 				entity: "minecraft:blaze",
-				value: 10L
+				value: 8L
 			}],
 			rewards: [
 				{
@@ -116,7 +116,7 @@
 				id: 212,
 				type: "item",
 				item: "minecraft:ghast_tear",
-				count: 3L
+				count: 2L
 			}],
 			rewards: [
 				{
@@ -994,7 +994,7 @@
 				type: "kill",
 				icon: "extendednether:strider_spawn_egg",
 				entity: "extendednether:strider",
-				value: 8L
+				value: 4L
 			}],
 			rewards: [
 				{
@@ -1050,7 +1050,7 @@
 				type: "kill",
 				icon: "extendednether:zombified_piglin_spawn_egg",
 				entity: "extendednether:zombified_piglin",
-				value: 16L
+				value: 10L
 			}],
 			rewards: [
 				{

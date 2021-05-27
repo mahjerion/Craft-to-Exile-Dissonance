@@ -1,0 +1,32 @@
+{
+  "common": [
+    {
+      "entity": "minecraft:zombie",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:skeleton",
+      "weight": 2
+    },
+    {
+      "entity": "minecraft:spider"
+    },
+    {
+      "entity": "rotten_creatures:eskimo"
+    },
+    {
+      "entity": "rotten_creatures:spear_eskimo"
+    }
+  ],
+  "rare": [
+    {
+      "entity": "minecraft:creeper"
+    },
+    {
+      "entity": "minecraft:stray"
+    },
+    {
+      "entity": "betteranimalsplus:feralwolf"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.10.0] - 2021-05-XX
+## [2.10.0] - 2021-05-27
 
 ### Updates
 - NOTE: YOU MAY NEED TO START A NEW WORLD FOR THIS UPDATE. BACK UP YOUR WORLD! DUNGEON CRAWL UPDATE MAY OR MAY NOT BREAK YOUR EXISTING WORLD.
@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced spawn weight of some Better Animals.
 - Dungeon Crawl dungeons have changed and can include mobs from other mods!
 
-Mine and Slash Updates:
+Mine and Slash Updates
 - New Nature Spell: Rock Slide - a spell that summons a rock barrage on enemies.
 - New Fire Spell: Lava Quake - a cone AoE melee spell.
 - New Hunting Spell: Exert - similar to Imbue, buffs your arrow spells. But instead of adding damage, arrows will explode on contact and do half damage in a small area. This effect CAN stack with Imbue.
@@ -50,6 +50,7 @@ Mine and Slash Updates:
 - Fixed misleading description for the Ender Dragon quest.
 - Some rare instances of servers hanging should be resolved.
 - Boars no longer breed like mad.
+- Fixed a broken quest in Technology.
 
 ## [2.9.5] - 2021-05-06
 

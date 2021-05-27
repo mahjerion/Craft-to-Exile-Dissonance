@@ -980,7 +980,7 @@
 			tasks: [{
 				id: 1284,
 				type: "item",
-				item: "immersiveengineering:furnace_heater"
+				item: "createaddition:heater"
 			}],
 			rewards: [
 				{

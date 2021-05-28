@@ -1384,7 +1384,8 @@
 				},
 				{
 					id: 587,
-					type: "item"
+					type: "item",
+					item: "mcwfurnitures:oak_nightstand"
 				},
 				{
 					id: 588,

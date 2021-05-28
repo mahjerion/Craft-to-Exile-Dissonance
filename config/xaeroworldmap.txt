@@ -6,7 +6,7 @@ lighting:true
 colours:0
 loadChunks:true
 updateChunks:true
-terrainSlopes:true
+terrainSlopes:2
 terrainDepth:true
 footsteps:true
 flowers:true
@@ -16,4 +16,11 @@ biomeColorsVanillaMode:false
 waypoints:true
 renderArrow:true
 displayZoom:true
+ignoreHeightmaps:false
+worldmapWaypointsScale:1.0
+openMapAnimation:true
+reloadVersion:0
+reloadEverything:false
+zoomButtons:true
+waypointBackgrounds:true
 globalVersion:1

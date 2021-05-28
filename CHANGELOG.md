@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.0b] - 2021-05-28
+
+### Updates
+- Updated default server list.
+
+### Mod Updates
+- Updated CraftPresence, Xaero's Minimap.
+
+### Fixes
+- Fixed a broken Homestead quest due to last Macaw's Furniture update.
+
 ## [2.10.0] - 2021-05-27
 
 ### Updates
@@ -15,13 +26,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New dimension which mimics the Overworld! The main reason I added this mod was so that MineColonies could be kept on the main Overworld, while this world could function as an "adventure" Overworld dimension. Mobs and structures should be the same on both. The travel factor should be 1:1 between this world and the Overworld! The Overworld Mirror is mainly for server longevity, but may still be useful for players in singleplayer worlds. You CANNOT make colonies in the Overworld Mirror dimension.
 - Added a quest to guide players into the Overworld Mirror dimension.
 - This update introduces a few new spells and some balance changes. See below for details!
-- Bountiful co-op range has increased to 20 from 6.
+- Bountiful co-op range has increased to from 6 to 20.
 - Marketplace has been revamped, in general, legendary ores sell for more and the crates are cheaper to purchase.
 - Removed useless enchantments from Dungeon Crawl pool and added some useful ones.
 - Riddle Chests are a bit more rare now and should be slightly easier to solve (less characters per letter).
 - Reduced the health of the Ender Dragon by 25%.
-- The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.\
-- Reduced spawn weight of some Better Animals.
+- The Ender Dragon and Wither can no longer spawn at mythic or legendary and will always spawn as rare.
+- Reduced spawn weight of some Better Animals Plus mobs.
 - Dungeon Crawl dungeons have changed and can include mobs from other mods!
 - Some Nether quests have been made a little easier.
 

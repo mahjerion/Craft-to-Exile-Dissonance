@@ -24,7 +24,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:true
-zoom:2
+zoom:1
 minimapSize:0
 entityAmount:1
 chunkGrid:-1
@@ -54,7 +54,7 @@ showBiome:true
 showEntityHeight:true
 showFlowers:true
 keepWaypointNames:false
-waypointsDistance:1000.0
+waypointsDistanceExp:8
 waypointsDistanceMin:0.0
 waypointTPCommand:/me tried to TP. Shame on them!
 arrowScale:1.0
@@ -95,7 +95,8 @@ alwaysEntityNametags:false
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
-compass:true
+compassLocation:1
+compassScale:1
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
@@ -110,6 +111,10 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
+minimapFrame:0
+minimapFrameColor:9
+compassColor:9
+itemFramesOnRadar:false
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

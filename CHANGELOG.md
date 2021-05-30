@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.0c] - 2021-05-29
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.10.0b] - 2021-05-28
 
 ### Updates

@@ -7,7 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.10.0c] - 2021-05-29
+## [2.10.1] - 2021-05-31
+
+### Updates
+- New Divine Spell: Wish - heal that scales off mana, instantly heals allies around you in a very large AOE.
+- New Divine Spell: Charge - run through enemies and deal damage.
+- New Divine Spell: Defend - apply a short buff on nearby allies, granting a large boost to armor.
+- New Fire Spell: Steam Cloud - emit steam from your body, damaging nearby enemies for a brief duration.
+- New Ocean Spell: Chilling Field - summon a small field of frost, slowly damaging enemies and applying Chilled. This spell scales slowly with your mana value.
+- New Ocean Spell: Magic Burst - deal damage to nearby enemies based on your magic shield.
+- Improved late-game all melee spells significantly.
+- All melee spell attack scaling per level has increased.
+- Many melee spells have had their max level increased.
+- The cooldown of many melee spells has decreased.
+- Heart of Ice synergy now increases heal for all healed rather than just the user.
+- Healing Wave now heals in a cone in front rather than around the user.
+- Lightning Dash now costs MUCH less mana at max level, and has had its cooldown reduced from 4s to 3s.
+- Reduced the mana cost of most Nature spells.
+- Leveling Poison Cloud reduces its cast time more per level.
+- Increased Spear of Judgment damage value.
+- Added swing on arm cast to most spells that were missing it.
+- Area of Effect is now a float rather than int. Before, 2.9 radius was the same as 2.0.
+- Magma Flower heal synergy has been improved.
+- Increased saturation of GUI bar elements.
+- Swapped colour for energy bar and EXP bar.
+- Changed colour of mana and magic shield to keep it more consistent. Magic Shield = Aqua, Mana = Blue.
+- Magic Shield overlay now doesn't completely overlap the health bar. Now you can see how much HP you're losing due to environmental effects (no more random deaths?).
+- Arcane Devotion is now a -95% multi to HP instead of -1000%. Users should be able to "counterplay" environmental effects rather than being killed with no way out.
+- Battery Fusilade's Overcharge synergy now has an AOE of 1, down from 2.
+- Exert now grants arrows with an AOE of 1, down from 2.
+- Reworded Magma Flower synergies.
 
 ### Mod Updates
 - Updated Mine and Slash.

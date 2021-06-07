@@ -7,6 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.2] - 2021-06-07
+
+### Updates
+- I'm aware of the flickering occurring when someone goes into the Overworld Mirror dimension. This is caused by Serene Seasons - basically the seasons are continually skipping while someone is in the Mirror dim. If possible, I'd like to keep both this dimension AND Serene Seasons. A fix is being looked into, please be patient!
+- Players can no longer eat Chorus Fruit in Dim Dungeons.
+- Endermen and Shulkers no longer teleport in Dim Dungeons.
+- Players have been provided with a spell reset potion for the update below.
+
+### Mine and Slash Updates
+- Fixed effects not actually applying to enemies/allies... This whole time buffs and curses didn't even work as intended!!!
+- Damage from allies should no longer affect magic shield!
+- Managed to get the stack effects working again! That means effects like Burn, Thorns, Bleed now have more than a max stack of 1, and stacking the effect will increase the stat and damage effects! Most of the effects have been reworked (and in most cases, buffed).
+- An example of above: Bleed now has a max of 8 stacks, and instead of doing 25% of your phys damage per second, you do 8% per stack for a max of 64% (yes this is also a huge buff).
+- Buff spells now apply to allies only and not enemies. Yeah, I know.
+- Effect levels can now have points put into them starting at level 5. It didn't make sense to be able to Burn enemies at level 5, but the Burn effect itself did nothing till level 10.
+- Defend armor buff has been nerfed by 20%.
+- Frost Shield now has a longer cooldown but also applies Magic Shield Regen.
+- Reduced the power, increased the cooldown of Retribution - especially the early game.
+- Increased number of projectiles at max level for Retribution.
+- Fires of Judgment now gives Purifying Fires a chance to apply Judgment instead of dealing extra damage to targets with Judgment.
+- Holy Retribution now provides extra armor scaling to damage if target has Judgment instead of giving Retribution the chance to apply Judgment.
+- Judgment is now a skillable passive rather than being tied to Spear of Judgment.
+- Judgment now scales alone rather than off of the Spear of Judgment spell.
+- Burn, Thorns are now DOT damage type and not spell damage type.
+- Revamped Spell GUI a bit - colour of text now indicates whether you cannot put points, have points in it, or are receiving + bonus level to spells. Also, unavailable spells no longer have a "red background" and instead have lower saturation.
+- Completely new set of spell icons thanks to Skullbushi! Check out their work here: https://www.instagram.com/skullbushi/
+
+### Mod Updates
+- Updated Mine and Slash, Calemi's Utilities, Dimensional Dungeons, GeckoLib.
+
+### Fixes
+- Create crash has been fixed (probably) when trying to place a sail against a regular block (thanks Calemi).
+- Disabled Create rendering which should fix the shaft crashes.
+
 ## [2.10.1] - 2021-05-31
 
 ### Updates
@@ -70,7 +104,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dungeon Crawl dungeons have changed and can include mobs from other mods!
 - Some Nether quests have been made a little easier.
 
-Mine and Slash Updates
+### Mine and Slash Updates
 - New Nature Spell: Rock Slide - a spell that summons a rock barrage on enemies.
 - New Fire Spell: Lava Quake - a cone AoE melee spell.
 - New Hunting Spell: Exert - similar to Imbue, buffs your arrow spells. But instead of adding damage, arrows will explode on contact and do half damage in a small area. This effect CAN stack with Imbue.

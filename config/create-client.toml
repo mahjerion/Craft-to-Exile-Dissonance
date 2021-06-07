@@ -47,5 +47,5 @@
 		#What indicator should be used when showing where the assisted placement ends up relative to your crosshair
 		#Choose 'NONE' to disable the Indicator altogether
 		#Allowed Values: TEXTURE, TRIANGLE, NONE
-		indicatorType = "TEXTURE"
+		indicatorType = "NONE"
 

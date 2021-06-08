@@ -46,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added a death message for custom_damage.
 - Improved tooltips for some of the conversion stats.
 - Added extra tooltip info for some spells.
+- Added DoT tooltip indicator for DoT effects.
 - Fixed some missing localization.
 
 ### Mod Updates

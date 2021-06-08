@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+##
+
+### Mine and Slash Updates
+- Medium-sized talent tree update: some areas of the tree have been reworked to incorporate FOUR new gamechanger perks, and a new perk type. A lot of the changes are top-right heavy. Some general balance changes have also been made.
+- New Perk/Stat type: Increased Damage over Time Damage - this affects DoT effects ONLY (not spells like Blizzard). Currently, this means Burn, Thorns, Wounds, and Bleed. These perks can be found throughout the tree.
+- New Stat: DoT Lifesteal - steals HP from DoT effects. Before, when effects such as Burn were considered spell damage, it was possible to leech from those effects. This is meant as a replacement, but currently there is only one way to get it (Warlock node).
+- New Gamechanger Node: Ruthless - Increases DoT damage, but reduces spell damage.
+- New Gamechanger Node: Warlock - gives your DoTs a HUGE lifesteal effect and slightly increases DoT damage at the expense of your health and magic shield.
+- New Gamechanger Node: Side Step - provides bonuses to dodge and spell dodge at the expense of armor, magic shield, and block chance.
+- New Gamechanger Node: Power Overwhelming - provides a large bonus to spell damage, but removes chance to crit.
+- Changed percent infusion on the tree to flat infusion.
+- Small buff to weapon damage talent nodes from 5% -> 6%.
+- Small buff to weapon elemental damage talent nodes from 8% -> 12%.
+- Small buff to phys damage talent nodes from 3% -> 8%. This apparently only affects basic attack physical damage. No wonder physical late game was so bad!
+- Changed a lot of the phys damage talent nodes to apply to ALL phys damage.
+- Added a FEW energy regen nodes around the tree. I realized that energy shouldn't be specific to bottom-right as everyone uses it.
+- Collapsed some really large elemental wheels (mostly top of tree) into smaller combined wheels to make space for other effects.
+- New Synergy for Spell Blade: Flame Blade - causes basic attacks to deal AOE fire damage upon hitting an enemy while under the effects of Spell Blade.
+- Spell Blade and Poisoned Weapons have received major buffs.
+- Holy Retribution and Poison Thorn Seeker are now affected by increase spell damage stats.
+- Bleed now deals 25% of your weapon damage per stack, up from 8%! I realized even 64% of weapon damage per second is not very good. Now be rewarded when you apply max stacks. :)
+- Reduced the duration of Bleed from 8s -> 6s.
+- Reduced damage of Burn at max level by about 9%.
+- Increased max stacks of Burn from 4 -> 6.
+- Burn now always ticks every second and does not scale per level.
+- Increased the damage of Thorns by some amount.
+- Increased max stacks of Thorns from 10 -> 12.
+- Thorns now always ticks every 2 seconds and does not scale per level.
+- Increased duration of Thorns and Burn.
+- Wounds now scales with attack damage instead of having a base damage. This should make it actually worthwhile to apply, as 3 stacks are applied at once with Recoil Shot.
+- Wounds now always ticks every second and does not scale per level.
+- Wounds now reduces health regeneration rather than heal power.
+- Battery Fusilade's Overcharge radius increases with level.
+- Fixed Wounds not applying multiple stacks at once.
+- Fixed a bug where Wounds was lasting much longer than it was supposed to.
+- Fixed Bleed mastery not working properly.
+- Added a death message for custom_damage.
+- Improved tooltips for some of the conversion stats.
+- Added extra tooltip info for some spells.
+- Fixed some missing localization.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.10.2] - 2021-06-07
 
 ### Updates

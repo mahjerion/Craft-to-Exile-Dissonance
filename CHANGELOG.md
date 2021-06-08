@@ -7,7 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-##
+## [2.10.3] - 2021-06-08
+
+### Updates
+- Talent and spell reset potions have been provided.
 
 ### Mine and Slash Updates
 - Medium-sized talent tree update: some areas of the tree have been reworked to incorporate FOUR new gamechanger perks, and a new perk type. A lot of the changes are top-right heavy. Some general balance changes have also been made.
@@ -50,7 +53,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed some missing localization.
 
 ### Mod Updates
-- Updated Mine and Slash.
+- Updated Mine and Slash, Xaero's.
 
 ## [2.10.2] - 2021-06-07
 

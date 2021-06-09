@@ -10,6 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.10.3] - 2021-06-08
 
 ### Updates
+- Added 2 new runewords: Last Wish and Delirium, which provide bonuses to the new DoT damage stat.
+- Added 2 new sets: Tancred's Battlegear and Trang-Oul's Avatar, which provide bonuses to the new DoT damage stat.
+- Added a new suffix for rings and necklaces that increases DoT damage.
 - Talent and spell reset potions have been provided.
 
 ### Mine and Slash Updates

@@ -1,0 +1,19 @@
+{
+  "id": "delirium",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.delirium",
+  "runes": [
+    "wor",
+    "ita",
+    "ber"
+  ],
+  "mods": [
+    "plus_thorns_effect_lvl_flat",
+    "high_all_dot_dmg_flat",
+    "low_vitality_flat",
+    "bonus_normal_item_drops_flat"
+  ]
+}

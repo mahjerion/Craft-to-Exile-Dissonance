@@ -1,0 +1,26 @@
+{
+  "id": "of_malice",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.of_malice",
+  "type": "suffix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "ring",
+          "necklace"
+        ]
+      },
+      {
+        "min_level": 25,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": [
+    "all_dot_dmg_flat"
+  ]
+}

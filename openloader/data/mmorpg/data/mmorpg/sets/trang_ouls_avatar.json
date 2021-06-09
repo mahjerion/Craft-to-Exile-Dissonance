@@ -1,0 +1,41 @@
+{
+  "id": "trang_ouls_avatar",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.trang_ouls_avatar",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "cloth_boots",
+          "plate_chest",
+          "plate_boots",
+          "leather_chest",
+          "cloth_helmet",
+          "cloth_pants",
+          "leather_pants",
+          "cloth_chest",
+          "plate_pants",
+          "leather_helmet",
+          "plate_helmet",
+          "torch",
+          "shield"
+        ]
+      },
+      {
+        "min_level": 70,
+        "max_level": 100
+      }
+    ]
+  },
+  "mods": {
+    "2": "nature_penetration_flat",
+    "3": "all_dot_dmg_flat",
+    "4": "high_elemental_resist_flat",
+    "5": "high_mana_regen_flat",
+    "6": "major_all_dot_dmg_flat"
+  }
+}

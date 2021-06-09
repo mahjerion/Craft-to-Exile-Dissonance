@@ -1,0 +1,21 @@
+{
+  "id": "last_wish",
+  "weight": 6666,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "runeword",
+  "lang_file_string": "mmorpg.word.last_wish",
+  "runes": [
+    "xah",
+    "ano",
+    "mos",
+    "oni",
+    "dos"
+  ],
+  "mods": [
+	"physical_damage_percent",
+    "very_high_all_dot_dmg_flat",
+    "dotsteal_flat",
+    "high_armor_penetration_flat"
+  ]
+}

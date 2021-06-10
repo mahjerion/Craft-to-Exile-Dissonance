@@ -7,6 +7,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.4] - 2021-06-XX
+
+### Updates
+- Updated to Forge 31.2.50.
+- Pretty large QoL update for Mine and Slash, with some mechanical changes to how some "attack" spells work! Tons of new builds should arise from this!
+- New quest showcasing the Structure's Compass. It's basically Nature's Compass, but for structures instead of biomes.
+- NEED TO ADD Q for compass + MAGNET, disable all but simple magnet.
+
+### Mine and Slash Updates
+- New damage type: Attack Spells. These can trigger "on-attack" effects such as Poisoned Weapon's synergy, or Frozen/Petrify on-attack effects. They are also still affected by changes to spell damage.
+- Previous spells such as Whirlwind, Martyrdom, Retribution, Tidal Waves, Flame Blitz, etc., are now Attack Spells.
+- All Hunting spells that use arrows are now classified as Attack Spells.
+- Hunting spells that use arrows are now properly physical damage. They can still deal elemental damage with the new "attack spell damage type".
+- Spells that previously scaled off of all attack damage now scale off of physical attack damage only. Elemental attack damage will now apply separately instead of being converted into a single element. This is technically a small nerf late-game as you can't really "double-dip" for spells that converted from all elements -> one element. But should be unchanged early game. Plus, with the new damage type... Melee and Archery got buffed pretty hard late game.
+- Spell tooltips have been revamped to clearly indicate whether something is a Attack Spell, Spell, etc.
+- Spell tooltips now show "tags" to give players a better idea of what to expect from the spell.
+- Poison Cloud now applies more stacks of Thorns per cast.
+- Base value of Thorns effect has been increased.
+- Fixed a bug where Flame Blade gave way more scaling than it was supposed to.
+- Petrify can now be broken with spell hits as well.
+- Cleaned up Judgment effect tooltip.
+- Fixed Battery Fusillade not going on cooldown when canceled.
+- Added right-click-ability to all spells with a low enough cooldown.
+- You can now set movement spells to right click, holding shift to use these were clunky. Stick them on a separate weapon!
+- Added extra tooltip info for spells that can be set as right-click.
+- Cleared up tooltip info regarding spells and attacks.
+- Renamed Fireball to Fire Ball, Tidal Wave to Tidal Waves, and Frostball to Ice Bolt.
+- Renamed the Regenerate effect from Nature's Balm to Soothe to prevent confusion with the regen stat.
+- Soothe now plays a sound and particles on each heal.
+- Mana Battery no longer only takes effect above 25% max mana, and instead always will reduce damage.
+- Mana Battery damage reduction has been reduced from 50% -> 30%.
+- Mana Battery no longer gives -10% Health multi.
+- Mana Battery now gives -60% Armor/Dodge multi, up from -40%.
+- Berserker's Impartiality now gives -25% multi to elemental attack damage, down from -50%.
+- Reckless Blows now gives -30% multi to armor, down from -50%.
+- Refreshing Breeze has been reworked to restore a 10% of your max energy per successful dodge and no longer penalizes you for missing a dodge.
+- Refreshing Breeze now gives -30% Energy Regen multi.
+- Improved Blood Mage tooltip.
+
+### Mod Updates
+- Added Structure's Compass, FancyMenu, Konkrete, Simple Magnets, Mine and Slash.
+
 ## [2.10.3] - 2021-06-08
 
 ### Updates

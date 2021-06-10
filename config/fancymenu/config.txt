@@ -1,5 +1,9 @@
 ##[general]
 
+[Stop vanilla world music when in a customizable menu.]
+B:stopworldmusicwhencustomizable = 'false';
+[If menu background sounds added by FancyMenu should be played when a world is loaded.]
+B:playbackgroundsoundsinworld = 'false';
 [If menu background sounds added by FancyMenu should be played or not.]
 B:playbackgroundsounds = 'true';
 [A minecraft restart is required after changing this value.]
@@ -13,27 +17,27 @@ I:defaultguiscale = '2';
 ##[customization]
 
 B:showcustomizationbuttons = 'false';
-[Maximizes mod compatibility. Disables background customization support for scrollable menu screens. Restart is needed after changing this value.]
-B:softmode = 'false';
-B:legacybuttonids = 'false';
 
 
 ##[mainmenu]
 
 S:copyrightposition = 'bottom-right';
 B:hidebranding = 'true';
+S:copyrightcolor = '#ffffff';
 B:hidelogo = 'true';
-B:showmainmenufooter = 'false';
 B:hiderealmsnotifications = 'true';
 B:hideforgenotifications = 'true';
 
 
 ##[mainmenu_splash]
 
+S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
+I:splashy = '0';
+I:splashx = '0';
 B:hidesplashtext = 'true';
-I:splashoffsetx = '0';
-I:splashoffsety = '0';
+S:splashtextfile = '';
+S:splashorientation = 'original';
 
 
 ##[loading]
@@ -56,5 +60,17 @@ B:customwindowicon = 'true';
 
 ##[layouteditor]
 
+B:editordeleteconfirmation = 'true';
 [If the warning when trying to move an vanilla button without an orientation should be displayed or not.]
 B:showvanillamovewarning = 'true';
+
+
+##[world_loading_screen]
+
+B:showloadingscreenanimation = 'true';
+B:showloadingscreenpercent = 'true';
+
+
+##[ui]
+
+F:uiscale = '1.0';

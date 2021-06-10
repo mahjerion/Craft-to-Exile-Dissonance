@@ -46,15 +46,15 @@ helper.creator.animationnotfound.desc = The animation you want to add does not e
 helper.creator.texttooshort.title = Text too short!
 helper.creator.texttooshort.desc = Your text needs at least one character to be a text!%n%Otherwise..it...would be nothing.%n%%n%Nobody wants to be nothing, so don't do that to your text!
 
-helper.creator.cannotdelete.title = Object can't be deleted!
-helper.creator.cannotdelete.desc = Sorry, but you cannot delete this object.%n%%n%You will need to learn how to live with it..
+helper.creator.cannotdelete.title = Element can't be deleted!
+helper.creator.cannotdelete.desc = Sorry, but you cannot delete this element.%n%%n%You will need to learn how to live with it..
 
 helper.creator.savefile = Do you want to save your layout to a customization file now?
 helper.creator.savefile.keep = Save and keep other layouts enabled
 helper.creator.savefile.disable = Save and disable other layouts
 helper.creator.savefile.cancel = Cancel
 
-helper.creator.layoutoptions.renderorder = Renderorder
+helper.creator.layoutoptions.renderorder = Rendering Order
 helper.creator.layoutoptions.renderorder.background = Background
 helper.creator.layoutoptions.renderorder.foreground = Foreground
 
@@ -76,14 +76,14 @@ helper.creator.close = Do you really want to close the layout creator?
 
 helper.creator.audio.delete = Delete
 helper.creator.audio.delete.msg = Do you really want to delete this audio?
-helper.creator.audio.enableloop = Enable Loop
-helper.creator.audio.disableloop = Disable Loop
+helper.creator.audio.enableloop = Loop: §cOff
+helper.creator.audio.disableloop = Loop: §aOn
 
 helper.creator.add.image = Image
 helper.creator.add.image.path = Image Path
 
 helper.creator.add.animation = Animation
-helper.creator.add.animation.entername = Enter Animation Name
+helper.creator.add.animation.entername = Add By Name
 helper.creator.add.animation.entername.title = Animation Name
 
 helper.creator.add.text = Text
@@ -147,10 +147,8 @@ helper.creator.items.vanillabutton.noorientation.title = Special care required!
 helper.creator.items.vanillabutton.noorientation.desc = §oStandard buttons need some head pats before they listen to you.%n%%n%%n%To §lresize or move §rthem, you have to give them an §lorientation §rfirst!%n%%n%You can do that by §lright-clicking §rthe button.
 
 helper.creator.items.string.setscale = Set Scale
-helper.creator.items.string.setcentered = Set Centered
-helper.creator.items.string.setuncentered = Set Uncentered
-helper.creator.items.string.setshadow = Set Shadow
-helper.creator.items.string.setnoshadow = Set No Shadow
+helper.creator.items.string.setshadow = Shadow: §cOff
+helper.creator.items.string.setnoshadow = Shadow: §aOn
 helper.creator.items.string.edit = Edit Content
 helper.creator.items.string.border.centered = centered
 helper.creator.items.string.border.scale = scale
@@ -158,14 +156,14 @@ helper.creator.items.string.border.scale = scale
 helper.creator.items.string.scale.invalidvalue.title = Invalid Value!
 helper.creator.items.string.scale.invalidvalue.desc = The value you want to set is not a valid scale value!%n%%n%Scale value examples: 1.0, 2.0, 0.5
 
-helper.creator.deleteobject = Do you really want to §lDELETE §rthis object?%n%%n%§lThis action cannot be undone!
+helper.creator.deleteobject = Do you really want to §lDELETE §rthis element?
 
 helper.creator.choosefile.enterorchoose = §lEnter Path Or Choose File
 helper.creator.choosefile.choose = Choose File
 helper.creator.choosefile.notsupported = §cFile chooser not supported or disabled! Please manually enter the path.
 
-helper.creator.webstring.multiline = Set Multilined
-helper.creator.webstring.nomultiline = Set Not Multilined
+helper.creator.webstring.multiline = Multilined: §cOff
+helper.creator.webstring.nomultiline = Multilined: §aOn
 
 helper.creator.web.invalidurl = §c§lInvalid URL!%n%%n%This URL is not a valid URL or does not exists!
 helper.creator.web.enterurl = Enter URL
@@ -326,27 +324,26 @@ helper.creator.object.stretch = Stretch
 helper.creator.object.stretch.x = To Screen Width
 helper.creator.object.stretch.y = To Screen Height
 
-helper.creator.object.stretch.unsupportedorientation = §c§lUnsupported Orientation!%n%%n%%n%The current orientation of this object is not supported by this stretch action.%n%%n%§lSupported Orientations: {}
+helper.creator.object.stretch.unsupportedorientation = §c§lUnsupported Orientation!%n%%n%%n%The current orientation of this element is not supported by this stretch action.%n%%n%§lSupported Orientations: {}
 
 helper.creator.backgroundoptions.backgroundpanorama = Background Panorama
 helper.creator.backgroundoptions.panoramas = Panoramas
-helper.creator.backgroundoptions.panoramas.set = Set
+helper.creator.backgroundoptions.panoramas.set = Set Background
 helper.creator.backgroundoptions.panoramas.set.desc = Sets the selected panorama%n%as active background panorama.
 helper.creator.backgroundoptions.panoramas.clear = Clear
 helper.creator.backgroundoptions.panoramas.clear.desc = Removes the currently%n%active background panorama.
 
-helper.creator.items.button.btndescription = Description
-helper.creator.items.button.btndescription.desc = Button description to display%n%when the button is getting hovered.%n%%n%Use '&n' for a new line.
+helper.creator.items.button.btndescription = Tooltip
+helper.creator.items.button.btndescription.desc = Tooltip to display%n%when the button is getting hovered.%n%%n%Use format code '#n#' for a new line.
 
-helper.buttons.customization.btndesc = Contains useful menu customization tools.
-helper.buttons.customization.onoff.btndesc = Enables or disables customizations%n%for the currently displayed menu.%n%%n%§cThis needs to be enabled for%n%§clayouts to work!
+helper.buttons.customization.onoff.btndesc = Toggle customizations%n%for the current menu.%n%%n%§cThis needs to be enabled for%n%§clayouts to work!
 helper.buttons.customization.menuinfo.btndesc = Displays the §cmenu identifier%n%of the currently displayed menu.%n%%n%You can leftclick the identifier%n%to copy it.
 helper.buttons.customization.buttoninfo.btndesc = Displays useful informations%n%about §cvanilla buttons%n%when hovering them.
 helper.buttons.customization.createlayout.btndesc = Customize the currently displayed%n%menu in a fancy GUI editor!%n%%n%§cIMPORTANT:%n%Should always be used when%n%you want to edit already%n%existing menus!
 helper.buttons.customization.editlayout.btndesc = Edit layouts for the currently%n%displayed menu.
 helper.buttons.customization.creategui.btndesc = Create a new empty GUI%n%and fill it with everything you want!%n%%n%§cIMPORTANT:%n%Should NEVER be used if you%n%just want to edit an existing menu%n%without overriding it completely!%n%%n%To edit a menu, use%n%§oCreate Layout §rinstead!
 helper.buttons.customization.customguis.btndesc = List of all your custom GUIs.%n%%n%This list is empty if you%n%never created a custom GUI.
-helper.buttons.customization.overridewith.btndesc = Override the currently displayed menu%n%with one of your custom GUIs.%n%%n%§cIMPORTANT:%n%Should NEVER be used if you%n%just want to edit an existing menu%n%without overriding it completely!%n%%n%To edit a menu, use%n%§oCreate Layout §rinstead!
+helper.buttons.customization.overridewith.btndesc = Override the current menu%n%with one of your own custom GUIs.%n%%n%§cIMPORTANT:%n%Shouldn't be used if you%n%just want to edit the look%n%of an existing menu.%n%%n%To edit a menu, create%n%a layout instead!
 helper.buttons.customization.closecustomgui.btndesc = Close the currently displayed%n%custom GUI.
 
 helper.buttons.reload.btndesc = Will reload the menu, all layouts,%n%the mod config and more.%n%%n%Useful when manually changing%n%layouts or after editing the config.%n%%n%§cIMPORTANT:%n%This will NOT reload animations!%n%You need to restart your game%n%after adding or editing animations!
@@ -360,6 +357,382 @@ helper.buttons.customization.managelayouts.delete = Delete Layout
 helper.buttons.customization.managelayouts.delete.msg = §c§lAre you sure?%n%%n%%n%Do you really want to §c§ldelete §rthis layout?%n%%n%§c§lThis action cannot be undone!
 helper.buttons.customization.managelayouts.btndesc = Manage all layouts for the%n%currently displayed menu.
 helper.buttons.customization.managelayouts.layout.btndesc = §lLayout Info:%n%%n%Status: {}%n%Customization Actions: {}%n%%n%§cLeftclick for more options!
+
+helper.creator.object.moveup = Move Above
+helper.creator.object.moveup.desc = Moves the element one layer up.%n%%n%§cIMPORTANT:%n%Focused elements are always on top,%n%so you will not see the effect%n%until you unfocus the element.{}
+helper.creator.object.moveup.desc.subtext = %n%%n%§6§lLast Action:%n%Moved above §7{}
+helper.creator.object.movedown = Move Below
+helper.creator.object.movedown.desc = Moves the element one layer down.%n%%n%§cIMPORTANT:%n%Focused elements are always on top,%n%so you will not see the effect%n%until you unfocus the element.{}
+helper.creator.object.movedown.desc.subtext = %n%%n%§6§lLast Action:%n%Moved behind §7{}
+
+helper.buttons.customization.managelayouts.openintexteditor = Open In Text Editor
+helper.buttons.customization.managelayouts.openintexteditor.desc = Opens this layout in%n%your default text editor.%n%%n%§cIMPORTANT:%n%You need to click the "Reload"%n%button, after manually changing%n%things in layout files!
+
+helper.creator.opencloseaudio = Open/Close Sound
+helper.creator.opencloseaudio.desc = Play a sound when the menu is getting%n%opened or closed.
+helper.creator.opencloseaudio.reset.desc = Will reset this sound.
+helper.creator.openaudio = Menu Open Sound
+helper.creator.openaudio.reset = Reset Open Sound
+helper.creator.openaudio.desc = Will play a sound when opening the menu.
+helper.creator.closeaudio = Menu Close Sound
+helper.creator.closeaudio.reset = Reset Close Sound
+helper.creator.closeaudio.desc = Will play a sound when closing the menu.
+
+helper.creator.deleteselectedobjects = Do you really want to §lDELETE §rall selected elements?
+
+helper.creator.multiselect.object.deleteall = Delete All
+helper.creator.multiselect.object.deleteall.btndesc = Will delete all selected elements.
+helper.creator.multiselect.object.stretchall = Stretch All
+helper.creator.multiselect.object.stretchall.btndesc = Stretch all §lstretchable §relements%n%to the menu width or height.
+helper.creator.multiselect.vanillabutton.resetorientation = Reset Orientation
+helper.creator.multiselect.vanillabutton.resetorientation.btndesc = Will reset the orientation%n%for all selected vanilla buttons.
+helper.creator.multiselect.vanillabutton.hideall = Hide All
+helper.creator.multiselect.vanillabutton.hideall.btndesc = Will hide all selected vanilla buttons.
+helper.creator.multiselect.button.buttontexture.btndesc = Set normal and hover textures%n%for all selected buttons.
+helper.creator.multiselect.button.buttontexture.reset.btndesc = Will reset all button textures%n%for all selected buttons.
+helper.creator.multiselect.button.clicksound.btndesc = Will set the clicksound%n%for all selected buttons.
+helper.creator.multiselect.button.clicksound.reset.btndesc = Will reset the clicksound%n%for all selected buttons.
+helper.creator.multiselect.button.hoversound.btndesc = Will set the hoversound%n%for all selected buttons.
+helper.creator.multiselect.button.hoversound.reset.btndesc = Will reset the hoversound%n%for all selected buttons.
+
+helper.creator.add.playerentity = Player Entity
+
+helper.creator.items.playerentity.setscale = Set Scale
+helper.creator.items.playerentity.playername = Player Name
+helper.creator.items.playerentity.playername.auto = Auto
+helper.creator.items.playerentity.playername.setname = Set Name
+helper.creator.items.playerentity.skin = Set Skin
+helper.creator.items.playerentity.cape = Set Cape
+helper.creator.items.playerentity.texture.local = Local Texture
+helper.creator.items.playerentity.texture.url = URL
+helper.creator.items.playerentity.rotation = Rotation
+helper.creator.items.playerentity.rotation.auto = Auto Rotation
+helper.creator.items.playerentity.rotation.custom = Custom Rotation
+helper.creator.items.playerentity.rotation.custom.bodyx = Horizontal Body Rotation
+helper.creator.items.playerentity.rotation.custom.bodyy = Vertical Body Rotation
+helper.creator.items.playerentity.rotation.custom.headx = Horizontal Head Rotation
+helper.creator.items.playerentity.rotation.custom.heady = Vertical Head Rotation
+helper.creator.items.playerentity.showname.off = Show Name: §cOff
+helper.creator.items.playerentity.showname.on = Show Name: §aOn
+helper.creator.items.playerentity.crouching.off = Crouching: §cOff
+helper.creator.items.playerentity.crouching.on = Crouching: §aOn
+helper.creator.items.playerentity.parrot.off = Show Parrot: §cOff
+helper.creator.items.playerentity.parrot.on = Show Parrot: §aOn
+helper.creator.items.playerentity.slim.off = Slim Skin: §cOff
+helper.creator.items.playerentity.slim.on = Slim Skin: §aOn
+
+helper.creator.items.playerentity.setscale.btndesc = Set the scale of the player.
+helper.creator.items.playerentity.playername.btndesc = Set the name of the player.
+helper.creator.items.playerentity.playername.auto.btndesc = Will automatically set the player%n%to the client user.
+helper.creator.items.playerentity.playername.setname.btndesc = Manually set the player name.%n%%n%This doesn't have to be an%n%existing user.
+helper.creator.items.playerentity.skin.btndesc = Set the skin texture of the player.%n%%n%This skin is prioritized over%n%the normal player skin.
+helper.creator.items.playerentity.cape.btndesc = Set the cape texture of the player.%n%%n%This cape is prioritized over%n%the normal player cape.
+helper.creator.items.playerentity.rotation.btndesc = Set the body and head rotation.
+helper.creator.items.playerentity.rotation.auto.btndesc = Player will follow the mouse cursor.
+helper.creator.items.playerentity.rotation.custom.btndesc = Set a custom player rotation.
+helper.creator.items.playerentity.showname.btndesc = Set the player name visibility.
+helper.creator.items.playerentity.crouching.btndesc = Set if the player should crouch or not.
+helper.creator.items.playerentity.parrot.btndesc = ARRR!
+helper.creator.items.playerentity.slim.btndesc = Set if the player should have%n%the slim skin layout.%n%%n%Slim skins have thinner arms.
+
+helper.creator.items.playerentity.texture.invalidtexture.title = Invalid Texture!
+helper.creator.items.playerentity.texture.invalidtexture.desc = This texture either doesn't exist or is not a valid texture file.%n%%n%§lSupported File Types: §rPNG
+
+popup.apply = Apply
+
+helper.creator.items.orientation.btndesc = Sets the origin point from%n%where this elements's position%n%will be calculated.%n%%n%§cNOTE:%n%You can see how an element%n%is affected by its orientation%n%when you resize the editor%n%window after changing the%n%orientation.
+
+helper.creator.add.slideshow = Slideshow
+helper.creator.add.slideshow.entername = Add By Name
+helper.creator.add.slideshow.entername.title = Enter Slideshow Name
+
+helper.creator.backgroundoptions.backgroundslideshow = Background Slideshow
+helper.creator.backgroundoptions.backgroundslideshow.set = Set Background
+helper.creator.backgroundoptions.backgroundslideshow.set.desc = Sets the selected slideshow%n%as active background slideshow.
+helper.creator.backgroundoptions.backgroundslideshow.clear = Clear
+helper.creator.backgroundoptions.backgroundslideshow.clear.desc = Removes the currently%n%active background slideshow.
+
+helper.creator.backgroundoptions.slideshows = Slideshows
+
+helper.creator.slideshownotfound = §c§lSlideshow not found!%n%%n%The entered slideshow does not exist!%n%Maybe a typo in the slideshow name?
+
+helper.creator.sidemenu.settings.btndesc = Layout Editor Settings
+helper.creator.sidemenu.settings.on = §aOn
+helper.creator.sidemenu.settings.off = §cOff
+helper.creator.sidemenu.settings.vanillanotification = Vanilla Button Move Warning
+helper.creator.sidemenu.settings.popupmenuscale = Rightclick Popup Menu Scale
+
+helper.creator.add.shapes = Shape
+helper.creator.add.shapes.rectangle = Rectangle
+
+helper.creator.items.shape.color = Color
+helper.creator.items.shape.color.btndesc = Set the HEX color of the shape.%n%%n%§cNOTE:%n%You can use HEX colors to%n%set the element opacity!
+
+helper.creator.object.movedown.desc.subtext.vanillabutton = %n%%n%§cYou can't move elements behind%n%§cvanilla buttons.%n%%n%Instead, you can set the layout%n%§lrendering order§r to '§lbackground§r'%n%to render all elements behind%n%default menu content like%n%vanilla buttons.%n%%n%§lRightclick §rthe editor background%n%to set the §lrendering order§r!
+
+helper.buttons.tools.misc = Miscellaneous
+helper.buttons.tools.misc.btndesc = Contains more tools and options%n%for menu customizations.
+helper.buttons.tools.misc.openloadingscreen = Open Loading Screen
+helper.buttons.tools.misc.openloadingscreen.btndesc = Will open a "dead" instance of a%n%world loading screen, to be able%n%to customize it.%n%%n%§cNOTE:%n%You can close this menu by%n%clicking the §lOpen Main Menu §rbutton§r.
+helper.buttons.tools.misc.openmainmenu = Open Main Menu
+helper.buttons.tools.misc.openmainmenu.btndesc = Will open the main menu.%n%Useful when stucked in a menu.
+helper.buttons.tools.misc.openmessagescreen = Open Message Screen
+helper.buttons.tools.misc.openmessagescreen.btndesc = Will open an instance of the%n%message screen you see before%n%the world loading screen or when%n%leaving a world, to be able to%n%customize it.%n%%n%§cNOTE:%n%You can close this menu by%n%clicking the §lOpen Main Menu §rbutton§r.
+
+helper.menubar.expand = Expand Menu Bar
+helper.menubar.shrink = Shrink Menu Bar
+helper.menubar.settings = FancyMenu Settings
+
+fancymenu.config = FancyMenu Settings
+
+fancymenu.config.categories.general = GENERAL
+
+fancymenu.config.enablehotkeys = Enable Mod Hotkeys
+fancymenu.config.playmenumusic = Default MC Menu Music
+fancymenu.config.stopworldmusicwhencustomizable = Stop World Music
+fancymenu.config.playbackgroundsounds = Custom Sounds
+fancymenu.config.playbackgroundsoundsinworld = Custom Sounds In World
+fancymenu.config.defaultguiscale = Default GUI Scale
+fancymenu.config.showdebugwarnings = Debug Warnings
+
+fancymenu.config.categories.customization = CUSTOMIZATION
+
+fancymenu.config.showcustomizationbuttons = Customization Controls
+fancymenu.config.softmode = Soft Mode
+
+fancymenu.config.categories.mainmenu = MAIN MENU [GENERAL]
+
+fancymenu.config.hidebranding = Hide Branding
+fancymenu.config.hidelogo = Hide Logo
+fancymenu.config.hiderealmsnotifications = Hide Realms News Icon
+fancymenu.config.showmainmenufooter = Main Menu Footer
+fancymenu.config.hideforgenotifications = Hide Forge Notifications
+fancymenu.config.copyrightposition = Copyright Position
+fancymenu.config.copyrightcolor = Copyright Color
+
+fancymenu.config.categories.world_loading_screen = WORLD LOADING SCREEN
+
+fancymenu.config.showloadingscreenanimation = World Loading Animation
+fancymenu.config.showloadingscreenpercent = World Loading Percent
+
+fancymenu.config.categories.mainmenu_splash = MAIN MENU [SPLASH TEXT]
+
+fancymenu.config.hidesplashtext = Hide Splash Text
+fancymenu.config.splashcolor = Splash Text Color
+fancymenu.config.splashtextfile = Custom Splash Text File
+fancymenu.config.splashorientation = Splash Text Orientation
+fancymenu.config.splashrotation = Splash Text Rotation
+fancymenu.config.splashx = Splash Text X Position
+fancymenu.config.splashy = Splash Text Y Position
+
+fancymenu.config.categories.loading = GAME LOADING
+
+fancymenu.config.gameintroanimation = Game Intro Animation
+fancymenu.config.loadingscreendarkmode = Loading Screen Darkmode
+fancymenu.config.showanimationloadingstatus = Animation Loading Status
+fancymenu.config.allowgameintroskip = Game Intro Skipping
+fancymenu.config.customgameintroskiptext = Game Intro Skip Text
+fancymenu.config.loadinganimationcolor = FM Loading Animation Color
+
+fancymenu.config.categories.minecraftwindow = MINECRAFT WINDOW
+
+fancymenu.config.customwindowtitle = Custom Window Title
+fancymenu.config.customwindowicon = Custom Window Icon
+
+fancymenu.config.categories.layouteditor = LAYOUT EDITOR
+
+fancymenu.config.showvanillamovewarning = Button Move Warning
+fancymenu.config.editordeleteconfirmation = Delete Confirmation
+
+fancymenu.config.categories.ui = FANCYMENU UI
+
+fancymenu.config.uiscale = FancyMenu UI Scale
+
+fancymenu.config.enablehotkeys.desc = If FancyMenu's hotkeys should be enabled or not.%n%A restart is needed after changing this value.
+fancymenu.config.playmenumusic.desc = Enable or disable the default minecraft menu music.
+fancymenu.config.stopworldmusicwhencustomizable.desc = If the vanilla world music should%n%be stopped when opening a customizable menu.
+fancymenu.config.playbackgroundsounds.desc = Enable or disable the custom menu background%n%sounds added with FancyMenu.
+fancymenu.config.playbackgroundsoundsinworld.desc = If menu background sounds added with%n%FancyMenu should be played while%n%a world is loaded (ingame).
+fancymenu.config.defaultguiscale.desc = A default GUI scale that will be set on first launch.%n%Useful for modpacks.%n%Cache data is saved in /mods/fancymenu/.
+fancymenu.config.showdebugwarnings.desc = If FancyMenu should print warnings%n%to the game log.%n%Errors are not affected by this.
+
+fancymenu.config.showcustomizationbuttons.desc = Show FancyMenu's customization controls in menus.%n%This can be toggled by pressing §lCTRL + ALT + C%n%in a normal menu screen.
+fancymenu.config.softmode.desc = Maximizes mod compatibility by%n%disabling background customization support%n%for scrollable menus like the%n%singleplayer and multiplayer menus.
+
+fancymenu.config.hidebranding.desc = Hide the branding text in the%n%bottom-left corner of the main menu.
+fancymenu.config.hidelogo.desc = Hide the default minecraft logo%n%in the main menu.
+fancymenu.config.hiderealmsnotifications.desc = Hide the Realms news icon%n%in the main menu.
+fancymenu.config.showmainmenufooter.desc = Show a footer in the main menu%n%like the "Discover More.." text%n%at the end of Minecraft's YouTube videos.
+fancymenu.config.hideforgenotifications.desc = Hide all Forge notifications like the%n%beta warning or the forge update notification.
+fancymenu.config.copyrightposition.desc = Set the position of the copyright notice.%n%%n%§lAssignable Values:%n%top-left, top-centered, top-right,%n%bottom-left, bottom-centered,%n%bottom-right
+fancymenu.config.copyrightcolor.desc = Set the HEX color of the copyright notice.
+
+fancymenu.config.showloadingscreenanimation.desc = If the loading animation of%n%the world loading screen%n%should be visible.
+fancymenu.config.showloadingscreenpercent.desc = If the loading percent text of%n%the world loading screen%n%should be visible.
+
+fancymenu.config.hidesplashtext.desc = If the splash text should be visible or not.
+fancymenu.config.splashcolor.desc = Set the base color of the splash text.%n%Only HEX values are allowed!
+fancymenu.config.splashtextfile.desc = Set a custom TXT file for splash texts.%n%One splash text per text line.%n%%n%Value is the path to the file.
+fancymenu.config.splashorientation.desc = Set the orientation of the splash text.%n%This is the origin point from%n%where the splash text position%n%is calculated.%n%%n%§lAssignable Values:%n%original, top-left, mid-left,%n%bottom-left, top-centered, mid-centered,%n%bottom-centered, top-right, mid-right,%n%bottom-right
+fancymenu.config.splashrotation.desc = Set the rotation for the splash text.
+fancymenu.config.splashx.desc = Set the horizontal splash text%n%position using its orientation%n%as origin point (X:0 Y:0).
+fancymenu.config.splashy.desc = Set the vertical splash text%n%position using its orientation%n%as origin point (X:0 Y:0).
+
+fancymenu.config.gameintroanimation.desc = Specify an animation by the name you%n%gave the animation in its properties,%n%that should play as intro before%n%you see the main menu for%n%the first time.%n%(Like all the cool games out there)
+fancymenu.config.loadingscreendarkmode.desc = Enable the loadingscreen darkmode.
+fancymenu.config.showanimationloadingstatus.desc = When enabled, the animation loading%n%screen will show detailed%n%information about the loading process.
+fancymenu.config.allowgameintroskip.desc = If the user can skip the%n%game intro by pressing SPACE, or not.
+fancymenu.config.customgameintroskiptext.desc = Set a custom skip text for%n%the game intro animation.
+fancymenu.config.loadinganimationcolor.desc = Set the color of the%n%animation loading screen indicator.%n%This is the animation you see while%n%FancyMenu is loading all%n%animations.
+
+fancymenu.config.customwindowtitle.desc = Specify a custom minecraft window title.
+fancymenu.config.customwindowicon.desc = Enable custom Minecraft window icons.%n%For more informations,%n%take a look at the Wiki:%n%§lfm.keksuccino.de
+
+fancymenu.config.showvanillamovewarning.desc = Enable the warning notification%n%when trying to move an%n%orientation-less vanilla button%n%in the layout editor.
+fancymenu.config.editordeleteconfirmation.desc = If a confirmation popup should%n%be displayed when deleting an element.
+
+fancymenu.config.uiscale.desc = The scale of the FancyMenu customization UI.
+
+helper.ui.dynamicvariabletextfield.variables.desc = §lSession-Specific Values%n%%n%Insert placeholders into the text%n%that will later be replaced with%n%session-specific values like%n%the player name or the MC version.%n%%n%§l§cIMPORTANT:%n%You will see these values as%n%placeholders in the editor and%n%as real values in the actual menu.
+helper.ui.dynamicvariabletextfield.variables.playername = Player Name
+helper.ui.dynamicvariabletextfield.variables.playername.desc = Gets the player name.
+helper.ui.dynamicvariabletextfield.variables.playeruuid = Player UUID
+helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = Gets the player UUID.
+helper.ui.dynamicvariabletextfield.variables.mcversion = Minecraft Version
+helper.ui.dynamicvariabletextfield.variables.mcversion.desc = Gets the Minecraft version.
+helper.ui.dynamicvariabletextfield.variables.forgeversion = Forge Version
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = Gets the Forge version.
+helper.ui.dynamicvariabletextfield.variables.modversion = Mod Version
+helper.ui.dynamicvariabletextfield.variables.modversion.desc = Gets the version of a mod my its mod ID.%n%%n%Just replace '<modid>' in the placeholder%n%with an existing mod ID.
+helper.ui.dynamicvariabletextfield.variables.totalmods = Total Mods Count
+helper.ui.dynamicvariabletextfield.variables.totalmods.desc = Gets the total mods count.%n%This includes disabled mods.
+helper.ui.dynamicvariabletextfield.variables.loadedmods = Active Mods Count
+helper.ui.dynamicvariabletextfield.variables.loadedmods.desc = Gets the active mods count.%n%This doesn't include disabled mods.
+
+helper.creator.items.string.alignment = Alignment
+helper.creator.items.string.alignment.desc = Sets the text alignment.%n%%n%§cUseful when the text width is%n%§cnot always the same, like for%n%§csession-based values.
+helper.creator.items.string.alignment.left = Left
+helper.creator.items.string.alignment.right = Right
+helper.creator.items.string.alignment.centered = Centered
+
+helper.creator.items.string.border.alignment = alignment
+
+helper.creator.custombutton.config.actiontype.runcmd.desc = Runs a CMD/Terminal command. Supports per-OS commands, like in the example.
+helper.creator.custombutton.config.actiontype.runcmd.desc.value = Command
+helper.creator.custombutton.config.actiontype.runcmd.desc.value.example = [windows:start.bat]; [macos:./Start]; [linux:./start.sh];
+
+helper.creator.custombutton.config.actiontype.closegui.desc = Closes the displayed GUI.
+
+helper.ui.current = Current Menu
+helper.ui.current.layouts = Layouts
+helper.ui.current.layouts.desc = Create and manage your layouts for this menu.
+helper.ui.current.layouts.new = New
+helper.ui.current.layouts.new.desc = Create a new layout for this menu.
+helper.ui.current.layouts.manage = Manage Layouts
+helper.ui.current.layouts.manage.desc = Manage your existing layouts for this menu.
+helper.ui.current.layouts.manage.edit = Edit
+helper.ui.current.layouts.manage.edit.desc = Edit this layout in the layout editor.
+helper.ui.current.advanced = Advanced
+helper.ui.current.advanced.desc = Contains tools for advanced users.%n%%n%§c§lWARNING:%n%This stuff can §cbreak things%n%and is not needed in most cases!
+
+helper.ui.customguis = Custom GUIs
+helper.ui.customguis.new = New
+helper.ui.customguis.new.desc = Create an §cempty §rGUI and%n%fill it with things.
+helper.ui.customguis.new.sure = §c§lAre you sure?%n%%n%%n%Do you really want to create a new §lempty §rGUI?%n%%n%§cThis is §lnot §r§cthe same as customizing%n%§can existing menu!%n%%n%If you want to customize an exiting menu,%n%create a §llayout §rinstead.%n% %n% %n%
+helper.ui.customguis.manage = Manage GUIs
+helper.ui.customguis.manage.desc = Manage your existing GUIs.
+
+helper.ui.tools = Tools
+helper.ui.tools.menuinfo.off = Menu Info: §cOff
+helper.ui.tools.menuinfo.on = Menu Info: §aOn
+helper.ui.tools.menuinfo.desc = Show the menu identifier of this menu.%n%%n%You can left-click the identifier%n%to copy it.
+helper.ui.tools.buttoninfo.off = Button Info: §cOff
+helper.ui.tools.buttoninfo.on = Button Info: §aOn
+helper.ui.tools.buttoninfo.desc = Show informations about vanilla buttons%n%when hovering them.%n%%n%Has no effect on custom buttons.
+
+helper.ui.misc = Miscellaneous
+helper.ui.misc.closegui = §cCLOSE MENU
+helper.ui.misc.closegui.desc = Close the current menu.
+helper.ui.misc.openworldloading = Open World Loading Screen
+helper.ui.misc.openworldloading.desc = Will open a dead instance of the%n%world loading screen, to%n%be able to customize it.
+helper.ui.misc.openmessagescreen = Open Message Screen
+helper.ui.misc.openmessagescreen.desc = Will open a dead instance of the%n%message screen, to%n%be able to customize it.%n%%n%This screen is used when%n%joining a server or a singleplayer world.
+
+helper.ui.reload.desc = Reload FancyMenu.%n%%n%§lWill reload:%n%- Panoramas%n%- Slideshows%n%- Mod Config%n%- Layouts%n%%n%§c§lWill NOT reload:%n%- Animations
+
+helper.editor.ui.unsavedwarning = §c§lAre you sure?%n%%n%%n%All unsaved changes for the current layout%n%will get lost!%n% %n% %n%
+
+helper.editor.ui.layout = Layout
+helper.editor.ui.layout.new = New
+helper.editor.ui.layout.open = Open
+helper.editor.ui.layout.save = Save
+helper.editor.ui.layout.saveas = Save As
+helper.editor.ui.layout.saveas.entername = §lEnter Layout Name
+helper.editor.ui.layout.saveas.failed = §c§lSaving Failed!%n%%n%%n%Unsupported layout name or layout already exists!%n% %n% %n%
+helper.editor.ui.layout.properties = Properties
+
+helper.editor.ui.edit = Edit
+helper.editor.ui.edit.undo = Undo
+helper.editor.ui.edit.redo = Redo
+helper.editor.ui.edit.copy = Copy
+helper.editor.ui.edit.paste = Paste
+
+helper.editor.ui.element = Element
+helper.editor.ui.element.new = New
+helper.editor.ui.element.manageaudio = Manage Audios
+helper.editor.ui.element.manageaudio.loop.on = Loop: §aOn
+helper.editor.ui.element.manageaudio.loop.off = Loop: §cOff
+helper.editor.ui.element.deletedvanillabuttons = Deleted Vanilla Buttons
+helper.editor.ui.element.deletedvanillabuttons.entry.desc = Leftclick to undo deletion.
+
+helper.editor.ui.exit = Exit
+helper.editor.ui.exit.desc = Close the editor.
+
+helper.editor.ui.layoutproperties.newelement = New Element
+
+helper.ui.warning = §lWarning!
+helper.ui.warning.unicode = Unicode fonts are not fully supported by the FancyMenu UI!%n%Please consider turning unicode fonts off in the language settings!
+
+helper.creator.error.invalidfile = §c§lError!%n%%n%%n%Invalid or non-existent file!%n% %n% %n% %n%
+
+helper.creator.add.splash = Splash Text
+helper.creator.add.splash.single = Single Splash Text
+helper.creator.add.splash.single.desc = Enter the splash text content.
+helper.creator.add.splash.multi = Multi Splash Text
+helper.creator.add.splash.multi.desc = Choose a text file with splash texts.
+
+helper.creator.items.splash.bounce.on = Bouncing: §aOn
+helper.creator.items.splash.bounce.off = Bouncing: §cOff
+helper.creator.items.splash.refresh.on = Refreshing: §aOn
+helper.creator.items.splash.refresh.off = Refreshing: §cOff
+helper.creator.items.splash.refresh.desc = Pick a new splash everytime the menu%n%is getting reloaded or openend.
+helper.creator.items.splash.basecolor = Base Color
+helper.creator.items.splash.rotation = Rotation
+
+helper.creator.items.delay = Delay Appearance
+helper.creator.items.delay.off = Delay: §cOff
+helper.creator.items.delay.firsttime = Delay: §6First Time
+helper.creator.items.delay.everytime = Delay: §aEverytime
+helper.creator.items.delay.seconds = Set Delay In Seconds
+helper.creator.items.delay.fadein.off = Fade-In: §cOff
+helper.creator.items.delay.fadein.on = Fade-In: §aOn
+helper.creator.items.delay.fadein.speed = Set Fade-In Speed
+
+fancymenu.helper.creator.layoutoptions.randommode.on = Random Mode: §aOn
+fancymenu.helper.creator.layoutoptions.randommode.off = Random Mode: §cOff
+fancymenu.helper.creator.layoutoptions.randommode.btn.desc = Pick a random layout of the same%n%group when the menu gets opened.%n%%n%Can be used to randomize%n%backgrounds and other elements.
+fancymenu.helper.creator.layoutoptions.randommode.setgroup = Set Random Group
+fancymenu.helper.creator.layoutoptions.randommode.setgroup.btn.desc = Set the group of this random layout.%n%One layout per group gets picked%n%when the menu gets opened.
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.on = Randomize Only First Time: §aOn
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.off = Randomize Only First Time: §cOff
+fancymenu.helper.creator.layoutoptions.randommode.onlyfirsttime.btn.desc = If layouts of this random group%n%should be random everytime the%n%menu gets opened or if only one layout%n%should be picked the first time%n%the menu gets opened.
+
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set = Set Background
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.set.desc = Sets the selected animation%n%as active background animation.
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear = Clear
+fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear.desc = Removes the currently%n%active background animation.
+
+
 
 
 

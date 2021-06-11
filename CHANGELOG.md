@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Removed belt Curios slot.
+
 ## [2.10.4] - 2021-06-10
 
 ### Updates
@@ -49,7 +52,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved Blood Mage tooltip.
 
 ### Mod Updates
-- Added Structure's Compass, FancyMenu, Konkrete, Simple Magnets, Mine and Slash.
+- Updated Mine and Slash, FancyMenu, Konkrete.
+- Added Structure's Compass.
+- Added Simple Magnets and its dependencies.
 
 ## [2.10.3] - 2021-06-08
 

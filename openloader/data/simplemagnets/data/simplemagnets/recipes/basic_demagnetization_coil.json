@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "RIR",
+    "III"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:basic_demagnetization_coil"
+  }
+}

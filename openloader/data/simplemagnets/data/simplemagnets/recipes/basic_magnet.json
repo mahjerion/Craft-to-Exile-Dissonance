@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IIL",
+    "IE ",
+    "IIR"
+  ],
+  "key": {
+    "I": {
+      "tag": "forge:plates/iron"
+    },
+    "L": {
+      "tag": "forge:gems/lapis"
+    },
+    "E": {
+      "item": "mmorpg:mat/infused_iron"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:basicmagnet"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGL",
+    "BED",
+    "GGR"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "L": {
+      "tag": "forge:gems/lapis"
+    },
+    "B": {
+      "item": "simplemagnets:basicmagnet"
+    },
+    "E": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:advancedmagnet"
+  }
+}

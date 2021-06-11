@@ -1406,6 +1406,133 @@
 					}
 				}
 			]
+		},
+		{
+			title: "I Can't Reach!",
+			x: 7.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Simple Magnets introduces magnets that can pick up items from further away! You can activate and deactivate them by right-clicking with them in your hand. They don't need to be equipped, they can stay in your inventory!"],
+			min_required_dependencies: 0,
+			dependencies: [I;1231],
+			dependency_requirement: "all_completed",
+			id: 2752,
+			tasks: [{
+				id: 2753,
+				type: "item",
+				item: {
+					id: "simplemagnets:basicmagnet",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2760,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "Using The Force",
+			x: 7.5d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"The Advanced Magnet picks up items and experience within a configurable range!",
+				"Items can be filtered with a whitelist or blacklist."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;2752],
+			dependency_requirement: "all_completed",
+			id: 2754,
+			tasks: [{
+				id: 2755,
+				type: "item",
+				item: {
+					id: "simplemagnets:advancedmagnet",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 2763,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000
+					}
+				}
+			}]
+		},
+		{
+			title: "Power Down",
+			x: 9.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Demagnetization Coil prevents items from being attracted by magnets. Simply place it down and your magnet won't work in that area!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2752],
+			dependency_requirement: "all_completed",
+			id: 2756,
+			tasks: [{
+				id: 2757,
+				type: "item",
+				item: "simplemagnets:basic_demagnetization_coil"
+			}],
+			rewards: [{
+				id: 2761,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 500
+					}
+				}
+			}]
+		},
+		{
+			title: "Advanced Demagnetization",
+			x: 9.0d,
+			y: -3.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["This coil can prevent items from being attracted by magnets at an even further distance. Items can also be filtered. Right-click the device with an empty hand to access the GUI."],
+			min_required_dependencies: 0,
+			dependencies: [I;2756],
+			dependency_requirement: "all_completed",
+			id: 2758,
+			tasks: [{
+				id: 2759,
+				type: "item",
+				item: "simplemagnets:advanced_demagnetization_coil"
+			}],
+			rewards: [{
+				id: 2762,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1000
+					}
+				}
+			}]
 		}
 	]
 }

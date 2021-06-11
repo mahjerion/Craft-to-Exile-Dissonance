@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RGR",
+    "GBG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:plates/gold"
+    },
+    "S": {
+      "item": "mmorpg:mat/crystallized_essence"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "B": {
+      "item": "simplemagnets:basic_demagnetization_coil"
+    }
+  },
+  "result": {
+    "item": "simplemagnets:advanced_demagnetization_coil"
+  }
+}

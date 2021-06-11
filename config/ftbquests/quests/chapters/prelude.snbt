@@ -2392,20 +2392,30 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The nature's compass is a very useful tool to locate biomes. With the addition of so many different biomes, it becomes difficult to randomly come across what you're looking for!"],
+			description: [
+				"The nature's compass is a very useful tool to locate biomes. With the addition of so many different biomes, it becomes difficult to randomly come across what you're looking for!",
+				"Similarly, the structure compass lets you find any structure!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;44],
 			dependency_requirement: "all_completed",
 			id: 2330,
-			tasks: [{
-				id: 2331,
-				type: "item",
-				item: {
-					id: "naturescompass:naturescompass",
-					Count: 1b,
-					tag: {}
+			tasks: [
+				{
+					id: 2331,
+					type: "item",
+					item: {
+						id: "naturescompass:naturescompass",
+						Count: 1b,
+						tag: {}
+					}
+				},
+				{
+					id: 2748,
+					type: "item",
+					item: "structurescompass:structures_compass"
 				}
-			}],
+			],
 			rewards: [{
 				id: 2332,
 				type: "item",

@@ -3,7 +3,7 @@
 	#In what range should the Basic Magnet pickup items and xp?
 	#Requires a world reload
 	#Allowed Range: 1 ~ 20  Default: 5
-	basicMagnetRange = 5
+	basicMagnetRange = 3
 	#What is the minimum range of the Advanced Magnet?
 	#Requires a world reload
 	#Allowed Range: 1 ~ 20  Default: 3
@@ -11,11 +11,11 @@
 	#What is the maximum range of the Advanced Magnet?
 	#Requires a world reload
 	#Allowed Range: 1 ~ 20  Default: 11
-	advancedMagnetMaxRange = 11
+	advancedMagnetMaxRange = 7
 	#In what range should the Advanced Magnet pickup items and xp by default?
 	#Requires a world reload
 	#Allowed Range: 1 ~ 20  Default: 8
-	advancedMagnetRange = 8
+	advancedMagnetRange = 5
 
 	[General."Demagnetization Coils"]
 		#In what range should the Basic Demagnetization Coil demagnetize items by default?

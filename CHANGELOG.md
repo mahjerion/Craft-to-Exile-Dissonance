@@ -12,8 +12,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Updated to Forge 31.2.50.
 - Pretty large QoL update for Mine and Slash, with some mechanical changes to how some "attack" spells work! Tons of new builds should arise from this!
-- Added two new items: Structure's Compass and Simple Magnet. Simple Magnet can pick up items up to 5 blocks away, and Structure's Compass is basically Nature's Compass, but for structures instead of biomes.
-- Simple Magnets are charms and can be equipped with Mine and Slash stats, but are always at common rarity.
+- Added two new items: Structure's Compass and Simple Magnet. Simple Magnet can pick up items up to 3 blocks away, and Structure's Compass is basically Nature's Compass, but for structures instead of biomes.
+- Simple Magnets are charms and can be equipped with Mine and Slash stats, but are always at common or uncommon rarity.
 - New quest in the Prelude showcasing the Structure's Compass. 
 - New 4 new quests in the Technology Tree showcasing the Simple Magnet magnets.
 

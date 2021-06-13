@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.5] - 2021-06-13
+
 ### Updates
 - Had to remove Serene Seasons. It's a shame that it has issues with the Mirror dimension. It was a tough call, but I prioritize the ARPG experience over an enhanced farming experience... Serene Seasons, you will be missed!
 - Replaced the first quest in the Homestead quest line with a new farming-related quest.

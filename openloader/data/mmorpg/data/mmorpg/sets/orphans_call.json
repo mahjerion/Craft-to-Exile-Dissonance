@@ -1,0 +1,30 @@
+{
+  "id": "orphans_call",
+  "weight": 2500,
+  "rarity": 2,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.orphans_call",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "shield",
+          "plate_chest",
+          "plate_boots",
+          "plate_pants",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 50,
+        "max_level": 2147483647
+      }
+    ]
+  },
+  "mods": {
+    "2": "very_high_block_strength_flat",
+    "3": "high_physical_thorns_reflect_flat",
+    "4": "high_health_percent"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "the_protector",
-  "weight": 10000,
-  "rarity": 1,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.the_protector",
@@ -17,11 +17,11 @@
       },
       {
         "min_level": 0,
-        "max_level": 100
+        "max_level": 50
       }
     ]
   },
   "mods": {
-    "2": "block_strength_percent"
+    "2": "block_strength_flat"
   }
 }

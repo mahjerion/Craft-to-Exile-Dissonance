@@ -90,7 +90,7 @@
   "dungeonLevel": 3,
   "drops": [
     {
-      "item": "mmorpg:mmorpg:lootbox/big_gear_lootbox_4",
+      "item": "mmorpg:lootbox/big_gear_lootbox_4",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 7

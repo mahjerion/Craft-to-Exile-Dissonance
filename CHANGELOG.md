@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Had to remove Serene Seasons. It's a shame that it has issues with the Mirror dimension. It was a tough call, but I prioritize the ARPG experience over an enhanced farming experience... Serene Seasons, you will be missed!
+- Replaced the first quest in the Homestead quest line with a new farming-related quest.
+- Added 2 new fruit-related quests in Homestead.
+- New Orphan's Call set: level 50-100, provides high block chance, armor and health.
+- New Naj's Ancient Vestige set: level 70-100, provides + all skills, and Mana Battery as a final set bonus.
+- New The Disciple set: level 15-70, provides elemental resists and + all skills.
+- New Hsarus' Defense set: level 35-70, provides high block chance and armor.
+- New Death's Disguise set: level 10-40, provides high dodge and elemental resists.
+- The Protector set drops from level 1-50 instead 1-100. The Protector now provides flat block strength instead of percent.
+- Sigon's Complete Steel set is now rarer, but is up to 5 pieces instead of 4. It also provides + all skills as a final set bonus.
+- Increased set weights of Immortal King, Mavina's Battle Hymn, Tal Rasha's Wrappings, Trang-Oul's Avatar.
+
+### Mine and Slash Updates
+- Attack Spells now cost energy as well as mana.
+- Divine spells and Hunting arrow spells cost more energy than other attack spells, but now cost less mana as a result.
+- Magic Burst now costs magic shield to cast.
+- Magic Burst now does 25% less damage.
+- Defend now gives less armor but also gives physical reflect.
+- Cold Essence now gives 25% less mana regen per stack than it used to.
+- Mana and mana regen talent nodes give slightly less mana/regen.
+- Magic shield regen talent nodes give more regen.
+- Dodge and armor talent nodes give more dodge/armor.
+- Heal power talent nodes now gives a base of 5%, up from 3%.
+- Mana and mana regen stats have had their values lowered a bit.
+- Energy and energy regen stats have had their values lowered a bit.
+- Slightly increased critical hit flat and percent stats.
+- Slightly increased critical damage percent stats.
+- Fixed Mana Battery tooltip being incorrect.
+- Fixed a bug where Mana Battery was still only applying above 25% of max mana.
+- Changed the sound of out of mana or energy to that of a villager to make it more OBVIOUS you're OOM.
+- Reworded some of the reset potions to make more sense.
+
+### Mod Updates
+- Updated Clumps, Mine and Slash.
+- Removed Serene Seasons.
+
+### Fixes
+- Some rare experience orb related crashes should be resolved.
+- Although they shouldn't be spawning, fixed a crash caused when killing "dragon" mobs - this is mostly for the Oriath Patreon server, but reportedly some players found them rarely.
+- Lycanites bosses can now naturally despawn (hopefully). No more glitchy Amalgalich?
+- Arbitrary crash with tool belts should be fixed.
+- Disabled the Rolling Mill recipe as it's been causing crashes.
+
 ## [2.10.4] - 2021-06-10
 
 ### Updates

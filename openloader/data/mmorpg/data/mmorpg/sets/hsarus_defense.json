@@ -1,0 +1,29 @@
+{
+  "id": "hsarus_defense",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.hsarus_defense",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "shield",
+          "plate_chest",
+          "plate_boots",
+          "plate_pants",
+          "plate_helmet"
+        ]
+      },
+      {
+        "min_level": 35,
+        "max_level": 70
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_block_strength_flat",
+    "3": "major_armor_percent"
+  }
+}

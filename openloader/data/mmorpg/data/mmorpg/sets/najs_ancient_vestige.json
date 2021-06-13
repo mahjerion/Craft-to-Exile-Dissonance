@@ -1,0 +1,37 @@
+{
+  "id": "najs_ancient_vestige",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.najs_ancient_vestige",
+  "requirements": {
+    "list": [
+      {
+        "min_level": 70,
+        "max_level": 2147483647
+      },
+      {
+        "slots": [
+          "leather_boots",
+          "cloth_boots",
+          "plate_chest",
+          "plate_boots",
+          "leather_chest",
+          "cloth_helmet",
+          "cloth_pants",
+          "leather_pants",
+          "cloth_chest",
+          "plate_pants",
+          "leather_helmet",
+          "plate_helmet"
+        ]
+      }
+    ]
+  },
+  "mods": {
+    "2": "plus_all_skill_lvls_flat",
+    "3": "much_less_mana_percent",
+    "4": "mana_battery_trait_flat"
+  }
+}

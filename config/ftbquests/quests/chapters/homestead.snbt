@@ -885,26 +885,31 @@
 			]
 		},
 		{
-			title: "What's The Date?",
+			title: "Farming Time",
 			x: 0.0d,
 			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, Pam's HarvestCraft 2, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable.",
-				"To start off, it's a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the seeds at the optimal time.",
-				"Off-season crops will grow slower than in-season crops - keep this in mind when making your farm!"
-			],
+			description: ["Craft to Exile includes some mods to enhance the farming and cooking experience! Start off by collecting some useful seeds, and start farming!"],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "all_completed",
 			id: 567,
-			tasks: [{
-				id: 568,
-				type: "item",
-				item: "sereneseasons:calendar"
-			}],
+			tasks: [
+				{
+					id: 568,
+					type: "item",
+					item: "minecraft:wheat_seeds",
+					count: 16L
+				},
+				{
+					id: 2764,
+					type: "item",
+					item: "simplefarming:barley_seeds",
+					count: 16L
+				}
+			],
 			rewards: [
 				{
 					id: 915,
@@ -2509,6 +2514,104 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Berry Good",
+			x: 0.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Berry bushes are a fantastic source of food. They're renewable and easy to harvest. Place the bushes down, and right click them to harvest!"],
+			min_required_dependencies: 0,
+			dependencies: [I;567],
+			dependency_requirement: "all_completed",
+			id: 2765,
+			tasks: [
+				{
+					id: 2766,
+					type: "item",
+					item: "simplefarming:strawberry_bush",
+					count: 4L
+				},
+				{
+					id: 2767,
+					type: "item",
+					item: "simplefarming:blueberry_bush",
+					count: 4L
+				}
+			],
+			rewards: [
+				{
+					id: 2768,
+					type: "item",
+					item: "simplefarming:raspberry_bush"
+				},
+				{
+					id: 2769,
+					type: "item",
+					item: "simplefarming:blackberry_bush"
+				},
+				{
+					id: 2770,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 500
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Fruits Grow On Trees",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["You'll find scattered around the world fruit trees. Similar to berry bushes, these trees are a fantastic source of food. They may take longer to get started, but the payoff is well worth the wait!"],
+			min_required_dependencies: 0,
+			dependencies: [I;2765],
+			dependency_requirement: "all_completed",
+			id: 2771,
+			tasks: [
+				{
+					id: 2772,
+					type: "item",
+					item: "tropicraft:orange_sapling"
+				},
+				{
+					id: 2773,
+					type: "item",
+					item: "simplefarming:apple_sapling"
+				},
+				{
+					id: 2774,
+					type: "item",
+					item: "simplefarming:pear_sapling"
+				}
+			],
+			rewards: [
+				{
+					id: 2775,
+					type: "item",
+					item: "simplefarming:mango_sapling"
+				},
+				{
+					id: 2776,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 1000
+						}
+					}
+				}
+			]
 		}
 	]
 }

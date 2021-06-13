@@ -18,3 +18,4 @@ import mods.jei.JEI;
 //mods.jei.JEI.hideItem(<item:mowziesmobs:ice_crystal>);
 //mods.jei.JEI.hideItem(<item:mowziesmobs:blowgun>);
 //mods.jei.JEI.hideItem(<item:mowziesmobs:dart>);
+mods.jei.JEI.hideItem(<item:createaddition:rolling_mill>);

@@ -1,7 +1,7 @@
 {
   "id": "mystical_ornaments",
-  "weight": 250,
-  "rarity": 3,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.mystical_ornaments",

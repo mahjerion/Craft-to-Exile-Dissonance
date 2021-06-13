@@ -9,7 +9,7 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -93,7 +93,7 @@
   "dungeonLevel": 1,
   "drops": [
     {
-      "item": "mmorpg:mmorpg:lootbox/big_gear_lootbox_4",
+      "item": "mmorpg:lootbox/big_gear_lootbox_4",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 3

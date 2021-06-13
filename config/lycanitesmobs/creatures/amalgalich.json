@@ -26,7 +26,7 @@
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,
-    "despawnNatural": false,
+    "despawnNatural": true,
     "despawnForced": false
   },
   "width": 18.0,

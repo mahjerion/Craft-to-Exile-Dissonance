@@ -1,6 +1,6 @@
 {
   "id": "treasure_finder",
-  "weight": 200555,
+  "weight": 10000,
   "rarity": 1,
   "tier": 0,
   "registry": "item_set",

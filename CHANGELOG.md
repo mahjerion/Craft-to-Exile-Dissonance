@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Reduced difficulty and drop rate of Dimensional Dungeons.
+
+### Mod Updates
+- Updated Placebo, YUNG's Better Mineshafts.
+
+### Fixes
+- Disabled Upgrade Aquatic jellyfish spawns.
+- Disabled obsidian spikes in the Nether - prevent issues with Lootr.
+
 ## [2.10.5] - 2021-06-13
 
 ### Updates

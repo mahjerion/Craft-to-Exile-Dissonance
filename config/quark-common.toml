@@ -414,7 +414,7 @@
 	"Spider Nest Underground Biome" = true
 	Crevices = false
 	"Monster Box" = false
-	"Nether Obsidian Spikes" = true
+	"Nether Obsidian Spikes" = false
 	"Mega Caves" = false
 
 	[world.monster_box]

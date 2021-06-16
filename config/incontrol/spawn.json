@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "mob": "upgrade_aquatic:box_jellyfish",
+    "result": "deny"
+  },
+  {
+    "mob": "upgrade_aquatic:cassiopea_jellyfish",
+    "result": "deny"
+  },
+  {
+    "mob": "upgrade_aquatic:immortal_jellyfish",
+    "result": "deny"
+  }
+]

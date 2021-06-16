@@ -264,9 +264,9 @@
       "SCALE_MOB_LEVEL_TO_NEAREST_PLAYER": true,
       "DROPS_UNIQUE_ITEMS": true,
       "MAP_TIER": 5,
-      "DROP_MULTIPLIER": 16.0,
-      "MOB_STRENGTH_MULTIPLIER": 8.0,
-      "MOB_HP_MULTIPLIER": 8.0
+      "DROP_MULTIPLIER": 8.0,
+      "MOB_STRENGTH_MULTIPLIER": 6.0,
+      "MOB_HP_MULTIPLIER": 4.0
     }
   }
 }

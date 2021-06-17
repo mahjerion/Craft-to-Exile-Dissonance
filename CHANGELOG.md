@@ -134,6 +134,7 @@ Divine Spells:
 - Disabled Upgrade Aquatic jellyfish spawns.
 - Disabled obsidian spikes in the Nether.
 - Fixed spawners rarely spawning Lycanites dragons.
+- Disabled Quark reach-around placing. Nice feature but it breaks Maps. Can't have that!
 
 ## [2.10.5] - 2021-06-13
 

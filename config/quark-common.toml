@@ -283,7 +283,7 @@
 	"Dirt To Path" = true
 	"Simple Harvest" = true
 	"Hoe Harvesting" = true
-	"Reacharound Placing" = true
+	"Reacharound Placing" = false
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
 	"Note Block Mob Sounds" = true

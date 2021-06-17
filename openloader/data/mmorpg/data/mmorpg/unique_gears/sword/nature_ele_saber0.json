@@ -12,7 +12,7 @@
   "unique_stats": [
     "high_critical_hit_flat",
     "high_block_strength_percent",
-    "high_nature_spell_to_attack_dmg_percent"
+    "high_nature_spell_to_attack_dmg_flat"
   ],
   "can_get_set": false,
   "requirements": {

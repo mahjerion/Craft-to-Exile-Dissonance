@@ -19,7 +19,7 @@
     ]
   },
   "mods": [
-    "less_health_flat",
+    "less_health_percent",
     "high_luck_flat"
   ]
 }

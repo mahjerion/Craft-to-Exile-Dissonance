@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "energy_regen_flat",
-    "energy_regen_percent"
+    "energy_flat",
+    "low_energy_regen_percent"
   ]
 }

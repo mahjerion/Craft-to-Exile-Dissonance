@@ -22,6 +22,6 @@
     ]
   },
   "mods": [
-    "less_physical_damage_flat"
+    "armor_penetration_flat"
   ]
 }

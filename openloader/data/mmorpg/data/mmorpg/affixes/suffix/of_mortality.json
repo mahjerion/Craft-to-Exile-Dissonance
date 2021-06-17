@@ -33,6 +33,7 @@
     ]
   },
   "mods": [
-    "less_health_flat"
+    "low_mana_percent",
+	"low_energy_percent"
   ]
 }

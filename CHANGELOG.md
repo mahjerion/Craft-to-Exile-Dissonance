@@ -7,15 +7,133 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.6] - 2021-06-17
+
 ### Updates
+- Negative affixes have been reworked and there aren't really any left. Some may have tradeoff stats.
+- In general, most stats no longer have "increased..." and are mostly flat % increases. The increased stat caused a lot of confusion. It still exists, just less commonly. This applies to uniques/sets/runewords too.
+- Flaming Devil set now provides spellsteal instead of lifesteal.
+- Will of Lightning set now provides flat critical hit instead of percent.
 - Reduced difficulty and drop rate of Dimensional Dungeons.
+- Players have been provided with spell and talent reset potions.
+
+### Mine and Slash Updates
+- There's a lot.
+
+General Changes:
+- Salvage Station now only takes 3 seconds per item, instead of 5.
+- Magic shield flat stat has been reduced in effectiveness by about 20%. It is now slightly harder to get magic shield, but by investing in it, you can get even more than previously.
+- Magic shield percent stat has been improved by more than double.
+- Improved item tooltips. You can now see if the item is unsalvagable without holding shift. Unique "lore" text is now a italicized and gray.
+- You can now see what bonuses set items give without needing to equip them. No more "locked" set bonuses, they number now appears red instead, indicating they're not applying.
+- Fixed missing localization for spell costs.
+- Spells that modify attack scaling now display how much they'll modify it by if you hold shift.
+- Cleaned up the Stat Info GUI.
+- I'm slowly trying to phase out "increased" stats as they cause a lot of confusion.
+
+Talent Tree:
+- Blood Mage HP multi has increased from 10% -> 15%.
+- Overflowing Vitality now gives a -10% HP multi instead of 20%.
+- Bleed Mastery now gives -25% to all elemental damage instead of -20%.
+- Fortified Reaction now gives a -20% multi to armor instead of -25% multi to dodge. I believe the multiplier was applying after the conversion, therefore not doing anything.
+- Warlock now gives 20% DoT lifesteal instead of 80%. Yeah I don't really know what I was thinking. I made this before the DoT buffs, okay?
+- Magical Life now gives -20% multi to health instead of -25% multi to magic shield for reasons similar to above. It also now only gives 20% cooldown reduction instead of 25%.
+- Pacifist now gives 30% FLAT heal power instead of multi, and -30% FLAT spell power instead of -90% multi.
+- Reckless Blows now gives 25% FLAT penetration rather than multi. It now gives -30% multi also to dodge and magic shield.
+- Ruthless now gives 40% DoT damage instead of 50%. It also gives -25% spell damage instead of -30%.
+- Steady Hand now gives 20% more damage, down from 25%.
+- Vampire now give a FLAT 6% attack lifesteal and 3% spell lifesteal instead of giving multi. This was a good node but only after investing enough points. I want this to be impactful early game as well.
+- Changed the Talent Tree major elemental weapon damage nodes to big. So that's 60% -> 30%. 60% is crazy.
+- Changed the Talent Tree weapon nodes at the bottom of the tree from big to major.
+- Changed some Talent Tree mana nodes from big to small, and major to big.
+- Increased magic shield and magic shield regen Talent Tree node effectiveness.
+
+Spells:
+- Attack Spell synergies now also increase the energy cost.
+- Spells that can be set as right click on melee weapons can now also be set on staves/wands. These are technically melee..
+- Attack Spells now require a melee weapon to be used. You can no longer cast Flame Blitz with a bow in hand...
+- Fixed a bug where Attack Spells weren't actually triggering on-attack effects.
+- Reworded some tooltips to make more sense.
+
+Ocean Spells:
+- Tidal Wave base value has increased at higher levels.
+- Tidal Wave synergy, Freezing Waves, now correctly applies as spell damage instead of "other" damage. This means increases to spell damage now properly affect it.
+- Frozen base value has been reduced at lower levels slightly, but increased substantially at higher levels.
+
+Fire Spells:
+- Flame Blitz attacks per second has increased.
+- Flame Blitz physical attack scaling has been reduced.
+- Reduced the chance of generating a Burn stack on attack with Flame Blitz slightly at higher levels.
+- Lava Quake and Meteoric Strike have had their physical damage scaling increased greatly, and their base values decreased.
+- Meteoric Strike's synergy, Fiery Combustion, now scales with physical damage rather than having a base value.
+- Draconic Blood and Vampiric Blood spells now provide more lifesteal/spell lifesteal per point.
+- Magma Flower heal now shows particles.
+
+Storm Spells:
+- New Critical Surge Synergy: Voltaic Blast - while under the effects of Critical Surge, your critical hits have a chance to cause the target to send out a lightning nova.
+- New Power Surge Synergy: Stray Currents - while under the effects of Power Surge, your hits have a chance of summoning lightning bolts on the enemy.
+- Yes, the above can trigger themselves.
+- Critical Surge no longer reduces elemental damage.
+- Power Surge no longer reduces critical hit chance.
+- Power Surge now gives lightning attack damage instead of "elemental".
+- Battery Fusillade projectiles per cast now scales at a lower rate per level (less projectiles by max level) by 25%.
+- Battery Fusillade mana scaling has increased slightly at lower levels, but increased at higher levels.
+- Battery Fusillade costs less mana at lower levels.
+- Battery Fusillade now has an increased firing rate (more bursty).
+- Battery Fusillade's cooldown has been reduced by a flat 3s.
+- Battery Fusillade synergy, Overcharge, now requires the user to have at least a stack of Lightning Essence.
+- Overcharge now adds more mana required per level.
+- Overcharge now scales with mana at a higher rate.
+- Overcharge now has increased AOE per level, up to 50% at max.
+- Overcharge now has a chance to create an AOE rather than always creating an AOE.
+- Charged Nova has been renamed Charged Sweep.
+- Charged Sweep is now an Attack Spell.
+- Charged Sweep has had a small rework. It now gains less AOE per level, casts instantly instead of being a channel, and has a much lower cooldown.
+- Charged Sweep base value has increased.
+- Charged Sweep synergy, Static Discharge, now grants a much higher chance of applying Static stacks.
+- Lightning Spear now has a lower base value at low levels, but a higher base value at max level.
+- Lightning Spear synergy, Spear Lightning, has been renamed to Galvanic Arc.
+- Lightning Spear synergy, Spear Lightning Essence, has been renamed to Electric Prowess.
+- Galvanic Arc now does 20% less damage at max level.
+- Galvanic Arc now correctly applies as spell damage instead of "other" damage. This means increases to spell damage now properly affect it.
+
+Nature Spells:
+- Poison Ball and its synergy, Plague Ball, are now pluralized.
+- Poison Balls now has a lower base value at low levels.
+- Poison Balls now has higher physical attack scaling.
+- Poisoned Weapons now gives a little more nature attack damage.
+- Thorn Armor synergy, Thorny Armor, has been renamed to Spiked Armor.
+- Thorn Bush synergy, Thorn Damage, has been renamed to Creeping Vines.
+- Creeping Vines now correctly applies as spell damage instead of "other" damage. This means increases to spell damage now properly affect it.
+
+Hunting Spells:
+- New Arrow Barrage Synergy: Serrated Tips - adds a chance to apply wounds.
+- All Hunting arrow spells now have no base value. They now only scale off of physical weapon damage.
+- Hunting Potion no longer has a base value and scales purely off health.
+- Hunting Potion cooldown now reduces at double the rate per level.
+- Arrow Barrage physical attack scaling has been reduced.
+- Arrow Barrage, Wide Shot, and Recoil Shot projectile speed has changed to a static amount rather than increasing per level. This is a buff for earlier levels but a 'nerf' for later levels.
+- Wide Shot has a much higher physical scaling value now, but increases at a slower rate with each level.
+- Wide Shot max projectile count has been reduced from 9 to 7 at max level.
+- Recoil Shot physical scaling value has increased slightly.
+- Arrow Storm physical scaling value has reduced slightly at lower levels.
+- Cluster Traps reduces Blast Trap damage by a flat 100% scaling instead of 50%. That means with Cluster Traps, Blast Trap at level 1 now has 150% scaling instead of 200%.
+
+Divine Spells:
+- Martyrdom health attack scaling has increased by 9% at max level.
+- Purifying Fires physical attack scaling has increased.
+- Whirlwind physical attack scaling has increased substantially.
+- Whirlwind synergy, Piercing Winds, has been reworked and now reduces cooldown at the cost of damage, instead of increasing damage at the cost of radius.
+- Divine heal spells now play a more noticeable sound on heal.
+- Fixed a bug where Whirlwind's Piercing Winds was not correctly modifying the attack scaling value.
 
 ### Mod Updates
-- Updated Placebo, YUNG's Better Mineshafts.
+- Updated Placebo, YUNG's Better Mineshafts, Mine and Slash.
 
 ### Fixes
 - Disabled Upgrade Aquatic jellyfish spawns.
-- Disabled obsidian spikes in the Nether - prevent issues with Lootr.
+- Disabled obsidian spikes in the Nether.
+- Fixed spawners rarely spawning Lycanites dragons.
 
 ## [2.10.5] - 2021-06-13
 

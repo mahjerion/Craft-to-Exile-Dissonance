@@ -19,7 +19,7 @@
     ]
   },
   "mods": [
-    "less_health_percent",
+    "very_low_health_percent",
     "mana_cost_red_flat"
   ]
 }

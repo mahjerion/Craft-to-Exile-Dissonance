@@ -7,9 +7,9 @@
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelZoataur",
   "loadDefault": false,
-  "enabled": true,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "sky"
     ],

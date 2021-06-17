@@ -16,7 +16,7 @@
     ]
   },
   "mods": [
-    "less_health_flat",
+    "less_health_percent",
     "luck_flat"
   ]
 }

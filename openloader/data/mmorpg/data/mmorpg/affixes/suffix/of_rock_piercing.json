@@ -26,7 +26,6 @@
   },
   "mods": [
     "armor_penetration_flat",
-    "physical_damage_percent",
-    "armor_penetration_flat"
+    "physical_damage_percent"
   ]
 }

@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "mana_regen_flat",
-    "mana_regen_percent"
+    "mana_flat",
+    "low_mana_regen_percent"
   ]
 }

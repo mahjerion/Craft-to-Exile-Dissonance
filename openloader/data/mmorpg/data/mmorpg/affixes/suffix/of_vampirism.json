@@ -22,7 +22,6 @@
   },
   "mods": [
     "lifesteal_flat",
-    "life_on_hit_flat",
-    "lifesteal_percent"
+    "life_on_hit_flat"
   ]
 }

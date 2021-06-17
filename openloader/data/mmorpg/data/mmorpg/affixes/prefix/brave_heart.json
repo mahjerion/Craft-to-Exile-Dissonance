@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "health_regen_flat",
-    "health_regen_percent"
+	"health_flat",
+    "low_health_regen_percent"
   ]
 }

@@ -12,7 +12,7 @@
   ],
   "unique_stats": [
     "crippled_critical_damage_percent",
-    "crippled_lifesteal_percent",
+    "crippled_lifesteal_flat",
     "crippled_mana_on_hit_flat"
   ],
   "can_get_set": false,

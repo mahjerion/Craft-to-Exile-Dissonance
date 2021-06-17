@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "spell_damage_percent",
+    "low_spell_damage_flat",
     "intelligence_flat"
   ]
 }

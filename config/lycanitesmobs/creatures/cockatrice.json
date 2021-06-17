@@ -7,9 +7,9 @@
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCockatrice",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCockatrice",
   "loadDefault": false,
-  "enabled": true,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [

@@ -33,7 +33,7 @@
     ]
   },
   "mods": [
-    "less_health_flat",
+    "less_health_percent",
     "high_magic_shield_percent"
   ]
 }

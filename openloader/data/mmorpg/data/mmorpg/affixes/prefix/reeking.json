@@ -29,7 +29,8 @@
     ]
   },
   "mods": [
-    "less_mana_regen_flat",
-    "less_energy_flat"
+    "tiny_dodge_flat",
+    "tiny_armor_flat",
+	"tiny_magic_shield_flat"
   ]
 }

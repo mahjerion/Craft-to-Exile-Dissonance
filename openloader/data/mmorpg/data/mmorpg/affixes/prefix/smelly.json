@@ -29,6 +29,7 @@
     ]
   },
   "mods": [
-    "less_mana_regen_flat"
+	"less_health_regen_percent",
+    "dodge_percent"
   ]
 }

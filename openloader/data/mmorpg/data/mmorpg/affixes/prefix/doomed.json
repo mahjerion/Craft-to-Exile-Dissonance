@@ -19,6 +19,8 @@
     ]
   },
   "mods": [
-    "double_less_faster_cast_rate_flat"
+    "less_faster_cast_rate_flat",
+    "critical_hit_flat",
+    "critical_damage_flat"
   ]
 }

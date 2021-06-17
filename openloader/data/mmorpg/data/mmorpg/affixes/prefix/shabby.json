@@ -29,6 +29,7 @@
     ]
   },
   "mods": [
-    "less_armor_flat"
+    "less_armor_flat",
+	"mana_percent"
   ]
 }

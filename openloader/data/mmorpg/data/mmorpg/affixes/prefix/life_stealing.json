@@ -22,6 +22,6 @@
     ]
   },
   "mods": [
-    "low_lifesteal_percent"
+    "low_lifesteal_flat"
   ]
 }

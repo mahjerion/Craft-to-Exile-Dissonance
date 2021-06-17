@@ -22,7 +22,7 @@
     ]
   },
   "mods": [
-    "much_less_energy_regen_flat",
+    "less_energy_regen_percent",
     "very_high_physical_damage_percent"
   ]
 }

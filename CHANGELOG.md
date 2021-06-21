@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Added Limited Chunkloading - this should improve performance on large servers slightly. But I'm also not sure if this will be safe to use (testing).
+- Added Out Of Sight - should improve framerates when near giant modded factories. It basically stops tile entities from rendering if they're further than a configured distance.
+
+### Updates
+- Disabled Apotheosis life mending curse.
+
 ## [2.10.6] - 2021-06-17
 
 ### Updates

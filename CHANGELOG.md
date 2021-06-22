@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Disabled Apotheosis life mending curse.
+- Fixed the fruit tree quest requiring the wrong orange sapling.
 
 ## [2.10.6] - 2021-06-17
 

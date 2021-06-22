@@ -2579,11 +2579,6 @@
 			id: 2771,
 			tasks: [
 				{
-					id: 2772,
-					type: "item",
-					item: "tropicraft:orange_sapling"
-				},
-				{
 					id: 2773,
 					type: "item",
 					item: "simplefarming:apple_sapling"
@@ -2592,6 +2587,11 @@
 					id: 2774,
 					type: "item",
 					item: "simplefarming:pear_sapling"
+				},
+				{
+					id: 2777,
+					type: "item",
+					item: "simplefarming:orange_sapling"
 				}
 			],
 			rewards: [

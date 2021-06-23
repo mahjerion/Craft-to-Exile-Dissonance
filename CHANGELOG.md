@@ -7,7 +7,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Decreased the chance of finding loot crates in Bountiful boards.
+- Bountiful loot crate rewards now require more (and difficult) tasks before they start appearing.
+
+### Mine and Slash Updates
+Stat Changes:
+- Stat changes below are to encourage users to pour into other stats instead of just a single stat. Also, some changes, such as moving mana/magic shield regen to wisdom were made to make putting stats into wisdom feel less "bad" when not going for magic shield. You'll notice I basically shifted things around.
+- Vit (before): health, health regen --> (after) health, armor
+- Strength (before): physical damage, armor --> (after) physical damage, critical damage
+- Intelligence (before): elemental spell damage, mana, mana regen --> (after) elemental spell damage, magic shield, mana
+- Wisdom (before): magic shield, magic shield regen --> (after) heal power, magic shield regen, mana regen
+- Dexterity (before): critical hit chance, critical hit damage, dodge --> (after) dodge, critical hit chance, armor pen.
+- Stamina (before): health, energy, energy regen --> (after) health regen, energy, energy regen
+- Vitality gives 25% less armor than what strength used to give.
+- Strength now gives 33% more physical damage percent than it did before.
+- 2 new stats: armor pen. and heal power have been introduced to the core stats.
+
+Map Changes:
+- Added 3 new rooms to the map pools. One for each of the following: Nature map, Ice Temple map, Sewers map.
+- Maybe added 1 secret new room to ALL map pools...
+- Map affix pool has more than doubled, maps are probably going to be harder.
+- Maps now give bonus EXP in addition to bonus loot.
+- Painful Truths has been reworked to halve bonus loot and quadruple bonus EXP instead of shifting bonus loot to bonus EXP.
+- Map reward structure has been reworked. Before, bonus EXP/loot was mostly dependent on # of affixes. Now, different affixes affect the EXP/loot bonus differently.
+- Less weapon damage map affixes has been removed.
+- Increased mob density in maps by approximately 50%.
+- Added some variability to mob spawn amounts.
+- Brightened up a bunch of the map rooms that were too dark.
+- Fixed some mobs/chests not spawning properly in maps.
+- Made it harder to fall into lava on some maps.
+- Chests now do not always spawn in maps (but there are more chest locations). This only does not apply to the scrabble chests.
+
+Other Changes:
+- Vampire perk now gives some multi again.
+- Energy regen stat has been buffed slightly.
+- Tooltip improvement for dodge/spell dodge.
+
 ### Mod Updates
+- Updated Mine and Slash, FPS Reducer.
 - Added Limited Chunkloading - this should improve performance on large servers slightly. But I'm also not sure if this will be safe to use (testing).
 - Added Out Of Sight - should improve framerates when near giant modded factories. It basically stops tile entities from rendering if they're further than a configured distance.
 

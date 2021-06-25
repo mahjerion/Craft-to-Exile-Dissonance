@@ -48,7 +48,6 @@ Other Changes:
 
 ### Mod Updates
 - Updated Mine and Slash, FPS Reducer.
-- Added Limited Chunkloading - this should improve performance on large servers slightly. But I'm also not sure if this will be safe to use (testing).
 - Added Out Of Sight - should improve framerates when near giant modded factories. It basically stops tile entities from rendering if they're further than a configured distance.
 
 ### Fixes

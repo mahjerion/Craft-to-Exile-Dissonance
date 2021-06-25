@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.10.7] - 2021-06-25
+
 ### Updates
 - Decreased the chance of finding loot crates in Bountiful boards.
 - Bountiful loot crate rewards now require more (and difficult) tasks before they start appearing.
@@ -49,9 +51,10 @@ Other Changes:
 - Added Limited Chunkloading - this should improve performance on large servers slightly. But I'm also not sure if this will be safe to use (testing).
 - Added Out Of Sight - should improve framerates when near giant modded factories. It basically stops tile entities from rendering if they're further than a configured distance.
 
-### Updates
+### Fixes
 - Disabled Apotheosis life mending curse.
 - Fixed the fruit tree quest requiring the wrong orange sapling.
+- Fixed Zoataur's causing crashes in dungeons.
 
 ## [2.10.6] - 2021-06-17
 

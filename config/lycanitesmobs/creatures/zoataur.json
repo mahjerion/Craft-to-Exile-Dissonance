@@ -7,7 +7,7 @@
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelZoataur",
   "loadDefault": false,
-  "enabled": false,
+  "enabled": true,
   "spawning": {
     "enabled": false,
     "spawners": [
@@ -32,7 +32,7 @@
       "all"
     ],
     "spawnWeight": 2,
-    "dungeonWeight": 200,
+    "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
     "spawnGroupMax": 1,

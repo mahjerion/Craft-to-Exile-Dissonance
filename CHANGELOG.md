@@ -7,6 +7,79 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.11.0] - 2021-XX-XX
+
+### Updates
+- Reworked Trang-Oul's Avatar set to give health regen instead of mana regen, more DoT damage on the 2nd set bonus, and a lot of summon damage as the last bonus instead of DoT damage.
+- New Set: Infernal Tools - a 3-piece common low-level DoT and summon damage set.
+- Lidless Wall and Rathpith Globe are now orbs instead of torches.
+- Players have been provided with spell and talent reset potions.
+
+### Mine and Slash Updated
+NEW MASTERYYYYY:
+- Unholy Mastery - a new spell tree which focuses on "undead" and "hellish" abilities. Most of these abilities will also use % HP to cast.
+- Passive Effect: Cripple - slows enemies and deals Frost DoT.
+- Passive Effect: Necrotic Tether - increases HP regen and summon damage per stack, up to 20 stacks.
+- New spells are listed below with their levels, and synergies right below them.
+- Lv. 1 Attack Spell: Chilling Touch - deal cold damage to enemies directly in front of the user.
+- Synergy: Cripping Touch - gives Chilling Touch a chance to apply Cripple effect.
+- Lv. 1 Spell: Unholy Meditation - channel to heal HP and recover mana over a few seconds.
+- Lv. 5 Spell: Summon Zombie - summon a zombie that follows you and aids you in combat. Higher levels reduce cooldown and increase duration, and subsequently let you have more zombies at once.
+- Synergy: Frost Implants - zombie hits have a chance of applying Cripple effect.
+- Synergy 2: Minion Mastery - zombie hits heal the user.
+- Lv. 5 Attack Spell: Animate Scythe - conjure a scythe that hits enemies in front of you twice. This attack spell scales off your HP.
+- Synergy: Necrotic Scythe - hits have a chance to give the user a stack of Necrotic Tether effect.
+- Lv. 10 Spell: Blight - places Blight effect - a devastating Nature DoT on enemies on front of you.
+- Lv. 10 Spell: Spirit Shroud - long-lasting buff allies and user that provides them with Magic Shield.
+- Lv. 20 Spell: Life Siphon - sends out 3 quick projectiles which upon hitting the enemy, heal the caster.
+- Synergy: Essence Siphon - projectiles also recover magic shield.
+- Lv. 20 Spell: Blood Tether - gives the user an increasing amount of Necrotic Tether stacks based on the spell's level.
+- Lv. 20 Spell: Flesh & Mind Sacrifice - grants a buff to the user that reduces HP and Magic Shield, but increases Spell Damage, Critical Hit, and Critical Damage by a large amount.
+- Lv. 30 Spell: Malevolent Offering - channel and sacrifice your own HP to heal nearby allies porportionate to the amount sacrificed. Does not heal the caster.
+- Synergy: Shrewd Offering - also recovers Magic Shield.
+- Lv. 30 Spell: Soul Shred - applies Soul Shred effect - a weak physical DoT on enemies that reduces armor. Enemies with the effect take extra physical damage from attacks (includes summon hits).
+- Lv. 40 Spell: Hellfire Cloak - generate a hellish fire storm that follows you and deals damage to enemies in your wake.
+- Lv. 40 Attack Spell: Bone Squall - Hit nearby enemies rapidly. Deals physical damage and has a relatively low cooldown. This attack spell scales off HP.
+- Lv. 50 Spell: Summon Skeletal Army - channel and summon many skeletons at once. These skeletons last a short duration but pack a punch.
+
+Stats:
+- New damage type: Summon Attack Damage - can trigger on-attack effects.
+- New Stat: Summon Damage - increases the damage of summons.
+- Conversion stats now apply the stat with percent and multis included, not just flat. This is a HUGE buff to Magical Life, Fortified Reaction, etc.
+- The same from above applies to "x gained as y" stats.
+- Buffed critical hit and damage stats.
+
+Spells:
+- New Hunting Spell: Summon Hunting Wolf - yes, you summon a hunting wolf.
+- Thunder Dash mana cost has been reduced by 25%, and cooldown reduced from 3s to 2s.
+- Poison Balls now does more damage, and travels slightly faster at max level.
+- Rock Slide damage has been about doubled.
+- Increased base value of Thorns and Burn.
+- Increased scaling of Thorns by 10 times.
+- Reduced costs of Dash and reduced cooldown by about 25%.
+- Arrow Storm height has been reduced to hopefully help with lower-ceiling dungeons.
+- Charge costs have been reduced, and now reduces cooldown per level.
+- Piercing Winds (Whirlwind synergy) now reduces cooldown by an additional 2s, but increases the energy cost of Whirlwind slightly more.
+- Fixed synergies of Attack Spells not applying effects when they should have been (like Meteoric Strike and Burn).
+- You can no longer hurt your or your teammates pets/summons with attack spell damage.
+- Added sounds to the storm spells.
+
+Talent Tree:
+- Talent Tree now has some summon damage nodes.
+- Rebalanced the bottom and right quadrants of the tree, improving available nodes.
+- Replaced the mana/mana regen cluster near Harmony with summon damage nodes.
+- It is now easier to path in the middle of the tree.
+
+Items:
+- New offhand type: Orb. The torch is now attack-oriented, orb is mana/magic shield, and shield is still defensive.
+- New tier 3 unique axe which gives + Whirlwind and reduces cooldown at the expense of health, dodge, and critical damage.
+
+Misc:
+- Reorganized the Mastery GUI layout.
+
+### Mod Updates
+- Updated Xaero's, Mine and Slash.
+
 ## [2.10.7] - 2021-06-25
 
 ### Updates

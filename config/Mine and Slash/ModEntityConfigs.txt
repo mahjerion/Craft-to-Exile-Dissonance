@@ -1156,6 +1156,19 @@
       "DMG_MULTI": 1.0,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
+    },
+    "mmorpg:spirit_wolf_pet": {
+      "LOOT_MULTI": 0.05,
+      "EXP_MULTI": 0.05,
+      "MIN_RARITY": 2,
+      "MAX_RARITY": 2,
+      "MIN_LEVEL": 0,
+      "MAX_LEVEL": 2147483647,
+      "LEVEL_TO_NEAREST_PLAYER": false,
+      "LEVEL_MODIFIER": 0,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.0,
+      "STAT_MULTI": 1.0
     }
   },
   "byEntityTypeDefault": {

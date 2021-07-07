@@ -3,8 +3,8 @@
 [general]
 	#Range: 1.0 ~ 30000.0
 	tileEntityRenderRangeMax = 24.0
+	tileEntityRenderLimitModdedOnly = true
 	#Range: 1.0 ~ 30000.0
 	entityRenderRangeMax = 64.0
-	tileEntityRenderLimitModdedOnly = true
 	entityRenderLimitModdedOnly = true
 

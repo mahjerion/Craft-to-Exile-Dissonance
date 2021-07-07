@@ -11,7 +11,6 @@
       {
         "slots": [
           "leather_boots",
-          "shield",
           "cloth_boots",
           "plate_chest",
           "plate_boots",
@@ -19,6 +18,7 @@
           "cloth_helmet",
           "cloth_pants",
           "torch",
+		  "orb",
           "leather_pants",
           "cloth_chest",
           "plate_pants",

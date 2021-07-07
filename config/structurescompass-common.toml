@@ -1,14 +1,29 @@
 
 #configs for both server and clients
 [General]
+	#
 	#A list of structures that the compass will not search, specified by resource location. 
 	#Ex: ["minecraft:stronghold", "quark:big_dungeon"]
 	blacklist = []
+	#
+	#HUD information detail level.
+	#0: Nothing.
+	#1+: Structure and Dimension name.
+	#2+: Distance to the structure.
+	#3: Position of the structure and distance in x/y/z axis.
+	#Range: 0 ~ 3
+	HUD_Level = 3
+	#
+	#Easy Crafting
+	#Using Iron bars instead of dead corals
+	EasyCrafting = false
+	#
 	#The real maximum searching radius used by the underlying method (no idea how it works.)
 	#If you still couldn't find a structure with a big enough MaxSearchRadius, increase this one.
 	#If you think searching makes the server slow, decrease this one.
 	#Range: 1 ~ 128
 	RealRadius = 64
+	#
 	#The pseudo maximum searching radius.
 	#If the distance to the structure exceeds this value, HUD would display 'Not Found'
 	#Range: 20.0 ~ 20000.0

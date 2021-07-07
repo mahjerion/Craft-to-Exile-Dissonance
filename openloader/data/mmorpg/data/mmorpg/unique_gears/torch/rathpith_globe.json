@@ -18,6 +18,6 @@
   "requirements": {
     "wisdom": 0.75
   },
-  "gear_type": "torch",
+  "gear_type": "orb",
   "item_id": "cte_uniques:rathpith_globe"
 }

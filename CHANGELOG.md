@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.11.0b] - 2021-07-10
+
+### Mine and Slash Updates
+- A new indicator for how long the summons lasts has been added. It uses the potion effects bar.
+- Summon spells have received overall buffs.
+- Summon spells now gain additional HP per spell level.
+- Summons are now spawned in at rare rather than common.
+- Summon AI has been improved and they should attack nearby enemies on their own.
+- Summons hitting a mob should now grab the mob's attention (effectively taunting them).
+- The cast times of Summon Zombies and Summon Hunting Wolf have been reduced significantly.
+- Craft Arrows mana cost has been increased, and a small energy cost has been added.
+- Retribution sound has been changed (and subsequently lowered).
+- Tidal Wave base value and physical attack scaling has increased.
+- Charged Sweep base value has increased.
+- Charge, Purifying Fires, Flame Blitz, Meteoric Strike, and Lava Quake have had their physical attack scaling reduced at higher levels very slightly.
+- Whirlwind physical attack scaling has been reduced.
+- Change sound of Poison Ball and Healing Wave.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.11.0] - 2021-07-09
 
 ### Updates
@@ -20,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lidless Wall and Rathpith Globe are now orbs instead of torches.
 - Players have been provided with spell and talent reset potions.
 
-### Mine and Slash Updated
+### Mine and Slash Updates
 NEW MASTERYYYYY:
 - Unholy Mastery - a new spell tree which focuses on "undead" and "hellish" abilities. Most of these abilities will also use % HP to cast.
 - Passive Effect: Cripple - slows enemies and deals Frost DoT.

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.11.0b] - 2021-07-10
 
 ### Mine and Slash Updates
+- New Level 5 Divine Spell: Provoke - taunt nearby enemies and apply Enrage stacks (yes, this really taunts them).
 - A new indicator for how long the summons lasts has been added. It uses the potion effects bar.
 - Summon spells have received overall buffs.
 - Summon spells now gain additional HP per spell level.
@@ -24,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Charge, Purifying Fires, Flame Blitz, Meteoric Strike, and Lava Quake have had their physical attack scaling reduced at higher levels very slightly.
 - Whirlwind physical attack scaling has been reduced.
 - Change sound of Poison Ball and Healing Wave.
+- Renamed Taunt synergy of Whirlwind to Vexing Strikes.
 
 ### Mod Updates
 - Updated Mine and Slash.

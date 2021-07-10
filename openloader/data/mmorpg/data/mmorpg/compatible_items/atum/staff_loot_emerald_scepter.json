@@ -9,7 +9,7 @@
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 4
+    "max_rarity": 3
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,
@@ -18,8 +18,8 @@
     "can_be_salvaged": false
   },
   "level": {
-    "min_level": 35,
-    "max_level": 40,
+    "min_level": 1,
+    "max_level": 30,
     "level_variance": 0
   },
   "unique": {

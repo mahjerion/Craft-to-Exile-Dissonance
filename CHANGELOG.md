@@ -7,11 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.11.0] - 2021-XX-XX
+## [2.11.0] - 2021-07-09
 
 ### Updates
+- Toned down spawn rates of When Dungeons Arise dungeons significantly.
+- Upon discovery that Atum items are "washable", Atum scepters have been reworked. They now ALL are level 1-30 instead of incrementing slowly, but instead gain "improved" chances of being better the rarer they are. Additionally, you can no longer craft silver, gold, and diamond Atum scepters. The recipe for the Dirty Scepter has also been made a little more difficult.
 - Reworked Trang-Oul's Avatar set to give health regen instead of mana regen, more DoT damage on the 2nd set bonus, and a lot of summon damage as the last bonus instead of DoT damage.
 - New Set: Infernal Tools - a 3-piece common low-level DoT and summon damage set.
+- Equipment drop rate has been reduced by 30%.
+- Unique drop rate has been increased by 33%.
+- Rarity weightings have been changed. It is now more common to find higher rarity items.
 - Lidless Wall and Rathpith Globe are now orbs instead of torches.
 - Players have been provided with spell and talent reset potions.
 
@@ -45,26 +50,68 @@ NEW MASTERYYYYY:
 Stats:
 - New damage type: Summon Attack Damage - can trigger on-attack effects.
 - New Stat: Summon Damage - increases the damage of summons.
+- Dodge Rating percent stat have been reduced in effectiveness by about 25%.
 - Conversion stats now apply the stat with percent and multis included, not just flat. This is a HUGE buff to Magical Life, Fortified Reaction, etc.
 - The same from above applies to "x gained as y" stats.
+- New scaling for attack damage: it now starts off slower but scales at a higher rate at later levels.
 - Buffed critical hit and damage stats.
 
 Spells:
+- New Hunting Spell: Craft Arrows - craft half a stack of arrows. Has a relatively long cooldown. This should help with the early game!
 - New Hunting Spell: Summon Hunting Wolf - yes, you summon a hunting wolf.
-- Thunder Dash mana cost has been reduced by 25%, and cooldown reduced from 3s to 2s.
-- Poison Balls now does more damage, and travels slightly faster at max level.
-- Rock Slide damage has been about doubled.
-- Increased base value of Thorns and Burn.
-- Increased scaling of Thorns by 10 times.
+- Hunting spells have had their costs reduced overall.
+- Hunting arrow spells have had their physical attack scaling reduced greatly.
 - Reduced costs of Dash and reduced cooldown by about 25%.
 - Arrow Storm height has been reduced to hopefully help with lower-ceiling dungeons.
+- Reduced the mana cost of many Ocean, Fire, and Storm spells early on.
+- Chilling Field's mana scaling has been increased.
+- Chilling Field's tick rate now increases a little bit with each level.
+- Magic Burst now uses percent magic shield instead of a flat amount.
+- Magic Burst's mana cost has been reduced slightly at lower levels.
+- Magic Burst's magic shield scaling has been increased greatly.
+- Ice Orb's mana cost has been reduced at lower levels.
+- Ice Orb's base value has been increased at higher levels.
+- Ice Orb's tick rate has been increased at higher levels.
+- Blizzard and Thunderstorm cooldowns have been reduced by a flat 10s.
+- Thunder Dash mana cost has been reduced by 25%, and cooldown reduced from 3s to 2s.
+- Magma Flower's mana cost has been reduced.
+- Flame Blitz physical attack scaling has been reduced.
+- Volcano's cooldown has been reduced by a flat 3s.
+- Increased base value of Thorns and Burn.
+- Increased scaling of Thorns by 10 times.
+- Poison Balls now does more damage, and travels slightly faster at max level.
+- Poison Cloud's mana cost has been reduced at early levels.
+- Poison Cloud's cooldown has been reduced.
+- Poison Cloud's radius has been reduced at higher levels.
+- Rock Slide damage has been about doubled.
+- Rock Slide's mana cost has been reduced very slightly at lower levels.
+- Thorn Armor's mana cost has been reduced.
+- Thorn Armor's cooldown has increased at lower levels.
+- Thorn Armor's duration has been increased at lower levels.
+- Thorny Armor (Thorn Armor Synergy) gives the user a much higher chance of applying Thorns on basic attacks.
+- Root's mana cost has been reduced at lower levels.
+- Thorn Bush's mana cost has been reduced, especially at earlier levels.
+- Thorn Bush's base value has been reduced at earlier levels.
+- Thorn Bush's physical attack scaling has been increased GREATLY (like 4x more).
+- Thorn Bush's cooldown has been reduced.
+- Thorn Bush's duration has been increased by about 20%.
+- Gorgon's Gaze's mana cost has been reduced at early levels.
+- Gorgon's Gaze's base value has been reduced at earlier levels but increased at higher levels.
+- Gorgon's Gaze's physical attack scaling has been increased at lower levels.
+- Gorgon's Gaze's Petrify duration has been increased by about 40%.
+- Nature's Balm's mana cost has been reduced.
+- Nature's Balm's duration has been reduced at early levels but increased at higher levels.
 - Charge costs have been reduced, and now reduces cooldown per level.
+- Whirlwind's radius has been increased by 50% at level 1. It's still the same at max level.
+- Whirlwind's physical attack scaling has increased slightly at lower levels.
 - Piercing Winds (Whirlwind synergy) now reduces cooldown by an additional 2s, but increases the energy cost of Whirlwind slightly more.
 - Fixed synergies of Attack Spells not applying effects when they should have been (like Meteoric Strike and Burn).
 - You can no longer hurt your or your teammates pets/summons with attack spell damage.
 - Added sounds to the storm spells.
 
 Talent Tree:
+- Weapon damage nodes on the tree have been reduced in effectiveness slightly.
+- Spell damage nodes now provide 4% spell damage instead of 3%.
 - Talent Tree now has some summon damage nodes.
 - Rebalanced the bottom and right quadrants of the tree, improving available nodes.
 - Replaced the mana/mana regen cluster near Harmony with summon damage nodes.
@@ -75,10 +122,15 @@ Items:
 - New tier 3 unique axe which gives + Whirlwind and reduces cooldown at the expense of health, dodge, and critical damage.
 
 Misc:
+- Mob scaling now starts slower but picks up rapidly by level 70. Mobs at lower levels are now easier and at max level are much harder.
 - Reorganized the Mastery GUI layout.
+- Added the reset stat command for permission level 2+.
 
 ### Mod Updates
 - Updated Xaero's, Mine and Slash.
+
+### Fixes
+- IE ores no longer spawn in the mirror dim.
 
 ## [2.10.7] - 2021-06-25
 

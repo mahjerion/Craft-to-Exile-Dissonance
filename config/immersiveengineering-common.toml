@@ -291,7 +291,7 @@
 
 [ores]
 	#A blacklist of dimensions in which IE ores won't spawn. By default this is Nether and End
-	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld", "the_bumblezone:bumblezone", "goodnightsleep:nightmare", "goodnightsleep:good_dream", "atum:atum", "midnight:midnight"]
+	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld", "the_bumblezone:bumblezone", "goodnightsleep:nightmare", "goodnightsleep:good_dream", "atum:atum", "midnight:midnight", "overworldmirror:dimension"]
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
 	retrogen_log_flagChunk = true
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.

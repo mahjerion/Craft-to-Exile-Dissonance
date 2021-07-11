@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.11.0c] - 2021-07-10
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed orbs being broken.
+- Fixed some Lycanites creatures having incorrect loot pools.
+- Removed an impossible technology quest.
+
 ## [2.11.0b] - 2021-07-10
 
 ### Mine and Slash Updates

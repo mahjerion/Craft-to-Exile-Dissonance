@@ -93,7 +93,7 @@
       "item": "mmorpg:lootbox/big_gear_lootbox_4",
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 7
+      "chance": 0.07
     },
     {
       "item": "minecraft:gunpowder",

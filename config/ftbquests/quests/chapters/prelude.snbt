@@ -2283,7 +2283,7 @@
 			size: 1.0d,
 			description: [
 				"In Craft to Exile [Dissonance] you can craft staves from Atum! Check the JEI for more information.",
-				""
+				'Did you know you can "wash" dirty scepters in water to unveil its true nature?'
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;10],

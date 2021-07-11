@@ -1204,51 +1204,15 @@
 			]
 		},
 		{
-			title: "Rolling... THUNDER!",
-			x: 12.0d,
-			y: 1.5d,
-			shape: "gear",
-			subtitle: "",
-			size: 1.0d,
-			description: ["You will need the rolling mill to make the crafting components of the energy converter blocks."],
-			min_required_dependencies: 0,
-			dependencies: [I;1242],
-			dependency_requirement: "all_completed",
-			id: 2684,
-			tasks: [{
-				id: 2685,
-				type: "item",
-				item: "createaddition:rolling_mill"
-			}],
-			rewards: [
-				{
-					id: 2695,
-					type: "item",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 1000
-						}
-					}
-				},
-				{
-					id: 2696,
-					type: "item",
-					item: "createaddition:iron_wire"
-				}
-			]
-		},
-		{
 			title: "RPM Converter",
-			x: 13.5d,
+			x: 12.0d,
 			y: 1.5d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
 			description: ["This block will convert kinetic energy into IE energy at 75% efficiency!"],
 			min_required_dependencies: 0,
-			dependencies: [I;2684],
+			dependencies: [I;1242],
 			dependency_requirement: "all_completed",
 			id: 2686,
 			tasks: [{

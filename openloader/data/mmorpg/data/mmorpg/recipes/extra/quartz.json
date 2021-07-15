@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:gems/quartz"
+    }
+  ],
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 1
+  }
+}

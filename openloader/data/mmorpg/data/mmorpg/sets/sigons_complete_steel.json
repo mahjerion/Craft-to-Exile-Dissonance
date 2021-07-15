@@ -33,7 +33,7 @@
   "mods": {
     "2": "lifesteal_flat",
 	"3": "armor_flat",
-	"4": "fire_resist_flat"
+	"4": "fire_resist_flat",
 	"5": "plus_all_skills_flat"
   }
 }

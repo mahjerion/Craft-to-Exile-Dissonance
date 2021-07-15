@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "x"
+  ],
+  "key": {
+    "x": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "mapperbase:steel_rod",
+    "count": 4
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

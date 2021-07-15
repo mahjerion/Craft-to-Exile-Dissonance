@@ -19,7 +19,9 @@
 			description: [
 				"The supply camp is the first thing you need to a successful establishment. Although not functionally useful, the supply camp is required since it will provide you with a town hall.",
 				"It is important to choose your first location for your town hall wisely. You will need a large flat area for your entire colony (the town hall must also be on flat ground).",
-				"You will notice that right-clicking with the supply camp (the supply camp does NOT require using the building tool) allows you to visualize where you can put your supply camp."
+				"You will notice that right-clicking with the supply camp (the supply camp does NOT require using the building tool) allows you to visualize where you can put your supply camp.",
+				"Note: citizens will sometimes ask for equipment. But in order to give it to them, the equipment must not have any Mine and Slash stats. The trick to getting around this is to NOT open your inventory after crafting the item, and then immediately",
+				"giving it to them. Equipment generate stats upon opening/closing the inventory for the first time."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
@@ -233,7 +235,9 @@
 			description: [
 				"The guard tower will employ and house 1 guard to protect your colony. The new guard will need a bed in a house in order to spawn.",
 				"However, once they are hired at the guard tower, that becomes their new residence and the bed in the house will open up for another new citizen (child or recruit).",
-				"Note: If you place guard towers near your colony border and level them up, your border will expand."
+				"If you place guard towers near your colony border and level them up, your border will expand.",
+				"Note: citizens will sometimes ask for equipment. But in order to give it to them, the equipment must not have any Mine and Slash stats. The trick to getting around this is to NOT open your inventory after crafting the item, and then immediately",
+				"giving it to them. Equipment generate stats upon opening/closing the inventory for the first time."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;263],
@@ -341,7 +345,9 @@
 			size: 1.0d,
 			description: [
 				"Now that you have some citizens and a builder's hut, you may find it easier to assign the task of wood gathering to one of your citizens. The lumberjack's hut is where the lumberjack will go in between chopping down trees.",
-				"The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn't have cobblestone placed beneath it."
+				"The lumberjack will cut down any tree in an approximate 150 block area (from themselves) that is not in a hut schematic and doesn't have cobblestone placed beneath it.",
+				"Note: citizens will sometimes ask for equipment. But in order to give it to them, the equipment must not have any Mine and Slash stats. The trick to getting around this is to NOT open your inventory after crafting the item, and then immediately",
+				"giving it to them. Equipment generate stats upon opening/closing the inventory for the first time."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;263],
@@ -385,7 +391,11 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The mine is where the miner will mine for ores and materials. Once they are hired, the miner will create a shaft downward and then branch out."],
+			description: [
+				"The mine is where the miner will mine for ores and materials. Once they are hired, the miner will create a shaft downward and then branch out.",
+				"Note: citizens will sometimes ask for equipment. But in order to give it to them, the equipment must not have any Mine and Slash stats. The trick to getting around this is to NOT open your inventory after crafting the item, and then immediately",
+				"giving it to them. Equipment generate stats upon opening/closing the inventory for the first time."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;274],
 			dependency_requirement: "all_completed",

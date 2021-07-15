@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "lycanitesmobs:soulstone"
+  },
+  "pattern": [
+    "DPD",
+    "PSP",
+    "DPD"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "item": "mmorpg:ore3"
+    },
+    "S": {
+      "item": "lycanitesmobs:soulgazer"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  }
+}

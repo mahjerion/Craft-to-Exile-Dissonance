@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "mapperbase:raw_bitumen"
+  },
+  "result": "mmorpg:ore0",
+  "experience": 1.0,
+  "cookingtime": 100
+}

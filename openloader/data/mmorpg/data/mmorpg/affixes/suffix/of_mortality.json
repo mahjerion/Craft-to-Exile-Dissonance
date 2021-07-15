@@ -34,7 +34,7 @@
     ]
   },
   "mods": [
-    "low_mana_percent",
-	"low_energy_percent"
+    "low_mana_flat",
+	"low_energy_flat"
   ]
 }

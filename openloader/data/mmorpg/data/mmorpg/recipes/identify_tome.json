@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "mmorpg:ore2"
+    }
+  ],
+  "result": {
+    "item": "mmorpg:identify_tome",
+    "count": 8
+  }
+}

@@ -71,7 +71,7 @@ mods.jei.JEI.hideItem(<item:nasty:skeleton_spawn_egg>);
 mods.jei.JEI.hideItem(<item:nasty:wolf_spawn_egg>);
 mods.jei.JEI.hideItem(<item:nasty:explosive_arrow>);
 
-//Better Animals Plu
+//Better Animals Plus
 mods.jei.JEI.hideItem(<item:betteranimalsplus:blackbear_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:goat_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:deer_spawn_egg>);
@@ -107,3 +107,21 @@ mods.jei.JEI.hideItem(<item:betteranimalsplus:squid_giant_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:dragonfly_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:octopus_spawn_egg>);
 mods.jei.JEI.hideItem(<item:betteranimalsplus:butterfly_spawn_egg>);
+
+//mods.jei.JEI.hideItem(<item:mowziesmobs:lantern_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:naga_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:foliaath_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:barako_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:barakoana_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:wroughtnaut_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:frostmaw_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:grottol_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_spawn_egg>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:mob_remover>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:earth_talisman>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_mask_fury>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:barakoa_mask_misery>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:ice_crystal>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:blowgun>);
+//mods.jei.JEI.hideItem(<item:mowziesmobs:dart>);
+mods.jei.JEI.hideItem(<item:createaddition:rolling_mill>);

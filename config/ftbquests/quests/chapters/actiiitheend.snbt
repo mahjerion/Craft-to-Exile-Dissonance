@@ -177,7 +177,7 @@
 			size: 1.0d,
 			description: [
 				"After returning to the village, you heard rumours about villagers constantly having nightmares. According to a bar keeper, villagers have resorted to consuming mushrooms which seemed to have a 50% success rate at deterring the nightmares.",
-				"Find the mushrooms in the Nether and see what you can do about the nightmares."
+				"Find the mushrooms in the Nether or Overworld and see what you can do about the nightmares."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;290],
@@ -260,6 +260,7 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
+				"Maps are instanced dungeons that provide players with plenty of experience and loot! Maps can be of different rarity and tiers. Rarity determines the number of affixes a map rolls, and higher tiers increase mob strength and loot!",
 				"The mapping device opens portals to a dungeon realm. In this realm, you are unable to place or break blocks... So tread carefully. Always bring teleportation scrolls with you in case you get stuck!",
 				"To use the mapping device, place it in an flat and open space. Fill it up with ores (fuel), then take the map in your hand and use it on the mapping device. Good luck!"
 			],
@@ -356,7 +357,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Teleporting back from maps can be a little glitchy. Use teleport scrolls to guarantee a safe and precise return."],
+			description: ["Teleporting back from maps using the portal can be a little glitchy. Use teleport scrolls to guarantee a safe and precise return."],
 			min_required_dependencies: 0,
 			dependencies: [I;297],
 			dependency_requirement: "all_completed",

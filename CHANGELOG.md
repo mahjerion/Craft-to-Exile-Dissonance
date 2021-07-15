@@ -7,6 +7,107 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.12.0] - 2021-07-XX
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Upon initially logging in, you are now invulnerable for 2 minutes rather than only 15 seconds. This effect only applies if you stay nearly still (aka when logging in).
+- Migrated pretty much all script recipes/tags into datapacks. This was necessary because sometimes scripts would require a reload (they didn't load upon server/world start), meaning if players didn't reload the script, then half the custom recipes would not apply. This should also improve world load up times a bit.
+- Reduced spawn rate of Swampy, Frostbitten, Burned, and Eskimos.
+- Players have received spell and talent reset potions.
+- Withers, Ender Dragons, Thunder all don't play globally anymore.
+- Disabled Curse of Binding to the best of my ability.
+- Some previously "disabled" enchants that were still obtainable through rare methods should be even rarer.
+
+### Mine and Slash Updates
+Talent Tree Rehaul:
+- Basically the entire tree has been remade. The pathing choices should be a lot more interesting, and lots of paths branch to improve pathing. For instance, the mage (top) section no longer contains 4 huge node wheels, 1 for each element, and instead has one small section for all elements. The rest of the space is used for other new stats that have been slowly introduced over the past few updates.
+- General ideas for the tree now: nodes and clusters closer to the start point are more "general/all-encompassing" than previously. Like mentioned above, more "spell damage" vs. "fire spell damage/water spell damage". As you go further from the center, the clusters become more specific. I think the bottom quadrant was most culprit to this, having only specific weapon damage nodes at the start.
+- Left side has been rebranded to be more summon/support heavy. It still retains a lot of block chance, elemental resists, etc. In fact, it no longer gives infusion stats but straight up elemental attack damage percent increases.
+- The starting regions have been heavily changed.
+- Bleed has been changed to have max 20 stacks instead of 8, but deals 10% of your physical attack damage per stack instead of 25%.
+- Blood Mage and Overflowing Vitality have swapped positions.
+- Fortified Reaction, Reckless Blows, and Steady Hand have moved.
+- Ruthless and Warlock have been toned down in power.
+- Physical damage and DoT nodes have been reduced in effectiveness a bit.
+- Weapon damage nodes (non-elemental) have been buffed.
+
+New Spells/Synergies:
+- New Level 5 Storm Spell: Electrical Discharge - deal 20% of nearby enemies' CURRENT effective health (includes magic shield) as lightning damage. Points into this spell reduce its cooldown, mana cost, and increase its range. This spells damage can be modified by increases to spell damage, etc.
+- New Electrical Discharge Synergy: Static Field - hits have a chance to apply Lightning Essence stacks on the user. Remember, this thing hits multiple enemies!
+- New Level 10 Storm Spell: Recharge - Recover 2% of your maximum mana per second. Points into this ability increase its duration. This ability has a 2 minute cooldown that is unaffected by cooldown reduction.
+- New Chilling Touch Synergy: Necromancer's Hex - causes nearby summons to attack the target. This gives you finer control of your summons.
+
+Summon Changes/Fixes:
+- Summons now go poof when they disappear.
+- Summons now disappear if you die or change dimensions (this is to prevent crashes).
+- Summons have about 25% less HP (they had too much with the recent addition of bonus HP per level).
+- Summons move a little slower now.
+- Fixed an issue where attacking an untamed tameable entity would cause errors.
+- Fixed an issue where you could hurt your own or teammates' summons.
+- Fixed a ticking entity issue with summons.
+- Basic attacks no longer hurt summons either.
+
+Spell Balance Changes:
+- Life Siphon can no longer be set to right-click.
+- Life Siphon cooldown has been increased (didn't realize the cooldown was shorter than the duration).
+- Poison Balls has been renamed to Poison Ball again.
+- Poison Ball only fires 1 projectile again.
+- Poison Ball has been reworked. It is now a slow (but faster than before) moving orb that pulses every x ticks to deal damage to nearby enemies (like a slower version of Ice Orb). Increasing its level will increase its tick rate, radius, and duration.
+- Poison Ball now travels 50% faster.
+- Poison Ball can travel through enemies and disappears upon block impact.
+- Poison Ball now deals slightly more damage than before. On average, Poison Ball is AOE and does more damage per cast than Lightning Spear or Fire Ball, but is closer ranged.
+- Ice Orb has been fixed and should no longer get stuck.
+- Ice Bolt now travels 25% faster.
+- Lightning Spear now has a higher chance of granting Lightning Essence.
+- Lightning Spear now grants Speed I (20% speed boost) for 2 seconds after hitting an enemy.
+- Lightning Essence now grants some reduced mana cost per stack.
+- Charged Sweep can now be learned at level 1 instead of 5.
+- Charged Sweep max level is now 16 instead of 12.
+- Charged Sweep no longer scales with physical attack damage. There was a bug where because of this, it wasn't scaling with mana.
+- Charged Sweep now scales at a higher rate with mana.
+- Charged Sweep costs a bit of energy now.
+- Thunderstorm max level is now 8 instead of 10. I don't know how I forgot this storm spell, but every other storm spell is max level 8.
+- Chilling Touch costs slightly more energy now.
+
+Stat Changes:
+- Critical Hit stats have been improved by like, 5%.
+- Critical Damage stats have been improved tremendously.
+- Dodge is now harder to stack early game, but investing into dodge is now more rewarding. Basically, the flat stat got nerfed and the percent stat got buffed.
+- Armor is now easier to stack but investing into it is a bit less rewarding. Vice versa of the above.
+- Block Chance flat stat has been buffed by almost double.
+- "Failing" a block now reduces damage by 50% rather than 25%.
+
+Weapon Changes:
+- Crossbows no longer have a 1.25 basic attack multiplier.
+- Bows no longer have a 2.0 basic attack multiplier.
+- Bow basic attacks now cost less energy to use.
+- Non-staff weapons are now more likely to roll elemental attack damage primary stats.
+- Non-staff weapon physical attack damage rolls are now worse. Bows (not crossbows) are affected moreso.
+- Hammers can ONLY roll physical damage now.
+- Staff weapons are highly likely to roll elemental attack damage primary stats.
+- Staff weapons can now roll 2 elemental attack stats as the primary stats. Before they were either pure physical, or physical + an element. Now they can be fire + frost, for example.
+- The weapon basic attack damage multi is effectively abolished.
+
+Other:
+- Fixed 2 impossible map rooms (The Mines).
+- Lowered the particle count of some abilities.
+- Fixed Holy Flower not working.
+- Fixed incorrect tooltip for Divine and Unholy masteries.
+- Fixed a bug where some spells weren't affected by increased spell damage. Most notably, Magic Burst, Whirlwind, Charge were some of the ones affected.
+
+### Mod Updates
+- Updated Xaero's, SuperMartijn624's Core Lib.
+- Added Bad Wither No Cookie - Reloaded.
+
+### Fixes
+- Fixed Rebuke of the Vaal giving the wrong stat.
+- Fixed Sigon's Complete Steel set not spawning.
+- Fixed Naj's Ancient Vestige set not spawning.
+- Fixed Structures' Compass recipe missing.
+- Fixed some affixes not working.
+- Changed some item recipes previously changed by scripts to be changed via datapacks instead. The scripts are somewhat unreliable.
+
 ## [2.11.0c] - 2021-07-10
 
 ### Mod Updates

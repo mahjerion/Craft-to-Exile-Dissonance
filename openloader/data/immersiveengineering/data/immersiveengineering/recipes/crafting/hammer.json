@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " if",
+    " hi",
+    "s  "
+  ],
+  "key": {
+    "s": {
+      "tag": "forge:ores/lead"
+    },
+    "h": {
+      "tag": "forge:rods/wooden"
+    },
+    "i": {
+      "item": "create:brass_sheet"
+    },
+    "f": {
+      "tag": "forge:string"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:hammer"
+  }
+}

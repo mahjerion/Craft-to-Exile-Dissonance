@@ -1,0 +1,34 @@
+{
+  "result": {
+    "item": "lycanitesmobs:bloodsummoningstaff"
+  },
+  "pattern": [
+    "RRR",
+    "BSB",
+    "NDN"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "S": {
+      "item": "lycanitesmobs:summoningstaff"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

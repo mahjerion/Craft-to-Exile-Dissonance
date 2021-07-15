@@ -2,32 +2,27 @@
   "generic": [],
   "armor": [
     {
-      "name": "Deflection",
+      "name": "the Deflector",
       "effect": "enchant",
       "rarity": 0,
       "enchantments": [
-        "minecraft:thorns"
-      ]
-    },
-    {
-      "name": "Protection",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:protection"
+        "apotheosis:icy_thorns"
       ]
     },
     {
       "name": "the Apprentice",
-      "effect": "enchant_randomly",
-      "rarity": 0
+      "effect": "enchant",
+      "rarity": 2,
+      "enchantments": [
+        "minecraft:mending"
+      ]
     },
     {
       "name": "the Master Blacksmith",
       "effect": "enchant",
       "rarity": 4,
       "enchantments": [
-        "minecraft:protection",
+        "minecraft:efficiency",
         "minecraft:unbreaking"
       ],
       "level": 3
@@ -41,6 +36,14 @@
       "enchantments": [
         "minecraft:efficiency"
       ]
+    },
+    {
+      "name": "the Deep",
+      "effect": "enchant",
+      "rarity": 0,
+      "enchantments": [
+        "apotheosis:depth_miner"
+      ]
     }
   ],
   "sword": [
@@ -53,19 +56,11 @@
       ]
     },
     {
-      "name": "the Rogue Knight",
+      "name": "the Scavenger",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
-        "minecraft:sweeping"
-      ]
-    },
-    {
-      "name": "the Monster Slayer",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:smite"
+        "minecraft:looting"
       ]
     },
     {
@@ -77,21 +72,40 @@
       ]
     }
   ],
-  "ranged_weapon": [],
-  "generic_prefix": [
+  "ranged_weapon": [
     {
-      "name": "Arcane",
-      "effect": "enchant_randomly",
-      "rarity": 0
+      "name": "the Cinder Lord",
+      "effect": "enchant",
+      "rarity": 2,
+      "enchantments": [
+        "minecraft:flame"
+      ]
+    },
+    {
+      "name": "the Infinite",
+      "effect": "enchant",
+      "rarity": 0,
+      "enchantments": [
+        "minecraft:infinity"
+      ]
+    },
+    {
+      "name": "of True Infinity",
+      "effect": "enchant",
+      "rarity": 3,
+      "enchantments": [
+        "apotheosis:true_infinity"
+      ]
     }
   ],
+  "generic_prefix": [],
   "armor_prefix": [
     {
       "name": "Tempered",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 2,
       "enchantments": [
-        "minecraft:protection"
+        "minecraft:mending"
       ]
     },
     {
@@ -103,35 +117,11 @@
       ]
     },
     {
-      "name": "Resistant",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:blast_protection"
-      ]
-    },
-    {
-      "name": "Reinforced",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:projectile_protection"
-      ]
-    },
-    {
       "name": "Cursed",
       "effect": "enchant",
-      "rarity": 0,
+      "rarity": 1,
       "enchantments": [
         "minecraft:vanishing_curse"
-      ]
-    },
-    {
-      "name": "Cursed",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:binding_curse"
       ]
     },
     {
@@ -193,19 +183,10 @@
   ],
   "sword_prefix": [
     {
-      "name": "Holy",
-      "effect": "enchant",
-      "rarity": 0,
-      "enchantments": [
-        "minecraft:smite"
-      ]
-    },
-    {
       "name": "Tempered",
       "effect": "enchant",
       "rarity": 0,
       "enchantments": [
-        "minecraft:sharpness",
         "minecraft:unbreaking"
       ]
     },
@@ -222,7 +203,6 @@
       "effect": "enchant",
       "rarity": 0,
       "enchantments": [
-        "minecraft:power",
         "minecraft:unbreaking"
       ]
     },
@@ -232,6 +212,14 @@
       "rarity": 0,
       "enchantments": [
         "minecraft:punch"
+      ]
+    },
+    {
+      "name": "Volcanic",
+      "effect": "enchant",
+      "rarity": 1,
+      "enchantments": [
+        "minecraft:flame"
       ]
     }
   ],

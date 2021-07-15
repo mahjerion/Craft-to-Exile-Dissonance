@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " vg",
+    "icp",
+    "ci "
+  ],
+  "key": {
+    "g": {
+      "item": "immersiveengineering:wooden_grip"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "v": {
+      "item": "immersiveengineering:capacitor_hv"
+    },
+    "c": {
+      "item": "immersiveengineering:coil_mv"
+    },
+    "p": {
+      "item": "immersiveengineering:circuit_board"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:railgun"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

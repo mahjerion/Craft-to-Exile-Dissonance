@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    "ici",
+    " i "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "c": {
+      "item": "immersiveengineering:component_steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:gunpart_drum"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

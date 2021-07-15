@@ -1,0 +1,28 @@
+{
+  "result": {
+    "item": "lycanitesmobs:summoningstaff"
+  },
+  "pattern": [
+    " E ",
+    " B ",
+    " G "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "awaa:blaze_bow"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blaze_rod",
+    "count": 1
+  }
+}

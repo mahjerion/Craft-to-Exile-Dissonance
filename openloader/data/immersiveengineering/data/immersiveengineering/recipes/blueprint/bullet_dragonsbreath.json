@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "immersiveengineering:empty_shell"
+    },
+    {
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:dusts/aluminum"
+      }
+    }
+  ],
+  "category": "specialBullet",
+  "result": {
+    "item": "immersiveengineering:dragons_breath"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

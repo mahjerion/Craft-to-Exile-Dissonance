@@ -31,7 +31,7 @@
   },
   "mods": {
     "2": "plus_all_skill_lvls_flat",
-    "3": "much_less_mana_percent",
+    "3": "much_less_mana_flat",
     "4": "mana_battery_trait_flat"
   }
 }

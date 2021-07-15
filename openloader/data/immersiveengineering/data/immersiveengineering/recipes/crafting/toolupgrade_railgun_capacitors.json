@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p  ",
+    "ip ",
+    " ip"
+  ],
+  "key": {
+    "p": {
+      "tag": "forge:plates/constantan"
+    },
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:toolupgrade_railgun_capacitors"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

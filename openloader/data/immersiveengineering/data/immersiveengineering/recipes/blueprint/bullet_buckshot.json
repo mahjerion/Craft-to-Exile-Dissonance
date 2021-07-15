@@ -1,0 +1,27 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "immersiveengineering:empty_shell"
+    },
+    {
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:dusts/steel"
+      }
+    }
+  ],
+  "category": "bullet",
+  "result": {
+    "item": "immersiveengineering:buckshot"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "www",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:fragments/wither_skull"
+    }
+  },
+  "result": {
+    "item": "minecraft:wither_skeleton_skull"
+  }
+}

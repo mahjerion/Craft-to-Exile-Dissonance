@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "lycanitesmobs:savagesummoningstaff"
+  },
+  "pattern": [
+    " D ",
+    " S ",
+    " G "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "lycanitesmobs:summoningstaff"
+    },
+    "D": {
+      "item": "mmorpg:currency/cheap_gear_lvl"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

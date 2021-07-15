@@ -69,5 +69,11 @@
 	"result": {
 		"item": "ironchest:silver_to_gold_chest_upgrade"
 	},
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ],
 	"_comment": "replaceme with tag forge:glass when out."
 }

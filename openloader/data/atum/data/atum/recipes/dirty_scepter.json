@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+	" R ",
+	"R  "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/wooden"
+	},
+    "I": {
+      "item": "mmorpg:mat/infused_iron"
+	}
+  },
+  "result": {
+    "item": "atum:loot_dirty_scepter"
+  }
+}

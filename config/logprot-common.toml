@@ -5,7 +5,7 @@
 	maxDistance = 4
 	#Time in ticks the logging player is invulnerable, 20 ticks = 1sec. Default is 5secs = 100 ticks
 	#Range: 0 ~ 50000
-	invulnerabilityTime = 300
+	invulnerabilityTime = 2400
 
 [debug]
 	#Wether to enable debug log outputs, default: false

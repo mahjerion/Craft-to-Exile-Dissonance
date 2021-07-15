@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "lycanitesmobs:sturdysummoningstaff"
+  },
+  "pattern": [
+    " I ",
+    " S ",
+    " O "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "I": {
+      "item": "minecraft:bone"
+    },
+    "O": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

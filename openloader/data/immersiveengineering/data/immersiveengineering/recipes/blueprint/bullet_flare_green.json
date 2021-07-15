@@ -1,0 +1,28 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "item": "immersiveengineering:empty_shell"
+    },
+    {
+      "tag": "forge:gunpowder"
+    },
+    {
+      "tag": "forge:dusts/aluminum"
+    },
+    {
+      "tag": "forge:dyes/green"
+    }
+  ],
+  "category": "specialBullet",
+  "result": {
+    "item": "immersiveengineering:flare",
+    "nbt": "{flareColour:2925323}"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

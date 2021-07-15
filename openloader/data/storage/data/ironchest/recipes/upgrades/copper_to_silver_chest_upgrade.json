@@ -15,5 +15,11 @@
 	},
 	"result": {
 		"item": "ironchest:copper_to_silver_chest_upgrade"
+	},
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
 	}
+  ]
 }

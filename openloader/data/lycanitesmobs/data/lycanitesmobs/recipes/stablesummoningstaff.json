@@ -1,0 +1,22 @@
+{
+  "result": {
+    "item": "lycanitesmobs:stablesummoningstaff"
+  },
+  "pattern": [
+    " D ",
+    " S ",
+    " G "
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "lycanitesmobs:sturdysummoningstaff"
+    },
+    "D": {
+      "item": "mmorpg:currency/add_secondary_stat"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

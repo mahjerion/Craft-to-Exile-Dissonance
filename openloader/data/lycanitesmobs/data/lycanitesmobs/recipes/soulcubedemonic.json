@@ -1,0 +1,19 @@
+{
+  "result": {
+    "item": "lycanitesmobs:soulcubedemonic"
+  },
+  "pattern": [
+    "BBB",
+    "BSB",
+    "BBB"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "lycanitesmobs:soulstone"
+    },
+    "B": {
+      "item": "lycanitesmobs:demonstone"
+    }
+  }
+}

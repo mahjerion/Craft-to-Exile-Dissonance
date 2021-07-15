@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i  ",
+    "ii ",
+    " ii"
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:gunpart_hammer"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

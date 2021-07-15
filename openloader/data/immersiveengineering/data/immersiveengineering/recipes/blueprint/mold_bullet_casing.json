@@ -1,0 +1,24 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "inputs": [
+    {
+      "count": 3,
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      }
+    },
+    {
+      "item": "immersiveengineering:wirecutter"
+    }
+  ],
+  "category": "molds",
+  "result": {
+    "item": "immersiveengineering:mold_bullet_casing"
+  },
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

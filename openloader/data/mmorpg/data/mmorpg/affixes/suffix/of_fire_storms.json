@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "fire_penetration_flat",
-    "fire_spell_to_attack_dmg_flat"
+    "low_fire_penetration_flat",
+    "attack_fire_damage_percent"
   ]
 }

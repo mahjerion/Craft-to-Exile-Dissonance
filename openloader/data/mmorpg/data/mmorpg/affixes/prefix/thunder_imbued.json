@@ -24,6 +24,6 @@
     ]
   },
   "mods": [
-    "thunder_spell_to_attack_dmg_flat"
+    "attack_thunder_damage_percent"
   ]
 }

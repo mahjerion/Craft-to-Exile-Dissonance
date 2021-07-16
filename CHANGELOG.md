@@ -28,6 +28,7 @@ Talent Tree Rehaul:
 - Bleed has been changed to have max 20 stacks instead of 8, but deals 10% of your physical attack damage per stack instead of 25%.
 - Blood Mage and Overflowing Vitality have swapped positions.
 - Fortified Reaction, Reckless Blows, and Steady Hand have moved.
+- Spell Power and Elemental Spell-related nodes have been reduced in power a bit.
 - Ruthless and Warlock have been toned down in power.
 - Physical damage and DoT nodes have been reduced in effectiveness a bit.
 - Weapon damage nodes (non-elemental) have been buffed.
@@ -35,10 +36,13 @@ Talent Tree Rehaul:
 New Spells/Synergies:
 - New Level 5 Storm Spell: Electrical Discharge - deal 20% of nearby enemies' CURRENT effective health (includes magic shield) as lightning damage. Points into this spell reduce its cooldown, mana cost, and increase its range. This spells damage can be modified by increases to spell damage, etc.
 - New Electrical Discharge Synergy: Static Field - hits have a chance to apply Lightning Essence stacks on the user. Remember, this thing hits multiple enemies!
-- New Level 10 Storm Spell: Recharge - Recover 2% of your maximum mana per second. Points into this ability increase its duration. This ability has a 2 minute cooldown that is unaffected by cooldown reduction.
+- New Level 10 Storm Spell: Recharge - Recover 1% of your maximum mana per second. Points into this ability increase its duration. This ability has a 2 minute cooldown that is unaffected by cooldown reduction.
+- New Level 1 Hunting Attack Spell: Double Shot - fire 2 powerful arrows in rapid succession. This replaces Arrow Barrage as the starter spell, Arrow Barrage is now a higher level spell.
+- New Arrow Storm Synergy: Serrated Storm - gives Arrow Storm hits a chance to apply Wounds.
 - New Chilling Touch Synergy: Necromancer's Hex - causes nearby summons to attack the target. This gives you finer control of your summons.
 
 Summon Changes/Fixes:
+- Summons deal a little less damage than before.
 - Summons now go poof when they disappear.
 - Summons now disappear if you die or change dimensions (this is to prevent crashes).
 - Summons have about 25% less HP (they had too much with the recent addition of bonus HP per level).
@@ -49,8 +53,13 @@ Summon Changes/Fixes:
 - Basic attacks no longer hurt summons either.
 
 Spell Balance Changes:
+- Ice Bolt, Fire Ball, Lightning Spear, and Poison Ball damage have been reworked to be lower and not as rewarding for investing points into them. Overall, Lightning Spear has had its damage hit the hardest with the synergy and speed buffs outlined below.
+- The synergies of the above spells have been buffed.
+- Reduced the energy cost of most attack spells.
+- Reduced the cooldown of every spell EXCEPT: Whirlwind, Heavy Strike, Basic Spells, Arrow Barrage, Arrow Storm, Craft Arrow, Dash, Exert/Imbue, Hunting Potion, Summons, Poisoned Weapons, 
 - Life Siphon can no longer be set to right-click.
 - Life Siphon cooldown has been increased (didn't realize the cooldown was shorter than the duration).
+- Chilling Touch costs slightly more energy now.
 - Poison Balls has been renamed to Poison Ball again.
 - Poison Ball only fires 1 projectile again.
 - Poison Ball has been reworked. It is now a slow (but faster than before) moving orb that pulses every x ticks to deal damage to nearby enemies (like a slower version of Ice Orb). Increasing its level will increase its tick rate, radius, and duration.
@@ -62,15 +71,28 @@ Spell Balance Changes:
 - Lightning Spear now has a higher chance of granting Lightning Essence.
 - Lightning Spear now grants Speed I (20% speed boost) for 2 seconds after hitting an enemy.
 - Lightning Essence now grants some reduced mana cost per stack.
+- Reduced the mana cost of Charged Sweep.
 - Charged Sweep can now be learned at level 1 instead of 5.
 - Charged Sweep max level is now 16 instead of 12.
 - Charged Sweep no longer scales with physical attack damage. There was a bug where because of this, it wasn't scaling with mana.
 - Charged Sweep now scales at a higher rate with mana.
 - Charged Sweep costs a bit of energy now.
 - Thunderstorm max level is now 8 instead of 10. I don't know how I forgot this storm spell, but every other storm spell is max level 8.
-- Chilling Touch costs slightly more energy now.
+- Increased cost of Craft Arrows.
+- Arrow Barrage is now a level 30 spell.
+- Arrow Barrage fires 1-2 less arrows by max level than previously.
+- Arrow Barrage cooldown has increased.
+- Arrow Barrage wounds synergy now belongs to Double Shot, and the chance of applying has increased.
+- Wounds effect now stacks up to 5.
+- Wounds effect slow has been reduced from 25% to 10%. Also, it now says this on the tooltip. How many of you knew Wounds actually slowed?
+- Wounds effect deals less damage per stack. The same applies for its health regen debuff.
 
 Stat Changes:
+- Spell Damage flat stat has been reduced in power slightly.
+- Spell Damage percent stat has been reduced in power.
+- Magic Shield flat stat has been reduced in power slightly.
+- Magic Shield and MS Regen percent stats have been toned down slightly.
+- Physical Damage percent stat has been increased in power.
 - Critical Hit stats have been improved by like, 5%.
 - Critical Damage stats have been improved tremendously.
 - Dodge is now harder to stack early game, but investing into dodge is now more rewarding. Basically, the flat stat got nerfed and the percent stat got buffed.
@@ -93,6 +115,7 @@ Other:
 - Fixed 2 impossible map rooms (The Mines).
 - Lowered the particle count of some abilities.
 - Fixed Holy Flower not working.
+- Fixed Wounds not doing physical damage and instead doing elemental...
 - Fixed incorrect tooltip for Divine and Unholy masteries.
 - Fixed a bug where some spells weren't affected by increased spell damage. Most notably, Magic Burst, Whirlwind, Charge were some of the ones affected.
 

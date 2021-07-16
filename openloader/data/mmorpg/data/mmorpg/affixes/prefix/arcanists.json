@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "low_spell_damage_flat",
+    "very_low_spell_damage_flat",
     "intelligence_flat",
     "mana_regen_flat"
   ]

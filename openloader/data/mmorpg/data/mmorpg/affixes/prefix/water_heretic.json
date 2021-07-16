@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
-    "high_spell_water_damage_flat"
+    "low_increase_healing_flat",
+    "spell_water_damage_flat"
   ]
 }

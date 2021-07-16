@@ -24,6 +24,6 @@
     ]
   },
   "mods": [
-    "nature_spell_to_attack_dmg_flat"
+    "attack_nature_damage_percent"
   ]
 }

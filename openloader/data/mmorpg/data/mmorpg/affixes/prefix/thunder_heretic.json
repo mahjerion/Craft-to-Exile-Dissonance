@@ -25,6 +25,6 @@
   },
   "mods": [
     "critical_damage_flat",
-    "high_spell_thunder_damage_flat"
+    "spell_thunder_damage_flat"
   ]
 }

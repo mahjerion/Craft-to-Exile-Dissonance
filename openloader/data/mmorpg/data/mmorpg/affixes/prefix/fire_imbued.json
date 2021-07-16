@@ -24,6 +24,6 @@
     ]
   },
   "mods": [
-    "fire_spell_to_attack_dmg_flat"
+    "attack_fire_damage_percent"
   ]
 }

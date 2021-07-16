@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
-    "high_spell_fire_damage_flat"
+    "very_low_all_dot_dmg_flat",
+    "spell_fire_damage_flat"
   ]
 }

@@ -26,6 +26,6 @@
     ]
   },
   "mods": [
-    "fire_spell_to_attack_dmg_flat"
+    "tiny_attack_fire_damage_flat"
   ]
 }

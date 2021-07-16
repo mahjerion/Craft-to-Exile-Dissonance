@@ -35,6 +35,6 @@
   },
   "mods": [
     "health_regen_percent",
-    "spell_nature_damage_flat"
+    "low_spell_nature_damage_flat"
   ]
 }

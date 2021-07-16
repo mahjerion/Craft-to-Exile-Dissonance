@@ -26,6 +26,6 @@
     ]
   },
   "mods": [
-    "water_spell_to_attack_dmg_flat"
+    "tiny_attack_water_damage_flat"
   ]
 }

@@ -24,7 +24,7 @@
     ]
   },
   "mods": [
-    "thunder_penetration_flat",
-    "thunder_spell_to_attack_dmg_flat"
+    "low_thunder_penetration_flat",
+    "attack_thunder_damage_percent"
   ]
 }

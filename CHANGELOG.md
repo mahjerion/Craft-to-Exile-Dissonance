@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Upon initially logging in, you are now invulnerable for 2 minutes rather than only 15 seconds. This effect only applies if you stay nearly still (aka when logging in).
 - Migrated pretty much all script recipes/tags into datapacks. This was necessary because sometimes scripts would require a reload (they didn't load upon server/world start), meaning if players didn't reload the script, then half the custom recipes would not apply. This should also improve world load up times a bit.
+- Slight affix changes. Infusion stat should be almost impossible to find now on stats, and has been replaced by increase elemental attack damage stats. Other things have changed too, but mostly this is in preparation for a huge affix update coming up next, which will bring the current count of ~120 affixes to over 350. The update will also give certain item types more identity, like cloth armor no longer giving armor stats, shields no longer giving spell damage, and more thoughtful affixes, such as dual-element affixes, etc. This will take a while as basically the entire affix system is being overhauled, so not this update!
 - Reduced spawn rate of Swampy, Frostbitten, Burned, and Eskimos.
 - Players have received spell and talent reset potions.
 - Withers, Ender Dragons, Thunder all don't play globally anymore.

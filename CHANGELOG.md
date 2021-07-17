@@ -11,14 +11,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- 2 new PATREON-designed uniques! The first, Ad Nozium, by Nozium: this new summoner's necklace is the first and currently ONLY item in the game that grants the increased duration stat. The second, Sword of Occultos, by Occultos: a fantastic lightning + physical damage sword which increases the power of your summons - what a unique combination... What builds will come from this one?!
+- If you want to design your own set, runeword, or unique item, check out my Patreon!
 - Upon initially logging in, you are now invulnerable for 2 minutes rather than only 15 seconds. This effect only applies if you stay nearly still (aka when logging in).
 - Migrated pretty much all script recipes/tags into datapacks. This was necessary because sometimes scripts would require a reload (they didn't load upon server/world start), meaning if players didn't reload the script, then half the custom recipes would not apply. This should also improve world load up times a bit.
-- Slight affix changes. Infusion stat should be almost impossible to find now on stats, and has been replaced by increase elemental attack damage stats. Other things have changed too, but mostly this is in preparation for a huge affix update coming up next, which will bring the current count of ~120 affixes to over 350. The update will also give certain item types more identity, like cloth armor no longer giving armor stats, shields no longer giving spell damage, and more thoughtful affixes, such as dual-element affixes, etc. This will take a while as basically the entire affix system is being overhauled, so not this update!
+- Slight affix changes. Infusion stat should be almost impossible to find now on stats, and has been replaced by increase elemental attack damage stats. Other things have changed too, but mostly this is in preparation for a huge affix update coming up next, which will bring the current count of ~120 affixes to over 350. The update will also give certain item types more identity, like cloth armor giving less armor stats, shields no longer giving spell damage, and more thoughtful affixes, such as dual-element affixes, etc. There will also be "tiers" of affixes, so instead of trying to find the same affix from level 1-100, new (and better) affixes will be introduced into the affix pool. This will make the early game a little more difficult as the affixes are generally going to be weaker than before. By level 50, affixes will be roughly same same power as currently, but also keep in mind items are more focused so it will be easier to gear up. Note: the affix update will take a while as basically the entire affix system is being overhauled, just wanted to give everyone a heads up that big changes are coming.
 - Reduced spawn rate of Swampy, Frostbitten, Burned, and Eskimos.
+- There are now more milestones in the upper end of Slice of Life, meaning you can get more hearts from it total. So instead of going from 300, 350, 400, it's now 300, 325, 350, ... etc.
+- Slice of Life milestones now provide twice as many hearts than previously. You may need to reset your SoL progress to take advantage of this, I'm not sure. I know there's a command for it though.
 - Players have received spell and talent reset potions.
+- Reduced overall EXP gain rate by ~25%. With recent changes to maps and other mobs, EXP was being gained very, very quickly.
 - Withers, Ender Dragons, Thunder all don't play globally anymore.
 - Disabled Curse of Binding to the best of my ability.
 - Some previously "disabled" enchants that were still obtainable through rare methods should be even rarer.
+- Some unique items have had their stat requirements adjusted.
 
 ### Mine and Slash Updates
 Talent Tree Rehaul:
@@ -26,10 +32,12 @@ Talent Tree Rehaul:
 - General ideas for the tree now: nodes and clusters closer to the start point are more "general/all-encompassing" than previously. Like mentioned above, more "spell damage" vs. "fire spell damage/water spell damage". As you go further from the center, the clusters become more specific. I think the bottom quadrant was most culprit to this, having only specific weapon damage nodes at the start.
 - Left side has been rebranded to be more summon/support heavy. It still retains a lot of block chance, elemental resists, etc. In fact, it no longer gives infusion stats but straight up elemental attack damage percent increases.
 - The starting regions have been heavily changed.
+- Spell Power and Elemental Spell-related nodes have been reduced in power a bit.
+- Bleed Mastery now gives a -15% damage multi to physical damage and -25% damage multi to elemental.
 - Bleed has been changed to have max 20 stacks instead of 8, but deals 10% of your physical attack damage per stack instead of 25%.
 - Blood Mage and Overflowing Vitality have swapped positions.
+- Fortified Reaction now gives a -10% armor multi instead of -20%.
 - Fortified Reaction, Reckless Blows, and Steady Hand have moved.
-- Spell Power and Elemental Spell-related nodes have been reduced in power a bit.
 - Ruthless and Warlock have been toned down in power.
 - Physical damage and DoT nodes have been reduced in effectiveness a bit.
 - Weapon damage nodes (non-elemental) have been buffed.
@@ -89,6 +97,8 @@ Spell Balance Changes:
 - Wounds effect deals less damage per stack. The same applies for its health regen debuff.
 
 Stat Changes:
+- New Stat: Dodge Ignore - it's basically armor pen but for dodge.
+- Armor Penetration has been reworked to ignore a percentage of armor instead of a flat amount of armor. The same mechanic applies to dodge ignore.
 - Spell Damage flat stat has been reduced in power slightly.
 - Spell Damage percent stat has been reduced in power.
 - Magic Shield flat stat has been reduced in power slightly.
@@ -113,7 +123,10 @@ Weapon Changes:
 - The weapon basic attack damage multi is effectively abolished.
 
 Other:
+- 2 new mob affixes that revolve around dodge ignore.
+- 1 new map affix that revolves around dodge ignore.
 - Fixed 2 impossible map rooms (The Mines).
+- Fixed mob spawners in an Ice Temple curved room.
 - Lowered the particle count of some abilities.
 - Fixed Holy Flower not working.
 - Fixed Wounds not doing physical damage and instead doing elemental...

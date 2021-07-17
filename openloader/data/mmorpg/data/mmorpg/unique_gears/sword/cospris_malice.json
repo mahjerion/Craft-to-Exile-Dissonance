@@ -18,8 +18,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0,
-	"dexterity": 1.0
+    "intelligence": 0.75,
+	"dexterity": 0.75
   },
   "gear_type": "sword",
   "item_id": "cte_uniques:cospris_malice"

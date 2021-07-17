@@ -134,7 +134,7 @@ Other:
 - Fixed a bug where some spells weren't affected by increased spell damage. Most notably, Magic Burst, Whirlwind, Charge were some of the ones affected.
 
 ### Mod Updates
-- Updated Xaero's, SuperMartijn624's Core Lib.
+- Updated Xaero's, SuperMartijn624's Core Lib, Craft to Exile Custom Uniques.
 - Added Bad Wither No Cookie - Reloaded.
 
 ### Fixes

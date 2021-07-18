@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.12.0b] - 2021-07-18
+
+### Fixes
+- Fixed Mjolner and Cospri's Malice having incorrect stats.
+
 ## [2.12.0] - 2021-07-18
 
 ### Updates
@@ -158,6 +163,7 @@ Other:
 - Fixed Structures' Compass recipe missing.
 - Fixed some affixes not working.
 - Disabled a really, really dumb elytra dupe recipe.
+- True infinity enchant has returned.
 - Changed some item recipes previously changed by scripts to be changed via datapacks instead. The scripts are somewhat unreliable.
 
 ## [2.11.0c] - 2021-07-10

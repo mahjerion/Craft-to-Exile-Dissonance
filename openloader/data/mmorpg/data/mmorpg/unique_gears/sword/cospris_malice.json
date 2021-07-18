@@ -14,7 +14,7 @@
     "spell_water_damage_flat",
 	"critical_hit_flat",
 	"physical_dispersion_flat",
-	"double_less_energy_regen_flat"
+	"less_energy_regen_percent"
   ],
   "can_get_set": false,
   "requirements": {

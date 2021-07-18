@@ -31,7 +31,7 @@
   },
   "mods": {
     "2": "nature_penetration_flat",
-    "3": "nature_focus_flat",
+    "3": "attack_nature_damage_percent",
     "4": "spell_nature_damage_flat"
   }
 }

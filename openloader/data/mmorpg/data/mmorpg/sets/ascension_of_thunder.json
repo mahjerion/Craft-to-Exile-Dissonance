@@ -31,7 +31,7 @@
   },
   "mods": {
     "2": "thunder_penetration_flat",
-    "3": "thunder_focus_flat",
+    "3": "attack_thunder_damage_percent",
     "4": "spell_thunder_damage_flat"
   }
 }

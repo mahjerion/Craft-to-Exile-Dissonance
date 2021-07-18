@@ -13,7 +13,7 @@
   "unique_stats": [
     "spell_fire_damage_flat",
     "very_high_critical_hit_percent",
-    "fire_focus_flat",
+    "low_all_dot_dmg_flat",
 	"physical_dispersion_flat"
   ],
   "can_get_set": false,

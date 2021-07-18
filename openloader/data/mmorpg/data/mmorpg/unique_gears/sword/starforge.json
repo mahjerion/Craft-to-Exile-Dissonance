@@ -12,8 +12,8 @@
   "unique_stats": [
     "high_physical_damage_percent",
     "high_health_flat",
+	"attack_thunder_damage_percent",
 	"spell_thunder_damage_flat",
-	"thunder_spell_to_attack_dmg_percent",
 	"physical_dispersion_flat"
   ],
   "can_get_set": false,

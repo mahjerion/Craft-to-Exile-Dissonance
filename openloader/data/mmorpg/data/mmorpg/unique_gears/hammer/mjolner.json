@@ -9,11 +9,11 @@
   "primary_stats": [
     "attack_thunder_damage_flat"
   ],
-  "unique_stats": [
+  "unique_stats": [,
+    "plus_storm_skill_lvls_flat",
     "thunder_focus_flat",
-    "high_thunder_spell_to_attack_dmg_flat",
-    "high_thunder_spell_to_attack_dmg_percent",
-    "plus_storm_skill_lvls_flat"
+    "high_all_thunder_damage_flat",
+    "double_less_elemental_flat"
   ],
   "can_get_set": false,
   "requirements": {

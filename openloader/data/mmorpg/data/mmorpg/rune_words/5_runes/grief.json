@@ -13,9 +13,9 @@
     "goh"
   ],
   "mods": [
-	"nature_focus_flat",
+	"all_nature_damage_flat",
+    "attack_nature_damage_percent",
     "nature_spell_to_attack_dmg_flat",
-    "nature_spell_to_attack_dmg_percent",
     "nature_penetration_flat"
   ]
 }

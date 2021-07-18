@@ -10,11 +10,11 @@
     "attack_water_damage_flat"
   ],
   "unique_stats": [
+    "all_water_damage_flat",
     "spell_water_damage_flat",
-    "high_water_spell_to_attack_dmg_percent",
-	"water_focus_flat",
 	"critical_hit_flat",
-	"physical_dispersion_flat"
+	"physical_dispersion_flat",
+	"double_less_energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {

@@ -12,7 +12,7 @@
   "unique_stats": [
     "very_high_critical_damage_flat",
     "very_high_critical_hit_percent",
-    "thunder_focus_flat"
+    "energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {

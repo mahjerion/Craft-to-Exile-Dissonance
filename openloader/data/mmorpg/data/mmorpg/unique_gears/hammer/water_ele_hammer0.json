@@ -9,10 +9,10 @@
   "primary_stats": [
     "high_attack_water_damage_flat"
   ],
-  "unique_stats": [
+  "unique_stats": [,
+    "all_water_damage_flat",
     "cdr_flat",
-    "high_increase_healing_flat",
-    "water_focus_flat"
+    "high_increase_healing_flat"
   ],
   "can_get_set": false,
   "requirements": {

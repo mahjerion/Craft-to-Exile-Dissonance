@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Disabled Curse of Binding to the best of my ability.
 - Some previously "disabled" enchants that were still obtainable through rare methods should be even rarer.
 - Some unique items have had their stat requirements adjusted.
+- Some uniques with elemental focus stats have had them replaced (mostly).
 
 ### Mine and Slash Updates
 Talent Tree Rehaul:
@@ -32,6 +33,7 @@ Talent Tree Rehaul:
 - General ideas for the tree now: nodes and clusters closer to the start point are more "general/all-encompassing" than previously. Like mentioned above, more "spell damage" vs. "fire spell damage/water spell damage". As you go further from the center, the clusters become more specific. I think the bottom quadrant was most culprit to this, having only specific weapon damage nodes at the start.
 - Left side has been rebranded to be more summon/support heavy. It still retains a lot of block chance, elemental resists, etc. In fact, it no longer gives infusion stats but straight up elemental attack damage percent increases.
 - The starting regions have been heavily changed.
+- The tree now has Increased Area of Effect, Increased Duration, and Increased Projectile Speed nodes.
 - Spell Power and Elemental Spell-related nodes have been reduced in power a bit.
 - Bleed Mastery now gives a -15% damage multi to physical damage and -25% damage multi to elemental.
 - Bleed has been changed to have max 20 stacks instead of 8, but deals 10% of your physical attack damage per stack instead of 25%.
@@ -56,6 +58,7 @@ Summon Changes/Fixes:
 - Summons now disappear if you die or change dimensions (this is to prevent crashes).
 - Summons have about 25% less HP (they had too much with the recent addition of bonus HP per level).
 - Summons move a little slower now.
+- Fixed an issue where Summon Attacks weren't actually being registered as attacks.
 - Fixed an issue where attacking an untamed tameable entity would cause errors.
 - Fixed an issue where you could hurt your own or teammates' summons.
 - Fixed a ticking entity issue with summons.
@@ -65,9 +68,11 @@ Spell Balance Changes:
 - Ice Bolt, Fire Ball, Lightning Spear, and Poison Ball damage have been reworked to be lower and not as rewarding for investing points into them. Overall, Lightning Spear has had its damage hit the hardest with the synergy and speed buffs outlined below.
 - The synergies of the above spells have been buffed.
 - Reduced the energy cost of most attack spells.
-- Reduced the cooldown of every spell EXCEPT: Whirlwind, Heavy Strike, Basic Spells, Arrow Barrage, Arrow Storm, Craft Arrow, Dash, Exert/Imbue, Hunting Potion, Summons, Poisoned Weapons, 
+- Reduced the cooldown of every spell EXCEPT: Whirlwind, Heavy Strike, Basic Spells, Arrow Barrage, Arrow Storm, Craft Arrow, Dash, Exert/Imbue, Hunting Potion, Summons, Poisoned Weapons.
+- Some spells like Fire Bombs, Lightning Totem, and a few others' radius now scales with ability level.
 - Life Siphon can no longer be set to right-click.
 - Life Siphon cooldown has been increased (didn't realize the cooldown was shorter than the duration).
+- Animate Scythe now does the two hits at the same time instead of a channel. Channelling messes with right click binding code.
 - Chilling Touch costs slightly more energy now.
 - Poison Balls has been renamed to Poison Ball again.
 - Poison Ball only fires 1 projectile again.
@@ -80,6 +85,8 @@ Spell Balance Changes:
 - Lightning Spear now has a higher chance of granting Lightning Essence.
 - Lightning Spear now grants Speed I (20% speed boost) for 2 seconds after hitting an enemy.
 - Lightning Essence now grants some reduced mana cost per stack.
+- Lightning Dash can be learned 10 levels earlier now.
+- Critical and Power Surge can be learned at level 30 instead of 5 now.
 - Reduced the mana cost of Charged Sweep.
 - Charged Sweep can now be learned at level 1 instead of 5.
 - Charged Sweep max level is now 16 instead of 12.
@@ -98,9 +105,13 @@ Spell Balance Changes:
 
 Stat Changes:
 - New Stat: Dodge Ignore - it's basically armor pen but for dodge.
+- New Stat: Increased Duration.
+- New Stat: Increased Area of Effect.
+- New Stat: Increased Projectile Speed.
 - Armor Penetration has been reworked to ignore a percentage of armor instead of a flat amount of armor. The same mechanic applies to dodge ignore.
 - Spell Damage flat stat has been reduced in power slightly.
 - Spell Damage percent stat has been reduced in power.
+- Elemental Focus stat has been reduced in power.
 - Magic Shield flat stat has been reduced in power slightly.
 - Magic Shield and MS Regen percent stats have been toned down slightly.
 - Physical Damage percent stat has been increased in power.
@@ -128,13 +139,16 @@ Other:
 - Fixed 2 impossible map rooms (The Mines).
 - Fixed mob spawners in an Ice Temple curved room.
 - Lowered the particle count of some abilities.
+- Spell duration has been properly implemented for some spells.
+- Spells with a changeable duration have been tagged appropriately.
+- Fixed some channel spells casting an additional time at the end.
 - Fixed Holy Flower not working.
 - Fixed Wounds not doing physical damage and instead doing elemental...
 - Fixed incorrect tooltip for Divine and Unholy masteries.
 - Fixed a bug where some spells weren't affected by increased spell damage. Most notably, Magic Burst, Whirlwind, Charge were some of the ones affected.
 
 ### Mod Updates
-- Updated Xaero's, SuperMartijn624's Core Lib, Craft to Exile Custom Uniques.
+- Updated Xaero's, SuperMartijn624's Core Lib, Craft to Exile Custom Uniques, Mine and Slash.
 - Added Bad Wither No Cookie - Reloaded.
 
 ### Fixes

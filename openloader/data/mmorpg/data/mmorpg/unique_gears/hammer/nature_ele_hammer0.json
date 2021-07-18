@@ -14,7 +14,7 @@
     "high_critical_hit_percent",
 	"very_high_health_regen_flat",
 	"health_flat",
-    "ignore_dodge_flat"
+    "dodge_ignore_flat"
   ],
   "can_get_set": false,
   "requirements": {

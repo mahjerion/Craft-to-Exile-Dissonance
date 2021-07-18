@@ -157,6 +157,7 @@ Other:
 - Fixed Naj's Ancient Vestige set not spawning.
 - Fixed Structures' Compass recipe missing.
 - Fixed some affixes not working.
+- Disabled a really, really dumb elytra dupe recipe.
 - Changed some item recipes previously changed by scripts to be changed via datapacks instead. The scripts are somewhat unreliable.
 
 ## [2.11.0c] - 2021-07-10

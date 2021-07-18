@@ -1,0 +1,13 @@
+{
+  "type": "quark:elytra_duplication",
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "dragon_scales"
+    },
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+} 

@@ -102,19 +102,19 @@
 	offHal = "RIGHT"
 	#InvIcon horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	invHal = "MIDDLE"
+	invHal = "RIGHT"
 	#Inventory HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	invValign = "BOTTOM"
 	#InvIcon position (X)
 	#Range: -9999 ~ 9999
-	invPosX = -103
+	invPosX = 269
 	#Potion HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	potHalign = "LEFT"
 	#InvIcon position (Y)
 	#Range: -9999 ~ 9999
-	invPosY = 20
+	invPosY = 16
 	#Boots horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	bootHal = "RIGHT"
@@ -174,7 +174,7 @@
 	potValign = "CENTER"
 	#Arrows position (X)
 	#Range: -9999 ~ 9999
-	arrPosX = 16
+	arrPosX = 140
 	#Inventory HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
 	invHalign = "MIDDLE"

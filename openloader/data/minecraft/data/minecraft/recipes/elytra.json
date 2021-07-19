@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+	"#D#",
+	"# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:phantom_membrane"
+	},
+    "D": {
+      "item": "quark:dragon_scale"
+	},
+    "M": {
+      "item": "mmorpg:mat/crystallized_essence"
+	}
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}

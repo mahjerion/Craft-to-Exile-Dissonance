@@ -10,7 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.12.1] - 2021-XX-XX
 
 ### Updates
-- Elytras are craftable.
+- Elytras are craftable with a new recipe!
+- Mobs in the tower dungeons with sprawling underground mazes no longer spawn with armor. The armor didn't actually affect their stats and was causing a lot of lag issues.
+- Karui Ward unique now gives increased projectile speed.
+
+### Fixes
+- You can make steel using IE blast furnaces again.
 
 ## [2.12.0b] - 2021-07-18
 

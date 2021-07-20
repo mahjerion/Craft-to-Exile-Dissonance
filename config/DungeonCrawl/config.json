@@ -27,12 +27,7 @@
   "bows": [
     "minecraft:bow"
   ],
-  "colored_armor": [
-    "minecraft:leather_boots",
-    "minecraft:leather_pants",
-    "minecraft:leather_chestplate",
-    "minecraft:leather_helmet"
-  ],
+  "colored_armor": [],
   "swords": [
     "minecraft:stone_sword",
     "minecraft:golden_sword",
@@ -55,90 +50,40 @@
   ],
   "armor_sets_stage_1": [
     {
-      "resourceNames": [
-        "minecraft:leather_boots",
-        "minecraft:leather_leggings",
-        "minecraft:leather_chestplate",
-        "minecraft:leather_helmet"
-      ]
+      "resourceNames": []
     }
   ],
   "armor_sets_stage_2": [
     {
-      "resourceNames": [
-        "minecraft:leather_boots",
-        "minecraft:leather_leggings",
-        "minecraft:leather_chestplate",
-        "minecraft:leather_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:golden_boots",
-        "minecraft:golden_leggings",
-        "minecraft:golden_chestplate",
-        "minecraft:golden_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:chainmail_boots",
-        "minecraft:chainmail_leggings",
-        "minecraft:chainmail_chestplate",
-        "minecraft:chainmail_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:iron_boots",
-        "minecraft:iron_leggings",
-        "minecraft:iron_chestplate",
-        "minecraft:iron_helmet"
-      ]
+      "resourceNames": []
     }
   ],
   "armor_sets_stage_3": [
     {
-      "resourceNames": [
-        "minecraft:leather_boots",
-        "minecraft:leather_leggings",
-        "minecraft:leather_chestplate",
-        "minecraft:leather_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:golden_boots",
-        "minecraft:golden_leggings",
-        "minecraft:golden_chestplate",
-        "minecraft:golden_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:chainmail_boots",
-        "minecraft:chainmail_leggings",
-        "minecraft:chainmail_chestplate",
-        "minecraft:chainmail_helmet"
-      ]
+      "resourceNames": []
     },
     {
-      "resourceNames": [
-        "minecraft:iron_boots",
-        "minecraft:iron_leggings",
-        "minecraft:iron_chestplate",
-        "minecraft:iron_helmet"
-      ]
+      "resourceNames": []
     }
   ],
   "armor_rare": [
     {
-      "resourceNames": [
-        "minecraft:diamond_boots",
-        "minecraft:diamond_leggings",
-        "minecraft:diamond_chestplate",
-        "minecraft:diamond_helmet"
-      ]
+      "resourceNames": []
     }
   ],
   "bow_enchantments": [

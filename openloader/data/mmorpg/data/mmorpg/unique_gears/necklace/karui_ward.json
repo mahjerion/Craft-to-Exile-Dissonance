@@ -12,7 +12,8 @@
   "unique_stats": [
     "high_strength_flat",
     "bow_damage_flat",
-    "dodge_flat"
+    "dodge_flat",
+	"increased_proj_speed_flat"
   ],
   "can_get_set": false,
   "requirements": {

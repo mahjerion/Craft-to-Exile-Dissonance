@@ -24,13 +24,13 @@
 	no_spawners = false
 	#The Probability of a spawner entity having a shield in the offhand.
 	#Range: 0.01 ~ 1.0
-	shield_probability = 0.25
+	shield_probability = 0.1
 	#Set this to true if you want to prevent that the last layer of each dungeon will contain nether content.
 	no_nether_stuff = false
 	#If set to true, the dungeon generation will ignore the biome blacklist and generate dungeons in any overworld biome.
 	ignore_overworld_blacklist = false
 	#Determines if vanilla spawners or modified spawners with armor, weapons etc... should be used.
-	use_vanilla_spawners = false
+	use_vanilla_spawners = true
 	#Whether mobs from spawners should despawn naturally or not.
 	natural_despawn = true
 	#This value defines how many mobs do get spawned manually during the generation. (if no_spawners = true, there is no effect otherwise)
@@ -38,5 +38,5 @@
 	mob_spawn_rate = 0.05
 	#The number of different entities per spawner. Increasing the number increases the diversity of the monster equipment.
 	#Range: 1 ~ 128
-	spawner_entities = 8
+	spawner_entities = 6
 

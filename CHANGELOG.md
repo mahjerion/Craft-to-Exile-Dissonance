@@ -10,9 +10,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.12.1] - 2021-XX-XX
 
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Elytras are craftable with a new recipe!
 - Mobs in the tower dungeons with sprawling underground mazes no longer spawn with armor. The armor didn't actually affect their stats and was causing a lot of lag issues.
 - Karui Ward unique now gives increased projectile speed.
+- Some crossbow enchantments have been toned down in power.
+
+### Mod Updates
+- Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib.
 
 ### Fixes
 - You can make steel using IE blast furnaces again.

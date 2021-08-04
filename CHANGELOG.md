@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Some crossbow enchantments have been toned down in power.
 
 ### Mod Updates
-- Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib.
+- Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib, Dungeon Crawl.
 
 ### Fixes
 - You can make steel using IE blast furnaces again.

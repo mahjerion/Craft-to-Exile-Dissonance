@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/iron"
+  },
+  "result": "mapperbase:steel_block",
+  "experience": 2.0,
+  "cookingtime": 960,
+  "conditions": [
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "allthemodium"
+	}
+  ]
+}

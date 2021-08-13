@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.12.1] - 2021-XX-XX
+## [2.12.1] - 2021-08-13
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
@@ -16,11 +16,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Karui Ward unique now gives increased projectile speed.
 - Some crossbow enchantments have been toned down in power.
 
+### Mine and Slash Updates
+- Changed the health and physical damage nodes in the bottom near the start to big instead of major.
+- Hopefully fixed an issue with Dodge Ignore stat.
+- Increase Healing/Heal Power has been reworked slightly and should now affect outgoing heals.
+- Summon spells now grant more minion health per level.
+- Summon Zombie has a higher base damage value per level, but lower attack scaling.
+- Summon Hunting Wolf has a lower base damage value per level, and lower attack scaling.
+- Summon Skeletal Army skeletons' attack scaling has been reduced.
+- Fixed a rare crash involving summons.
+
+
 ### Mod Updates
-- Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib, Dungeon Crawl.
+- Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib, SuperMartijn624's Config Lib, Dungeon Crawl, Gaia Dimension, Mine and Slash.
 
 ### Fixes
 - You can make steel using IE blast furnaces again.
+- Properly disabled vanilla blast furnace iron -> steel recipes.
+- Hopefully the memory leak issue in the Gaia dimension has been fixed.
 
 ## [2.12.0b] - 2021-07-18
 

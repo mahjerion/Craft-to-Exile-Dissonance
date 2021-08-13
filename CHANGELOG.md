@@ -26,7 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Summon Skeletal Army skeletons' attack scaling has been reduced.
 - Fixed a rare crash involving summons.
 
-
 ### Mod Updates
 - Updated Structures' Compass, Xaero's, SuperMartijn624's Core Lib, SuperMartijn624's Config Lib, Dungeon Crawl, Gaia Dimension, Mine and Slash.
 

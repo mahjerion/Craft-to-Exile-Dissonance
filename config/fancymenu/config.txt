@@ -16,6 +16,7 @@ I:defaultguiscale = '2';
 
 ##[customization]
 
+B:advancedmode = 'false';
 B:showcustomizationbuttons = 'false';
 
 
@@ -46,8 +47,8 @@ B:allowgameintroskip = 'true';
 S:loadinganimationcolor = '#8b0a0a';
 B:showanimationloadingstatus = 'true';
 S:gameintroanimation = '';
+B:preloadanimations = 'false';
 S:customgameintroskiptext = '';
-B:loadingscreendarkmode = 'false';
 
 
 ##[minecraftwindow]

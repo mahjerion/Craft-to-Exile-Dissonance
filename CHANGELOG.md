@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Updated to Forge 31.2.55.
+- Some new bridge blocks from Macaw's have been added.
+
+### Mine and Slash Updates
+- Updated Chinese localization. Thank you gulugulu!
+- Changed sound of reflect/thorns stat.
+- Reflect/thorns now applies passively and doesn't require you to hold up your shield. It will not apply if you dodge the hit.
+- A "failed" block now reduces damage by 50% instead of 25%.'
+- Fixed shield [Shift] information.
+- Increased scaling value of Double Shot.
+- Increased bow damage.
+- Made it easier to stack critical hit.
+
+### Mod Updates
+- Updated Mine and Slash, Mixin Bootstrap, CraftPresence, FancyMenu, Inventory HUD+, Macaw Bridges, Xaero's.
+
 ## [2.12.1] - 2021-08-13
 
 ### Updates

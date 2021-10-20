@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.12.3] - 2021-10-XX
+
 ### Updates
 - The following updates are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
 - New craftable unique staff: Spire of Lazarus. This unique goes from level 31-40, and has a 30% chance of rolling as the Spire of Lazarus unique when crafted.

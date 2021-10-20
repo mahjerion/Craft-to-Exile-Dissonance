@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  B",
+    " A ",
+    "C  "
+  ],
+  "key": {  
+	"C": {
+      "item": "minecraft:nether_star"
+    }, 
+	"A": {
+      "tag": "forge:rods/wooden"
+    }, 
+	"B": {
+      "item": "mmorpg:mat/crystallized_essence"
+    }
+  },
+  "result": {
+    "item": "ctecu:spire_of_lazarus"
+  }
+}

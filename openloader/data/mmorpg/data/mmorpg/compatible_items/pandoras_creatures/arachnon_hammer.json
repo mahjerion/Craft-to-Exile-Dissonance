@@ -3,9 +3,9 @@
   "item_id": "pandoras_creatures:arachnon_hammer",
   "id": "hammer:pandoras_creatures:arachnon_hammer",
   "gear_type": {
-    "normal_item_weight": 75,
+    "normal_item_weight": 80,
     "runed_item_weight": 0,
-    "unique_item_weight": 25
+    "unique_item_weight": 20
   },
   "rarity": {
     "min_rarity": 1,

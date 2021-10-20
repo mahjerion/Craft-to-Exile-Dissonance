@@ -3,9 +3,9 @@
   "item_id": "aquaculture:neptunium_bow",
   "id": "bow:aquaculture:neptunium_bow",
   "gear_type": {
-    "normal_item_weight": 99,
+    "normal_item_weight": 80,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 20
   },
   "rarity": {
     "min_rarity": 0,
@@ -23,7 +23,7 @@
     "level_variance": 0
   },
   "unique": {
-    "if_unique_random_up_to_tier": 2,
-    "unique_id": ""
+    "if_unique_random_up_to_tier": 10,
+    "unique_id": "silverbranch_bow"
   }
 }

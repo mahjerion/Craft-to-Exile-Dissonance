@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- The following updates are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
+- Neptunium Bows now have a 20% chance of rolling as the Silverbranch unique bow.
+- Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down, but the percent physical damage increased.
+- The Lore runeword (Goh, Ano) now provides high mana regen and high energy regen stats instead of energy regen and lightning resistances.
+- The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 20%.
+
 ## [2.12.2] - 2021-09-29
 
 ### Updates

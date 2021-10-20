@@ -10,7 +10,7 @@
     "ano"
   ],
   "mods": [
-    "energy_regen_percent",
-	"thunder_resist_flat"
+    "high_mana_regen_flat",
+	"high_energy_regen_flat"
   ]
 }

@@ -9,10 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updates
 - The following updates are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
+- New craftable unique staff: Spire of Lazarus. This unique goes from level 31-40, and has a 30% chance of rolling as the Spire of Lazarus unique when crafted.
 - Neptunium Bows now have a 20% chance of rolling as the Silverbranch unique bow.
 - Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down, but the percent physical damage increased.
 - The Lore runeword (Goh, Ano) now provides high mana regen and high energy regen stats instead of energy regen and lightning resistances.
-- The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 20%.
+- The Arachnon Hammer now rolls from Lv. 16-40, instead of 1-35. The early game power from the hammer was just too much, making melee far too strong early-game.
+- The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 15%.
+
+### Mod Updates
+- Updated Craft to Exile Custom Uniques.
 
 ## [2.12.2] - 2021-09-29
 

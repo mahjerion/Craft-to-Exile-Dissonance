@@ -3,9 +3,9 @@
   "item_id": "pandoras_creatures:arachnon_hammer",
   "id": "hammer:pandoras_creatures:arachnon_hammer",
   "gear_type": {
-    "normal_item_weight": 80,
+    "normal_item_weight": 85,
     "runed_item_weight": 0,
-    "unique_item_weight": 20
+    "unique_item_weight": 15
   },
   "rarity": {
     "min_rarity": 1,
@@ -18,8 +18,8 @@
     "can_be_salvaged": true
   },
   "level": {
-    "min_level": 1,
-    "max_level": 35,
+    "min_level": 16,
+    "max_level": 40,
     "level_variance": 0
   },
   "unique": {

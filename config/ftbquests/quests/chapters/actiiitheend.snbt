@@ -800,6 +800,168 @@
 				type: "item",
 				item: "productivebees:inactive_dragon_egg"
 			}]
+		},
+		{
+			title: "Having Trouble, Melee Edition",
+			x: -1.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Arachnon Hammers are a great starting weapon. They have fantasic mining capabilities, and have a 15% chance to roll as a powerful unique!"],
+			min_required_dependencies: 0,
+			dependencies: [I;244],
+			dependency_requirement: "all_completed",
+			id: 2778,
+			tasks: [{
+				id: 2779,
+				type: "item",
+				item: {
+					id: "pandoras_creatures:arachnon_hammer",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2784,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "strength_req_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				},
+				{
+					id: 2789,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "rune_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Having Trouble, Ranged Edition",
+			x: 0.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Neptunium Bow requires some work to get, but has a 20% chance of rolling as a Silverbranch unique!"],
+			min_required_dependencies: 0,
+			dependencies: [I;244],
+			dependency_requirement: "all_completed",
+			id: 2780,
+			tasks: [{
+				id: 2781,
+				type: "item",
+				item: {
+					id: "aquaculture:neptunium_bow",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2785,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "dexterity_req_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				},
+				{
+					id: 2788,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "rune_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Having Trouble, Spells Edition",
+			x: 1.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["The Spire of Lazarus has a 30% chance of rolling as a powerful unique for spell casters!"],
+			min_required_dependencies: 0,
+			dependencies: [I;244],
+			dependency_requirement: "all_completed",
+			id: 2782,
+			tasks: [{
+				id: 2783,
+				type: "item",
+				item: {
+					id: "ctecu:spire_of_lazarus",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 2786,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "intelligence_req_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				},
+				{
+					id: 2787,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "rune_crate",
+							LVL: 30,
+							SCORE: "GOOD",
+							TIER: 5
+						}
+					}
+				}
+			]
 		}
 	]
 }

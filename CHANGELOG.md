@@ -19,8 +19,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 15%.
 - 3 new quests in chapter III (The End) which highlight the craftable uniques.
 
+### Mine and Slash Updates
+- Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.
+- Weapon damage scaling has been toned down. Previously, weapon scaling would be almost 50% more than that of spells and other stats. Now, it should be roughly the same.
+- In general, you will feel weaker, but scaling should be more balanced between the play styles. Keep in mind that mobs will also scale slower too.
+
 ### Mod Updates
-- Updated Craft to Exile Custom Uniques.
+- Updated Craft to Exile Custom Uniques, Mine and Slash.
 
 ## [2.12.2] - 2021-09-29
 

@@ -1,6 +1,0 @@
-usingMultiworldDetection:false
-ignoreServerLevelId:false
-teleportationEnabled:true
-usingDefaultTeleportCommand:true
-sortType:NONE
-sortReversed:false

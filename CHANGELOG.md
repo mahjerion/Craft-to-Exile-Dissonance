@@ -64,6 +64,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Crash involving Dungeon Crawl generation should be fixed.
 - Fixed modpack-side server config changes not reapplying properly.
 - Fixed some uniques having too high attack speed.
+- I think I fixed the issue where Dimensional Dungeons was not dropping good loot.
 
 ## [2.12.2] - 2021-09-29
 

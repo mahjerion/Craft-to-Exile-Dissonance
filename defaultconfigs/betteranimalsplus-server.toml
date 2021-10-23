@@ -1,0 +1,692 @@
+
+[entities]
+
+	[entities.brownbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.brownbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "traverse:snowy_coniferous_forest", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.blackbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.blackbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "traverse:snowy_coniferous_forest", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.deer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.deer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 16
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "gaiadimension:purple_agate_swamp", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_mountains", "goodnightsleep:good_dream_plains", "midnight:runebush_grove", "traverse:snowy_coniferous_forest", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.lammergeier]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.lammergeier.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["atmospheric:rocky_dunes_hills", "minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "tropicraft:rainforest_mountains", "minecraft:wooded_hills", "minecraft:flower_forest", "traverse:rolling_hills", "minecraft:giant_spruce_taiga_hills", "midnight:obscured_peaks", "gaiadimension:static_wasteland", "minecraft:birch_forest_hills", "minecraft:modified_jungle", "traverse:plains_plateau", "midnight:black_ridge", "traverse:high_coniferous_forest", "tropicraft:rainforest_island_mountains", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "midnight:hilly_fungi_forest", "minecraft:tall_birch_hills", "minecraft:desert_hills", "midnight:warped_fields", "minecraft:wooded_mountains", "minecraft:modified_gravelly_mountains", "minecraft:modified_jungle_edge", "minecraft:shattered_savanna_plateau", "atum:limestone_crags", "atum:sand_dunes", "traverse:snowy_high_coniferous_forest", "terraforged:shattered_savanna_scrub", "minecraft:shattered_savanna", "minecraft:mountains", "minecraft:mountain_edge", "minecraft:snowy_taiga_mountains", "atum:sand_hills", "minecraft:modified_wooded_badlands_plateau", "traverse:rock_edge", "terraforged:flower_plains", "atmospheric:rosewood_mountains", "minecraft:snowy_mountains", "tropicraft:rainforest_hills", "minecraft:swamp_hills", "autumnity:maple_forest_hills", "traverse:autumnal_wooded_hills", "minecraft:jungle_hills", "midnight:hilly_vigilant_forest", "minecraft:ice_spikes", "traverse:wooded_plateau", "tropicraft:tropics_ocean", "midnight:obscured_plateau", "minecraft:eroded_badlands", "minecraft:modified_badlands_plateau", "gaiadimension:volcanic_lands", "traverse:coniferous_woodland_hills_biome", "minecraft:gravelly_mountains", "atum:limestone_mountains", "traverse:snowy_coniferous_wooded_hills", "traverse:arid_highlands"]
+
+	[entities.feralwolf]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.feralwolf.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "gaiadimension:purple_agate_swamp", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "midnight:obscured_peaks", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "midnight:black_ridge", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "midnight:warped_fields", "minecraft:wooded_mountains", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_mountains", "goodnightsleep:good_dream_plains", "goodnightsleep:nightmare_hills", "midnight:runebush_grove", "traverse:snowy_coniferous_forest", "midnight:night_plains", "midnight:deceitful_bog", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "midnight:phantasmal_valley", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "midnight:obscured_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.coyote]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+		#Makes coyote always hostile (removes ability to tame!)
+		hostile_during_daytime = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:rabbit", "minecraft:chicken", "betteranimalsplus:pheasantraw", "minecraft:cooked_rabbit", "minecraft:cooked_chicken", "betteranimalsplus:pheasantcooked"]
+
+		[entities.coyote.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["the_bumblezone:hive_pillar", "minecraft:plains", "minecraft:badlands_plateau", "gaiadimension:crystal_plains", "midnight:crystal_spires", "atum:sand_hills", "atum:sand_plains", "traverse:rolling_hills", "minecraft:desert", "midnight:night_plains", "atum:deadwood_forest", "minecraft:savanna_plateau", "swampexpansion:marsh", "traverse:plains_plateau", "minecraft:sunflower_plains", "atum:dried_river", "minecraft:desert_lakes", "minecraft:wooded_badlands_plateau", "traverse:meadow", "tropicraft:tropics", "midnight:phantasmal_valley", "minecraft:badlands", "gaiadimension:salt_dunes", "atum:dead_oasis", "gaiadimension:goldstone_lands", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "minecraft:desert_hills", "mining_dimension:mining_biome", "minecraft:savanna", "the_bumblezone:sugar_water_floor", "atum:limestone_crags", "atum:limestone_mountains", "atum:sand_dunes", "traverse:desert_shrubland"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.tarantula]
+
+		[entities.tarantula.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "minecraft:badlands", "gaiadimension:salt_dunes", "atum:sand_hills", "atum:dead_oasis", "atum:sand_plains", "minecraft:desert", "atum:deadwood_forest", "minecraft:desert_hills", "atum:limestone_crags", "atum:limestone_mountains", "atum:sand_dunes", "atum:dried_river", "minecraft:desert_lakes", "traverse:desert_shrubland"]
+
+	[entities.goat]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+		#Enabling this will cause goats to give out vanilla milk instead of goat milk.
+		use_vanilla_milk = false
+
+		[entities.goat.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 9
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["atmospheric:rocky_dunes_hills", "minecraft:taiga_mountains", "midnight:crystal_spires", "endergetic:poise_forest", "minecraft:giant_spruce_taiga_hills", "midnight:obscured_peaks", "atum:deadwood_forest", "minecraft:modified_jungle", "traverse:plains_plateau", "midnight:black_ridge", "traverse:high_coniferous_forest", "traverse:meadow", "minecraft:tall_birch_forest", "midnight:hilly_fungi_forest", "gaiadimension:fossil_woodland", "minecraft:tall_birch_hills", "minecraft:desert_hills", "minecraft:savanna", "atum:limestone_crags", "atum:sand_dunes", "autumnity:pumpkin_fields", "minecraft:plains", "gaiadimension:crystal_plains", "minecraft:mountains", "atum:sand_hills", "midnight:runebush_grove", "atum:sand_plains", "traverse:snowy_coniferous_forest", "terraforged:flower_plains", "tropicraft:tropics", "gaiadimension:mutant_agate_wildwood", "minecraft:jungle_edge", "traverse:coniferous_forest", "minecraft:taiga", "tropicraft:rainforest_hills", "autumnity:maple_forest_hills", "traverse:autumnal_wooded_hills", "minecraft:jungle_hills", "traverse:wooded_plateau", "tropicraft:tropics_ocean", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "mining_dimension:mining_biome", "midnight:obscured_plateau", "minecraft:modified_badlands_plateau", "minecraft:giant_tree_taiga", "the_bumblezone:sugar_water_floor", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "traverse:arid_highlands", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau", "the_bumblezone:hive_pillar", "minecraft:snowy_taiga_hills", "tropicraft:rainforest_mountains", "minecraft:dark_forest", "minecraft:wooded_hills", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "traverse:rolling_hills", "gaiadimension:pink_agate_forest", "gaiadimension:static_wasteland", "minecraft:birch_forest_hills", "swampexpansion:marsh", "midnight:vigilant_forest", "minecraft:sunflower_plains", "tropicraft:rainforest_island_mountains", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "atmospheric:rosewood_forest", "midnight:warped_fields", "minecraft:wooded_mountains", "minecraft:modified_gravelly_mountains", "minecraft:modified_jungle_edge", "minecraft:shattered_savanna_plateau", "traverse:snowy_high_coniferous_forest", "terraforged:shattered_savanna_scrub", "minecraft:shattered_savanna", "minecraft:mountain_edge", "minecraft:snowy_taiga_mountains", "midnight:night_plains", "minecraft:savanna_plateau", "terraforged:savanna_scrub", "minecraft:modified_wooded_badlands_plateau", "traverse:rock_edge", "traverse:woodlands", "atmospheric:rosewood_mountains", "minecraft:snowy_mountains", "midnight:phantasmal_valley", "minecraft:birch_forest", "traverse:autumnal_woods", "terraforged:steppe", "minecraft:swamp_hills", "gaiadimension:goldstone_lands", "autumnity:maple_forest", "midnight:hilly_vigilant_forest", "minecraft:ice_spikes", "atmospheric:rosewood_plateau", "minecraft:eroded_badlands", "gaiadimension:volcanic_lands", "traverse:coniferous_woodland_hills_biome", "minecraft:gravelly_mountains", "atum:limestone_mountains"]
+
+	[entities.jellyfish]
+
+		[entities.jellyfish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:warm_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "gaiadimension:mineral_reservoir", "tropicraft:tropics_ocean", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:deep_cold_ocean"]
+
+	[entities.pheasant]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.pheasant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 12
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "the_bumblezone:hive_pillar", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "traverse:rolling_hills", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "swampexpansion:marsh", "traverse:plains_plateau", "midnight:vigilant_forest", "minecraft:sunflower_plains", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "traverse:meadow", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "gaiadimension:fossil_woodland", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "minecraft:savanna", "minecraft:shattered_savanna_plateau", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:plains", "terraforged:shattered_savanna_scrub", "minecraft:shattered_savanna", "gaiadimension:crystal_plains", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "atum:sand_plains", "traverse:snowy_coniferous_forest", "midnight:night_plains", "minecraft:savanna_plateau", "terraforged:savanna_scrub", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "tropicraft:tropics", "minecraft:jungle_edge", "minecraft:birch_forest", "midnight:phantasmal_valley", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "terraforged:steppe", "autumnity:maple_forest_hills", "autumnity:maple_forest", "gaiadimension:goldstone_lands", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "atmospheric:rosewood_plateau", "mining_dimension:mining_biome", "minecraft:giant_tree_taiga", "the_bumblezone:sugar_water_floor", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.reindeer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.reindeer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:frozen_river", "traverse:snowy_coniferous_forest", "minecraft:snowy_beach", "minecraft:ice_spikes", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_hills", "minecraft:snowy_mountains", "minecraft:snowy_tundra", "minecraft:snowy_taiga_mountains", "minecraft:snowy_taiga", "traverse:snowy_coniferous_wooded_hills"]
+
+	[entities.boar]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.boar.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "the_bumblezone:hive_pillar", "minecraft:snowy_taiga_hills", "tropicraft:rainforest_mountains", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "traverse:rolling_hills", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "minecraft:modified_jungle", "swampexpansion:marsh", "traverse:plains_plateau", "midnight:vigilant_forest", "minecraft:bamboo_jungle", "minecraft:sunflower_plains", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "tropicraft:rainforest_island_mountains", "traverse:meadow", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "gaiadimension:green_agate_jungle", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "gaiadimension:fossil_woodland", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "terraforged:stone_forest", "minecraft:savanna", "minecraft:modified_jungle_edge", "traverse:mini_jungle", "minecraft:shattered_savanna_plateau", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:plains", "terraforged:shattered_savanna_scrub", "minecraft:shattered_savanna", "gaiadimension:crystal_plains", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "atum:sand_plains", "traverse:snowy_coniferous_forest", "midnight:night_plains", "minecraft:savanna_plateau", "terraforged:savanna_scrub", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "tropicraft:tropics", "minecraft:jungle_edge", "minecraft:birch_forest", "midnight:phantasmal_valley", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "terraforged:steppe", "tropicraft:rainforest_hills", "autumnity:maple_forest_hills", "autumnity:maple_forest", "gaiadimension:goldstone_lands", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "minecraft:jungle_hills", "minecraft:bamboo_jungle_hills", "traverse:wooded_plateau", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "atmospheric:rosewood_plateau", "minecraft:jungle", "mining_dimension:mining_biome", "minecraft:giant_tree_taiga", "the_bumblezone:sugar_water_floor", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "tropicraft:rainforest_plains", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+		[entities.boar.nerf_options]
+			#Sets boars in breeding mode if they kill something
+			breed_from_kill = false
+			#Sets boars in breeding mode if they eat crops or berries
+			breed_from_crops = false
+			#Makes boars eat crops
+			eat_crops = true
+			#Chance out of 100 the boar will execute targeting AI: lower number = less common attacks
+			#Range: 0 ~ 100
+			target_chance = 33
+
+	[entities.squirrel]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.squirrel.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "traverse:snowy_coniferous_forest", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.songbird]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.songbird.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "the_bumblezone:hive_pillar", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "traverse:rolling_hills", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "swampexpansion:marsh", "traverse:plains_plateau", "midnight:vigilant_forest", "minecraft:sunflower_plains", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "traverse:meadow", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "minecraft:savanna", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:plains", "gaiadimension:crystal_plains", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "atum:sand_plains", "traverse:snowy_coniferous_forest", "midnight:night_plains", "minecraft:savanna_plateau", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "tropicraft:tropics", "minecraft:jungle_edge", "minecraft:birch_forest", "midnight:phantasmal_valley", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "gaiadimension:goldstone_lands", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "atmospheric:rosewood_plateau", "mining_dimension:mining_biome", "minecraft:giant_tree_taiga", "the_bumblezone:sugar_water_floor", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.badger]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.badger.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "the_bumblezone:hive_pillar", "minecraft:snowy_taiga_hills", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:snowy_taiga", "minecraft:flower_forest", "traverse:rolling_hills", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "swampexpansion:marsh", "traverse:plains_plateau", "midnight:vigilant_forest", "minecraft:sunflower_plains", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "traverse:meadow", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "gaiadimension:fossil_woodland", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "minecraft:savanna", "minecraft:shattered_savanna_plateau", "autumnity:pumpkin_fields", "traverse:snowy_high_coniferous_forest", "minecraft:plains", "terraforged:shattered_savanna_scrub", "minecraft:shattered_savanna", "gaiadimension:crystal_plains", "minecraft:snowy_taiga_mountains", "midnight:runebush_grove", "atum:sand_plains", "traverse:snowy_coniferous_forest", "midnight:night_plains", "minecraft:savanna_plateau", "terraforged:savanna_scrub", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "tropicraft:tropics", "minecraft:jungle_edge", "minecraft:birch_forest", "midnight:phantasmal_valley", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga", "terraforged:steppe", "autumnity:maple_forest_hills", "autumnity:maple_forest", "gaiadimension:goldstone_lands", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "the_bumblezone:hive_wall", "swampexpansion:mushroom_marsh", "atmospheric:rosewood_plateau", "mining_dimension:mining_biome", "minecraft:giant_tree_taiga", "the_bumblezone:sugar_water_floor", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "traverse:snowy_coniferous_wooded_hills", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.lamprey]
+
+		[entities.lamprey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:frozen_river", "terraforged:cold_marshland", "gaiadimension:purple_agate_swamp", "minecraft:river", "terraforged:marshland", "traverse:lush_swamp", "tropicraft:tropics_beach", "terraforged:frozen_lake", "minecraft:swamp_hills", "gaiadimension:mineral_river", "swampexpansion:mushroom_marsh", "midnight:deceitful_bog", "tropicraft:kelp_forest", "swampexpansion:marsh", "tropicraft:tropics_river", "minecraft:swamp", "terraforged:lake", "atum:dried_river"]
+
+	[entities.nautilus]
+
+		[entities.nautilus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:warm_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "gaiadimension:mineral_reservoir", "tropicraft:tropics_ocean", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:deep_cold_ocean"]
+
+	[entities.crab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.crab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["terraforged:cold_marshland", "minecraft:beach", "gaiadimension:purple_agate_swamp", "terraforged:marshland", "traverse:lush_swamp", "minecraft:mushroom_field_shore", "tropicraft:tropics_beach", "minecraft:swamp_hills", "minecraft:snowy_beach", "swampexpansion:mushroom_marsh", "midnight:deceitful_bog", "tropicraft:kelp_forest", "swampexpansion:marsh", "terraforged:warm_beach", "minecraft:stone_shore", "minecraft:swamp", "tropicraft:tropics_river"]
+
+	[entities.horseshoecrab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.horseshoecrab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:beach", "minecraft:snowy_beach", "minecraft:mushroom_field_shore", "tropicraft:tropics_beach", "terraforged:warm_beach", "minecraft:stone_shore"]
+
+	[entities.shark]
+
+		[entities.shark.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:warm_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "gaiadimension:mineral_reservoir", "tropicraft:tropics_ocean", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:deep_cold_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.moose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.moose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["terraforged:cold_marshland", "gaiadimension:purple_agate_swamp", "terraforged:marshland", "traverse:lush_swamp", "tropicraft:tropics_beach", "minecraft:giant_spruce_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:swamp_hills", "minecraft:giant_spruce_taiga_hills", "swampexpansion:mushroom_marsh", "midnight:deceitful_bog", "tropicraft:kelp_forest", "swampexpansion:marsh", "minecraft:giant_tree_taiga", "minecraft:swamp", "tropicraft:tropics_river"]
+
+	[entities.turkey]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.turkey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:taiga_mountains", "minecraft:dark_forest", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "midnight:runebush_grove", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "terraforged:flower_plains", "traverse:woodlands", "traverse:high_coniferous_forest", "minecraft:dark_forest_hills", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:taiga", "minecraft:giant_tree_taiga_hills", "minecraft:giant_spruce_taiga", "autumnity:maple_forest_hills", "autumnity:maple_forest", "midnight:hilly_fungi_forest", "traverse:autumnal_wooded_hills", "atmospheric:rosewood_forest", "midnight:hilly_vigilant_forest", "minecraft:tall_birch_hills", "traverse:wooded_plateau", "minecraft:wooded_mountains", "atmospheric:rosewood_plateau", "minecraft:giant_tree_taiga", "traverse:coniferous_woodland_hills_biome", "midnight:fungi_forest", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau", "autumnity:pumpkin_fields"]
+
+	[entities.bobbit_worm]
+
+		[entities.bobbit_worm.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:warm_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "gaiadimension:mineral_reservoir", "tropicraft:tropics_ocean", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:deep_cold_ocean"]
+
+	[entities.goose]
+		#List of blacklisted item IDs that cannot be picked up. Accepts tags by prefixing them with '#'.
+		pickup_blacklist = ["betteranimalsplus:goose_egg", "betteranimalsplus:golden_goose_egg"]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.goose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 12
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 2
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:frozen_river", "minecraft:river", "minecraft:wooded_hills", "terraforged:frozen_lake", "endergetic:poise_forest", "minecraft:forest", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:birch_forest_hills", "midnight:vigilant_forest", "terraforged:flower_plains", "atum:dried_river", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "autumnity:maple_forest_hills", "autumnity:maple_forest", "midnight:hilly_fungi_forest", "gaiadimension:mineral_river", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "traverse:wooded_plateau", "tropicraft:tropics_river", "terraforged:lake", "midnight:fungi_forest", "gaiadimension:shining_grove"]
+
+	[entities.eel_freshwater]
+
+		[entities.eel_freshwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:frozen_river", "terraforged:cold_marshland", "gaiadimension:purple_agate_swamp", "minecraft:river", "terraforged:marshland", "traverse:lush_swamp", "tropicraft:tropics_beach", "terraforged:frozen_lake", "minecraft:swamp_hills", "gaiadimension:mineral_river", "swampexpansion:mushroom_marsh", "midnight:deceitful_bog", "tropicraft:kelp_forest", "swampexpansion:marsh", "tropicraft:tropics_river", "minecraft:swamp", "terraforged:lake", "atum:dried_river"]
+
+	[entities.eel_saltwater]
+
+		[entities.eel_saltwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "tropicraft:tropics_ocean", "gaiadimension:mineral_reservoir", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:warm_ocean"]
+
+	[entities.whale]
+
+		[entities.whale.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:warm_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:lukewarm_ocean", "gaiadimension:mineral_reservoir", "tropicraft:tropics_ocean", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "tropicraft:kelp_forest", "terraforged:warm_beach", "tropicraft:tropics_river", "minecraft:deep_cold_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+	[entities.walrus]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.walrus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:snowy_beach", "minecraft:deep_frozen_ocean", "minecraft:stone_shore", "minecraft:frozen_ocean"]
+
+	[entities.butterfly]
+
+		[entities.butterfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["gaiadimension:purple_agate_swamp", "tropicraft:rainforest_mountains", "minecraft:dark_forest", "midnight:crystal_spires", "minecraft:wooded_hills", "endergetic:poise_forest", "minecraft:forest", "minecraft:flower_forest", "gaiadimension:pink_agate_forest", "minecraft:giant_spruce_taiga_hills", "atum:deadwood_forest", "minecraft:birch_forest_hills", "minecraft:modified_jungle", "midnight:vigilant_forest", "minecraft:bamboo_jungle", "minecraft:dark_forest_hills", "tropicraft:rainforest_island_mountains", "minecraft:tall_birch_forest", "minecraft:giant_spruce_taiga", "gaiadimension:green_agate_jungle", "midnight:hilly_fungi_forest", "atmospheric:rosewood_forest", "minecraft:tall_birch_hills", "minecraft:wooded_mountains", "terraforged:stone_forest", "minecraft:modified_jungle_edge", "traverse:mini_jungle", "autumnity:pumpkin_fields", "goodnightsleep:good_dream_plains", "midnight:runebush_grove", "terraforged:flower_plains", "traverse:woodlands", "gaiadimension:mutant_agate_wildwood", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "minecraft:birch_forest", "traverse:autumnal_woods", "traverse:coniferous_forest", "tropicraft:rainforest_hills", "autumnity:maple_forest_hills", "autumnity:maple_forest", "traverse:autumnal_wooded_hills", "midnight:hilly_vigilant_forest", "minecraft:jungle_hills", "minecraft:bamboo_jungle_hills", "traverse:wooded_plateau", "atmospheric:rosewood_plateau", "minecraft:jungle", "midnight:fungi_forest", "tropicraft:rainforest_plains", "gaiadimension:shining_grove", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.dragonfly]
+
+		[entities.dragonfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["terraforged:cold_marshland", "minecraft:frozen_river", "gaiadimension:purple_agate_swamp", "minecraft:river", "terraforged:marshland", "traverse:lush_swamp", "tropicraft:tropics_beach", "terraforged:frozen_lake", "minecraft:swamp_hills", "gaiadimension:mineral_river", "swampexpansion:mushroom_marsh", "midnight:deceitful_bog", "tropicraft:kelp_forest", "swampexpansion:marsh", "minecraft:swamp", "tropicraft:tropics_river", "terraforged:lake", "atum:dried_river"]
+
+	[entities.barracuda]
+
+		[entities.barracuda.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["terraforged:warm_beach", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+
+	[entities.flying_fish]
+
+		[entities.flying_fish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["terraforged:warm_beach", "minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+
+	[entities.squid_colossal]
+
+		[entities.squid_colossal.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean"]
+
+	[entities.squid_giant]
+
+		[entities.squid_giant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_cold_ocean"]
+
+	[entities.piranha]
+
+		[entities.piranha.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["tropicraft:rainforest_mountains", "tropicraft:rainforest_island_mountains", "atmospheric:rosewood_mountains", "minecraft:jungle_edge", "tropicraft:rainforest_hills", "gaiadimension:green_agate_jungle", "minecraft:jungle_hills", "minecraft:bamboo_jungle_hills", "atmospheric:rosewood_forest", "minecraft:modified_jungle", "minecraft:jungle", "atmospheric:rosewood_plateau", "terraforged:stone_forest", "minecraft:modified_jungle_edge", "minecraft:bamboo_jungle", "traverse:mini_jungle", "tropicraft:rainforest_plains", "atmospheric:rosewood_forest_plateau"]
+
+	[entities.octopus]
+
+		[entities.octopus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_warm_ocean", "terraforged:warm_beach", "minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"]
+

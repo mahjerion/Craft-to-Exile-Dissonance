@@ -1,0 +1,15 @@
+#The dimension from where you can teleport to the mining dimension and back
+overworld_dimension = "minecraft:overworld"
+
+[world_generation]
+	#Range: 0.0 ~ 1.0
+	canyon_percentage = 0.04
+	#If lava should be generated in caves below level 11
+	lava = true
+	ores = true
+	#Range: 0.0 ~ 1.0
+	cave_percentage = 0.5
+	stone_variants = true
+	lava_lakes = true
+	spawners = true
+

@@ -23,9 +23,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.
 - Weapon damage scaling has been toned down. Previously, weapon scaling would be almost 50% more than that of spells and other stats. Now, it should be roughly the same.
 - In general, you will feel weaker, but scaling should be more balanced between the play styles. Keep in mind that mobs will also scale slower too.
+- Decreased Mine and Slash sword attack speed to be more in line with vanilla swords.
+- Increased Mine and Slash axe and staff attack speed to be more in line with vanilla axes.
+- Increased damage rolls of axes and hammers to offset the decrease in attack speed. The same change has been applied to uniques.
+- Increased hammer energy consumption by 10%.
+- Staves now can roll pure elemental attack damage rather than physical + elemental.
+- Stat requirements for weapon types have been changed slightly. In general, stat requirements have been increased. The general trend for stat requirements is that each weapon type has a "main" stat, and a "secondary" stat. Secondary stat requirements are almost negligible. You may require a respec!
 
 ### Mod Updates
-- Updated Craft to Exile Custom Uniques, Mine and Slash.
+- Updated Craft to Exile Custom Uniques, Mine and Slash, Dungeon Crawl.
+- Added ServerConfig Updater.
+- Removed Copy-Paste.
+
+### Fixes
+- Crash involving Dungeon Crawl generation should be fixed.
+- Fixed modpack-side server config changes not reapplying properly.
 
 ## [2.12.2] - 2021-09-29
 

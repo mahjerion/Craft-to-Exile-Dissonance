@@ -1,0 +1,10 @@
+
+#Server settings
+[Server]
+	#Defines the amount of uses the Gold TelePass has [Default: 15]
+	#Range: > 0
+	goldDurability = 1
+	#Defines the amount of uses the Diamond TelePass has [Default: 1000]
+	#Range: > 0
+	diamondDurability = 10
+

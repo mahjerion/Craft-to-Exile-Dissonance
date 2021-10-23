@@ -1,0 +1,3 @@
+#Change how the portal can be created. If true, the portal will only be created in Dry, Mountainous, or Hot biomes, or anywhere in Gaia.
+portalCheck = false
+

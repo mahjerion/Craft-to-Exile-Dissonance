@@ -1,0 +1,294 @@
+
+#Mine and Slash Config
+[SERVER]
+
+	[SERVER.DROPRATES]
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		AWAKEN_RUNEWORD_DROPRATE = 0.15
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		COMPATIBLE_ITEMS_DROPRATE = 0.5
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		RUNED_GEAR_DROPRATE = 1.25
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		MAP_DROPRATE = 1.2
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		UNIQUE_DROPRATE = 0.075
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		CURRENCY_DROPRATE = 1.5
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		LOOTBOX_DROPRATE = 0.05
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		RUNE_DROPRATE = 1.25
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		UNIQUE_RUNE_DROPRATE = 0.1
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		GEAR_DROPRATE = 7.0
+
+	[SERVER.RARITY_WEIGHT_CONTAINERS]
+
+		[SERVER.RARITY_WEIGHT_CONTAINERS.RUNED_ITEMS]
+			#Range: > 0
+			COMMON_WEIGHT = 30000
+			#Range: > 0
+			UNCOMMON_WEIGHT = 10000
+			#Range: > 0
+			RARE_WEIGHT = 2500
+			#Range: > 0
+			EPIC_WEIGHT = 250
+			#Range: > 0
+			LEGENDARY_WEIGHT = 50
+
+		[SERVER.RARITY_WEIGHT_CONTAINERS.CURRENCY]
+			#Range: > 0
+			RARE_WEIGHT = 2500
+			#Range: > 0
+			COMMON_WEIGHT = 25000
+			#Range: > 0
+			UNCOMMON_WEIGHT = 10000
+			#Range: > 0
+			EPIC_WEIGHT = 250
+			#Range: > 0
+			LEGENDARY_WEIGHT = 50
+
+		[SERVER.RARITY_WEIGHT_CONTAINERS.RUNES]
+			#Range: > 0
+			RARE_WEIGHT = 2500
+			#Range: > 0
+			COMMON_WEIGHT = 20000
+			#Range: > 0
+			UNCOMMON_WEIGHT = 6666
+			#Range: > 0
+			EPIC_WEIGHT = 375
+			#Range: > 0
+			LEGENDARY_WEIGHT = 75
+
+		[SERVER.RARITY_WEIGHT_CONTAINERS.MAPS]
+			#Range: > 0
+			RARE_WEIGHT = 2500
+			#Range: > 0
+			COMMON_WEIGHT = 20000
+			#Range: > 0
+			UNCOMMON_WEIGHT = 6666
+			#Range: > 0
+			EPIC_WEIGHT = 375
+			#Range: > 0
+			LEGENDARY_WEIGHT = 75
+
+		[SERVER.RARITY_WEIGHT_CONTAINERS.MOBS]
+			#Range: > 0
+			COMMON_WEIGHT = 21428
+			#Range: > 0
+			UNCOMMON_WEIGHT = 7142
+			#Range: > 0
+			RARE_WEIGHT = 2500
+			#Range: > 0
+			EPIC_WEIGHT = 350
+			#Range: > 0
+			LEGENDARY_WEIGHT = 70
+
+	[SERVER.GENERAL]
+		#.
+		ONLY_REPAIR_IN_STATION = true
+		#This makes mobs increasingly weaker, by default at lvl 100 mobs will be 3x stronger, formula: Math.pow(lvl, (lvl / VALUE)) - 0.5
+		#Range: 0.0 ~ 1000.0
+		MOB_STRENGTH_PER_LEVEL_MULTI = 360.0
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		NON_MOD_HEAL_MULTI = 0.1
+		#.
+		#Range: 0.0 ~ 100.0
+		STAT_REQUIREMENTS_MULTI = 1.0
+		#.
+		#Range: > 0
+		MAPS_DROP_AFTER_LEVEL = 25
+		#
+		#Range: 0 ~ 100000
+		FUEL_NEEDED_PER_MAP_ACTIVATION = 2500
+		#.
+		#Range: > 0
+		MAXIMUM_WORN_RUNED_ITEMS = 10
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		UNARMED_ENERGY_COST = 2.0
+		#.
+		#Range: 0.0 ~ 100.0
+		STAT_POINTS_PER_LEVEL = 1.5
+		#.
+		USE_COMPATIBILITY_ITEMS = true
+		#.
+		#Range: 0 ~ 1000
+		SPELL_POINTS_AT_MAX_LEVEL = 200
+		#.
+		ENABLE_CURRENCY_ITEMS_INSTABILITY_SYSTEM = true
+		#.
+		#Range: 0 ~ 500000
+		DELETE_DUNGEON_DIMENSION_FOLDER_AFTER_X_MAPS_SACRIFICED = 5000
+		#.
+		#Range: 0.0 ~ 100.0
+		PLAYER_HEART_TO_HEALTH_CONVERSION = 0.5
+		#.
+		#Range: 0.0 ~ 100.0
+		MAP_EVENT_CHANCE_PER_MINUTE = 10.0
+		#.
+		#Range: > 0
+		MAXIMUM_ITEM_INSTABILITY = 3000
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		NON_MOD_DAMAGE_MULTI = 0.0
+		#.
+		LOG_REGISTRY_ENTRIES = false
+		#.
+		DISABLE_VANILLA_HP_REGEN = true
+		#.
+		#Range: 0.0 ~ 100000.0
+		REPAIR_FUEL_NEEDED_MULTI = 0.75
+		#.
+		GENERATE_ORES = true
+		#.
+		#Range: 0.0 ~ 100.0
+		MOB_BOSS_CHANCE_IN_MAPS = 0.25
+		#.
+		#Range: 0 ~ 10000
+		TALENT_POINTS_AT_MAX_LEVEL = 100
+		#.
+		IGNORED_ENTITIES = ["minecraft:bat", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:salmon", "minecraft:cod", "minecraft:squid", "minecraft:rabbit"]
+		#.
+		#Range: > 0
+		STARTING_SPELL_POINTS = 1
+		#.
+		#Range: > 0
+		MAXIMUM_WORN_UNIQUE_ITEMS = 10
+		#.
+		#Range: > 0
+		CURRENCY_DROP_AFTER_LEVEL = 10
+		#.
+		#Range: > 0
+		MAXIMUM_PLAYER_LEVEL = 100
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		EXPERIENCE_MULTIPLIER = 1.5
+		#.
+		#Range: 0.0 ~ 1.0
+		XP_LOSS_ON_DEATH = 0.33
+		#.
+		ENABLE_CURRENCY_ITEMS_BREAKING_MODIFIED_ITEMS = true
+		#.
+		#Range: 0.0 ~ 1000.0
+		REGEN_HUNGER_COST = 1.0
+		#.
+		#Range: > 0
+		RUNES_AND_RUNED_GEAR_DROP_AFTER_LEVEL = 8
+		#.
+		#Range: 0.0 ~ 2.147483647E9
+		MOB_ENVIRONMENT_DAMAGE_MULTI = 0.15
+
+	[SERVER."STAT SCALING"]
+
+		#val * (float) Math.pow(lvl, MathHelper.clamp(FIRST_VALUE + (float) lvl / SECOND_VALUE, THIRD_VALUE, FOURTH_VALUE))
+		[SERVER."STAT SCALING".Normal]
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FOURTH_VALUE = 1.225
+			#.
+			#Range: -1000.0 ~ 1000.0
+			SECOND_VALUE = 100.0
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FIRST_VALUE = 0.525
+			#.
+			#Range: -1000.0 ~ 1000.0
+			THIRD_VALUE = 0.525
+
+		#val * (float) Math.pow(lvl, MathHelper.clamp(FIRST_VALUE + (float) lvl / SECOND_VALUE, THIRD_VALUE, FOURTH_VALUE))
+		[SERVER."STAT SCALING".Weapon]
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FOURTH_VALUE = 1.2
+			#.
+			#Range: -1000.0 ~ 1000.0
+			SECOND_VALUE = 100.0
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FIRST_VALUE = 0.5
+			#.
+			#Range: -1000.0 ~ 1000.0
+			THIRD_VALUE = 0.5
+
+		#val * (FIRST_VALUE + (float) lvl / SECOND_VALUE)
+		[SERVER."STAT SCALING"."Core Stat"]
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FIRST_VALUE = 1.0
+			#.
+			#Range: -1000.0 ~ 1000.0
+			SECOND_VALUE = 100.0
+			#.
+			#Range: -1000.0 ~ 1000.0
+			THIRD_VALUE = 0.0
+			#.
+			#Range: -1000.0 ~ 1000.0
+			FOURTH_VALUE = 0.0
+
+	[SERVER.AUTO_ITEM_COMPATIBILITY]
+		#This automatically makes items compatible that i can recognize automatically, meaning they extend from vanilla classes.
+		ENABLE_AUTOMATIC_COMPATIBLE_ITEMS = false
+		#Used in power level calculation. Total stats of an item are capped to this value to prevent the median being offset too much by god items.
+		#Range: 0 ~ 100000
+		MAX_TOTAL_STATS = 200
+		#Range: 0 ~ 100000
+		MAX_SINGLE_STAT_VALUE = 50
+
+		[SERVER.AUTO_ITEM_COMPATIBILITY.HORRIBLE]
+			#Range: > 0
+			MAX_LEVEL = 20
+			#Range: 0.0 ~ 1.0
+			POWER_REQ = 0.0
+			#Range: 0 ~ 4
+			MIN_RARITY = 0
+			#Range: 0 ~ 4
+			MAX_RARITY = 0
+			CAN_BE_SALVAGED = false
+
+		[SERVER.AUTO_ITEM_COMPATIBILITY.TRASH]
+			#Range: > 0
+			MAX_LEVEL = 40
+			#Range: 0.0 ~ 1.0
+			POWER_REQ = 0.029999999329447746
+			#Range: 0 ~ 4
+			MIN_RARITY = 0
+			#Range: 0 ~ 4
+			MAX_RARITY = 2
+			CAN_BE_SALVAGED = false
+
+		[SERVER.AUTO_ITEM_COMPATIBILITY.NORMAL]
+			#Range: > 0
+			MAX_LEVEL = 80
+			#Range: 0.0 ~ 1.0
+			POWER_REQ = 0.30000001192092896
+			#Range: 0 ~ 4
+			MIN_RARITY = 0
+			#Range: 0 ~ 4
+			MAX_RARITY = 4
+			CAN_BE_SALVAGED = false
+
+		[SERVER.AUTO_ITEM_COMPATIBILITY.BEST]
+			#Range: > 0
+			MAX_LEVEL = 2147483647
+			#Range: 0.0 ~ 1.0
+			POWER_REQ = 0.800000011920929
+			#Range: 0 ~ 4
+			MIN_RARITY = 1
+			#Range: 0 ~ 4
+			MAX_RARITY = 4
+			CAN_BE_SALVAGED = false
+

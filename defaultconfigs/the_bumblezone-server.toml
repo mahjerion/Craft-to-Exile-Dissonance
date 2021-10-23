@@ -1,0 +1,533 @@
+
+["The Bumblezone Dimension Options"]
+	# 
+	#-----------------------------------------------------
+	#
+	# If a resource location of a block is specified here,
+	#  then teleporting to Bumblezone will need that block under
+	# the Bee Nest/Beehive you threw the Enderpearl at.
+	# 
+	# Example: minecraft:emerald_block will require you to place an
+	# Emerald Block under the Bee Nest/Beehive and then throw an
+	# Enderpearl at it to teleport to Bumblezone dimension.
+	# 
+	# By default, no resource location is specified so any
+	# block can be under the Bee Nest/Beehive to teleport to dimension.
+	#
+	requiredBlockUnderHive = ""
+	# 
+	#-----------------------------------------------------
+	#
+	# Determines how the coordinates gets translated when entering 
+	# and leaving the Bumblezone. The default ratio is 10 which means
+	# for every block you traverse in the dimension, it is equal to
+	# traveling 10 blocks in the Overworld. For comparison, the Nether
+	# has a 8 to 1 ratio with the Overworld. 
+	# 
+	# The scaling of coordinates will take into account other dimension's
+	# coordinate ratios so it'll work for any dimension correctly.
+	# 
+	# Note: Changing this in an already made world will change where Bee Nests will
+	# take you in the dimension and exiting will place you in a different spot too.
+	# 
+	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	#
+	#Range: 1 ~ 1000
+	movementFactor = 4
+	# 
+	#-----------------------------------------------------
+	#
+	# If requiredBlockUnderHive has a block specified and this config
+	#  is set to true, then player will get a warning if they throw 
+	# an Enderpearl at a Bee Nest/Beehive but the block under it is 
+	# not the correct required block. It will also tell the player what 
+	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
+	#
+	warnPlayersOfWrongBlockUnderHive = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Makes leaving The Bumblezone dimension always places you back
+	#  at the Overworld regardless of which dimension you originally 
+	# came from. Use this option if this dimension becomes locked in  
+	# with another dimension so you are stuck teleporting between the 
+	# two and cannot get back to the Overworld.
+	#
+	forceExitToOverworld = false
+	# 
+	#-----------------------------------------------------
+	#
+	# Should teleporting to and from The Bumblezone work 
+	# with modded Bee Nests and modded Beehives as well. 
+	#
+	allowTeleportationWithModdedBeehives = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Determines if the day/night cycle active in the Bumblezone dimension.
+	#  The cycle will be visible by the change in color of the fog. 
+	# If kept on, the day/night cycle will match the Overworld's 
+	# cycle even when players sleep to skip night in the Overworld.
+	# 
+	# If this setting is set to false, the cycle 
+	# will be stuck at "noon" for the dimension.
+	#
+	dayNightCycle = true
+	# 
+	#-----------------------------------------------------
+	#
+	# How bright the fog is in the Bumblezone dimension. 
+	# This will always affect the fog whether you have the 
+	# day/night cycle on or off.
+	# 
+	# The brightness is represented as a percentage so if the 
+	# cycle is off, 0 will be pitch black, 50 will be half as 
+	# bright, 100 will be normal orange brightness, and 
+	# 100000 will be white. When the cycle is on, 0 will be 
+	# but will not be completely black during daytime.
+	#
+	#Range: 0.0 ~ 100000.0
+	fogBrightnessPercentage = 100.0
+	# 
+	#-----------------------------------------------------
+	#
+	# EXPERIMENTAL!
+	#  Will attempt to remove all biome features from Bumblezone's 
+	# biomes and attempt to re-add them after all mods finish set-up.
+	# Use this if another mod is adding features/structures to Bumblezone's
+	# biomes and those mods didn't give a config to blacklist Bumblezone's
+	# biomes.
+	# (Be sure to let those mods know to add feature/structure configs though!)
+	#
+	clearUnwantedBiomeFeatures = false
+	# 
+	#-----------------------------------------------------
+	#
+	# EXPERIMENTAL!
+	#  Will attempt to remove all biome features from Bumblezone's 
+	# biomes and attempt to re-add them after all mods finish set-up.
+	# Use this if another mod is adding mobs to Bumblezone's
+	# biomes and those mods didn't give a config to blacklist Bumblezone's
+	# biomes.
+	# (Be sure to let those mods know to add mob configs though!)
+	#
+	clearUnwantedBiomeMobs = false
+	# 
+	#-----------------------------------------------------
+	#
+	# Which mode of teleportation should be used when 
+	# leaving The Bumblezone dimension. 
+	# 
+	# Mode 1: Coordinates will be converted to the other 
+	# dimension's coordinate scale and the game will look for
+	# a Beenest/Beehive at the new spot to spawn players at. 
+	# If none is found, players will still be placed at the spot.
+	# 
+	# Mode 2: Will always spawn players at the original spot 
+	# in the non-BZ dimension where they threw the Enderpearl 
+	# at a Beenest/Beehive. Will place air if the spot is now filled 
+	# with solid blocks. 
+	# 
+	# Mode 3: Coordinates will be converted to the other 
+	# dimension's coordinate scale and the game will look for
+	# a Beenest/Beehive at the new spot to spawn players at. 
+	# If none is found, players will spawn at the original spot
+	# in the non-BZ dimension where they threw the Enderpearl 
+	# at a Beenest/Beehive. Will place air if the spot is now filled 
+	# with solid blocks. 
+	#
+	#Range: 1 ~ 3
+	teleportationMode = 2
+	# 
+	#-----------------------------------------------------
+	#
+	# Will a Beenest generate if no Beenest is  
+	# found when leaving The Bumblezone dimension.
+	# 
+	# ONLY FOR TELEPORTATION MODE 1.
+	#
+	generateBeenest = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Should exiting The Bumblezone always try and place you 
+	# above sealevel in the target dimension? (Will only look 
+	# for beehives above sealevel as well when placing you) 
+	# ONLY FOR TELEPORTATION MODE 1 AND 3.
+	#
+	seaLevelOrHigherExitTeleporting = true
+
+["Wrath of the Hive Options"]
+
+	["Wrath of the Hive Options"."Bees Effects Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# How much extra health bees get that always instantly regenerates.
+		# This means you need to deal more damage than the extra health gives
+		# order to actually damage the bee's real health bar.
+		# 
+		# NOTE: The actual level of the effect is 1 more than the value set here.
+		# 
+		# For example, Absorpton 2 here makes bees get 4 extra padding of hearts.
+		# Your attacks need to deal 4 1/2 or more damage to actually be able to
+		# kill the bee. This means using Bane of Arthropod 5 is needed to kill bees
+		# if you set the absorption to a higher value like 2 or 3.
+		# If you set this to like 5 or something, bees may be invicible! Game over.
+		#
+		#Range: > 0
+		absorptionBoostLevel = 2
+		# 
+		#-----------------------------------------------------
+		#
+		# How fast bees move along the ground (Not while flying).
+		# You will see this a lot when bees are about to attack
+		# you, they tend to touch the floor and the speed boost
+		# makes them dash forward at you. Set this to higher for
+		# faster dash attacks from bees.
+		# 
+		# NOTE: The actual level of the effect is 1 more than the value set here.
+		#
+		#Range: > 0
+		speedBoostLevel = 3
+		# 
+		#-----------------------------------------------------
+		#
+		# How strong the bees attacks become. 
+		# (5 or higher will instant kill you without armor).
+		# 
+		# NOTE: The actual level of the effect is 1 more than the value set here.
+		#
+		#Range: > 0
+		strengthBoostLevel = 6
+
+	["Wrath of the Hive Options"."Bees Aggression Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# How far away the bee can be to become angry and hunt you down if
+		#  you take their honey from the Bumblezone dimension.
+		# 
+		# Will also affect the bee's aggression range toward bears in the dimension.
+		#
+		#Range: 1 ~ 200
+		aggressionTriggerRadius = 64
+		# 
+		#-----------------------------------------------------
+		#
+		# How long bees will keep their effects for (speed, absorption, strength).
+		# Note: This is in ticks. 20 ticks = 1 second.
+		#
+		#Range: > 1
+		howLongWrathOfTheHiveLasts = 300
+		# 
+		#-----------------------------------------------------
+		#
+		# Show the orangish particles when you get Wrath of the Hive
+		# after you angered the bees in the Bumblezone dimension.
+		#
+		showWrathOfTheHiveParticles = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Determines if Wrath of the Hive can be applied to players outside
+		# the Bumblezone dimension when they pick up Honey blocks, take honey
+		# from Filled Porous Honey blocks, or drink Honey Bottles.
+		#
+		allowWrathOfTheHiveOutsideBumblezone = false
+		# 
+		#-----------------------------------------------------
+		#
+		# Turn off or on the ability to get Wrath of the Hive effect.
+		# 
+		# The effect gets applied when you pick up Honey blocks, take
+		# honey from Filled Porous Honeycomb Blocks, or drink a
+		# Honey Bottle inside the Bumblezone dimension.
+		# Basically, bees become REALLY angry.
+		# 
+		# In addition, the bees can see you through walls and will have 
+		# speed, absorption, and strength effects applied to them.
+		# 
+		# Will also affect the bee's aggression toward bears in the dimension.
+		# Note: Peaceful mode will always override the bee aggressive setting.
+		#
+		aggressiveBees = true
+
+["Mod Compatibility Options"]
+
+	["Mod Compatibility Options"."Beesourceful Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Beesourceful's ore and ender bees in The Bumblezone alongside
+		# regular bees at a 1/15th chance when spawning regular bees.
+		#
+		spawnBeesourcefulBeesMob = false
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
+		# in Spider Infested Bee Dungeons. 
+		# Higher numbers means more rare. Default rate is 2.
+		#
+		#Range: 1 ~ 1001
+		greatHoneycombRaritySpiderBeeDungeon = 8
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
+		# in Bee Dungeons. 
+		# Higher numbers means more rare. Default rate is 3.
+		#
+		#Range: 1 ~ 1001
+		greatHoneycombRarityBeeDungeon = 10
+		# 
+		#-----------------------------------------------------
+		#
+		# How much of Bee Dungeons is made of ore-based honeycombs.
+		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.3D
+		#
+		#Range: 0.0 ~ 1.0
+		oreHoneycombSpawnRateBeeDungeon = 0.1
+		# 
+		#-----------------------------------------------------
+		#
+		# How much of Spider Infested Bee Dungeons is made of ore-based honeycombs.
+		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.4D
+		#
+		#Range: 0.0 ~ 1.0
+		oreHoneycombSpawnRateSpiderBeeDungeon = 0.2
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Beesourceful's various honeycomb variants in The Bumblezone
+		# at all kinds of heights and height bands. Start exploring to find 
+		# where they spawn! Especially waaaay above for the Ender Honeycomb! 
+		# 
+		# NOTE: Will require a restart of the world to take effect. 
+		#
+		spawnBeesourcefulHoneycombVariants = true
+
+	["Mod Compatibility Options"."Buzzier Bees Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Bee Dungeons to have normal unscented candles./r/n
+		allowRegularCandlesBeeDungeon = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Bee Dungeons to have scented candles that gives status effects./r/n
+		allowScentedCandlesBeeDungeon = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Buzzier Bees's Crystallized Honey Blocks on the /r/n surface of land around sea level and above.
+		#
+		crystallizedHoneyWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare are powerful candles in Spider Infested Bee Dungeons. 
+		# Higher numbers means more rare.
+		# Default rate is 2.
+		#
+		#Range: 0 ~ 10
+		powerfulCandlesRaritySpiderBeeDungeon = 3
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Hive Planks blocks at the top and bottom of the dimension 
+		# so it is like the dimension is actually in a Bee Nest block.
+		#
+		hivePlanksWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Spider Infested Bee Dungeons to have scented candles that gives status effects./r/n
+		allowScentedCandlesSpiderBeeDungeon = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Buzzier Bees's Honey Slime mob instead of Vanilla Slime.
+		#
+		spawnHoneySlimeMob = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Place Buzzier Bees's Wax Blocks on the surface of land /r/n around sea level and below too.
+		#
+		waxBlocksWorldgen = true
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare are powerful candles in Bee Dungeons. 
+		# Higher numbers means more rare.
+		# Default rate is 2.
+		#
+		#Range: 0 ~ 10
+		powerfulCandlesRarityBeeDungeon = 3
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Honey Wand to take honey from Filled Porous Honeycomb Block 
+		# and put honey into Porous Honeycomb Block without angering bees.
+		#
+		allowHoneyWandCompat = true
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Bottled Bee item to turn Empty Honeycomb Brood blocks back 
+		# into Honeycomb Brood Blocks with a larva in it.
+		#
+		allowBottledBeeCompat = true
+
+	["Mod Compatibility Options"."Productive Bees Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Productive Bees in The Bumblezone alongside regular
+		# bees at a 1/15th chance when spawning regular bees.
+		#
+		spawnProductiveBeesBeesMob = false
+		# 
+		#-----------------------------------------------------
+		#
+		# Spawn Productive Bees's various honeycomb variants in The Bumblezone
+		# at all kinds of heights and height bands. Start exploring to find 
+		# where they spawn! Also, due to Beesourceful also having some of the 
+		# same honeycomb variants, The Bumblezone will pick Beesourceful's 
+		# honeycombs to spawn instead of Beesourceful's when spawning a 
+		# honeycomb that's in both mods.
+		# 
+		# NOTE: Will require a restart of the world to take effect. 
+		#
+		spawnProductiveBeesHoneycombVariants = false
+		# 
+		#-----------------------------------------------------
+		#
+		# How much of Bee Dungeons is made of ore-based honeycombs.
+		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.3D
+		# 
+		# NOTE: This only takes effect if Productive Bees is on and Beesourceful is not present. 
+		#
+		#Range: 0.0 ~ 1.0
+		PBOreHoneycombSpawnRateBeeDungeon = 0.3
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
+		# in Bee Dungeons. 
+		# Higher numbers means more rare. Default rate is 3.
+		# 
+		# NOTE: This only takes effect if Productive Bees is on and Beesourceful is not present. 
+		#
+		#Range: 1 ~ 1001
+		PBGreatHoneycombRarityBeeDungeon = 2
+		# 
+		#-----------------------------------------------------
+		#
+		# How much of Spider Infested Bee Dungeons is made of ore-based honeycombs.
+		# 0 is no or honeycombs, 1 is max ore honeycombs, and default is 0.1D
+		# 
+		# NOTE: This only takes effect if Productive Bees is on and Beesourceful is not present. 
+		#
+		#Range: 0.0 ~ 1.0
+		PBOreHoneycombSpawnRateSpiderBeeDungeon = 0.1
+		# 
+		#-----------------------------------------------------
+		#
+		# How rare good ore-based Honeycombs (diamonds, ender, emerald, etc) are 
+		# in Spider Infested Bee Dungeons. 
+		# Higher numbers means more rare. Default rate is 2.
+		# 
+		# NOTE: This only takes effect if Productive Bees is on and Beesourceful is not present. 
+		#
+		#Range: 1 ~ 1001
+		PBGreatHoneycombRaritySpiderBeeDungeon = 2
+
+	["Mod Compatibility Options"."Potion of Bees Options"]
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Potion of Bees item to turn Empty Honeycomb Brood blocks 
+		# back into Honeycomb Brood Blocks with a larva in it. (affects Despenser too)
+		#
+		allowPotionOfBeesCompat = false
+		# 
+		#-----------------------------------------------------
+		#
+		# Allow Splash Potion of Bees item to turn Empty Honeycomb Brood 
+		# blocks back into Honeycomb Brood Blocks with a larva in it when 
+		# the potion is thrown and splashed near the block. (affects Despenser too)
+		#
+		allowSplashPotionOfBeesCompat = true
+
+["Dungeon Options"]
+	# 
+	#-----------------------------------------------------
+	#
+	# How rare Bee Dungeons are. Higher numbers means more rare.
+	# Default rate is 1. Setting to 1001 will disable Bee Dungeons.
+	#
+	#Range: 1 ~ 1001
+	beeDungeonRarity = 2
+	# 
+	#-----------------------------------------------------
+	#
+	# How rare Spider Infested Bee Dungeons are. Higher numbers means more rare.
+	# Default rate is 8. Setting to 1001 will disable Bee Dungeons.
+	#
+	#Range: 1 ~ 1001
+	spiderInfestedBeeDungeonRarity = 8
+	# 
+	#-----------------------------------------------------
+	#
+	# How rare are Spider/Cave Spider Spawners in Spider Infested Bee Dungeons.
+	# 0 is no spawners, 1 is maximum spawners, and default is 0.2D
+	#
+	#Range: 0.0 ~ 1.0
+	spawnerRateSpiderBeeDungeon = 0.2
+
+["Mob Spawning Options"]
+	# 
+	#-----------------------------------------------------
+	#
+	# Controls Phantoms spawnrate in the Bumblezone.
+	# 1 for max spawnrate and 0 for no spawning. 0.5 is half the rate.
+	#Range: 0.0 ~ 1.0
+	phantomSpawnrate = 1.0
+	# 
+	#-----------------------------------------------------
+	#
+	# Controls Endermen spawnrate in the Bumblezone.
+	# 1 for max spawnrate and 0 for no spawning. 0.5 is half the rate.
+	#Range: 0.0 ~ 1.0
+	endermanSpawnrate = 1.0
+	# 
+	#-----------------------------------------------------
+	#
+	# Controls Spider spawnrate in the Bumblezone.
+	# 1 for max spawnrate and 0 for no spawning. 0.5 is half the rate.
+	#Range: 0.0 ~ 1.0
+	spiderSpawnrate = 1.0
+	# 
+	#-----------------------------------------------------
+	#
+	# Controls Cave Spider spawnrate in the Bumblezone.
+	# 1 for max spawnrate and 0 for no spawning. 0.5 is half the rate.
+	#Range: 0.0 ~ 1.0
+	caveSpiderSpawnrate = 1.0
+
+["General Mechanics Options"]
+	# 
+	#-----------------------------------------------------
+	#
+	# Should Dispensers always drop the Glass Bottle when using specific 
+	# bottle items on certain The Bumblezone blocks? 
+	# 
+	# Example: Using Honey Bottle to feed Honeycomb Brood Blocks will grow the 
+	# larva and have a Glass Bottle to either drop or put back into Dispenser. 
+	#
+	dispensersDropGlassBottles = false
+

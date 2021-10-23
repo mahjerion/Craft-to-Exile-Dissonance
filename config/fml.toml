@@ -2,7 +2,7 @@
 versionCheck = true
 # does the splashscreen run
 splashscreen = true
-defaultConfigPath = "config/copy/serverconfig"
+defaultConfigPath = "defaultconfigs"
 # max threads for parallel loading : -1 uses Runtime#availableProcessors
 maxThreads = -1
 

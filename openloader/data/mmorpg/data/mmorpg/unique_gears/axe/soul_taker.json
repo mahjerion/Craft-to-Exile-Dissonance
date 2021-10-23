@@ -8,7 +8,7 @@
   "lang_file_desc_string": "item.mmorpg.uniques.axe.soul_taker.desc",
   "primary_stats": [
     "physical_damage_flat",
-	"attack_water_damage_flat"
+	"low_attack_water_damage_flat"
   ],
   "unique_stats": [
     "water_resist_flat",

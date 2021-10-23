@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.axe.axefire0",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.axefire0.desc",
   "primary_stats": [
-    "attack_fire_damage_flat"
+    "high_attack_fire_damage_flat"
   ],
   "unique_stats": [
     "critical_hit_multi",

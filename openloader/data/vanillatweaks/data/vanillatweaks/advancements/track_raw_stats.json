@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_pickaxe",
+			"nbt": "{Enchantments:[{id:'minecraft:fortune',lvl:1000}]}"
+		},
+		"title": "Track Raw Statistics",
+		"description": ["",{"text":"Adds 100+ scoreboards that track many different statistics. Especially useful for multiplayer.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

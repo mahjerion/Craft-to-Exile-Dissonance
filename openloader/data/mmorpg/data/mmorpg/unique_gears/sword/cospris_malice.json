@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.sword.cospris_malice",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.cospris_malice.desc",
   "primary_stats": [
-    "attack_water_damage_flat"
+    "high_attack_water_damage_flat"
   ],
   "unique_stats": [
     "all_water_damage_flat",

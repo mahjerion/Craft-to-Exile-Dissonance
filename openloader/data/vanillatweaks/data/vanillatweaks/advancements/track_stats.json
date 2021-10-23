@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"title": "Track Statistics",
+		"description": ["",{"text":"Adds statistics that are processed before-hand. E.g. Km swam, Km flown, etc.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "vanillatweaks:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

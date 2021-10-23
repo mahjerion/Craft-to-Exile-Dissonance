@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.hammerphysical0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.hammerphysical0.desc",
   "primary_stats": [
-    "physical_damage_flat"
+    "very_high_physical_damage_flat"
   ],
   "unique_stats": [
     "armor_penetration_flat",

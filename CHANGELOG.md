@@ -13,11 +13,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The following changes are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
 - New craftable unique staff: Spire of Lazarus. This unique goes from level 31-40, and has a 30% chance of rolling as the Spire of Lazarus unique when crafted.
 - Neptunium Bows now have a 20% chance of rolling as the Silverbranch unique bow.
-- Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down, but the percent physical damage increased.
+- Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down (relatively), but the percent physical damage increased.
 - The Lore runeword (Goh, Ano) now provides high mana regen and high energy regen stats instead of energy regen and lightning resistances.
 - The Arachnon Hammer now rolls from Lv. 16-40, instead of 1-35. The early game power from the hammer was just too much, making melee far too strong early-game.
 - The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 15%.
 - 3 new quests in chapter III (The End) which highlight the craftable uniques.
+- Unique weapons' base damage have been balanced across the board to keep the primary damage stat more in line with what "regular" items can roll. In general, this is a buff for hammers.
+- Shulkers now drop 2 shells.
+- Player heads are now dropped when killed by another player.
+- Player stats are now tracked (such as time played)! Useful for servers. To see what stats are tracked, check /scoreboard objectives setdisplay sidebar ...!
 
 ### Mine and Slash Updates
 - Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.
@@ -25,10 +29,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - In general, you will feel weaker, but scaling should be more balanced between the play styles. Keep in mind that mobs will also scale slower too.
 - Decreased Mine and Slash sword attack speed to be more in line with vanilla swords.
 - Increased Mine and Slash axe and staff attack speed to be more in line with vanilla axes.
-- Increased damage rolls of axes and hammers to offset the decrease in attack speed. The same change has been applied to uniques.
 - Increased hammer energy consumption by 10%.
 - Staves now can roll pure elemental attack damage rather than physical + elemental.
 - Stat requirements for weapon types have been changed slightly. In general, stat requirements have been increased. The general trend for stat requirements is that each weapon type has a "main" stat, and a "secondary" stat. Secondary stat requirements are almost negligible. You may require a respec!
+
+### Resource Changes
+- Note that the following changes probably won't affect you if you're using a resource pack. These changes are brought to you by Vanilla Tweaks!
+- Darker oak leaves.
+- Iron and gold nuggets are both vertical.
+- Leather is more brown.
+- Dyes have unique icons.
+- The sun and moon are now circular.
+- Log tops are circular.
+- Oak is smoother.
+- Sunflowers look prettier.
+- Some terrain blocks extend past the "dirt" half.
+- Dirt and bricks are variated.
+- Bookshelves are variated.
+- Rain is quieter.
+- There is now less rain when it does rain, making it less obtrusive.
+- World border looks cleaner.
+- A bunch of blocks (ladders, iron bars, etc.) are now 3D.
+- Spectral arrows look like spectral arrows.
+- Some various texture/pixel fixes for mobs, items, and blocks.
+- Leaves on fast graphics look nicer.
 
 ### Mod Updates
 - Updated Craft to Exile Custom Uniques, Mine and Slash, Dungeon Crawl.
@@ -38,6 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixes
 - Crash involving Dungeon Crawl generation should be fixed.
 - Fixed modpack-side server config changes not reapplying properly.
+- Fixed some uniques having too high attack speed.
 
 ## [2.12.2] - 2021-09-29
 

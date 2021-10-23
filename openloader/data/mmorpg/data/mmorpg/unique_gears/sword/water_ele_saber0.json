@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.sword.water_ele_saber0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.water_ele_saber0.desc",
   "primary_stats": [
-    "high_attack_water_damage_flat"
+    "attack_water_damage_flat"
   ],
   "unique_stats": [
     "high_critical_hit_flat",

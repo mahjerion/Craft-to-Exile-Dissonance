@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.12.3] - 2021-10-XX
+## [2.13.0] - 2021-10-23
 
 ### Updates
 - The following changes are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Shulkers now drop 2 shells.
 - Player heads are now dropped when killed by another player.
 - Player stats are now tracked (such as time played)! Useful for servers. To see what stats are tracked, check /scoreboard objectives setdisplay sidebar ...!
+- Lowered the sound of Aegis greatly. They were a bit too obnoxious and in villages.
 
 ### Mine and Slash Updates
 - Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.

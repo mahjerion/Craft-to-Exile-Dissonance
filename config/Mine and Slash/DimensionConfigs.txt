@@ -265,8 +265,8 @@
       "DROPS_UNIQUE_ITEMS": true,
       "MAP_TIER": 4,
       "DROP_MULTIPLIER": 6.0,
-      "MOB_STRENGTH_MULTIPLIER": 6.0,
-      "MOB_HP_MULTIPLIER": 4.0
+      "MOB_STRENGTH_MULTIPLIER": 8.0,
+      "MOB_HP_MULTIPLIER": 1.5
     }
   }
 }

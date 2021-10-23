@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Player heads are now dropped when killed by another player.
 - Player stats are now tracked (such as time played)! Useful for servers. To see what stats are tracked, check /scoreboard objectives setdisplay sidebar ...!
 - Lowered the sound of Aegis greatly. They were a bit too obnoxious and in villages.
+- Dimensional Dungeons is now a bit easier.
 
 ### Mine and Slash Updates
 - Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.

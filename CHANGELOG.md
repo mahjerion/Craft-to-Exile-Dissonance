@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.13.0] - 2021-10-23
 
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Dimensional Dungeon mobs now have half as much HP as before.
 - Dimensional Dungeon mobs now deal about 33% more damage.
 - Dimension Dungeon's chests now have a guaranteed chance to roll 1-3 of the following loot crates: weapon, armor, jewelry, rune, currency, map, legendary, and unique. The level at which they appear ranges from 70-100, and depends on the dungeon's difficulty.
@@ -69,7 +70,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Leaves on fast graphics look nicer.
 
 ### Mod Updates
-- Updated Craft to Exile Custom Uniques, Mine and Slash, Dungeon Crawl.
+- Updated Craft to Exile Custom Uniques, Mine and Slash, Dungeon Crawl, Xaero's.
 - Added ServerConfig Updater.
 - Removed Copy-Paste.
 
@@ -78,6 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed modpack-side server config changes not reapplying properly.
 - Fixed some uniques having too high attack speed.
 - Fixed the issue where Dimensional Dungeons was not dropping good loot.
+- Fixed default options not applying correct keybinds (hopefully).
 
 ## [2.12.2] - 2021-09-29
 

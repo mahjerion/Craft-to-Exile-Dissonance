@@ -1,12 +1,12 @@
 #CONFIG ONLY OPTIONS
 ignoreUpdate:251
-updateNotification:false
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
 #INGAME SETTINGS (DO NOT EDIT!)
+updateNotification:false
 minimap:true
 caveMaps:0
 caveZoom:2
@@ -86,6 +86,7 @@ compassColor:9
 showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
+adjustHeightForCarpetLikeBlocks:true
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

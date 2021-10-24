@@ -299,6 +299,167 @@
           "weight": 1
         }
       ]
-    }
+    },
+	{
+	  "rolls": {
+        "min": 1,
+        "max": 3
+      },
+  	  "name":"dimdungeons:chest_pool_1",
+      "entries": [
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_maps",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"map_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_runes",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_currency",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_jewelry",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"jewerlycrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_armor",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"armorcrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_weapon",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"weaponcrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_legendary",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"mythic_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mmorpg:loot_crate",
+          "entryName":"dimdungeons:1_unique",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{REGISTRY_ID:\"unique_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+	  ]
+	}
   ]
 }

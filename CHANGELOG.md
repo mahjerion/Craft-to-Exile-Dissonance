@@ -10,11 +10,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.13.0] - 2021-10-23
 
 ### Updates
+- Dimensional Dungeon mobs now have half as much HP as before.
+- Dimensional Dungeon mobs now deal about 33% more damage.
+- Dimension Dungeon's chests now have a guaranteed chance to roll 1-3 of the following loot crates: weapon, armor, jewelry, rune, currency, map, legendary, and unique. The level at which they appear ranges from 70-100, and depends on the dungeon's difficulty.
+- Also I'm pretty sure I mention it twice below in fixes and M&S updates, but Dimension Dungeons drop pool actually works now. Get those high tier uniques from mobs!
+- A new quest showcasing the new Identification Tome which can identify your entire inventory at once. Say no to carpal tunnel!
 - The following changes are to hopefully aid mid-game ranged and spellcasters to be a little more in line with melee.
 - New craftable unique staff: Spire of Lazarus. This unique goes from level 31-40, and has a 30% chance of rolling as the Spire of Lazarus unique when crafted.
 - Neptunium Bows now have a 20% chance of rolling as the Silverbranch unique bow.
-- Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down (relatively), but the percent physical damage increased.
 - The Lore runeword (Goh, Ano) now provides high mana regen and high energy regen stats instead of energy regen and lightning resistances.
+- Chaber Cairn (and therefore the Arachnon Hammer) has had its flat physical damage scaled down (relatively), but the percent physical damage increased.
 - The Arachnon Hammer now rolls from Lv. 16-40, instead of 1-35. The early game power from the hammer was just too much, making melee far too strong early-game.
 - The chance of rolling a unique when crafting an Arachnon Hammer has been lowered from 25% to 15%.
 - 3 new quests in chapter III (The End) which highlight the craftable uniques.
@@ -22,15 +27,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Shulkers now drop 2 shells.
 - Player heads are now dropped when killed by another player.
 - Player stats are now tracked (such as time played)! Useful for servers. To see what stats are tracked, check /scoreboard objectives setdisplay sidebar ...!
-- Lowered the sound of Aegis greatly. They were a bit too obnoxious and in villages.
-- Dimensional Dungeons is now a bit easier.
+- Lowered the sound of Aegis greatly. They were too obnoxious in villages.
+- EXP and durability penalties upon death has been decreased from 33% loss to 25%.
 
 ### Mine and Slash Updates
+- Reworked primary stats of armors. Plate and leather no longer give HP as a primary stat, this has been moved to the secondary stats. All armors now give 1.5x rate of their main stat (plate = armor, etc.), or 1x rate of their main stat and 0.75x rate of another defensive stat (plate = 1x armor + 0.75x magic shield, etc.). This should improve diversity by allowing players to spec into two defensive options and not feel forced to go into just one.
+- Secondary stat of armors has also been reworked. You can no longer get raw "core stats" from secondary stats (vit, dex, etc.). Secondary stats now are more specific to the armor type, and all armors can roll HP (plate rolls the highest, cloth and leather tied). Added some more useful stats to secondary stat pools for armors, but also added 2 junk stats to offset it.
+- Armors have been re-textured to look 100x nicer.
+- FINALLY FIXED a long-standing bug where dimensions with tiers were given a tier of 0 instead of the tier they were set to.
+- Loot crate scores are now hidden since they don't do anything.
+- Renamed and retextured the old Identification Tome to Identification Scroll.
+- Added a new item: Identification Tome - identifies your entire inventory at once. The recipe for making this consists of scrolls, an ore, and leather.
 - Changed stat scaling to be more linear from level 1-50, spiking from that point on and capping at level 70. Before, it spiked at level 30/40 and capped out too early.
 - Weapon damage scaling has been toned down. Previously, weapon scaling would be almost 50% more than that of spells and other stats. Now, it should be roughly the same.
 - In general, you will feel weaker, but scaling should be more balanced between the play styles. Keep in mind that mobs will also scale slower too.
 - Decreased Mine and Slash sword attack speed to be more in line with vanilla swords.
-- Increased Mine and Slash axe and staff attack speed to be more in line with vanilla axes.
+- Decreased Mine and Slash axe and staff attack speed to be more in line with vanilla axes.
 - Increased hammer energy consumption by 10%.
 - Staves now can roll pure elemental attack damage rather than physical + elemental.
 - Stat requirements for weapon types have been changed slightly. In general, stat requirements have been increased. The general trend for stat requirements is that each weapon type has a "main" stat, and a "secondary" stat. Secondary stat requirements are almost negligible. You may require a respec!
@@ -65,7 +77,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Crash involving Dungeon Crawl generation should be fixed.
 - Fixed modpack-side server config changes not reapplying properly.
 - Fixed some uniques having too high attack speed.
-- I think I fixed the issue where Dimensional Dungeons was not dropping good loot.
+- Fixed the issue where Dimensional Dungeons was not dropping good loot.
 
 ## [2.12.2] - 2021-09-29
 

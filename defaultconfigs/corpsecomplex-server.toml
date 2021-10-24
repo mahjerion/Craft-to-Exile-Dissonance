@@ -30,7 +30,7 @@
 		mainhandDestroyChance = -1.0
 		#Percent durability loss on kept mainhand item
 		#Range: -1.0 ~ 1.0
-		mainhandKeepDurabilityLoss = 0.33
+		mainhandKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped mainhand item
 		#Range: -1.0 ~ 1.0
 		mainhandDropDurabilityLoss = -1.0
@@ -44,7 +44,7 @@
 		hotbarDestroyChance = -1.0
 		#Percent durability loss on kept hotbar items
 		#Range: -1.0 ~ 1.0
-		hotbarKeepDurabilityLoss = 0.33
+		hotbarKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped hotbar items
 		#Range: -1.0 ~ 1.0
 		hotbarDropDurabilityLoss = -1.0
@@ -58,7 +58,7 @@
 		offhandDestroyChance = -1.0
 		#Percent durability loss on kept offhand item
 		#Range: -1.0 ~ 1.0
-		offhandKeepDurabilityLoss = 0.33
+		offhandKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped offhand item
 		#Range: -1.0 ~ 1.0
 		offhandDropDurabilityLoss = -1.0
@@ -86,7 +86,7 @@
 		headDestroyChance = -1.0
 		#Percent durability loss on kept head item
 		#Range: -1.0 ~ 1.0
-		headKeepDurabilityLoss = 0.33
+		headKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped head item
 		#Range: -1.0 ~ 1.0
 		headDropDurabilityLoss = -1.0
@@ -100,7 +100,7 @@
 		chestDestroyChance = -1.0
 		#Percent durability loss on kept chest item
 		#Range: -1.0 ~ 1.0
-		chestKeepDurabilityLoss = 0.33
+		chestKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped chest item
 		#Range: -1.0 ~ 1.0
 		chestDropDurabilityLoss = -1.0
@@ -114,7 +114,7 @@
 		legsDestroyChance = -1.0
 		#Percent durability loss on kept legs item
 		#Range: -1.0 ~ 1.0
-		legsKeepDurabilityLoss = 0.33
+		legsKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped legs item
 		#Range: -1.0 ~ 1.0
 		legsDropDurabilityLoss = -1.0
@@ -128,7 +128,7 @@
 		feetDestroyChance = -1.0
 		#Percent durability loss on kept feet item
 		#Range: -1.0 ~ 1.0
-		feetKeepDurabilityLoss = 0.33
+		feetKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped head item
 		#Range: -1.0 ~ 1.0
 		feetDropDurabilityLoss = -1.0
@@ -142,7 +142,7 @@
 		curioDestroyChance = -1.0
 		#Percent durability loss on kept curio item
 		#Range: -1.0 ~ 1.0
-		curioKeepDurabilityLoss = 0.33
+		curioKeepDurabilityLoss = 0.25
 		#Percent durability loss on dropped curio item
 		#Range: -1.0 ~ 1.0
 		curioDropDurabilityLoss = -1.0

@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- 2 new weapon types: Daggers, and Wands.
+- Daggers are fast attacking critical-based melee weapons.
+- Wands are like staves, but specialize more in healing and utility stats. Also, wands can only roll physical damage as a primary stat. They are also faster attacking.
+- Staves no long roll increase healing as a secondary stat and can now roll faster cast rate instead.
+- 16 new uniques listed below!
+- New crossbow unique: Doomslinger - a heavy hitting crossbow unique!
+- New crossbow unique: Ichorstring - DoT on a crossbow!
+- New crossbow unique: Buriza-Do Kyanon - forged in the mountains, this one is sure to send shivers down your spine!
+- New torch unique: Rigwald - provides bonuses to bow and crossbow damage!
+- New dagger unique: Gull - did someone say magic find?
+- New dagger unique: Ungil's Gauche - this dagger is great for melee combat.
+- New dagger unique: Divinarius - this hard-to-find unique is a critical hit monster!
+- New dagger unique: Wizardspike - like the name implies, this dagger is fantastic for mages.
+- New dagger unique: Ghostflame - this fire-themed dagger goes right through your enemies (their armor)!
+- New wand unique: Lifesprig - this starter wand provides general boosts to stats!
+- New wand unique: Hand of Blessed Light - this wand provides is great for early game healers!
+- New wand unique: The Poet's Pen - extremely rare, this wand is a beast at close-ranged combat.
+- New wand unique: Midnight Bargain - did someone say summon zombies?
+- New wand unique: The Redeemer - a must-have for those specializing in Divine mastery!
+- New wand unique: Martyr's Ward - gain an incredible amount of health at the expense of other defenses...
+- New charm unique: Hellfire's Charm - unholy edition.
+
+### Mod Updates
+- Updated GeckoLib.
+
 ## [2.13.1] - 2021-10-25
 
 ### Updates

@@ -10,10 +10,10 @@
     "very_high_physical_damage_flat"
   ],
   "unique_stats": [
-    "high_physical_damage_percent",
+	"plus_divine_skill_lvls_flat",
     "low_health_flat",
     "low_mana_flat",
-	"plus_divine_skill_lvls_flat"
+    "high_physical_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {

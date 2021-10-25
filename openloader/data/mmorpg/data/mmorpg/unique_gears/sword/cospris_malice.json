@@ -7,9 +7,11 @@
   "lang_file_string": "item.mmorpg.uniques.sword.cospris_malice",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.cospris_malice.desc",
   "primary_stats": [
-    "high_attack_water_damage_flat"
+    "very_low_physical_damage_flat",
+    "low_attack_water_damage_flat"
   ],
   "unique_stats": [
+    "plus_chilling_touch_spell_lvl_flat",
     "all_water_damage_flat",
     "spell_water_damage_flat",
 	"critical_hit_flat",
@@ -18,8 +20,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 0.75,
-	"dexterity": 0.75
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "cte_uniques:cospris_malice"

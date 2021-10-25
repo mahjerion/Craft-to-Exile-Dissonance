@@ -7,17 +7,15 @@
   "lang_file_string": "item.mmorpg.uniques.ring.fire_ele_ring0",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.fire_ele_ring0.desc",
   "primary_stats": [
-    "spell_fire_damage_flat"
+    "fire_resist_flat"
   ],
   "unique_stats": [
-    "mana_on_hit_flat",
-    "high_intelligence_flat",
-    "high_fire_penetration_flat"
+    "strength_flat",
+    "physical_damage_percent",
+    "low_lifesteal_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "intelligence": 1.0
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "mmorpg:uniques/ring/fire_ele_ring0"
 }

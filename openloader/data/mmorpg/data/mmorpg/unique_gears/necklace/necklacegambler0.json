@@ -7,17 +7,15 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklacegambler0",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacegambler0.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "bonus_all_drops_flat"
   ],
   "unique_stats": [
-    "very_low_elemental_resist_flat",
-    "high_mana_flat",
-    "bonus_unique_item_drops_flat"
+    "bonus_unique_item_drops_flat",
+    "mana_flat",
+    "less_elemental_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "wisdom": 1.0
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "mmorpg:uniques/necklace/necklacegambler0"
 }

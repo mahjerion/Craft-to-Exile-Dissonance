@@ -15,10 +15,7 @@
 	"elemental_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 0.25,
-	"wisdom": 0.25
-  },
+  "requirements": {},
   "gear_type": "charm",
   "item_id": "cte_uniques:hellfire"
 }

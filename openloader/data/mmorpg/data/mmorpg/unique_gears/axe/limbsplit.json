@@ -16,7 +16,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0
+    "strength": 0.75,
+    "dexterity": 0.25
   },
   "gear_type": "axe",
   "item_id": "cte_uniques:limbsplit"

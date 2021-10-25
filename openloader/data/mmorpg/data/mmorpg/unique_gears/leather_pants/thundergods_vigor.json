@@ -7,21 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.pants.thundergods_vigor",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.thundergods_vigor.desc",
   "primary_stats": [
-    "high_armor_flat",
-	"low_dodge_flat",
-	"very_low_health_flat"
+	"dodge_flat",
+	"low_armor_flat"
   ],
   "unique_stats": [
-    "armor_percent",
-    "high_thunder_spell_to_attack_dmg_flat",
-	"very_high_thunder_resist_flat",
+	"plus_storm_skill_lvls_flat",
 	"strength_flat",
-	"plus_storm_skill_lvls_flat"
+    "armor_percent",
+    "high_attack_elemental_damage_percent",
+	"very_high_thunder_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0,
-	"strength": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_pants",
   "item_id": "cte_uniques:leather_unique_3_leggings"

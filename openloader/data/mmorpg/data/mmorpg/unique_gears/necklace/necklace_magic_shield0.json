@@ -10,15 +10,12 @@
     "magic_shield_flat"
   ],
   "unique_stats": [
-    "very_low_elemental_resist_flat",
+    "high_wisdom_flat",
     "magic_shield_regen_flat",
-    "high_wisdom_flat"
+    "very_low_elemental_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "intelligence": 0.75,
-    "wisdom": 0.5
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "mmorpg:uniques/necklace/necklace_magic_shield0"
 }

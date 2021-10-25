@@ -10,12 +10,12 @@
     "magic_shield_flat"
   ],
   "unique_stats": [
-    "elemental_resist_flat",
-    "spell_elemental_damage_flat"
+    "spell_elemental_damage_flat",
+    "elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_chest",
   "item_id": "cte_uniques:cloth_unique_4_chestplate"

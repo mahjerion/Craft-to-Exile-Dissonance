@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.boots.fire_cloth_boots0",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.fire_cloth_boots0.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "high_magic_shield_flat"
   ],
   "unique_stats": [
-    "all_fire_damage_flat",
-    "tiny_magic_shield_regen_flat",
-    "tiny_mana_regen_flat",
-    "tiny_energy_regen_flat"
+    "spell_damage_flat",
+    "all_dot_dmg_flat",
+    "attack_fire_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0,
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_boots",
   "item_id": "mmorpg:uniques/boots/fire_cloth_boots0"

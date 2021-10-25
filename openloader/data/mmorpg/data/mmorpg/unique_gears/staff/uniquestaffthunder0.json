@@ -7,18 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.uniquestaffthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestaffthunder0.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat"
+    "attack_thunder_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
+    "plus_lightning_totem_spell_lvl_flat",
+    "cdr_flat",
     "critical_damage_flat",
-    "high_thunder_penetration_flat",
-    "mana_on_hit_flat",
-    "plus_thunder_spear_spell_lvl_flat"
+    "tiny_health_regen_flat",
+    "mana_on_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75,
-    "intelligence": 0.75
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/uniquestaffthunder0"

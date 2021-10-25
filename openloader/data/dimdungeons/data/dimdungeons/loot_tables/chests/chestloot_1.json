@@ -8,8 +8,8 @@
       "bonus_rolls": {
         "min": 1,
         "max": 1
-	  },
-  	  "name":"dimdungeons:pool_1",
+      },
+      "name": "dimdungeons:pool_1",
       "entries": [
         {
           "type": "item",
@@ -121,7 +121,7 @@
                 "max": 24
               }
             }
-          ]		  
+          ]
         },
         {
           "type": "item",
@@ -135,12 +135,12 @@
                 "max": 12
               }
             }
-          ]		  
+          ]
         },
         {
           "type": "item",
           "name": "minecraft:potion",
-          "entryName":"dimdungeons:potion_luck",
+          "entryName": "dimdungeons:potion_luck",
           "weight": 3,
           "functions": [
             {
@@ -159,7 +159,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "entryName":"dimdungeons:potion_strong_healing",
+          "entryName": "dimdungeons:potion_strong_healing",
           "weight": 4,
           "functions": [
             {
@@ -178,7 +178,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "entryName":"dimdungeons:potion_strong_swiftness",
+          "entryName": "dimdungeons:potion_strong_swiftness",
           "weight": 3,
           "functions": [
             {
@@ -191,7 +191,7 @@
                 "min": 1,
                 "max": 2
               }
-            }			
+            }
           ]
         },
         {
@@ -207,7 +207,7 @@
               }
             }
           ]
-        },		
+        },
         {
           "type": "item",
           "name": "minecraft:firework_rocket",
@@ -277,7 +277,7 @@
               }
             }
           ]
-        },		
+        },
         {
           "type": "loot_table",
           "name": "dimdungeons:chests/kit_random",
@@ -300,22 +300,25 @@
         }
       ]
     },
-	{
-	  "rolls": {
-        "min": 1,
-        "max": 3
-      },
-  	  "name":"dimdungeons:chest_pool_1",
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.25
+        }
+      ],
+      "name": "dimdungeons:chest_pool_1",
       "entries": [
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_maps",
+          "entryName": "dimdungeons:1_maps",
           "weight": 10,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"map_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"map_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -329,12 +332,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_runes",
+          "entryName": "dimdungeons:1_runes",
           "weight": 10,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"rune_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -348,12 +351,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_currency",
+          "entryName": "dimdungeons:1_currency",
           "weight": 15,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"rune_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -367,12 +370,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_jewelry",
+          "entryName": "dimdungeons:1_jewelry",
           "weight": 15,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"jewerlycrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"jewerlycrafter_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -386,12 +389,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_armor",
+          "entryName": "dimdungeons:1_armor",
           "weight": 20,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"armorcrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"armorcrafter_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -405,12 +408,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_weapon",
+          "entryName": "dimdungeons:1_weapon",
           "weight": 20,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"weaponcrafter_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"weaponcrafter_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -424,12 +427,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_legendary",
+          "entryName": "dimdungeons:1_legendary",
           "weight": 7,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"mythic_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"mythic_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -443,12 +446,12 @@
         {
           "type": "item",
           "name": "mmorpg:loot_crate",
-          "entryName":"dimdungeons:1_unique",
+          "entryName": "dimdungeons:1_unique",
           "weight": 3,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"unique_crate\",LEVEL:70,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"unique_crate\",LVL:70,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -459,7 +462,7 @@
             }
           ]
         }
-	  ]
-	}
+      ]
+    }
   ]
 }

@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.braceletnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletnature0.desc",
   "primary_stats": [
-    "spell_nature_damage_flat"
+    "high_health_regen_flat"
   ],
   "unique_stats": [
-    "high_nature_resist_flat",
+    "plus_thorns_effect_lvl_flat",
     "health_flat",
-    "health_regen_percent",
-    "plus_thorns_effect_lvl_flat"
+    "low_health_regen_percent",
+    "high_nature_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "vitality": 0.75
-  },
+  "requirements": {},
   "gear_type": "bracelet",
   "item_id": "mmorpg:uniques/bracelet/braceletnature0"
 }

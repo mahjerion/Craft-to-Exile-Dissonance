@@ -7,18 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.uniquestaffnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestaffnature0.desc",
   "primary_stats": [
-    "attack_nature_damage_flat"
+    "attack_nature_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "nature_penetration_flat",
-    "life_on_hit_flat",
+	"plus_nature_skill_lvls_flat",
+    "plus_poison_ball_spell_lvl_flat",
+    "low_all_dot_dmg_flat",
     "health_regen_flat",
-    "plus_poison_ball_spell_lvl_flat"
+    "life_on_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "vitality": 0.5,
-    "intelligence": 0.75
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/uniquestaffnature0"

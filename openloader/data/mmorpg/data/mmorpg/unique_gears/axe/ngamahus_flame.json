@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.axe.ngamahus_flame",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.ngamahus_flame.desc",
   "primary_stats": [
-    "high_attack_fire_damage_flat"
+    "very_high_attack_fire_damage_flat"
   ],
   "unique_stats": [
     "spell_fire_damage_flat",
@@ -18,7 +18,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0
+    "strength": 0.75,
+    "dexterity": 0.25
   },
   "gear_type": "axe",
   "item_id": "cte_uniques:ngamahus_flame"

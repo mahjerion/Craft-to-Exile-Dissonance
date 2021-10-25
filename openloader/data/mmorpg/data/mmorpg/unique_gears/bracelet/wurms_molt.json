@@ -7,17 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.wurms_molt",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.wurms_molt.desc",
   "primary_stats": [
-    "high_health_flat"
+    "high_magic_shield_regen_flat"
   ],
   "unique_stats": [
     "strength_flat",
     "intelligence_flat",
+    "summon_damage_flat",
 	"water_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 1.0
-  },
+  "requirements": {},
   "gear_type": "bracelet",
   "item_id": "cte_uniques:wurms_molt"
 }

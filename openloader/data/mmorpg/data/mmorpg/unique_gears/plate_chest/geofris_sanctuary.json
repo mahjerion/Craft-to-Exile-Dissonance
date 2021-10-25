@@ -7,20 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.chest.geofris_sanctuary",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.geofris_sanctuary.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat",
-	"magic_shield_flat"
+	"low_armor_flat",
+	"low_magic_shield_flat"
   ],
   "unique_stats": [
     "harmony_trait_flat",
-    "health_flat",
-    "elemental_resist_flat",
-	"magic_shield_regen_flat"
+    "high_health_flat",
+	"magic_shield_regen_flat",
+    "elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "vitality": 1.0,
-	"intelligence": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_chest",
   "item_id": "cte_uniques:plate_unique_1_chestplate"

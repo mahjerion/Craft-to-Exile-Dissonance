@@ -7,16 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.water_ele_staff0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.water_ele_staff0.desc",
   "primary_stats": [
-    "attack_water_damage_flat"
+    "attack_water_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_water_spell_to_attack_dmg_flat",
-    "high_water_spell_to_attack_dmg_percent",
-    "physical_dispersion_flat"
+	"plus_ocean_skill_lvls_flat",
+	"plus_storm_skill_lvls_flat",
+    "faster_cast_rate_flat",
+    "high_spell_damage_flat",
+	"energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.1
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/water_ele_staff0"

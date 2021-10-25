@@ -10,13 +10,15 @@
     "major_block_strength_flat"
   ],
   "unique_stats": [
-    "elemental_resist_flat",
+    "plus_spear_of_judgement_spell_lvl_flat",
     "high_vitality_flat",
-    "high_strength_flat"
+    "high_strength_flat",
+    "elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 1.0
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "mmorpg:uniques/shield/shieldresist0"

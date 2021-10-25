@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.boots.the_blood_dance",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.the_blood_dance.desc",
   "primary_stats": [
-    "dodge_flat",
-	"very_low_health_flat"
+    "high_dodge_flat"
   ],
   "unique_stats": [
     "high_dexterity_flat",
     "bow_damage_flat",
-    "high_energy_flat"
+    "crossbow_damage_flat",
+    "high_energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_boots",
   "item_id": "cte_uniques:leather_unique_3_boots"

@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.chest.chestwater0",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.chestwater0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat"
+	"low_armor_flat",
+    "low_magic_shield_flat"
   ],
   "unique_stats": [
-    "high_water_penetration_flat",
-    "high_armor_flat",
-    "stamina_flat"
+    "wisdom_flat",
+    "mana_regen_percent",
+    "high_water_penetration_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_chest",
   "item_id": "mmorpg:uniques/chest/chestwater0"

@@ -7,16 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.staff.the_searing_touch",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.the_searing_touch.desc",
   "primary_stats": [
-    "attack_fire_damage_flat"
+    "attack_fire_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_fire_spell_to_attack_dmg_flat",
-    "fire_spell_to_attack_dmg_percent",
-    "fire_penetration_flat"
+	"plus_fire_skill_lvls_flat",
+    "faster_cast_rate_flat",
+    "very_high_all_fire_damage_flat",
+    "low_all_dot_dmg_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "cte_uniques:the_searing_touch"

@@ -8,17 +8,17 @@
   "lang_file_desc_string": "item.mmorpg.uniques.boots.goldwyrm.desc",
   "primary_stats": [
     "dodge_flat",
-	"very_low_health_flat"
+	"low_magic_shield_flat"
   ],
   "unique_stats": [
-    "bonus_currency_drops_flat",
-    "fire_resist_flat",
+    "high_bonus_currency_drops_flat",
     "mana_regen_flat",
-    "energy_regen_flat"
+    "energy_regen_flat",
+    "fire_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_boots",
   "item_id": "cte_uniques:leather_unique_2_boots"

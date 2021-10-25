@@ -14,9 +14,7 @@
     "low_bonus_unique_item_drops_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 0.25
-  },
+  "requirements": {},
   "gear_type": "charm",
   "item_id": "cte_uniques:gheeds_fortune"
 }

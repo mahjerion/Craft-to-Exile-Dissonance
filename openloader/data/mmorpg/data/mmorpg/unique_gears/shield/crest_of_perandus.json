@@ -10,13 +10,14 @@
     "major_block_strength_flat"
   ],
   "unique_stats": [
-    "health_flat",
-    "thunder_resist_flat",
-	"lifesteal_flat"
+    "health_percent",
+	"lifesteal_flat",
+    "thunder_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "cte_uniques:crest_of_perandus"

@@ -7,16 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.boots.bootsnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.bootsnature0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "high_health_flat"
+	"slightly_high_armor_flat"
   ],
   "unique_stats": [
     "high_health_percent",
+    "block_strength_flat",
+	"low_all_dot_dmg_flat",
     "nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75
+    "strength": 0.5
   },
   "gear_type": "plate_boots",
   "item_id": "mmorpg:uniques/boots/bootsnature0"

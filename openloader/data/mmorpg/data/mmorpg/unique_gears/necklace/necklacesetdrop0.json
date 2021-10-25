@@ -7,16 +7,13 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklacesetdrop0",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacesetdrop0.desc",
   "primary_stats": [
-    "spell_damage_flat"
+    "health_flat"
   ],
   "unique_stats": [
     "all_attributes_flat"
   ],
   "can_get_set": true,
-  "requirements": {
-    "stamina": 0.25,
-    "wisdom": 0.75
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "mmorpg:uniques/necklace/necklacesetdrop0"
 }

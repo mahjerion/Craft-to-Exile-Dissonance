@@ -7,19 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.sword.starforge",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.starforge.desc",
   "primary_stats": [
-    "high_physical_damage_flat"
+    "physical_damage_flat"
   ],
   "unique_stats": [
-    "high_physical_damage_percent",
     "high_health_flat",
-	"attack_thunder_damage_percent",
 	"spell_thunder_damage_flat",
+    "very_high_physical_damage_percent",
+	"attack_thunder_damage_percent",
 	"physical_dispersion_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0,
-	"dexterity": 0.75
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "cte_uniques:starforge"

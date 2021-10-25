@@ -7,18 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.chest.chestdodge0",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.chestdodge0.desc",
   "primary_stats": [
-    "very_high_dodge_flat",
-    "health_flat"
+    "dodge_flat",
+	"low_armor_flat"
   ],
   "unique_stats": [
-    "armor_flat",
-    "bow_damage_flat",
-    "nature_resist_flat",
-    "plus_hunting_skill_lvls_flat"
+    "plus_hunting_skill_lvls_flat",
+	"energy_flat",
+	"very_high_physical_damage_percent",
+    "nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_chest",
   "item_id": "mmorpg:uniques/chest/chestdodge0"

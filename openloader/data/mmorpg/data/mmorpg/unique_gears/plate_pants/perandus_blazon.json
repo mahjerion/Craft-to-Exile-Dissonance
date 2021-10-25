@@ -7,7 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.pants.perandus_blazon",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.perandus_blazon.desc",
   "primary_stats": [
-    "low_armor_flat"
+    "low_armor_flat",
+    "low_dodge_flat"
   ],
   "unique_stats": [
     "all_attributes_flat",
@@ -16,8 +17,7 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 1.0,
-	"vitality": 0.5
+    "strength": 0.5
   },
   "gear_type": "plate_pants",
   "item_id": "cte_uniques:plate_unique_3_leggings"

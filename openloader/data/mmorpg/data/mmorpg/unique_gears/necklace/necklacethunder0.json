@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklacethunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacethunder0.desc",
   "primary_stats": [
-    "spell_thunder_damage_flat"
+    "very_high_energy_flat"
   ],
   "unique_stats": [
-    "thunder_spell_to_attack_dmg_flat",
-    "very_high_strength_flat",
+    "very_high_dexterity_flat",
+    "spell_thunder_damage_flat",
+    "thunder_penetration_flat",
     "energy_regen_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 0.5,
-    "intelligence": 0.75
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "mmorpg:uniques/necklace/necklacethunder0"
 }

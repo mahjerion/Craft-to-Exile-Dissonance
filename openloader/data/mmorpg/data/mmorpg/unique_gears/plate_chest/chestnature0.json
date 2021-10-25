@@ -7,17 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.chest.chestnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.chestnature0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "high_health_flat"
+	"low_armor_flat",
+    "low_dodge_flat"
   ],
   "unique_stats": [
+    "stamina_flat",
     "high_health_regen_flat",
-    "nature_resist_flat",
-    "stamina_flat"
+    "high_energy_regen_flat",
+    "nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "vitality": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_chest",
   "item_id": "mmorpg:uniques/chest/chestnature0"

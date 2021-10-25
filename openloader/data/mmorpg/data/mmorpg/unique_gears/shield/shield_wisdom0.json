@@ -10,12 +10,15 @@
     "major_block_strength_flat"
   ],
   "unique_stats": [
+    "plus_soul_shred_spell_lvl_flat",
     "high_wisdom_flat",
+    "faster_cast_rate_flat",
     "magic_shield_flat"
   ],
   "can_get_set": true,
   "requirements": {
-    "wisdom": 1.0
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "mmorpg:uniques/shield/shield_wisdom0"

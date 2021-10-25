@@ -7,19 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.pants.pantswater0",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.pantswater0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat",
-    "magic_shield_flat"
+	"low_armor_flat",
+    "low_magic_shield_flat"
   ],
   "unique_stats": [
-    "major_armor_flat",
-    "high_water_resist_flat",
-    "spell_water_damage_flat"
+    "high_increase_healing_flat",
+    "high_increased_area_flat",
+    "mana_regen_flat",
+    "high_water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75,
-    "intelligence": 0.5
+    "strength": 0.5
   },
   "gear_type": "plate_pants",
   "item_id": "mmorpg:uniques/pants/pantswater0"

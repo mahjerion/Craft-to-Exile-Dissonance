@@ -10,13 +10,15 @@
     "major_block_strength_flat"
   ],
   "unique_stats": [
-    "low_elemental_resist_flat",
+	"plus_divine_skill_lvls_flat",
+    "plus_defend_spell_lvl_flat",
     "block_strength_percent",
-	"plus_divine_skill_lvls_flat"
+    "low_elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "cte_uniques:steelclash"

@@ -11,14 +11,14 @@
   ],
   "unique_stats": [
     "high_physical_damage_percent",
-    "health_flat",
-    "mana_flat",
+    "low_health_flat",
+    "low_mana_flat",
 	"plus_divine_skill_lvls_flat"
   ],
   "can_get_set": false,
   "requirements": {
     "strength": 0.75,
-    "intelligence": 0.75
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "cte_uniques:chaber_cairn"

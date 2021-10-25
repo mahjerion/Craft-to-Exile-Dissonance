@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.ring.ring_hermit_insanity",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.ring_hermit_insanity.desc",
   "primary_stats": [
-    "energy_flat"
+    "very_low_fire_resist_flat",
+    "very_low_nature_resist_flat"
   ],
   "unique_stats": [
+    "major_critical_damage_percent",
     "double_less_health_percent",
-    "double_less_magic_shield_percent",
-    "major_critical_damage_percent"
+    "double_less_magic_shield_percent"
   ],
   "can_get_set": false,
-  "requirements": {
-    "strength": 0.75,
-    "intelligence": 0.75
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "mmorpg:uniques/ring/ring_hermit_insanity"
 }

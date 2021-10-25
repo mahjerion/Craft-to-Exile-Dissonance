@@ -7,16 +7,15 @@
   "lang_file_string": "item.mmorpg.uniques.pants.faminebind",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.faminebind.desc",
   "primary_stats": [
-    "bow_damage_flat",
-	"very_low_health_flat"
+	"high_dodge_flat"
   ],
   "unique_stats": [
-    "water_resist_flat",
-    "high_bow_damage_flat"
+    "very_high_bow_damage_flat",
+    "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_pants",
   "item_id": "cte_uniques:leather_unique_2_leggings"

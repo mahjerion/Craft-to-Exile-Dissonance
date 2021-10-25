@@ -10,16 +10,15 @@
     "very_high_attack_nature_damage_flat"
   ],
   "unique_stats": [
-    "high_critical_damage_flat",
-    "high_critical_hit_percent",
-	"very_high_health_regen_flat",
-	"health_flat",
-    "dodge_ignore_flat"
+	"high_health_percent",
+    "dodge_ignore_flat",
+    "lifesteal_flat",
+	"very_high_health_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.5,
-    "intelligence": 0.75
+    "strength": 0.75,
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "mmorpg:uniques/hammer/nature_ele_hammer0"

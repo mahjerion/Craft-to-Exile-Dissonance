@@ -7,17 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.axe.axethunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.axethunder0.desc",
   "primary_stats": [
-    "high_attack_thunder_damage_flat"
+    "low_physical_damage_flat",
+    "attack_thunder_damage_flat"
   ],
   "unique_stats": [
     "very_high_critical_hit_flat",
-    "mana_on_hit_flat",
-    "much_less_life_on_hit_flat",
-    "much_less_lifesteal_flat"
+    "critical_damage_percent",
+    "mana_flat",
+    "very_low_cdr_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.75
+    "strength": 0.75,
+    "dexterity": 0.25
   },
   "gear_type": "axe",
   "item_id": "mmorpg:uniques/axe/axethunder0"

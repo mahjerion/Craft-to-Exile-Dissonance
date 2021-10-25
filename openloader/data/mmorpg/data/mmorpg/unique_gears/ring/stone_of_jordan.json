@@ -7,17 +7,15 @@
   "lang_file_string": "item.mmorpg.uniques.ring.stone_of_jordan",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.stone_of_jordan.desc",
   "primary_stats": [
-    "high_mana_flat",
-	"mana_regen_flat"
+    "fire_resist_flat"
   ],
   "unique_stats": [
-    "spell_damage_flat",
-    "plus_all_skill_lvls_flat"
+    "plus_all_skill_lvls_flat",
+    "high_mana_flat",
+    "spell_damage_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 0.5
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "cte_uniques:stone_of_jordan"
 }

@@ -17,8 +17,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.1,
-    "intelligence": 1.1
+    "strength": 0.75,
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "cte_uniques:mjolner"

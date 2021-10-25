@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.chest.chestthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.chestthunder0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat"
+	"low_armor_flat",
+    "low_dodge_flat"
   ],
   "unique_stats": [
-    "high_armor_flat",
-    "thunder_resist_flat",
-    "all_thunder_damage_flat"
+    "high_cdr_flat",
+    "faster_cast_rate_flat",
+    "thunder_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_chest",
   "item_id": "mmorpg:uniques/chest/chestthunder0"

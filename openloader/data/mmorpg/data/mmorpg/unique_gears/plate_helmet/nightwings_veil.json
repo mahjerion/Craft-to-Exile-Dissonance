@@ -7,20 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.helmet.nightwings_veil",
   "lang_file_desc_string": "item.mmorpg.uniques.helmet.nightwings_veil.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat",
-	"magic_shield_flat"
+	"low_armor_flat",
+    "low_dodge_flat"
   ],
   "unique_stats": [
+	"plus_ocean_skill_lvls_flat",
     "dexterity_flat",
-    "water_resist_flat",
-    "spell_water_damage_flat",
-	"plus_ocean_skill_lvls_flat"
+    "very_high_spell_water_damage_flat",
+    "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "vitality": 1.0,
-	"intelligence": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_helmet",
   "item_id": "cte_uniques:plate_unique_1_helmet"

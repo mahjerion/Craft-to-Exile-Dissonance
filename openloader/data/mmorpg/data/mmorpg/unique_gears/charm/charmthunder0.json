@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.charm.charmthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.charm.charmthunder0.desc",
   "primary_stats": [
-    "spell_thunder_damage_flat"
+    "very_high_dexterity_flat"
   ],
   "unique_stats": [
-    "thunder_resist_flat",
-    "mana_regen_percent",
-    "thunder_penetration_flat"
+    "increased_area_flat",
+    "spell_thunder_damage_flat",
+    "mana_on_hit_flat",
+    "thunder_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "wisdom": 0.75,
-    "intelligence": 0.75
-  },
+  "requirements": {},
   "gear_type": "charm",
   "item_id": "mmorpg:uniques/charm/charmthunder0"
 }

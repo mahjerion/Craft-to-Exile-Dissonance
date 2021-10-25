@@ -7,17 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.boots.bootswater0",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.bootswater0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat"
+	"low_armor_flat",
+    "low_magic_shield_flat"
   ],
   "unique_stats": [
-    "sword_damage_flat",
-    "high_water_spell_to_attack_dmg_flat",
+    "plus_divine_skill_lvls_flat",
+    "staff_damage_flat",
+    "very_high_attack_elemental_damage_percent",
     "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 0.75
+    "strength": 0.5
   },
   "gear_type": "plate_boots",
   "item_id": "mmorpg:uniques/boots/bootswater0"

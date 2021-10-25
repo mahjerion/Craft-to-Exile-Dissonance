@@ -7,19 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.braceletwater0",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletwater0.desc",
   "primary_stats": [
-    "very_low_spell_water_damage_flat",
-    "very_low_spell_fire_damage_flat"
+    "high_magic_shield_regen_flat"
   ],
   "unique_stats": [
+    "very_low_spell_water_damage_flat",
+    "very_low_spell_fire_damage_flat",
     "water_penetration_flat",
     "fire_penetration_flat",
 	"very_low_cdr_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "vitality": 0.5,
-    "wisdom": 0.75
-  },
+  "requirements": {},
   "gear_type": "bracelet",
   "item_id": "mmorpg:uniques/bracelet/braceletwater0"
 }

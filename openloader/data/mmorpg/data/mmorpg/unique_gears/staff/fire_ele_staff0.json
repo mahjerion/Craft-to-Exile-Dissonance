@@ -7,16 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.fire_ele_staff0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.fire_ele_staff0.desc",
   "primary_stats": [
-    "attack_fire_damage_flat"
+    "attack_fire_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_fire_spell_to_attack_dmg_flat",
-    "high_fire_spell_to_attack_dmg_percent",
-    "physical_dispersion_flat"
+	"plus_fire_skill_lvls_flat",
+    "plus_magma_flower_spell_lvl_flat",
+    "plus_steam_cloud_spell_lvl_flat",
+    "spell_fire_damage_flat",
+    "major_fire_spell_to_attack_dmg_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.1
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/fire_ele_staff0"

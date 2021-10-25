@@ -7,17 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.uniquestaffwater0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestaffwater0.desc",
   "primary_stats": [
-    "attack_water_damage_flat"
+    "attack_water_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_critical_damage_flat",
-    "critical_hit_flat",
-    "high_water_penetration_flat",
-    "plus_frostball_spell_lvl_flat"
+    "plus_chilling_field_spell_lvl_flat",
+    "plus_nourishment_spell_lvl_flat",
+    "increase_healing_flat",
+    "spell_water_damage_flat",
+    "low_magic_shield_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/uniquestaffwater0"

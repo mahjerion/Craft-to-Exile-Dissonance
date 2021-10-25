@@ -7,18 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.boots.nature_cloth_boots0",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.nature_cloth_boots0.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "magic_shield_flat",
+    "low_armor_flat"
   ],
   "unique_stats": [
+	"low_health_flat",
     "all_nature_damage_flat",
-    "tiny_magic_shield_regen_flat",
-    "tiny_mana_regen_flat",
-    "tiny_energy_regen_flat"
+    "low_dotsteal_flat",
+    "high_health_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0,
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_boots",
   "item_id": "mmorpg:uniques/boots/nature_cloth_boots0"

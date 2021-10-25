@@ -11,14 +11,14 @@
   ],
   "unique_stats": [
     "arcane_devotion_trait_flat",
-    "thunder_resist_flat",
-    "very_high_nature_resist_flat",
     "high_magic_shield_percent",
-    "magic_shield_regen_flat"
+    "magic_shield_regen_flat",
+    "thunder_resist_flat",
+    "very_high_nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.1
+    "intelligence": 0.5
   },
   "gear_type": "cloth_chest",
   "item_id": "cte_uniques:cloth_unique_3_chestplate"

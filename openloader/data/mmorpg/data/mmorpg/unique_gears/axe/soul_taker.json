@@ -11,14 +11,16 @@
 	"low_attack_water_damage_flat"
   ],
   "unique_stats": [
-    "water_resist_flat",
-	"high_water_spell_to_attack_dmg_flat",
+    "plus_unholy_skill_lvls_flat",
+    "vitality_flat",
+	"spellsteal_flat",
     "energy_regen_percent",
-	"spellsteal_flat"
+    "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.75
+    "strength": 0.75,
+    "dexterity": 0.25
   },
   "gear_type": "axe",
   "item_id": "cte_uniques:soul_taker"

@@ -7,18 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklacenature0",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklacenature0.desc",
   "primary_stats": [
-    "spell_nature_damage_flat"
+    "health_flat"
   ],
   "unique_stats": [
     "health_flat",
-    "mana_flat",
-    "energy_flat",
-    "magic_steal_flat"
+    "high_block_strength_flat",
+	"physical_damage_percent",
+    "elemental_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "vitality": 1.0
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "mmorpg:uniques/necklace/necklacenature0"
 }

@@ -8,17 +8,17 @@
   "lang_file_desc_string": "item.mmorpg.uniques.pants.nosferatus_coil.desc",
   "primary_stats": [
     "dodge_flat",
-	"very_low_health_flat"
+	"low_armor_flat"
   ],
   "unique_stats": [
-    "energy_regen_flat",
+	"strength_flat",
+    "spell_dodge_flat",
     "lifesteal_flat",
-	"lifesteal_percent",
-	"strength_flat"
+    "energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_pants",
   "item_id": "cte_uniques:leather_unique_1_leggings"

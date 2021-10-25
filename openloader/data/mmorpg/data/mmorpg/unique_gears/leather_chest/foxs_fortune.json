@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.chest.foxs_fortune",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.foxs_fortune.desc",
   "primary_stats": [
-    "very_high_dodge_flat",
-	"health_flat"
+    "high_dodge_flat"
   ],
   "unique_stats": [
     "dexterity_flat",
+    "dodge_percent",
     "bow_damage_flat",
-    "dodge_percent"
+    "crossbow_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_chest",
   "item_id": "cte_uniques:leather_unique_2_chestplate"

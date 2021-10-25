@@ -17,8 +17,7 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0,
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_boots",
   "item_id": "mmorpg:uniques/boots/water_cloth_boots0"

@@ -10,12 +10,10 @@
     "bonus_all_drops_flat"
   ],
   "unique_stats": [
-    "low_bonus_all_drops_flat"
+    "very_high_bonus_all_drops_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "wisdom": 0.25
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "cte_uniques:biscos_collar"
 }

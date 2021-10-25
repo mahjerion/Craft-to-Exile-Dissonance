@@ -7,19 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.boots.abberaths_hooves",
   "lang_file_desc_string": "item.mmorpg.uniques.boots.abberaths_hooves.desc",
   "primary_stats": [
-    "high_dodge_flat",
-	"very_low_health_flat"
+    "dodge_flat",
+	"low_armor_flat"
   ],
   "unique_stats": [
     "high_strength_flat",
-    "high_fire_spell_to_attack_dmg_flat",
+    "high_attack_fire_damage_percent",
     "fire_penetration_flat",
     "plus_fire_skill_lvls_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0,
-    "strength": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_boots",
   "item_id": "cte_uniques:leather_unique_1_boots"

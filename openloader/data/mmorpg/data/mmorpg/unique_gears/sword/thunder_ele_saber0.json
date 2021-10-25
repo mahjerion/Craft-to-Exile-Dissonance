@@ -7,17 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.sword.thunder_ele_saber0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.thunder_ele_saber0.desc",
   "primary_stats": [
-    "high_attack_thunder_damage_flat"
+    "slightly_high_attack_thunder_damage_flat"
   ],
   "unique_stats": [
+    "plus_charged_nova_spell_lvl_flat",
+    "slightly_high_attack_thunder_damage_percent",
     "high_critical_hit_flat",
-    "critical_damage_percent",
-    "high_thunder_spell_to_attack_dmg_flat"
+    "critical_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.25,
-    "intelligence": 0.75
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "mmorpg:uniques/sword/thunder_ele_saber0"

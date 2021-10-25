@@ -7,20 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.karui_ward",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.karui_ward.desc",
   "primary_stats": [
-    "high_dexterity_flat"
+    "very_high_energy_flat"
   ],
   "unique_stats": [
-    "high_strength_flat",
+    "high_dexterity_flat",
+    "high_stamina_flat",
     "bow_damage_flat",
+    "crossbow_damage_flat",
     "dodge_flat",
-	"increased_proj_speed_flat"
+	"high_increased_proj_speed_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "vitality": 0.25,
-    "strength": 0.25,
-    "dexterity": 0.25
-  },
+  "requirements": {},
   "gear_type": "necklace",
   "item_id": "cte_uniques:karui_ward"
 }

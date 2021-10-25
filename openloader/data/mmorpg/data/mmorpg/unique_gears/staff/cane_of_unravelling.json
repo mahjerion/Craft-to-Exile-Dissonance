@@ -7,16 +7,21 @@
   "lang_file_string": "item.mmorpg.uniques.staff.cane_of_unravelling",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.cane_of_unravelling.desc",
   "primary_stats": [
-    "attack_nature_damage_flat"
+    "attack_nature_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
+	"plus_unholy_skill_lvls_flat",
+    "plus_summon_skeletal_army_spell_lvl_flat",
+    "plus_summon_zombie_spell_lvl_flat",
     "cdr_flat",
-    "high_nature_spell_to_attack_dmg_flat",
-    "nature_penetration_flat"
+    "low_block_strength_flat",
+    "nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "cte_uniques:cane_of_unravelling"

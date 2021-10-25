@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.ring.andvarius",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.andvarius.desc",
   "primary_stats": [
-    "bonus_unique_item_drops_flat"
+    "very_low_thunder_resist_flat",
+    "very_low_nature_resist_flat"
   ],
   "unique_stats": [
-    "low_bonus_all_drops_flat",
-    "much_less_elemental_resist_flat",
-    "less_health_percent"
+    "bonus_all_drops_flat",
+    "bonus_unique_item_drops_flat",
+    "less_health_percent",
+    "much_less_elemental_resist_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "wisdom": 0.5
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "cte_uniques:andvarius"
 }

@@ -7,16 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.uniquestafflifesteal0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestafflifesteal0.desc",
   "primary_stats": [
-    "very_high_physical_damage_flat"
+    "physical_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
+    "health_flat",
+    "very_high_physical_damage_percent",
+    "critical_hit_flat",
     "lifesteal_flat",
-    "lifesteal_percent",
     "life_on_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/uniquestafflifesteal0"

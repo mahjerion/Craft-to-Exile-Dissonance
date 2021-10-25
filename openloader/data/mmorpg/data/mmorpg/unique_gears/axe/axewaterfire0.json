@@ -7,18 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.axe.axewaterfire0",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.axewaterfire0.desc",
   "primary_stats": [
-    "high_attack_fire_damage_flat",
-    "high_attack_water_damage_flat"
+    "very_high_physical_damage_flat"
   ],
   "unique_stats": [
-    "crippled_critical_damage_percent",
-    "crippled_lifesteal_flat",
-    "crippled_mana_on_hit_flat"
+    "intelligence_flat",
+    "spell_fire_damage_flat",
+    "spell_water_damage_flat",
+    "plus_flame_blitz_spell_lvl_flat",
+    "plus_tidal_wave_spell_lvl_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.5,
-    "intelligence": 0.5
+    "strength": 0.75,
+    "dexterity": 0.25
   },
   "gear_type": "axe",
   "item_id": "mmorpg:uniques/axe/axewaterfire0"

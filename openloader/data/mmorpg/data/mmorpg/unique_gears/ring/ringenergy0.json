@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.ring.ringenergy0",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.ringenergy0.desc",
   "primary_stats": [
-    "spell_damage_flat"
+    "water_resist_flat"
   ],
   "unique_stats": [
     "high_energy_regen_flat",
@@ -15,9 +15,7 @@
     "much_less_critical_damage_percent"
   ],
   "can_get_set": false,
-  "requirements": {
-    "stamina": 1.0
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "mmorpg:uniques/ring/ringenergy0"
 }

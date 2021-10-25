@@ -7,16 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.helmet.galesight",
   "lang_file_desc_string": "item.mmorpg.uniques.helmet.galesight.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "high_magic_shield_flat"
   ],
   "unique_stats": [
-    "water_resist_flat",
+    "low_cdr_flat",
     "spell_elemental_damage_flat",
-    "water_penetration_flat"
+    "water_penetration_flat",
+    "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_helmet",
   "item_id": "cte_uniques:cloth_unique_3_helmet"

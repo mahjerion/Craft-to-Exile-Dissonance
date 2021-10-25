@@ -7,16 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.shield.nature_ele_shield0",
   "lang_file_desc_string": "item.mmorpg.uniques.shield.nature_ele_shield0.desc",
   "primary_stats": [
-    "major_block_strength_flat",
-    "nature_thorns_reflect_flat"
+    "major_block_strength_flat"
   ],
   "unique_stats": [
-    "spell_nature_damage_flat",
-    "nature_resist_flat"
+    "plus_root_spell_lvl_flat",
+    "health_regen_percent",
+    "elemental_resist_flat",
+    "nature_thorns_reflect_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "mmorpg:uniques/shield/nature_ele_shield0"

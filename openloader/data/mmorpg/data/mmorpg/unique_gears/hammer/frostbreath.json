@@ -11,14 +11,15 @@
   ],
   "unique_stats": [
     "strength_flat",
-    "water_spell_to_attack_dmg_flat",
+    "intelligence_flat",
+    "spell_damage_flat",
     "water_penetration_flat",
 	"fire_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
     "strength": 0.75,
-    "intelligence": 0.75
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "cte_uniques:frostbreath"

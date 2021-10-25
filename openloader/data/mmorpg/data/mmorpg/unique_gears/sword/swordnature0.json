@@ -7,16 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.sword.swordnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordnature0.desc",
   "primary_stats": [
-    "attack_nature_damage_flat"
+    "very_low_physical_damage_flat",
+    "slightly_high_attack_nature_damage_flat"
   ],
   "unique_stats": [
-    "lifesteal_flat",
-    "lifesteal_percent",
-	"armor_flat"
+	"armor_percent",
+    "health_regen_percent"
   ],
   "can_get_set": false,
   "requirements": {
-    "vitality": 1.0
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "mmorpg:uniques/sword/swordnature0"

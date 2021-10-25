@@ -7,17 +7,15 @@
   "lang_file_string": "item.mmorpg.uniques.ring.thunder_ele_ring0",
   "lang_file_desc_string": "item.mmorpg.uniques.ring.thunder_ele_ring0.desc",
   "primary_stats": [
-    "spell_thunder_damage_flat"
+    "thunder_resist_flat"
   ],
   "unique_stats": [
-    "mana_on_hit_flat",
     "high_intelligence_flat",
-    "high_thunder_penetration_flat"
+    "high_thunder_penetration_flat",
+    "mana_on_hit_flat"
   ],
   "can_get_set": false,
-  "requirements": {
-    "intelligence": 1.0
-  },
+  "requirements": {},
   "gear_type": "ring",
   "item_id": "mmorpg:uniques/ring/thunder_ele_ring0"
 }

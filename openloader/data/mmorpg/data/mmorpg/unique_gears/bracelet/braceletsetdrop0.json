@@ -7,16 +7,14 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.braceletsetdrop0",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletsetdrop0.desc",
   "primary_stats": [
-    "spell_damage_flat"
+    "major_energy_regen_flat"
   ],
   "unique_stats": [
+    "spell_damage_flat",
     "bonus_unique_item_drops_flat"
   ],
   "can_get_set": true,
-  "requirements": {
-    "stamina": 0.75,
-    "wisdom": 0.5
-  },
+  "requirements": {},
   "gear_type": "bracelet",
   "item_id": "mmorpg:uniques/bracelet/braceletsetdrop0"
 }

@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.1] - 2021-10-25
+
+### Updates
+- IMPORTANT Note: if you're storing anything in a Riddle Chest, remove them BEFORE updating as this update removes Riddle Chests!
+- Note: server owners may need to type /fml confirm on first load after updating to remove old Riddle Chest entities.
+- New torch unique: Cragfall - gain an incredible boost to your physical damage at the cost of projectile speed.
+- Almost every Mine and Slash unique has been reworked.
+- Unique stat requirements have been changed to reflect the changes in Mine and Slash.
+- Uniques have been rebalanced some more.
+- All jewelry no longer requires stats to wear them.
+- Greatly reduced the chance of loot crates in Dimensional Dungeon chests.
+- Increased strength of mobs in Dimensional Dungeons by 25%.
+- Good bye Riddle Chests... I decided to remove it because of an unfixable dupe bug, as well as their general issues with other dimension mods. Also, it just didn't seem to friendly to players who aren't natively English speaking.
+
+### Mine and Slash Updates
+- Armors only require one core stat to equip now. The idea is that armor can be "more easily" equipped, with weapons being the build-specific equipment.
+- Staves now have spell damage as a primary stat.
+- Fixed a bug where staves only required intelligence to equip.
+
+### Mod Updates
+- Updated Mine and Slash, Craft to Exile Custom Uniques.
+- Removed Libnonymous.
+- Removed Riddle Chests.
+
+### Fixes
+- Fixed loot crates from Dimensional Dungeons being level 0.
+- Fixed broken Mine and Slash textures.
+
 ## [2.13.0] - 2021-10-23
 
 ### Updates

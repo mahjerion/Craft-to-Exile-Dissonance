@@ -7,17 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.bracelet.braceletfire0",
   "lang_file_desc_string": "item.mmorpg.uniques.bracelet.braceletfire0.desc",
   "primary_stats": [
-    "spell_fire_damage_flat"
+    "high_mana_regen_flat",
+    "high_energy_regen_flat"
   ],
   "unique_stats": [
-    "high_fire_spell_to_attack_dmg_flat",
-    "high_fire_resist_flat",
+    "spell_fire_damage_flat",
+	"high_physical_damage_percent",
+    "fire_resist_flat",
     "much_less_critical_damage_percent"
   ],
   "can_get_set": false,
-  "requirements": {
-    "strength": 0.5
-  },
+  "requirements": {},
   "gear_type": "bracelet",
   "item_id": "mmorpg:uniques/bracelet/braceletfire0"
 }

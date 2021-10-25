@@ -7,17 +7,16 @@
   "lang_file_string": "item.mmorpg.uniques.chest.solaris_lorica",
   "lang_file_desc_string": "item.mmorpg.uniques.chest.solaris_lorica.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat"
+	"slightly_high_armor_flat"
   ],
   "unique_stats": [
     "arcane_devotion_trait_flat",
-    "armor_flat",
+    "health_flat",
     "high_nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_chest",
   "item_id": "cte_uniques:plate_unique_3_chestplate"

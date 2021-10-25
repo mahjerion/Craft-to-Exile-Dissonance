@@ -1,0 +1,24 @@
+{
+  "id": "rathpith_globe",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 4,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.orb.rathpith_globe",
+  "lang_file_desc_string": "item.mmorpg.uniques.orb.rathpith_globe.desc",
+  "primary_stats": [
+    "high_mana_regen_flat"
+  ],
+  "unique_stats": [
+    "very_high_health_percent",
+    "spell_damage_flat",
+	"critical_hit_percent"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "intelligence": 0.25,
+    "wisdom": 0.25
+  },
+  "gear_type": "orb",
+  "item_id": "cte_uniques:rathpith_globe"
+}

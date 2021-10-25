@@ -7,16 +7,20 @@
   "lang_file_string": "item.mmorpg.uniques.staff.nature_ele_staff0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.nature_ele_staff0.desc",
   "primary_stats": [
-    "attack_nature_damage_flat"
+    "attack_nature_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_nature_spell_to_attack_dmg_flat",
-    "high_nature_spell_to_attack_dmg_percent",
-    "physical_dispersion_flat"
+    "plus_poison_cloud_spell_lvl_flat",
+    "plus_thorns_effect_lvl_flat",
+    "all_dot_dmg_flat",
+    "spell_nature_damage_flat",
+    "very_low_critical_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.1
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "mmorpg:uniques/staff/nature_ele_staff0"

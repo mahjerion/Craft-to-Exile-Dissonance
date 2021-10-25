@@ -7,16 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.helmet.helmetmana0",
   "lang_file_desc_string": "item.mmorpg.uniques.helmet.helmetmana0.desc",
   "primary_stats": [
-    "magic_shield_flat"
+    "high_magic_shield_flat"
   ],
   "unique_stats": [
+	"summon_damage_flat",
+    "mana_cost_red_flat",
     "high_mana_flat",
     "high_mana_regen_flat",
     "staff_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "wisdom": 1.0
+    "intelligence": 0.5
   },
   "gear_type": "cloth_helmet",
   "item_id": "mmorpg:uniques/helmet/helmetmana0"

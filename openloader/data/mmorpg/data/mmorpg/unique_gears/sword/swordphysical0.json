@@ -7,15 +7,18 @@
   "lang_file_string": "item.mmorpg.uniques.sword.swordphysical0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordphysical0.desc",
   "primary_stats": [
-    "high_physical_damage_flat"
+    "physical_damage_flat"
   ],
   "unique_stats": [
-    "high_critical_hit_percent",
-    "high_critical_damage_percent"
+    "armor_penetration_flat",
+    "high_physical_damage_percent",
+    "life_on_hit_flat",
+    "energy_regen_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 1.0
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "mmorpg:uniques/sword/swordphysical0"

@@ -7,17 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.staff.the_whispering_ice",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.the_whispering_ice.desc",
   "primary_stats": [
-    "attack_water_damage_flat"
+    "attack_water_damage_flat",
+    "spell_damage_flat"
   ],
   "unique_stats": [
-    "high_intelligence_flat",
-    "high_water_spell_to_attack_dmg_flat",
     "plus_ocean_skill_lvls_flat",
-    "plus_blizzard_spell_lvl_flat"
+    "plus_blizzard_spell_lvl_flat",
+    "high_intelligence_flat",
+    "spell_water_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 1.0
+    "intelligence": 0.75,
+    "wisdom": 0.25
   },
   "gear_type": "staff",
   "item_id": "cte_uniques:the_whispering_ice"

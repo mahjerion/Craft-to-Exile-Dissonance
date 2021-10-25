@@ -7,8 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0.desc",
   "primary_stats": [
-    "high_attack_fire_damage_flat",
-	"low_physical_damage_flat"
+	"low_physical_damage_flat",
+    "high_attack_fire_damage_flat"
   ],
   "unique_stats": [
     "spell_fire_damage_flat",
@@ -18,8 +18,8 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.5,
-    "intelligence": 0.75
+    "strength": 0.75,
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "mmorpg:uniques/hammer/fire_ele_hammer0"

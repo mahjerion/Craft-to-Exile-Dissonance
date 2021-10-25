@@ -2,24 +2,22 @@
   "id": "pantsfire0",
   "weight": 10000,
   "rarity": 1,
-  "tier": 4,
+  "tier": 1,
   "registry": "unique_gear",
   "lang_file_string": "item.mmorpg.uniques.pants.pantsfire0",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.pantsfire0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "spell_fire_damage_flat"
+	"slightly_high_armor_flat"
   ],
   "unique_stats": [
-    "high_armor_flat",
-    "very_high_armor_multi",
-    "fire_resist_flat",
-    "plus_magma_flower_spell_lvl_flat"
+    "plus_magma_flower_spell_lvl_flat",
+    "very_high_armor_percent",
+    "spell_fire_damage_flat",
+    "fire_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 1.0,
-    "intelligence": 0.5
+    "strength": 0.5
   },
   "gear_type": "plate_pants",
   "item_id": "mmorpg:uniques/pants/pantsfire0"

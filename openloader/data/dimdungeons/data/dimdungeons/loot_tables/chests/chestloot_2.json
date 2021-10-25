@@ -315,10 +315,13 @@
       ]
     },
 	{
-	  "rolls": {
-        "min": 1,
-        "max": 3
-      },
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.25
+        }
+      ],
   	  "name":"dimdungeons:chest_pool_2",
       "entries": [
         {
@@ -329,7 +332,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"map_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"map_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -348,7 +351,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"rune_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -367,7 +370,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"rune_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"rune_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -386,7 +389,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"jewerlycrafter_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"jewerlycrafter_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -405,7 +408,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"armorcrafter_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"armorcrafter_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -424,7 +427,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"weaponcrafter_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"weaponcrafter_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -443,7 +446,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"mythic_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"mythic_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",
@@ -462,7 +465,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{REGISTRY_ID:\"unique_crate\",LEVEL:80,SCORE:\"GOOD\",TIER:5}"
+              "tag": "{REGISTRY_ID:\"unique_crate\",LVL:80,SCORE:\"GOOD\",TIER:5}"
             },
             {
               "function": "set_count",

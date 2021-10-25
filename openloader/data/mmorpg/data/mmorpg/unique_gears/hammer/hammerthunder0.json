@@ -10,14 +10,15 @@
     "very_high_attack_thunder_damage_flat"
   ],
   "unique_stats": [
-    "thunder_spell_to_attack_dmg_flat",
-    "critical_damage_flat",
-    "critical_hit_multi"
+    "cdr_flat",
+    "high_attack_thunder_damage_percent",
+    "critical_hit_multi",
+    "less_critical_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {
     "strength": 0.75,
-    "stamina": 0.75
+    "vitality": 0.25
   },
   "gear_type": "hammer",
   "item_id": "mmorpg:uniques/hammer/hammerthunder0"

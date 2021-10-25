@@ -7,18 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.pants.pantsthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.pants.pantsthunder0.desc",
   "primary_stats": [
-	"very_low_armor_flat",
-    "health_flat",
-    "magic_shield_flat"
+	"low_armor_flat",
+    "low_dodge_flat"
   ],
   "unique_stats": [
-    "high_dodge_flat",
-    "high_fire_resist_flat",
-    "health_regen_flat"
+	"very_low_health_flat",
+    "high_physical_damage_percent",
+    "energy_regen_flat",
+    "thunder_resist_flat",
+    "nature_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "strength": 0.5
   },
   "gear_type": "plate_pants",
   "item_id": "mmorpg:uniques/pants/pantsthunder0"

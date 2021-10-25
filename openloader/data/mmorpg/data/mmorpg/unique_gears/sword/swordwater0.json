@@ -7,18 +7,19 @@
   "lang_file_string": "item.mmorpg.uniques.sword.swordwater0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordwater0.desc",
   "primary_stats": [
-    "attack_water_damage_flat"
+    "very_low_physical_damage_flat",
+    "low_attack_water_damage_flat"
   ],
   "unique_stats": [
-    "mana_on_hit_flat",
-    "magic_steal_flat",
+	"spellsteal_flat",
     "life_on_hit_flat",
-	"spellsteal_flat"
+    "mana_on_hit_flat",
+    "magic_steal_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "intelligence": 0.75,
-    "wisdom": 0.75
+    "strength": 0.75,
+    "stamina": 0.25
   },
   "gear_type": "sword",
   "item_id": "mmorpg:uniques/sword/swordwater0"

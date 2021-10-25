@@ -10,13 +10,15 @@
     "major_block_strength_flat"
   ],
   "unique_stats": [
-    "water_resist_flat",
+	"health_flat",
+	"health_regen_flat",
     "magic_shield_flat",
-	"health_regen_flat"
+    "water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "stamina": 0.75
+    "vitality": 0.25,
+    "strength": 0.25
   },
   "gear_type": "shield",
   "item_id": "cte_uniques:springleaf"

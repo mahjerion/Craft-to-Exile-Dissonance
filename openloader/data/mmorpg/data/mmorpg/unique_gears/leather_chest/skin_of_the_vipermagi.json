@@ -8,17 +8,18 @@
   "lang_file_desc_string": "item.mmorpg.uniques.chest.skin_of_the_vipermagi.desc",
   "primary_stats": [
     "dodge_flat",
-	"very_low_health_flat"
+	"low_magic_shield_flat"
   ],
   "unique_stats": [
-    "spell_damage_flat",
+	"plus_all_skill_lvls_flat",
     "cdr_flat",
-    "very_low_elemental_resist_flat",
-	"plus_all_skill_lvls_flat"
+    "spell_dodge_flat",
+    "spell_damage_flat",
+    "very_low_elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {
-    "dexterity": 1.0
+    "dexterity": 0.5
   },
   "gear_type": "leather_chest",
   "item_id": "cte_uniques:leather_unique_3_chestplate"

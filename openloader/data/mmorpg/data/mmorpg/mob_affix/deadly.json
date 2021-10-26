@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "high_physical_damage_percent",
-	  "armor_penetration_flat"
+	  "high_armor_penetration_flat"
     ]
   }
 }

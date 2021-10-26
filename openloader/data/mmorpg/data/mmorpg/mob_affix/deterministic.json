@@ -1,0 +1,15 @@
+{
+  "id": "deterministic",
+  "weight": 750,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.deterministic",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "dodge_ignore_flat",
+      "major_critical_hit_flat"
+    ]
+  }
+}

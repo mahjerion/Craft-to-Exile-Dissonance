@@ -1,0 +1,15 @@
+{
+  "id": "sanguine",
+  "weight": 750,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.sanguine",
+  "type": "prefix",
+  "mods": {
+    "mods": [
+      "major_armor_penetration_flat",
+      "life_on_hit_flat"
+    ]
+  }
+}

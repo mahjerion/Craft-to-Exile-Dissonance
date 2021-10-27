@@ -13,6 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Non-map dimensions have had their tiers upped by 1 (except for the Overworld and Mirror dims).
 - 3 new mob affixes: Regenerative, Sanguine, and Deterministic (see wiki for details).
 - Mob affix weighting has been shifted, in general, the elemental affixes have lower weight now.
+- Mob affixes have been rebalanced. Before, running into an elemental affix meant certain doom. This is because some of them would literally deal an ADDITIONAL 100% of their physical damage as an element. this has been changed. See the mob affixes in detail on the wiki.
+- Mobs scale at a higher rate now, and should reach 3x strength by level 90 instead of 100. This is more impactful past level 70, and barely affects levels 1-70.
 
 ### New Unique Items
 - New crossbow unique: Doomslinger - a heavy hitting crossbow unique!
@@ -37,9 +39,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Daggers are fast attacking critical-based melee weapons.
 - Wands are like staves, but specialize more in healing and utility stats. Also, wands can only roll physical damage as a primary stat. They are also faster attacking.
 - Staves no long roll increase healing as a secondary stat and can now roll faster cast rate instead.
+- "Rare" mobs (which were actually uncommon) have been renamed to "Adept" to prevent confusion.
+- Experience required to level up past 100 scales significantly faster than 1-100 (max level is 100 by default, this is for people who may want to increase it).
+- There is a new EXP multiplier config in the dimension config.
+- Fixed a bug where instead of giving a 20% bonus chance for map drops while in a map, it was actually a -80% chance... Map sustain should be much more bearable after this fix!
 
 ### Mod Updates
 - Updated Mine and Slash, Craft to Exile Custom Uniques, Inventory HUD+.
+
+### Fixes
+- Map drop rate in maps has been fixed.
 
 ## [2.13.1c] - 2021-10-25
 

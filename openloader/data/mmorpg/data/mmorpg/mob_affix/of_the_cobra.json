@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "physical_dispersion_flat",
-      "low_attack_nature_damage_flat",
+      "tiny_attack_nature_damage_flat",
       "high_nature_penetration_flat"
     ]
   }

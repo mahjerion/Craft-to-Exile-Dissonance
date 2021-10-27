@@ -1,15 +1,14 @@
 {
-  "id": "resistant",
+  "id": "accurate",
   "weight": 1000,
   "rarity": 0,
   "tier": 0,
   "registry": "mob_affix",
-  "lang_file_string": "mmorpg.mob_affix.resistant",
+  "lang_file_string": "mmorpg.mob_affix.accurate",
   "type": "prefix",
   "mods": {
     "mods": [
-	  "armor_flat",
-	  "high_elemental_resist_flat"
+      "major_dodge_ignore_flat"
     ]
   }
 }

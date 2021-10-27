@@ -8,8 +8,8 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "attack_fire_damage_flat",
-      "fire_resist_flat"
+      "third_attack_fire_damage_flat",
+      "very_high_fire_resist_flat"
     ]
   }
 }

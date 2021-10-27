@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "attack_nature_damage_flat",
+      "third_attack_nature_damage_flat",
       "nature_resist_flat"
     ]
   }

@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "physical_dispersion_flat",
-      "low_attack_water_damage_flat",
+      "tiny_attack_water_damage_flat",
       "high_water_penetration_flat"
     ]
   }

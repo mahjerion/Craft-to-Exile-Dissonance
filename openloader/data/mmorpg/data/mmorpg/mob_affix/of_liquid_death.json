@@ -1,0 +1,15 @@
+{
+  "id": "of_liquid_death",
+  "weight": 500,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.of_liquid_death",
+  "type": "suffix",
+  "mods": {
+    "mods": [
+      "tiny_attack_water_damage_flat",
+      "tiny_attack_nature_damage_flat"
+    ]
+  }
+}

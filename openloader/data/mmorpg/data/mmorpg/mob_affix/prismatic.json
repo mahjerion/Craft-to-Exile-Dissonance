@@ -8,10 +8,10 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "very_low_attack_nature_damage_flat",
-      "very_low_attack_thunder_damage_flat",
-      "very_low_attack_water_damage_flat",
-      "very_low_attack_fire_damage_flat"
+      "tenth_attack_nature_damage_flat",
+      "tenth_attack_thunder_damage_flat",
+      "tenth_attack_water_damage_flat",
+      "tenth_attack_fire_damage_flat"
     ]
   }
 }

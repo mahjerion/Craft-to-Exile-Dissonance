@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "attack_water_damage_flat",
+      "third_attack_water_damage_flat",
       "water_resist_flat"
     ]
   }

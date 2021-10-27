@@ -1,0 +1,15 @@
+{
+  "id": "of_the_sniper",
+  "weight": 1000,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.of_the_sniper",
+  "type": "suffix",
+  "mods": {
+    "mods": [
+      "high_armor_penetration_flat",
+      "high_dodge_ignore_flat"
+    ]
+  }
+}

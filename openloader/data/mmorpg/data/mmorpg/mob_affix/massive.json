@@ -8,8 +8,8 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "high_health_percent",
-	  "health_flat"
+	  "health_flat",
+      "high_health_percent"
     ]
   }
 }

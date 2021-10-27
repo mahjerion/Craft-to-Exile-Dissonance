@@ -8,8 +8,8 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "major_armor_flat",
-	  "armor_percent"
+      "very_high_armor_flat",
+	  "very_high_armor_percent"
     ]
   }
 }

@@ -13,6 +13,7 @@
   "mods": [
     "plus_thunder_dash_spell_lvl_flat",
     "cdr_flat",
-	"bonus_all_drops_flat"
+	"damage_reduction_flat",
+	"luck_flat"
   ]
 }

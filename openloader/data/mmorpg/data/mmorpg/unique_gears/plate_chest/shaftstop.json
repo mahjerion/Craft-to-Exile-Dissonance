@@ -10,8 +10,9 @@
 	"slightly_high_armor_flat"
   ],
   "unique_stats": [
+	"damage_shield_flat",
     "high_health_flat",
-    "high_armor_percent"
+    "low_armor_percent"
   ],
   "can_get_set": false,
   "requirements": {

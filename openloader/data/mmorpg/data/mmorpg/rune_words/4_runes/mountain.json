@@ -12,8 +12,8 @@
     "ber"
   ],
   "mods": [
+    "damage_shield_flat",
     "high_health_flat",
-    "armor_percent",
-    "health_regen_flat"
+    "armor_percent"
   ]
 }

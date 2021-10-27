@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mob affix weighting has been shifted, in general, the elemental affixes have lower weight now.
 - Mob affixes have been rebalanced. Before, running into an elemental affix meant certain doom. This is because some of them would literally deal an ADDITIONAL 100% of their physical damage as an element. this has been changed. See the mob affixes in detail on the wiki.
 - Mobs scale at a higher rate now, and should reach 3x strength by level 90 instead of 100. This is more impactful past level 70, and barely affects levels 1-70.
+- Some runewords and unique items now have the new damage reduction stat.
 
 ### New Unique Items
 - New crossbow unique: Doomslinger - a heavy hitting crossbow unique!

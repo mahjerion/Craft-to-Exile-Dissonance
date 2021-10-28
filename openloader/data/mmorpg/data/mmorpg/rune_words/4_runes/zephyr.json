@@ -12,9 +12,9 @@
     "ber"
   ],
   "mods": [
+    "high_magic_shield_percent",
 	"thunder_penetration_flat",
     "energy_regen_flat",
-    "thunder_resist_flat",
-    "high_armor_flat"
+    "thunder_resist_flat"
   ]
 }

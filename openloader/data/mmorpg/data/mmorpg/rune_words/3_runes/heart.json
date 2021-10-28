@@ -11,8 +11,8 @@
     "ita"
   ],
   "mods": [
-    "low_health_percent",
-	"low_increase_healing_flat",
-	"low_cdr_flat"
+    "health_percent",
+	"increase_healing_flat",
+	"cdr_flat"
   ]
 }

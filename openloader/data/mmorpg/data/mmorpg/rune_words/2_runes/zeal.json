@@ -10,7 +10,7 @@
     "mos"
   ],
   "mods": [
-    "energy_regen_percent",
-    "armor_penetration_flat"
+    "high_armor_penetration_flat",
+    "energy_regen_percent"
   ]
 }

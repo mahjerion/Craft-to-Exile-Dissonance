@@ -1,0 +1,37 @@
+{
+  "id": "demon_slayers_wraps",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.demon_slayers_wraps",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "leather_chest",
+          "leather_pants",
+          "leather_helmet",
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 101,
+        "max_level": 120
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_armor_penetration_flat",
+    "3": "plus_hunting_skill_lvls_flat",
+	"4": "high_dodge_ignore_flat",
+	"5": "high_dodge_percent",
+    "6": "major_bow_damage_flat",
+    "7": "high_energy_regen_percent",
+    "8": "plus_hunting_skill_lvls_flat"
+  }
+}

@@ -11,7 +11,7 @@
     "ano"
   ],
   "mods": [
-    "spell_water_damage_flat",
+    "high_spell_water_damage_flat",
     "mana_regen_flat",
 	"thunder_resist_flat"
   ]

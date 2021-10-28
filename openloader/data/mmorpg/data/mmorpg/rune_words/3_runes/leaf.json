@@ -11,7 +11,7 @@
     "goh"
   ],
   "mods": [
-    "spell_fire_damage_flat",
+    "high_spell_fire_damage_flat",
     "mana_on_hit_flat",
 	"water_resist_flat"
   ]

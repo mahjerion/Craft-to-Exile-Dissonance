@@ -11,7 +11,7 @@
     "mos"
   ],
   "mods": [
-    "block_strength_flat",
+    "very_high_block_strength_flat",
 	"high_armor_flat"
   ]
 }

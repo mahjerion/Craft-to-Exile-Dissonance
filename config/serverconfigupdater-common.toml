@@ -4,7 +4,7 @@
 	toDelete = "azurerpgitems,betteranimalsplus,bountiful,corpsecomplex,create,dankstorage,fastleafdecay,forge,gaiadimension,ma-chat,midnight,mmorpg,minecolonies,mining_dimension,morpheus,productivebees,rotten_creatures,simplefarming,solcarrot,structurize,telepass,the_bumblezone,usefulbackpacks,valhesia_structures,waystones"
 	#Version Number. VersionNumbers are simple Integers. Use a number larger than the last version.
 	#Range: > 0
-	newVersion = 2
+	newVersion = 4
 
 ["File Deleter"]
 	#By default Folders are only deleted if they are empty. Set to true to change that.
@@ -14,5 +14,5 @@
 
 ["Version History"]
 	#Editing these values will not affect any worlds that are already on that version.
-	history = "1=azurerpgitems,betteranimalsplus,bountiful,corpsecomplex,create,dankstorage,fastleafdecay,forge,gaiadimension,ma-chat,midnight,mmorpg,minecolonies,mining_dimension,morpheus,productivebees,rotten_creatures,simplefarming,solcarrot,structurize,telepass,the_bumblezone,usefulbackpacks,valhesia_structures,waystones;"
+	history = "1=azurerpgitems,betteranimalsplus,bountiful,corpsecomplex,create,dankstorage,fastleafdecay,forge,gaiadimension,ma-chat,midnight,mmorpg,minecolonies,mining_dimension,morpheus,productivebees,rotten_creatures,simplefarming,solcarrot,structurize,telepass,the_bumblezone,usefulbackpacks,valhesia_structures,waystones;3=azurerpgitems,betteranimalsplus,bountiful,corpsecomplex,create,dankstorage,fastleafdecay,forge,gaiadimension,ma-chat,midnight,mmorpg,minecolonies,mining_dimension,morpheus,productivebees,rotten_creatures,simplefarming,solcarrot,structurize,telepass,the_bumblezone,usefulbackpacks,valhesia_structures,waystones;"
 

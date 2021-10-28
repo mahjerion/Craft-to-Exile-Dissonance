@@ -12,9 +12,10 @@
     "ita"
   ],
   "mods": [
+    "plus_all_skill_lvls_flat",
 	"cdr_flat",
 	"health_percent",
-    "lifesteal_flat",
+    "life_on_hit_flat",
     "elemental_resist_flat"
   ]
 }

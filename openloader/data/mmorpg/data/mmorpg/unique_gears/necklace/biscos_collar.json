@@ -7,10 +7,10 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.biscos_collar",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.biscos_collar.desc",
   "primary_stats": [
-    "bonus_all_drops_flat"
+    "luck_flat"
   ],
   "unique_stats": [
-    "very_high_bonus_all_drops_flat"
+    "very_high_luck_flat"
   ],
   "can_get_set": false,
   "requirements": {},

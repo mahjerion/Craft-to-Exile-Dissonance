@@ -31,7 +31,7 @@
     ]
   },
   "mods": {
-    "2": "low_bonus_all_drops_flat",
+    "2": "low_luck_flat",
     "3": "high_all_dot_dmg_flat",
     "4": "elemental_resist_flat"
   }

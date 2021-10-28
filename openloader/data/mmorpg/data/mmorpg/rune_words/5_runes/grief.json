@@ -14,8 +14,8 @@
   ],
   "mods": [
 	"all_nature_damage_flat",
+    "very_low_attack_nature_damage_flat",
     "attack_nature_damage_percent",
-    "nature_spell_to_attack_dmg_flat",
     "nature_penetration_flat"
   ]
 }

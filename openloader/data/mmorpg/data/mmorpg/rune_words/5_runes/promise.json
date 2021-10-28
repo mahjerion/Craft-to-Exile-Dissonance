@@ -13,9 +13,9 @@
     "ber"
   ],
   "mods": [
-    "cdr_flat",
-    "mana_regen_flat",
-	"energy_regen_flat",
-    "armor_flat"
+    "very_high_cdr_flat",
+    "armor_flat",
+    "very_high_mana_regen_flat",
+	"energy_regen_flat"
   ]
 }

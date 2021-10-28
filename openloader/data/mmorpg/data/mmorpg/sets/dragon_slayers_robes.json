@@ -1,0 +1,37 @@
+{
+  "id": "dragon_slayers_robes",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.dragon_slayers_robes",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_helmet",
+          "cloth_chest",
+          "cloth_boots",
+          "cloth_pants",
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 101,
+        "max_level": 120
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_mana_regen_percent",
+    "3": "cdr_flat",
+    "4": "very_high_spell_damage_flat",
+    "5": "high_faster_cast_rate_flat",
+    "6": "high_mana_flat",
+    "7": "major_luck_flat",
+    "8": "plus_all_skill_lvls_flat"
+  }
+}

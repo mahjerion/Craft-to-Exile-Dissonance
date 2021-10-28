@@ -1,28 +1,34 @@
 {
   "result": {
-    "item": "waystones:mossy_waystone"
+    "item": "waystones:waystone"
   },
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " S ",
+    " A ",
     "SWS",
-    "OOO"
+    "ODO"
   ],
   "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
     "S": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "mmorpg:mat/golden_orb"
     },
     "W": {
       "item": "waystones:warp_stone"
     },
+    "D": {
+      "item": "minecraft:stone_bricks"
+    },
     "O": {
-      "item": "minecraft:obsidian"
+      "item": "mmorpg:mat/crystallized_essence"
     }
   },
   "conditions": [
-	{
-	  "type": "forge:mod_loaded",
-	  "modid": "allthemodium"
-	}
+    {
+      "type": "forge:mod_loaded",
+      "modid": "powah"
+    }
   ]
 }

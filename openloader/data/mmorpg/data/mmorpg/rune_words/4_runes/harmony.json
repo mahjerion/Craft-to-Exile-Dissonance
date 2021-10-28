@@ -12,9 +12,9 @@
     "rah"
   ],
   "mods": [
-	"low_all_ele_dmg_flat",
-    "fire_spell_to_attack_dmg_flat",
-    "thunder_spell_to_attack_dmg_flat",
-    "water_spell_to_attack_dmg_flat"
+    "low_attack_elemental_damage_percent",
+    "tenth_attack_water_damage_flat",
+    "tenth_attack_fire_damage_flat",
+    "tenth_attack_thunder_damage_flat"
   ]
 }

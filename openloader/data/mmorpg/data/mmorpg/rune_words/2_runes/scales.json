@@ -10,8 +10,8 @@
     "cen"
   ],
   "mods": [
-    "nature_resist_flat",
-    "armor_flat",
-	"health_regen_flat"
+    "high_armor_flat",
+	"health_regen_flat",
+    "nature_resist_flat"
   ]
 }

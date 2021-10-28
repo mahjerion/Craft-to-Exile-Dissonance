@@ -14,8 +14,8 @@
   ],
   "mods": [
 	"plus_divine_skill_lvls_flat",
+    "high_health_percent",
     "health_regen_flat",
-    "health_flat",
     "mana_regen_flat"
   ]
 }

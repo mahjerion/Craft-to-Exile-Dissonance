@@ -11,7 +11,7 @@
     "ano"
   ],
   "mods": [
-    "spell_nature_damage_flat",
+    "high_spell_nature_damage_flat",
     "health_percent",
 	"mana_flat"
   ]

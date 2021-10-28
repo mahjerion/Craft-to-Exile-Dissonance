@@ -10,7 +10,7 @@
     "ita"
   ],
   "mods": [
-    "bonus_normal_item_drops_flat",
-	"low_cdr_flat"
+	"low_cdr_flat",
+    "bonus_unique_item_drops_flat"
   ]
 }

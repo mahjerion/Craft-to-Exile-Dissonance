@@ -12,8 +12,8 @@
     "cen"
   ],
   "mods": [
-	"high_water_penetration_flat",
-    "mana_regen_flat",
-    "high_mana_flat"
+    "high_mana_flat",
+	"very_high_water_penetration_flat",
+    "mana_regen_flat"
   ]
 }

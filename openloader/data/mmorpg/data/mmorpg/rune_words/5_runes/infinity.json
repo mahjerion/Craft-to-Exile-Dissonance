@@ -13,9 +13,9 @@
     "xah"
   ],
   "mods": [
-	"high_bow_damage_flat",
     "energy_flat",
+	"very_high_bow_damage_flat",
     "energy_regen_flat",
-    "energy_regen_percent"
+    "high_energy_regen_percent"
   ]
 }

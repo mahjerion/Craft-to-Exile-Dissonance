@@ -11,7 +11,7 @@
     "goh"
   ],
   "mods": [
-    "spell_thunder_damage_flat",
+    "high_spell_thunder_damage_flat",
     "low_cdr_flat",
 	"low_critical_hit_flat"
   ]

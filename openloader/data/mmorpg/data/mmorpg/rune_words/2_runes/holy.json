@@ -11,6 +11,6 @@
   ],
   "mods": [
     "increase_healing_flat",
-	"low_spell_damage_flat"
+	"spell_damage_flat"
   ]
 }

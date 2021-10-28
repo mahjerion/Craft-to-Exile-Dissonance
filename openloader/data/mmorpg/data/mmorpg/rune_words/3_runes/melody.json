@@ -11,8 +11,8 @@
     "mos"
   ],
   "mods": [
-    "bow_damage_flat",
 	"dexterity_flat",
-	"dodge_flat"
+	"dodge_flat",
+    "high_bow_damage_flat"
   ]
 }

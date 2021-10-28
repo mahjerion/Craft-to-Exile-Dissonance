@@ -23,10 +23,10 @@
     ]
   },
   "mods": {
-    "2": "bonus_currency_drops_flat",
-    "3": "high_physical_damage_percent",
-    "4": "elemental_resist_flat",
-    "5": "plus_nature_skill_lvls_flat",
+    "2": "elemental_resist_flat",
+    "3": "luck_flat",
+    "4": "plus_nature_skill_lvls_flat",
+    "5": "major_physical_damage_percent",
     "6": "plus_storm_skill_lvls_flat"
   }
 }

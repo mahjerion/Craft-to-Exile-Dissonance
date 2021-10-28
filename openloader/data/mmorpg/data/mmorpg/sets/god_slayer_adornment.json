@@ -1,0 +1,37 @@
+{
+  "id": "god_slayers_adornment",
+  "weight": 50,
+  "rarity": 4,
+  "tier": 0,
+  "registry": "item_set",
+  "lang_file_string": "mmorpg.set.god_slayers_adornment",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "plate_chest",
+          "plate_boots",
+          "plate_pants",
+          "plate_helmet",
+          "ring",
+          "necklace",
+          "bracelet",
+          "charm"
+        ]
+      },
+      {
+        "min_level": 101,
+        "max_level": 120
+      }
+    ]
+  },
+  "mods": {
+    "2": "high_armor_percent",
+    "3": "high_physical_damage_percent",
+    "4": "health_regen_flat",
+    "5": "very_high_armor_penetration_flat",
+    "6": "very_low_physical_damage_flat",
+    "7": "plus_all_skill_lvls_flat",
+    "8": "major_health_percent"
+  }
+}

@@ -11,8 +11,8 @@
     "voh"
   ],
   "mods": [
+    "health_percent",
     "critical_hit_flat",
-    "critical_damage_flat",
-    "health_percent"
+    "high_critical_damage_flat"
   ]
 }

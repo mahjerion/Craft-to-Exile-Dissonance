@@ -12,7 +12,7 @@
   ],
   "unique_stats": [
     "all_attributes_flat",
-    "low_bonus_all_drops_flat",
+    "low_luck_flat",
 	"fire_resist_flat"
   ],
   "can_get_set": false,

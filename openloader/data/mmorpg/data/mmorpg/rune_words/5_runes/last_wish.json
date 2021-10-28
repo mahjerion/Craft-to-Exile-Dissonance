@@ -13,9 +13,9 @@
     "dos"
   ],
   "mods": [
-	"physical_damage_percent",
     "very_high_all_dot_dmg_flat",
-    "dotsteal_flat",
-    "high_armor_penetration_flat"
+	"physical_damage_percent",
+    "high_armor_penetration_flat",
+    "dotsteal_flat"
   ]
 }

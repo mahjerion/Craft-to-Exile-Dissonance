@@ -12,9 +12,9 @@
     "ano"
   ],
   "mods": [
+    "high_cdr_flat",
 	"health_percent",
-    "increase_healing_flat",
-    "cdr_flat",
+    "high_increase_healing_flat",
     "low_mana_regen_flat"
   ]
 }

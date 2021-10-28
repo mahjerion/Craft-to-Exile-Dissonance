@@ -27,7 +27,7 @@
     "2": "high_mana_regen_percent",
     "3": "cdr_flat",
     "4": "spell_elemental_damage_flat",
-    "5": "bonus_currency_drops_flat",
+    "5": "high_luck_flat",
     "6": "plus_all_skill_lvls_flat"
   }
 }

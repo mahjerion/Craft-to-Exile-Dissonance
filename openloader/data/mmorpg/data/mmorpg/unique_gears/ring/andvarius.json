@@ -11,7 +11,7 @@
     "very_low_nature_resist_flat"
   ],
   "unique_stats": [
-    "bonus_all_drops_flat",
+    "luck_flat",
     "bonus_unique_item_drops_flat",
     "less_health_percent",
     "much_less_elemental_resist_flat"

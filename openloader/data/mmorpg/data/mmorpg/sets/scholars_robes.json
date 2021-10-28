@@ -31,7 +31,7 @@
   },
   "mods": {
     "2": "bonus_exp_flat",
-    "3": "bonus_normal_item_drops_flat",
-    "4": "bonus_map_drops_flat"
+    "3": "bonus_map_drops_flat",
+    "4": "high_luck_flat"
   }
 }

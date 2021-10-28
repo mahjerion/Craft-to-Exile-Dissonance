@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklace_doomsday",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_doomsday.desc",
   "primary_stats": [
-    "bonus_all_drops_flat"
+    "luck_flat"
   ],
   "unique_stats": [
     "much_less_magic_shield_flat",

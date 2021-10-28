@@ -12,7 +12,7 @@
   ],
   "mods": [
     "spell_damage_flat",
-    "mana_on_hit_flat",
-    "mana_regen_percent"
+    "high_mana_regen_percent",
+    "mana_on_hit_flat"
   ]
 }

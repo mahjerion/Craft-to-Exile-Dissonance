@@ -127,7 +127,7 @@
 		USE_COMPATIBILITY_ITEMS = true
 		#.
 		#Range: 0 ~ 1000
-		SPELL_POINTS_AT_MAX_LEVEL = 200
+		SPELL_POINTS_AT_MAX_LEVEL = 240
 		#.
 		ENABLE_CURRENCY_ITEMS_INSTABILITY_SYSTEM = true
 		#.
@@ -159,7 +159,7 @@
 		MOB_BOSS_CHANCE_IN_MAPS = 0.25
 		#.
 		#Range: 0 ~ 10000
-		TALENT_POINTS_AT_MAX_LEVEL = 100
+		TALENT_POINTS_AT_MAX_LEVEL = 120
 		#.
 		IGNORED_ENTITIES = ["minecraft:bat", "minecraft:tropical_fish", "minecraft:pufferfish", "minecraft:salmon", "minecraft:cod", "minecraft:squid", "minecraft:rabbit"]
 		#.
@@ -173,7 +173,7 @@
 		CURRENCY_DROP_AFTER_LEVEL = 10
 		#.
 		#Range: > 0
-		MAXIMUM_PLAYER_LEVEL = 100
+		MAXIMUM_PLAYER_LEVEL = 120
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		EXPERIENCE_MULTIPLIER = 1.5

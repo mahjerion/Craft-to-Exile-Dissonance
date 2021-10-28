@@ -10,7 +10,7 @@
     "voh"
   ],
   "mods": [
-    "fire_resist_flat",
-    "all_fire_damage_flat"
+    "all_fire_damage_flat",
+    "fire_resist_flat"
   ]
 }

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Max level has been increased from 100 to 120!
 - 2 new weapon types: Daggers, and Wands! More information below in Mine and Slash updates.
 - 16 new uniques listed below!
 - Non-map dimensions have had their tiers upped by 1 (except for the Overworld and Mirror dims).
@@ -15,7 +16,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mob affix weighting has been shifted, in general, the elemental affixes have lower weight now.
 - Mob affixes have been rebalanced. Before, running into an elemental affix meant certain doom. This is because some of them would literally deal an ADDITIONAL 100% of their physical damage as an element. this has been changed. See the mob affixes in detail on the wiki.
 - Mobs scale at a higher rate now, and should reach 3x strength by level 90 instead of 100. This is more impactful past level 70, and barely affects levels 1-70.
+- 3 new level 101-120 sets! These 3 new sets fit an archetype and are pretty powerful/rare!
+- Some level 70+ sets have been buffed.
+- Runewords have been majorly buffed! Check them out in the bestiary.
+- Lycanites bosses max levels are now 50 instead of 100.
+- Dimensional Dungeon chests now can drop level 110 and 120 loot crates. The weightings are as follows: 100 = 80%, 110 = 16%, 120 = 4%.
+- Dimensional Dungeons now provide a 4x experience boost.
+- Sandy Waystones have had their name and texture changed to better reflect that they're player-made.
+- Waystones can be set to global on survival mode on servers now by default. Note, this does not affect the official serevr.
 - Some runewords and unique items now have the new damage reduction stat.
+- Replaced "bonus all drops" stats with "luck" stat which is functionally the EXACT SAME.
 
 ### New Unique Items
 - New crossbow unique: Doomslinger - a heavy hitting crossbow unique!
@@ -44,6 +54,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Experience required to level up past 100 scales significantly faster than 1-100 (max level is 100 by default, this is for people who may want to increase it).
 - There is a new EXP multiplier config in the dimension config.
 - Fixed a bug where instead of giving a 20% bonus chance for map drops while in a map, it was actually a -80% chance... Map sustain should be much more bearable after this fix!
+- Chaotic Wisp now has an additional 25% chance to break your item instead of 20%.
+- Reduced the power of Chaos and Major Arcana stats. In general, there are less positive "multis". These stats were meant to be risky to apply, but currently they're too strong and low-risk. The change above also reflects this.
+- Some Spell Changes:
+- Almost all cooldowns have been reduced greatly, this is an aRPG not an MMORPG! Notably, storm spells have been reduced the most. Buffs remained almost unchanged.
+- All spells now have a minimum of 1 second cast time except Attack Spells, "basic/ball" spells, Nature's curses, movement spells, and the Hunting Potion.
+- Summon Zombie and Summon Wolf cooldowns no longer change with level. Zombie cooldown is now 30 (buff), and wolf's cooldown is 45 (nerf).
+- Duration for the following spells is now unchanging per level and has been set to what it would be "maxed": Holy Flower, Magma Flower, Steam Cloud, Volcano, Arrow Storm, Thorn Bush, Blizzard, Chilling Field, Whirlpool, Thunderstorm, Blight, Hellfire Cloak, Soul Shred.
+- Given that the above changes will probably drain your mana and energy at even quicker rates, reduced the rate at which mana and energy cost (not health) increases per level. In some cases before, the mana/energy cost would double by max level. Now, they'll only cost 50% more than the level 1 cost.
+- Some spells have had their initial costs reduced as well.
+- Lightning spells have relatively higher mana costs than other masteries, but lower cooldowns.
+- Fire spells have relatively higher damage than other masteries, but have higher cooldowns.
+- Reduced scaling of Purifying Fires slightly.
+- Fixed runes giving twice the stats they were supposed to give.
 
 ### Mod Updates
 - Updated Mine and Slash, Craft to Exile Custom Uniques, Inventory HUD+.

@@ -11,6 +11,6 @@
   ],
   "mods": [
     "bonus_currency_drops_flat",
-	"bonus_normal_item_drops_flat"
+	"bonus_unique_item_drops_flat"
   ]
 }

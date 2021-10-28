@@ -13,9 +13,9 @@
     "cen"
   ],
   "mods": [
+    "very_high_dodge_flat",
+    "very_high_dodge_percent",
 	"physical_damage_percent",
-    "high_dodge_flat",
-    "dodge_percent",
     "nature_resist_flat"
   ]
 }

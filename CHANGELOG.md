@@ -30,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Waystones can be set to global on survival mode on servers now by default. Note, this does not affect the official server.
 - Some runewords and unique items now have the new damage reduction stat.
 - Many of the flat health and magic shield stats have been turned into percent stats.
+- Enigma and Chains of Honor have received extra stats.
 
 ### New Unique Items
 - New crossbow unique: Doomslinger - a heavy hitting crossbow unique!

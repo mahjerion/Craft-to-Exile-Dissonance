@@ -13,9 +13,9 @@
   ],
   "mods": [
     "plus_all_skill_lvls_flat",
-	"cdr_flat",
+	"high_cdr_flat",
 	"health_percent",
     "life_on_hit_flat",
-    "elemental_resist_flat"
+    "high_elemental_resist_flat"
   ]
 }

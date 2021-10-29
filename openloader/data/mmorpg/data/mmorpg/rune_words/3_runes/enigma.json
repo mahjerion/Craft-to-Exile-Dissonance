@@ -11,9 +11,10 @@
     "oni"
   ],
   "mods": [
+    "plus_all_skill_lvls_flat",
     "plus_thunder_dash_spell_lvl_flat",
     "cdr_flat",
-	"damage_reduction_flat",
-	"bonus_unique_item_drops_flat"
+    "damage_shield_flat",
+    "bonus_unique_item_drops_flat"
   ]
 }

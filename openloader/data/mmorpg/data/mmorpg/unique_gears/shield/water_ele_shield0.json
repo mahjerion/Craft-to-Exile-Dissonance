@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "damage_shield_flat",
-    "magic_shield_flat",
+    "very_low_magic_shield_flat",
     "spell_water_damage_flat",
     "water_resist_flat"
   ],

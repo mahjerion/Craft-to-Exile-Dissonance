@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "plus_thorns_effect_lvl_flat",
-    "health_flat",
+    "tiny_health_flat",
     "low_health_regen_percent",
     "high_nature_resist_flat"
   ],

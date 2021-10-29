@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "arcane_devotion_trait_flat",
-    "health_flat",
+    "health_percent",
     "high_nature_resist_flat"
   ],
   "can_get_set": false,

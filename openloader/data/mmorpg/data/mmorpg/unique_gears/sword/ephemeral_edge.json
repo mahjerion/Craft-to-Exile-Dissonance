@@ -10,12 +10,12 @@
     "physical_damage_flat"
   ],
   "unique_stats": [
-    "magic_shield_flat",
+    "magic_shield_percent",
+    "very_low_magic_shield_flat",
     "physical_damage_percent",
     "critical_hit_flat",
-    "magic_shield_percent",
     "mana_on_hit_flat",
-    "less_health_flat"
+    "less_health_percent"
   ],
   "can_get_set": false,
   "requirements": {

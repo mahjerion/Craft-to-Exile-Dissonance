@@ -11,7 +11,7 @@
     "spell_damage_flat"
   ],
   "unique_stats": [
-    "health_flat",
+    "health_percent",
     "very_high_physical_damage_percent",
     "critical_hit_flat",
     "lifesteal_flat",

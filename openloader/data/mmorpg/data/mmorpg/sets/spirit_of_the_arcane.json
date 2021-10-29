@@ -23,7 +23,7 @@
   },
   "mods": {
     "2": "mana_flat",
-    "3": "magic_shield_flat",
+    "3": "magic_shield_percent",
     "4": "spell_damage_flat"
   }
 }

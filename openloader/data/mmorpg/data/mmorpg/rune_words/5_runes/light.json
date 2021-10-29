@@ -14,7 +14,7 @@
   ],
   "mods": [
 	"very_high_all_fire_damage_flat",
-    "health_flat",
+    "health_percent",
     "health_regen_flat",
     "high_fire_resist_flat"
   ]

@@ -11,7 +11,7 @@
 	"very_low_thunder_resist_flat"
   ],
   "unique_stats": [
-    "magic_shield_flat",
+    "very_low_magic_shield_flat",
     "magic_shield_percent",
     "magic_shield_regen_flat",
     "high_wisdom_flat"

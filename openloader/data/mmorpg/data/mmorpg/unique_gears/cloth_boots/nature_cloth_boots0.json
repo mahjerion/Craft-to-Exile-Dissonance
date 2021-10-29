@@ -11,7 +11,7 @@
     "low_armor_flat"
   ],
   "unique_stats": [
-	"low_health_flat",
+	"low_health_percent",
     "all_nature_damage_flat",
     "low_dotsteal_flat",
     "high_health_regen_flat"

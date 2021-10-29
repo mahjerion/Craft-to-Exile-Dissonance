@@ -10,7 +10,7 @@
 	"slightly_high_armor_flat"
   ],
   "unique_stats": [
-	"low_health_flat",
+	"low_health_percent",
     "axe_damage_flat",
     "attack_fire_damage_percent",
     "critical_damage_flat"

@@ -12,8 +12,8 @@
   "unique_stats": [
     "plus_soul_shred_spell_lvl_flat",
     "high_wisdom_flat",
-    "faster_cast_rate_flat",
-    "magic_shield_flat"
+    "magic_shield_percent",
+    "faster_cast_rate_flat"
   ],
   "can_get_set": true,
   "requirements": {

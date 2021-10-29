@@ -22,7 +22,7 @@
     ]
   },
   "mods": {
-    "2": "health_flat",
+    "2": "health_percent",
 	"3": "nature_resist_flat",
 	"4": "high_physical_damage_percent"
   }

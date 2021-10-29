@@ -12,7 +12,7 @@
   ],
   "mods": [
     "very_high_dodge_flat",
-	"health_flat",
+	"health_percent",
     "critical_damage_flat"
   ]
 }

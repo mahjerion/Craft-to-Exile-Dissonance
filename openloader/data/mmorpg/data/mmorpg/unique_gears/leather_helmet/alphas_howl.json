@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
 	"plus_divine_skill_lvls_flat",
-	"health_flat",
+	"health_percent",
     "high_mana_regen_flat",
     "cdr_flat",
     "high_water_resist_flat"

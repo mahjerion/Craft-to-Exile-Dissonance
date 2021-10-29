@@ -16,7 +16,7 @@
 	"plus_unholy_skill_lvls_flat",
 	"high_summon_damage_flat",
 	"high_spell_damage_flat",
-    "magic_shield_flat",
+    "magic_shield_percent",
     "magic_shield_regen_flat"
   ]
 }

@@ -24,6 +24,6 @@
   "mods": {
     "2": "physical_damage_percent",
     "3": "high_armor_flat",
-    "4": "health_flat"
+    "4": "health_percent"
   }
 }

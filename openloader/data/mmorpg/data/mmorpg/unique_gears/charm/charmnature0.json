@@ -10,7 +10,7 @@
 	"very_high_stamina_flat"
   ],
   "unique_stats": [
-    "health_flat",
+    "health_percent",
     "low_all_dot_dmg_flat",
     "spell_nature_damage_flat",
     "very_low_health_regen_flat"

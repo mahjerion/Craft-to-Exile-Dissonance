@@ -10,7 +10,7 @@
     "physical_damage_flat"
   ],
   "unique_stats": [
-    "high_health_flat",
+    "high_health_percent",
 	"spell_thunder_damage_flat",
     "very_high_physical_damage_percent",
 	"attack_thunder_damage_percent",

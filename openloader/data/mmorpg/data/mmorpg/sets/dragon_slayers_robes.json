@@ -31,7 +31,7 @@
     "4": "very_high_spell_damage_flat",
     "5": "high_faster_cast_rate_flat",
     "6": "high_mana_flat",
-    "7": "major_luck_flat",
+    "7": "very_high_bonus_unique_item_drops_flat",
     "8": "plus_all_skill_lvls_flat"
   }
 }

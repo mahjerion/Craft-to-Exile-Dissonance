@@ -11,7 +11,7 @@
     "low_attack_nature_damage_flat"
   ],
   "unique_stats": [
-    "high_health_flat",
+    "high_health_percent",
     "high_block_strength_flat",
     "high_nature_thorns_reflect_flat",
     "nature_resist_flat"

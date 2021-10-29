@@ -11,7 +11,7 @@
 	"low_magic_shield_flat"
   ],
   "unique_stats": [
-    "luck_flat",
+    "bonus_unique_item_drops_flat",
     "elemental_resist_flat"
   ],
   "can_get_set": false,

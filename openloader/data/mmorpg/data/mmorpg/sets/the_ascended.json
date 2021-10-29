@@ -32,6 +32,6 @@
   "mods": {
     "2": "armor_flat",
     "3": "high_vitality_flat",
-    "4": "health_flat"
+    "4": "health_percent"
   }
 }

@@ -24,6 +24,6 @@
   "mods": {
     "2": "mana_flat",
     "3": "magic_shield_regen_flat",
-    "4": "magic_shield_flat"
+    "4": "high_magic_shield_percent"
   }
 }

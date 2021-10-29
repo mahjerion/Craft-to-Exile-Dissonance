@@ -24,6 +24,6 @@
   "mods": {
     "2": "nature_resist_flat",
 	"3": "very_low_attack_thunder_damage_flat",
-	"4": "luck_flat"
+	"4": "bonus_unique_item_drops_flat"
   }
 }

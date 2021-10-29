@@ -10,7 +10,7 @@
     "health_flat"
   ],
   "unique_stats": [
-    "health_flat",
+    "very_low_health_flat",
     "high_block_strength_flat",
 	"physical_damage_percent",
     "elemental_resist_flat"

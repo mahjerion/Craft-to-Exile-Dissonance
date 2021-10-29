@@ -30,7 +30,7 @@
     ]
   },
   "mods": {
-    "2": "health_flat",
+    "2": "health_percent",
     "3": "increase_healing_flat"
   }
 }

@@ -7,13 +7,13 @@
   "lang_file_string": "item.mmorpg.uniques.necklace.necklace_doomsday",
   "lang_file_desc_string": "item.mmorpg.uniques.necklace.necklace_doomsday.desc",
   "primary_stats": [
-    "luck_flat"
+    "bonus_unique_item_drops_flat"
   ],
   "unique_stats": [
-    "much_less_magic_shield_flat",
-    "much_less_health_flat",
-    "less_mana_regen_flat",
-    "much_less_energy_regen_flat",
+    "much_less_magic_shield_percent",
+    "much_less_health_percent",
+    "less_mana_regen_percent",
+    "much_less_energy_regen_percent",
     "high_physical_damage_percent",
     "high_all_elemental_damage_flat"
   ],

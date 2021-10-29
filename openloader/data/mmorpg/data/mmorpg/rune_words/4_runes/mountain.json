@@ -13,7 +13,7 @@
   ],
   "mods": [
     "damage_shield_flat",
-    "high_health_flat",
-    "armor_percent"
+    "high_armor_percent",
+    "armor_flat"
   ]
 }

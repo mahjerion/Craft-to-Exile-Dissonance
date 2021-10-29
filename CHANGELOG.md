@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.2] - 2021-10-29
+
 ### Updates
 - Max level has been increased from 100 to 120!
 - 2 new weapon types: Daggers, and Wands! More information below in Mine and Slash updates.
@@ -22,10 +24,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Lycanites bosses max levels are now 50 instead of 100.
 - Dimensional Dungeon chests now can drop level 110 and 120 loot crates. The weightings are as follows: 100 = 80%, 110 = 16%, 120 = 4%.
 - Dimensional Dungeons now provide a 4x experience boost.
+- Dimensional Dungeons mob damage has been reduced by 25%.
+- Chance for loot crate roll in Dim Dungeons has increased from 25% to 33%.
 - Sandy Waystones have had their name and texture changed to better reflect that they're player-made.
-- Waystones can be set to global on survival mode on servers now by default. Note, this does not affect the official serevr.
+- Waystones can be set to global on survival mode on servers now by default. Note, this does not affect the official server.
 - Some runewords and unique items now have the new damage reduction stat.
-- Replaced "bonus all drops" stats with "luck" stat which is functionally the EXACT SAME.
+- Many of the flat health and magic shield stats have been turned into percent stats.
 
 ### New Unique Items
 - New crossbow unique: Doomslinger - a heavy hitting crossbow unique!
@@ -51,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Wands are like staves, but specialize more in healing and utility stats. Also, wands can only roll physical damage as a primary stat. They are also faster attacking.
 - Staves no long roll increase healing as a secondary stat and can now roll faster cast rate instead.
 - "Rare" mobs (which were actually uncommon) have been renamed to "Adept" to prevent confusion.
-- Experience required to level up past 100 scales significantly faster than 1-100 (max level is 100 by default, this is for people who may want to increase it).
+- Experience required to level up past 100 scales significantly faster than 1-100.
 - There is a new EXP multiplier config in the dimension config.
 - Fixed a bug where instead of giving a 20% bonus chance for map drops while in a map, it was actually a -80% chance... Map sustain should be much more bearable after this fix!
 - Chaotic Wisp now has an additional 25% chance to break your item instead of 20%.
@@ -67,6 +71,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fire spells have relatively higher damage than other masteries, but have higher cooldowns.
 - Reduced scaling of Purifying Fires slightly.
 - Fixed runes giving twice the stats they were supposed to give.
+- New stat: Damage Reduction which reduces damage by a percent. At the moment, only one Major Arcana trait uses it.
+- Cooldown reduction stat has been lowered in power slightly.
+- Improved shield tooltips when holding shift.
 
 ### Mod Updates
 - Updated Mine and Slash, Craft to Exile Custom Uniques, Inventory HUD+.

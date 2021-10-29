@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "high_strength_flat",
-	"health_flat",
+	"tiny_health_flat",
     "health_percent",
 	"high_physical_damage_percent",
 	"water_resist_flat"

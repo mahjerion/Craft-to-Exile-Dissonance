@@ -11,10 +11,10 @@
     "attack_fire_damage_flat"
   ],
   "unique_stats": [
-	"health_flat",
+	"health_percent",
+    "very_high_fire_penetration_flat",
 	"fire_resist_flat",
-    "high_mana_on_hit_flat",
-    "very_high_fire_penetration_flat"
+    "high_mana_on_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {

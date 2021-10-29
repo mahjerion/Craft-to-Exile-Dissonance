@@ -24,7 +24,7 @@
   },
   "mods": {
     "2": "elemental_resist_flat",
-    "3": "luck_flat",
+    "3": "bonus_unique_item_drops_flat",
     "4": "plus_nature_skill_lvls_flat",
     "5": "major_physical_damage_percent",
     "6": "plus_storm_skill_lvls_flat"

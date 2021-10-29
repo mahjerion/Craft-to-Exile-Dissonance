@@ -12,7 +12,7 @@
   "unique_stats": [
     "spell_nature_damage_flat",
     "spell_thunder_damage_flat",
-    "high_health_flat",
+    "high_health_percent",
     "high_energy_flat"
   ],
   "can_get_set": false,

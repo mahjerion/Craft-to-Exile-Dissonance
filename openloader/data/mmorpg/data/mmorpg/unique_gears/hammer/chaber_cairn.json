@@ -11,8 +11,8 @@
   ],
   "unique_stats": [
 	"plus_divine_skill_lvls_flat",
-    "low_health_flat",
-    "low_mana_flat",
+    "very_low_health_flat",
+    "very_low_mana_flat",
     "high_physical_damage_percent"
   ],
   "can_get_set": false,

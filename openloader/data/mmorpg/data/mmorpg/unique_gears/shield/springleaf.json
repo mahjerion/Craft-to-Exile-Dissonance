@@ -1,0 +1,25 @@
+{
+  "id": "springleaf",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.shield.springleaf",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.springleaf.desc",
+  "primary_stats": [
+    "major_block_strength_flat"
+  ],
+  "unique_stats": [
+	"health_flat",
+	"health_regen_flat",
+    "magic_shield_flat",
+    "water_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.25,
+    "strength": 0.25
+  },
+  "gear_type": "shield",
+  "item_id": "cte_uniques:springleaf"
+}

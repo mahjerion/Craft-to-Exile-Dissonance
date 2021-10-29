@@ -1,0 +1,24 @@
+{
+  "id": "crest_of_perandus",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 1,
+  "registry": "unique_gear",
+  "lang_file_string": "item.mmorpg.uniques.shield.crest_of_perandus",
+  "lang_file_desc_string": "item.mmorpg.uniques.shield.crest_of_perandus.desc",
+  "primary_stats": [
+    "major_block_strength_flat"
+  ],
+  "unique_stats": [
+    "health_percent",
+	"lifesteal_flat",
+    "thunder_resist_flat"
+  ],
+  "can_get_set": false,
+  "requirements": {
+    "vitality": 0.25,
+    "strength": 0.25
+  },
+  "gear_type": "shield",
+  "item_id": "cte_uniques:crest_of_perandus"
+}

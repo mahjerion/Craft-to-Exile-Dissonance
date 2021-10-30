@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.2b] - 2021-10-30
+
+### Mine and Slash Updates
+- At maximum level, you can now unlock a 3rd mastery tree.
+- Fixed experience curve not working past level 100. I've changed it to continue the regular curve, just 10x more experience for now.
+- Fixed NPE for Dodge Ignore (hopefully).
+- Fixed Identify Tome using all stacks.
+- Some effects like Burn, Wounds, Thorns, now have a minimum base value of 1.
+- Animate Scythe now has an unscaling base value of 1, and it's description more accurately explains how it works.
+- Defend now also provides a 15% damage reduction to all sources.
+- Chilling Touch scaling has been reduced a smidge.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.13.2] - 2021-10-29
 
 ### Updates

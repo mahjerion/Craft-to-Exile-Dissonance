@@ -4,7 +4,7 @@ doHorsesSwim = false
 #Blacklist
 [blacklist]
 	#list of resourcelocations in string form
-	blacklist = ["minecraft:tnt", "corpse:corpse", "farmingforblockheads:merchant", "minecraft:trader_llama"]
+	blacklist = ["minecraft:tnt", "farmingforblockheads:merchant", "minecraft:trader_llama"]
 
 #Whitelist
 [whitelist]

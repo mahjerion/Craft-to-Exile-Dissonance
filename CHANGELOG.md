@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.13.2d] - 2021-10-31
+## [2.13.2d] - 2021-XX-XX
 
 ### Mod Updates
 - Updated Craft to Exile Uniques.

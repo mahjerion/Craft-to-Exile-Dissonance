@@ -7,10 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.2d] - 2021-10-31
+
+### Mod Updates
+- Updated Craft to Exile Uniques.
+
+### Fixes
+- Removed annoying incompatible server message (the red X).
+
 ## [2.13.2c] - 2021-10-30
 
 ### Mod Updates
-- Mine and Slash
+- Updated Mine and Slash.
 
 ### Fixes
 - Fixed server crashes.

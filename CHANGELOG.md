@@ -7,11 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.2d] - 2021-11-03
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
 ### Mod Updates
-- Updated Craft to Exile Custom Uniques.
+- Updated Craft to Exile Custom Uniques, Mine and Slash, Xaero's.
 
 ### Fixes
 - Fixed Silverbranch stat order.
+- Fixed legendary wand not having its name.
 
 ## [2.13.2c] - 2021-10-30
 

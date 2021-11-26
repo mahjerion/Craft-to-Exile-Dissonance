@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Mod Updates
-- Updated SuperMartijn624 Core Lib, Xaero's.
+- Updated SuperMartijn624 Core Lib, Xaero's, GeckoLib.
 
 ## [2.13.2d] - 2021-11-03
 

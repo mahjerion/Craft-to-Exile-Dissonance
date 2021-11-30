@@ -12,8 +12,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 
+### Mine and Slash Updates
+- Buffed Spell Damage, Elemental Spell Damage, and Elemental Penetration stats.
+- Buffed Armor Penetration stat.
+- Fixed Magic Burst and Rock Slide not able to be right-click casted when holding off hands. Had to remove their cast times. Increased their cooldowns to compensate.
+- Bone Squall is no longer right-click castable (never worked to begin with).
+- Charged Nova synergy not applying Static effect should be fixed.
+
 ### Mod Updates
-- Updated SuperMartijn624 Core Lib, Xaero's, GeckoLib.
+- Updated SuperMartijn624 Core Lib, Xaero's, GeckoLib, Mine and Slash.
 
 ## [2.13.2d] - 2021-11-03
 

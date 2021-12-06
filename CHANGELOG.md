@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
 ### Mod Updates
-- Updated SuperMartijn624 Core Lib.
+- Updated SuperMartijn624 Core Lib, Xaero's World Map.
 
 ## [2.13.2e] - 2021-11-30
 

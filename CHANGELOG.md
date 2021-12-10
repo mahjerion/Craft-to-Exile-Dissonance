@@ -7,11 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.13.3] - 2021-12-10
+
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 
 ### Mod Updates
-- Updated SuperMartijn624 Core Lib, Xaero's World Map.
+- Updated to Forge 31.2.56 to patch a vulnerability. Please update to this version ASAP.
+- Updated SuperMartijn624 Core Lib, Xaero's.
 
 ## [2.13.2e] - 2021-11-30
 

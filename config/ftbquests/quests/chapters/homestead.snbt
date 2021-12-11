@@ -2463,7 +2463,8 @@
 			size: 1.0d,
 			description: [
 				"The Composter’s Hut is where the Composter will turn organic materials into compost, which can be used by the Farmer or Florist to fertilize crops or flowers. They can also create dirt if you have the setting enabled, which the Builder",
-				"can use in buildings. The Composter uses compost barrels to make compost or dirt."
+				"can use in buildings. The Composter uses compost barrels to make compost or dirt.",
+				"Unlocking this quest requires both dependencies."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;

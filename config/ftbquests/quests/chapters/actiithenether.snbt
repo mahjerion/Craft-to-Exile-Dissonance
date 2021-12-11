@@ -102,14 +102,14 @@
 		},
 		{
 			title: "Who Cut Cheese?",
-			x: 3.0d,
-			y: 0.0d,
+			x: 4.5d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["The Nether is an unforgiving realm. You're likely to shed tears from frustration. But did you know monsters in the Nether can cry too?"],
 			min_required_dependencies: 0,
-			dependencies: [I;207],
+			dependencies: [I;215],
 			dependency_requirement: "all_completed",
 			id: 211,
 			tasks: [{
@@ -163,11 +163,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["As you traverse the Nether, darkness starts to gnaw at your psyche. Quickly, we must get out of here! Kill the withers and grab their skulls. Only then can we leave..."],
-			min_required_dependencies: 1,
-			dependencies: [I;
-				211,
-				2462
-			],
+			min_required_dependencies: 0,
+			dependencies: [I;207],
 			dependency_requirement: "all_completed",
 			id: 215,
 			tasks: [{
@@ -416,13 +413,13 @@
 		},
 		{
 			title: "Light In The Shadows",
-			x: 4.5d,
+			x: 6.0d,
 			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Remember that villager? Yeah, they're back... Seems like warts weren't enough to get them off shiny objects. This time they're asking for nether stars... THREE of them!"],
-			min_required_dependencies: 0,
+			description: ["Remember that villager? Yeah, they're back... Seems like warts weren't enough to get them off shiny objects. This time they're asking for nether stars..."],
+			min_required_dependencies: 1,
 			dependencies: [I;
 				236,
 				219
@@ -432,8 +429,7 @@
 			tasks: [{
 				id: 241,
 				type: "item",
-				item: "minecraft:nether_star",
-				count: 3L
+				item: "minecraft:nether_star"
 			}],
 			rewards: [
 				{
@@ -473,7 +469,7 @@
 					equipmentLevel: 1
 				}
 			},
-			x: 0.0d,
+			x: 1.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -530,7 +526,7 @@
 					equipmentLevel: 1
 				}
 			},
-			x: 1.5d,
+			x: 3.0d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -581,7 +577,7 @@
 		{
 			title: "Burning Hides",
 			icon: "lycanitesmobs:boulderblastcharge",
-			x: 3.0d,
+			x: 4.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -640,7 +636,7 @@
 					}
 				}
 			},
-			x: 4.5d,
+			x: 6.0d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -691,7 +687,7 @@
 		{
 			title: "Firebolt!",
 			icon: "lycanitesmobs:scorchfireballcharge",
-			x: 6.0d,
+			x: 7.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -742,7 +738,7 @@
 		{
 			title: "And The Brain",
 			icon: "lycanitesmobs:raw_pinky_meat",
-			x: 7.5d,
+			x: 9.0d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -793,7 +789,7 @@
 		{
 			title: "Finding The Source",
 			icon: "lycanitesmobs:embercharge",
-			x: 9.0d,
+			x: 10.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -852,14 +848,15 @@
 					}
 				}
 			},
-			x: 4.5d,
+			x: 6.0d,
 			y: 6.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: [
 				"Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki).",
-				"It is highly recommended that you fight these bosses with allies."
+				"It is highly recommended that you fight these bosses with allies.",
+				"Unlocking this quest requires all dependencies."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;
@@ -928,7 +925,7 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["You can search in the JEI for all the different enchantments and shelves that Apotheosis brings to the table. Experiment with different configurations!"],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;
 				207,
 				232
@@ -986,7 +983,7 @@
 			size: 1.0d,
 			description: ["The Extended Nether Backport brings some of that 1.16 goodness to 1.15.2! Find the Strider, Hoglin, and many more!"],
 			min_required_dependencies: 0,
-			dependencies: [I;121],
+			dependencies: [I;207],
 			dependency_requirement: "all_completed",
 			id: 2458,
 			tasks: [{
@@ -1042,7 +1039,7 @@
 			size: 1.0d,
 			description: ["These nasty zombie pigs can be found in the Nether as well!"],
 			min_required_dependencies: 0,
-			dependencies: [I;2458],
+			dependencies: [I;207],
 			dependency_requirement: "all_completed",
 			id: 2462,
 			tasks: [{

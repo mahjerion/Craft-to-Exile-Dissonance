@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.0] - 2021-12-11
+
+### Updates
+- Due to the changes to the Nature tree, everyone has been provided with a spell reset potion!
+- A change to Nature spells is outlined below in the Mine and Slash Updates section. Overall, there is an emphasis on keeping the Plague effect (formerly known as Thorns) on mobs.
+- Quests have been restructured to make progression feel a bit more open-ended. I've basically reduced the amount of linearity and turned previously "mandatory" quests into optional ones. Note: I changed a lot of the quest dependencies so you may have some holes in your quest lines.
+- In general, any time a quest looks like it requires more than one dependency it only actually requires one. If it requires more, the quest will state it.
+- Act I quests have been shifted to be more open. Quest EXP values have been moved around as well.
+- Act II's Light In The Shadows now requires 1 Nether Star instead of 3, and does not require both the Black Death and Warts quests (just needs 1 of them).
+- Act IV's "Followers Of Atum" now only requires one of two dependencies to unlock.
+- Act V's "Negative Karma" now only requires 2 Negatite Gems instead of 4.
+- Act VIb's "Purification" now only requires two of four dependencies instead of three of four to unlock.
+- Act VII's kill quests have been restructured greatly. There are now multiple avenues to get to the last boss quest (Guardian Of The Stone), and a lot of the previously mandatory quests are now side quests.
+- Added some tips on how to find the Markuzuar Plant in that one quest.
+- Act VII's "Double Rainbow" now only requires one of two dependencies to unlock.
+- Act VII's "Guardian Of The Stone" now only requires one of two dependencies to unlock.
+
+### Mine and Slash Updates
+Nature Mastery Rework:
+- Poison Ball and Thorn Bush have swapped places (Thorn Bush is the new level 1 spell).
+- Thorn Armor and Rock Slide have swapped places.
+- Poison Ball now fire 3 projectiles and is much stronger.
+- Poison Ball has been renamed to Spirit Blast.
+- Plague Balls no longer procs Thorns and instead deals additional damage if the target is affected by it.
+- Thorn Bush no longer deals additional damage if the target is affected by it, and instead procs Thorns.
+- Thorn Bush now only fires 1 seed across all levels.
+- Thorn Bush no longer has a cast time.
+- Thorn Bush can be bound to a mage weapon.
+- Thorn Bush has been reworked to be more bursty - it lasts only 2 seconds but hits multiple times, and has a smaller radius.
+- Poison Cloud has a lower cooldown and lower mana cost.
+- Rock Slide has been buffed and is now more appropriate as an "ultimate".
+- Rock Slide synergy Stone Shrapnel is now Virulent Shrapnel and causes Rock Slide to deal much more damage if the target is affected by at least 6 stacks of Thorns.
+Other Spells:
+- Ice Bolt now travels faster and pierces enemies, but deals slightly less damage. It also costs slightly less mana.
+Renamed:
+- Thorns has been renamed to Plague. A bunch of Nature spells have been renamed to reflect this change.
+- Hunter Instinct has been renamed to Hunter's Instinct.
+- Chilled has been renamed to Chill.
+Fixed:
+- Nature Synergy dealing extra damage when target had Thorns effect no longer removes a stack of Thorns (mistake).
+
+### Mod Updates
+- Updated GeckoLib, Global XP, Structures' Compass, Mine and Slash.
+
 ## [2.13.3] - 2021-12-10
 
 ### Updates

@@ -572,8 +572,11 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Rumours have it that burning redstone and lapis lazuli in a furnace purifies them... But for what purpose?"],
-			min_required_dependencies: 3,
+			description: [
+				"Rumours have it that burning redstone and lapis lazuli in a furnace purifies them... But for what purpose?",
+				"Unlocking this quest requires two dependencies."
+			],
+			min_required_dependencies: 2,
 			dependencies: [I;
 				395,
 				397,

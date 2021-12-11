@@ -437,7 +437,7 @@
 				"You've been told that the pyramids hold great treasure - but that great treasure is guarded by an ancient pharaoh. Interrogate some followers and find out how you can get to the treasure.",
 				"Kill 3 sergeants."
 			],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;
 				327,
 				333

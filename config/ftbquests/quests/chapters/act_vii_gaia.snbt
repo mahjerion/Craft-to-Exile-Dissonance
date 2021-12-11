@@ -136,7 +136,7 @@
 			size: 1.0d,
 			description: ["Nomadic lagrahks can be found in Agate forests. These creatures carry sharp blades - be careful!"],
 			min_required_dependencies: 0,
-			dependencies: [I;2156],
+			dependencies: [I;2154],
 			dependency_requirement: "all_completed",
 			id: 2158,
 			tasks: [{
@@ -394,7 +394,7 @@
 		{
 			title: "Black And Green",
 			x: -5.0d,
-			y: -2.0d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -486,7 +486,7 @@
 		{
 			title: "Rickety Weapon",
 			x: 5.0d,
-			y: 0.0d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -567,7 +567,7 @@
 		{
 			title: "Leucite",
 			x: -5.0d,
-			y: 2.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -741,13 +741,17 @@
 		{
 			title: "Tower I",
 			x: 5.0d,
-			y: -1.5d,
+			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Archaic warriors can be found in tall yellow towers in the Gaia dimension. You will find these towers spread in Agate forests."],
-			min_required_dependencies: 0,
-			dependencies: [I;2158],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				2158,
+				2204,
+				2208
+			],
 			dependency_requirement: "all_completed",
 			id: 2200,
 			tasks: [{
@@ -860,11 +864,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: ["Spitfire can be found in hot and volcanous biomes."],
-			min_required_dependencies: 1,
-			dependencies: [I;
-				2216,
-				2214
-			],
+			min_required_dependencies: 0,
+			dependencies: [I;2200],
 			dependency_requirement: "all_completed",
 			id: 2206,
 			tasks: [{
@@ -910,7 +911,7 @@
 			size: 1.0d,
 			description: ["Shalurkers are creepy creatures that can be found in the underground. Stay alert while mining!"],
 			min_required_dependencies: 0,
-			dependencies: [I;2204],
+			dependencies: [I;2154],
 			dependency_requirement: "all_completed",
 			id: 2208,
 			tasks: [{
@@ -1028,7 +1029,11 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["These plants can be found rarely in Agate forests. It's said that harvesting these plants yields useful resources."],
+			description: [
+				"These plants can be found rarely in Agate forests. It's said that harvesting these plants yields useful resources.",
+				"",
+				"Pro Tip: for some reason, these plants like to spawn on top of the Malachite (green) Towers."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;2200],
 			dependency_requirement: "all_completed",
@@ -1053,13 +1058,13 @@
 		},
 		{
 			title: "Guardians Of The Stone",
-			x: 9.5d,
+			x: 8.0d,
 			y: 0.0d,
-			shape: "default",
+			shape: "pentagon",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Malachite can be found in great, green, malachite towers in Agate forests. Battle through the tower and reach the guard at the top!"],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;
 				2216,
 				2214
@@ -1110,14 +1115,14 @@
 		},
 		{
 			title: "Murky Waters",
-			x: 6.5d,
+			x: 5.0d,
 			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["The Gaia has unique water that is home to various creatures. The shallow arenthis can be found in water aboveground."],
 			min_required_dependencies: 0,
-			dependencies: [I;2214],
+			dependencies: [I;2212],
 			dependency_requirement: "all_completed",
 			id: 2225,
 			tasks: [{
@@ -1139,7 +1144,7 @@
 			}]
 		},
 		{
-			x: 8.0d,
+			x: 6.5d,
 			y: 3.0d,
 			shape: "default",
 			subtitle: "",
@@ -1175,7 +1180,7 @@
 			size: 1.0d,
 			description: ["These hard-shelled creatures can be found in mountainous biomes. Rumour has it that their meat tastes pretty good when cooked!"],
 			min_required_dependencies: 0,
-			dependencies: [I;2200],
+			dependencies: [I;2158],
 			dependency_requirement: "all_completed",
 			id: 2229,
 			tasks: [{
@@ -1236,7 +1241,7 @@
 				"The rocky, colourful beast is exceptionally difficult to find. But they sure are wonderful to look at!",
 				"You'll find them in the smoldering bog..."
 			],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;
 				2208,
 				2210

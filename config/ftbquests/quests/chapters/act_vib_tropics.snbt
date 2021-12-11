@@ -737,7 +737,7 @@
 				"At this point, you can craft scuba gear! Using iguana leather and zircon, you can make the 3 pieces of scuba gear.",
 				"Refill the air in your scuba tank using the air compressor!"
 			],
-			min_required_dependencies: 0,
+			min_required_dependencies: 1,
 			dependencies: [I;
 				1999,
 				1994,

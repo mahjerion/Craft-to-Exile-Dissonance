@@ -55,7 +55,6 @@
 				{
 					id: 1715,
 					type: "item",
-					title: "375 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
@@ -99,7 +98,6 @@
 				{
 					id: 1716,
 					type: "item",
-					title: "750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
@@ -173,12 +171,11 @@
 				{
 					id: 1720,
 					type: "item",
-					title: "1125 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 1125
+							exp: 1500
 						}
 					}
 				}
@@ -206,12 +203,11 @@
 				{
 					id: 1721,
 					type: "item",
-					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 1500
+							exp: 2000
 						}
 					}
 				},
@@ -336,7 +332,7 @@
 		},
 		{
 			title: "Identification, Please",
-			x: 3.0d,
+			x: 4.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
@@ -361,12 +357,11 @@
 				{
 					id: 1727,
 					type: "item",
-					title: "6750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 6750
+							exp: 1750
 						}
 					}
 				},
@@ -595,7 +590,7 @@
 		{
 			title: "Point The Way",
 			x: 0.0d,
-			y: 6.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -604,7 +599,7 @@
 				"Global waystones can be teleported to interdimensionally. The warp stone allows you to teleport to any waystone at a cost. It has a longer cooldown than using scrolls."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;1686],
+			dependencies: [I;3],
 			dependency_requirement: "all_completed",
 			id: 48,
 			tasks: [{
@@ -627,12 +622,11 @@
 				{
 					id: 1744,
 					type: "item",
-					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000
+							exp: 1000
 						}
 					}
 				}
@@ -640,8 +634,8 @@
 		},
 		{
 			title: "Summoning Aspect",
-			x: 6.0d,
-			y: 0.0d,
+			x: 1.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -651,7 +645,7 @@
 				"Press the beastiary (default: G) to change which elemental is equipped to the summon slot, and hold right-click with the staff to open a portal to summon the elemental."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;16],
+			dependencies: [I;2057],
 			dependency_requirement: "all_completed",
 			id: 57,
 			tasks: [{
@@ -696,14 +690,14 @@
 		},
 		{
 			title: "Upgrading Your Equipment",
-			x: 4.5d,
+			x: 3.0d,
 			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["With a modify station, you are able to upgrade or reroll your equipment using currency dropped by mobs. Craft one soon!"],
 			min_required_dependencies: 0,
-			dependencies: [I;16],
+			dependencies: [I;19],
 			dependency_requirement: "all_completed",
 			id: 60,
 			tasks: [{
@@ -723,12 +717,11 @@
 				{
 					id: 1728,
 					type: "item",
-					title: "4500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 4500
+							exp: 1500
 						}
 					}
 				}
@@ -737,8 +730,8 @@
 		{
 			title: "The Bumblezone",
 			icon: "minecraft:bee_nest",
-			x: 6.0d,
-			y: 1.5d,
+			x: 3.0d,
+			y: -1.5d,
 			shape: "rsquare",
 			subtitle: "Optional",
 			size: 1.0d,
@@ -749,7 +742,7 @@
 				"The Bumblezone is an optional dimension. If you want to skip it, feel free to complete Taking The Long Route to access the Nether, instead!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;60],
+			dependencies: [I;10],
 			dependency_requirement: "all_completed",
 			id: 64,
 			tasks: [{
@@ -770,12 +763,11 @@
 				{
 					id: 1729,
 					type: "item",
-					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 1500
+							exp: 2500
 						}
 					}
 				},
@@ -803,7 +795,7 @@
 		{
 			title: "TOO. MUCH. LOOT.",
 			x: 4.5d,
-			y: 3.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -829,12 +821,11 @@
 				{
 					id: 1738,
 					type: "item",
-					title: "6750 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 6750
+							exp: 2250
 						}
 					}
 				}
@@ -843,7 +834,7 @@
 		{
 			title: "Still Too Much...",
 			x: 6.0d,
-			y: 3.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -876,12 +867,11 @@
 				{
 					id: 1741,
 					type: "item",
-					title: "9000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 9000
+							exp: 4000
 						}
 					}
 				}
@@ -889,7 +879,7 @@
 		},
 		{
 			title: "The Master Bag",
-			x: 7.5d,
+			x: 6.0d,
 			y: 3.0d,
 			shape: "default",
 			subtitle: "",
@@ -908,12 +898,11 @@
 				{
 					id: 1742,
 					type: "item",
-					title: "37500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 37500
+							exp: 10000
 						}
 					}
 				},
@@ -935,8 +924,8 @@
 		},
 		{
 			title: "I Can't Carry Anymore",
-			x: 7.5d,
-			y: 0.0d,
+			x: -1.5d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -944,7 +933,7 @@
 				"Sometimes you just want the good old fashioned travel storage solution. You can equip the backpack via Curios and access it with V!",
 				"Note: do NOT go into creative mode with a backpack in your inventory. This may clear out the backpack!"
 			],
-			hide_dependency_lines: true,
+			hide_dependency_lines: false,
 			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "one_completed",
@@ -990,14 +979,14 @@
 		},
 		{
 			title: "Shield Hero",
-			x: 7.5d,
-			y: 1.5d,
+			x: 4.5d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield."],
 			min_required_dependencies: 0,
-			dependencies: [I;91],
+			dependencies: [I;36],
 			dependency_requirement: "all_completed",
 			id: 424,
 			tasks: [{
@@ -1036,8 +1025,8 @@
 		},
 		{
 			title: "Storage Solutions",
-			x: 9.0d,
-			y: 0.0d,
+			x: -3.0d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1073,14 +1062,14 @@
 		},
 		{
 			title: "Ocarina Of Time",
-			x: 9.0d,
-			y: 1.5d,
+			x: -3.0d,
+			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can 'claim' the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time!"],
 			min_required_dependencies: 0,
-			dependencies: [I;91],
+			dependencies: [I;2330],
 			dependency_requirement: "all_completed",
 			id: 428,
 			tasks: [{
@@ -1101,12 +1090,11 @@
 				{
 					id: 1731,
 					type: "item",
-					title: "1500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 1500
+							exp: 4500
 						}
 					}
 				}
@@ -1114,8 +1102,8 @@
 		},
 		{
 			title: "Bufflon Mounts",
-			x: 10.5d,
-			y: 1.5d,
+			x: -3.0d,
+			y: 6.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1141,12 +1129,11 @@
 				{
 					id: 1732,
 					type: "item",
-					title: "2250 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2250
+							exp: 7500
 						}
 					}
 				},
@@ -1159,8 +1146,8 @@
 		},
 		{
 			title: "Show Me The Way",
-			x: 1.5d,
-			y: 6.0d,
+			x: 0.0d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1200,8 +1187,8 @@
 		},
 		{
 			title: "Direct Me The Whey",
-			x: 3.0d,
-			y: 6.0d,
+			x: 0.0d,
+			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1246,14 +1233,14 @@
 		},
 		{
 			title: "Shared Experience",
-			x: 4.5d,
-			y: 6.0d,
+			x: -3.0d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["If you're having problems teleporting back to your body then I have the solution for you! XP blocks are craftable blocks that can store experience. They can even be shared with other players!"],
 			min_required_dependencies: 0,
-			dependencies: [I;434],
+			dependencies: [I;1686],
 			dependency_requirement: "all_completed",
 			id: 436,
 			tasks: [{
@@ -1286,17 +1273,14 @@
 		},
 		{
 			title: "To The Top",
-			x: 9.0d,
-			y: 6.0d,
+			x: -1.5d,
+			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Tired of climbing slow ladders or walking up to the waystones on the towers? Craft stone ladders to get to the top faster! Upgrade your stone ladder to go even faster!!!"],
 			min_required_dependencies: 1,
-			dependencies: [I;
-				436,
-				2330
-			],
+			dependencies: [I;432],
 			dependency_requirement: "all_completed",
 			id: 440,
 			tasks: [{
@@ -1328,7 +1312,7 @@
 		{
 			title: "Beastiary I",
 			icon: "minecraft:writable_book",
-			x: 0.0d,
+			x: -4.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1385,7 +1369,7 @@
 		{
 			title: "Beastiary II",
 			icon: "minecraft:writable_book",
-			x: 1.5d,
+			x: -3.0d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1434,8 +1418,8 @@
 		{
 			title: "Feral Creatures",
 			icon: "betteranimalsplus:feralwolfhead_red",
-			x: 4.5d,
-			y: -3.0d,
+			x: 0.0d,
+			y: -4.5d,
 			shape: "octagon",
 			subtitle: "",
 			size: 1.0d,
@@ -1476,7 +1460,7 @@
 		{
 			title: "Beastiary IV",
 			icon: "minecraft:writable_book",
-			x: 4.5d,
+			x: 0.0d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1540,7 +1524,7 @@
 		{
 			title: "Beastiary V",
 			icon: "minecraft:writable_book",
-			x: 6.0d,
+			x: 1.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1588,7 +1572,7 @@
 		{
 			title: "Beastiary VI",
 			icon: "minecraft:writable_book",
-			x: 7.5d,
+			x: 3.0d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1636,7 +1620,7 @@
 		{
 			title: "Beastiary VII",
 			icon: "minecraft:writable_book",
-			x: 9.0d,
+			x: 4.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1692,7 +1676,7 @@
 		{
 			title: "Eight Legs",
 			icon: "minecraft:spider_eye",
-			x: 1.5d,
+			x: 0.0d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
@@ -1749,7 +1733,7 @@
 		{
 			title: "Double Double Toil and Trouble",
 			icon: "minecraft:cauldron",
-			x: 3.0d,
+			x: 0.0d,
 			y: -3.0d,
 			shape: "default",
 			subtitle: "",
@@ -1797,17 +1781,19 @@
 		{
 			title: "Taking The Long Route",
 			icon: "extendednether:crimson_nylium",
-			x: 9.0d,
-			y: 3.0d,
+			x: 7.5d,
+			y: 0.0d,
 			shape: "rsquare",
 			subtitle: "",
 			size: 1.0d,
-			description: ["If you haven't already, you'll need get to the Nether. The Nether is the next zone and covers level 18-26. The wither is considered the end-of-dimension boss here."],
+			description: [
+				"If you haven't already, you'll need get to the Nether. The Nether is the next zone and covers level 18-26. The wither is considered the end-of-dimension boss here.",
+				"Unlocking this quest requires both dependencies."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;
-				75,
-				440,
-				424
+				1680,
+				72
 			],
 			dependency_requirement: "all_completed",
 			id: 1676,
@@ -1854,24 +1840,20 @@
 		{
 			title: "Mistakes Were Made",
 			icon: "mmorpg:alchemy/instant/misc/reset_talents",
-			x: 4.5d,
-			y: -1.5d,
+			x: 6.0d,
+			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
 			description: ["Reset potions can be used to re-allocate your stats or skills!"],
 			min_required_dependencies: 0,
-			dependencies: [I;
-				10,
-				1557
-			],
+			dependencies: [I;16],
 			dependency_requirement: "all_completed",
 			id: 1680,
 			tasks: [{
 				id: 1681,
 				type: "item",
-				item: "mmorpg:currency/orb_of_transmutation",
-				count: 3L
+				item: "mmorpg:alchemy/instant/misc/remove_spell"
 			}],
 			rewards: [
 				{
@@ -1892,26 +1874,30 @@
 				{
 					id: 1719,
 					type: "item",
-					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 500
+							exp: 2500
 						}
 					}
 				}
 			]
 		},
 		{
-			title: "Friends Forever",
+			title: "Friends Forever (How To Party)",
 			icon: "telepass:gold_telepass",
-			x: 0.0d,
-			y: 3.0d,
+			x: -1.5d,
+			y: 1.5d,
 			shape: "heart",
 			subtitle: "",
 			size: 1.0d,
-			description: ["TelePass's are linked to the player that crafted them. Give them to other players and they will be able to teleport to you!"],
+			description: [
+				"TelePass's are linked to the player that crafted them. Give them to other players and they will be able to teleport to you!",
+				"",
+				"If you're looking to party up with a player, you can use the \"/slash party\" command! Doing so will prevent you from damaging each other and will allow you to share EXP. In fact, partying grants you extra EXP overall!",
+				"There is currently no way to share quest progression (you can just share items at least)."
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;3],
 			dependency_requirement: "all_completed",
@@ -1943,7 +1929,7 @@
 		},
 		{
 			title: "Dank Storage",
-			x: 12.0d,
+			x: -6.0d,
 			y: -1.5d,
 			shape: "gear",
 			subtitle: "",
@@ -1989,8 +1975,8 @@
 		{
 			title: "Pack It Up",
 			icon: "endermail:stamp",
-			x: -1.5d,
-			y: 3.0d,
+			x: -3.0d,
+			y: 1.5d,
 			shape: "heart",
 			subtitle: "",
 			size: 1.0d,
@@ -2053,8 +2039,8 @@
 		},
 		{
 			title: "Lock It Up",
-			x: -1.5d,
-			y: 4.5d,
+			x: -4.5d,
+			y: 1.5d,
 			shape: "heart",
 			subtitle: "",
 			size: 1.0d,
@@ -2136,8 +2122,8 @@
 		},
 		{
 			title: "Apotheosis",
-			x: 6.0d,
-			y: -1.5d,
+			x: 3.0d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2151,7 +2137,7 @@
 				"Note: some enchantments simply don't work with Mine and Slash's damage system. Be warned!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;1680],
+			dependencies: [I;2057],
 			dependency_requirement: "all_completed",
 			id: 1951,
 			tasks: [{
@@ -2163,12 +2149,11 @@
 				{
 					id: 1953,
 					type: "item",
-					title: "500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 500
+							exp: 2500
 						}
 					}
 				},
@@ -2190,8 +2175,8 @@
 		},
 		{
 			title: "Under The Sea",
-			x: 7.5d,
-			y: -1.5d,
+			x: 4.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2209,20 +2194,19 @@
 			rewards: [{
 				id: 1956,
 				type: "item",
-				title: "1000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
 					Count: 1b,
 					tag: {
-						exp: 1000
+						exp: 3250
 					}
 				}
 			}]
 		},
 		{
 			title: "I Volunteer As Tribute",
-			x: 9.0d,
-			y: -1.5d,
+			x: 6.0d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2244,12 +2228,11 @@
 				{
 					id: 1966,
 					type: "item",
-					title: "2000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 2000
+							exp: 5000
 						}
 					}
 				},
@@ -2276,8 +2259,8 @@
 		},
 		{
 			title: "Magic!",
-			x: 3.0d,
-			y: 1.5d,
+			x: 1.5d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2286,7 +2269,7 @@
 				'Did you know you can "wash" dirty scepters in water to unveil its true nature?'
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;10],
+			dependencies: [I;7],
 			dependency_requirement: "all_completed",
 			id: 2057,
 			tasks: [{
@@ -2324,7 +2307,7 @@
 		},
 		{
 			title: "It's (Almost) Over 9000!",
-			x: 10.5d,
+			x: -4.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
@@ -2357,8 +2340,8 @@
 		},
 		{
 			title: "Iron Chests",
-			x: 10.5d,
-			y: 0.0d,
+			x: -3.0d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2387,8 +2370,8 @@
 		},
 		{
 			title: "One With Everything",
-			x: 7.5d,
-			y: 4.5d,
+			x: -1.5d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2397,7 +2380,7 @@
 				"Similarly, the structure compass lets you find any structure!"
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;44],
+			dependencies: [I;432],
 			dependency_requirement: "all_completed",
 			id: 2330,
 			tasks: [
@@ -2419,12 +2402,11 @@
 			rewards: [{
 				id: 2332,
 				type: "item",
-				title: "5000 Experience",
 				item: {
 					id: "mmorpg:give_exp",
 					Count: 1b,
 					tag: {
-						exp: 5000
+						exp: 3000
 					}
 				}
 			}]
@@ -2438,8 +2420,8 @@
 					Damage: 0
 				}
 			},
-			x: 3.0d,
-			y: -4.5d,
+			x: -1.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2526,7 +2508,7 @@
 		{
 			title: "Beastiary III",
 			icon: "minecraft:writable_book",
-			x: 3.0d,
+			x: -1.5d,
 			y: 7.5d,
 			shape: "default",
 			subtitle: "",
@@ -2573,8 +2555,8 @@
 		{
 			title: "Rotten Creatures",
 			icon: "betteranimalsplus:wolf_pelt_snowy",
-			x: 6.0d,
-			y: -3.0d,
+			x: 1.5d,
+			y: -4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -2629,8 +2611,8 @@
 		{
 			title: "Reflections",
 			icon: "minecraft:white_stained_glass_pane",
-			x: 0.0d,
-			y: -1.5d,
+			x: -1.5d,
+			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,

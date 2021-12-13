@@ -7,8 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mine and Slash Updates
+- Spell Changes:
+- Increased "gain" per level for a spell. This means each point in a spell will provide more damage, scaling, mana cost, etc. than before. This applies to ALL spells and synergies! In general, spells with lower max levels will scale at a greater rate. This may throw balance out the window a bit so things will probably change in the future. You will notice a lot of the cooldowns will be lower as a result, too.
+- Reduced the mana cost of many spells (mostly spells and not attack spells).
+- Increased the base damage of most non-attack spell spells. About 20% increases at higher levels. This should help spell casters at higher levels and make investing points in a skill more rewarding.
+- Buffed literally every (except maybe one) Synergy. All "chance to x" synergies have had their chances increased, etc. Storm probably sees the biggest buff from this.
+- Increased mana scaling of Chilling Field by 25% at higher levels.
+- Magic Burst mana cost no longer increases as it levels. Instead, the magic shield cost increases, but damage has been increased to compensate.
+- Slightly reduced mana cost of Blizzard.
+- Fixed a bug where Battery Fusilade projectiles were sometimes affected by gravity.
+- Increased health scaling of Martyrdom and some Unholy spells.
+- Increased armor scaling of Retribution.
+- Increased physical attack scaling of Purifying Fires at higher levels.
+- Increased physical attack scaling of Whirlwind at higher levels slightly.
+- Spear of Judgment can be learnt at level 20 instead of 40.
+- Increased damage of Spear of Judgment.
+- New Synergy (Spear of Judgment) - Enlightenment: successful hits restore mana to the user and nearby allies.
+- Thorny Bush radius no longer scales with level.
+- Increased Thorny Bush damage by about 40%.
+- Rock Slide has changed to a classic "storm" spell this is mostly so that it can function still in lower-ceiling areas.
+- Reduced damage of Rock Slide and the synergy since having it as a proper storm spell increases the consistency.
+- Reduced Rock Slide tick rate.
+- Rock Slide now gains radius as it levels.
+- Increased magic shield scaling of Soul Shred.
+- Lowered the height and variability at which stones and arrows spawn for Rock Slide and Arrow Storm. This should help Arrow Storm but probably still won't help with 2 block-high ceilings.
+- New Level 10 Hunting Spell - Arrow Totem: summon a totem that fires an arrow at the nearest enemy!
+- Fixed Recoil of the Hunter having a max level of 8. Should be 1.
+- Fixed some incorrect Nature Mastery localization.
+- Fixed a bug where synergies had incorrect max levels. You will notice a bunch of them have changed - these were the intended values.
+- Fixed a bug where a lot of the spell sounds weren't playing properly.
+- Improved the sounds of some of the spells to make them feel more responsive.
+
 ### Mod Updates
-- Updated Xaero's.
+- Updated Xaero's, Mine and Slash.
 
 ## [2.14.0] - 2021-12-11
 
@@ -28,7 +60,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Act VII's "Guardian Of The Stone" now only requires one of two dependencies to unlock.
 
 ### Mine and Slash Updates
-Nature Mastery Rework:
+- Nature Mastery Rework:
 - Poison Ball and Thorn Bush have swapped places (Thorn Bush is the new level 1 spell).
 - Thorn Armor and Rock Slide have swapped places.
 - Poison Ball now fire 3 projectiles and is much stronger.
@@ -42,13 +74,13 @@ Nature Mastery Rework:
 - Poison Cloud has a lower cooldown and lower mana cost.
 - Rock Slide has been buffed and is now more appropriate as an "ultimate".
 - Rock Slide synergy Stone Shrapnel is now Virulent Shrapnel and causes Rock Slide to deal much more damage if the target is affected by at least 6 stacks of Thorns.
-Other Spells:
+- Other Spells:
 - Ice Bolt now travels faster and pierces enemies, but deals slightly less damage. It also costs slightly less mana.
-Renamed:
+- Renamed:
 - Thorns has been renamed to Plague. A bunch of Nature spells have been renamed to reflect this change.
 - Hunter Instinct has been renamed to Hunter's Instinct.
 - Chilled has been renamed to Chill.
-Fixed:
+- Fixed:
 - Nature Synergy dealing extra damage when target had Thorns effect no longer removes a stack of Thorns (mistake).
 
 ### Mod Updates

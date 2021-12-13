@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.1] - 2021-12-13
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
 ### Mine and Slash Updates
 - Spell Changes:
 - Increased "gain" per level for a spell. This means each point in a spell will provide more damage, scaling, mana cost, etc. than before. This applies to ALL spells and synergies! In general, spells with lower max levels will scale at a greater rate. This may throw balance out the window a bit so things will probably change in the future. You will notice a lot of the cooldowns will be lower as a result, too.

@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.14.1] - 2021-12-13
+## [2.14.1b] - 2021-12-13
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Due to the changes to the spell tree, everyone has been provided with a spell reset potion!
 
 ### Mine and Slash Updates
 - Spell Changes:

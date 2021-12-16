@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.1c] - 2021-12-16
+
+### Mine and Slash Updates
+- Nature's Armor has a lower mana cost and cast time at max level.
+- Nature's Armor now has a static 60 second cooldown instead of going from 70 -> 60 seconds.
+- Thorny Bush no longer knocks back enemies.
+- Defend now casts instantly.
+- Defend now lasts 5 seconds instead of 6.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.14.1b] - 2021-12-13
 
 ### Updates

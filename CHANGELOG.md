@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.2] - 2021-12-XX
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Due to the changes to the spell tree, everyone has been provided with a spell reset potion!
+
+### Mine and Slash Updates
+- Mobs now have innate Dodge Rating (less then armor amount) - should fix some of the log spam error and also give dodge ignore a little more use.
+- The hammer no longer deals double damage to single targets.
+- Reduced the radius of the hammer's AOE very slightly.
+- Reduced energy cost of daggers by about 20%.
+- Lowered the attack speed of hammers.
+- Lowered the damage rolls of axes by about 17%.
+- Lowered the damage rolls of hammers by about 25%.
+- Fixed many effects affecting movement speed. They were multiplying the total movement + modifies rather than the base alone.
+- Reworked Lightning Dash to give a large boost to movement speed for a short duration instead of "dashing" you.
+- Energy Dash synergy no longer exists.
+- Many spells have been changed to scale with all weapon damage rather than just physical damage. Only Charge still scales with physical attack damage.
+- As a result of the above change, attack scaling has been reduced slightly (except for summons and some effects) by about 10%.
+- Improved tooltips where damage conversion is concerned.
+- Improved tooltips for when movement speed or attack speed is modified.
+- The Yon rune has been updated and can give + spells to ANY spell, synergy, or effect, not just some of them.
+
+### Mod Updates
+- Updated Mine and Slash, Xaero's.
+
 ## [2.14.1c] - 2021-12-16
 
 ### Mine and Slash Updates

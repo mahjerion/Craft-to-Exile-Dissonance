@@ -7,11 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.14.2] - 2021-12-XX
+## [2.14.2] - 2021-12-20
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Due to the changes to the spell tree, everyone has been provided with a spell reset potion!
+- Reenabled the Create mechanical saw on SP worlds.
+- Increased the Epic Ore processing rate from bees from 1% to 2%.
 
 ### Mine and Slash Updates
 - Mobs now have innate Dodge Rating (less then armor amount) - should fix some of the log spam error and also give dodge ignore a little more use.

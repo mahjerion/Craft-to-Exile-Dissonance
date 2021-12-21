@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.2b] - 2021-12-21
+
+### Mine and Slash Updates
+- Hammers deal 16% more damage than previously. They're down 12.5% from patch 3.12.15 instead of 25%.
+- Increased the AOE radius of hammers by 50% from 1 -> 1.5.
+- Enemies hit in hammer AOE take 50% of the damage the target takes.
+- Properly removed the double damage from Hammers.
+- Reduced the energy cost of swords by about 9%.
+- Turned off dev tools (oops).
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed a thing where I forgot to actually update the mods on the server pack.
+
 ## [2.14.2] - 2021-12-20
 
 ### Updates

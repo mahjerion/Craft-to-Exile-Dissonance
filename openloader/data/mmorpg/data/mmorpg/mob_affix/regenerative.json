@@ -8,7 +8,8 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "major_health_regen_flat"
+      "major_health_regen_flat",
+      "dodge_flat"
     ]
   }
 }

@@ -9,7 +9,9 @@
   "mods": {
     "mods": [
       "tiny_attack_thunder_damage_flat",
-      "tiny_attack_nature_damage_flat"
+      "tiny_attack_nature_damage_flat",
+      "nature_resist_flat",
+      "thunder_resist_flat"
     ]
   }
 }

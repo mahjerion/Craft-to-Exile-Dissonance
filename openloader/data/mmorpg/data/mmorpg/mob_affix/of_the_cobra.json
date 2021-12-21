@@ -10,7 +10,8 @@
     "mods": [
       "physical_dispersion_flat",
       "tiny_attack_nature_damage_flat",
-      "high_nature_penetration_flat"
+      "high_nature_penetration_flat",
+      "nature_resist_flat"
     ]
   }
 }

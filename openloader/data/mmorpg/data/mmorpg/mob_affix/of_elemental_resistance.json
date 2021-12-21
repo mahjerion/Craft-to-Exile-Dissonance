@@ -8,7 +8,7 @@
   "type": "suffix",
   "mods": {
     "mods": [
-	  "very_high_elemental_resist_flat"
+	  "major_elemental_resist_flat"
     ]
   }
 }

@@ -10,7 +10,8 @@
     "mods": [
       "physical_dispersion_flat",
       "tiny_attack_water_damage_flat",
-      "high_water_penetration_flat"
+      "high_water_penetration_flat",
+      "water_resist_flat"
     ]
   }
 }

@@ -8,7 +8,8 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "major_health_flat"
+      "major_health_flat",
+      "armor_flat"
     ]
   }
 }

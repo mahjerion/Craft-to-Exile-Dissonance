@@ -9,7 +9,8 @@
   "mods": {
     "mods": [
       "major_lifesteal_flat",
-      "life_on_hit_flat"
+      "life_on_hit_flat",
+      "armor_flat"
     ]
   }
 }

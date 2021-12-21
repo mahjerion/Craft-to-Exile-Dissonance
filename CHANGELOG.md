@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Mob affixes now generally have more defensive stats such as elemental resistances and armor/dodge rating.
+
 ## [2.14.2b] - 2021-12-21
 
 ### Mine and Slash Updates

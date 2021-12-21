@@ -9,7 +9,9 @@
   "mods": {
     "mods": [
       "tiny_attack_water_damage_flat",
-      "tiny_attack_nature_damage_flat"
+      "tiny_attack_nature_damage_flat",
+      "water_resist_flat",
+      "nature_resist_flat"
     ]
   }
 }

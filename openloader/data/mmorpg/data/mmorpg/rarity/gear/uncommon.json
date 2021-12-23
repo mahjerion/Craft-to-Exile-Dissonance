@@ -1,0 +1,43 @@
+{
+  "id": "uncommon",
+  "weight": 6666,
+  "lang_file_string": "mmorpg.rarity.uncommon",
+  "color_number": 5635925,
+  "rank": 1,
+  "loc_name_internal": "Uncommon",
+  "spawn_durability_hit": {
+    "min": 10,
+    "max": 20
+  },
+  "text_formatting": "GREEN",
+  "affix_chance": 15,
+  "set_chance": 25,
+  "rune_slots": 2,
+  "requirements_multi": 0.75,
+  "unidentified_chance": 0.0,
+  "salvage_lottery_chance": 1.0,
+  "secondary_stat_amount": {
+    "min": 1,
+    "max": 1
+  },
+  "stat_percents": {
+    "min": 15,
+    "max": 50
+  },
+  "primary_stat_percents": {
+    "min": 15,
+    "max": 50
+  },
+  "secondary_stat_percents": {
+    "min": 15,
+    "max": 50
+  },
+  "unique_stat_percents": {
+    "min": 15,
+    "max": 50
+  },
+  "affix_stat_percents": {
+    "min": 15,
+    "max": 50
+  }
+}

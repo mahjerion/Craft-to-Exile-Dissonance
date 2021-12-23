@@ -1,0 +1,43 @@
+{
+  "id": "rare",
+  "weight": 2500,
+  "lang_file_string": "mmorpg.rarity.rare",
+  "color_number": 5592575,
+  "rank": 2,
+  "loc_name_internal": "Rare",
+  "spawn_durability_hit": {
+    "min": 15,
+    "max": 25
+  },
+  "text_formatting": "BLUE",
+  "affix_chance": 50,
+  "set_chance": 30,
+  "rune_slots": 3,
+  "requirements_multi": 1.0,
+  "unidentified_chance": 100.0,
+  "salvage_lottery_chance": 5.0,
+  "secondary_stat_amount": {
+    "min": 1,
+    "max": 2
+  },
+  "stat_percents": {
+    "min": 30,
+    "max": 80
+  },
+  "primary_stat_percents": {
+    "min": 30,
+    "max": 80
+  },
+  "secondary_stat_percents": {
+    "min": 30,
+    "max": 80
+  },
+  "unique_stat_percents": {
+    "min": 30,
+    "max": 80
+  },
+  "affix_stat_percents": {
+    "min": 30,
+    "max": 80
+  }
+}

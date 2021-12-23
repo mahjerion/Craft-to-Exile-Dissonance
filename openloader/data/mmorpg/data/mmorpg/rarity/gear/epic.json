@@ -1,0 +1,43 @@
+{
+  "id": "epic",
+  "weight": 375,
+  "lang_file_string": "mmorpg.rarity.epic",
+  "color_number": 16733695,
+  "rank": 3,
+  "loc_name_internal": "Epic",
+  "spawn_durability_hit": {
+    "min": 20,
+    "max": 30
+  },
+  "text_formatting": "LIGHT_PURPLE",
+  "affix_chance": 80,
+  "set_chance": 50,
+  "rune_slots": 4,
+  "requirements_multi": 1.0,
+  "unidentified_chance": 100.0,
+  "salvage_lottery_chance": 10.0,
+  "secondary_stat_amount": {
+    "min": 2,
+    "max": 3
+  },
+  "stat_percents": {
+    "min": 45,
+    "max": 90
+  },
+  "primary_stat_percents": {
+    "min": 45,
+    "max": 90
+  },
+  "secondary_stat_percents": {
+    "min": 45,
+    "max": 90
+  },
+  "unique_stat_percents": {
+    "min": 45,
+    "max": 90
+  },
+  "affix_stat_percents": {
+    "min": 45,
+    "max": 90
+  }
+}

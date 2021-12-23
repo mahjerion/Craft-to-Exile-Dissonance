@@ -1,0 +1,43 @@
+{
+  "id": "legendary",
+  "weight": 75,
+  "lang_file_string": "mmorpg.rarity.legendary",
+  "color_number": 16755200,
+  "rank": 4,
+  "loc_name_internal": "Legendary",
+  "spawn_durability_hit": {
+    "min": 25,
+    "max": 35
+  },
+  "text_formatting": "GOLD",
+  "affix_chance": 100,
+  "set_chance": 50,
+  "rune_slots": 5,
+  "requirements_multi": 1.0,
+  "unidentified_chance": 100.0,
+  "salvage_lottery_chance": 15.0,
+  "secondary_stat_amount": {
+    "min": 3,
+    "max": 3
+  },
+  "stat_percents": {
+    "min": 60,
+    "max": 100
+  },
+  "primary_stat_percents": {
+    "min": 60,
+    "max": 100
+  },
+  "secondary_stat_percents": {
+    "min": 60,
+    "max": 100
+  },
+  "unique_stat_percents": {
+    "min": 60,
+    "max": 100
+  },
+  "affix_stat_percents": {
+    "min": 60,
+    "max": 100
+  }
+}

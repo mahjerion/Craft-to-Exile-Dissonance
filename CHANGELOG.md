@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Changed equipment rarity a bit. Generally, lower-end rarity gear has been improved slightly.
+- Equipment are less damaged upon finding them.
 - Mob affixes now generally have more defensive stats such as elemental resistances and armor/dodge rating.
 
 ## [2.14.2b] - 2021-12-21

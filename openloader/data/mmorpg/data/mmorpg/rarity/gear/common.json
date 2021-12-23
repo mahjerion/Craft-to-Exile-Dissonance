@@ -1,0 +1,43 @@
+{
+  "id": "Common",
+  "weight": 20000,
+  "lang_file_string": "mmorpg.rarity.common",
+  "color_number": 11184810,
+  "rank": 0,
+  "loc_name_internal": "Common",
+  "spawn_durability_hit": {
+    "min": 5,
+    "max": 15
+  },
+  "text_formatting": "GRAY",
+  "affix_chance": 0,
+  "set_chance": 15,
+  "rune_slots": 1,
+  "requirements_multi": 0.5,
+  "unidentified_chance": 0.0,
+  "salvage_lottery_chance": 0.0,
+  "secondary_stat_amount": {
+    "min": 0,
+    "max": 0
+  },
+  "stat_percents": {
+    "min": 3,
+    "max": 25
+  },
+  "primary_stat_percents": {
+    "min": 3,
+    "max": 25
+  },
+  "secondary_stat_percents": {
+    "min": 3,
+    "max": 25
+  },
+  "unique_stat_percents": {
+    "min": 3,
+    "max": 25
+  },
+  "affix_stat_percents": {
+    "min": 3,
+    "max": 25
+  }
+}

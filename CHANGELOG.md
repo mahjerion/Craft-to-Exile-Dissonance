@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- New shield thorns stats have been added from level 1-50.
+- New shield physical thorn stats have been added.
+
 ## [2.14.3b] - 2021-12-24
 
 ### Updates

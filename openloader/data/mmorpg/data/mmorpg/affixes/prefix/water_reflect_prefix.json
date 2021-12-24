@@ -1,0 +1,25 @@
+{
+  "id": "water_reflect_prefix",
+  "weight": 250,
+  "rarity": 3,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.water_reflect_prefix",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "shield"
+        ]
+      },
+      {
+        "min_level": 1,
+        "max_level": 50
+      }
+    ]
+  },
+  "mods": [
+    "water_thorns_reflect_flat"
+  ]
+}

@@ -7,10 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.3b] - 2021-12-24
+
 ### Updates
+- Happy holidays! Enjoy this probably last update of the year~.
 - Changed equipment rarity a bit. Generally, lower-end rarity gear has been improved slightly.
+- Items of rare rarity and above are now always unidentified.
 - Equipment are less damaged upon finding them.
 - Mob affixes now generally have more defensive stats such as elemental resistances and armor/dodge rating.
+- Spell changes below focus on making early-mid game spell casting more responsive and fun!
+- Due to the changes to the spell tree, everyone has been provided with a spell reset potion!
+
+### Mine and Slash Updates
+- The goal of the following changes is to make each "ball" spell feel unique to play. Nature is unchanged because I just changed it. I also aimed to improve the feeling of Storm early-game.
+- Shortened the duration that the ball spells stay active.
+- New Ocean Spell: Frost Totem - fires piercing glacial blasts at the nearest enemy that deal frost damage.
+- New Storm Spell: Chain Lightning - fire a crackling streak of lightning that has a chance to bounce from the initial target to the next closest target (can bounce between two targets!).
+- New Chain Lightning Synergy: Conductor - hits have a chance to apply Lightning Essence on the caster.
+- Ice Bolt no longer pierces and has reverted to its original 'bolt' form. It has received a buff to damage to keep it in line with the other new ball spells, however.
+- Fireballs now explode upon contact and deal AOE damage.
+- Lightning Spear has been reworked and now fires a piercing projectile. It functions similarly to Ice Bolt but goes further. The below changes were made to keep it in line with the power of the other projectiles. It's still stronger than before.
+- Lightning Spear now has a longer cooldown and deals about 9% less damage.
+- Lightning Spear no longer gives the caster a movement speed boost upon hitting the enemy.
+- Electric Prowess chance to apply Lightning Essence on self has been reduced greatly since the projectile now pierces.
+- Lightning Totem can now be learnt at level 5 instead of 10.
+- Battery Fusilade can now be learnt at level 40 instead of 50.
+- Spear of Judgment has been renamed to Trident of Judgment.
+- Added the "Pierce" tag to Ice Orb, Spirit Blast, and Lightning Spear.
+- Reduced the cast time of Blizzard, Volcano, Thunderstorm by about 40%.
+- Reduced the cast time of Whirlpool, Ice Orb, Gorgon's Gaze, Steam Cloud by 50-70%.
+- Reduced the cast time of totem spells by 50%.
+- Fixed a bug where the dodge map affix was actually giving mobs armor.
+- Fixed Dodge Ignore not working which should also fix dodge log spam bug!
+
+### Mod Updates
+- Updated Mine and Slash.
 
 ## [2.14.2b] - 2021-12-21
 

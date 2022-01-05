@@ -7,9 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.14.4] - 2022-01-XX
+
 ### Updates
+- Changes to Block (listed below) should allow it to be a more viable defensive option while not changing it for players who enjoy how it currently works.
 - New shield thorns stats have been added from level 1-50.
 - New shield physical thorn stats have been added.
+- Reenabled the Tropicraft sifter.
+
+### Mine and Slash Updates
+- Blocking has been reworked. You can now PASSIVELY BLOCK without holding up your shield (needs to be in offhand still). Upon a successful passive block, reduce damage by 25%. You can also still ACTIVELY (hold up the shield) block. When actively blocking, your block chance is DOUBLED (capped at 75).
+- If you're actively blocking and you successfully block, reduce damage by 100%, otherwise if you fail, you still get to reduce it by 50% (same as before).
+- Decreased effectiveness of Block Chance stats substantially (by about 60%). Since you can double your block chance by actively blocking, this shouldn't really affect players who were used to the previous style of blocking.
+- Shield can now also roll elemental resist as a secondary stat.
+- Thorns stat has been buffed by about 25%.
+- Thorns stat now reflects additional damage if holding up a shield. Upon a successful block, reflect 50% more damage back, and upon an unsuccessful block, still reflect 10% more damage back. The tooltip has been updated to reflect this.
+- Orbs and Torches can also roll elemental resist as a secondary stat, but at half effectiveness of what shields can roll.
+- Improved tooltip for blocking and thorns.
+- Nature Armor now provides a substantial amount of Nature Thorns (the reflect damage kind).
+- Increased Defend's Physical Thorns by 100%.
+- Changed Heal Power tooltip for now until I manage to fix increased healing...
+- Lightning Spear Lightning Strike synergy damage has been reduced by about 40-50%. The previous damage values were unintended and were designed around the synergy requiring 8 points instead of the current 4. For the amount of points required, the synergy was far too strong.
+- Lightning Spear damage has been reduced by about 9%.
+- Lightning Totem chance to apply Static has been reduced.
+
+### Mod Updates
+- Updated Tropicraft, Simple Magnets, Xaero's, Mine and Slash.
+
+### Fixes
+- Fixed some synergies having a maximum level of 12 instead of 1.
+- Tropicraft sifter crash has been fixed.
+- Grapefruit tree is now properly a grapefruit tree.
 
 ## [2.14.3b] - 2021-12-24
 

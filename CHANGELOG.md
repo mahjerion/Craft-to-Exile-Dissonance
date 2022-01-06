@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.14.4] - 2022-01-XX
+## [2.14.4] - 2022-01-06
 
 ### Updates
 - Changes to Block (listed below) should allow it to be a more viable defensive option while not changing it for players who enjoy how it currently works.

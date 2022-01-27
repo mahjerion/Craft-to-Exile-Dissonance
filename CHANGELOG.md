@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### General Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - TWO new Patreon-designed unique items! Thanks to Nozium and Balloonatic!!! Also a special thanks to Soul for making the textures! The items are listed below.
 - Unburstable Balloon Sword - a unique frost-based sword with magic finding and a huge bonus to the Tidal Wave spell.
 - Titanium Dreadnaughts - a unique armor with bonuses to health and divine spells. This armor is very defensive!
@@ -80,7 +81,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Frost Thorns unique shield now give the thorns stat.
 
 ### Mod Updates
-- Updated SuperMartijn624's Core Lib, GeckoLib, Mine and Slash, Craft to Exile Custom Uniques.
+- Updated SuperMartijn624's Core Lib, GeckoLib, Mine and Slash, Craft to Exile Custom Uniques, Xaero's, Simple Magnets.
 
 ### Fixes
 - Amalgalich no longer drop Lob Darkling Charges.

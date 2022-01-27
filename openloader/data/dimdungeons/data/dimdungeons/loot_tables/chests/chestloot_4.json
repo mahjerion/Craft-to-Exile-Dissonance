@@ -165,7 +165,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_chestplate",
+          "name": "gaiadimension:chalcedony_chestplate",
           "weight": 4,
           "functions": [
             {
@@ -180,7 +180,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_helmet",
+          "name": "gaiadimension:chalcedony_helmet",
           "weight": 4,
           "functions": [
             {
@@ -195,7 +195,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_leggings",
+          "name": "gaiadimension:chalcedony_legs",
           "weight": 4,
           "functions": [
             {
@@ -210,7 +210,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_boots",
+          "name": "gaiadimension:chalcedony_boots",
           "weight": 4,
           "functions": [
             {
@@ -225,7 +225,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "gaiadimension:chalcedony_pickaxe",
           "weight": 4,
           "functions": [
             {
@@ -240,7 +240,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_sword",
+          "name": "gaiadimension:chalcedony_sword",
           "weight": 4,
           "functions": [
             {
@@ -255,22 +255,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:crossbow",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": false,
-              "levels": {
-                "min": 30,
-                "max": 40
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:bow",
+          "name": "gaiadimension:old_bow",
           "weight": 4,
           "functions": [
             {

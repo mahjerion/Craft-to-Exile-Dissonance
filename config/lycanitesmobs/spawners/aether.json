@@ -4,7 +4,7 @@
   "enabled": true,
   "loadDefault": false,
   "mobCountMin": 2,
-  "ignoreBiomes": false,
+  "ignoreBiomes": true,
   "ignoreLightLevel": false,
   "groupLimitRange": 64,
   "conditions": [
@@ -19,7 +19,7 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 0.75,
+      "chance": 0.4,
       "tickRate": 1600
     }
   ],
@@ -46,6 +46,14 @@
     {
       "mobId": "lycanitesmobs:sylph",
       "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:vapula",
+      "weight": 8
+    },
+    {
+      "mobId": "lycanitesmobs:nymph",
+      "weight": 4
     }
   ]
 }

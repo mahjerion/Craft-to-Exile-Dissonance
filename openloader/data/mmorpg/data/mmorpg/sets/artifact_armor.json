@@ -30,7 +30,7 @@
     ]
   },
   "mods": {
-    "2": "bonus_exp_flat",
+    "2": "high_wisdom_flat",
     "3": "health_percent",
     "4": "very_high_armor_flat"
   }

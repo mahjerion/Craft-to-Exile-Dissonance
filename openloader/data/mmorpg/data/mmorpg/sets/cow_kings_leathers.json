@@ -23,7 +23,7 @@
   },
   "mods": {
     "2": "nature_resist_flat",
-	"3": "very_low_attack_thunder_damage_flat",
-	"4": "bonus_unique_item_drops_flat"
+	"3": "attack_thunder_damage_flat",
+	"4": "high_bonus_unique_item_drops_flat"
   }
 }

@@ -24,6 +24,6 @@
   "mods": {
     "2": "bow_damage_flat",
     "3": "high_dexterity_flat",
-    "4": "water_spell_to_attack_dmg_flat"
+    "4": "attack_water_damage_flat"
   }
 }

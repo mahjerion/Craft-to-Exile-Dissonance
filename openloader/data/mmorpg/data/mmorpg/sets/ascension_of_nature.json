@@ -30,8 +30,8 @@
     ]
   },
   "mods": {
-    "2": "nature_penetration_flat",
-    "3": "attack_nature_damage_percent",
-    "4": "spell_nature_damage_flat"
+    "2": "high_nature_penetration_flat",
+    "3": "high_attack_nature_damage_percent",
+    "4": "high_spell_nature_damage_flat"
   }
 }

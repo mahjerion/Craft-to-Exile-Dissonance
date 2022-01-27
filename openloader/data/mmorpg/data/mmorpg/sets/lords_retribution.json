@@ -34,7 +34,7 @@
   "mods": {
     "2": "health_percent",
     "3": "cdr_flat",
-    "4": "increase_healing_flat",
+    "4": "plus_ground_slam_spell_lvl_flat",
     "5": "plus_divine_skill_lvls_flat"
   }
 }

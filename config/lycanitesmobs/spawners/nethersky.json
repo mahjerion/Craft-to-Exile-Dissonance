@@ -10,7 +10,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_nether"
+        "goodnightsleep:nightmare"
       ],
       "dimensionListType": "whitelist"
     }
@@ -18,7 +18,7 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 0.25,
+      "chance": 0.15,
       "tickRate": 1800
     }
   ],

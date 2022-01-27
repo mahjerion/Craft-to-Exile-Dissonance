@@ -7,6 +7,90 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### General Updates
+- TWO new Patreon-designed unique items! Thanks to Nozium and Balloonatic!!! Also a special thanks to Soul for making the textures! The items are listed below.
+- Unburstable Balloon Sword - a unique frost-based sword with magic finding and a huge bonus to the Tidal Wave spell.
+- Titanium Dreadnaughts - a unique armor with bonuses to health and divine spells. This armor is very defensive!
+- Dimensional Dungeon loot tables have been changed a bit. I've included very few but some technology items in the loot tables. Additionally, low-level items such as iron swords, diamond swords, etc. have been replaced with higher level items such as items you might find in the Gaia dimension. This doesn't prevent all low level items from appearing in these chests however, as Dim Dungeons sometimes uses vanilla loot tables.
+- Many quests involving the Lycanites Mobs have been either removed, reworked, or moved to different dimensions.
+
+### Dimension Updates
+- The Amalgalich's level is now capped to 30 and can still only spawn in the Nether.
+- Asmodeus and Rahovart have been removed from the Nether as bosses.
+- The Good Dream Dimension and Nightmare Dimensions now have their own bosses. The Good Dream Dimension gets Asmodeus and the Nightmare Dimension gets Rahovart. They can only spawn in their respective new dimensions and they will always spawn at level 45.
+- Amalgalich, Asmodeus, and Rahovart have had their drops nerfed.
+- The Good Dream Dimension now has new mob spawns including but not limited to: Epions, Vapulas, Nymphs, and Sylphs.
+- Many mobs have been shifted from the Nether to the Nightmare Dimension such as Cacodemons, Wraiths, Behemoths, Lobbers, etc.
+- Added a bunch of mobs to spawn in the Midnight dimension such as the Behemoth, Chupacabra, Crypt Keeper, Ghoul, and Warg.
+- Added new mobs to the Tropics such as the Conba, Shambler, Tarantula, and the Triffid.
+- Lowered the minimum height for Djinn's to start spawning.
+
+### Set Item Updates
+- The following changes to set items were made to encourage players to collect them, even at lower levels. They've all been buffed.
+- Angelic Raiment's full set bonus now provides "triple" armor penetration instead of double.
+- Angel's Garbs now gives 1.5x more mana than previously as its 2 set bonus, and twice as much increased healing received than before for its 3 set bonus.
+- Archmage Vestments now gives 1.5x more magic shield regen than previously as its 2 set bonus (full set).
+- Archmage Armor now gives 1.5x more magic shield regen than previously for its 2 set bonus and twice as much magic shield percent for its full (3) set bonus.
+- Armor of the Elements now gives 2x more all elemental damage than previously for its full (4) set bonus.
+- Artifact Armor now gives a large amount of wisdom rather than increased EXP gain for its 2 set bonus.
+- The elemental "Ascension of [...]" armors provide more bonuses to damage for all set bonuses.
+- Barbarian Armor now gives 2x more lifesteal than before for its full (2) set bonus.
+- Berserker's Arsenal now gives 1.5x more health percent for its 2 set bonus and 33% more physical damage percent for its full (4) set bonus.
+- Cathan's Traps now gives high fire spell damage instead of fire infusion for its 2 set bonus and 2x more cooldown reduction for its full (4) set bonus.
+- Cow King's Leather now gives more lightning attack damage for its 3 set bonus and 1.5x more bonus to unique drops for its full (4) set bonus.
+- Death's Disguise now gives 2x more elemental resist for its full (3) set bonus.
+- Elemental Essence now gives 2x more elemental spell damage for its full (3) set bonus.
+- Elemental Essence now drops from level 40-70 instead of 50-70.
+- Eliminator now gives much more stamina and dexterity for its set bonuses.
+- Flaming Devil now gives a large amount of all fire damage instead of fire spell damage for its full (3) set bonus.
+- Forest Guardian now gives flat nature attack damage instead of nature spell damage as its full (3) set bonus.
+- Godking's Plate now gives 1.5x more physical damage percent and health percent for its 2 and full (4) set bonuses, respectively.
+- Healer's Robes now give cooldown instead of increased healing received.
+- Ice Lord now gives 1.5x more frost spell damage for its full (3) set bonus.
+- Immortal King now gives + divine spell levels and + all spell levels for its 4 and full (6) set bonuses instead of nature spell levels and storm spell levels, respectively.
+- Infernal Tools now gives 1.5x more summon damage than before for its full (3) set bonus.
+- Knight's Pledge now gives a very large amount of physical thorns instead of health for its 2 set bonus, and 2x more increased healing received for its full (3) set bonus.
+- Limitless now gives 1.5x more energy regen percent for its full (2) set bonus.
+- Lord's Retribution now gives plus retribution levels instead of increased healing received for its 4 set bonus.
+- Ranger Armor now gives 2x more bow damage for its full (3) set bonus.
+- Rockman Chains now gives 1.5x more health percent for its full (2) set bonus.
+- Royal Thief Ardornments now give a very large bonus to crossbow damage instead of a small amount of bow damage for its full (4) set bonus.
+- Seer's Guidance now gives wisdom for its 2 set bonus instead of bonus EXP, and a tremendous amount of bonus EXP for its full (3) set bonus instead of wisdom.
+- Sigon's Complete Steel now gives 1.5x more lifesteal for its 2 set bonus, health instead of armor for its 3 set bonus, and all elemental resist instead of fire resist for its 4 set bonus.
+- You can now start finding Sigon's Complete Steel as early as level 5 instead of 10.
+- Sprit of the Arcane's 3rd and full (4th) set bonuses, magic shield percent and spell damage, have been swapped. You now get 1.5x more of each as well.
+- Tal Rasha's Wrappings now gives 2x more elemental spell damage for its 4 set bonus.
+- Tancred's Battlegear now gives 1.5x more elemental resists for its full (4) set bonus.
+- The Ascended now gives 2x more health percent for its full (4) set bonus.
+- The Protector now gives 1.5x more block chance for its full (2) set bonus.
+- Tree of Life now gives high health regen instead of health percent for its full (2) set bonus.
+- Vidala's Rig now gives flat frost attack damage instead of frost infusion for its full (4) set bonus.
+- Will of Lightning now gives 1.5x more lightning spell damage for its full (3) set bonus.
+- Wisdom of the Elders now gives 2x more wisdom for its full (2) set bonus. Set still sucks though.
+
+### Mine and Slash Updates
+- Unique Hellfire Charms now give +3 to all of a school's spells rather than just +1.
+- Lightning Spear Lightning Strike synergy damage has been reduced by about 40-50%. The previous damage values were unintended and were designed around the synergy requiring 8 points instead of the current 4. For the amount of points required, the synergy was far too strong.
+- Lightning Spear damage has been reduced by about 9%.
+- Lightning Totem chance to apply Static has been reduced.
+- Lowered chance to apply Static from Charged Nova from 90% -> 80%.
+- Mobs now have built in health regen (a low amount).
+- Some unique axes and hammers have had their damage values reduced to be in line with recent changes.
+- Reduced block chance nodes on the tree and from Stout Defender.
+- Frost Thorns unique shield now give the thorns stat.
+
+### Mod Updates
+- Updated SuperMartijn624's Core Lib, GeckoLib, Mine and Slash, Craft to Exile Custom Uniques.
+
+### Fixes
+- Amalgalich no longer drop Lob Darkling Charges.
+- Fixed a bug where some mobs meant to spawn in the Midnight dimension were not spawning, such as Spectres.
+- Hopefully fixed Fireball not doing damage sometimes.
+- Hopefully fixed the Storm Attack Spell synery not applying Static.
+- You can no longer use Chorus Fruit or Ender Pearls in maps.
+- Fixed some synergies having a maximum level of 12 instead of 1.
+- Fixed some incorrect localization on the following uniques: Rigwald, Cragfall, and Hellfire Charm (Unholy).
+
 ## [2.14.4] - 2022-01-06
 
 ### Updates

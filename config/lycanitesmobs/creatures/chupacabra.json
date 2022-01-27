@@ -11,7 +11,8 @@
   "spawning": {
     "enabled": false,
     "spawners": [
-      "underground"
+      "underground",
+	  "midnight"
     ],
     "disableSubspecies": false,
     "dimensionIds": [

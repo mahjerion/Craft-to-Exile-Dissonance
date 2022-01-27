@@ -20,7 +20,7 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 0.1,
+      "chance": 0.15,
       "tickRate": 1200
     }
   ],

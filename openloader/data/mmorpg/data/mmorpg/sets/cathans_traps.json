@@ -22,8 +22,8 @@
     ]
   },
   "mods": {
-    "2": "high_fire_spell_to_attack_dmg_flat",
+    "2": "high_spell_fire_damage_flat",
     "3": "thunder_resist_flat",
-    "4": "cdr_flat"
+    "4": "very_high_cdr_flat"
   }
 }

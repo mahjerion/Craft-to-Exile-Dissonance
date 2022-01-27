@@ -23,6 +23,6 @@
   },
   "mods": {
     "2": "high_dodge_flat",
-    "3": "low_elemental_resist_flat"
+    "3": "high_elemental_resist_flat"
   }
 }

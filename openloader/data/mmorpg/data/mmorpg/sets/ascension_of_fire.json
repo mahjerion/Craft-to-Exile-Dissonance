@@ -30,8 +30,8 @@
     ]
   },
   "mods": {
-    "2": "fire_penetration_flat",
-    "3": "attack_fire_damage_percent",
-    "4": "spell_fire_damage_flat"
+    "2": "high_fire_penetration_flat",
+    "3": "high_attack_fire_damage_percent",
+    "4": "high_spell_fire_damage_flat"
   }
 }

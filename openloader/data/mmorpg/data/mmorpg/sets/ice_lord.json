@@ -23,6 +23,6 @@
   },
   "mods": {
     "2": "mana_regen_percent",
-    "3": "spell_water_damage_flat"
+    "3": "high_spell_water_damage_flat"
   }
 }

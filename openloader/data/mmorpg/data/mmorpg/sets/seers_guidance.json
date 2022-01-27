@@ -23,7 +23,7 @@
     ]
   },
   "mods": {
-    "2": "bonus_exp_flat",
-    "3": "wisdom_flat"
+    "2": "wisdom_flat",
+    "3": "major_bonus_exp_flat"
   }
 }

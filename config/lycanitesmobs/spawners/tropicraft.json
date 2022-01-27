@@ -1,17 +1,17 @@
 {
-  "name": "endsky",
+  "name": "tropicraft",
   "type": "spawner",
   "enabled": true,
   "loadDefault": false,
   "mobCountMin": 2,
+  "ignoreDimensions": true,
   "ignoreBiomes": true,
-  "ignoreLightLevel": true,
+  "ignoreLightLevel": false,
   "conditions": [
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_end",
-		"midnight:midnight"
+        "tropicraft:tropics"
       ],
       "dimensionListType": "whitelist"
     }
@@ -27,18 +27,18 @@
     {
       "type": "random",
       "rangeMin": [
-        24,
+        16,
         0,
-        24
+        16
       ],
       "rangeMax": [
         32,
-        48,
+        32,
         32
       ],
       "sorting": "random",
       "limit": 32,
-      "solidGround": false
+      "solidGround": true
     }
   ]
 }

@@ -30,8 +30,8 @@
     ]
   },
   "mods": {
-    "2": "water_penetration_flat",
-    "3": "attack_water_damage_percent",
-    "4": "spell_water_damage_flat"
+    "2": "high_water_penetration_flat",
+    "3": "high_attack_water_damage_percent",
+    "4": "high_spell_water_damage_flat"
   }
 }

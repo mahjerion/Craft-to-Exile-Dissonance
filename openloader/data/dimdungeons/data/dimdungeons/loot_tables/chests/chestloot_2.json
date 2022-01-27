@@ -151,7 +151,7 @@
 		},	
         {
           "type": "item",
-          "name": "minecraft:diamond_chestplate",
+          "name": "gaiadimension:leucite_chestplate",
           "weight": 4,
           "functions": [
             {
@@ -166,7 +166,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_helmet",
+          "name": "gaiadimension:leucite_helmet",
           "weight": 4,
           "functions": [
             {
@@ -181,7 +181,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_leggings",
+          "name": "gaiadimension:leucite_legs",
           "weight": 4,
           "functions": [
             {
@@ -196,7 +196,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_boots",
+          "name": "gaiadimension:leucite_boots",
           "weight": 4,
           "functions": [
             {
@@ -211,7 +211,7 @@
         },		
         {
           "type": "item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "gaiadimension:sugilite_pickaxe",
           "weight": 4,
           "functions": [
             {
@@ -226,7 +226,7 @@
         },		
         {
           "type": "item",
-          "name": "minecraft:diamond_sword",
+          "name": "gaiadimension:sugilite_sword",
           "weight": 4,
           "functions": [
             {
@@ -241,22 +241,7 @@
         },
         {
           "type": "item",
-          "name": "minecraft:crossbow",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "treasure": true,
-              "levels": {
-                "min": 30,
-                "max": 30
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:bow",
+          "name": "gaiadimension:old_bow",
           "weight": 4,
           "functions": [
             {

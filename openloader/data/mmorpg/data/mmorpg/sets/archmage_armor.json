@@ -23,7 +23,7 @@
   },
   "mods": {
     "2": "mana_flat",
-    "3": "magic_shield_regen_flat",
-    "4": "high_magic_shield_percent"
+    "3": "high_magic_shield_regen_flat",
+    "4": "very_high_magic_shield_percent"
   }
 }

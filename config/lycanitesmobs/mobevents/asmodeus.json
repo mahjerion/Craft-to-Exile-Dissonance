@@ -9,7 +9,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        "minecraft:the_nether"
+        "goodnightsleep:good_dream"
       ],
       "dimensionListType": "whitelist"
     }

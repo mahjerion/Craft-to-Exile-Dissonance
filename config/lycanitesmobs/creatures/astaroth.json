@@ -15,13 +15,14 @@
       "beast",
       "portal",
       "nether",
-	  "end"
+	  "end",
+	  "nightmare"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
       "minecraft:the_nether",
       "minecraft:the_end",
-      "midnight:midnight"
+      "goodnightsleep:nightmare"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,

@@ -26,6 +26,6 @@
   "mods": {
     "2": "high_dexterity_flat",
     "3": "high_physical_damage_percent",
-    "4": "very_high_armor_penetration_flat"
+    "4": "major_armor_penetration_flat"
   }
 }

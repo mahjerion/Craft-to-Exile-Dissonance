@@ -87,26 +87,26 @@
   "drops": [
     {
       "item": "minecraft:bone",
-      "minAmount": 20,
-      "maxAmount": 50,
+      "minAmount": 10,
+      "maxAmount": 15,
       "chance": 1
     },
     {
       "item": "minecraft:ender_pearl",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 1
+      "chance": 0.25
     },
     {
       "item": "minecraft:gold_ingot",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 5,
+      "maxAmount": 10,
       "chance": 1
     },
     {
       "item": "minecraft:diamond",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 1,
+      "maxAmount": 3,
       "chance": 1
     },
     {
@@ -117,45 +117,39 @@
     },
     {
       "item": "lycanitesmobs:spectralboltcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:lobdarklingscharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
+      "minAmount": 5,
+      "maxAmount": 10,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:shadowstone",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:shadowstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:shadowstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:shadowcrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "mmorpg:lootbox/medium_currency_lootbox_3",
       "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
+      "maxAmount": 1,
+      "chance": 0.25
     }
   ],
   "sizeScale": 1,

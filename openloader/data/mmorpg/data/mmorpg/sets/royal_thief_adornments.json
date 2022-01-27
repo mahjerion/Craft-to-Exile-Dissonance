@@ -35,6 +35,6 @@
   "mods": {
     "2": "dodge_percent",
     "3": "high_dodge_flat",
-    "4": "bow_damage_flat"
+    "4": "very_high_crossbow_damage_flat"
   }
 }

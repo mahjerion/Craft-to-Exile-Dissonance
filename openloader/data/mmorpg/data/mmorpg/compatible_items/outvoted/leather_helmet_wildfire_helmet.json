@@ -1,7 +1,7 @@
 {
   "item_type": "leather_helmet",
-  "item_id": "minecraft:outvoted:inferno_helmet",
-  "id": "leather_helmet:outvoted:inferno_helmet",
+  "item_id": "outvoted:wildfire_helmet",
+  "id": "leather_helmet:outvoted:wildfire_helmet",
   "gear_type": {
     "normal_item_weight": 100,
     "runed_item_weight": 0,

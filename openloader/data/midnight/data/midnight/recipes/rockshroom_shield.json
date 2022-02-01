@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "###",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "midnight:rockshroom_clump"
+    },
+    "D": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "midnight:rockshroom_shield"
+  }
+}

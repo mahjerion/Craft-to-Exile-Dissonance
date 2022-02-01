@@ -1,15 +1,15 @@
 {
-  "item_type": "shield",
-  "item_id": "outvoted:inferno_shield",
-  "id": "shield:outvoted:inferno_shield",
+  "item_type": "cloth_helmet",
+  "item_id": "outvoted:wildfire_helmet",
+  "id": "cloth_helmet:outvoted:wildfire_helmet",
   "gear_type": {
-    "normal_item_weight": 99,
+    "normal_item_weight": 100,
     "runed_item_weight": 0,
-    "unique_item_weight": 1
+    "unique_item_weight": 0
   },
   "rarity": {
     "min_rarity": 0,
-    "max_rarity": 2
+    "max_rarity": 3
   },
   "misc": {
     "only_add_stats_if_loot_drop": false,
@@ -23,7 +23,7 @@
     "level_variance": 0
   },
   "unique": {
-    "if_unique_random_up_to_tier": 2,
+    "if_unique_random_up_to_tier": 10,
     "unique_id": ""
   }
 }

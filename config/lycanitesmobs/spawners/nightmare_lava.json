@@ -1,0 +1,47 @@
+{
+  "name": "nightmare_lava",
+  "type": "spawner",
+  "enabled": true,
+  "loadDefault": false,
+  "mobCountMin": 2,
+  "ignoreDimensions": true,
+  "ignoreBiomes": true,
+  "ignoreLightLevel": true,
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        "goodnightsleep:nightmare"
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
+  "triggers": [
+    {
+      "type": "world",
+      "chance": 0.25,
+      "tickRate": 600
+    }
+  ],
+  "locations": [
+    {
+      "type": "block",
+      "rangeMin": [
+        16,
+        0,
+        16
+      ],
+      "rangeMax": [
+        32,
+        32,
+        32
+      ],
+      "sorting": "random",
+      "blocks": [
+        "minecraft:lava"
+      ],
+      "blockCost": 8,
+      "listType": "whitelist"
+    }
+  ]
+}

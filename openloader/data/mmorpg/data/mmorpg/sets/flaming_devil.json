@@ -23,6 +23,6 @@
   },
   "mods": {
     "2": "spellsteal_flat",
-    "3": "spell_fire_damage_flat"
+    "3": "high_all_fire_damage_flat"
   }
 }

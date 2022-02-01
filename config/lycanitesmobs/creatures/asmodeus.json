@@ -13,7 +13,7 @@
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether"
+      "goodnighsleep:good_dream_"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
@@ -85,26 +85,26 @@
   "drops": [
     {
       "item": "minecraft:redstone",
-      "minAmount": 20,
-      "maxAmount": 50,
+      "minAmount": 5,
+      "maxAmount": 20,
       "chance": 1
     },
     {
       "item": "minecraft:iron_ingot",
-      "minAmount": 20,
-      "maxAmount": 50,
+      "minAmount": 10,
+      "maxAmount": 20,
       "chance": 1
     },
     {
       "item": "minecraft:gold_ingot",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 3,
+      "maxAmount": 15,
       "chance": 1
     },
     {
       "item": "minecraft:diamond",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 1,
+      "maxAmount": 3,
       "chance": 1
     },
     {
@@ -115,39 +115,33 @@
     },
     {
       "item": "lycanitesmobs:demonstone",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demonstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demonstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demoncrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:wraithsigil",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "mmorpg:lootbox/medium_currency_lootbox_3",
       "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
+      "maxAmount": 1,
+      "chance": 0.25
     }
   ],
   "sizeScale": 1,

@@ -30,7 +30,7 @@
     ]
   },
   "mods": {
-	"2": "mana_flat",
-    "3": "increase_healing_flat"
+	"2": "high_mana_flat",
+    "3": "very_high_increase_healing_flat"
   }
 }

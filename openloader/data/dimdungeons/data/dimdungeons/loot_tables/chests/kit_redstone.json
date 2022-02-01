@@ -117,6 +117,83 @@
               "count": 1
             }
           ]
+        },		
+        {
+          "type": "item",
+          "name": "create:redstone_contact",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "create:redstone_link",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "create:shaft",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "create:belt_connector",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "immersiveengineering:wire_copper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "immersiveengineering:wire_steel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2
+            }
+          ]
+        },		
+        {
+          "type": "item",
+          "name": "immersiveengineering:hammer",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
         }
       ]
     }

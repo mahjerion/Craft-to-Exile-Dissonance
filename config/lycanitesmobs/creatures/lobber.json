@@ -11,7 +11,7 @@
   "spawning": {
     "enabled": true,
     "spawners": [
-		"lava"
+		"nightare_lava"
 	],
     "disableSubspecies": false,
     "dimensionIds": [

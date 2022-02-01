@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.charm.hellfire",
   "lang_file_desc_string": "item.mmorpg.uniques.charm.hellfire.desc",
   "primary_stats": [
-    "plus_storm_skill_lvls_flat"
+    "major_plus_storm_skill_lvls_flat"
   ],
   "unique_stats": [
     "cdr_flat",

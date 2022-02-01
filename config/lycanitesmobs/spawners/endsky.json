@@ -11,7 +11,7 @@
       "type": "world",
       "dimensionIds": [
         "minecraft:the_end",
-        "goodnightsleep:nightmare"
+		"midnight:midnight"
       ],
       "dimensionListType": "whitelist"
     }

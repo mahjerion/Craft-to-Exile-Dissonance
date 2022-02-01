@@ -25,15 +25,15 @@
         ]
       },
       {
-        "min_level": 10,
+        "min_level": 5,
         "max_level": 60
       }
     ]
   },
   "mods": {
-    "2": "lifesteal_flat",
-	"3": "armor_flat",
-	"4": "fire_resist_flat",
+    "2": "high_lifesteal_flat",
+	"3": "health_flat",
+	"4": "high_elemental_resist_flat",
 	"5": "plus_all_skill_lvls_flat"
   }
 }

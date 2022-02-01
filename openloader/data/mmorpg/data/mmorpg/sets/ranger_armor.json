@@ -23,6 +23,6 @@
   },
   "mods": {
     "2": "critical_damage_flat",
-    "3": "bow_damage_flat"
+    "3": "very_high_bow_damage_flat"
   }
 }

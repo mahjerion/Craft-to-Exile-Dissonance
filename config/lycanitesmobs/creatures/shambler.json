@@ -12,15 +12,15 @@
     "enabled": false,
     "spawners": [
       "monster",
-      "beast"
+      "beast",
+	  "tropicraft"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:overworld",
-	  "overworldmirror:dimension"
+      "tropicraft:tropics"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "forest",
       "jungle",

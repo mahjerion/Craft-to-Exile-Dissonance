@@ -13,7 +13,8 @@
     "damage_shield_flat",
     "very_low_magic_shield_flat",
     "spell_water_damage_flat",
-    "water_resist_flat"
+    "water_resist_flat",
+    "thunder_thorns_reflect_flat"
   ],
   "can_get_set": false,
   "requirements": {

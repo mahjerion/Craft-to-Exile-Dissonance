@@ -31,6 +31,6 @@
   },
   "mods": {
     "2": "all_dot_dmg_flat",
-	"3": "summon_damage_flat"
+	"3": "high_summon_damage_flat"
   }
 }

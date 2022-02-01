@@ -12,7 +12,8 @@
     "enabled": true,
     "spawners": [
       "monster",
-      "beast"
+      "beast",
+	  "midnight"
     ],
     "disableSubspecies": false,
     "dimensionIds": [

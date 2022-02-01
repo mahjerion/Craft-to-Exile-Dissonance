@@ -12,12 +12,15 @@
     "enabled": false,
     "spawners": [
       "monster",
-      "beast"
+      "beast",
+	  "tropicraft"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
+    "dimensionIds": [
+	  "tropicraft:tropics"
+	],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "jungle",
       "swamp"

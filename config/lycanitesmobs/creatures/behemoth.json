@@ -14,11 +14,12 @@
       "monster",
       "beast",
       "portal",
-      "nether"
+      "nightmare",
+	  "midnight"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether",
+      "goodnightsleep:nightmare",
 	  "midnight:midnight"
     ],
     "dimensionListType": "whitelist",

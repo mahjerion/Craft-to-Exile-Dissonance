@@ -30,6 +30,6 @@
     ]
   },
   "mods": {
-    "2": "increase_healing_flat"
+    "2": "cdr_flat"
   }
 }

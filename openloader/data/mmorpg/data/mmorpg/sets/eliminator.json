@@ -22,7 +22,7 @@
     ]
   },
   "mods": {
-    "2": "stamina_flat",
-    "3": "high_dexterity_flat"
+    "2": "high_stamina_flat",
+    "3": "major_dexterity_flat"
   }
 }

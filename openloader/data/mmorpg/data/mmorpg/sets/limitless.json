@@ -20,6 +20,6 @@
     ]
   },
   "mods": {
-    "2": "energy_regen_percent"
+    "2": "high_energy_regen_percent"
   }
 }

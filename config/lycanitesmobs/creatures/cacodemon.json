@@ -16,7 +16,7 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether"
+      "goodnightsleep:nightmare"
 	],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,

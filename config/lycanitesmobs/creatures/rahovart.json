@@ -13,7 +13,7 @@
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
-      "minecraft:the_nether"
+      "goodnightsleep:nightmare"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
@@ -81,20 +81,20 @@
   "drops": [
     {
       "item": "minecraft:blaze_powder",
-      "minAmount": 20,
-      "maxAmount": 50,
+      "minAmount": 10,
+      "maxAmount": 30,
       "chance": 1
     },
     {
       "item": "minecraft:blaze_rod",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 5,
+      "maxAmount": 15,
       "chance": 1
     },
     {
       "item": "minecraft:diamond",
-      "minAmount": 10,
-      "maxAmount": 20,
+      "minAmount": 1,
+      "maxAmount": 3,
       "chance": 1
     },
     {
@@ -105,39 +105,33 @@
     },
     {
       "item": "lycanitesmobs:demonstone",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demonstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demonstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "lycanitesmobs:demoncrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:wraithsigil",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1
+      "minAmount": 32,
+      "maxAmount": 64,
+      "chance": 0.25
     },
     {
       "item": "mmorpg:lootbox/medium_currency_lootbox_3",
       "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
+      "maxAmount": 1,
+      "chance": 0.25
     }
   ],
   "sizeScale": 1,

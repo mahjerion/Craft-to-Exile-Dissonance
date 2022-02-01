@@ -16,13 +16,13 @@
         ]
       },
       {
-        "min_level": 50,
+        "min_level": 40,
         "max_level": 70
       }
     ]
   },
   "mods": {
     "2": "elemental_resist_flat",
-    "3": "spell_elemental_damage_flat"
+    "3": "very_high_spell_elemental_damage_flat"
   }
 }

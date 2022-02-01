@@ -12,7 +12,8 @@
     "enabled": false,
     "spawners": [
       "monster",
-      "beast"
+      "beast",
+	  "tropicraft"
     ],
     "disableSubspecies": false,
     "dimensionIds": [

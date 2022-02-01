@@ -16,11 +16,10 @@
     "disableSubspecies": true,
     "dimensionIds": [
       "minecraft:the_end",
-	  "midnight:midnight",
-	  "goodnightsleep:nightmare"
+	  "midnight:midnight"
 	],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "end"
     ],

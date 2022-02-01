@@ -14,8 +14,7 @@
     "spawners": [],
     "disableSubspecies": true,
     "dimensionIds": [
-      "minecraft:overworld",
-	  "overworldmirror:dimension"
+      "goodnightsleep:good_dream"
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,

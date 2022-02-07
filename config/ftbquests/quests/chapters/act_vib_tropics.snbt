@@ -25,7 +25,7 @@
 				"To access this quest, you must complete 'Staying Positive' of Act V."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;386],
+			dependencies: [I;486],
 			dependency_requirement: "all_completed",
 			id: 1973,
 			tasks: [{
@@ -1014,6 +1014,58 @@
 							TIER: 3
 						}
 					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;1994],
+			dependency_requirement: "all_completed",
+			id: 2795,
+			tasks: [
+				{
+					id: 2796,
+					type: "kill",
+					entity: "lycanitesmobs:triffid",
+					value: 4L
+				},
+				{
+					id: 2800,
+					type: "kill",
+					entity: "lycanitesmobs:shambler",
+					value: 2L
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2012],
+			dependency_requirement: "all_completed",
+			id: 2797,
+			tasks: [
+				{
+					id: 2798,
+					type: "kill",
+					entity: "lycanitesmobs:conba",
+					value: 3L
+				},
+				{
+					id: 2799,
+					type: "kill",
+					entity: "lycanitesmobs:tarantula",
+					value: 3L
 				}
 			]
 		}

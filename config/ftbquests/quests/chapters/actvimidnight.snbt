@@ -23,7 +23,7 @@
 				"To access this quest, you must complete 'Negative Karma' of Act V."
 			],
 			min_required_dependencies: 1,
-			dependencies: [I;367],
+			dependencies: [I;486],
 			dependency_requirement: "all_completed",
 			id: 393,
 			tasks: [{
@@ -684,6 +684,42 @@
 					}
 				}
 			]
+		},
+		{
+			x: 6.0d,
+			y: 1.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2129],
+			dependency_requirement: "all_completed",
+			id: 2807,
+			tasks: [{
+				id: 2808,
+				type: "kill",
+				entity: "lycanitesmobs:warg",
+				value: 4L
+			}]
+		},
+		{
+			x: 6.0d,
+			y: 4.0d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;2129],
+			dependency_requirement: "all_completed",
+			id: 2809,
+			tasks: [{
+				id: 2810,
+				type: "kill",
+				entity: "lycanitesmobs:chupacabra",
+				value: 4L
+			}]
 		}
 	]
 }

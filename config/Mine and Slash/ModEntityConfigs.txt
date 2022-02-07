@@ -971,7 +971,7 @@
       "MAX_LEVEL": 120,
       "LEVEL_TO_NEAREST_PLAYER": true,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.0,
+      "DMG_MULTI": 10.0,
       "HP_MULTI": 20.0,
       "STAT_MULTI": 1.0
     },

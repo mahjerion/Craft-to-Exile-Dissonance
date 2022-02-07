@@ -197,14 +197,14 @@
 			]
 		},
 		{
-			title: "Black Death",
+			title: "Black Death (Lv. 26)",
 			icon: "minecraft:wither_rose",
 			x: 6.0d,
 			y: 0.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Finally, assemble 4 blocks of soul sand/soil in a T shape and THEN place the 3 wither skeleton heads on top, and kill the Wither! But be warned, it won't be easy!"],
+			description: ["Finally, assemble 4 blocks of Soul Sand/Soil in a T shape and THEN place the 3 Wither Skeleton heads on top, and kill the Wither! But be warned, it won't be easy!"],
 			min_required_dependencies: 0,
 			dependencies: [I;215],
 			dependency_requirement: "all_completed",
@@ -469,8 +469,8 @@
 					equipmentLevel: 1
 				}
 			},
-			x: 1.5d,
-			y: 4.5d,
+			x: 7.5d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -485,6 +485,13 @@
 			tasks: [{
 				id: 473,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:equipmentpart_astarothclaw",
+					Count: 1b,
+					tag: {
+						equipmentLevel: 1
+					}
+				},
 				entity: "lycanitesmobs:astaroth",
 				value: 3L
 			}],
@@ -520,14 +527,16 @@
 		{
 			title: "Squashing Bugs",
 			icon: {
-				id: "lycanitesmobs:equipmentpart_argustail",
+				id: "lycanitesmobs:aberrationspawn",
 				Count: 1b,
 				tag: {
-					equipmentLevel: 1
+					CreatureInfoSpawnEgg: {
+						creaturename: "trite"
+					}
 				}
 			},
-			x: 3.0d,
-			y: 4.5d,
+			x: 7.5d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -542,6 +551,15 @@
 			tasks: [{
 				id: 475,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:aberrationspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "trite"
+						}
+					}
+				},
 				entity: "lycanitesmobs:trite",
 				value: 10L
 			}],
@@ -577,7 +595,7 @@
 		{
 			title: "Burning Hides",
 			icon: "lycanitesmobs:boulderblastcharge",
-			x: 4.5d,
+			x: 7.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
@@ -593,6 +611,7 @@
 			tasks: [{
 				id: 477,
 				type: "kill",
+				icon: "lycanitesmobs:boulderblastcharge",
 				entity: "lycanitesmobs:salamander",
 				value: 3L
 			}],
@@ -636,8 +655,8 @@
 					}
 				}
 			},
-			x: 6.0d,
-			y: 4.5d,
+			x: 9.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -646,12 +665,21 @@
 				"Kill belphs."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;240],
+			dependencies: [I;472],
 			dependency_requirement: "all_completed",
 			id: 478,
 			tasks: [{
 				id: 479,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:beastspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "arisaur"
+						}
+					}
+				},
 				entity: "lycanitesmobs:belph",
 				value: 3L
 			}],
@@ -687,8 +715,8 @@
 		{
 			title: "Firebolt!",
 			icon: "lycanitesmobs:scorchfireballcharge",
-			x: 7.5d,
-			y: 4.5d,
+			x: 9.0d,
+			y: 3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -697,12 +725,13 @@
 				"Kill afrits."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;240],
+			dependencies: [I;474],
 			dependency_requirement: "all_completed",
 			id: 480,
 			tasks: [{
 				id: 481,
 				type: "kill",
+				icon: "lycanitesmobs:scorchfireballcharge",
 				entity: "lycanitesmobs:afrit",
 				value: 5L
 			}],
@@ -748,12 +777,13 @@
 				"Kill pinkys."
 			],
 			min_required_dependencies: 0,
-			dependencies: [I;240],
+			dependencies: [I;476],
 			dependency_requirement: "all_completed",
 			id: 482,
 			tasks: [{
 				id: 483,
 				type: "kill",
+				icon: "lycanitesmobs:raw_pinky_meat",
 				entity: "lycanitesmobs:pinky",
 				value: 5L
 			}],
@@ -778,137 +808,6 @@
 						Count: 1b,
 						tag: {
 							REGISTRY_ID: "weaponcrafter_crate",
-							LVL: 20,
-							SCORE: "GOOD",
-							TIER: 2
-						}
-					}
-				}
-			]
-		},
-		{
-			title: "Finding The Source",
-			icon: "lycanitesmobs:embercharge",
-			x: 10.5d,
-			y: 4.5d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
-				"Kill behemoths."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;240],
-			dependency_requirement: "all_completed",
-			id: 484,
-			tasks: [{
-				id: 485,
-				type: "kill",
-				entity: "lycanitesmobs:behemoth",
-				value: 3L
-			}],
-			rewards: [
-				{
-					id: 1785,
-					type: "item",
-					title: "52500 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 52500
-						}
-					}
-				},
-				{
-					id: 2517,
-					type: "item",
-					item: {
-						id: "mmorpg:loot_crate",
-						Count: 1b,
-						tag: {
-							REGISTRY_ID: "currency_crate",
-							LVL: 20,
-							SCORE: "GOOD",
-							TIER: 2
-						}
-					}
-				}
-			]
-		},
-		{
-			title: "Lords Of The Underworld",
-			icon: {
-				id: "lycanitesmobs:demonspawn",
-				Count: 1b,
-				tag: {
-					CreatureInfoSpawnEgg: {
-						creaturename: "rahovart"
-					}
-				}
-			},
-			x: 6.0d,
-			y: 6.0d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki).",
-				"It is highly recommended that you fight these bosses with allies.",
-				"Unlocking this quest requires all dependencies."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;
-				472,
-				474,
-				476,
-				478,
-				480,
-				482,
-				484
-			],
-			dependency_requirement: "all_completed",
-			id: 486,
-			tasks: [
-				{
-					id: 487,
-					type: "kill",
-					entity: "lycanitesmobs:asmodeus",
-					value: 1L
-				},
-				{
-					id: 488,
-					type: "kill",
-					entity: "lycanitesmobs:rahovart",
-					value: 1L
-				}
-			],
-			rewards: [
-				{
-					id: 1786,
-					type: "item",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 150000
-						}
-					}
-				},
-				{
-					id: 2111,
-					type: "item",
-					item: "calemiutils:coin_dollar"
-				},
-				{
-					id: 2510,
-					type: "item",
-					item: {
-						id: "mmorpg:loot_crate",
-						Count: 1b,
-						tag: {
-							REGISTRY_ID: "currency_crate",
 							LVL: 20,
 							SCORE: "GOOD",
 							TIER: 2
@@ -1099,6 +998,73 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "The Amalgalich (Lv. 30)",
+			icon: {
+				id: "lycanitesmobs:undeadspawn",
+				Count: 1b,
+				tag: {
+					CreatureInfoSpawnEgg: {
+						creaturename: "amalgalich"
+					}
+				}
+			},
+			x: 10.5d,
+			y: 3.0d,
+			shape: "octagon",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone... Also, beware that summoning this creature will spawn in a large structure.",
+				"You must summon the Amalgalich in the Nether."
+			],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				478,
+				480,
+				482
+			],
+			dependency_requirement: "all_completed",
+			id: 458,
+			tasks: [{
+				id: 459,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:undeadspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "amalgalich"
+						}
+					}
+				},
+				entity: "lycanitesmobs:amalgalich",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 708,
+					type: "item",
+					item: "mmorpg:lootbox/big_currency_lootbox_3"
+				},
+				{
+					id: 1756,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 60000
+						}
+					}
+				},
+				{
+					id: 2110,
+					type: "item",
+					item: "calemiutils:coin_nickel"
+				}
+			]
 		}
 	]
 }

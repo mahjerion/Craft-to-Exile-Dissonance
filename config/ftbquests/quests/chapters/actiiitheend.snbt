@@ -318,6 +318,7 @@
 			tasks: [{
 				id: 300,
 				type: "kill",
+				icon: "minecraft:ender_pearl",
 				entity: "minecraft:enderman",
 				value: 10L
 			}],
@@ -503,11 +504,11 @@
 		{
 			title: "Squashing Bugs II",
 			icon: {
-				id: "lycanitesmobs:demonspawn",
+				id: "lycanitesmobs:aberrationspawn",
 				Count: 1b,
 				tag: {
 					CreatureInfoSpawnEgg: {
-						creaturename: "archvile"
+						creaturename: "trite"
 					}
 				}
 			},

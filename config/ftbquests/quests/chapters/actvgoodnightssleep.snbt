@@ -291,7 +291,7 @@
 		},
 		{
 			title: "Negative Karma",
-			x: 6.0d,
+			x: 7.5d,
 			y: 7.5d,
 			shape: "rsquare",
 			subtitle: "",
@@ -354,7 +354,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Looks like you'll need some flame extract from blazes... Head back to the Nether and kill some blazes!"],
+			description: ["Lobbers are a nasty type of creature that can be found in lava. They spawn in the Nightmare dimension."],
 			min_required_dependencies: 0,
 			dependencies: [I;360],
 			dependency_requirement: "all_completed",
@@ -362,7 +362,16 @@
 			tasks: [{
 				id: 370,
 				type: "kill",
-				entity: "minecraft:blaze",
+				icon: {
+					id: "lycanitesmobs:brutespawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "lobber"
+						}
+					}
+				},
+				entity: "lycanitesmobs:lobber",
 				value: 3L
 			}],
 			rewards: [
@@ -396,13 +405,12 @@
 		},
 		{
 			title: "Unpleasantries",
-			icon: "lycanitesmobs:spectralboltcharge",
 			x: 4.5d,
 			y: 4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Spectres freely roam between dimensions and wreak havoc on the psyche of any living organism. Wherever they go, they bring with them misfortune. Find them and destroy them."],
+			description: ["Behemoth's form from the negative energy found in the Nightmare dimension. You will find them throughout the dimension in any biome."],
 			min_required_dependencies: 0,
 			dependencies: [I;369],
 			dependency_requirement: "all_completed",
@@ -410,7 +418,16 @@
 			tasks: [{
 				id: 372,
 				type: "kill",
-				entity: "lycanitesmobs:spectre",
+				icon: {
+					id: "lycanitesmobs:demonspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "behemoth"
+						}
+					}
+				},
+				entity: "lycanitesmobs:behemoth",
 				value: 3L
 			}],
 			rewards: [
@@ -611,6 +628,7 @@
 			tasks: [{
 				id: 383,
 				type: "kill",
+				icon: "quark:rainbow_rune",
 				entity: "goodnightsleep:unicorn",
 				value: 10L
 			}],
@@ -692,7 +710,7 @@
 		},
 		{
 			title: "Staying Positive",
-			x: 6.0d,
+			x: 7.5d,
 			y: 1.5d,
 			shape: "rsquare",
 			subtitle: "",
@@ -794,16 +812,12 @@
 		},
 		{
 			title: "Dream Eaters",
-			icon: "goodnightsleep:dream_sapling",
 			x: 6.0d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "circle",
 			subtitle: "",
 			size: 1.0d,
-			description: [
-				"Reapers feed on the spiritual energy of the dead. Kill non-undead mobs to spawn Reapers in this dimension. However, they may mistaken a sleeping being as a dead one, and will attempt to harvest their energy in their sleep.",
-				"Reapers come from The Midnight dimension - accessible only once someone has seen death. Find some reapers and kill them; absorb their energy and find out how to access The Midnight."
-			],
+			description: ["Wraiths feed off of negative emotion and will attack you on sight. They explode on contact, so becareful!"],
 			min_required_dependencies: 0,
 			dependencies: [I;371],
 			dependency_requirement: "all_completed",
@@ -811,8 +825,9 @@
 			tasks: [{
 				id: 391,
 				type: "kill",
-				entity: "lycanitesmobs:reaper",
-				value: 10L
+				icon: "goodnightsleep:dream_sapling",
+				entity: "lycanitesmobs:wraith",
+				value: 4L
 			}],
 			rewards: [
 				{
@@ -920,6 +935,209 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Dream Lords (Lv. 45)",
+			icon: {
+				id: "lycanitesmobs:demonspawn",
+				Count: 1b,
+				tag: {
+					CreatureInfoSpawnEgg: {
+						creaturename: "rahovart"
+					}
+				}
+			},
+			x: 7.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki)."],
+			min_required_dependencies: 1,
+			dependencies: [I;
+				386,
+				367
+			],
+			dependency_requirement: "all_completed",
+			id: 486,
+			tasks: [
+				{
+					id: 487,
+					type: "kill",
+					icon: {
+						id: "lycanitesmobs:aberrationspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "asmodeus"
+							}
+						}
+					},
+					entity: "lycanitesmobs:asmodeus",
+					value: 1L
+				},
+				{
+					id: 488,
+					type: "kill",
+					icon: {
+						id: "lycanitesmobs:demonspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "rahovart"
+							}
+						}
+					},
+					entity: "lycanitesmobs:rahovart",
+					value: 1L
+				}
+			],
+			rewards: [
+				{
+					id: 1786,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 150000
+						}
+					}
+				},
+				{
+					id: 2111,
+					type: "item",
+					item: "calemiutils:coin_dollar"
+				},
+				{
+					id: 2510,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 20,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;378],
+			dependency_requirement: "all_completed",
+			id: 2801,
+			tasks: [{
+				id: 2802,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:beastspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "epion"
+						}
+					}
+				},
+				entity: "lycanitesmobs:epion",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2811,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 150000
+					}
+				}
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;378],
+			dependency_requirement: "all_completed",
+			id: 2803,
+			tasks: [{
+				id: 2804,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:elementalspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "sylph"
+						}
+					}
+				},
+				entity: "lycanitesmobs:sylph",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2812,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 150000
+					}
+				}
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;378],
+			dependency_requirement: "all_completed",
+			id: 2805,
+			tasks: [{
+				id: 2806,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:elementalspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "vapula"
+						}
+					}
+				},
+				entity: "lycanitesmobs:vapula",
+				value: 4L
+			}],
+			rewards: [{
+				id: 2813,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 150000
+					}
+				}
+			}]
 		}
 	]
 }

@@ -137,6 +137,13 @@
 			tasks: [{
 				id: 322,
 				type: "kill",
+				icon: {
+					id: "atum:mummy_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
 				entity: "atum:mummy",
 				value: 10L
 			}],
@@ -209,6 +216,13 @@
 			tasks: [{
 				id: 326,
 				type: "kill",
+				icon: {
+					id: "minecraft:stone_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
 				entity: "atum:nomad",
 				value: 8L
 			}],
@@ -271,18 +285,39 @@
 				{
 					id: 328,
 					type: "kill",
+					icon: {
+						id: "minecraft:iron_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
 					entity: "atum:barbarian",
 					value: 3L
 				},
 				{
 					id: 329,
 					type: "kill",
+					icon: {
+						id: "atum:iron_dagger",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
 					entity: "atum:brigand",
 					value: 3L
 				},
 				{
 					id: 330,
 					type: "kill",
+					icon: {
+						id: "minecraft:iron_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					},
 					entity: "atum:sergeant",
 					value: 1L
 				}
@@ -342,6 +377,7 @@
 			tasks: [{
 				id: 332,
 				type: "kill",
+				icon: "atum:mandibles",
 				entity: "betteranimalsplus:tarantula",
 				value: 10L
 			}],
@@ -447,6 +483,13 @@
 			tasks: [{
 				id: 336,
 				type: "kill",
+				icon: {
+					id: "minecraft:iron_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
 				entity: "atum:sergeant",
 				value: 3L
 			}],
@@ -505,6 +548,7 @@
 			tasks: [{
 				id: 338,
 				type: "kill",
+				icon: "atum:linen_bandage",
 				entity: "atum:forsaken",
 				value: 15L
 			}],
@@ -533,6 +577,13 @@
 		},
 		{
 			title: "The Pharaoh",
+			icon: {
+				id: "minecolonies:pharaoscepter",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
 			x: 0.0d,
 			y: 6.0d,
 			shape: "diamond",
@@ -546,6 +597,13 @@
 			tasks: [{
 				id: 340,
 				type: "kill",
+				icon: {
+					id: "minecolonies:pharaoscepter",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
 				entity: "atum:pharaoh",
 				value: 1L
 			}],

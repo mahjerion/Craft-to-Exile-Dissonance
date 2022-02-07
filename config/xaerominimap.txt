@@ -39,7 +39,8 @@ showFlowers:true
 keepWaypointNames:false
 waypointsDistanceExp:8
 waypointsDistanceMin:0.0
-waypointTPCommand:/me tried to TP. Shame on them!
+defaultWaypointTPCommandFormat:/me tried to TP. Shame on them! {x} {y} {z}
+defaultWaypointTPCommandRotationFormat:/me tried to TP. Shame on them! {x} {y} {z} {yaw} ~
 arrowScale:1.0
 arrowColour:0
 smoothDots:true

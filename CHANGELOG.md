@@ -10,10 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### General Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - TWO new Patreon-designed unique items! Thanks to Nozium and Balloonatic!!! Also a special thanks to Soul for making the textures! The items are listed below.
-- Unburstable Balloon Sword - a unique frost-based sword with magic finding and a huge bonus to the Tidal Wave spell.
+- Unburstable Balloon Sword - a unique frost OR lightning-based sword with magic finding and a huge bonus to the Tidal Wave OR Charged Sweep spell.
 - Titanium Dreadnaughts - a unique armor with bonuses to health and divine spells. This armor is very defensive!
 - Dimensional Dungeon loot tables have been changed a bit. I've included very few but some technology items in the loot tables. Additionally, low-level items such as iron swords, diamond swords, etc. have been replaced with higher level items such as items you might find in the Gaia dimension. This doesn't prevent all low level items from appearing in these chests however, as Dim Dungeons sometimes uses vanilla loot tables.
 - Many quests involving the Lycanites Mobs have been either removed, reworked, or moved to different dimensions.
+- Increased Minecolonist's damage by 10x. It's probably still going to be absymally low but may help a bit with the guards.
 
 ### Dimension Updates
 - The Amalgalich's level is now capped to 30 and can still only spawn in the Nether.
@@ -78,7 +79,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mobs now have built in health regen (a low amount).
 - Some unique axes and hammers have had their damage values reduced to be in line with recent changes.
 - Reduced block chance nodes on the tree and from Stout Defender.
-- Frost Thorns unique shield now give the thorns stat.
+- Frost Thorns unique shield now gives the thorns stat.
 
 ### Mod Updates
 - Updated SuperMartijn624's Core Lib, GeckoLib, Mine and Slash, Craft to Exile Custom Uniques, Xaero's, Simple Magnets.
@@ -91,6 +92,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - You can no longer use Chorus Fruit or Ender Pearls in maps.
 - Fixed some synergies having a maximum level of 12 instead of 1.
 - Fixed some incorrect localization on the following uniques: Rigwald, Cragfall, and Hellfire Charm (Unholy).
+- Fixed some unique item textures appearing incorrectly when held in the hand.
 
 ## [2.14.4] - 2022-01-06
 

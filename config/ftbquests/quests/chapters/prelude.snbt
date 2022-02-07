@@ -91,6 +91,7 @@
 			tasks: [{
 				id: 8,
 				type: "kill",
+				icon: "minecraft:skeleton_skull",
 				entity: "minecraft:skeleton",
 				value: 2L
 			}],
@@ -143,18 +144,21 @@
 				{
 					id: 11,
 					type: "kill",
+					icon: "minecraft:skeleton_skull",
 					entity: "minecraft:skeleton",
 					value: 4L
 				},
 				{
 					id: 12,
 					type: "kill",
+					icon: "minecraft:zombie_head",
 					entity: "minecraft:zombie",
 					value: 2L
 				},
 				{
 					id: 13,
 					type: "kill",
+					icon: "minecraft:creeper_head",
 					entity: "minecraft:creeper",
 					value: 1L
 				}
@@ -276,8 +280,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"With the use of a repair station, you can repair equipment using ores. Additionally, capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores.",
-				"You can also use vanilla ingots such as iron and gold, and diamond to add fuel to your repair station too!"
+				"With the use of a Repair Station, you can repair equipment using ores. Additionally, Capacitors can be attached to repair stations to improve ore repair efficiency. Note: common ores are VERY inefficient, you should use at least uncommon ores.",
+				"You can also use vanilla ingots such as Iron and Gold, and Diamond to add fuel to your Repair Station too!"
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;19],
@@ -388,7 +392,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Putting capacitors into repair stations is a great way to be more efficient with your ores. Did you know better capacitors are even more efficient?"],
+			description: ["Putting Capacitors into Repair Stations is a great way to be more efficient with your ores. Did you know better Capacitors are even more efficient?"],
 			min_required_dependencies: 0,
 			dependencies: [I;22],
 			dependency_requirement: "all_completed",
@@ -695,7 +699,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["With a modify station, you are able to upgrade or reroll your equipment using currency dropped by mobs. Craft one soon!"],
+			description: ["With a Modify Station, you are able to upgrade or reroll your equipment using currency dropped by mobs. Craft one soon!"],
 			min_required_dependencies: 0,
 			dependencies: [I;19],
 			dependency_requirement: "all_completed",
@@ -799,7 +803,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Are you having issues with hoarding loot? Look no further! You can craft a salvage station to turn unused equipment into ores! Note: this will not work with crafted equipment."],
+			description: ["Are you having issues with hoarding loot? Look no further! You can craft a Salvage Station to turn unused equipment into ores! Note: this will not work with crafted equipment."],
 			min_required_dependencies: 0,
 			dependencies: [I;60],
 			dependency_requirement: "all_completed",
@@ -884,7 +888,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Combining the three bag types will produce the master bag!"],
+			description: ["Combining the three bag types will produce the Master Bag!"],
 			min_required_dependencies: 0,
 			dependencies: [I;72],
 			dependency_requirement: "all_completed",
@@ -984,7 +988,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: shield -> honey crystal shield -> heavy plated shield -> rockshroom shield."],
+			description: ["In Craft to Exile, you can craft shields if you need an offhand item in a pinch. Crafted shields follow a loose pipleline: Shield -> Honey Crystal Shield -> Heavy Plated Shield -> Rockshroom Shield."],
 			min_required_dependencies: 0,
 			dependencies: [I;36],
 			dependency_requirement: "all_completed",
@@ -1108,8 +1112,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"The bufflon is a unique mountable animal introduced by Pandora's Creatures. They can be customized using specialized bufflon saddles found in The End. However, upon completion of this quest, a basic bufflon saddle will be provided for you.",
-				"The bufflon can be found in cold and snowy biomes, and can be tamed using herb bundles."
+				"The Bufflon is a unique mountable animal introduced by Pandora's Creatures. They can be customized using specialized Bufflon Saddles found in The End. However, upon completion of this quest, a basic Bufflon Saddle will be provided for you.",
+				"The Bufflon can be found in cold and snowy biomes, and can be tamed using Herb Bundles."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;428],
@@ -1312,7 +1316,7 @@
 		{
 			title: "Beastiary I",
 			icon: "minecraft:writable_book",
-			x: -4.5d,
+			x: -3.0d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1369,7 +1373,7 @@
 		{
 			title: "Beastiary II",
 			icon: "minecraft:writable_book",
-			x: -3.0d,
+			x: -1.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1460,7 +1464,7 @@
 		{
 			title: "Beastiary IV",
 			icon: "minecraft:writable_book",
-			x: 0.0d,
+			x: 1.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1524,7 +1528,7 @@
 		{
 			title: "Beastiary V",
 			icon: "minecraft:writable_book",
-			x: 1.5d,
+			x: 3.0d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1572,7 +1576,7 @@
 		{
 			title: "Beastiary VI",
 			icon: "minecraft:writable_book",
-			x: 3.0d,
+			x: 4.5d,
 			y: 7.5d,
 			shape: "octagon",
 			subtitle: "",
@@ -1618,62 +1622,6 @@
 			]
 		},
 		{
-			title: "Beastiary VII",
-			icon: "minecraft:writable_book",
-			x: 4.5d,
-			y: 7.5d,
-			shape: "octagon",
-			subtitle: "",
-			size: 1.0d,
-			description: [
-				"Summon and elimnate the Amalgalich by crafting the undead portal (refer to wiki). It is not recommended that you face the Amalgalich alone... Also, beware that summoning this creature will spawn in a large structure (do this away from your base).",
-				"To access this quest, you must complete 'The Ender Dragon' of Act III."
-			],
-			min_required_dependencies: 0,
-			dependencies: [I;288],
-			dependency_requirement: "all_completed",
-			id: 458,
-			tasks: [{
-				id: 459,
-				type: "kill",
-				icon: {
-					id: "lycanitesmobs:undeadspawn",
-					Count: 1b,
-					tag: {
-						CreatureInfoSpawnEgg: {
-							creaturename: "amalgalich"
-						}
-					}
-				},
-				entity: "lycanitesmobs:amalgalich",
-				value: 1L
-			}],
-			rewards: [
-				{
-					id: 708,
-					type: "item",
-					item: "mmorpg:lootbox/big_currency_lootbox_3"
-				},
-				{
-					id: 1756,
-					type: "item",
-					title: "200000 Experience",
-					item: {
-						id: "mmorpg:give_exp",
-						Count: 1b,
-						tag: {
-							exp: 200000
-						}
-					}
-				},
-				{
-					id: 2110,
-					type: "item",
-					item: "calemiutils:coin_nickel"
-				}
-			]
-		},
-		{
 			title: "Eight Legs",
 			icon: "minecraft:spider_eye",
 			x: 0.0d,
@@ -1691,12 +1639,14 @@
 				{
 					id: 1543,
 					type: "kill",
+					icon: "minecraft:fermented_spider_eye",
 					entity: "minecraft:cave_spider",
 					value: 4L
 				},
 				{
 					id: 2720,
 					type: "kill",
+					icon: "minecraft:spider_eye",
 					entity: "minecraft:spider",
 					value: 4L
 				}
@@ -1746,6 +1696,7 @@
 			tasks: [{
 				id: 1558,
 				type: "kill",
+				icon: "minecraft:cauldron",
 				entity: "minecraft:witch",
 				value: 3L
 			}],
@@ -2376,8 +2327,8 @@
 			subtitle: "",
 			size: 1.0d,
 			description: [
-				"The nature's compass is a very useful tool to locate biomes. With the addition of so many different biomes, it becomes difficult to randomly come across what you're looking for!",
-				"Similarly, the structure compass lets you find any structure!"
+				"The Nature's Compass is a very useful tool to locate biomes. With the addition of so many different biomes, it becomes difficult to randomly come across what you're looking for!",
+				"Similarly, the Structures Compass lets you find any structure!"
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;432],
@@ -2508,7 +2459,7 @@
 		{
 			title: "Beastiary III",
 			icon: "minecraft:writable_book",
-			x: -1.5d,
+			x: 0.0d,
 			y: 7.5d,
 			shape: "default",
 			subtitle: "",
@@ -2576,6 +2527,7 @@
 				{
 					id: 2730,
 					type: "kill",
+					icon: "minecraft:stick",
 					entity: "rotten_creatures:spear_eskimo",
 					value: 3L
 				}

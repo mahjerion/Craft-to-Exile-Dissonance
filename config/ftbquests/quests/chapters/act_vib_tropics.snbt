@@ -22,7 +22,7 @@
 				"You may need to look at the sun while you're sipping your drink!",
 				"Note: before coming to the Tropics, make sure you have set a global waystone up in the Overworld (you need to be in creative to do this). Also, be sure to bring a warpstone or scroll to teleport back. This is currently the only way to return from",
 				"the Tropics, and subsequently, why the Tropics is SP only!",
-				"To access this quest, you must complete 'Staying Positive' of Act V."
+				"To access this quest, you must complete 'Good Dream Lord' of Act V."
 			],
 			min_required_dependencies: 0,
 			dependencies: [I;486],
@@ -1018,12 +1018,13 @@
 			]
 		},
 		{
+			title: "Carnivorous Plants",
 			x: 4.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Some plants don't take so kindly to foreign creatures... Be careful!"],
 			min_required_dependencies: 0,
 			dependencies: [I;1994],
 			dependency_requirement: "all_completed",
@@ -1032,24 +1033,54 @@
 				{
 					id: 2796,
 					type: "kill",
+					icon: {
+						id: "lycanitesmobs:plantspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "triffid"
+							}
+						}
+					},
 					entity: "lycanitesmobs:triffid",
 					value: 4L
 				},
 				{
 					id: 2800,
 					type: "kill",
+					icon: {
+						id: "lycanitesmobs:plantspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "shambler"
+							}
+						}
+					},
 					entity: "lycanitesmobs:shambler",
 					value: 2L
 				}
-			]
+			],
+			rewards: [{
+				id: 2820,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 250000
+					}
+				}
+			}]
 		},
 		{
+			title: "Creepy Critters",
 			x: 4.5d,
 			y: -4.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Sometimes, you'll find Conba and Tarantulas in the Tropics. The dimension can't be TOO relaxing, now can it?"],
 			min_required_dependencies: 0,
 			dependencies: [I;2012],
 			dependency_requirement: "all_completed",
@@ -1058,16 +1089,45 @@
 				{
 					id: 2798,
 					type: "kill",
+					icon: {
+						id: "lycanitesmobs:beastspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "conba"
+							}
+						}
+					},
 					entity: "lycanitesmobs:conba",
 					value: 3L
 				},
 				{
 					id: 2799,
 					type: "kill",
+					icon: {
+						id: "lycanitesmobs:arthropodspawn",
+						Count: 1b,
+						tag: {
+							CreatureInfoSpawnEgg: {
+								creaturename: "tarantula"
+							}
+						}
+					},
 					entity: "lycanitesmobs:tarantula",
 					value: 3L
 				}
-			]
+			],
+			rewards: [{
+				id: 2819,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 250000
+					}
+				}
+			}]
 		}
 	]
 }

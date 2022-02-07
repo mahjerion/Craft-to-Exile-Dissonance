@@ -833,12 +833,11 @@
 				{
 					id: 1831,
 					type: "item",
-					title: "125000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 125000
+							exp: 250000
 						}
 					}
 				},
@@ -937,61 +936,35 @@
 			]
 		},
 		{
-			title: "Dream Lords (Lv. 45)",
-			icon: {
-				id: "lycanitesmobs:demonspawn",
-				Count: 1b,
-				tag: {
-					CreatureInfoSpawnEgg: {
-						creaturename: "rahovart"
-					}
-				}
-			},
-			x: 7.5d,
-			y: 4.5d,
+			title: "Good Dream Lord (Lv. 45)",
+			x: 9.0d,
+			y: 1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Asmodeus and Rahovart serve the Wither. Summon Asmodeus and Rahovart in the Nether by constructing their altars using the soulcubes (refer to wiki)."],
-			min_required_dependencies: 1,
-			dependencies: [I;
-				386,
-				367
+			description: [
+				"Perform the ritual to summon Asmodeus by constructing the Asmodeus altar. Refer to the Wiki for the schematic!",
+				"You can only summon Asmodeus in the Good Dream Dimension."
 			],
+			min_required_dependencies: 1,
+			dependencies: [I;386],
 			dependency_requirement: "all_completed",
 			id: 486,
-			tasks: [
-				{
-					id: 487,
-					type: "kill",
-					icon: {
-						id: "lycanitesmobs:aberrationspawn",
-						Count: 1b,
-						tag: {
-							CreatureInfoSpawnEgg: {
-								creaturename: "asmodeus"
-							}
+			tasks: [{
+				id: 487,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:aberrationspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "asmodeus"
 						}
-					},
-					entity: "lycanitesmobs:asmodeus",
-					value: 1L
+					}
 				},
-				{
-					id: 488,
-					type: "kill",
-					icon: {
-						id: "lycanitesmobs:demonspawn",
-						Count: 1b,
-						tag: {
-							CreatureInfoSpawnEgg: {
-								creaturename: "rahovart"
-							}
-						}
-					},
-					entity: "lycanitesmobs:rahovart",
-					value: 1L
-				}
-			],
+				entity: "lycanitesmobs:asmodeus",
+				value: 1L
+			}],
 			rewards: [
 				{
 					id: 1786,
@@ -1000,7 +973,7 @@
 						id: "mmorpg:give_exp",
 						Count: 1b,
 						tag: {
-							exp: 150000
+							exp: 250000
 						}
 					}
 				},
@@ -1017,7 +990,7 @@
 						Count: 1b,
 						tag: {
 							REGISTRY_ID: "currency_crate",
-							LVL: 20,
+							LVL: 45,
 							SCORE: "GOOD",
 							TIER: 2
 						}
@@ -1026,12 +999,14 @@
 			]
 		},
 		{
+			title: "Beastiary VII",
+			icon: "minecraft:writable_book",
 			x: 1.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Find and kill Epions in this dimension."],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",
@@ -1064,12 +1039,14 @@
 			}]
 		},
 		{
+			title: "Beastiary VIII",
+			icon: "minecraft:writable_book",
 			x: 3.0d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Find and kill Sylphs in this dimension."],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",
@@ -1102,12 +1079,14 @@
 			}]
 		},
 		{
+			title: "Beastiary IX",
+			icon: "minecraft:writable_book",
 			x: 4.5d,
 			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Find and kill Vapula in this dimension."],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",
@@ -1138,6 +1117,69 @@
 					}
 				}
 			}]
+		},
+		{
+			title: "Nightmare Lord (Lv. 45)",
+			x: 9.0d,
+			y: 7.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Perform the ritual to summon Rahovart by constructing the Rahovart altar. Refer to the Wiki for the schematic!",
+				"You can only summon Rahovart in the Nightmare Dimension."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;367],
+			dependency_requirement: "all_completed",
+			id: 2814,
+			tasks: [{
+				id: 2815,
+				type: "kill",
+				icon: {
+					id: "lycanitesmobs:demonspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "rahovart"
+						}
+					}
+				},
+				entity: "lycanitesmobs:rahovart",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 2816,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 300000
+						}
+					}
+				},
+				{
+					id: 2817,
+					type: "item",
+					item: "calemiutils:coin_dollar"
+				},
+				{
+					id: 2818,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "currency_crate",
+							LVL: 45,
+							SCORE: "GOOD",
+							TIER: 2
+						}
+					}
+				}
+			]
 		}
 	]
 }

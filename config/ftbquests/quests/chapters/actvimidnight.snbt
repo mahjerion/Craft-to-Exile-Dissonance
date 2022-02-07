@@ -20,10 +20,10 @@
 			description: [
 				"The Midnight is an endgame dimension that is difficult to access, and survive. Find a large heap of malignant red plant blocks in the Overworld - these will spawn a portal at night that allows you access The Midnight.",
 				"Be warned though, you cannot come back through the portal unless it 's night time in the Overworld as well.",
-				"To access this quest, you must complete 'Negative Karma' of Act V."
+				"To access this quest, you must complete 'Nightmare Lord' of Act V."
 			],
 			min_required_dependencies: 1,
-			dependencies: [I;486],
+			dependencies: [I;2814],
 			dependency_requirement: "all_completed",
 			id: 393,
 			tasks: [{
@@ -686,12 +686,14 @@
 			]
 		},
 		{
+			title: "Beastiary X",
+			icon: "minecraft:writable_book",
 			x: 6.0d,
 			y: 1.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: [],
+			description: ["Wargs are vicious wolf-like creatures found in this dimension."],
 			min_required_dependencies: 0,
 			dependencies: [I;2129],
 			dependency_requirement: "all_completed",
@@ -699,11 +701,32 @@
 			tasks: [{
 				id: 2808,
 				type: "kill",
+				icon: {
+					id: "lycanitesmobs:beastspawn",
+					Count: 1b,
+					tag: {
+						CreatureInfoSpawnEgg: {
+							creaturename: "warg"
+						}
+					}
+				},
 				entity: "lycanitesmobs:warg",
 				value: 4L
+			}],
+			rewards: [{
+				id: 2821,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 325000
+					}
+				}
 			}]
 		},
 		{
+			title: "Beastiary XI",
 			x: 6.0d,
 			y: 4.0d,
 			shape: "default",
@@ -717,8 +740,20 @@
 			tasks: [{
 				id: 2810,
 				type: "kill",
+				icon: "minecraft:writable_book",
 				entity: "lycanitesmobs:chupacabra",
 				value: 4L
+			}],
+			rewards: [{
+				id: 2822,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 325000
+					}
+				}
 			}]
 		}
 	]

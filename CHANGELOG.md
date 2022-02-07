@@ -27,6 +27,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Many mobs have been shifted from the Nether to the Nightmare Dimension such as Cacodemons, Wraiths, Behemoths, Lobbers, etc.
 - Added a bunch of mobs to spawn in the Midnight dimension such as the Behemoth, Chupacabra, Crypt Keeper, Ghoul, and Warg.
 - Added new mobs to the Tropics such as the Conba, Shambler, Tarantula, and the Triffid.
+- Added new quests to the Good Dream, Nightmare, Tropics, and Midnight dimensions to improve the leveling experience around those levels.
+- Increased EXP gain from quests in the Good Dream, Nightmare, Tropics, and Midnight dimensions.
 - Lowered the minimum height for Djinn's to start spawning.
 
 ### Set Item Updates

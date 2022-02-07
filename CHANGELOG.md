@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.15.0] - 2022-02-07
+
 ### General Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - TWO new Patreon-designed unique items! Thanks to Nozium and Balloonatic!!! Also a special thanks to Soul for making the textures! The items are listed below.
@@ -93,6 +95,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed some synergies having a maximum level of 12 instead of 1.
 - Fixed some incorrect localization on the following uniques: Rigwald, Cragfall, and Hellfire Charm (Unholy).
 - Fixed some unique item textures appearing incorrectly when held in the hand.
+- Added missing Rockshroom Shield recipe.
+- Fixed Wildfire equipment missing stats.
 
 ## [2.14.4] - 2022-01-06
 

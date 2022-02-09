@@ -37,16 +37,16 @@
 
 ["world gen"]
 	#Range: 1 ~ 256
-	"Lighthouse spacing" = 12
+	"Lighthouse spacing" = 8
 	#Range: 1 ~ 256
-	"Pyramid separation" = 10
+	"Pyramid separation" = 8
 	#Range: 1 ~ 256
 	"Ruins separation" = 3
 	#Specify the amount of ruin variants structures/ruins. Allows for additional ruin structures with a resourcepack
 	#Range: 1 ~ 999
 	"Ruins Amount" = 19
 	#Range: 1 ~ 256
-	"Pyramid spacing" = 14
+	"Pyramid spacing" = 12
 	#Range: 1 ~ 256
 	"Lighthouse separation" = 3
 	#Range: 0 ~ 255
@@ -61,11 +61,11 @@
 	#Range: 0.0 ~ 1.0
 	"Minecraft probability" = 0.012
 	#Should Ruins generate in Atum?
-	"Enable Ruins" = true
+	"Enable Ruins" = false
 	#Should Pyramids generate in Atum?
 	"Enable Pyramids" = true
 	#Range: 0 ~ 255
-	"Dungeon chance, set to 0 to disable" = 32
+	"Dungeon chance, set to 0 to disable" = 64
 	#Sets above what Y-level water will vaporize at (Except Oasis). Set to 0 to disable
 	#Range: 0 ~ 255
 	"Water Level" = 50

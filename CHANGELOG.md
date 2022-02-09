@@ -7,6 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.15.1] - 2022-02-09
+
+### Updates
+- Check out the overhaul to how Trap Spells work below.!
+- Shifted structure weight in Atum to favor Pyramids and Dungeons.
+
+### Mine and Slash Updates
+- Increased Chilling Field mana damage scaling by about 50%.
+- Increased Whirlpool damage by about 7% and reduced its mana cost slightly.
+- Increased Frost Totem damage by about 10%.
+- Increased Burn damage by about 17%.
+- Reduced damage of Critical Surge Splash and Power Surge Bolt by about 40-50%.
+- Reduced the chance of Power Surge Bolt from 10-30% to 5-20%.
+- Increased Multi/Wide Shot damage by about 14%.
+- Fixed an issue where traps weren't lasting their entire duration.
+- Traps now require at least 1 second of "preparation" before activating. Basically, they need to be one the ground for at least a second before they explode. This should make it easier to hit more than one enemy now instead of the trap exploding immediately upon contact. This will be a small nerf to Cluster Traps, but I think it's a bit needed given how powerful Cluster Traps was in cramped settings.
+- Traps can no longer explode in the air.
+- Trap durations have all been changed to a flat 10s.
+- Snare Trap now deals damage on top of snaring enemies.
+- Snare Trap AOE now goes from 1.5 -> 3.5 instead of 1 -> 3.
+- Enfeeble Trap has been renamed to Rancid Trap, and the effect of Weaken has been renamed to Nauseous.
+- Rancid Trap AOE now goes from 2 -> 4 instead of 1 -> 3.
+- Rancid Trap now deals significant nature DoT to enemies caught in its blast for 10s.
+- Reduced Armor reduction and Elemental Resist reduction from Rancid Trap by 25%.
+- Reduced Plague damage by 20%.
+- Reduced Bleed damage by 20%, and duration from 6s to 5s.
+- Hopefully fixed a rare NPE for summoned creatures.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Removed Ruins structures from Atum since they caused crashes.
+
 ## [2.15.0] - 2022-02-07
 
 ### General Updates
@@ -17,6 +51,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dimensional Dungeon loot tables have been changed a bit. I've included very few but some technology items in the loot tables. Additionally, low-level items such as iron swords, diamond swords, etc. have been replaced with higher level items such as items you might find in the Gaia dimension. This doesn't prevent all low level items from appearing in these chests however, as Dim Dungeons sometimes uses vanilla loot tables.
 - Many quests involving the Lycanites Mobs have been either removed, reworked, or moved to different dimensions.
 - Increased Minecolonist's damage by 10x. It's probably still going to be absymally low but may help a bit with the guards.
+- Added a new public server to the default server list: The United Crew! Thanks Soul!
 
 ### Dimension Updates
 - The Amalgalich's level is now capped to 30 and can still only spawn in the Nether.
@@ -89,7 +124,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated SuperMartijn624's Core Lib, GeckoLib, Mine and Slash, Craft to Exile Custom Uniques, Xaero's, Simple Magnets.
 
 ### Fixes
-- Amalgalich no longer drop Lob Darkling Charges.
+- Amalgalich no longer drops Lob Darkling Charges.
 - Fixed a bug where some mobs meant to spawn in the Midnight dimension were not spawning, such as Spectres.
 - Hopefully fixed Fireball not doing damage sometimes.
 - Hopefully fixed the Storm Attack Spell synery not applying Static.

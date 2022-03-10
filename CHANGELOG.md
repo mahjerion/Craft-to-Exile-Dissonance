@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Wraiths and Cacaodemons in the Nightmare dimensions are now about 3-4x as common.
+
+### Fixes
+- Reapers can no longer spawn from killing Reapers.
+
 ## [2.15.1] - 2022-02-09
 
 ### Updates

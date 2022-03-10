@@ -10,8 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.15.2] - 2022-03-XX
 
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Wraiths and Cacaodemons in the Nightmare dimensions are now about 3-4x as common.
 - Reaper spawn chance has been reduced from 50% to 25%.
+
+### Mod Updates
+- Updated Xaero's, Simple Magnets.
 
 ### Fixes
 - Reapers can no longer spawn from killing Reapers.

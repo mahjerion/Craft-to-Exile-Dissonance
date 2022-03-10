@@ -24,7 +24,7 @@
   "triggers": [
     {
       "type": "kill",
-      "chance": 0.5,
+      "chance": 0.25,
       "entityIds": [
         "lycanitesmobs:reaper"
       ],

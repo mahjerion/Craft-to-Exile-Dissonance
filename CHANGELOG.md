@@ -13,9 +13,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Wraiths and Cacaodemons in the Nightmare dimensions are now about 3-4x as common.
 - Reaper spawn chance has been reduced from 50% to 25%.
+- Reduced mob dodge rating by about 33%.
+- You now get an "out of resources" warning when you are out of mana/energy.
 
 ### Mod Updates
-- Updated Xaero's, Simple Magnets, *Mine and Slash.
+- Updated Xaero's, Simple Magnets, Structures' Compass, Mine and Slash.
 
 ### Fixes
 - Reapers can no longer spawn from killing Reapers.

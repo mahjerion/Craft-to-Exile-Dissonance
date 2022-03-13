@@ -84,6 +84,7 @@ potionEffectPushBox:1
 minimapFrame:0
 minimapFrameColor:9
 compassColor:9
+northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
 entityRadar:true
@@ -92,6 +93,8 @@ autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
 mainDotSize:2
 partialYTeleportation:true
+deleteReachedDeathpoints:true
+hideMinimapUnderScreen:true
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

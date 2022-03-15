@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.15.2] - 2022-03-XX
+## [2.15.2] - 2022-03-14
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
@@ -15,7 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reaper spawn chance has been reduced from 50% to 25%.
 - Reduced mob dodge rating by about 33%.
 - You now get an "out of resources" warning when you are out of mana/energy.
-- Turned off the holiday assets/event. You can no longer get the holiday items.
 
 ### Mod Updates
 - Updated Xaero's, Simple Magnets, Structures' Compass, Mine and Slash.

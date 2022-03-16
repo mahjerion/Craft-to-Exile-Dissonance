@@ -10,17 +10,16 @@
     {
       "type": "world",
       "dimensionIds": [
-        "midnight:midnight",
-        "twilightforest:twilightforest"
+		"goodnightsleep:good_dream",
+        "midnight:midnight"
       ],
-      "dayTimeMin": 14000,
-      "moonPhase": 0
+      "dimensionListType": "whitelist"
     }
   ],
   "triggers": [
     {
       "type": "world",
-      "chance": 0.15,
+      "chance": 0.25,
       "tickRate": 1200
     }
   ],
@@ -28,9 +27,9 @@
     {
       "type": "random",
       "rangeMin": [
-        24,
+        16,
         0,
-        24
+        16
       ],
       "rangeMax": [
         32,

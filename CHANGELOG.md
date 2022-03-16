@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+- Fixed an issue where Epion weren't really spawning in the Good Dream dimension and Midnight.
+
 ## [2.15.2] - 2022-03-14
 
 ### Updates

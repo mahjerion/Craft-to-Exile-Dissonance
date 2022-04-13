@@ -7,8 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Mod Updates
+- Updated Xaero's, ReAuth.
+
 ### Fixes
-- Fixed an issue where Epion weren't really spawning in the Good Dream dimension and Midnight.
+- Fixed Good Dream dimension spawns.
+- Fixed an issue where Epions weren't really spawning in the Good Dream dimension and Midnight.
+- Hopefully fixed Lobber spawns...
 
 ## [2.15.2] - 2022-03-14
 

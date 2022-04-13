@@ -4,8 +4,9 @@
   "enabled": true,
   "loadDefault": false,
   "mobCountMin": 2,
+  "ignoreDimensions": true,
   "ignoreBiomes": true,
-  "ignoreLightLevel": false,
+  "ignoreLightLevel": true,
   "groupLimitRange": 64,
   "conditions": [
     {

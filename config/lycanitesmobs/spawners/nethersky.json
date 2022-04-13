@@ -4,6 +4,7 @@
   "enabled": true,
   "loadDefault": false,
   "mobCountMin": 2,
+  "ignoreDimensions": true,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,
   "conditions": [
@@ -37,7 +38,7 @@
       ],
       "sorting": "random",
       "limit": 32,
-      "solidGround": false
+      "solidGround": true
     }
   ]
 }

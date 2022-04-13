@@ -10,7 +10,9 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+	  "lunar"
+	],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

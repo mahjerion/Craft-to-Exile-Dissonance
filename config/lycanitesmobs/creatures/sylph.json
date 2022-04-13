@@ -10,7 +10,7 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [],
     "disableSubspecies": true,
     "dimensionIds": [

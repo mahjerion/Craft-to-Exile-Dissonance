@@ -9,10 +9,12 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [],
     "disableSubspecies": true,
-    "dimensionIds": [],
+    "dimensionIds": [
+      "goodnightsleep:good_dream"
+	  ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [],

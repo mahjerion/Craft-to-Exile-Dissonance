@@ -7,8 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
+### Mine and Slash Updates
+- Charged Sweep AOE has been reduced.
+- Charged Sweep now always applies Static.
+- Charged Sweep's synergy, Static Discharge has been removed.
+
 ### Mod Updates
-- Updated Xaero's, ReAuth.
+- Updated Mine and Slash, Xaero's, ReAuth, U Team Core, Simple Magnets.
 
 ### Fixes
 - Fixed Good Dream dimension spawns.

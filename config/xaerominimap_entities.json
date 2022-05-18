@@ -17,6 +17,7 @@
     "alwaysDisplayNametags": false,
     "dotSize": 2.0,
     "startFadingAt": 0.0,
+    "displayY": false,
     "icons": 1.0,
     "names": 0.0,
     "heightLimit": 20.0,

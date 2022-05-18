@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Charged Sweep's synergy, Static Discharge has been removed.
 
 ### Mod Updates
+- Updated to Forge 31.2.57.
 - Updated Mine and Slash, Xaero's, ReAuth, U Team Core, Simple Magnets.
 
 ### Fixes

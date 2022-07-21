@@ -15,7 +15,7 @@ Mob Changes:
 - Cold, Flaming, Lightning, and Venomous mob affixes have been changed to be spell oriented.
 - Frost Nova Spell - When mob deals damage, send out a nova of ice from the target that deals damage around them in AOE. The spell also applies a 33% slow for 3s.
 - Flame Sweep Spell - When mob deals damage, spew forth flames in front of them to damage in AOE.
-- Lightning Discharge Spell - When mob receives damage, send out a lightning nova that deals damage around them in AOE.
+- Lightning Discharge Spell - When mob deals damage, send out a lightning nova that deals damage around them in large AOE.
 - Weaken Curse Spell - When mob receives damage, weaken the attacker with a curse that reduces spell damage, cooldown reduction, and elemental resistances for about 10 seconds. The curse also applies a small Nature DoT on the attacker.
 - Bleed Spell - When mob deals damage, apply 2 bleed stacks to targets in front of them.
 - Uncommon and rare mobs have a higher chance of having affixes.

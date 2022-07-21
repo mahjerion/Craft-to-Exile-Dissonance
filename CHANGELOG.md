@@ -33,15 +33,15 @@ Trait Changes:
 - Nerf: Steady Hand now increases damage by 15% instead of 20%.
 - Buff: True Hit now multis critical hit chance by 35% instead of 30%.
 
+### Mod Updates
+- Updated Mine and Slash.
+
 ### Fixes
 - Fixed an issue where some conversion traits such as Magical Life and Fortified Reaction were not taking into account bonuses from core stats, finally!
 - Removed Dodge Ignore stat. It was causing issues with log spam and was not working as intended.
 - Fixed some unique swords not dropping.
 - Fixed some Yon rune bugs.
 - Cleared up some console spam.
-
-### Mod Updates
-- Updated Mine and Slash.
 
 ## [2.16.0b] - 2022-07-21
 

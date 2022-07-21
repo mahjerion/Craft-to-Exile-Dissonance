@@ -7,6 +7,35 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.0] - 2022-07-21
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Increased Overworld level block scaling from 200 per level to 300.
+- Mr. Crayfish's Furniture mod's mailboxes now require Ender Mail's locker to craft in place of the chest.
+
+### Mine and Slash Updates
+- Buffed Divine aura buffs substantially. My goal was to make the buffs more relevant and sought out in parties. Eg. change from ele spell dmg to cdr should make it more useful in groups:
+- Bravery now gives substantial amounts of Vitality, Strength, Health Regen, and Block Chance instead of small amounts of Health, Block Chance, and Strength.
+- Trickery now gives substantial amounts of Dexterity, Stamina, Energy Regen, and Critical Hit Chance instead of small amounts of Critical Hit Chance, Energy Regen, and Dexterity.
+- Wizardry now gives substantial amounts of Intelligence, Wisdom, Mana Regen, and Cooldown Reduction instead of small amounts of Elemental Spell Damage, Mana Regen, and Intelligence.
+- Buffed Poison Ball by increasing its base value damage by max level by 20%, and attack scaling values by about 10% across the board.
+- Buffed Rock Slide by increasing its base value damage by 50% and doubling the attack scaling values.
+- Reduced the cooldown of Gorgon's Gaze substantially. At max level it is now 12 seconds instead of 18 seconds.
+- Reduced the mana cost of Nature's Balm by about 25%.
+- Reduced the mana cost of Thorny Armor by about 40%.
+- Reduced the mana cost of the Nature Curses by about 20%.
+- The max level of the Nature Curses has been increased from 4 to 6. They have been greatly buffed, but it will require just a few more points of investment to make the most out of them.
+- Corrosion now reduces armor and dodge rating at a base rate of 500, up from 150, and reduces movement speed by 15%, up from 10%.
+- Quietus (Mortality Sap Curse) now reduces flat physical damage and a very very substantial amount of health regen instead of critical hit chance and damage. Crit values were non-scaling and were not very impactful.
+- Mind Rot now reduces magic shield at a base rate of 100, up from 25, mana regen by 50, up from 5, and elemental resists by 33%, up from 15%.
+
+### Mod Updates
+- Updated Xaero's, U Team Core, The Midnight, SuperMartijn624's core and magnet mods, ReAuth, Mine and Slash.
+
+### Fixes
+- Some issues with server disconnects or crashes should be resolved due to the ReAuth update.
+
 ## [2.15.3] - 2022-05-18
 
 ### Updates

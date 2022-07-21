@@ -29,8 +29,8 @@
         "z": 0,
         "y": 0
       },
-      "MOB_LEVEL_PER_DISTANCE": 200,
-      "MOB_LEVEL_ONE_AREA": 250,
+      "MOB_LEVEL_PER_DISTANCE": 300,
+      "MOB_LEVEL_ONE_AREA": 350,
       "MAXIMUM_MOB_LEVEL": 30,
       "MINIMUM_MOB_LEVEL": 1,
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,
@@ -49,8 +49,8 @@
         "z": 0,
         "y": 0
       },
-      "MOB_LEVEL_PER_DISTANCE": 200,
-      "MOB_LEVEL_ONE_AREA": 250,
+      "MOB_LEVEL_PER_DISTANCE": 300,
+      "MOB_LEVEL_ONE_AREA": 350,
       "MAXIMUM_MOB_LEVEL": 30,
       "MINIMUM_MOB_LEVEL": 1,
       "LEVEL_FOR_MOBS_TO_BE_LEGENDARY": 20,

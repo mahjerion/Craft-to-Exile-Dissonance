@@ -36,6 +36,9 @@ Trait Changes:
 ### Fixes
 - Fixed an issue where some conversion traits such as Magical Life and Fortified Reaction were not taking into account bonuses from core stats, finally!
 - Removed Dodge Ignore stat. It was causing issues with log spam and was not working as intended.
+- Fixed some unique swords not dropping.
+- Fixed some Yon rune bugs.
+- Cleared up some console spam.
 
 ### Mod Updates
 - Updated Mine and Slash.

@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mine and Slash Updates
 Mob Changes:
 - Mobs can now cast some basic spells. Most of them are "on hit", whether they're hit or they cause the hit.
-- Cold, Flaming, Lightning, and Venomous mob affixes have been changed to be spell oriented.
+- Cold, Flaming, Lightning, Venomous, and Sanguine mob affixes have been changed to be spell oriented. They also will say "caster" in their names to better denote the change.
 - Frost Nova Spell - When mob deals damage, send out a nova of ice from the target that deals damage around them in AOE. The spell also applies a 33% slow for 3s.
 - Flame Sweep Spell - When mob deals damage, spew forth flames in front of them to damage in AOE.
 - Lightning Discharge Spell - When mob deals damage, send out a lightning nova that deals damage around them in large AOE.
@@ -34,7 +34,7 @@ Trait Changes:
 - Buff: True Hit now multis critical hit chance by 35% instead of 30%.
 
 ### Mod Updates
-- Updated Mine and Slash.
+- Updated Mine and Slash, Craft to Exile Custom Uniques.
 
 ### Fixes
 - Fixed an issue where some conversion traits such as Magical Life and Fortified Reaction were not taking into account bonuses from core stats, finally!

@@ -17,7 +17,7 @@ Mob Changes:
 - Flame Sweep Spell - When mob deals damage, spew forth flames in front of them to damage in AOE.
 - Lightning Discharge Spell - When mob deals damage, send out a lightning nova that deals damage around them in large AOE.
 - Weaken Curse Spell - When mob receives damage, weaken the attacker with a curse that reduces spell damage, cooldown reduction, and elemental resistances for about 10 seconds. The curse also applies a small Nature DoT on the attacker.
-- Bleed Spell - When mob deals damage, apply 2 bleed stacks to targets in front of them.
+- Bloody Strike Spell - When mob deals damage, apply 2 bleed stacks to targets in front of them.
 - Uncommon and rare mobs have a higher chance of having affixes.
 
 Trait Changes:

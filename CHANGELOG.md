@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.0b] - 2022-07-21
+
+### Mine and Slash Updates
+- Slightly buffed Spell Blade synergy. Radius increase by 1, and scaling at max level has been increased.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed Summoned Zombies and Skeletons having hurtboxes of Spiders. Unholy map delvers, rejoice!
+- Lightning Spear Galvanic Arc synergy no longer infinitely loops and deals crazy burst damage.
+- FINALLY fixed Power Surge, Critical Surge, and Spell Blade synergies being active even when the buff wasn't active. No more free triggers!
+
 ## [2.16.0] - 2022-07-21
 
 ### Updates

@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "dodge_ignore_flat",
+      "armor_penetration_flat",
       "major_critical_hit_flat"
     ]
   }

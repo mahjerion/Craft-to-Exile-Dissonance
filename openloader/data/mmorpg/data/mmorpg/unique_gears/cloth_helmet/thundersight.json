@@ -11,7 +11,7 @@
     "low_dodge_flat"
   ],
   "unique_stats": [
-	"low_dodge_ignore_flat",
+	"low_armor_penetration_flat",
     "spell_elemental_damage_flat",
     "thunder_penetration_flat",
     "thunder_resist_flat"

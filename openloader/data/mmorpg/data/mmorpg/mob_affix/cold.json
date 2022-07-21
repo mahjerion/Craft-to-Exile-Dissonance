@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "third_attack_water_damage_flat",
+      "mob_frost_nova_flat",
       "very_high_water_resist_flat"
     ]
   }

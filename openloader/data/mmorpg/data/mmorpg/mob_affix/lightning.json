@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "third_attack_thunder_damage_flat",
+      "mob_lightning_discharge_flat",
       "very_high_thunder_resist_flat"
     ]
   }

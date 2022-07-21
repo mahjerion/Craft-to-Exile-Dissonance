@@ -8,7 +8,8 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "major_armor_penetration_flat",
+      "mob_bloody_strike_flat",
+      "very_high_armor_penetration_flat",
       "life_on_hit_flat"
     ]
   }

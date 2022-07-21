@@ -28,7 +28,7 @@
   "mods": {
     "2": "high_armor_penetration_flat",
     "3": "plus_hunting_skill_lvls_flat",
-	"4": "high_dodge_ignore_flat",
+	"4": "high_critical_hit_flat",
 	"5": "high_dodge_percent",
     "6": "major_bow_damage_flat",
     "7": "high_energy_regen_percent",

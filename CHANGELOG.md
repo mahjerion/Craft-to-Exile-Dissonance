@@ -7,6 +7,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.0c] - 2022-07-21
+
+### Mine and Slash Updates
+Mob Changes:
+- Mobs can now cast some basic spells. Most of them are "on hit", whether they're hit or they cause the hit.
+- Cold, Flaming, Lightning, and Venomous mob affixes have been changed to be spell oriented.
+- Frost Nova Spell - When mob deals damage, send out a nova of ice from the target that deals damage around them in AOE. The spell also applies a 33% slow for 3s.
+- Flame Sweep Spell - When mob deals damage, spew forth flames in front of them to damage in AOE.
+- Lightning Discharge Spell - When mob receives damage, send out a lightning nova that deals damage around them in AOE.
+- Weaken Curse Spell - When mob receives damage, weaken the attacker with a curse that reduces spell damage, cooldown reduction, and elemental resistances for about 10 seconds. The curse also applies a small Nature DoT on the attacker.
+- Bleed Spell - When mob deals damage, apply 2 bleed stacks to targets in front of them.
+- Uncommon and rare mobs have a higher chance of having affixes.
+
+Trait Changes:
+- Buff: Arcane Devotion now gives a flat 100 magic shield on top of the 50% multi.
+- Buff: Berserker's Impartiality now reduces elemental attack damage by 20% instead of 25%.
+- Buff: Bleed Mastery now reduces physical damage by 10% instead of 15%.
+- Buff: Magical Life now reduces health by 15% instead of 20%.
+- Buff: Mana Battery now reduces armor and dodge rating by 50% instead of 60%.
+- Buff: Pacifist now gives 25% cooldown reduction instead of 20%.
+- Nerf: Power Overwhelming now gives 20% spell damage instead of 25%.
+- Change: Refreshing Breeze now recovers 2% of your max health on a successful dodge instead of 10% of your max energy. On the other hand, failing to dodge consumes 2% of your max energy.
+- Nerf: Ruthless now gives 30% DoT damage instead of 35%.
+- Nerf: Steady Hand now increases damage by 15% instead of 20%.
+- Buff: True Hit now multis critical hit chance by 35% instead of 30%.
+
+### Fixes
+- Fixed an issue where some conversion traits such as Magical Life and Fortified Reaction were not taking into account bonuses from core stats, finally!
+- Removed Dodge Ignore stat. It was causing issues with log spam and was not working as intended.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.16.0b] - 2022-07-21
 
 ### Mine and Slash Updates

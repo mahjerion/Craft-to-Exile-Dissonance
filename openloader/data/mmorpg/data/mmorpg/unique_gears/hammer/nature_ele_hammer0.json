@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
 	"high_health_percent",
-    "dodge_ignore_flat",
+    "armor_penetration_flat",
     "lifesteal_flat",
 	"very_high_health_regen_flat"
   ],

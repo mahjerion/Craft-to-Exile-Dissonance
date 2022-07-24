@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Higher tier maps and worlds are now greatly more rewarding. Previously, tier 1 maps would give a 5% loot bonus and a 5% chance of items dropping at a higher rarity, and tier 5 maps would give a 35% loot bonus and a 25% chance of items dropping at higher rarity. Now, tier 1 maps have a 10% loot bonus and 7.5% item rarity bonus, and tier 5 maps have a 50% loot bonus and a 40% item rarity bonus! Happy looting.
+- Item rarities have been shifted away from common towards the upper end. The drop rate on rares, epics, and legendaries has doubled.
+
 ## [2.16.0c] - 2022-07-21
 
 ### Mine and Slash Updates

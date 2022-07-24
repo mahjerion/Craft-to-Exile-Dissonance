@@ -3,6 +3,6 @@
   "mob_health_multi": 3.6,
   "mob_damage_multi": 3.2,
   "mob_stat_multi": 2.8,
-  "loot_multi": 1.26,
-  "chance_for_higher_drop_rarity": 20.0
+  "loot_multi": 1.4,
+  "chance_for_higher_drop_rarity": 30.0
 }

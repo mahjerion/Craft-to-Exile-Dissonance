@@ -11,7 +11,6 @@ terrainSlopes:2
 terrainDepth:true
 footsteps:true
 flowers:true
-compression:false
 coordinates:true
 biomeColorsVanillaMode:false
 waypoints:true
@@ -23,4 +22,13 @@ reloadVersion:0
 reloadEverything:false
 zoomButtons:true
 waypointBackgrounds:true
+detectAmbiguousY:true
+showDisabledWaypoints:false
+closeWaypointsWhenHopping:true
+adjustHeightForCarpetLikeBlocks:true
+onlyCurrentMapWaypoints:false
+minZoomForLocalWaypoints:0.0
+arrowColour:-2
+minimapRadar:true
+renderWaypoints:true
 globalVersion:1

@@ -18,7 +18,7 @@
     "MAP_TIER": 0,
     "DROP_MULTIPLIER": 1.0,
     "MOB_STRENGTH_MULTIPLIER": 1.0,
-    "MOB_HP_MULTIPLIER": 1.0,
+    "MOB_HP_MULTIPLIER": 1.1,
     "MOB_EXP_MULTIPLIER": 1.0
   },
   "dimensionsList": {
@@ -39,7 +39,7 @@
       "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "overworldmirror:dimension": {
@@ -59,7 +59,7 @@
       "MAP_TIER": 0,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "the_bumblezone:bumblezone": {
@@ -79,7 +79,7 @@
       "MAP_TIER": 1,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "minecraft:the_nether": {
@@ -99,7 +99,7 @@
       "MAP_TIER": 2,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "minecraft:the_end": {
@@ -119,7 +119,7 @@
       "MAP_TIER": 2,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.25,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "atum:atum": {
@@ -139,7 +139,7 @@
       "MAP_TIER": 2,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.0,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "goodnightsleep:good_dream": {
@@ -159,7 +159,7 @@
       "MAP_TIER": 3,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.1,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "goodnightsleep:nightmare": {
@@ -179,7 +179,7 @@
       "MAP_TIER": 3,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.1,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "midnight:midnight": {
@@ -199,7 +199,7 @@
       "MAP_TIER": 3,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.2,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "tropicraft:tropics": {
@@ -219,7 +219,7 @@
       "MAP_TIER": 3,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.2,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "gaiadimension:gaia": {
@@ -239,7 +239,7 @@
       "MAP_TIER": 4,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.3,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "mining_dimension:mining_world": {
@@ -259,7 +259,7 @@
       "MAP_TIER": 2,
       "DROP_MULTIPLIER": 1.0,
       "MOB_STRENGTH_MULTIPLIER": 1.5,
-      "MOB_HP_MULTIPLIER": 1.0,
+      "MOB_HP_MULTIPLIER": 1.1,
       "MOB_EXP_MULTIPLIER": 1.0
     },
     "dimdungeons:dungeon_dimension": {
@@ -279,7 +279,7 @@
       "MAP_TIER": 5,
       "DROP_MULTIPLIER": 8.0,
       "MOB_STRENGTH_MULTIPLIER": 6.0,
-      "MOB_HP_MULTIPLIER": 2.0,
+      "MOB_HP_MULTIPLIER": 2.2,
       "MOB_EXP_MULTIPLIER": 4.0
     }
   }

@@ -7,9 +7,57 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.1] - 2022-07-24
+
 ### Updates
 - Higher tier maps and worlds are now greatly more rewarding. Previously, tier 1 maps would give a 5% loot bonus and a 5% chance of items dropping at a higher rarity, and tier 5 maps would give a 35% loot bonus and a 25% chance of items dropping at higher rarity. Now, tier 1 maps have a 10% loot bonus and 7.5% item rarity bonus, and tier 5 maps have a 50% loot bonus and a 40% item rarity bonus! Happy looting.
 - Item rarities have been shifted away from common towards the upper end. The drop rate on rares, epics, and legendaries has doubled.
+- Increased Awaken Runeword drop chance by 233%.
+- Lowered currency drop rates by 20%.
+- Mob strength scaling has been increased, mobs will be more difficult at higher levels.
+- Mob health has been increased by 10% across the board.
+- Call to Arms cooldown reduction has been toned down a bit.
+
+### Mine and Slash Updates
+Spell Changes:
+- The following changes to were mostly to aid spells that were slightly underperforming. Additionally, spells with long cast times that had effects during the cast times have had their cooldown reduced drastically, as they didn't actually come off cooldown until the spell completed casting.
+- Chilling Field scales from 6% to 12% max mana and 3 to 6 base value insead of 4% to 12% max mana and 2 to 6 base value.
+- Magic Burst scales from 30% to 75% max magic shield instead of 15% to 60%.
+- Martyrdom scales from 25% to 45% max health instead of 12% to 36%.
+- Retribution scales from 60% armour to 80% armour instead of 50% to 70%.
+- Retribution cooldown has reduced by about 33%.
+- Whirlwind scales from 100% attack to 120% attack instead of 45% to 100%.
+- Whirlwind cooldown has been reduced by about 66%!
+- Trident of Judgment cooldown is now a flat 4 seconds instead of 9 to 5.
+- Arrow Barrage cooldown has been reduced by about 33%.
+- Battery Fusilade mana cost is now lower by about 11% at max level, and the cooldown has been reduced by 33%.
+- Health costs of Unholy spells have been reduced.
+- Animate Scythe scales from 9% max health to 24% instead of 4% to 24%.
+- Hellfire Cloak cooldown has been reduced by 50%.
+- Bone Squal health cost has been reduced substantially.
+- Bone Squall scales from 6% to 18% max health instead of 3% to 15%.
+- Manevolent Offering cooldown has been reduced by 33%.
+- Soul Shred scales from 6% to 12% magic shield instead of 4% to 9%.
+
+Chaos/Arcana Stat Changes:
+- Changes to Chaos and Arcana stats should see improvements across the board, giving a greater variety of stats. In general, there are less negative stats now, and the negative effects are lessened. The idea was to lessen the "risk" part of high risk/high reward, so that it's now medium risk/high reward. Increased chance in legendary drop rates and drop improvements in higher tiered maps should also make it easier for players to find good items.
+- Buffed some Chaos stats. Barbarian and Clumsy Scholar have less of a penalty now.
+- Negative Chaos stat effects are much less punishing now.
+- Earth, Fire, Frost, and Thunder Atronach chaos stats now additionally grant Increased Duration, Projectile Speed, Cooldown Reduction, and Area of Effect, respectively.
+- Lord of Blizzards, Earthquakes, Thunderstorms, and Volcanoes have been removed and reworked into new chaos stats.
+- Lord of Blizzards is now "Holy" and provides bonuses to Increased Healing and Faster Cast Speed.
+- Lord of Earthquakes is now "Bulwark" and provides bonuses to Block Chance and Thorns.
+- Lord of Thunderstorms is now "Resourceful" and provides bonuses to Cooldown Reduction and Increased Duration.
+- Lord of Volcanoes is now "Seething" and provides bonuses to Phys to Fire conversion and Fire Weapon Damage. It can also now only roll on weapons.
+- Quick Learner Chaos stat now rolls on level 10-50 gear instead of 10-25. It also gives twice as much Bonus EXP stat as before.
+- Quick Learner has been renamed to Studious.
+- The Death Major Arcana stat no longer has a penalty to health. It now instead provides a bonus to DoT damage.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed heal power/increased healing only affecting incoming heals and taking the stat of the receiver instead of the caster. It should now work as intended.
 
 ## [2.16.0c] - 2022-07-21
 

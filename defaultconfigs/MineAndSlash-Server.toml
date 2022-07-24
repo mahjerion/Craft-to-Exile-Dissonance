@@ -5,10 +5,10 @@
 	[SERVER.DROPRATES]
 		#.
 		#Range: 0.0 ~ 2.147483647E9
-		AWAKEN_RUNEWORD_DROPRATE = 0.15
+		AWAKEN_RUNEWORD_DROPRATE = 0.5
 		#.
 		#Range: 0.0 ~ 2.147483647E9
-		COMPATIBLE_ITEMS_DROPRATE = 0.5
+		COMPATIBLE_ITEMS_DROPRATE = 0.25
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		RUNED_GEAR_DROPRATE = 1.25
@@ -20,7 +20,7 @@
 		UNIQUE_DROPRATE = 0.075
 		#.
 		#Range: 0.0 ~ 2.147483647E9
-		CURRENCY_DROPRATE = 1.5
+		CURRENCY_DROPRATE = 1.2
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		LOOTBOX_DROPRATE = 0.05
@@ -101,7 +101,7 @@
 		ONLY_REPAIR_IN_STATION = true
 		#This makes mobs increasingly weaker, by default at lvl 100 mobs will be 3x stronger, formula: Math.pow(lvl, (lvl / VALUE)) - 0.5
 		#Range: 0.0 ~ 1000.0
-		MOB_STRENGTH_PER_LEVEL_MULTI = 325.0
+		MOB_STRENGTH_PER_LEVEL_MULTI = 300.0
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		NON_MOD_HEAL_MULTI = 0.1

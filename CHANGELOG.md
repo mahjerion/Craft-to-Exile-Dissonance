@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.16.2] - 2022-07-26
+## [2.16.2b] - 2022-07-26
 
 ### Updates
 - Knowledge enchantment max level is now 2 instead of 1.
@@ -54,7 +54,6 @@ Spell Changes:
 - Nourishment buff health regen has been increased by about 100%.
 - Frost Blade buff now gives 25% more flat frost attack damage.
 - Critical Surge now gives a small bonus to spell damage.
-- Power Surge now gives increased all elemental attack damage rather than just lightning.
 - Recharge now scales from 1% to 4% max mana per second instead of a flat 1% across all level.
 - Nature's Balm cooldown is now a flat 20 seconds instead of 32 to 22 seconds.
 - Increased the area of effect of Martyrdom by 50%.

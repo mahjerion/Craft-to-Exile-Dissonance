@@ -7,6 +7,72 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.2] - 2022-07-26
+
+### Updates
+- Knowledge enchantment max level is now 2 instead of 1.
+
+### Mine and Slash Updates
+Stat Changes:
+- Increased critical hit and critical damage flat and percent stats. Critical should be a little bit easier to invest into now with more payoff.
+- Increased physical damage flat stat by about 10%.
+
+Item Changes:
+- Stone of Corruption now adds 250 instability instead of 500, and adds an addition 10% break chance instead of 20%.
+- Chaos Orb now grants -50 instability instead of 25.
+- Chaotic Wisp no longer adds instability, but has a flat 20% chance to break the item instead of 25%. It also no longer halves the total break chance (this is overall a small nerf).
+
+Chaos Changes:
+- Chaos and Major Arcana Chaos stats have had their weightings readjusted. In general, when using a Chaos orb, there is approximately a 15-20% chance of getting a bad stat, and a 5-10% chance of rolling a Major Arcana Chaos stat.
+- Added 3 new weapon-only Chaos stats: Explosive (incr. spell damage, reduce resists), Radiant (incr. spell damage, incr. elemental pene), and Spiky (incr. phys attack damage, incr. armor pene).
+- Stealthy chaos stat can now roll again.
+- Weapon Master chaos stat no longer gives critical damage, but instead gives critical hit chance and physical attack damage percent.
+- Lucky chaos stat now gives bonus to all loot drops instead of only unique items, and gives a flat critical hit chance instead of percent increase.
+- Golem now gives double the health percent stat than previously.
+- Diseased chaos stat now also gives DoT damage.
+
+Major Arcana Chaos Changes:
+- Added a new arcana chaos stat: The Sniper - gives a massive bonus to bow and crossbow damage.
+- Strength arcana chaos stat has been changed to give a lot of strength and physical attack damage percent.
+- High Priestess arcana chaos stat now also gives frost spell damage.
+- Justice arcana chaos stat now gives twice as much bonus to sword weapon damage.
+- The Devil arcana chaos stat now gives health and energy regen instead of mana and energy regen. It also provides increased fire spell damage instead of nature.
+- The Fool arcana chaos stat gives more dexterity now, and also gives physical attack damage percent instead of lightning spell damage.
+- The World arcana chaos stat now gives frost and nature attack damage percent instead of nature resist.
+- The Lovers arcana chaos stat now gives armor and elemental penetration instead of health and magic shield regen. ;)
+- The Hierophant arcana chaos stat now gives frost and lightning spell damage instead of nature penetration.
+- Temperance arcana chaos stat now gives frost pen instead of fire pen.
+- The Hanged Man arcana chaos stat now gives summon damage instead of elemental spell damage.
+- Wheel of Fortune arcana chaos stat now gives armor penetration instead of fire penetration.
+- The Magician arcana chaos stat now gives magic shield percent and more lightning spell damage but no longer gives mana.
+- Tower arcana chaos stat now gives a bit of health on top of damage reduction.
+
+Spell Changes:
+- Purifying Flames now scales from 180% to 320% instead of 100% to 150%.
+- Purifying Flames cooldown has been decreased.
+- Greatly buffed the following healing spells: Heart of Ice, Healing Wave, Wish, Healing Flower. Some of the max levels for these spells have been reduced, increasing the rate at which they scale. I may rework these spells in the future when I have more time.
+- Nourishment buff health regen has been increased by about 100%.
+- Frost Blade buff now gives 25% more flat frost attack damage.
+- Critical Surge now gives a small bonus to spell damage.
+- Power Surge now gives increased all elemental attack damage rather than just lightning.
+- Recharge now scales from 1% to 4% max mana per second instead of a flat 1% across all level.
+- Nature's Balm cooldown is now a flat 20 seconds instead of 32 to 22 seconds.
+- Increased the area of effect of Martyrdom by 50%.
+- Retribution scales from 50% armour to 70% armour instead of 60% to 80%.
+- Magic Burst scales from 15% magic shield to 50% instead of 25% to 75%.
+- Magic Burst magic shield cost has been reduced to 5% to 12.5% instead of 15% to 25%.
+- Magic Burst area of effect has been increased by 1.
+- Unholy Meditiation base value has increased by 100%.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed damage reduction stat working inversely... So instead of reducing damage by 5% it was reducing it by 95%. Oops.
+- Fixed block not working as intended.
+- Fixed a problem where stats that gave bonuses to all elements (eg. all elemental spell damage) would actually make elemental resist apply to that stat. So if you had 1% all elemental spell damage and 25% all elemental resist, you would end up with 25% all elemental spell damage and 25% all elemental resist... Oops.
+- Fixed Life Siphon being triggerable off of allies and summons.
+
 ## [2.16.1] - 2022-07-24
 
 ### Updates

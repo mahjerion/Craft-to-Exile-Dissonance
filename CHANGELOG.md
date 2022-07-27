@@ -7,6 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.4] - 2022-07-27
+
+### Mine and Slash Updates
+
+- Lowered the health cost of Summon Skeletal Army and Hellfire Cloak.
+- Unholy spells now cost percent magic shield in addition to percent health (except for Malevolent Offering).
+- The duration of Unholy buffs have been reduced, they should be more in line with other non-Divine buffs.
+- Increased the base damage of Tidal Wave and Life Siphon slightly.
+- Increased the base damage of Ice Orb.
+- Increased Thorn Bush base value at lower levels significantly.
+- Doubled Thorn Bush radius to make it more consistent.
+- Increased attack scaling of Spirit Ball.
+- Increased the duration of Nature's Armor at level 1 by 80 seconds, and at max level by 60 seconds.
+- Increased attack scaling of Double Shot, Arrow Barrage, and Arrow Storm significantly.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed experience not being distributed at all.
+- Fixed Nature's Armor synergy giving a free buff.
+- Fixed mobs being super dodgy.
+
 ## [2.16.3] - 2022-07-27
 
 ### Updates

@@ -7,6 +7,38 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.3] - 2022-07-27
+
+### Updates
+- Check out the newly updated builds on the Dissonance Wiki!
+- The Party section of the Dissonance Wiki, under 'First Steps', has been updated.
+
+### Mine and Slash Updates
+- EXP level penalty is now determined on an individual basis when in a party, instead of based on the killer. This means a level 50 partying with a level 20 will no longer grant the full experience to the level 20 when killing a level 50 mob. Instead, if the level 50 wishes to power level the level 20, they can kill level 20 mobs. This should prevent excessive power leveling (still possible, just a lot slower).
+- Party EXP boost is now capped at 6 players. Eg. party of 2, you get 120% of the exp divided by 2, so each player gets 60%. At a party of 6, you will get 200% exp, divided by 6. At a party of 7, you will still only get 200% exp.
+- Party share only applies to members within 100 blocks of the killer and within the same dimension.
+- The following changes were made to bring the runes more up to date with newer and a larger variety of stats. No more two runes providing the same stats!
+- Oni unique rune now gives +1 All Skills instead of flat armor.
+- Psi unique rune now gives cooldown reduction instead of critical damage.
+- Qar unique rune now gives core stats instead of very low spell damage.
+- Xah rune now gives block chance instead of percent spell damage on the armor slot.
+- Ber rune now gives damage reduction instead of dodge on the armor slot.
+- Goh rune now gives elemental thorns instead of percent spell damage on the jewelry slot.
+- Rah rune now gives elemental attack damage percent instead of elemental penetration percent on the armor slot.
+- Dos rune now gives armor penetration instead of elemental penetration on the armor slot.
+- Readjusted some resource (HP, Magic Shield, Mana, etc.) values across the board. There should overall be a 10-20% lower ceiling.
+- Reduced effectiveness of elemental penetration and elemental spell damage flat stats by about 33%.
+- Shifted some stats around in the Stat Info window.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed an issue where after playing for a long time, players were lagging when hit... FINALLY!
+- Fixed missing unique item textures.
+- Fixed Atronach Chaos stats giving elemental spell damage percent instead of flat.
+- Fixed some missing localization.
+
 ## [2.16.2b] - 2022-07-26
 
 ### Updates

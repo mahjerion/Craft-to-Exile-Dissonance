@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Increased difficulty in higher tiers.
+- Increased mob scaling so end game is a bit harder.
+- Increased colonies max distance from world spawn setting.
+
+### Mine and Slash Updates
+- Added a new tier 3 currency called Orb of Companionship that turns maps into "team dungeons". These dungegons are substantially more difficult and rewarding.
+- Duration of the really really long buffs have been lowered. This includes the Divine buffs.
+- Cast time for buffs has also been lowered.
+- Mana Cost Reduction stat now affects all resource costs and has been renamed to Spell Cost Reduction.
+- All mobs in maps now have a chance to be speedy, stronger, or regenerative on spawn.
+- Mobs now have 33% more elemental resist, 50% more elemental penetration, and now get some armor penetration as well.
+- Mobs should have about 25% more health now.
+- Added a new mob affix in maps giving Spell Dodge.
+- Slows from spells and effects have been readjusted. They have all been toned down. Some effects such as wounds no longer slow enemies.
+- Blizzard synergy now correctly applies Frost instead of Freeze effect. Huge difference...
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.16.4] - 2022-07-27
 
 ### Mine and Slash Updates

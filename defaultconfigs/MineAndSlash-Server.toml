@@ -101,7 +101,7 @@
 		ONLY_REPAIR_IN_STATION = true
 		#This makes mobs increasingly weaker, by default at lvl 100 mobs will be 3x stronger, formula: Math.pow(lvl, (lvl / VALUE)) - 0.5
 		#Range: 0.0 ~ 1000.0
-		MOB_STRENGTH_PER_LEVEL_MULTI = 300.0
+		MOB_STRENGTH_PER_LEVEL_MULTI = 250.0
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		NON_MOD_HEAL_MULTI = 0.1

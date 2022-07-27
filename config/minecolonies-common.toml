@@ -127,7 +127,7 @@
 	maxColonySize = 20
 	#Max distance (in blocks) from world spawn for a colony. [Default: 8000, min: 1000, max: 100000]
 	#Range: 1000 ~ 100000
-	maxdistancefromworldspawn = 20000
+	maxdistancefromworldspawn = 100000
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
 	minColonyDistance = 8

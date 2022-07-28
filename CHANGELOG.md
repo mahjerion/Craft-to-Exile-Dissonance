@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Blocking with shields no longer has a 5 tick delay.
+
+### Mod Updates
+- Added No Shield Delay.
+
 ## [2.17.0] - 2022-07-28
 
 ### Updates
@@ -15,7 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased difficulty in higher tiers.
 - Increased mob scaling so end game is a bit harder.
 - Increased colonies max distance from world spawn setting.
-- Blocking with shields no longer has a 5 tick delay.
 - Added a new quest showcasing the newly introduced Team Dungeons.
 
 ### Mine and Slash Updates
@@ -33,7 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated Mine and Slash, CraftPresence.
-- Added No Shield Delay.
 
 ## [2.16.4] - 2022-07-27
 

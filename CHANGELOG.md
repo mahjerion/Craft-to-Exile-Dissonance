@@ -7,14 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [2.16.5] - 2022-07-28
+## [2.17.0] - 2022-07-28
 
 ### Updates
-- New mob affix: of Speed Casting - on damage received, apply a 40% speed buff and 50% attack speed buff.
+- Introducing: Team Dungeons! This is the first iteration of Team Dungeons, to create a Team Dungeon, apply the Orb of Companionship onto a map in a modify station. Upon doing so, the map will gain very powerful affixes. Tackle these maps with allies for increased rewards and experience! This is the first iteration of these dungeons, so feedback is greatly welcome.
+- New mob affix: of Speed Casting - on damage received, apply a 100% speed buff.
 - Increased difficulty in higher tiers.
 - Increased mob scaling so end game is a bit harder.
 - Increased colonies max distance from world spawn setting.
 - Blocking with shields no longer has a 5 tick delay.
+- Added a new quest showcasing the newly introduced Team Dungeons.
 
 ### Mine and Slash Updates
 - Added a new tier 3 currency called Orb of Companionship that turns maps into "team dungeons". These dungegons are substantially more difficult and rewarding.
@@ -30,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Blizzard synergy now correctly applies Frost instead of Freeze effect. Huge difference...
 
 ### Mod Updates
-- Updated Mine and Slash.
+- Updated Mine and Slash, CraftPresence.
 - Added No Shield Delay.
 
 ## [2.16.4] - 2022-07-27

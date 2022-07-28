@@ -277,7 +277,6 @@
 				{
 					id: 1792,
 					type: "item",
-					title: "25000 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
@@ -381,7 +380,6 @@
 				{
 					id: 1796,
 					type: "item",
-					title: "52500 Experience",
 					item: {
 						id: "mmorpg:give_exp",
 						Count: 1b,
@@ -409,7 +407,7 @@
 		{
 			title: "Mining Dimension",
 			x: 0.0d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
@@ -452,7 +450,7 @@
 		{
 			title: "Finding The Right Ores",
 			x: 1.5d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
@@ -724,7 +722,7 @@
 		{
 			title: "Cave Lighter",
 			x: 3.0d,
-			y: 4.5d,
+			y: 6.0d,
 			shape: "gear",
 			subtitle: "",
 			size: 1.0d,
@@ -1009,6 +1007,64 @@
 						Count: 1b,
 						tag: {
 							exp: 50000
+						}
+					}
+				}
+			]
+		},
+		{
+			title: "Team Dungeons",
+			x: 1.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Orbs of Companionship are currencies that can be applied to any maps. Doing so will increase the difficulty of the map substantially, but greatly improve loot and experience rewards.",
+				"Be sure to tackle these dungeons in a party! You wouldn't want to try these alone.",
+				"",
+				"Ideally, you should have someone who can absorb a lot of damage, someone who can deal a lot of damage, and possibly some sort of support."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;301],
+			dependency_requirement: "all_completed",
+			id: 2823,
+			tasks: [{
+				id: 2824,
+				type: "item",
+				item: "mmorpg:currency/team_map"
+			}],
+			rewards: [
+				{
+					id: 2825,
+					type: "item",
+					item: {
+						id: "mmorpg:currency/team_map",
+						Count: 8b
+					}
+				},
+				{
+					id: 2826,
+					type: "item",
+					item: {
+						id: "mmorpg:loot_crate",
+						Count: 1b,
+						tag: {
+							REGISTRY_ID: "map_crate",
+							LVL: 30,
+							SCORE: "AMAZING",
+							TIER: 0
+						}
+					}
+				},
+				{
+					id: 2827,
+					type: "item",
+					item: {
+						id: "mmorpg:give_exp",
+						Count: 1b,
+						tag: {
+							exp: 55000
 						}
 					}
 				}

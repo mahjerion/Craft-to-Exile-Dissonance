@@ -7,10 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.16.5] - 2022-07-28
+
 ### Updates
+- New mob affix: of Speed Casting - on damage received, apply a 40% speed buff and 50% attack speed buff.
 - Increased difficulty in higher tiers.
 - Increased mob scaling so end game is a bit harder.
 - Increased colonies max distance from world spawn setting.
+- Blocking with shields no longer has a 5 tick delay.
 
 ### Mine and Slash Updates
 - Added a new tier 3 currency called Orb of Companionship that turns maps into "team dungeons". These dungegons are substantially more difficult and rewarding.
@@ -20,12 +24,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - All mobs in maps now have a chance to be speedy, stronger, or regenerative on spawn.
 - Mobs now have 33% more elemental resist, 50% more elemental penetration, and now get some armor penetration as well.
 - Mobs should have about 25% more health now.
+- Increased mob damage at higher levels.
 - Added a new mob affix in maps giving Spell Dodge.
-- Slows from spells and effects have been readjusted. They have all been toned down. Some effects such as wounds no longer slow enemies.
+- Slows from spells and effects have been readjusted. They have all been toned down. Some effects such as Whirlpool and wounds no longer slow enemies.
 - Blizzard synergy now correctly applies Frost instead of Freeze effect. Huge difference...
 
 ### Mod Updates
 - Updated Mine and Slash.
+- Added No Shield Delay.
 
 ## [2.16.4] - 2022-07-27
 

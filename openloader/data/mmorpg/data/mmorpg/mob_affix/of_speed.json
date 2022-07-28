@@ -1,0 +1,15 @@
+{
+  "id": "of_speed",
+  "weight": 750,
+  "rarity": 0,
+  "tier": 0,
+  "registry": "mob_affix",
+  "lang_file_string": "mmorpg.mob_affix.of_speed",
+  "type": "suffix",
+  "mods": {
+    "mods": [
+      "mob_speed_flat",
+      "dodge_flat"
+    ]
+  }
+}

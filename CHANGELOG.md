@@ -13,6 +13,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Added No Shield Delay.
 
+## [2.17.0c] - 2022-07-28
+
+### Mine and Slash Updates
+- New Fire spell: Fire Power - buff that increases yours and nearby allies' spell damage.
+- New Nature spell: Nature's Gift - buff that increases yours and nearby allies' health, mana, and energy.
+- Nature Curse spells now also taunt the enemy.
+- Wizardry now gives 8% CDR instead of 10% at max level.
+- Frost Shield and Spirit Shroud now provide less flat Magic Shield.
+- Nourishment now provides less health regen, but also gives mana and energy regen now.
+- Frost and Corrosion slow is now 10% instead of 5%.
+- Cripple slow is now 7% instead of 5%.
+- Quick Charge resource cost penalty has increased. The CDR it gives is too strong for the penalty it has.
+- Increased Lava Quake base scaling.
+- Lowered mob damage by rarity a bit. So higher rarity mobs don't do _that_ much damage.
+- Lowered mob damage overall just a bit.
+- Mob speed is now 20% instead of 100%. No one likes teleporting mobs.
+- Team Dungeons mobs deal less damage than before.
+- Team Dungeons EXP and loot bonuses now scale appropriately with the number of affixes rather than adding a flat amount.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Added a fix regarding Minecolonies blocks for those using Optifine.
+
+## [2.17.0b] - 2022-07-28
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed infinite loop with Lightning Discharge.
+
 ## [2.17.0] - 2022-07-28
 
 ### Updates

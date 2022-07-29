@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mod Updates
 - Added No Shield Delay.
 
-## [2.17.0c] - 2022-07-28
+## [2.17.0c] - 2022-07-29
 
 ### Mine and Slash Updates
 - New Fire spell: Fire Power - buff that increases yours and nearby allies' spell damage.

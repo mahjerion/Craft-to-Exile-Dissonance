@@ -8,10 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- Hungers no longer drop Void Hearts.
 - Blocking with shields no longer has a 5 tick delay.
+- Disabled Rebounding enchantment.
 
 ### Mod Updates
 - Added No Shield Delay.
+
+### Fixes
+- Fixed a bug where the of Speed mob affix wasn't showing up properly.
 
 ## [2.17.0c] - 2022-07-29
 

@@ -8,7 +8,7 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "mob_speed_flat",
+      "mob_speedy_flat",
       "dodge_flat"
     ]
   }

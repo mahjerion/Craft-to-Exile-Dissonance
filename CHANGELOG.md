@@ -7,16 +7,107 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.0] - 2022-08-11
+
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Reset potions have been provided for this update due to the substantial changes to them.
 - Hungers no longer drop Void Hearts.
 - Blocking with shields no longer has a 5 tick delay.
 - Disabled Rebounding enchantment.
 
+### Mine and Slash Updates
+Core Stat Changes:
+- Core stats have been reworked a bit. Some stats have been shifted around. The main issue was "magic casters" were able to easily funnel their point into Intelligence and get defense, damage, and sustain consistently, whereas melee and especially ranged were forced to spread over at least 2-3 different stats. Hopefully, the changes below will make it more necessary for spell casters to invest in Wisdom, while still retaining some of their high burst potential. The idea was that spell caster stats would be Int/Wis, melee would be Vit/Str, and ranged would be Dex/Vit. Additionally, a 3rd "flex" stat that any build could use has replaced Stamina.
+- Vitality now provides health, health regen, and energy regen instead of health and armor. The health regen it provides is 33% less than what it used to provide when it was on Strength.
+- Strength now provides phys damage percent, armor, and flat energy instead of phys damage percent and crit damage. The flat energy it provides is 33% less than what it used to provide when it was on stamina (it is now available on two diff stats now).
+- Intelligence still provides the same ele spell dmg, magic shield percent, and mana, but now provides 33% less mana.
+- Wisdom still provides the same increased healing, magic shield regen, and mana regen, but now provides 33% more magic shield regen, and 50% more increased healing.
+- Dexterity now provides dodge, energy, and bow/crossbow damage, instead of dodge, crit hit, and armor pen. The energy it provides is equivablent to what Strength provides per point. The idea for this stat was to be beneficial mainly for ranged damage dealers, but stay as just an option for them. If they want to run dodge, they get rewarded with more damage specific to bows/xbows. However, they can still run strength instead if they want to opt for armor.
+- Stamina has been renamed "Luck" and now provides some dodge and critical hit and damage. The crit damage it provides is 50% more than what it used to provide on Strength.
+- The changes to energy on dexterity, strength and vitality should make it easier to upkeep energy.
+
+Talent Changes:
+- New Talent: Nature's Avatar - half of non-nature damage is converted into nature damage. Deal no non-nature damage. Also increases all nature damage and nature resistances a bit.
+- New Talent: Shulker Shell - 60% of damage received is converted into physical damage. Also lowers armor and elemental resists.
+- New Talent: Conjurer - increases summon damage substantially and provides cooldown reduction but deal substantially less spell damage.
+- New Talent: Trickster - critical hits have a 25% chance of giving self a power charge (max of 3) for 6s. Each power charge gives 30% flat critical damage. Hopefully this talent makes critical builds a little more engaging and rewarding.
+- New Talent: Overseer - attacks have a 50% chance of giving self a fortitude charge (max of 3) for 8s. Each fortitude charge gives 4% damage reduction. Hopefully this talent makes attack/tanky builds more engaging to play.
+- New Talent: Pocket Capacitor - increases magic shield regen substantially, but makes it so you cannot life or spell steal.
+- New Talent: Resourceful - use energy instead of mana when casting spells with a mana cost. Spells with mana and energy costs will just combine the two.
+- The talent tree has been expanded! An additional "ring" that's generally easier to traverse across has been added. Most of the new talents listed above can be found in this ring.
+- Harmony now reduces effectiveness of heals to 67% instead of 50%.
+- Reduced the amount of flat life and spellsteal from Vampire by a third.
+
+Spell Changes:
+- New Nature Spell: Venom Load - applies an effect on caster that deals nature damage to self based on a percentage of their maximum health every half second. It also deals AOE nature damage equal to double the damage dealt to self every half second to nearby enemies. The effect/buff? also provides the caster with substantial flat spell damage.
+- New Hunting (Summon Hunting Wolf) Synergy: Sharpened Fangs - causes ALL summons to have a chance of applying Wounds.
+- Health and magic shield costs now display the percent and the actual value next to it in brackets.
+- Improved spell tooltip hint about holding shift.
+- Restored Frost Shield duration back to its original value.
+- Reduced mana and energy regen from Nourishment.
+- Reduced duration and damage (at max level) of Arctic Blast.
+- For the Fire Blood buffs, reduced life and spellsteal from Attack Siphon and Spell Siphon from 12 to 8%, and 8 to 5%, respectively.
+- Reduced base value of Volcano at higher levels very slightly.
+- Reduced duration of Volcano by 1 second.
+- Increased radius of Thunderstorm from 7 to 9 at max level.
+- Increased damage of Thunderstorm by about 8% at max level.
+- Reduced duration of Thunderstorm and Blizzard by 2 seconds.
+- Reduced radius and increased cooldown of Electrical Discharge.
+- Lightning Sweep/Charged Nova can be bound to melee weapons.
+- Zombie synergies now correctly state that they affect all summons.
+- Minion Mastery synergy is now a synergy for Summon Skeletal Army instead of Zombies.
+- Summon Skeletal Army can now be learnt 10 mastery levels earlier.
+- Flesh and Mind Sacrifice health and magic shield cost has been halved.
+- Animate Scythe and Bone Squall no longer requires magic shield to cast.
+- Increased Bone Squall channel time by 10 ticks (0.5s).
+- Unholy Meditation now recovers magic shield as well.
+- Unholy Meditation cooldown has been increased slightly.
+- Restored Spirit Shroud magic shield value back CLOSE to its original value (base before was 45, now it's 40, before this patch it was 25), but increased the max level from 8 to 10.
+- Reduced health from Nature's Gift by about 25%, and mana/energy by about 20%.
+- Nature's Empowering buff now only provides 15% attack speed and 33% less energy regen (than before), but is now a long-term buff.
+- Reduced max projectile count of Retribution from 9 to 7.
+- Reduced the range of Retribution significantly. For a "melee-oriented" attack spell it was going a bit too far.
+- Reduced mana regeneration from Wizardry by 18%.
+- Increased energy regeneration from Trickery by 25%.
+
+Stat Changes:
+- Reduced mana regen flat stat slightly.
+- Increased energy regen flat stat slightly.
+- Increased health regen flat stat slightly.
+- Increased magic shield regen flat stat slightly.
+- Thorns stats now correctly mention use of energy on reflect.
+- Thorns stat energy cost has been halved.
+- Reduced effectiveness of damage reduction stat slightly.
+- Electrical Discharge synergy lang fix.
+
+Weapon Changes:
+- Daggers now provide increased spell damage.
+- A dagger is now considered a mage weapon.
+- Reduced Sword energy cost by about 9%. They also now provide some energy regen.
+- Crossbows now can give physical damage percent instead of critical damage. This will further separate crossbow and bow identities.
+
+Other Changes:
+- Performing a vanilla critical hit now results in 20% increased damage (basic attacks only).
+- PvP damage is now reduced to 25% of damage.
+- At level 100 and above, you now lose less EXP on death (a fifth of what it is normally from 1-99).
+- You can now place torches in maps.
+
 ### Mod Updates
+- Updated Mine and Slash, Xaero's.
 - Added No Shield Delay.
+- Added Death Backup (Forge).
 
 ### Fixes
 - Fixed a bug where the of Speed mob affix wasn't showing up properly.
+- Fixed a bug where health and magic shield values were halved when looking at spells.
+- Fixed an issue where certain spells could be cancelled and not trigger the cooldown.
+- Fixed magic shield cost not appearing on spells.
+- Fixed an issue where some synergies weren't triggering such as Electrical Discharge's.
+- Fixed an issue where Gorgon's Gaze didn't deal any damage on initial cast.
+- Fixed an issue where speed buffs and debuffs were not accurate to what they were supposed to be (ie. -20% move speed was more like -40%).
+- Fixed salvage bag explanation typos.
+- Fixed an issue where the passive block would reduce all damage instead of reducing damage by 25%.
 
 ## [2.17.0c] - 2022-07-29
 

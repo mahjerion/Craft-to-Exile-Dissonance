@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.0b] - 2022-08-11
+
+### Mine and Slash Updates
+- Venom Load now deals 40% max health to self as Nature DoT damage, instead of 10%. It now deals 10% to mobs instead of 20% of max health.
+- Reduced the base value and scaling of some of the summon spells.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [2.18.0] - 2022-08-11
 
 ### Updates

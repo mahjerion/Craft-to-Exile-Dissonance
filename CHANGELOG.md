@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mine and Slash Updates
 Core Stat Changes:
 - Core stats have been reworked a bit. Some stats have been shifted around. The main issue was "magic casters" were able to easily funnel their point into Intelligence and get defense, damage, and sustain consistently, whereas melee and especially ranged were forced to spread over at least 2-3 different stats. Hopefully, the changes below will make it more necessary for spell casters to invest in Wisdom, while still retaining some of their high burst potential. The idea was that spell caster stats would be Int/Wis, melee would be Vit/Str, and ranged would be Dex/Vit. Additionally, a 3rd "flex" stat that any build could use has replaced Stamina.
-- Vitality now provides health, health regen, and energy regen instead of health and armor. The health regen it provides is 33% less than what it used to provide when it was on Strength.
+- Vitality now provides health, health regen, and energy regen instead of health and armor. The health regen it provides is 33% less than what it used to provide when it was on Stamina.
 - Strength now provides phys damage percent, armor, and flat energy instead of phys damage percent and crit damage. The flat energy it provides is 33% less than what it used to provide when it was on stamina (it is now available on two diff stats now).
 - Intelligence still provides the same ele spell dmg, magic shield percent, and mana, but now provides 33% less mana.
 - Wisdom still provides the same increased healing, magic shield regen, and mana regen, but now provides 33% more magic shield regen, and 50% more increased healing.

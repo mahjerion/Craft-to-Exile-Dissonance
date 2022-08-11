@@ -23,7 +23,7 @@ Core Stat Changes:
 - Strength now provides phys damage percent, armor, and flat energy instead of phys damage percent and crit damage. The flat energy it provides is 33% less than what it used to provide when it was on stamina (it is now available on two diff stats now).
 - Intelligence still provides the same ele spell dmg, magic shield percent, and mana, but now provides 33% less mana.
 - Wisdom still provides the same increased healing, magic shield regen, and mana regen, but now provides 33% more magic shield regen, and 50% more increased healing.
-- Dexterity now provides dodge, energy, and bow/crossbow damage, instead of dodge, crit hit, and armor pen. The energy it provides is equivablent to what Strength provides per point. The idea for this stat was to be beneficial mainly for ranged damage dealers, but stay as just an option for them. If they want to run dodge, they get rewarded with more damage specific to bows/xbows. However, they can still run strength instead if they want to opt for armor.
+- Dexterity now provides dodge, energy, and bow/crossbow damage, instead of dodge, crit hit, and armor pen. The energy it provides is equivalent to what Strength provides per point. The idea for this stat was to be beneficial mainly for ranged damage dealers, but stay as just an option for them. If they want to run dodge, they get rewarded with more damage specific to bows/xbows. However, they can still run strength instead if they want to opt for armor.
 - Stamina has been renamed "Luck" and now provides some dodge and critical hit and damage. The crit damage it provides is 50% more than what it used to provide on Strength.
 - The changes to energy on dexterity, strength and vitality should make it easier to upkeep energy.
 

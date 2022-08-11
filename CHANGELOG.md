@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.0c] - 2022-08-11
+
+### Mine and Slash Updates
+- Fixed Venom Load description.
+- Made Axes and Daggers use Luck stat instead.
+
+### Mod Updates
+- Updated Craft to Exile Custom Uniques, Mine and Slash.
+
 ## [2.18.0b] - 2022-08-11
 
 ### Mine and Slash Updates

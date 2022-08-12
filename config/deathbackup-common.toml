@@ -1,0 +1,7 @@
+
+[General]
+	#The message sent to players with cheat-access when 'sendBackupReminderMessageToThoseWithAccessOnDeath' is enabled.
+	backupReminderMessage = "A backup of your inventory before your death has been created and can be loaded with '/deathbackup load 0'."
+	#When enabled, sends a message to a player when they die and have cheat-access that a backup has been created and can be loaded.
+	sendBackupReminderMessageToThoseWithAccessOnDeath = true
+

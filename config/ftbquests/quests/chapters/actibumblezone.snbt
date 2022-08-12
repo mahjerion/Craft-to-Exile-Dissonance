@@ -747,7 +747,7 @@
 			shape: "hexagon",
 			subtitle: "",
 			size: 1.0d,
-			description: ["The powered centrifuge requires energy (from Create or Immersive Engineering) to run, but will process your combs 3x as fast!"],
+			description: ["The powered centrifuge requires energy (from Create or Immersive Engineering) to run, but will process your combs faster!"],
 			min_required_dependencies: 0,
 			dependencies: [I;464],
 			dependency_requirement: "all_completed",

@@ -12,7 +12,7 @@
     "enabled": false,
     "spawners": [
       "underground",
-	  "midnight"
+	  "poison"
     ],
     "disableSubspecies": false,
     "dimensionIds": [

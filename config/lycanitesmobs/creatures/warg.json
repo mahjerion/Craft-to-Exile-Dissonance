@@ -13,14 +13,14 @@
     "spawners": [
       "monster",
       "beast",
-	  "midnight"
+	  "poison"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
       "midnight:midnight"
     ],
     "dimensionListType": "whitelist",
-    "ignoreBiome": false,
+    "ignoreBiome": true,
     "biomeTags": [
       "forest",
       "-mountain"

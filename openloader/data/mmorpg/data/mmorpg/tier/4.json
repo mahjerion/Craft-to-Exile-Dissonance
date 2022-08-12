@@ -1,7 +1,7 @@
 {
   "id_rank": 4,
-  "mob_health_multi": 4.0,
-  "mob_damage_multi": 3.6,
+  "mob_health_multi": 3.6,
+  "mob_damage_multi": 4.0,
   "mob_stat_multi": 3.2,
   "loot_multi": 1.4,
   "chance_for_higher_drop_rarity": 30.0

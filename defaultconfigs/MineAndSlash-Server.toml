@@ -40,7 +40,7 @@
 			#Range: > 0
 			RARE_WEIGHT = 4000
 			#Range: > 0
-			COMMON_WEIGHT = 24000
+			COMMON_WEIGHT = 36000
 			#Range: > 0
 			UNCOMMON_WEIGHT = 12000
 			#Range: > 0
@@ -52,7 +52,7 @@
 			#Range: > 0
 			RARE_WEIGHT = 4000
 			#Range: > 0
-			COMMON_WEIGHT = 24000
+			COMMON_WEIGHT = 36000
 			#Range: > 0
 			UNCOMMON_WEIGHT = 12000
 			#Range: > 0
@@ -64,7 +64,7 @@
 			#Range: > 0
 			RARE_WEIGHT = 4000
 			#Range: > 0
-			COMMON_WEIGHT = 24000
+			COMMON_WEIGHT = 36000
 			#Range: > 0
 			UNCOMMON_WEIGHT = 12000
 			#Range: > 0
@@ -76,7 +76,7 @@
 			#Range: > 0
 			RARE_WEIGHT = 4000
 			#Range: > 0
-			COMMON_WEIGHT = 24000
+			COMMON_WEIGHT = 36000
 			#Range: > 0
 			UNCOMMON_WEIGHT = 12000
 			#Range: > 0
@@ -86,22 +86,22 @@
 
 		[SERVER.RARITY_WEIGHT_CONTAINERS.MOBS]
 			#Range: > 0
-			COMMON_WEIGHT = 24000
+			COMMON_WEIGHT = 26000
 			#Range: > 0
-			UNCOMMON_WEIGHT = 8000
+			UNCOMMON_WEIGHT = 4000
 			#Range: > 0
-			RARE_WEIGHT = 2000
+			RARE_WEIGHT = 1000
 			#Range: > 0
-			EPIC_WEIGHT = 400
+			EPIC_WEIGHT = 200
 			#Range: > 0
-			LEGENDARY_WEIGHT = 80
+			LEGENDARY_WEIGHT = 40
 
 	[SERVER.GENERAL]
 		#.
 		ONLY_REPAIR_IN_STATION = true
 		#This makes mobs increasingly weaker, by default at lvl 100 mobs will be 3x stronger, formula: Math.pow(lvl, (lvl / VALUE)) - 0.5
 		#Range: 0.0 ~ 1000.0
-		MOB_STRENGTH_PER_LEVEL_MULTI = 250.0
+		MOB_STRENGTH_PER_LEVEL_MULTI = 275.0
 		#.
 		#Range: 0.0 ~ 2.147483647E9
 		NON_MOD_HEAL_MULTI = 0.1

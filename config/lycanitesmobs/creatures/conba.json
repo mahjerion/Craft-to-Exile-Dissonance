@@ -11,9 +11,8 @@
   "spawning": {
     "enabled": false,
     "spawners": [
-      "monster",
       "beast",
-	  "tropicraft"
+	  "ooze"
     ],
     "disableSubspecies": false,
     "dimensionIds": [

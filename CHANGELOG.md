@@ -7,6 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.1] - 2022-08-12
+
+### Updates
+- Mob scaling has been changed so that they're substantially more difficult early game, but slightly easier past level 80.
+- Tier's mob HP and damage bonuses have been changed so higher tiered mobs have slightly less HP than previously, but more damage.
+- Uncommon and above mobs were appearing far too frequently, there was like a 50% chance a mob would be more than weak. I have adjusted the weighting so that it's about a 15% chance that a mob would be more than weak.
+
+### Mine and Slash Updates
+- Team Dungeons now also provide players with a large bonus to Unique Item drops.
+- Changed mob scaling so mobs are much stronger at lower-mid levels, but slightly easier at higher levels.
+- Weak mobs have had their power increased by 9%.
+- Mob stats that were not scaling properly have been increased by a bit.
+- Mob stat rarity scaling has been reduced from uncommon to champion rarity substantially.
+- EXP has been shifted from higher rarity mobs to lower rarity mobs.
+- Increased attack scaling of Hunting spells substantially.
+- Enrage now applies a taunt to enemies every tick. This means Martyrdom and Whirlwind have the potential of taunting enemies as well.
+- Increased the mana and energy cost of Retribution.
+- Retribution attack scaling has been reduced.
+- Martyrdom now costs health to use. Its mana and energy costs have been reduced.
+- Martyrdom health scaling has been reduced.
+- Provoke is now an instant cast spell.
+- Provoke cooldown has increased.
+- Provoke AOE has increased.
+- Bravery, Trickery, and Wizardry core stat bonuses have been reduced by 25%.
+- Improved Wounds effect attack scaling to bring it more in line with other DoTs.
+- Increased Burn effect base damage per level.
+- Reduced Plague effect attack scaling.
+- Improved health bar GUI by showing magic shield values in brackets.
+- Improved Gorgon's Gaze description.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed an issue where some mob stats were not scaling with their level properly (reists, elemental penetration, armor penetration).
+- Fixed an issue where non-map worlds had tiers but the tier stat bonuses weren't applying to mobs. This should make progression past the Nether more difficult.
+- Fixed Malevolent Offering synergy localization and some other missing localization.
+- Fixed missing set localization.
+- Fixed missing River Beehive recipe.
+- Fixed some quest text being misleading.
+- Potentially fixed some Lyca mob spawns?
+- Fixed Retribution not actually being shorter lasting.
+- Fixed an issue where Venom Load was dealing Nature damage to self but Physical to nearby enemies.
+
 ## [2.18.0c] - 2022-08-11
 
 ### Mine and Slash Updates

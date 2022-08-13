@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.1b] - 2022-08-13
+
+### Updates
+- Tier scaling has been readjusted so that the ceiling is lower by about 25%.
+- Mob health has been reduced by about 9% across the board.
+
+### Mine and Slash Updates
+- Reduced mob HP and damage ceiling in regards to mob rarity. In general, higher rarity mobs will deal less damage.
+- Increased mob armor and resist stats.
+- Increased base mob damage. Even lower rarity mobs should pack a punch.
+- Plague duration has been reduced significantly.
+- Plague attack scaling per level has been reduced by about 12.5% from its previous value (18% > 16%).
+- Plague base value per level has been increased by 33% from its previous value.
+- Burn duration and base value has increased.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed a bug where Martyrdom was costing 80% health instead of 8%.
+
 ## [2.18.1] - 2022-08-12
 
 ### Updates

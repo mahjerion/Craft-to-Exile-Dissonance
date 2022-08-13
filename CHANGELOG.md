@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Plague attack scaling per level has been reduced by about 12.5% from its previous value (18% > 16%).
 - Plague base value per level has been increased by 33% from its previous value.
 - Burn duration and base value has increased.
+- Reduced projectile count and scaling of Retribution.
 
 ### Mod Updates
 - Updated Mine and Slash.

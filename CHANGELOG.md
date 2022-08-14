@@ -7,12 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.2] - 2022-08-13
+
 ### Updates
 - Improved quest text regarding plants in agate forests in the Gaia dim.
 - Voltaxic Rift, Nuro's Harp, and Ngamahu's Flame have had some stats changed.
 
+### Mine and Slash Updates
+- Changed how weapon damage stat and elemental weapon damage stat work. Before, they would check if the damage effect had the same weapon type as the stat. However, most damage sources such as spells don't have an explicit weapon type. So these weapon damage stats would only apply to basic attacks. I've changed it so that it applies as long as the damage effect is of the attack type (basic attacks, attack spells, summon attacks), AND if the player is holding a weapon of the same type. Eg. if you're holding a bow, anytime you perform an attack, you will get your bow weapon damage bonus applied.
+- Lowered Talent weapon damage node values from 8% to 6%. Elemental weapon damage remains the same. I kept increasing it slowly over time thinking that it wasn't good enough, turns out it just never worked as intended. It would be way overtuned (probably) if I didn't reduce it again.
+- Reduced some mob stats slightly.
+- Increased base mob damage.
+- Reduced Rock Slide damage.
+- Increased intensity of map affixes.
+- Mobs no longer have built-in armor penetration and elemental penetration.
+- Swords no longer require luck and instead require vitality.
+- Hammers no longer require vitality and instead require more strength.
+- Attack scaling of all attack spells has decreased due to the weapon damage stat fix.
+- Physical damage talent nodes have been reduced in effectiveness.
+- Spell Blade no longer converts 100% phys to fire damage at max level but 60% instead.
+- Bleed duration has increased from 5 to 7s.
+- Defend gives less 25% less armor than previously.
+- Resourceful trait now gives a -multi rather than a +multi.
+- Familiar Instincts now gives a -25 multi to HP regen rather than 40.
+
 ### Mod Updates
-- *Updated Mine and Slash, Craft to Exile Custom Uniques.
+- Updated Mine and Slash, Craft to Exile Custom Uniques.
+
+### Fixes
+- Fixed a bug where Bone Squall cost 60% health at level 1 instead of 6%.
+- Hopefully fixed an issue where spell-casting mobs were doing ridiculous amounts of damage.
 
 ## [2.18.1b] - 2022-08-13
 

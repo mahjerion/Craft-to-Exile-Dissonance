@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "spell_fire_damage_flat",
-    "high_fire_spell_to_attack_dmg_flat",
+    "attack_fire_damage_percent",
     "fire_penetration_flat",
 	"physical_dispersion_flat",
     "plus_throw_flames_spell_lvl_flat"

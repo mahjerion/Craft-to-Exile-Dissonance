@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Improved quest text regarding plants in agate forests in the Gaia dim.
+- Voltaxic Rift, Nuro's Harp, and Ngamahu's Flame have had some stats changed.
+
+### Mod Updates
+- *Updated Mine and Slash, Craft to Exile Custom Uniques.
+
 ## [2.18.1b] - 2022-08-13
 
 ### Updates

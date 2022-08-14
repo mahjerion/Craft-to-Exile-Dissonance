@@ -19,7 +19,7 @@
   "can_get_set": false,
   "requirements": {
     "strength": 0.75,
-    "stamina": 0.25
+    "vitality": 0.25
   },
   "gear_type": "sword",
   "item_id": "mmorpg:uniques/sword/fire_ele_saber0"

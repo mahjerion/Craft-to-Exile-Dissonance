@@ -18,8 +18,7 @@
   ],
   "can_get_set": false,
   "requirements": {
-    "strength": 0.75,
-    "vitality": 0.25
+    "strength": 1.0
   },
   "gear_type": "hammer",
   "item_id": "mmorpg:uniques/hammer/fire_ele_hammer0"

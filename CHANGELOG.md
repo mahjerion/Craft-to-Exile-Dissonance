@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.18.2] - 2022-08-13
 
 ### Updates
+- Talent and spell reset potions have been provided for this update.
 - Improved quest text regarding plants in agate forests in the Gaia dim.
 - Voltaxic Rift, Nuro's Harp, and Ngamahu's Flame have had some stats changed.
 

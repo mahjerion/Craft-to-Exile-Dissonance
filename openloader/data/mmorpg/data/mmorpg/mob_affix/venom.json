@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "mob_weaken_curse_flat",
-      "very_high_nature_resist_flat"
+      "high_nature_penetration_flat"
     ]
   }
 }

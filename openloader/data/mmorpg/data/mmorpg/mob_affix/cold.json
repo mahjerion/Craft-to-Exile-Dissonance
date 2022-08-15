@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "mob_frost_nova_flat",
-      "very_high_water_resist_flat"
+      "high_water_penetration_flat"
     ]
   }
 }

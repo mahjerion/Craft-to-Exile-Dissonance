@@ -8,7 +8,7 @@
   "type": "prefix",
   "mods": {
     "mods": [
-      "high_physical_damage_percent",
+      "very_high_physical_damage_percent",
 	  "very_high_armor_penetration_flat"
     ]
   }

@@ -8,10 +8,9 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "physical_dispersion_flat",
-      "tiny_attack_nature_damage_flat",
-      "high_nature_penetration_flat",
-      "nature_resist_flat"
+      "very_high_phys_to_nature_conversion_flat",
+      "nature_penetration_flat",
+      "very_high_nature_resist_flat"
     ]
   }
 }

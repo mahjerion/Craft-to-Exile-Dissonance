@@ -8,8 +8,8 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "high_armor_penetration_flat",
-      "high_critical_damage_flat",
+      "major_armor_penetration_flat",
+      "high_critical_hit_flat",
       "armor_flat"
     ]
   }

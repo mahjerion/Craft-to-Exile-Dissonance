@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "mob_fire_strike_flat",
-      "very_high_fire_resist_flat"
+      "high_fire_penetration_flat"
     ]
   }
 }

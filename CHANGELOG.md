@@ -7,6 +7,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.18.3] - 2022-08-15
+
+### Updates
+- Mobs should no longer randomly one shot players when using Enrage effect since it has been nerfed, and most mob sources of physical dispersion stat have been removed. Enrage was effectively doubling and sometimes tripling mob damage at max stats, and all of that physical damage was being converted to an element...
+- Changed the mob affixes that gave physical dispersion and flat elemental damage to "mob gains xx% of physical damage as y element damage".
+- Mob elemental affixes have been changed a bit. Resistance bonuses are generally higher and some penetration stats have been moved around.
+- Increased armor penetration on mob affixes.
+
+### Mine and Slash Updates
+- Nature's Avatar has been reworked and renamed to just Avatar. Instead of converting everything into nature damage, it now gives Physical Dispersion, dodge, and some penalties to health and armor.
+- Increased the spell damage penalty on Pacifist.
+- Cleaned up some tooltip stuff for Berserker's Impartiality and Reckless Blows.
+- Reduced the defensive penalty of Reckless Blows.
+- Lowered innate mob resistances.
+- Increased damage reduction from Defend from 25% to 50%.
+- Significantly increased Defend's cooldown.
+- Block now costs energy ONLY when actively blocking (regardless of fail or success). Currently, blocking is too strong and a bit braindead. By incorporating energy cost, players will have to actively balance their energy and think about when they should actually block.
+- Thorns no longer drains energy.
+- Fixed an issue where effects such as burn and plague were capped at over-level 13 instead of 16.
+- Sources of block chance have been reduced. It's still easy to hit cap but will require a bit more investment.
+- Vitality now provides about 33% less energy regen than it did previously.
+- Lowered elemental attack damage map mob affix to about 18% of what it was before.
+- Enrage now gives half as much physical damage as it did previously.
+- Removed the map affix that adds mob elemental attack damage and physical dispersion.
+- Replaced the above map affix with one that gives "gain xx% of physical damage as 'insert element'al damage".
+- Added a new all elemental penetration map affix for mobs.
+- Added a new health regen map affix for mobs.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed a bug regarding EXP share and the level penalty.
+- Fixed a bug where Purifying Flames judgment synergy required the mob to already have at least one stack of judgment before applying judgment. This is no longer the case.
+- Fixed a bug where Bleed was actually doing 8% of your phys instead of 10% like it says in the tooltip.
+- Fixed some mislabelled health and magic shield costs in the spell tooltips showing double what they should have.
+
 ## [2.18.2] - 2022-08-13
 
 ### Updates

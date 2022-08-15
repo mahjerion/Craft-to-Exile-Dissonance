@@ -8,10 +8,9 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "physical_dispersion_flat",
-      "tiny_attack_thunder_damage_flat",
-      "high_thunder_penetration_flat",
-      "thunder_resist_flat"
+      "very_high_phys_to_thunder_conversion_flat",
+      "thunder_penetration_flat",
+      "very_high_thunder_resist_flat"
     ]
   }
 }

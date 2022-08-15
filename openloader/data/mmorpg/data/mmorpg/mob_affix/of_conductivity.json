@@ -8,10 +8,10 @@
   "type": "suffix",
   "mods": {
     "mods": [
-      "tiny_attack_water_damage_flat",
-      "tiny_attack_thunder_damage_flat",
-      "water_resist_flat",
-      "thunder_resist_flat"
+      "phys_to_water_conversion_flat",
+      "phys_to_thunder_conversion_flat",
+      "high_water_resist_flat",
+      "high_thunder_resist_flat"
     ]
   }
 }

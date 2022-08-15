@@ -11,9 +11,9 @@
     "low_dodge_flat"
   ],
   "unique_stats": [
-    "stamina_flat",
+    "vitality_flat",
     "high_health_regen_flat",
-    "high_energy_regen_flat",
+    "low_energy_regen_flat",
     "nature_resist_flat"
   ],
   "can_get_set": false,

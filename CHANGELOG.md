@@ -118,7 +118,7 @@ Talent Changes:
 - Removed Corpse Complex.
 
 ### Fixes
-- *Fixed quest book missing a quest line.
+- Hopefully fixed quest book missing a quest line.
 - Fixed missing unique: Wizardspike.
 - Hopefully fixed a problem with losing inventory on death.
 

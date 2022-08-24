@@ -1072,62 +1072,6 @@
 					}
 				}
 			}]
-		},
-		{
-			title: "Creepy Critters",
-			x: 4.5d,
-			y: -4.5d,
-			shape: "default",
-			subtitle: "",
-			size: 1.0d,
-			description: ["Sometimes, you'll find Conba and Tarantulas in the Tropics. The dimension can't be TOO relaxing, now can it?"],
-			min_required_dependencies: 0,
-			dependencies: [I;2012],
-			dependency_requirement: "all_completed",
-			id: 2797,
-			tasks: [
-				{
-					id: 2798,
-					type: "kill",
-					icon: {
-						id: "lycanitesmobs:beastspawn",
-						Count: 1b,
-						tag: {
-							CreatureInfoSpawnEgg: {
-								creaturename: "conba"
-							}
-						}
-					},
-					entity: "lycanitesmobs:conba",
-					value: 3L
-				},
-				{
-					id: 2799,
-					type: "kill",
-					icon: {
-						id: "lycanitesmobs:arthropodspawn",
-						Count: 1b,
-						tag: {
-							CreatureInfoSpawnEgg: {
-								creaturename: "tarantula"
-							}
-						}
-					},
-					entity: "lycanitesmobs:tarantula",
-					value: 3L
-				}
-			],
-			rewards: [{
-				id: 2819,
-				type: "item",
-				item: {
-					id: "mmorpg:give_exp",
-					Count: 1b,
-					tag: {
-						exp: 250000
-					}
-				}
-			}]
 		}
 	]
 }

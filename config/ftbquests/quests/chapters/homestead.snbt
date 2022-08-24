@@ -2623,6 +2623,67 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Bountiful Harvest",
+			x: 0.0d,
+			y: 10.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Bountiful Boards are craftable blocks that can be found in villages. These blocks will periodically generate bounties which the player can take and attempt to accomplish. Upon finishing them, the bounty can be returned to the board for the indicated",
+				"rewards."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;3],
+			dependency_requirement: "all_completed",
+			id: 2830,
+			tasks: [{
+				id: 2831,
+				type: "item",
+				item: "bountiful:bountyboard"
+			}],
+			rewards: [{
+				id: 2834,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 750
+					}
+				}
+			}]
+		},
+		{
+			title: "By My Decree",
+			x: 1.5d,
+			y: 10.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Decrees are items that modify a Bountiful Board's pool of bounties. Specifically, it will increase the weighting of certain tasks and rewards, and in some cases, add new ones."],
+			min_required_dependencies: 0,
+			dependencies: [I;2830],
+			dependency_requirement: "all_completed",
+			id: 2832,
+			tasks: [{
+				id: 2833,
+				type: "item",
+				item: "bountiful:decree"
+			}],
+			rewards: [{
+				id: 2835,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 750
+					}
+				}
+			}]
 		}
 	]
 }

@@ -811,24 +811,30 @@
 			]
 		},
 		{
-			title: "Dream Eaters",
+			title: "Bloody Dreams",
 			x: 6.0d,
 			y: 6.0d,
 			shape: "circle",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Wraiths feed off of negative emotion and will attack you on sight. They explode on contact, so becareful!"],
+			description: ["Collect Blood Wood to be surveyed back in the Overworld. You can also use the wood to construct a bloody bed!"],
 			min_required_dependencies: 0,
 			dependencies: [I;371],
 			dependency_requirement: "all_completed",
 			id: 390,
-			tasks: [{
-				id: 391,
-				type: "kill",
-				icon: "goodnightsleep:dream_sapling",
-				entity: "lycanitesmobs:wraith",
-				value: 4L
-			}],
+			tasks: [
+				{
+					id: 2828,
+					type: "item",
+					item: "goodnightsleep:blood_log",
+					count: 4L
+				},
+				{
+					id: 2829,
+					type: "item",
+					item: "minecraft:red_bed"
+				}
+			],
 			rewards: [
 				{
 					id: 1831,
@@ -1006,7 +1012,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Find and kill Epions in this dimension."],
+			description: [
+				"Find and kill Epions in this dimension.",
+				"If you're unable to find any, you can try to summon some using a Lycanites Summon Staff. Summon the correct primal elementals to combine into this creature!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",
@@ -1046,7 +1055,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Find and kill Sylphs in this dimension."],
+			description: [
+				"Find and kill Sylphs in this dimension.",
+				"If you're unable to find any, you can try to summon some using a Lycanites Summon Staff. Summon the correct primal elementals to combine into this creature!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",
@@ -1086,7 +1098,10 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["Find and kill Vapula in this dimension."],
+			description: [
+				"Find and kill Vapula in this dimension.",
+				"If you're unable to find any, you can try to summon some using a Lycanites Summon Staff. Summon the correct primal elementals to combine into this creature!"
+			],
 			min_required_dependencies: 0,
 			dependencies: [I;378],
 			dependency_requirement: "all_completed",

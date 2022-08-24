@@ -8,10 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Updates
+- First and foremost: thank you once again to Skullbushi for the amazing icon art for the new mastery tree.
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+- Four new unique items: Hellfire Torch for the new tree, Fighter's Chain, Facebreaker Gauntlets (Tier 4), and Radiance Gauntlets (Tier 2).
 - Keep Inventory gamerule is now on by default.
+- Added some new Homestead quests spotlighting Bountiful Boards.
+- Removed some impossible to complete Beastiary quests, or reworked them into something possible.
 
 ### Mine and Slash Updates
+Mastery Changes:
+- NEW MASTERY TREE: Force - utilize the unique brawler-type spells in this tree to deal tremendous damage or support your allies. The force tree has 4 main types of spells: Strikes, Extensions, Finishers, and Buffs. Strikes, Extensions, and Finishers are all attack spells. Use a Strike to gain a Combo Starter effect, which is required and expended upon use by Extension attack spells. Similarly, Extension attack spells will gain you a Combo Extension effect, which is required and expended by Finishers. Use the different types of Strikes, Extensions, and Finishers to "build your own combo" and create your own truly unique playstyle! For example, for an elemental combo, you might start with Elemental Strike (all elements) -> Raging Dragon Extension (fire/lightning) -> Elemental Vengeance Finisher (all elements, big AOE)! Look below for more combo examples... The possibilities are endless! Buffs are straight forward, there are two types of buffs: Empower and Wisdom. Empower grants an increase in damage, whereas Wisdom grants increased regeneration and cast speed. There are ways to provide these to yourself and your allies! Two unique things about the Force tree is that (almost) all spells only cost energy, and are not affected by cooldown reduction. However, these short cooldown attack spells can still be used in rapid succession. Be sure to mix them up!
+- Support your allies with Goading Strike (AOE taunt) -> Flowing River Extension (frost, heal allies) -> Earthen Smash Finisher (AOE nature, increase ally defenses).
+- Go for big physical damage with Piercing Strike (lowers def) -> Rallying Sweep Extension (AOE, increase ally speed and damage) -> Sweeping Strike (AOE) -> Triple Attack Extension (3x hits) -> Omnislash Finisher (high physical burst).
+- Apply Spell Blade + Flame Blade and take advantage of the on-attack effects, and use Piercing Strike -> Triple Attack Extension -> Omnislash Finisher.
+
 General Changes:
+- NEW WEAPON TYPE: Gauntlets - once implemented in an indev version, this item type was quickly scrapped as it was logistically difficult to show how a player might "wield" a gauntlet in Minecraft... However, with the new Force tree, it just made sense to implement it to the best of my ability. These quick-acting weapons can really leave a mark on your opponents. They attack as fast as daggers and do more damage at the expense of more energy!
 - Added a Reset All command which resets stats, spells, and talents at once. Useful for testing builds.
 - Add Remove Talent Potion now gives you 3 removal points rather than 1.
 - Added a new craftable Reset All potion that uses 1 of each reset potion.
@@ -24,6 +36,10 @@ General Changes:
 - AOE spells now specifically look for enemies only.
 - Fixed some instances of "Water" and "Thunder" to "Frost" and "Lightning".
 - Implemented a fix where if you die multiple times at once somehow, you will only lose EXP once.
+- Lowered particle counts for some AOE spells.
+- Lowered the radius of some of the basic melee attack spells.
+- Improved tooltips for some confusing stats such as weapon damage and attack damage.
+- Lowered mob difficulty at lower levels slightly.
 
 Stat Changes:
 - Renamed Lucky to Prosperous, and Luck to Lucky. The core stat Luck remains unchanged.
@@ -54,6 +70,7 @@ Fire Spell Changes:
 - New Fire Spell: Blazing Shell - converts a portion of your armor into magic shield and also provides fire thorns.
 - As a result of the above changes, Spell Blade no longer provides "Physical Damage Gained as Fire Damage" since it would no longer synergize with the Spell Blade synergy. Instead, it now provides "Physical Damage Converted to Fire Attack Damage" similar to how Poisoned Weapons works. This will result in a substantial reduction in Spell Blade damage, but was how the spell was originally meant to function.
 - Due to the Spell Blade "nerf", Flame Blade has been buffed a bit to compensate.
+- Fire Power now provides elemental spell damage instead of all spell damage.
 
 Storm Spell Changes:
 - Storm as a tree is currently problematic. The scaling potential it has is very high, while the floor is about the same as other trees. To tackle this problem, I first had to take a look at critical hits. The main issue was the critical damage stat, and as a result crit dmg has been reduced, while hits has retained its power more or less. Another issue with Storm was too much self-sufficiency. A lot of the spells scale with mana, and many of these spells are quite powerful. As a result, these spells had to be toned down a bit - most notably, Recharge. And lastly, this was actually overlooked on my part and never the intended outcome, but some synergies that triggered based on certain conditions were able to trigger themselves: Battery Fusilade synergy and the Surge synergies. The damage type for these has changed, so they will no longer be able to trigger almost infinitely.
@@ -85,11 +102,18 @@ Storm Spell Changes:
 - Charged Sweep no longer applies Static 100% of the time.
 
 Nature Spell Changes:
+- Nature's Armor no longer provides armor and instead provides a new stat: increased healing received.
 - Lowered the attack scaling of Plague from 16% to 15% at max level.
 - Changed Venom Load to give increased DoT damage as well as spell damage.
 
 Divine Spell Changes:
+- New Divine Spell: Blessing - bless yourself and your allies and increase your spell damage and mana on hit.
+- New Divine Spell: Seethe - apply Enrage stacks on self. Higher levels apply more Enrage stacks.
+- New Divine Spell: Angelic Raiment - increase the armor and dodge rating of yourself and nearby allies with this new buff.
+- Changed Enrage to give affected targets percent increased damage taken and increased damage dealt, rather than lowering their armor and increasing their physical damage.
+- Enrage movement speed buff has been lowered from 10% to 8%.
 - Defend now gives 35% instead of 50% damage reduction at max level, and puts a 15% move speed debuff on the caster. I wanted to give Defend its own identity by being a "cast it in an emergency" spell. However, my last changes were a bit dramatic and I'm toning it down a bit.
+- Changed Piercing Winds so that instead of lowering damage and cooldown, it does the opposite. It now increaes damage at the expense of increasing cooldown.
 
 Unholy Spell Changes:
 - Increased Unholy Meditation heal values.
@@ -104,23 +128,28 @@ Summon Changes:
 - Summons now move 33% faster.
 - Tried to make summons more aggressive, they should now target everything but players, other summons/tamed, passive golems, and ageable entities. Please let me know if I've missed anything on the blacklist.
 - Summons taunting on hit should be more consistent now, and can only occur every 3 seconds.
+- Summon targeting AI now prioritizes mobs that hurt them > nearest mob > mobs that hurt the caster > mobs hurt by the caster, INSTEAD of mobs that hurt the caster > mobs hurt by the caster > mobs that hurt them > nearest mob. This should alleviate summons ganging up on a sole enemy (not prevent outright though). This will also give more functionality to Chilling Touch synergy.
 
 Talent Changes:
+- Lowered Increased Healing and Armor Penetration values on the talent tree.
+- Replaced some talent nodes with Gauntlets weapon damage.
 - Reduced the armor penalty of Avatar.
 - Vampire gives a smaller multi on lifesteal now. The rest of it remains unchanged.
 - Reduced Warlock DoT steal and DoT damage.
+- Warlock penalty has been reduced from -25% to -20% health and magic shield.
 - Added some sources of armor pen to the tree.
 - Mana should no longer take damage when player has Mana Battery and a teammate hits them.
 
 ### Mod Updates
-- Updated Craft to Exile Custom Uniques.
+- Updated Craft to Exile Custom Uniques, Xaero's, Minecolonies, Mine and Slash.
 - Added Force KeepInv.
 - Removed Corpse Complex.
 
 ### Fixes
-- Hopefully fixed quest book missing a quest line.
+- Fixed quest book missing a quest line.
 - Fixed missing unique: Wizardspike.
 - Hopefully fixed a problem with losing inventory on death.
+- Fixed an issue with item drops past level 100.
 
 ## [2.18.3] - 2022-08-15
 

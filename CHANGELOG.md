@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.] - 2022-08-XX
+
 ### Updates
 - First and foremost: thank you once again to Skullbushi for the amazing icon art for the new mastery tree.
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
@@ -23,7 +25,7 @@ Mastery Changes:
 - Apply Spell Blade + Flame Blade and take advantage of the on-attack effects, and use Piercing Strike -> Triple Attack Extension -> Omnislash Finisher.
 
 General Changes:
-- NEW WEAPON TYPE: Gauntlets - once implemented in an indev version, this item type was quickly scrapped as it was logistically difficult to show how a player might "wield" a gauntlet in Minecraft... However, with the new Force tree, it just made sense to implement it to the best of my ability. These quick-acting weapons can really leave a mark on your opponents. They attack as fast as daggers and do more damage at the expense of more energy!
+- NEW WEAPON TYPE: Gauntlets - once implemented in an indev version, this item type was quickly scrapped as it was logistically difficult to show how a player might "wield" a gauntlet in Minecraft... However, with the new Force tree, it just made sense to implement it to the best of my ability. These quick-acting weapons can really leave a mark on your opponents. They attack as fast as daggers and do more damage at the expense of more energy! (Sorry for the crappy weapon models, I'm not an artist).
 - Added a Reset All command which resets stats, spells, and talents at once. Useful for testing builds.
 - Add Remove Talent Potion now gives you 3 removal points rather than 1.
 - Added a new craftable Reset All potion that uses 1 of each reset potion.

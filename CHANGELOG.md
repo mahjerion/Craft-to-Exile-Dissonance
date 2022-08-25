@@ -119,7 +119,7 @@ Divine Spell Changes:
 - Changed Enrage to give affected targets percent increased damage taken and increased damage dealt, rather than lowering their armor and increasing their physical damage.
 - Enrage movement speed buff has been lowered from 10% to 8%.
 - Defend now gives 35% instead of 50% damage reduction at max level, and puts a 15% move speed debuff on the caster. I wanted to give Defend its own identity by being a "cast it in an emergency" spell. However, my last changes were a bit dramatic and I'm toning it down a bit.
-- Changed Piercing Winds so that instead of lowering damage and cooldown, it does the opposite. It now increaes damage at the expense of increasing cooldown.
+- Changed Piercing Winds so that instead of lowering damage and cooldown, it does the opposite. It now increases damage at the expense of increasing cooldown.
 
 Unholy Spell Changes:
 - Increased Unholy Meditation heal values.

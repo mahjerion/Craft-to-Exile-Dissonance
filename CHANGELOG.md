@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.0.0] - 2022-08-XX
+## [3.0.0] - 2022-08-25
 
 ### Updates
 - First and foremost: thank you once again to Skullbushi for the amazing icon art for the new mastery tree.
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Four new unique items: Hellfire Torch for the new tree, Fighter's Chain, Facebreaker Gauntlets (Tier 4), and Radiance Gauntlets (Tier 2).
+- Players have been provided with an All Reset Potion for this update.
 - Keep Inventory gamerule is now on by default.
 - Added some new Homestead quests spotlighting Bountiful Boards.
 - Removed some impossible to complete Beastiary quests, or reworked them into something possible.

@@ -1688,7 +1688,7 @@
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
-			description: ["During your travels, you will find shields and torches. These are off-hand equipment that can provide benefits to your character. Right-click with a shield to reduce incoming damage."],
+			description: ["During your travels, you will find shields, torches and orbs. These are off-hand equipment that can provide benefits to your character. Right-click with a shield to reduce incoming damage."],
 			min_required_dependencies: 0,
 			dependencies: [I;1542],
 			dependency_requirement: "all_completed",

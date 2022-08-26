@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#c#",
+    " b "
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "b": {
+      "item": "minecraft:bowl"
+    },
+    "c": {
+      "item": "mmorpg:currency/number_reroll"
+    },
+    "o": {
+      "item": "mmorpg:ore1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/add_suffix"
+  }
+}

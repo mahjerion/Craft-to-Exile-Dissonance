@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#t#",
+    "vvv"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/mythic_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/item_levelup"
+    },
+    "v": {
+      "item": "minecraft:emerald"
+    },
+    "o": {
+      "item": "mmorpg:ore1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/reroll_set"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "powah"
+    }
+  ]
+}

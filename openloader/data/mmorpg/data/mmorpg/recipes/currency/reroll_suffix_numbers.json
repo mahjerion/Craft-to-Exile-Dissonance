@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "v#v",
+    "vtv",
+    "ooo"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/crystallized_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/randomize_suffix"
+    },
+    "v": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "o": {
+      "item": "mmorpg:ore2"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/reroll_suffix_numbers"
+  }
+}

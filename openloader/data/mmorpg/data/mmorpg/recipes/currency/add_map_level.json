@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#v#",
+    "vtv",
+    " b "
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "t": {
+      "item": "mmorpg:currency/add_secondary_stat"
+    },
+    "v": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/add_map_level"
+  }
+}

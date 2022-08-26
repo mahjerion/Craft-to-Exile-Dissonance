@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#v#",
+    "vtv",
+    " b "
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/infused_iron"
+    },
+    "t": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "v": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/exp_map"
+  }
+}

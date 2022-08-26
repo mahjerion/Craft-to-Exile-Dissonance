@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o#o",
+    "#t#",
+    "vvv"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/mythic_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/item_levelup"
+    },
+    "v": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "o": {
+      "item": "mmorpg:ore4"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/add_set"
+  }
+}

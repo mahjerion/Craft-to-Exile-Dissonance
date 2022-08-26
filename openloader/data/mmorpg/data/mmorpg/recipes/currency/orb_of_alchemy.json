@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ovo",
+    "vtv",
+    "ovo"
+  ],
+  "key": {
+    "t": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "v": {
+      "item": "minecraft:emerald"
+    },
+    "o": {
+      "item": "mmorpg:ore2"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/orb_of_alchemy"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "v#v",
+    "vtv",
+    "ovo"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/crystallized_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/add_secondary_stat"
+    },
+    "v": {
+      "item": "minecraft:coal"
+    },
+    "o": {
+      "item": "mmorpg:ore3"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/number_reroll"
+  }
+}

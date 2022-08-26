@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#t#",
+    "tvt",
+    "oto"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "t": {
+      "item": "minecraft:gold_ingot"
+    },
+    "v": {
+      "item": "mmorpg:currency/reroll_primary_stats_numbers"
+    },
+    "o": {
+      "item": "mmorpg:ore3"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/reroll_secondary_stats_numbers"
+  }
+}

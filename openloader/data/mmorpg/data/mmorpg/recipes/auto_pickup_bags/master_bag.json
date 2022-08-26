@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+   "ingredients": [
+        {
+           "item": "mmorpg:currency_bag"
+        },
+        {
+           "item": "mmorpg:loot_bag"
+        },
+		{
+           "item": "mmorpg:map_bag"
+        }
+    ], 
+  "result": {
+        "item": "mmorpg:master_bag"
+    }
+}

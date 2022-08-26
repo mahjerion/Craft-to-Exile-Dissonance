@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#t#",
+    " b "
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/infused_iron"
+    },
+    "t": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "o": {
+      "item": "mmorpg:ore1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/cheap_gear_lvl"
+  }
+}

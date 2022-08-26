@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#t#",
+    "bbb"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/mythic_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/chaos_orb"
+    },
+    "b": {
+      "item": "minecraft:ender_eye"
+    },
+    "o": {
+      "item": "mmorpg:ore1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/whisp_of_chaos"
+  }
+}

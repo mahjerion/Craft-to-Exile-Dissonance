@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#v#",
+    "vtv",
+    " b "
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "t": {
+      "item": "mmorpg:currency/exp_map"
+    },
+    "v": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/team_map"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "#t#",
+    "vvv"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/mythic_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "v": {
+      "item": "minecraft:diamond"
+    },
+    "o": {
+      "item": "mmorpg:ore4"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/stone_of_hope"
+  }
+}

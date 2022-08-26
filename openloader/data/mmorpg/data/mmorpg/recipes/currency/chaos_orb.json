@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#t#",
+    "bbb"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/infused_iron"
+    },
+    "t": {
+      "item": "mmorpg:currency/orb_of_transmutation"
+    },
+    "b": {
+      "item": "minecraft:nether_wart"
+    },
+    "o": {
+      "item": "mmorpg:ore1"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/chaos_orb"
+  }
+}

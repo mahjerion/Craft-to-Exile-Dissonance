@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ooo",
+    "#t#",
+    "vvv"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/mythic_essence"
+    },
+    "t": {
+      "item": "mmorpg:currency/stone_of_hope"
+    },
+    "v": {
+      "item": "minecraft:gold_ingot"
+    },
+    "o": {
+      "item": "mmorpg:ore2"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/create_new_unique"
+  }
+}

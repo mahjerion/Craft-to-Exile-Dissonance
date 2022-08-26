@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o#o",
+    "oto",
+    "v#v"
+  ],
+  "key": {
+    "#": {
+      "item": "mmorpg:mat/golden_orb"
+    },
+    "t": {
+      "item": "mmorpg:currency/reroll_unique_numbers"
+    },
+    "v": {
+      "item": "minecraft:gold_ingot"
+    },
+    "o": {
+      "item": "mmorpg:ore4"
+    }
+  },
+  "result": {
+    "item": "mmorpg:currency/reroll_chaos"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "powah"
+    }
+  ]
+}

@@ -7,44 +7,53 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.1] - 2022-08-26
+
 ### Updates
+- This update aims to improve currencies by reworking some of the existing ones, and adding 3 new types. I am also trying to make RC more relevant by adding new purchase-able items to the shop.
 - Reduced unique rune and currency drop rate slightly.
-- Updated the Calemi Market to have more useful items.
-- Key Of New Dawn and the new Key of Entropy can no longer be crafted.
+- Updated the Calemi Market to have more useful items such as Negatite, and a Currency Box.
+- Key Of New Dawn and the new Key of Entropy can no longer be crafted and can only be found from drops.
 
 ### Mine and Slash Updates
-- Reduced the attack scaling of almost every Force attack spell. They should be closer to what you'd expect from attack spells of other trees.
-- Increased the energy cost of almost every Force attack spell. Currently, you don't even need to invest into Energy. I want players to have to invest a bit into Energy to upkeep the quick combos.
-- Increased the base damage of Burn, Blight, and Cripple significantly.
-- Increased the duration of Burn and Cripple.
-- Reduced the the radius of Poison Cloud by about 20% at max level.
-- Reduced the base value of Soul Shred effect slightly since it scales with magic shield anyway.
-- Ice Blade now provides Frost Infusion.
-- Power Surge now provides more Lightning Attack Damage.
-- Added more particle and sounds effects to Flowing River Extension.
-- Increased Enlighten Faster Cast Rate and Energy Regen buff.
-- Empower now grants increased damage instead of physical attack damage. Flat physical attack damage was too strong in the early game. Increased damage should scale better. This will make it more useful in party play as well.
-- Fixed missing Gauntlets assets.
-- Improved Flame Blade tooltip to specify spell damage.
-- Soul Shred now accurately says "DoT" instead of spell damage.
-- Fixed Blessing and Angelic Raiment to not be an "aura" buff.
-- Minimum Health is now 10 instead of 1.
-- Changed Conjurer spell damage penalty to be a flat -50% instead of -80% multi. This could be worse in some cases.
-- Conjurer now provides 15% increased duration instead of 10% cooldown reduction.
-- Ruthless now gives 25% increased DoT damage instead of 30%.
-- Ruthless now also gives 10% increased duration.
-- Whirlwind now lasts a static 7 seconds (still affected by duration modifiers) instead of scaling from 7s -> 13s.
-- Whirlwind tick rate no longer increases. It now will always strike 20 times within 7 seconds (once every 7 ticks), instead of scaling from 20 times within 7 seconds to 80 times within 13 seconds (once every 3.25 ticks).
-- Whirlwind attack scaling per level has increased so that by max level each hit does 25% more damage than previously. I recognize this is a nerf to overall DPS but these changes should 1. make whirlwind feel a bit better to play instead of it lasting an entire 13s, and 2. ease up on server load when the skill is active. Currently, the particles and the rate at which calculations are done with so many hits is putting too much load on the server.
-- Whirlwind cooldown has been lowered to compensate for the reduced duration.
-- Whirlwind mana cost and energy cost have been lowered slightly as well.
-- Bone Squall now always has a 3s cooldown instead of scaling from 6s to 3s.
-- You can now learn a third Mastery tree at level 100 instead of 120.
+- Added a new currency Orb, Key of Entropy, which is a rare currency that can reroll chaos stats!
 - Orb of Transmutation and Stone of Hope now retain the item stats when upgrading rarity!
 - Orb of Transmutation always upgrades from common to uncommon, whereas Stone of Hope retains its functionality and will roll one rarity or more higher.
 - Added a new currency orb, Orb of Chances, that can reroll secondary stats.
 - Added a new currency orb, Orb of Alchemy, that turns common rarity items into rare.
 - Using an Orb of Transmutation, Orb of Alchemy, and Stone of Hope will now retain the item identification status. They will also take into account if an item is runed, and will add a rune slot if appropriate.
+- Reduced the attack scaling of almost every Force attack spell. They should be closer to what you'd expect from attack spells of other trees.
+- Increased the energy cost of almost every Force attack spell. Currently, you don't even need to invest into Energy. I want players to have to invest a bit into Energy to upkeep the quick combos.
+- Added more particle and sounds effects to Flowing River Extension.
+- Empower now grants increased damage instead of physical attack damage. Flat physical attack damage was too strong in the early game. Increased damage should scale better. This will make it more useful in party play as well.
+- Increased Enlighten Faster Cast Rate and Energy Regen buff.
+- Increased the base damage of Burn, Blight, and Cripple significantly.
+- Increased the duration of Burn and Cripple.
+- Ice Blade now provides Frost Infusion.
+- Improved Flame Blade tooltip to specify spell damage.
+- Power Surge now provides more Lightning Attack Damage.
+- Reduced the the radius of Poison Cloud by about 20% at max level.
+- Reduced the base value of Soul Shred effect slightly since it scales with magic shield anyway.
+- Soul Shred now accurately says "DoT" instead of spell damage.
+- Bone Squall now always has a 3s cooldown instead of scaling from 6s to 3s.
+- Whirlwind now lasts a static 7 seconds (still affected by duration modifiers) instead of scaling from 7s -> 13s.
+- Whirlwind tick rate no longer increases. It now will always strike 20 times within 7 seconds (once every 7 ticks), instead of scaling from 20 times within 7 seconds to 80 times within 13 seconds (once every 3.25 ticks).
+- Whirlwind attack scaling per level has increased so that by max level each hit does 25% more damage than previously. I recognize this is a nerf to overall DPS but these changes should 1. make whirlwind feel a bit better to play instead of it lasting an entire 13s, and 2. ease up on server load when the skill is active. Currently, the particles and the rate at which calculations are done with so many hits is putting too much load on the server.
+- Whirlwind cooldown has been lowered to compensate for the reduced duration.
+- Whirlwind mana cost and energy cost have been lowered slightly as well.
+- Changed Conjurer spell damage penalty to be a flat -50% instead of -80% multi. This could be worse in some cases.
+- Conjurer now provides 15% increased duration instead of 10% cooldown reduction.
+- Ruthless now gives 25% increased DoT damage instead of 30%.
+- Ruthless now also gives 10% increased duration.
+- You can now learn a third Mastery tree at level 100 instead of 120.
+- Minimum Health is now 10 instead of 1.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed missing Gauntlets assets.
+- Fixed Blessing and Angelic Raiment to not be an "aura" buff.
 
 ## [3.0.0] - 2022-08-25
 

@@ -13,10 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This update aims to improve currencies by reworking some of the existing ones, and adding 3 new types. I am also trying to make RC more relevant by adding new purchase-able items to the shop.
 - Reduced unique rune and currency drop rate slightly.
 - Updated the Calemi Market to have more useful items such as Negatite, and a Currency Box.
-- Key Of New Dawn and the new Key of Entropy can no longer be crafted and can only be found from drops.
+- Key Of New Dawn can no longer be crafted and can only be found from drops.
 
 ### Mine and Slash Updates
-- Added a new currency Orb, Key of Entropy, which is a rare currency that can reroll chaos stats!
 - Orb of Transmutation and Stone of Hope now retain the item stats when upgrading rarity!
 - Orb of Transmutation always upgrades from common to uncommon, whereas Stone of Hope retains its functionality and will roll one rarity or more higher.
 - Added a new currency orb, Orb of Chances, that can reroll secondary stats.

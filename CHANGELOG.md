@@ -7,6 +7,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.2] - 2022-08-31
+
+### Updates
+- Leviathan dungeon can now spawn in badlands as well, which should also reduce the chance of crashing when opening a specific chest.
+
+### Mine and Slash Updates
+- Reworked Venom Load since the self-damage was not working properly. Instead of working like Righteous Flame from POE, it now works like Blade Vortex. It now has no cooldown and a very short cast time. You can have up to 10 stacks of Venom Load, and for each stack, you will deal Nature DoT Damage to nearby enemies, which scales with your health. At level 1, each stack will deal 4% of your max health every half second (max 40%), and at max level, each stack will deal 8% of your max health every half second (max 80%).
+- Fixed Raging Dragon Extension not expending a starter stack and generating an extension stack.
+- The following spells have had their tick rate readjusted to prevent them from malfunctioning when over-leveled: Ice Orb, Steam Cloud, Arrow Storm, Thorn Bush, Holy Flower, Thunderstorm, Nature's Balm,
+- Soul Shred description has been updated.
+- Rime Blade cooldown is now 4s instead of scaling from 7s to 4s.
+- Tidal Wave cooldown is now 3s instead of scaling from 4s to 2s.
+- Lowered thorn value from Nature's Armor and Blazing Shell.
+- Lowered the first level cooldown of Fire Bombs, Blazing Inferno, Arrow Barrage, Dash,
+- Meteoric Strike cooldown is now 3s instead of scaling from 7s to 4s.
+- Inferno Quake cooldown is now 4s instead of scaling from 7s to 5s.
+- Provoke cooldown now scales from 14s to 11s instead of 16s to 9s.
+- Purifying Flames cooldown is now a flat 2s instead of scaling from 2s to 1s.
+- Healing Wave cooldown is now 2s instead of scaling from 2s to 1s.
+- Martyrdom cooldown is now a flat 3s instead of scaling from 4s to 2.5s.
+- Charge cooldown now scales from 9s to 7s instead of 13s to 6s.
+- Whirlwind cooldown now scales from 8s to 6s instead of 10s to 6s.
+- Lowered Whirlwind duration, which increases hits per second.
+- Retribution cooldown now scales from 5s to 4s instead of 6s to 4s.
+- Spirit Ball cooldown is now a flat 3s instead of scaling from 3s to 2s.
+- Poison Cloud cooldown is now 4s instead of scaling from 6s to 3s.
+- Double Shot cooldown is now a flat 3s instead of scaling from 4s to 2s.
+- Lowered the first level cooldown of Arrow Barrage, Dash.
+- Charged Sweep cooldown is now a flat 3s instead of scaling from 4s to 2s.
+- Animate Scythe cooldown is now a flat 3s instead of scaling from 4s to 2s.
+- Chilling Touch cooldown is now a flat 3s instead of scaling from 4s to 2s.
+- You can no longer dodge "bolt" damage, DoTs, and reflected damage.
+- Changed Mob Speedy particle to be less intrusive.
+- Summons should no longer attack fish and most passive water mobs.
+- Orb of Transmutation and Orb of Alchemy will now try to roll for prefix/suffix/secondary/chaos stats when used.
+- You can no longer use a Chaos Orb, Chaotic Wisp, Crystal of Legend, Unearth Prefix/Suffix on common rarity equipment.
+- True unarmed attacks (not gauntlets) are now classified as Basic Attacks rather than their own type.
+- Team EXP and loot reward multiplier has been reduced.
+
+### Mod Updates
+- Updated Mine and Slash, CraftPresence.
+
+### Fixes
+- Fixed a bug where the infusion stat was doubling damage unintentionally.
+- Fixed an issue where spells recovering Magic Shield, Mana, and Energy were not functioning at all.
+- Fixed an issue where Arcane Devotion was giving 10 times the amount of flat magic shield as intended. This fix should prevent players from getting a boatload of MS with no investment.
+- Fixed a registry error.
+
 ## [3.0.1] - 2022-08-26
 
 ### Updates

@@ -13,7 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Leviathan dungeon can now spawn in badlands as well, which should also reduce the chance of crashing when opening a specific chest.
 
 ### Mine and Slash Updates
-- Reworked Venom Load since the self-damage was not working properly. Instead of working like Righteous Flame from POE, it now works like Blade Vortex. It now has no cooldown and a very short cast time. You can have up to 10 stacks of Venom Load, and for each stack, you will deal Nature DoT Damage to nearby enemies, which scales with your health. At level 1, each stack will deal 4% of your max health every half second (max 40%), and at max level, each stack will deal 8% of your max health every half second (max 80%).
+- Reworked Venom Load since the self-damage was not working properly. Instead of working like Righteous Flame from POE, it now works like Blade Vortex. It now has no cooldown and a very short cast time. You can have up to 10 stacks of Venom Load, and for each stack, you will deal Nature DoT Damage to nearby enemies, which scales with your health. At level 1, each stack will deal 2% of your max health every half second (max 20%), and at max level, each stack will deal 4% of your max health every half second (max 40%).
 - Fixed Raging Dragon Extension not expending a starter stack and generating an extension stack.
 - The following spells have had their tick rate readjusted to prevent them from malfunctioning when over-leveled: Ice Orb, Steam Cloud, Arrow Storm, Thorn Bush, Holy Flower, Thunderstorm, Nature's Balm,
 - Soul Shred description has been updated.

@@ -7,6 +7,40 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.3] - 2022-09-09
+
+### Mine and Slash Updates
+- Added a new Game Changer talent: Clever Escapist - can be found in the bottom right of the tree. On a successful dodge, receive a 5s buff that gives 10% increased damage and 20% damage reduction.
+- Steady Hand has been moved to the very bottom of the tree.
+- Steady Hand stats have been streamlined. Nothing has changed functionally.
+- Reduced Magical Life health penalty from -15% to -10%.
+- Side Step now grants 30% multi to dodge and 30% spell dodge, rather than 25% of each.
+- The left side of the talent tree that has the Phys Gained stats now has nodes that actually are useful leading up to it.
+- Sources of the flat core stats have been lowered (eg. instead of getting 9 Vitality, you may receive 6 instead on an item).
+- Reduced Critical Damage stat values by about 25%.
+- Increased floor of health stat values.
+- Increased health percent stat values.
+- Increased the flat stat values of magic shield substantially, but reduced the percent stat values. This should make magic shield a little stronger at lower to mid levels, and less powerful on the upper end.
+- Reduced Arctic Armor regen penalty by 25%.
+- Reduced Critical Surge, Power Surge, and Lightning Spear's bolt synergy damage by about 25-33%.
+- Venom Load max level is now set to 12 rather than 4. It took too few points for it to become very effective. The spell should require a bit more investment.
+- Venom Load radius per level has been reduced so that by max level it should have a radius of 4 instead of 5.
+- Venom Load duration now scales from 3s to 5s instead of 5s to 7s.
+- Venom Load mana cost has increased by about 10%.
+- Venom Load cast time has increased by 50%.
+- Venom Load damage remains unchanged.
+- Nature Curses have new streamlined debuffs which should make them feel nicer to use.
+- Reduced the health and magic shield penalty of Flesh and Mind Sacrifice by about 25%.
+- Increased damage of Omnislash Finisher and Anti-Gravity Finisher slightly.
+- Increased the cooldown of Force's Finishers by 1s and Extensions by about 0.5s.
+
+### Fixes
+- Fixed Fighter's Chain and Force Hellfire Torch uniques being unequipable.
+- Unique Runes now respect the rune drop before x level config.
+- Fixed missing localization for plus force spell level stat.
+- Prevent the game from crashing on null effect data, temporary solution.
+- Hopefully fixed Reckless Blows and Berserker's Impartiality elemental portion of their stats.
+
 ## [3.0.2] - 2022-08-31
 
 ### Updates

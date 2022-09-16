@@ -25,7 +25,7 @@
     ]
   },
   "mods": [
-    "critical_hit_flat",
-    "high_critical_hit_percent"
+    "critical_hit_percent",
+    "critical_damage_flat"
   ]
 }

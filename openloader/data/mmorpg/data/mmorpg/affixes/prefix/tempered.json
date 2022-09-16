@@ -1,0 +1,24 @@
+{
+  "id": "tempered",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.tempered",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "plate_boots",
+          "plate_helmet",
+          "plate_pants",
+          "plate_chest"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "high_armor_percent"
+  ]
+}

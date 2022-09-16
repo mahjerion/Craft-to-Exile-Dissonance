@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
+    "very_low_faster_cast_rate_flat",
     "low_water_resist_flat"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "lightened",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.lightened",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "leather_boots",
+          "leather_helmet",
+          "leather_pants",
+          "leather_chest"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "high_dodge_percent"
+  ]
+}

@@ -31,7 +31,7 @@
   },
   "mods": [
     "fire_resist_flat",
-    "health_percent",
-    "armor_flat"
+    "very_low_magic_shield_flat",
+    "very_low_armor_flat"
   ]
 }

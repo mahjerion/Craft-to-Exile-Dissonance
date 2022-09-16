@@ -30,7 +30,6 @@
     ]
   },
   "mods": [
-    "health_percent",
-    "armor_percent"
+    "high_health_percent"
   ]
 }

@@ -7,9 +7,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.0.3] - 2022-09-09
+## [3.0.3] - 2022-09-XX
+
+### Updates
+- Increased mob scaling so that they're about 50% stronger at level 120 compared to before. Levels 1-70 remains mostly unchanged.
+- Runeword weightings have been shifted so none should be nearly impossible to find now. Last Wish, Undying Magic, and Chains of Honor weightings have been reduced a bit.
+- Sets that had a weighting of 10000 have been adjusted to 6666 - similar to Runeword weightings. This should make the rarer sets appear significantly more frequently.
+- The unique nature and lightning bracelet now provide viality and luck, respectively, instead of stamina and dexterity.
+- Uniques providing flat critical hit chance have had that stat lowered a bit.
+- Replaced some instances of critical damage in suffixes with more relevant stats. For example, of "element" Dissonance now provide stats such as increased healing, faster cast rate, and increased DoT damage instead of critical damage in addition to their increased elemental resistance (which remains unchanged).
+- of Giants and of Behemoths no longer provide critical damage and now provide armor. Additionally, of Behemoths is an "upgrade" to of Giants instead of being the exact same, and retains its rarity and level req.
+- Ring prefix Eternal Field now provides magic shield regen percent instead of magic shield regen flat.
+- Ring prefix Unending field now provides magic shield regen flat and percent instead of only magic shield regen flat.
+- The magic siphon prefix is now less rare. It's the one that provides magic shield steal.
+- Prefix Heavenly Skin now provides more armor and some elemental resists, but no longer provides health.
+- New prefix: Elusive, which is a rarer and better version of Evasive. It also provides some elemental resists.
+- New prefixes: Charged and Bursting, which are equivalent to Hardened/Evasive and Heavenly Skin/Elusive but instead of providing armor they provide magic shield.
+- New prefixes: Enchanted, Lightened, and Tempered, which can only appear on Cloth armor, Leather armor, and Plate armor, respectively, provide percent bonuses to the primary defense type of that armor. Eg. Enchanted provides magic shield percent and can only spawn on Cloth armor. At the moment, many of the affixes between armor types overlap. These new prefixes will hopefully make each armor type have a stronger identity when choosing defensive options.
+- The "element" shield prefixes now provide more interesting stats. They still provide elemental resists, but they no longer all provide health percent and armor. Frost Shield now provides health and mana, Fire Shield now provides magic shield and armor, Lightning Shield now provides magic shield and mana, and Nature Shield still provides health and armor.
+- Suffix of Godhood no longer provides a health percent instead of health multi, and gives the same amount of dodge as armor.
+- Suffix of Immortality now provides extra health and no longer provides armor.
 
 ### Mine and Slash Updates
+- Increased Team Map difficulty.
 - Added a new Game Changer talent: Clever Escapist - can be found in the bottom right of the tree. On a successful dodge, receive a 5s buff that gives 10% increased damage and 20% damage reduction.
 - Steady Hand has been moved to the very bottom of the tree.
 - Steady Hand stats have been streamlined. Nothing has changed functionally.
@@ -21,6 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased floor of health stat values.
 - Increased health percent stat values.
 - Increased the flat stat values of magic shield substantially, but reduced the percent stat values. This should make magic shield a little stronger at lower to mid levels, and less powerful on the upper end.
+- Increased Healing variance has been reduced, floor has been increased and ceiling decreased. Before it was 5-20 now the base value is 10-15.
 - Reduced Arctic Armor regen penalty by 25%.
 - Reduced Critical Surge, Power Surge, and Lightning Spear's bolt synergy damage by about 25-33%.
 - Venom Load max level is now set to 12 rather than 4. It took too few points for it to become very effective. The spell should require a bit more investment.
@@ -33,6 +54,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced the health and magic shield penalty of Flesh and Mind Sacrifice by about 25%.
 - Increased damage of Omnislash Finisher and Anti-Gravity Finisher slightly.
 - Increased the cooldown of Force's Finishers by 1s and Extensions by about 0.5s.
+
+### Mod Updates
+- Updated Mine and Slash, Craft to Exile Custom Uniques, U Team Core, Xaero's, CraftPresence.
 
 ### Fixes
 - Fixed Fighter's Chain and Force Hellfire Torch uniques being unequipable.

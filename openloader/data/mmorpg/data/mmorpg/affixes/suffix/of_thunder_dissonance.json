@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
+    "critical_damage_percent",
     "low_thunder_resist_flat"
   ]
 }

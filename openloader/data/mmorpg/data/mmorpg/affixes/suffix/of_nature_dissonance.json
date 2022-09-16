@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
+    "low_increase_healing_flat",
     "low_nature_resist_flat"
   ]
 }

@@ -30,7 +30,7 @@
     ]
   },
   "mods": [
-    "armor_percent",
-    "health_percent"
+    "high_armor_flat",
+    "very_low_elemental_resist_flat"
   ]
 }

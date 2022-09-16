@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "armor_penetration_flat",
-    "critical_hit_flat",
+    "low_critical_hit_flat",
     "critical_damage_flat"
   ],
   "can_get_set": false,

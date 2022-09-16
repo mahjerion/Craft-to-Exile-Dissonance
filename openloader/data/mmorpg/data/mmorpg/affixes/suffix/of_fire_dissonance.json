@@ -23,7 +23,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
+    "very_low_all_dot_dmg_flat",
     "low_fire_resist_flat"
   ]
 }

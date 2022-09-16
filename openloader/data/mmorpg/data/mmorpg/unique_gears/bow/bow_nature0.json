@@ -13,7 +13,7 @@
     "dexterity_flat",
     "nature_spell_to_attack_dmg_flat",
 	"increase_healing_flat",
-    "critical_hit_flat"
+    "low_critical_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {

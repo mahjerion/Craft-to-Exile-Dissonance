@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.charm.charmthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.charm.charmthunder0.desc",
   "primary_stats": [
-    "very_high_dexterity_flat"
+    "very_high_stamina_flat"
   ],
   "unique_stats": [
     "increased_area_flat",

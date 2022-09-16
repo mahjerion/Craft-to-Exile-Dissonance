@@ -16,6 +16,7 @@
     ]
   },
   "mods": [
-    "magic_shield_regen_flat"
+    "magic_shield_regen_flat",
+    "magic_shield_regen_percent"
   ]
 }

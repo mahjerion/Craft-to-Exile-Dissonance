@@ -22,8 +22,8 @@
     ]
   },
   "mods": [
-    "health_multi",
-    "high_dodge_flat",
+    "health_percent",
+    "dodge_flat",
     "armor_flat"
   ]
 }

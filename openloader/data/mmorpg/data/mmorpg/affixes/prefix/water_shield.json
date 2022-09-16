@@ -31,7 +31,7 @@
   },
   "mods": [
     "water_resist_flat",
-    "health_percent",
-    "armor_flat"
+    "very_low_health_percent",
+    "very_low_mana_percent"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "enchanted",
+  "weight": 10000,
+  "rarity": 1,
+  "tier": 0,
+  "registry": "affix",
+  "lang_file_string": "mmorpg.affix.enchanted",
+  "type": "prefix",
+  "requirements": {
+    "list": [
+      {
+        "slots": [
+          "cloth_boots",
+          "cloth_helmet",
+          "cloth_pants",
+          "cloth_chest"
+        ]
+      }
+    ]
+  },
+  "mods": [
+    "high_magic_shield_percent"
+  ]
+}

@@ -29,7 +29,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
-    "critical_hit_flat"
+    "low_critical_hit_flat",
+    "low_critical_damage_flat"
   ]
 }

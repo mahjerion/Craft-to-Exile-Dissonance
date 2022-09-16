@@ -1,7 +1,7 @@
 {
   "id": "chains_of_honor",
-  "weight": 6666,
-  "rarity": 1,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "runeword",
   "lang_file_string": "mmorpg.word.chains_of_honor",

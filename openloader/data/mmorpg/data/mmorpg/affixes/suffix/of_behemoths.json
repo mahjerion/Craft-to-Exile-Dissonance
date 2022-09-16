@@ -34,7 +34,7 @@
     ]
   },
   "mods": [
-    "critical_damage_flat",
-    "health_percent"
+    "high_health_percent",
+    "high_armor_percent"
   ]
 }

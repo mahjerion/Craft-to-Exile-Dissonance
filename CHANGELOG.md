@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.0.3] - 2022-09-XX
+## [3.0.3] - 2022-09-16
 
 ### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
 - Increased mob scaling so that they're about 50% stronger at level 120 compared to before. Levels 1-70 remains mostly unchanged.
 - Runeword weightings have been shifted so none should be nearly impossible to find now. Last Wish, Undying Magic, and Chains of Honor weightings have been reduced a bit.
 - Sets that had a weighting of 10000 have been adjusted to 6666 - similar to Runeword weightings. This should make the rarer sets appear significantly more frequently.

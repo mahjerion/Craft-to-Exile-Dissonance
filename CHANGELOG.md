@@ -7,6 +7,116 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.0] - 2022-09-27
+
+### Updates
+- Players have been provided with an all reset potion due to the substantial changes.
+- Unique item's stats have a lower ceiling. Before, unique item stats had the potential to be twice as high as any other item type (set, runeword, legendary). Now it caps at 1.5x.
+- Set item chance to spawn on common items is now 20% instead of 15%.
+- Set item chance to spawn on rare items is now 35% instead of 30%.
+- Set item chance to spawn on legendary items is now 75% instead of 50%.
+- Set items that had a max level spawn of 100 have been updated to 120.
+- A lot of rare set items have been made less rare (10x more common than previously). This includes but is not limited to Immortal King, Mavina's Battle Hymn, the slayer sets, Trang-Oul's Avatar, etc.
+- Trang-Oul's Avatar now provides a massive bonus to DoT damage as the 5 piece bonus instead of health regen, and now provides health regen as the 2 piece bonus instead of a moderate bonus to DoT damage.
+
+### Mine and Slash Updates
+- Changed (almost) all stats to function additively rather than multiplicatively. I will illustrate the difference with an example. Say you have a Fireball that has a base value of 100 fire damage, 50% spell damage, and 50% fire spell damage. Before, That 100 fire damage would be increased by 50% spell damage, resulting in 150 damage, which would then be increased again by the 50% fire spell damage, resulting in 225 fire damage. However, with the new changes, 100 fire damage would be increased by 50% spell damage resulting in 150 fire damage. The last 50% from fire spell damage would apply once again to the base value of 100, resulting in 100 fire damage + 50 (from spell damage) + 50 (from fire spell damage), which is 200 fire damage. The only multiplicative stats are critical damage, the Pain Control trait, and True Hit trait. The reason for this change is three-fold. 1. I found the scaling to be very inconsistent throughout the game. Level 1-50 were straight-forward enough, but scaling past 60 was exponential and players were able to reach an extremely high ceiling. Because of this, very few builds were truly able to solo "team dungeon" content (which was never intended to be easy). This leads me to my second point. 2. Because of how multiplicative stats work, this meant that spells or builds that could access more modifiers had the potential to scale much more than other stats. Given the example earlier, let's take Fireball versus Martyrdom. Fireball is a fire spell that can take advantage of spell damage, fire/elemental spell damage, fire damage, all fire damage, fire focus, and many more. Having only 10% in 5 of these stats would result in the damage being increased by about 77%! Whereas Martyrdom can really only access spell damage, weapon damage, and in some cases, phys gained as x stats. This means that Fireball users dipping into all the stats had them multiplying off of each other for a much higher ceiling of damage, which makes sense, but is not friendly to all builds. By changing these stats to additive, the Martyrdom player can stack all high stats into weapon damage, and achieve a similar outcome from a Fireball caster with investment into spell damage, fire focus, and fire spell damage, for example. Similarly, another Fireball caster with only spell damage can still achieve a similar output to one with many different stats modifying Fireball. This leads me to my last point. 3. Accessibility. Most players would not know that the stats are multiplicative, and would probably start of the game stacking spell damage, or some similar stat. However, because the game has always been multiplicative, naturally, I've balance mid-late game around this. This resulted in players hitting a wall and requiring more defined builds to tackle higher-level content. With this change, I can reduce the scaling of enemies and make the mid-late game more accessible to newer players who not aware of how the stat scaling works. Hopefully these changes make sense. Please bear with me as this is a relatively large shake-up, and I will likely need to rebalance mob scaling and damage a bit over the next few patches.
+- Steady Hand trait now gives 25% increased damage instead of 15% due to the distinction of "more" stats.
+- Lowered volume of bolt effects.
+- Lowered mob damage a by about 20-25%.
+- Fixed an issue where infusion stat was reducing damage.
+- Fixed a bug where Empower, Enlighten, and Rally effects were causing massive lag.
+- Frost Shield cooldown now scales from 75s to 55s instead of 75s to 60s. This is an overall buff. At max overlevel, Frost Shield will have a cooldown of 35s instead of 45s. This means substantially less cooldown reduction is required to hit 100% upkeep.
+- Magic Burst damage has increased substantially, scaling from 15% to 75% instead of 15% to 50% magic shield. The magic shield cost has been adjusted but instead of costing a quarter of the damage scaling (12.5% with 50% damage), it now costs a fifth at max level (15% and 75% damage). These changes are substantial, but are also made in response to the change to max level. With enough investment, magic shield can be stronger than before.
+- Whirlpool now has a non-scaling tick rate of 20 instead of scaling from 30 to 20. That means at max overlevel, it will still be at 20 instead of going down to 10.
+- Blizzard tick rate now scales from 1.5s to 1.25s instead of 1.5s to 1s at max level.
+- Reduced the overall mana cost of Blizzard by about 8%.
+- Blizzard radius per level has been reduced by 50%.
+- Blizzard mana cost at level 1 has been increased but the cost at max level remains unchanged (these changes happen after the mana cost reduction outlined above). This means that mana cost per level has been reduced by about 50%, and overleveling the spell will result in a lower mana cost than previously.
+- Blazing Inferno attack scaling has increased by about 30%.
+- Summon Archon mana cost at max level has been reduced by 18%.
+- Magma Flower mana cost at max level has been reduced by about 12%.
+- Reduced Volcano base damage by about 40%. Attack scaling remains unchanged.
+- Volcano tick rate is now unchanging with level and is a static 20 (tick every 1s).
+- Reduced the mana cost of Volcano at max level slightly.
+- Thunderstorm mana cost at level 1 has been increased but the cost at max level remains unchanged (these changes happen after the mana cost reduction outlined above). This means that mana cost per level has been reduced by about 50%, and overleveling the spell will result in a lower mana cost than previously.
+- Steam Cloud cooldown at max level has been reduced from 20s to 16s.
+- Steam Cloud base damage at lower levels has been increased.
+- Electrical Discharge now deals 20% of enemies remaining HP instead of 18%, but is now classified as Bolt damage. It will no longer receive bonuses from spell damage. Elemental damage will still apply.
+- Electrical Discharge radius per level has been reduced by half.
+- Electrical Discharge synergy chance has been reduced to 50% at max level instead of 60%, due to the change of max level.
+- Power and Critical Surge mana cost per level has been reduced by about 40%.
+- Thunderstorm synergy now reduces tick rate by 5 instead of 10 (nerf), but increases mana cost by a base value of 3 instead of 5 (buff).
+- Thunderstorm mana cost at level 1 has been increased but the cost at max level remains unchanged. This means that mana cost per level has been reduced by about 50%, and overleveling the spell will result in a lower mana cost than previously.
+- Purifying Flames base value has been reduced by about 20%.
+- Purifying Flames energy cost has increased by about 50%.
+- Whirlwind tick rate now increases per level like it used to instead of always hitting 20 times in 6 seconds. It now scales up to 30 times in 6 seconds, and if max overleveled, 40 times in 6 seconds.
+- Whirlwind attack scaling now scales from 50% to 100% instead of 50% to 80%. These Whirlwind changes were made in response to the change in max level change. This means Whirlwind can require more investment, but the ceiling is much higher if players decide to main this spell.
+- Rock Slide damage has been reduced slightly.
+- Rock Slide cooldown at max level has increased by about 60%.
+- Venom Load tick rate is now every 15 ticks instead of 10 (0.75s instead of 0.5s).
+- Hunting Wolf summon mana cost has been reduced substantially.
+- Bone Squall scales from 4 to 7 casts in 1.5s instead of 4 to 6 casts.
+- Increased the penalty to energy and energy regen for Resourceful talent.
+- Readjusted the max level of spells to standardize them. Generally, the max level for spells will be 4, 8, 12, or 16. The changed max levels are listed below. Lowering the max level is generally a buff, as it requires less points to reach the same potential, and requires less + skills for more hitting overlevel cap. Generally, mainable spells will have higher max level, support/buffs will have a max level of about 8, and secondary spells will have a max level of about 12.
+- Divine Aura buffs: was 10 -> 8.
+- Charge: 12 -> 8.
+- Holy Flower: 8 -> 12.
+- Trident of Judgment: 8 -> 16.
+- Whirlwind: 8 -> 16.
+- Fire Blood buffs: 6 -> 8.
+- Blazing Inferno: 8 -> 16.
+- Fire Bombs: 8 -> 16.
+- Inferno Quake: 12 -> 16.
+- Magma Flower: 8 -> 12.
+- Steam Cloud: 8 -> 12.
+- Summon Archon: 12 -> 16.
+- Throw Flames: 12 -> 16.
+- Volcano: 8 -> 12.
+- Hunting Wind buffs: 10 -> 8.
+- Arrow Barrage: 12 -> 16.
+- Arrow Storm: 8 -> 12.
+- Arrow Totem: 8 -> 12.
+- Blast Trap: 8 -> 12.
+- Dash: 4 -> 8.
+- Imbue: 12 -> 8.
+- Weaken/Snare Trap: 4 -> 8.
+- Nature Curses: 6 -> 8.
+- Gorgon's Gaze: 8 -> 12.
+- Nature's Balm: 12 -> 8.
+- Spirit Ball: 12 -> 16.
+- Poison Cloud: 8 -> 12.
+- Rock Slide: 8 -> 16.
+- Nature's Empowering: 4 -> 8.
+- Venom Load: 12 -> 16.
+- Ocean buffs: 4 -> 8.
+- Frost Shield: 4 -> 8.
+- Blizzard: 8 -> 12.
+- Chilling Field: 8 -> 12.
+- Ice Orb: 12 -> 16.
+- Magic Burst: 12 -> 16.
+- Rime Blade: 12 -> 16.
+- Battery Fusilade: 12 -> 16.
+- Chain Lightning: 8 -> 16.
+- Electrical Discharge: 8 -> 12.
+- Lightning Dash: 4 -> 8.
+- Thunderstorm: 8 -> 12.
+- Spirit Shroud: 12 -> 8.
+- Bone Squall: 8 -> 16.
+- Flesh and Mind Sacrifice: 4 -> 8.
+- Hellfire Cloak: 8 -> 12.
+- Soul Shred: 8 -> 12.
+- Summon Skeletal Army: 8 -> 16.
+- Synergy max levels are now half of the base spell's max level, except for buff spells where the synergy max level is the same as the base buff.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed an issue where infusion stat was reducing damage.
+- Fixed a bug where Empower, Enlighten, and Rally effects were causing massive lag.
+- Fixed some missing localization.
+
 ## [3.0.3] - 2022-09-16
 
 ### Updates

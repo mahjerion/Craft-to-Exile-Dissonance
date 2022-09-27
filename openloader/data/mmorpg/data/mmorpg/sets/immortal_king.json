@@ -1,7 +1,7 @@
 {
   "id": "immortal_king",
-  "weight": 250,
-  "rarity": 3,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.immortal_king",
@@ -18,7 +18,7 @@
       },
       {
         "min_level": 70,
-        "max_level": 100
+        "max_level": 120
       }
     ]
   },

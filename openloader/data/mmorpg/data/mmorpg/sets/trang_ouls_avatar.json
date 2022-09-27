@@ -1,7 +1,7 @@
 {
   "id": "trang_ouls_avatar",
-  "weight": 250,
-  "rarity": 3,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.trang_ouls_avatar",
@@ -28,15 +28,15 @@
       },
       {
         "min_level": 70,
-        "max_level": 100
+        "max_level": 120
       }
     ]
   },
   "mods": {
     "2": "nature_penetration_flat",
-    "3": "high_all_dot_dmg_flat",
+    "3": "high_health_regen_flat",
     "4": "high_elemental_resist_flat",
-    "5": "high_health_regen_flat",
+    "5": "major_all_dot_dmg_flat",
     "6": "major_summon_damage_flat"
   }
 }

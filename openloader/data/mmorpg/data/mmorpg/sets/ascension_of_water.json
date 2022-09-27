@@ -1,7 +1,7 @@
 {
   "id": "ascension_of_water",
-  "weight": 50,
-  "rarity": 4,
+  "weight": 250,
+  "rarity": 3,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.ascension_of_water",

@@ -1,7 +1,7 @@
 {
   "id": "najs_ancient_vestige",
-  "weight": 50,
-  "rarity": 4,
+  "weight": 250,
+  "rarity": 3,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.najs_ancient_vestige",

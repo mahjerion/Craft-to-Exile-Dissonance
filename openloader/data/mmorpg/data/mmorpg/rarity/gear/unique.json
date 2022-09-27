@@ -34,7 +34,7 @@
   },
   "unique_stat_percents": {
     "min": 100,
-    "max": 200
+    "max": 150
   },
   "affix_stat_percents": {
     "min": 50,

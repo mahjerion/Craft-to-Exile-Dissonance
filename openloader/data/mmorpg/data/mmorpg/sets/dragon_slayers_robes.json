@@ -1,7 +1,7 @@
 {
   "id": "dragon_slayers_robes",
-  "weight": 50,
-  "rarity": 4,
+  "weight": 250,
+  "rarity": 3,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.dragon_slayers_robes",
@@ -30,7 +30,7 @@
     "3": "cdr_flat",
     "4": "very_high_spell_damage_flat",
     "5": "high_faster_cast_rate_flat",
-    "6": "high_mana_flat",
+    "6": "very_high_mana_flat",
     "7": "very_high_bonus_unique_item_drops_flat",
     "8": "plus_all_skill_lvls_flat"
   }

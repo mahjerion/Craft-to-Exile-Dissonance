@@ -11,7 +11,7 @@
   },
   "text_formatting": "BLUE",
   "affix_chance": 50,
-  "set_chance": 30,
+  "set_chance": 35,
   "rune_slots": 3,
   "requirements_multi": 1.0,
   "unidentified_chance": 100.0,

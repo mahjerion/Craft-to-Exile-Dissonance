@@ -1,7 +1,7 @@
 {
   "id": "mavinas_battle_hymn",
-  "weight": 250,
-  "rarity": 3,
+  "weight": 2500,
+  "rarity": 2,
   "tier": 0,
   "registry": "item_set",
   "lang_file_string": "mmorpg.set.mavinas_battle_hymn",
@@ -19,14 +19,14 @@
       },
       {
         "min_level": 70,
-        "max_level": 100
+        "max_level": 120
       }
     ]
   },
   "mods": {
     "2": "bow_damage_flat",
-    "3": "very_low_attack_water_damage_flat",
-	"4": "elemental_resist_flat",
+    "3": "low_attack_water_damage_flat",
+	"4": "high_elemental_resist_flat",
 	"5": "plus_hunting_skill_lvls_flat",
     "6": "very_high_bow_damage_flat"
   }

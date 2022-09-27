@@ -27,7 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue where infusion stat was reducing damage.
 - Fixed a bug where Empower, Enlighten, and Rally effects were causing massive lag.
 - Frost Shield cooldown now scales from 75s to 55s instead of 75s to 60s. This is an overall buff. At max overlevel, Frost Shield will have a cooldown of 35s instead of 45s. This means substantially less cooldown reduction is required to hit 100% upkeep.
-- Magic Burst damage has increased substantially, scaling from 15% to 75% instead of 15% to 50% magic shield. The magic shield cost has been adjusted but instead of costing a quarter of the damage scaling (12.5% with 50% damage), it now costs a fifth at max level (15% and 75% damage). These changes are substantial, but are also made in response to the change to max level. With enough investment, magic shield can be stronger than before.
 - Whirlpool now has a non-scaling tick rate of 20 instead of scaling from 30 to 20. That means at max overlevel, it will still be at 20 instead of going down to 10.
 - Blizzard tick rate now scales from 1.5s to 1.25s instead of 1.5s to 1s at max level.
 - Reduced the overall mana cost of Blizzard by about 8%.

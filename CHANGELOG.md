@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.0] - 2022-09-27
+## [3.1.0] - 2022-09-XX
 
 ### Updates
 - Players have been provided with an all reset potion due to the substantial changes.
@@ -22,10 +22,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Mine and Slash Updates
 - Changed (almost) all stats to function additively rather than multiplicatively. I will illustrate the difference with an example. Say you have a Fireball that has a base value of 100 fire damage, 50% spell damage, and 50% fire spell damage. Before, That 100 fire damage would be increased by 50% spell damage, resulting in 150 damage, which would then be increased again by the 50% fire spell damage, resulting in 225 fire damage. However, with the new changes, 100 fire damage would be increased by 50% spell damage resulting in 150 fire damage. The last 50% from fire spell damage would apply once again to the base value of 100, resulting in 100 fire damage + 50 (from spell damage) + 50 (from fire spell damage), which is 200 fire damage. The only multiplicative stats are critical damage, the Pain Control trait, and True Hit trait. The reason for this change is three-fold. 1. I found the scaling to be very inconsistent throughout the game. Level 1-50 were straight-forward enough, but scaling past 60 was exponential and players were able to reach an extremely high ceiling. Because of this, very few builds were truly able to solo "team dungeon" content (which was never intended to be easy). This leads me to my second point. 2. Because of how multiplicative stats work, this meant that spells or builds that could access more modifiers had the potential to scale much more than other stats. Given the example earlier, let's take Fireball versus Martyrdom. Fireball is a fire spell that can take advantage of spell damage, fire/elemental spell damage, fire damage, all fire damage, fire focus, and many more. Having only 10% in 5 of these stats would result in the damage being increased by about 77%! Whereas Martyrdom can really only access spell damage, weapon damage, and in some cases, phys gained as x stats. This means that Fireball users dipping into all the stats had them multiplying off of each other for a much higher ceiling of damage, which makes sense, but is not friendly to all builds. By changing these stats to additive, the Martyrdom player can stack all high stats into weapon damage, and achieve a similar outcome from a Fireball caster with investment into spell damage, fire focus, and fire spell damage, for example. Similarly, another Fireball caster with only spell damage can still achieve a similar output to one with many different stats modifying Fireball. This leads me to my last point. 3. Accessibility. Most players would not know that the stats are multiplicative, and would probably start of the game stacking spell damage, or some similar stat. However, because the game has always been multiplicative, naturally, I've balance mid-late game around this. This resulted in players hitting a wall and requiring more defined builds to tackle higher-level content. With this change, I can reduce the scaling of enemies and make the mid-late game more accessible to newer players who not aware of how the stat scaling works. Hopefully these changes make sense. Please bear with me as this is a relatively large shake-up, and I will likely need to rebalance mob scaling and damage a bit over the next few patches.
 - Steady Hand trait now gives 25% increased damage instead of 15% due to the distinction of "more" stats.
+- Life/Magic Steal effects are now capped at 10% of your max HP per hit.
 - Lowered volume of bolt effects.
 - Lowered mob damage a by about 20-25%.
-- Fixed an issue where infusion stat was reducing damage.
-- Fixed a bug where Empower, Enlighten, and Rally effects were causing massive lag.
+- Reduced radius of Lightning Caster mobs by 33%.
+- Venom Caster mobs now apply the curse on strike rather than on being struck.
+- Reduced potency of Venom Caster mobs. They now reduce resists by 20% instead of 25%.
 - Frost Shield cooldown now scales from 75s to 55s instead of 75s to 60s. This is an overall buff. At max overlevel, Frost Shield will have a cooldown of 35s instead of 45s. This means substantially less cooldown reduction is required to hit 100% upkeep.
 - Whirlpool now has a non-scaling tick rate of 20 instead of scaling from 30 to 20. That means at max overlevel, it will still be at 20 instead of going down to 10.
 - Blizzard tick rate now scales from 1.5s to 1.25s instead of 1.5s to 1s at max level.
@@ -109,7 +111,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Synergy max levels are now half of the base spell's max level, except for buff spells where the synergy max level is the same as the base buff.
 
 ### Mod Updates
-- Updated Mine and Slash.
+- Updated Mine and Slash, CraftPresence.
 
 ### Fixes
 - Fixed an issue where infusion stat was reducing damage.

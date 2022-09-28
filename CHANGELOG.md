@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.0] - 2022-09-XX
+## [3.1.0] - 2022-09-28
 
 ### Updates
 - Players have been provided with an all reset potion due to the substantial changes.

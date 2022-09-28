@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Steady Hand trait now gives 25% increased damage instead of 15% due to the distinction of "more" stats.
 - Life/Magic Steal effects are now capped at 10% of your max HP per hit.
 - Lowered volume of bolt effects.
-- Lowered mob damage a by about 20-25%.
+- Lowered mob damage by about 20-25%.
 - Reduced radius of Lightning Caster mobs by 33%.
 - Venom Caster mobs now apply the curse on strike rather than on being struck.
 - Reduced potency of Venom Caster mobs. They now reduce resists by 20% instead of 25%.
@@ -40,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reduced Volcano base damage by about 40%. Attack scaling remains unchanged.
 - Volcano tick rate is now unchanging with level and is a static 20 (tick every 1s).
 - Reduced the mana cost of Volcano at max level slightly.
-- Thunderstorm mana cost at level 1 has been increased but the cost at max level remains unchanged (these changes happen after the mana cost reduction outlined above). This means that mana cost per level has been reduced by about 50%, and overleveling the spell will result in a lower mana cost than previously.
+- Volcano mana cost at level 1 has been increased but the cost at max level remains unchanged (these changes happen after the mana cost reduction outlined above). This means that mana cost per level has been reduced by about 50%, and overleveling the spell will result in a lower mana cost than previously.
 - Steam Cloud cooldown at max level has been reduced from 20s to 16s.
 - Steam Cloud base damage at lower levels has been increased.
 - Electrical Discharge now deals 20% of enemies remaining HP instead of 18%, but is now classified as Bolt damage. It will no longer receive bonuses from spell damage. Elemental damage will still apply.

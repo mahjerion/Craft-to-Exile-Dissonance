@@ -45,6 +45,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Overflowing Vitality now has a ele multi of -15% instead of -50%.
 - Overflowing Vitality now adds flat phys damage based on 2% of your max health instead of 1%.
 
+### Mod Updates
+- Updated Mine and Slash.
+
 ### Fixes
 - Fixed Divine buffs being max level 10 instead of 8.
 - Fixed a bug where Electrical Discharge synergy wasn't applying Lightning Essence.

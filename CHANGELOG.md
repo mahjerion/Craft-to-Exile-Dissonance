@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1b] - 2022-09-30
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed an issue where armor going below 0 wasn't actually increasing damage.
+- Fixed an issue where Electrical Discharge synergy wasn't applying Lightning Essence stacks (for real this time).
+
 ## [3.1.1] - 2022-09-30
 
 ### Updates

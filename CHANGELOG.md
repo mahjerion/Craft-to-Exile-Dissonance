@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1c] - 2022-09-30
+
+### Mine and Slash Updates
+- Reduced Hunting Wolf attack scaling by 25% per level.
+- Bleed and mob curses deal a minimum of 1 damage.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed a bug where all entities had 95% chance to dodge and 95% damage reduction.
+
 ## [3.1.1b] - 2022-09-30
 
 ### Mod Updates

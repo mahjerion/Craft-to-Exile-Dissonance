@@ -7,6 +7,51 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.1] - 2022-09-30
+
+### Mine and Slash Updates
+- Changed armor penetration so that it subtracts the % of armor pen off the final armor % reduction value. So an armor reduction of 40% met with 8% armor pen would result in 32% armor reduction. Before, the flat armor value was multiplied by 1 - the armor pen amount, so 500 armor met with armor pen would be multiplied by 0.92. This means that armor pen will work more similarly to how elemental pen works.
+- Armor Penetration can cause enemies to take extra damage if their armor % reduction is lower than the penetration value.
+- Armor can now go below 0.
+- Force damage spells have been changed a bit. Finisher and Extension spells have had their damage reduced, and scaling per level has been reduced for Finisher, Extension, and Starter spells. Additionally, Asura scaling has been reduced.
+- Heart of Ice, Healing Wave, Wish, and Nature's Balm healing values have increased by 50%.
+- Chilling Field level 1 radius has increased but the radius per level has decreased. At max level, it is still the same as before.
+- Whirlpool radius per level has decreased by about 18%.
+- Tidal Wave and Rime Blade have had their damage reduced. Tidal Wave also fires less projectiles at max level and casts fewer times at max level. Tidal Wave was leagues ahead of other attack spells, and while unpopular, still needed to be brought in line with the other spells.
+- Lightning Spear and Chain Lightning damage have increased by about 10%-20%.
+- Power Surge flat lightning attack damage reduced by 40%.
+- Charged Sweep level 1 radius has increased but the radius per level has decreased. At max level, it is still the same as before.
+- Charged Sweep mana scaling is now 14% -> 21% instead of 7% -> 14%.
+- Rock Slide mana cost has increased by about 25%.
+- Rock Slide cooldown has increased by a flat 2s.
+- Poison Cloud cooldown reduced by 1s.
+- Poison Cloud mana cost at max level has been reduced by 11%.
+- Poison Cloud radius reduced by 1.
+- Poisoned Weapons flat nature attack damage reduced by 33%.
+- Martyrdom health scaling is now 30% -> 45% instead of 25% -> 35%.
+- Blessing mana on hit effect has been reduced by 33%.
+- Magma Flower radius per level has decreased by about 18%.
+- Volcano base value per level has increased by 11%.
+- Burn damage has increased by about 20-25%.
+- Animate Scythe health scaling is now 12% -> 24% instead of 8% -> 18%.
+- Animate Scythe health cost and energy cost have been increased.
+- Hellfire Cloak level 1 radius has increased but the radius per level has decreased. At max level, it is still the same as before.
+- Blight damage has increased by about 50-60%.
+- Cripple damage has increased by about 33%.
+- Malevolent Offering cast time now decreases with level.
+- Reduced mob armor stat by 75%.
+- Increased mob elemental resists by 20% (from 12.5% base to 15%).
+- Harmony now causes lifesteal effects to cap based on max magic shield rather than health.
+- Overflowing Vitality now has a ele multi of -15% instead of -50%.
+- Overflowing Vitality now adds flat phys damage based on 2% of your max health instead of 1%.
+
+### Fixes
+- Fixed Divine buffs being max level 10 instead of 8.
+- Fixed a bug where Electrical Discharge synergy wasn't applying Lightning Essence.
+- Fixed some missing stats on Lightning and Frost Shield prefixes.
+- Fixed some missing localization.
+- Fixed some missing assets.
+
 ## [3.1.0] - 2022-09-28
 
 ### Updates

@@ -32,6 +32,6 @@
   "mods": [
     "thunder_resist_flat",
     "very_low_magic_shield_flat",
-    "very_low_mana_percent"
+    "very_low_mana_flat"
   ]
 }

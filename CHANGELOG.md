@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [3.1.1] - 2022-09-30
 
+### Updates
+- Simple Magnet's magnets are no longer salvageable.
+
 ### Mine and Slash Updates
 - Changed armor penetration so that it subtracts the % of armor pen off the final armor % reduction value. So an armor reduction of 40% met with 8% armor pen would result in 32% armor reduction. Before, the flat armor value was multiplied by 1 - the armor pen amount, so 500 armor met with armor pen would be multiplied by 0.92. This means that armor pen will work more similarly to how elemental pen works.
 - Armor Penetration can cause enemies to take extra damage if their armor % reduction is lower than the penetration value.

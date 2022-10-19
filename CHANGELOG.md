@@ -7,6 +7,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.2] - 2022-10-19
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
+### Mine and Slash Updates
+- Increased mana regen flat and percent stat amounts.
+- Reduced energy regen percent amount slightly.
+- Spell Blade has been changed to provide flat fire attack damage and infusion instead of the old transfer stat and infusion. The old transfer stat was not working as intended.
+- Poisoned Weapons has been changed to provide phys to nature conversion rather than the old transfer stat.
+- Increased Rock Slide radius (which makes it better for AOE but worse for single target DPS).
+- Rock Slide tick rate is now 10 instead of 8 (every half second now).
+- Given the nature of how Force tree requires so many points, all strikes, extensions, finishers, as well as Asura, have been changed to have a max level of 8, instead of 16, 12, 8, and 16, respectively.
+- Power and Wisdom Form (and their respective synergy's) max level have been reduced from 8 to 4.
+- Empower and Enlighten stacks now cap at 3 instead of 5.
+- Empower now provides a base of 21% increased damage at 3 stacks instead of 15% at 5 stacks.
+- Enlighten now provides a base of 15% energy regen and 21% faster cast at 3 stacks instead of 15% of both at 5 stacks.
+- Increased Asura damage by about 25%.
+- Asura no longer requires a Combo Starter or Extension stack. Asura should now be less clunky to use thanks to this change and the Empower/Enlighten stack change.
+
+### Mod Updates
+- Updated Mine and Slash, Xaero's, CraftPresence.
+
+### Fixes
+- Fixed floating mob names on Neat bar (thanks Raiden!).
+- Fixed a bug where Natural Empowering was causing lots of lag.
+- Fixed a bug where Flowing River Extension heal was not applying to self.
+- Fixed a bug where infusion stat was increasing damage by an additional 100% mistakenly.
+- Fixed a bug where the Sanguine Casting mob affix was applying more stacks than it should have been.
+- Probably fixed a bug where debuffs were being applied to vanilla team members (slash party should still be fine).
+
 ## [3.1.1c] - 2022-09-30
 
 ### Mine and Slash Updates

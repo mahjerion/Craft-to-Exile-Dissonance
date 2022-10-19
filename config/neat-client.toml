@@ -7,7 +7,7 @@
 	"Plate Size (Boss)" = 50
 	"Show Max HP" = false
 	"Max Distance" = 24
-	"Show Attributes" = false
+	"Show Attributes" = true
 	"Show Current HP" = false
 	"Show Debug Info with F3" = true
 	"Background Padding" = 2

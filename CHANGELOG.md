@@ -7,15 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.2b] - 2022-10-21
+
+### Mine and Slash Updates
+- You can now configure the max distance for EXP share (thanks Thorinori!).
+
 ### Fixes
+- Fixed an issue where some buffs that increased movement speed would sometimes be overridden by movement speed debuffs.
 - Fixed floating mob names on Neat bar (thanks Raiden!).
 
 ## [3.1.2] - 2022-10-19
 
 ### Updates
 - Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
-
-### Mine and Slash Updates
 - Increased mana regen flat and percent stat amounts.
 - Reduced energy regen percent amount slightly.
 - Spell Blade has been changed to provide flat fire attack damage and infusion instead of the old transfer stat and infusion. The old transfer stat was not working as intended.

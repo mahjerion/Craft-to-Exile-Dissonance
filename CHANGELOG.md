@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixes
+- Fixed floating mob names on Neat bar (thanks Raiden!).
+
 ## [3.1.2] - 2022-10-19
 
 ### Updates
@@ -29,9 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Mod Updates
 - Updated Mine and Slash, Xaero's, CraftPresence.
-
-### Fixes
-- Fixed floating mob names on Neat bar (thanks Raiden!).
 - Fixed a bug where Natural Empowering was causing lots of lag.
 - Fixed a bug where Flowing River Extension heal was not applying to self.
 - Fixed a bug where infusion stat was increasing damage by an additional 100% mistakenly.

@@ -7,10 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Updates
+- Hidden Strength Amulet no longer provides lifesteal.
+
+### Mine and Slash Updates
+- Mob damage calculations have been completely overhauled... If you want to see the technical details see the next point. Turns out it didn't work the way I thought it did and all my previous increases and decreases to mob damage were not really doing anything! Basically, I've reduced variability of damage between mobs but increased the floor. We'll take vindicators and zombies as an example. We all know vindicators do tremendous damage when compared to zombies. While they still do more damage, the difference between the zombie and vindicator have been lessened (zombies now deal more damage but vindicators slightly less). This should also resolve the issue where "trash" mobs were doing nothing and sometimes you would encounter an extremely spiky mob. This also means players should invest more towards defenses now. This will also hopefully make mob damage more predictable and players will hopefully tackle content they can survive and not tackle higher content and then randomly get 1-2 shot by vindicators, vexes, etc. (since zombies and skeles do little damage).
+- To understand how damage works, you should first know that every entity has a physical attack damage stat. For instance, currently, mobs have a physical attack damage stat of 10, which gets scaled by their level and then multiplied by the rarity and tier damage multiplier. However, unbeknownst to me, the actual formula for mob damage did not even take this base stat into account. It just takes their vanilla damage value (which we all knew it did) and scales it to their level. As a result, zombies had a functional physical attack damage stat of 3 while vindicators had a damage stat of 13, scaled to their level. The change I've made isn't a percentage increase, since that would just widen the gap between vindicators and zombies. Instead, I have reduced the ceiling and increased the floor of mob damage. The new formula is now [Vanilla DMG * 0.33 + 8 scaled to level], instead of just [Vanilla DMG scaled to level].
+- Team Dungeon mob bonus increased damage has been halved (from 160-240% to now 80-120% increased damage). Now that damage is more predictable and in general, higher, I am able to reduce the Team Dungeon mob damage bonus. I was using zombie damage as a base line before which was a mistake on my part.
+- Team Dungeon damage reduction bonus has been removed and instead the health multiplier has doubled but is now slightly variable. This should result in slightly less tanky mobs in Team Dungeons.
+- Reduced variability in stats a bit. Generally, ceiling has been lowered and floor increased.
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed a bug where Sweeping Strike was taunting enemies.
+- Fixed a bug where entity-specific damage multipliers were not applying to mob spell damage.
+
 ## [3.1.2b] - 2022-10-21
 
 ### Mine and Slash Updates
 - You can now configure the max distance for EXP share (thanks Thorinori!).
+
+### Mod Updates
+- Updated Mine and Slash.
 
 ### Fixes
 - Fixed an issue where some buffs that increased movement speed would sometimes be overridden by movement speed debuffs.

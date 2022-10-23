@@ -12,8 +12,7 @@
   "unique_stats": [
     "high_strength_flat",
     "high_armor_percent",
-	"physical_damage_percent",
-    "high_lifesteal_flat"
+	"physical_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {},

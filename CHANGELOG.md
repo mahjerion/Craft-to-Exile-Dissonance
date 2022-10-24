@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.1.3] - 2022-10-24
 
 ### Updates
-- The Craft to Exile official server's "Pumpkin Harvest" event has begun! This event will last 2 weeks, from Oct. 24th (now) until Nov. 7th! Find Golden Pumpkin Seeds from vanilla undead mobs and witches, smashing pumpkins, and by giving Simple Farming Candy to the Market's' Weathered Salesperson. Redeem these Golden Pumpkin Seeds at the Farming for Blockhead's Market for limited time special consumables and items!
+- The Craft to Exile official server's "Pumpkin Harvest" event has begun! This event will last 2 weeks, from Oct. 24th (now) until Nov. 7th! Find Golden Pumpkin Seeds from vanilla undead mobs and witches, smashing pumpkins, and by giving Simple Farming Candy to the Market's Weathered Salesperson. Redeem these Golden Pumpkin Seeds at the Farming for Blockhead's Market for limited time special consumables and items!
 - From the Farming for Blockhead's Market under the "Other" tab, choose from: Gilded Pumpkin Juice (grants 25% EXP bonus for 1 hour), RC, Lycanites Mobs fire blocks, Guardian's Charm (unique that causes you to stop counting towards party count in respect to EXP share, and prevents you from sharing EXP when killing mobs), Ring of the Undying (unique that prevents EXP gain), and a special tool capable of veinmining and tree-felling!
 - If you're on the official server, check out the community made haunted house by Raiden and Theesle, accessible starting this weekend (end of Oct.) by appointment (DM Raiden (Onion#0733) or ask him in game to run it for you)! Complete the haunted house for some neat rewards, including Golden Pumpkin Seeds!
 - Hidden Strength Amulet no longer provides lifesteal.

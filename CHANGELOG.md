@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.3b] - 2022-10-25
+
+### Mine and Slash Updates
+- Berserker's Impartiality penalty has been lowered.
+- Seething chaos stat gives less Phys Gained as Fire stat.
+- Sanguine Caster mobs now apply one stack of bleed instead of two.
+- Reduced Sanguine Caster mob bleed damage by about 20% per stack.
+- Updated zh_cn.json (thanks Qing_Lanovo!).
+
+### Mod Updates
+- Updated Mine and Slash.
+
+### Fixes
+- Fixed an infinite application loop with Venom Casters.
+- Fixed an issue where Phys Gained as X stat was not working properly and was converting instead of adding.
+- Fixed an issue where EXP calculations weren't correct when possessing the Guardian Angel trait.
+- Fixed some lag issues during combat.
+
 ## [3.1.3] - 2022-10-24
 
 ### Updates

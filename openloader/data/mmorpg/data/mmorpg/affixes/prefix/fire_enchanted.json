@@ -1,7 +1,7 @@
 {
   "id": "fire_enchanted",
-  "weight": 2500,
-  "rarity": 2,
+  "weight": 10000,
+  "rarity": 1,
   "tier": 0,
   "registry": "affix",
   "lang_file_string": "mmorpg.affix.fire_enchanted",

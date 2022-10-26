@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.3c] - 2022-10-XX
+
+### Updates
+- Changed item affix weightings so that higher level affixes are heavier compared to before. Before, the same few affixes at low level would appear consistently and you would never see high level affixes (some of them had less than 1% chance of appearing!!!)
+
 ## [3.1.3b] - 2022-10-25
 
 ### Mine and Slash Updates

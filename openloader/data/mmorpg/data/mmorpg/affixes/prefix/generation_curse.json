@@ -1,7 +1,7 @@
 {
   "id": "generation_curse",
-  "weight": 250,
-  "rarity": 3,
+  "weight": 10000,
+  "rarity": 1,
   "tier": 0,
   "registry": "affix",
   "lang_file_string": "mmorpg.affix.generation_curse",

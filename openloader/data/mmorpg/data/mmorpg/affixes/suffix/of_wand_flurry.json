@@ -1,16 +1,16 @@
 {
-  "id": "bonus_fire_reflect_prefix",
+  "id": "of_wand_flurry",
   "weight": 2500,
   "rarity": 2,
   "tier": 0,
   "registry": "affix",
-  "lang_file_string": "mmorpg.affix.bonus_fire_reflect_prefix",
-  "type": "prefix",
+  "lang_file_string": "mmorpg.affix.of_wand_flurry",
+  "type": "suffix",
   "requirements": {
     "list": [
       {
         "slots": [
-          "shield"
+          "bracelet"
         ]
       },
       {
@@ -20,7 +20,7 @@
     ]
   },
   "mods": [
-    "fire_thorns_reflect_flat",
-    "fire_resist_flat"
+    "wand_damage_flat",
+    "stamina_flat"
   ]
 }

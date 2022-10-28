@@ -7,14 +7,50 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.3c] - 2022-10-XX
+## [3.1.4] - 2022-10-28
 
 ### Updates
 - Added a new affix for Gauntlets on bracelets.
 - Changed item affix weightings so that higher level affixes are heavier compared to before. Before, the same few affixes at low level would appear consistently and you would never see high level affixes (some of them had less than 1% chance of appearing!!!)
+- Increased rarity weightings towards the higher rarities. This means epics and legendaries in general are 2-3x more likely to appear than before (mobs, equipment, runes, etc.).
+- Increase equipment drop rates by 15%.
+- Doubled rune drop rates.
+- Lowered mob scaling per level. At level 40, mobs are about 13% easier, at level 80, mobs are about 26% easier, and at level 120, mobs are about 38% easier. This change and the next change were made in response to the increase and the increase in consistency in mob damage. I found that lower-mid level play was more or less where I wanted it, but the end-game was far too punishing. In the past (when stats were mostly multiplicative), I kept increasing the scaling to compensate. However, now that stats are mostly additive, players were not dealing enough damage. Similarly, 
+- Tiers now progress in difficulty at a slower and linear rate. Tier 0 is still the same, but tier 5 mobs now have about 50% less extra health, deal 50% less damage, and have about 50% less extra stats.
+
+### Mine and Slash Updates
+- New Hunting Spell: Elemental Quiver. This is a level 1 spell you can get early on that changes the elements of your Hunting arrow spells and also provides you with physical to x element conversion.
+- Added Arrow tags to the Hunting tree arrow spells.
+- Increased Force Tree energy costs.
+- Lowered Spirit Drain Extension damage has been lowered slightly.
+- Spirit Drain Extension now recovers your health for a quarter of the damage dealt and your mana and energy for a tenth instead.
+- Spirit Drain Extension no longer costs energy to use.
+- Flowing River Extension now heals the user and allies by only half the amount.
+- Reduced Empowering Finisher scaling slightly.
+- Lowered the mana cost of Ice Orb.
+- Lowered the mana cost of Rime Blade.
+- Lowered the mana cost of Arctic Blast.
+- Lowered the mana cost of Whirlpool.
+- Lowered the mana cost of Chilling Field.
+- Chilling Field mana scaling has increased by a flat 3%.
+- Increased mana regeneration of Cold Essence effect by 33% so it's the same as the energy regeneration bonus.
+- Increased movement speed debuff for Chill effect from 10% to 15%.
+- Reduced the mana and energy regeneration penalty on Arctic Armor by 33%.
+- Flame Blade's scaling has been lowered dramatically. The change to Spell Blade resulted in this being very powerful.
+- Slightly reduced Lightning Totem's mana cost per level.
+- Increased Resourceful trait energy and energy regen penalty.
+- Lowered the critical hit penalty on the Trickster node.
+- Increased critical hit percent node in the talent tree from 3% to 4%.
+- Increased mana regen percent node in the talent tree from 4% to 5%.
+- Increased mana regen flat stat slightly.
+- Reduced energy regen flat and percent stat slightly.
+- Increased critical hit percent stat by about 33%.
+- Increased weightings of mobs in dungeons that aren't zombies, skeletons, and spiders.
+- Boss mobs in maps should be more interesting (no longer zombies/skeles etc.).
 
 ### Fixes
-- Fixed some missing localization.
+- Fixed an issue where Orb of Blessing wouldn't be usable on uniques.
+- Fixed some missing and incorrect localization.
 
 ## [3.1.3b] - 2022-10-25
 

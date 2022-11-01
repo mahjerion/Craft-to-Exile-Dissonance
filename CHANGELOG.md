@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [3.1.5] - 2022-10-XX
 
 ### Updates
-- Added a new unique ring designed by Patron Carlton! The Ring of Glass is as its name implies, a glass-cannon ring that increases all damage dealt and all damage taken. However, while you wear the ring you are also slowed with every hit you take.
+- Added a new unique ring designed by Patron KaCarl! The Ring of Glass is as its name implies, a glass-cannon ring that increases all damage dealt and all damage taken. However, while you wear the ring you are also slowed whenever you take damage.
 - Increased HP scaling of tiers slightly.
 - Increased scaling of mobs to be higher than 3.1.4 but lower than previous patches.
 - Lowered dodge rating of Evasive mobs.

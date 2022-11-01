@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
       "major_health_regen_flat",
-      "dodge_flat"
+      "health_percent"
     ]
   }
 }

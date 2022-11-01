@@ -15,7 +15,7 @@
 	"strength_flat",
     "armor_percent",
     "high_attack_elemental_damage_percent",
-	"very_high_thunder_resist_flat"
+	"high_thunder_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {

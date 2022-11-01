@@ -14,7 +14,7 @@
 	"plus_blizzard_spell_lvl_flat",
     "armor_percent",
     "high_spell_water_damage_flat",
-    "very_high_water_resist_flat"
+    "high_water_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {

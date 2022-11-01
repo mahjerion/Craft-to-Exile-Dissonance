@@ -10,9 +10,9 @@
     "major_plus_storm_skill_lvls_flat"
   ],
   "unique_stats": [
-    "cdr_flat",
+    "low_cdr_flat",
     "all_attributes_flat",
-	"elemental_resist_flat"
+	"low_elemental_resist_flat"
   ],
   "can_get_set": false,
   "requirements": {},

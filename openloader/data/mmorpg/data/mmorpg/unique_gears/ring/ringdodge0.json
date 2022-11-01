@@ -12,8 +12,7 @@
   "unique_stats": [
     "high_dodge_flat",
     "bow_damage_flat",
-    "crossbow_damage_flat",
-    "nature_resist_flat"
+    "crossbow_damage_flat"
   ],
   "can_get_set": false,
   "requirements": {},

@@ -9,7 +9,7 @@
   "mods": {
     "mods": [
 	  "health_flat",
-      "very_high_health_percent",
+      "major_health_percent",
       "armor_flat"
     ]
   }

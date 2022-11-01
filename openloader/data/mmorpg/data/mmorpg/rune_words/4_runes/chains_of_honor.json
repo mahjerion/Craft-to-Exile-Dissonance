@@ -16,6 +16,6 @@
 	"high_cdr_flat",
 	"health_percent",
     "life_on_hit_flat",
-    "high_elemental_resist_flat"
+    "elemental_resist_flat"
   ]
 }

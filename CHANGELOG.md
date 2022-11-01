@@ -7,7 +7,36 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.4] - 2022-10-28
+## [3.1.5] - 2022-10-XX
+
+### Updates
+- Increased HP scaling of tiers slightly.
+- Increased scaling of mobs to be higher than 3.1.4 but lower than previous patches.
+- Lowered dodge rating of Evasive mobs.
+- Changed Regenerative mobs to have extra health instead of dodge rating.
+- Increased extra health on Massive mobs.
+- Lowered elemental resistance on Chains of Honor, Thundergod's Vigor, Snowclash.
+- Lowered elemental resist and cooldown reduction on Hellfire Torches.
+
+### Mine and Slash Updates
+- Summon Zombies and Skeletal Army base value at level 1 has been lowered by 30-40%. This means that at lower levels Summon Zombies and Skeletal Army are weaker, but by max (level 16) they are the same. This also means overleveling these Summon spells will result in more damage than previously, since base value per level has increased.
+- Summon Archon base value at max level has increased by about 25%.
+- Summon Zombies, Skeletal Army, and Hunting Wolf now have much lower health.
+- Reduced the mana cost of Summon Zombies.
+- Minion Mastery (synergy) now heals the caster for about 40% less at max level. The chance has also been lowered from 75% to 50% at max level, but increased from 15% to 25% at level 1.
+- Reduced the amount of particles for Minion Mastery.
+- Fixed an issue where elemental resists were being capped at 75% before elemental penetration calculations took place so overcapping ele res didn't matter. It should work now.
+- Elemental Resistance stat now displays in brackets the "true amount" as if it wasn't capped (it still gets capped at 75% during calculations).
+- Core Stats now display the "total amount" in brackets rather than having the number of points allocated in brackets.
+- Increased critical hit and damage received by the Luck core stat.
+- Lowered elemental resists from stat and talent tree sources.
+- Added a small visual indicator (poofs) that a hit has been dodged.
+- Increased volume of dodge.
+
+### Mod Updates
+- Updated Mine and Slash, Craft to Exile Custom Uniques.
+
+## [3.1.5] - 2022-10-28
 
 ### Updates
 - Added a new affix for Gauntlets on bracelets.
@@ -47,6 +76,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Increased critical hit percent stat by about 33%.
 - Increased weightings of mobs in dungeons that aren't zombies, skeletons, and spiders.
 - Boss mobs in maps should be more interesting (no longer zombies/skeles etc.).
+
+### Mod Updates
+- Updated Mine and Slash.
 
 ### Fixes
 - Fixed an issue where Orb of Blessing wouldn't be usable on uniques.

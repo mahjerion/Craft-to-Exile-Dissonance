@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.1.5] - 2022-10-XX
+## [3.1.5] - 2022-11-02
 
 ### Updates
 - Added a new unique ring designed by Patron KaCarl! The Ring of Glass is as its name implies, a glass-cannon ring that increases all damage dealt and all damage taken. However, while you wear the ring you are also slowed whenever you take damage.

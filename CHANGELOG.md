@@ -7,6 +7,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.6] - 2023-05-01
+
+### Updates
+- Xaero's Update Alert: back up your Xaero's Waypoints and WorldMap folders!
+
+### Mine and Slash Updates
+- Resourceful talent now gives a -30% multi to Energy and Energy Regen instead of -20% and -25%, respectively.
+- Blood Mage talent now gives a -20% multi to Health and Health Regen instead of -15%.
+- Weapons have been reworked slightly. The base damage between all weapons is now the same instead of hammers doing the most, daggers and gauntlets doing the least, etc. The reason for this change is because of how spell damage scaling works (scales off of weapon damage) and the fact that attack speed does not exist. To offset this and to still provide reasons to use different weapons, the implicit stats have been changed. Note that the additional implicits are different from the rollable secondary stats. The changes are outlined below.
+- Swords now always provide some amount of life steal instead of energy regeneration.
+- Axes now always provide some amount of critical damage.
+- Daggers now always provide some amount of critical hit chance instead of spell damage.
+- Gauntlets now always provide some amount of energy regeneration.
+- Hammers now always provide some amount of armor penetration.
+- Blizzard mana cost has been reduced by 5-10% and base value has increased by about 10%.
+- Blizzard duration has been reduced from 13s to 9s.
+- Blizzard base value has been increased by about 30%.
+- Ice Orb base value has been increased by about 17%.
+- Frost Totem duration has been reduced from 15s to 10s.
+- Frost Totem base value has been increased by about 30%.
+- Whirlpool duration has been reduced from 7s to 5s.
+- Whirlpool base value has been increased by about 25%.
+- Chilling Field duration has been reduced from 13s to 8s.
+- Chilling Field base value has been increased by about 40%.
+- Chilling Field mana scaling has been increased by about 40% (relatively).
+- Volcano duration has been reduced from 9s to 7s.
+- Volcano base value has been increased by about 23%.
+- Magma Flower duration has been reduced from 15s to 10s.
+- Magma Flower base value has been increased by about 33%.
+- Magma Flower cooldown has been reduced by about 20%.
+- Thunderstorm duration has been reduced from 10s to 8s.
+- Thunderstorm base value has been increased by about 18%.
+- Lightning Totem duration has been reduced from 15s to 10s.
+- Lightning Totem base value has been increased by about 33%.
+- Improved Algorithm now reduces Lightning Totem base value by 3 instead of 4, and the mana cost increase is now an additional 2 instead of 4.
+- Rock Slide now fires 33% less rocks per tick activation.
+- Arrow Storm duration has been reduced from 10s to 6s.
+- Arrow Storm attack scaling has increased by 40% (relatively).
+- Force Tree strikes, extensions, and finishers have had their cooldowns reduced by 33%.
+- Force finishers attack scaling has been increased by 25%.
+- Force extensions (except Raging Dragon) attack scaling has been increased by 10%.
+- Asura attack scaling has been increased by 25% (relatively).
+- Asura radius has been increased by 1.
+- Asura casting time has been reduced by 50%.
+
+### Mod Updates
+- Updated CraftPresence, ReAuth, Simple Magnets, SuperMartijn624 Core Lib, Xaero's, Mine and Slash.
+
 ## [3.1.5] - 2022-11-02
 
 ### Updates

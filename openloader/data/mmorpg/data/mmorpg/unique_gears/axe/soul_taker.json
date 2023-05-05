@@ -7,8 +7,9 @@
   "lang_file_string": "item.mmorpg.uniques.axe.soul_taker",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.soul_taker.desc",
   "primary_stats": [
-    "physical_damage_flat",
-	"low_attack_water_damage_flat"
+    "low_physical_damage_flat",
+	"very_low_attack_water_damage_flat",
+    "critical_damage_percent"
   ],
   "unique_stats": [
     "plus_unholy_skill_lvls_flat",

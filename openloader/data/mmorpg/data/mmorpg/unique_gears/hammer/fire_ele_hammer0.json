@@ -7,8 +7,9 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.fire_ele_hammer0.desc",
   "primary_stats": [
-	"very_low_physical_damage_flat",
-    "high_attack_fire_damage_flat"
+	"tiny_physical_damage_flat",
+    "attack_fire_damage_flat",
+    "very_low_fire_penetration_flat"
   ],
   "unique_stats": [
     "spell_fire_damage_flat",

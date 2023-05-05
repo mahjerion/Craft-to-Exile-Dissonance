@@ -11,7 +11,7 @@
   ],
   "unique_stats": [
     "dexterity_flat",
-	"high_spell_water_damage_flat",
+	"very_high_spell_water_damage_flat",
     "increased_duration_flat",
     "high_mana_cost_red_flat"
   ],

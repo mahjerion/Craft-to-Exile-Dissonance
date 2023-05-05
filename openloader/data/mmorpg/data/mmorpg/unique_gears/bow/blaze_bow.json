@@ -12,6 +12,7 @@
   "unique_stats": [
     "dexterity_flat",
     "attack_fire_damage_percent",
+	"very_low_spell_fire_damage_flat",
     "phys_to_fire_conversion_flat",
 	"fire_resist_flat"
   ],

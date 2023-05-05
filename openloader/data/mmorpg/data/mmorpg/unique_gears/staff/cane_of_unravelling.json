@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.staff.cane_of_unravelling",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.cane_of_unravelling.desc",
   "primary_stats": [
-    "attack_nature_damage_flat",
+    "slightly_high_attack_nature_damage_flat",
     "spell_damage_flat"
   ],
   "unique_stats": [

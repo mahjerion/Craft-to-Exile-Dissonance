@@ -13,6 +13,7 @@
   "unique_stats": [
     "stamina_flat",
     "attack_thunder_damage_percent",
+	"very_low_spell_thunder_damage_flat",
     "high_dodge_flat",
 	"cdr_flat",
     "energy_regen_flat"

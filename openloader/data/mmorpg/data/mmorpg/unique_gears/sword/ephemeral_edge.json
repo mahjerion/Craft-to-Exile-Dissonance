@@ -7,7 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.sword.ephemeral_edge",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.ephemeral_edge.desc",
   "primary_stats": [
-    "physical_damage_flat"
+    "slightly_high_physical_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
     "magic_shield_percent",

@@ -7,8 +7,9 @@
   "lang_file_string": "item.mmorpg.uniques.axe.axefire0",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.axefire0.desc",
   "primary_stats": [
-    "low_physical_damage_flat",
-    "attack_fire_damage_flat"
+    "tiny_physical_damage_flat",
+    "attack_fire_damage_flat",
+    "critical_damage_percent"
   ],
   "unique_stats": [
 	"health_percent",

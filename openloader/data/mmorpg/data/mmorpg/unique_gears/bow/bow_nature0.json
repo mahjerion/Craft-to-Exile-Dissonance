@@ -7,13 +7,14 @@
   "lang_file_string": "item.mmorpg.uniques.bow.bow_nature0",
   "lang_file_desc_string": "item.mmorpg.uniques.bow.bow_nature0.desc",
   "primary_stats": [
-    "very_high_attack_nature_damage_flat"
+    "high_attack_nature_damage_flat"
   ],
   "unique_stats": [
     "dexterity_flat",
     "nature_spell_to_attack_dmg_flat",
+	"very_low_spell_nature_damage_flat",
 	"increase_healing_flat",
-    "low_critical_hit_flat"
+    "critical_hit_flat"
   ],
   "can_get_set": false,
   "requirements": {

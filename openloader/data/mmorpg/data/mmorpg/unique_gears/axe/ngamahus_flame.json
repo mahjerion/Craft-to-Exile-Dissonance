@@ -7,12 +7,13 @@
   "lang_file_string": "item.mmorpg.uniques.axe.ngamahus_flame",
   "lang_file_desc_string": "item.mmorpg.uniques.axe.ngamahus_flame.desc",
   "primary_stats": [
-    "even_high_attack_fire_damage_flat"
+    "slightly_high_attack_fire_damage_flat",
+    "critical_damage_percent"
   ],
   "unique_stats": [
     "spell_fire_damage_flat",
     "attack_fire_damage_percent",
-    "fire_penetration_flat",
+    "high_fire_penetration_flat",
 	"physical_dispersion_flat",
     "plus_throw_flames_spell_lvl_flat"
   ],

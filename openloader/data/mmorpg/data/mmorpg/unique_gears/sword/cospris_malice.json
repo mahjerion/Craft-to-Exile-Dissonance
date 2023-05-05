@@ -8,7 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.sword.cospris_malice.desc",
   "primary_stats": [
     "very_low_physical_damage_flat",
-    "low_attack_water_damage_flat"
+    "low_attack_water_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
     "plus_chilling_touch_spell_lvl_flat",

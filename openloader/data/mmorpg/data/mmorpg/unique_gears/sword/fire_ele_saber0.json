@@ -8,7 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.sword.fire_ele_saber0.desc",
   "primary_stats": [
     "very_low_physical_damage_flat",
-    "low_attack_fire_damage_flat"
+    "low_attack_fire_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
     "plus_flame_blitz_spell_lvl_flat",

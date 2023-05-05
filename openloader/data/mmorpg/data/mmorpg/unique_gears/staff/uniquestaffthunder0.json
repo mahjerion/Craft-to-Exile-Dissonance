@@ -7,7 +7,7 @@
   "lang_file_string": "item.mmorpg.uniques.staff.uniquestaffthunder0",
   "lang_file_desc_string": "item.mmorpg.uniques.staff.uniquestaffthunder0.desc",
   "primary_stats": [
-    "attack_thunder_damage_flat",
+    "slightly_high_attack_thunder_damage_flat",
     "spell_damage_flat"
   ],
   "unique_stats": [

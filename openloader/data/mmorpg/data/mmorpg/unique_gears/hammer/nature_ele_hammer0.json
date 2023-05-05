@@ -7,7 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.nature_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.nature_ele_hammer0.desc",
   "primary_stats": [
-    "even_high_attack_nature_damage_flat"
+    "slightly_high_attack_nature_damage_flat",
+    "very_low_nature_penetration_flat"
   ],
   "unique_stats": [
 	"high_health_percent",

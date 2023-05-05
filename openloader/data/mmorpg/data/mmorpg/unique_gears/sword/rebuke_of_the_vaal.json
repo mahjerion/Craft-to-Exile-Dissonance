@@ -7,14 +7,17 @@
   "lang_file_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.rebuke_of_the_vaal.desc",
   "primary_stats": [
+    "very_low_physical_damage_flat",
     "very_low_attack_fire_damage_flat",
     "very_low_attack_water_damage_flat",
     "very_low_attack_thunder_damage_flat",
-    "very_low_attack_nature_damage_flat"
+    "very_low_attack_nature_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
     "plus_root_spell_lvl_flat",
-	"high_cdr_flat"
+	"high_cdr_flat",
+	"attack_elemental_damage_percent"
   ],
   "can_get_set": false,
   "requirements": {

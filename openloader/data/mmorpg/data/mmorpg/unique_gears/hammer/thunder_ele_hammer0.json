@@ -7,7 +7,8 @@
   "lang_file_string": "item.mmorpg.uniques.hammer.thunder_ele_hammer0",
   "lang_file_desc_string": "item.mmorpg.uniques.hammer.thunder_ele_hammer0.desc",
   "primary_stats": [
-    "even_high_attack_thunder_damage_flat"
+    "slightly_high_attack_thunder_damage_flat",
+    "very_low_thunder_penetration_flat"
   ],
   "unique_stats": [
     "attack_thunder_damage_percent",

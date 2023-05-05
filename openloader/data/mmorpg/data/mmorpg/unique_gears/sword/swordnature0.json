@@ -7,10 +7,13 @@
   "lang_file_string": "item.mmorpg.uniques.sword.swordnature0",
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordnature0.desc",
   "primary_stats": [
-    "very_low_physical_damage_flat",
-    "slightly_high_attack_nature_damage_flat"
+    "tiny_physical_damage_flat",
+    "attack_nature_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
+	"low_attack_nature_damage_percent",
+	"increase_healing_flat",
 	"armor_percent",
     "health_regen_percent"
   ],

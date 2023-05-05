@@ -7,6 +7,59 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.7] - 2023-05-05
+
+### Updates
+- Unique weapons have been fixed to have the appropriate implicit stats.
+- The frost and fire unique axe now deals frost and fire damage instead of physical.
+- Ngamahu's Flame has had its damaged reduced more than other uniques, it was oddly much higher. To compensate this change a bit, the fire penetration stat on the unique has been increased (relatively) by 50%.
+- Unique hammers provide penetration to the element instead of armor when they deal elemental damage.
+- The low level unique frost sword now no longer provides health and mana on hit, and instead provides frost spell damage and frost attack damage percent.
+- The low level unique nature sword now also provides increased healing and some nature attack damage percent.
+- Rebuke of the Vaal now also deals a bit of physical damage, and provides a bonus to elemental attack damage.
+- Many of the unique bows and crossbows now also provide small bonuses to elemental spell damage (depending on their type).
+- Ungil's Gauche now provides much, much more block chance.
+- Spire of Lazarus now provides 33% more mana regeneration than previously.
+- The Poet's Pen now provides 33% more physical damage percent than previously.
+
+### Mine and Slash Updates
+- Bush spells (Magma Flower, Holy Flower, Thorny Bush) have been changed to work like totem spells. Functionally, they are the exact same, except the bushes won't randomly disappear or not spawn half the time!
+- Improved performance of bush and totem spells.
+- Players now have a base critical damage stat of 25% instead of 0%.
+- Axes now provide increased critical hit damage rather than flat.
+- Daggers now provide increased critical hit chance rather than flat.
+- Hammers now provide twice as much armor penetration than previously.
+- Swords now provide twice as much lifesteal than previously.
+- Talent Tree mana regeneration nodes provide 40% more mana regen than previously.
+- Bleed now ticks every 10 ticks instead of 20 ticks (twice as fast).
+- Bleed duration is now 5 seconds instead of 7.
+- Bleed max stacks is now 10 instead of 20.
+- Bleed now scales with 20% of your physical damage instead of 10% per stack.
+- Fireball, Frostball, and Lightning Spear base values have increased by roughly 20% to bring them more in line with Thorny Bush.
+- Inferno Quake now also applies Burn.
+- Volcano radius per level has increased by about 15%.
+- In lieu of the bush spell fix, Magma Flower base value has been reduced by 25%.
+- Magma Flower now also applies a stack of Burn.
+- Magma Flower mana cost has been reduced by about 15%.
+- Magma Flower radius per level has reduced by 50% (4 --> 4.5 instead of 4 --> 5).
+- In lieu of the bush spell fix, Thorny Bush base value and attack scaling per level has been reduced (2 -> 2.5 and 10% -> 20% instead of 2 -> 6 and 10% -> 30%, respectively).
+- Thorny Bush's now ticks 4 times per cast instead of 8, but increases to 5 times per cast at max level. At max overlevel, it can tick 10 times per cast (higher ceiling, lower floor for those that want to invest into it).
+- Thorny Bush's cooldown no longer reduces per level and is at a static 2 seconds.
+- Thorny Bush's radius now scales from 1 to 1.5 instead of staying at 2.
+- Rock Slide mana cost has increased by 10%.
+- Rock Slide base value has decreased by about 15%.
+- Rock Slide scaling has decreased from 50%-70% to 40%-60%.
+- Rock Slide radius per level has decreased by about 20% (total of 4 at max level instead of 5).
+- Rock Slide synergy now has more base value and attack scaling per level.
+- Arctic Armor mana and health regeneration penalties have been reduced by 50%.
+- Nourishment mana and energy regeneration have been increased by 33%.
+- Cold Essence effect provides 25% more mana regeneration per stack.
+- Holy Flower radius is now a static 6 instead of going from 4 to 8.
+- Holy Flower duration is now 8 seconds instead of 15.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [3.1.6] - 2023-05-01
 
 ### Updates

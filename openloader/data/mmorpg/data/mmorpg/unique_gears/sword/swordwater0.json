@@ -8,12 +8,13 @@
   "lang_file_desc_string": "item.mmorpg.uniques.sword.swordwater0.desc",
   "primary_stats": [
     "very_low_physical_damage_flat",
-    "low_attack_water_damage_flat"
+    "low_attack_water_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
+	"low_spell_water_damage_flat",
+	"attack_water_damage_percent",
 	"spellsteal_flat",
-    "life_on_hit_flat",
-    "mana_on_hit_flat",
     "magic_steal_flat"
   ],
   "can_get_set": false,

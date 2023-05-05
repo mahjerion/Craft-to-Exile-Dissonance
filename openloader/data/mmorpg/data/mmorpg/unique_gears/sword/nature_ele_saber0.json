@@ -8,7 +8,8 @@
   "lang_file_desc_string": "item.mmorpg.uniques.sword.nature_ele_saber0.desc",
   "primary_stats": [
     "very_low_physical_damage_flat",
-    "low_attack_nature_damage_flat"
+    "low_attack_nature_damage_flat",
+    "very_low_lifesteal_flat"
   ],
   "unique_stats": [
     "high_health_percent",

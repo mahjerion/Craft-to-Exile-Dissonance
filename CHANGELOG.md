@@ -7,6 +7,55 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.8] - 2023-05-08
+
+### Mine and Slash Updates
+- Blood Mage health regen penalty is now -10% instead of -20% multi.
+- Fixed an issue where Blood from Blood Mage was recovering only half the amount from life steal/hit and regeneration. Oops.
+- Vampire health regen penalty is now -50% instead of 100%.
+- Overflowing Vitality penalty is now -5% health instead of -10%, and -10% ele dmg instead of -15%.
+- Overflowing Vitality now increases your physical attack damage by 3% of your maximum health instead of 2%.
+- Mana Battery no longer has any penalties and now takes 40% of damage from mana instead of life, instead of 30%.
+- Berserker's Impartiality penalty is now -25% elemental attack damage instead of -10%.
+- Berserker's Impartiality now provides 60% transfer instead of 100%.
+- Arrow Totem attack scaling has been increased by 25% (relatively).
+- Arrow Totem now fires 3 totems at max level (and more at overlevel).
+- Arrow Totem now fires every 1s insetad of 1.5s.
+- Frost Totem now fires every 1s instead of scaling from 2.5s to 1.5s.
+- Chilling Field mana scaling is now 12% --> 25% instead of 12% --> 20%.
+- Increased Ice Orb damage by 33%.
+- Ice Orb now appropriately displays the radius.
+- Ice Orb now has more particle effects.
+- Charged Sweep mana scaling is now 15% --> 35% instead of 14% --> 21%.
+- Battery Fusilade mana scaling is now 6% --> 18% instead of 3% --> 12%.
+- Recharge now recovers 2% --> 5% instead of 1% --> 4% of the user's max mana per second.
+- Meteoric Strike Synergy's AOE has been reduced drastically, IDK why it was so high.
+- Fixed an issue where Magma Flower was not properly applying burn stacks.
+- Blazing Inferno now casts only 3 times instead of 4 times.
+- Blazing Inferno now consumes burn stacks on enemies to deal extra fire damage.
+- Flame Blade radius is now 1.5 --> 2 instead of 2 --> 2.5.
+- Rock Slide now deals half of its damage as physical and half as nature.
+- Gorgon's Gaze area of effect has been reduced by about 40% (no more full map stuns).
+- Gorgon's Gaze stun duration has been reduced by about 70%.
+- Spirit Ball cooldown is now a fixed 2.5s instead of 3s.
+- Spirit Ball duration per level has been reduced by about 16%.
+- Venom Load mana cost has been reduced by 20%.
+- Venom Load duration has increased by 1s.
+- Martyrdom cooldown has been reduced from 3s to 2.5s.
+- Martyrdom health scaling is now 30% --> 55% instead of 30% --> 45%.
+- Retribution armor scaling is now 45% --> 65% instead of 40% --> 60%.
+- Animate Scythe health scaling is now 16% --> 32% instead of 12% --> 24%.
+- Blight's now ticks every 1s instead of 1.5s.
+- Bone Squall health scaling is now 6% --> 24% instead of 6% --> 18%.
+- Life Siphon base value has increased by 50%.
+- Malevolent Offering healing value has increased to 20% --> 40% of your max health instead of 10% --> 30%.
+- Malevolent Offering mana cost has been reduced by 33%.
+- Soul Shred magic shield scaling is now 8% --> 16% instead of 6% --> 12%.
+- Healing Wave, Whirlwind, Blazing Inferno, the Force finishers, Rallying Sweep, and Blight's radius per level have been decreased slightly.
+
+### Mod Updates
+- Updated Mine and Slash.
+
 ## [3.1.7] - 2023-05-05
 
 ### Updates

@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "mmorpg:mat/mythic_essence"
+      "item": "mmorpg:mat/crystallized_essence"
     },
     "t": {
       "item": "mmorpg:currency/item_levelup"
@@ -16,7 +16,7 @@
       "item": "minecraft:glistering_melon_slice"
     },
     "o": {
-      "item": "mmorpg:ore4"
+      "item": "mmorpg:ore2"
     }
   },
   "result": {

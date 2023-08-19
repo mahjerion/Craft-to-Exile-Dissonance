@@ -634,7 +634,7 @@
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
       "DMG_MULTI": 1.5,
-      "HP_MULTI": 0.75,
+      "HP_MULTI": 0.25,
       "STAT_MULTI": 1.1
     },
     "minecraft:wither": {

@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.1.9] - 2023-08-19
+
+### Updates
+- Key of Unity currency item is cheaper to craft.
+- Changed Lobber projectiles to not spawn lava. Hopefully the config works.
+- Disabled the Chem Thrower.
+
+### Mine and Slash Updates
+- Fixed a missing tooltip with Arrow Storm.
+- Updated Key of Unity tooltip.
+
+### Mod Updates
+- Updated Mine and Slash, Supermartijn's API mods, U Team Core, Xaero's, The Midnight.
+
 ## [3.1.8] - 2023-05-08
 
 ### Mine and Slash Updates

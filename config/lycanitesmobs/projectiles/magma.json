@@ -1,6 +1,6 @@
 {
   "name": "magma",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 2.0,
   "height": 2.0,
   "scale": 2.5,
@@ -18,7 +18,7 @@
   "behaviours": [
     {
       "type": "placeBlocks",
-      "block": "minecraft:lava",
+      "block": "lycanitesmobs:hellfire",
       "radius": 2,
       "height": 1
     }

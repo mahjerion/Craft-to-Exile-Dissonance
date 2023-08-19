@@ -42,6 +42,7 @@ mods.jei.JEI.hideItem(<item:immersiveengineering:toolupgrade_revolver_magazine>)
 mods.jei.JEI.hideItem(<item:immersiveengineering:toolupgrade_revolver_electro>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:turret_gun>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:railgun>);
+mods.jei.JEI.hideItem(<item:immersiveengineering:chemthrower>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:toolupgrade_railgun_scope>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:toolupgrade_railgun_capacitors>);
 mods.jei.JEI.hideItem(<item:immersiveengineering:turret_chem>);
